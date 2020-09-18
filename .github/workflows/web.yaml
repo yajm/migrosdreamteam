@@ -23,6 +23,7 @@ jobs:
         working-directory: web
       - run: npm run build --prod
         working-directory: web
+      - run: echo "migros.bertschi.io" > web/dist/web/CNAME
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
