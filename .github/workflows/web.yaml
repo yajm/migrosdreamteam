@@ -11,14 +11,14 @@ jobs:
         with:
           node-version: '14.x'
       - uses: actions/cache@v2
-          with:
-            path: |
-              ~/.npm
-              node_modules
-              */**/node_modules
-            key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
-            restore-keys: |
-              ${{ runner.os }}-node-
+        with:
+          path: |
+            ~/.npm
+            node_modules
+            */**/node_modules
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
       - run: npm install
       - run: npm run build --prod
       - name: Deploy
