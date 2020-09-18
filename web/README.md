@@ -1,3 +1,5 @@
+Migros-Dream-Team
+
 # setup
 npm install
 
