@@ -1,11 +1,18 @@
-<div class="p-3">
-  <div class="bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded relative" role="alert">
-    <strong class="font-bold">Holy migros!</strong>
-    <span class="block sm:inline">Hello dream team</span>
-    <span class="absolute top-0 bottom-0 right-0 px-4 py-3">
-    <svg class="fill-current h-6 w-6 text-red-500" role="button" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><title>Close</title><path d="M14.348 14.849a1.2 1.2 0 0 1-1.697 0L10 11.819l-2.651 3.029a1.2 1.2 0 1 1-1.697-1.697l2.758-3.15-2.759-3.152a1.2 1.2 0 1 1 1.697-1.697L10 8.183l2.651-3.031a1.2 1.2 0 1 1 1.697 1.697l-2.758 3.152 2.758 3.15a1.2 1.2 0 0 1 0 1.698z"/></svg>
-  </span>
-  </div>
+<div class="flex-grow">
+  <router-outlet></router-outlet>
 </div>
 
-<router-outlet></router-outlet>
+<div class="flex-shrink-0 flex-no-wrap bg-gray-300 text-gray-600 h-16 border-t border-gray-400 w-full flex space-between">
+  <a [routerLink]="['/product']" class="flex-grow flex flex-col justify-center items-center" [routerLinkActive]="'active'">
+    <fa-icon class="text-xl" [icon]="productIcon"></fa-icon>
+    <div class="text-sm">Produkte</div>
+  </a>
+  <a [routerLink]="['/purchase']" class="flex-grow flex flex-col justify-center items-center" [routerLinkActive]="'active'">
+    <fa-icon [icon]="purchaseIcon"></fa-icon>
+    <div class="text-sm">Einkäufe</div>
+  </a>
+  <div [routerLink]="['/setting']" class="flex-grow flex flex-col justify-center items-center" [routerLinkActive]="'active'">
+    <fa-icon [icon]="settingIcon"></fa-icon>
+    <div class="text-sm">Einstellungen</div>
+  </div>
+</div>

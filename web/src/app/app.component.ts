@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import {faProductHunt} from '@fortawesome/free-brands-svg-icons';
+import {faCog, faCogs, faShoppingCart} from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +8,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'web';
+  productIcon = faProductHunt;
+  purchaseIcon = faShoppingCart;
+  settingIcon = faCog;
 }
