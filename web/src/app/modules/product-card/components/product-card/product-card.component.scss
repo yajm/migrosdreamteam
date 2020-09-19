@@ -1,3 +1,7 @@
 :host {
-  @apply p-3 border-b;
+  @apply p-3 border-b min-w-0;
+}
+
+.pill {
+  @apply bg-gray-400 rounded text-gray-600 px-2 mr-2;
 }

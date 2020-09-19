@@ -1,14 +1,17 @@
 <a [routerLink]="url" class="flex items-center" (click)="verifyClick($event)">
-  <app-product-image [loading]="false" [productInfo]="product"></app-product-image>
-  <div class="pl-3 flex-grow">
-    <div class="text-xl text-gray-700">{{product?.name}}</div>
-    <div class="text-base text-gray-500">{{product?.regulated_description}}</div>
-    <div class="text-sm">
-      <span class="mr-2 text-gray-600" *ngIf="product?.kcal">{{product.kcal}} kcal</span>
-      <span class="mr-2 text-gray-600" *ngIf="product?.co2">{{product.co2 | number: '1.0-0'}} CO<sub>2</sub></span>
-      <span class="mr-2 text-gray-600" *ngIf="product?.price">{{product.price | number: '1.2'}} CHF</span>
+  <div class="flex flex-col align-items">
+    <div class="flex items-center">
+      <app-product-image [loading]="false" [productInfo]="product"></app-product-image>
+      <div class="pl-3 flex-grow">
+        <div class="text-xl text-gray-700">{{product?.name}}</div>
+        <div class="text-sm mb-1">
+          <span class="pill" *ngIf="product?.kcal && scoreKey==='kcal'">{{product.kcal}} kcal</span>
+          <span class="pill" *ngIf="product?.co2 && scoreKey==='co2'">{{product.co2 | number: '1.0-0'}} CO<sub>2</sub></span>
+          <span class="pill" *ngIf="product?.price && scoreKey==='price'">{{product.price | number: '1.2'}} CHF</span>
+        </div>
+      </div>
+      <app-score class="flex-shrink-0">{{score | number: '1.1-1'}}</app-score>
     </div>
   </div>
-  <app-score class="flex-shrink-0">{{score | number: '1.1-1'}}</app-score>
 </a>
 
