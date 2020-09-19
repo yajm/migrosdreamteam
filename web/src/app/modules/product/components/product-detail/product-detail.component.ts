@@ -1,5 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
+import { ProductInfo } from '../../models/product-info';
+import { ProductStateService } from '../../services/product-state.service';
+import { Product } from '../../../purchase/models/product';
 
 @Component({
   selector: 'app-product-detail',
@@ -10,8 +13,13 @@ export class ProductDetailComponent implements OnInit {
   backUrl: string[];
   purchaseId: string;
   productId: string;
+  productInfo: ProductInfo;
+  products: Product[] = [];
 
-  constructor(private route: ActivatedRoute) {}
+  constructor(
+    private route: ActivatedRoute,
+    private productState: ProductStateService
+  ) {}
 
   ngOnInit(): void {
     this.purchaseId = this.route.snapshot.params.purchaseId;
@@ -21,5 +29,7 @@ export class ProductDetailComponent implements OnInit {
     } else {
       this.backUrl = ['/product'];
     }
+    this.productInfo = this.productState.getInfo(this.productId);
+    this.products = this.productState.products;
   }
 }

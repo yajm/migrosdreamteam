@@ -3,5 +3,19 @@
   <app-navbar-title>Product</app-navbar-title>
 </app-navbar>
 <app-page-content>
+  <div class="p-3">
+    <div class="flex">
+      <img class="w-32 h-32 bg-orange-100 rounded" [src]="productInfo.image.original"/>
+      <div class="ml-3">
+        <div class="text-xl text-gray-900">{{productInfo.name}}</div>
+        <div class="text-sm text-gray-500">{{productInfo.regulated_description}}</div>
+      </div>
+    </div>
 
+    <app-switcher class="my-3"></app-switcher>
+  </div>
+
+  <app-scrollable-list>
+    <app-product-card class="list-item" [product]="product" *ngFor="let product of products"></app-product-card>
+  </app-scrollable-list>
 </app-page-content>

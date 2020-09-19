@@ -12,6 +12,7 @@ import { PurchaseCardModule } from '../purchase-card/purchase-card.module';
 import { ApiModule } from '../api/api.module';
 import { PurchaseStateService } from './services/purchase-state.service';
 import { PurchaseDetailComponent } from './components/purchase-detail/purchase-detail.component';
+import { ProductModule } from '../product/product.module';
 
 @NgModule({
   declarations: [PurchaseComponent, PurchaseDetailComponent],
@@ -19,6 +20,7 @@ import { PurchaseDetailComponent } from './components/purchase-detail/purchase-d
   imports: [
     CommonModule,
     PurchaseRoutingModule,
+    ProductModule,
     NavbarModule,
     ApiModule,
     PageModule,

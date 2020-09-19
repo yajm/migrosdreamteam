@@ -10,6 +10,7 @@ import { ScrollableListModule } from '../scrollable-list/scrollable-list.module'
 import { ProductCardModule } from '../product-card/product-card.module';
 import { ProductStateService } from './services/product-state.service';
 import { ProductDetailComponent } from './components/product-detail/product-detail.component';
+import { SwitcherModule } from '../switcher/switcher.module';
 
 @NgModule({
   declarations: [ProductComponent, ProductDetailComponent],
@@ -23,6 +24,7 @@ import { ProductDetailComponent } from './components/product-detail/product-deta
     SearchInputModule,
     ScrollableListModule,
     ProductCardModule,
+    SwitcherModule,
   ],
 })
 export class ProductModule {}
