@@ -11,7 +11,6 @@ export class ProductComponent implements OnInit {
   productIcon = faUtensils;
   products = [];
   skip = 0;
-  take = 20;
   private loading = false;
 
   constructor(private productState: ProductStateService) {}
@@ -26,10 +25,10 @@ export class ProductComponent implements OnInit {
     }
     this.loading = true;
     this.productState
-      .getProducts(this.skip, this.take)
+      .getProducts(this.skip)
       .then((products) => {
         this.products.push(...products);
-        this.skip += this.take;
+        this.skip++;
         this.loading = false;
       })
       .catch((err) => {

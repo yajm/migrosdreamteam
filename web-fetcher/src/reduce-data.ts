@@ -132,6 +132,21 @@ async function main() {
       articles.map((a) => articleMap[a.artikelID])
     );
   }
+
+  const limit = 50;
+  let batch = 0;
+  let currentBatch: any[] = [];
+  for (const article of reducedArticles) {
+    currentBatch.push(article.data);
+    if (currentBatch.length === limit) {
+      writeJson(
+        path.join(targetDir, 'product-batches', `${batch}-${limit}` + '.json'),
+        currentBatch
+      );
+      batch++;
+      currentBatch = [];
+    }
+  }
 }
 
 main();

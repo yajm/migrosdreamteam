@@ -20,6 +20,12 @@ export class AssetApiService {
       .toPromise();
   }
 
+  getProducts(skip: number): Promise<ProductInfo[]> {
+    return this.http
+      .get<ProductInfo[]>(`/assets/data/product-batches/${skip}-50.json`)
+      .toPromise();
+  }
+
   getPurchaseArticles(purchaseId: string): Promise<ProductInfo[]> {
     return this.http
       .get<ProductInfo[]>(`/assets/data/purchases/${purchaseId}.json`)
