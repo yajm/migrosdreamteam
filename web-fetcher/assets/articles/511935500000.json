@@ -1,0 +1,270 @@
+{
+  "id": "511935500000",
+  "language": "de",
+  "name": "Kneipp Körpermilch Zitronengras",
+  "slug": "kneipp-koerpermilch-zitronengras",
+  "boss_number": "090321760540",
+  "tags": [
+    "source-pim",
+    "near-non-food",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "4008233052687"
+  ],
+  "brand": {
+    "id": "095",
+    "name": "Kneipp",
+    "slug": "kneipp",
+    "image": {
+      "original": "https://image.migros.ch/original/552acc53ef8eaf307ab5a17588e7a1841f6c73d8/kneipp.jpg",
+      "stack": "https://image.migros.ch/{stack}/552acc53ef8eaf307ab5a17588e7a1841f6c73d8/kneipp.jpg"
+    }
+  },
+  "labels": [
+    {
+      "id": "L41",
+      "name": "Naturkosmetik",
+      "slug": "naturkosmetik"
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_01110305",
+      "name": "Bodylotionen & Körperöle",
+      "slug": "supermarkt/beauty/koerperpflege/bodylotionen-koerperoele",
+      "visible": true,
+      "parent_code": "BeSS_011103",
+      "level": 4
+    },
+    {
+      "code": "BeSS_011103",
+      "name": "Körperpflege",
+      "slug": "supermarkt/beauty/koerperpflege",
+      "visible": true,
+      "parent_code": "BeSS_0111",
+      "level": 3
+    },
+    {
+      "code": "BeSS_0111",
+      "name": "Beauty",
+      "slug": "supermarkt/beauty",
+      "visible": true,
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/293925170bd129344f9259c67a15e903f881bef8/beauty.jpg",
+        "stack": "https://image.migros.ch/{stack}/293925170bd129344f9259c67a15e903f881bef8/beauty.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_Hautpflege_Koerperpflege_HygieneGesundheitBaby",
+        "name": "Hautpflege",
+        "slug": "amigos/hygiene-gesundheit-baby/koerperpflege/hautpflege",
+        "visible": true,
+        "parent_code": "AMIG_CAT_Koerperpflege_HygieneGesundheitBaby",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_Koerperpflege_HygieneGesundheitBaby",
+        "name": "Körperpflege",
+        "slug": "amigos/hygiene-gesundheit-baby/koerperpflege",
+        "visible": true,
+        "parent_code": "AMIG_CAT_HygieneGesundheitBaby",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_HygieneGesundheitBaby",
+        "name": "Hygiene, Gesundheit & Baby",
+        "slug": "amigos/hygiene-gesundheit-baby",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "features": [
+    {
+      "label_code": "MISO_beduerfnis_nutzen",
+      "label": "Bedürfnis / Nutzen",
+      "values": [
+        {
+          "value_code": "MISO_beduerfnis_nutzen_feuchtigkeit",
+          "value": "Feuchtigkeit"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_produkttyp",
+      "label": "Produkttyp",
+      "values": [
+        {
+          "value_code": "MISO_produkttyp_lotionen",
+          "value": "Lotionen"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/592c344bf66a49e178f08d28ee39dc06bf32d976/kneipp-koerpermilch-zitronengras.jpg",
+    "stack": "https://image.migros.ch/{stack}/592c344bf66a49e178f08d28ee39dc06bf32d976/kneipp-koerpermilch-zitronengras.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/f4e2f206e07dda240904d0618ff0e919c172d61d/kneipp-koerpermilch-zitronengras.png",
+    "stack": "https://image.migros.ch/{stack}/f4e2f206e07dda240904d0618ff0e919c172d61d/kneipp-koerpermilch-zitronengras.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_sortierung",
+      "label": "Sortierung aMigos",
+      "values": [
+        {
+          "value_code": "NUMERIC_430",
+          "value": "430",
+          "numeric_value": 430
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZHKS",
+          "value": "HKS Standardartikel"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_QUALITY_CHECK",
+      "values": [
+        {
+          "value_code": "00",
+          "value": "Keine Prüfung"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_RISK_CLASS",
+      "values": [
+        {
+          "value_code": "1",
+          "value": "1 (high)"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "H",
+          "value": "HKS Standard"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "50068",
+          "value": "KNEIPP"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUSTOMS_POSITION",
+      "values": [
+        {
+          "value_code": "33049900"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 1,
+    "percentage": 7.7
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/511935500000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/kneipp-koerpermilch-zitronengras",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/511935500000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/kneipp-koerpermilch-zitronengras",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "updated_at": "2020-09-16T06:39:56+0200",
+  "receipt_text": "Körpermilch Zitrone Ol",
+  "price": {
+    "valid_from": "2018-01-01T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 12.8,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "200ml"
+    },
+    "base": {
+      "price": 6.4,
+      "quantity": 100,
+      "unit": "ml"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "reindex_date": "2020-09-20T00:00:00+0200"
+}

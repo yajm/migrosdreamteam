@@ -1,0 +1,319 @@
+{
+  "id": "513130100000",
+  "language": "de",
+  "name": "Gillette Foam Empfindliche Haut",
+  "slug": "gillette-foam-empfindliche-haut",
+  "boss_number": "090213112005",
+  "tags": [
+    "source-pim",
+    "near-non-food",
+    "migipedia",
+    "validity-range-not-set",
+    "leshop-discounted",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "3014260004873"
+  ],
+  "brand": {
+    "id": "398",
+    "name": "Gillette",
+    "slug": "gillette"
+  },
+  "categories": [
+    {
+      "code": "BeSS_01110701",
+      "name": "Rasieren",
+      "slug": "supermarkt/beauty/maennerpflege/rasieren",
+      "visible": true,
+      "parent_code": "BeSS_011107",
+      "level": 4
+    },
+    {
+      "code": "BeSS_011107",
+      "name": "Männerpflege",
+      "slug": "supermarkt/beauty/maennerpflege",
+      "visible": true,
+      "parent_code": "BeSS_0111",
+      "level": 3
+    },
+    {
+      "code": "BeSS_0111",
+      "name": "Beauty",
+      "slug": "supermarkt/beauty",
+      "visible": true,
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/293925170bd129344f9259c67a15e903f881bef8/beauty.jpg",
+        "stack": "https://image.migros.ch/{stack}/293925170bd129344f9259c67a15e903f881bef8/beauty.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_Rasur_Koerperpflege_HygieneGesundheitBaby",
+        "name": "Rasur",
+        "slug": "amigos/hygiene-gesundheit-baby/koerperpflege/rasur",
+        "visible": true,
+        "parent_code": "AMIG_CAT_Koerperpflege_HygieneGesundheitBaby",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_Koerperpflege_HygieneGesundheitBaby",
+        "name": "Körperpflege",
+        "slug": "amigos/hygiene-gesundheit-baby/koerperpflege",
+        "visible": true,
+        "parent_code": "AMIG_CAT_HygieneGesundheitBaby",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_HygieneGesundheitBaby",
+        "name": "Hygiene, Gesundheit & Baby",
+        "slug": "amigos/hygiene-gesundheit-baby",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "features": [
+    {
+      "label_code": "MISO_geeignet_fuer",
+      "label": "Geeignet für",
+      "values": [
+        {
+          "value_code": "MISO_geeignet_fuer_sensiblehaut",
+          "value": "Sensible Haut"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_produkttyp",
+      "label": "Produkttyp",
+      "values": [
+        {
+          "value_code": "MISO_produkttyp_rasierschaum",
+          "value": "Rasierschaum"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/56ce58195ff621bc70053b60187dc3193e36eea3/gillette-foam-empfindliche-haut.jpg",
+    "stack": "https://image.migros.ch/{stack}/56ce58195ff621bc70053b60187dc3193e36eea3/gillette-foam-empfindliche-haut.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/a64f39d2fdca089ba717f76b05d6d90a5b9dae02/gillette-foam-empfindliche-haut.png",
+    "stack": "https://image.migros.ch/{stack}/a64f39d2fdca089ba717f76b05d6d90a5b9dae02/gillette-foam-empfindliche-haut.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_sortierung",
+      "label": "Sortierung aMigos",
+      "values": [
+        {
+          "value_code": "NUMERIC_420",
+          "value": "420",
+          "numeric_value": 420
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZHKS",
+          "value": "HKS Standardartikel"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_QUALITY_CHECK",
+      "values": [
+        {
+          "value_code": "00",
+          "value": "Keine Prüfung"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_RISK_CLASS",
+      "values": [
+        {
+          "value_code": "1",
+          "value": "1 (high)"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "H",
+          "value": "HKS Standard"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "50175",
+          "value": ""
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUSTOMS_POSITION",
+      "values": [
+        {
+          "value_code": "33071000000"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 1,
+    "percentage": 7.7
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/513130100000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/gillette-foam-empfindliche-haut",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/513130100000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/gillette-foam-empfindliche-haut",
+      "type": "info",
+      "purchasable": false
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/7959",
+      "app_url": "leshop:///catalog/article/detail?ean=3014260004873",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/gillette-foam-empfindliche-haut",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "updated_at": "2020-09-16T06:50:54+0200",
+  "receipt_text": "Gillette Foam",
+  "price": {
+    "valid_from": "2020-09-15T00:00:00+0200",
+    "valid_to": "2020-09-28T23:59:59+0200",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 1.5,
+      "original_price": 2.2,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "200ml"
+    },
+    "discount": {
+      "id": "1563827",
+      "region": "national",
+      "start_date": "2020-09-15T00:00:00+0200",
+      "end_date": "2020-09-28T23:59:59+0200",
+      "publication_date": "2020-09-13T00:00:00+0200",
+      "discount_amount": "33%",
+      "discount_regions": [
+        "national"
+      ],
+      "reference_product_id": "513130100000",
+      "discount_type": "aktion",
+      "discount_type_id": "005",
+      "discount_type_label": "GRAB Angebot CHF beim Kauf ab X Stueck",
+      "organisation": "09",
+      "cooperative": "mgb",
+      "image": {
+        "tags": [
+          "list-image"
+        ],
+        "original": "https://image.migros.ch/original/e28a742a86386c78934a7803af0ac7a66474ba07/gillette-und-satin-care-rasierschaum-oder-gel.jpg",
+        "source": "PriceRepository",
+        "stack": "https://image.migros.ch/{stack}/e28a742a86386c78934a7803af0ac7a66474ba07/gillette-und-satin-care-rasierschaum-oder-gel.jpg"
+      },
+      "image_transparent": {
+        "original": "https://image.migros.ch/original/e28a742a86386c78934a7803af0ac7a66474ba07/gillette-und-satin-care-rasierschaum-oder-gel.png",
+        "source": "PriceRepository",
+        "stack": "https://image.migros.ch/{stack}/e28a742a86386c78934a7803af0ac7a66474ba07/gillette-und-satin-care-rasierschaum-oder-gel.png"
+      },
+      "badge": {
+        "original": "https://image.migros.ch/original/f2c58115c01dd668e53f9ddcd8e20751220deec5.png",
+        "stack": "https://image.migros.ch/{stack}/f2c58115c01dd668e53f9ddcd8e20751220deec5.png"
+      },
+      "location_planning_type": "01",
+      "reduction_type_id": "01",
+      "special_advertisement": false,
+      "description": "Gillette- und Satin Care-Rasierschaum oder -Gel",
+      "discount_hint": "<strong>ab 3 </strong><strong>Stück, </strong><strong>33% günstiger, </strong>200 ml und 250 ml, (ohne Mehrfachpackungen), z.B. Gillette Rasierschaum empfindliche Haut, 200 ml, <strong>1.50 </strong>statt 2.20, Angebot gilt nur vom 15.9. bis 28.9.2020, solange Vorrat.",
+      "high_performer": false,
+      "collective_discount": true,
+      "instead_of": "statt",
+      "price": 1.5,
+      "original_price": 2.2,
+      "disclaimer": "Gültigkeit siehe Angebots-Detailseite.\r\nBei allen Angeboten sind M-Budget und bereits reduzierte Artikel ausgenommen.\r\nBei Aktionen können bei der Verrechnung auf dem Kassabon Rundungsdifferenzen zu Gunsten des Kunden entstehen.",
+      "source": "PriceRepository",
+      "boss_number": "090213112005",
+      "discount_role_id": "2000000002",
+      "discount_role_label": "M: Wochenangebot Typ I",
+      "last_imported": "2020-09-07T15:15:15+0200"
+    },
+    "discount_hint": "<strong>ab 3 </strong><strong>Stück, </strong>Angebot gilt nur vom 15.9. bis 28.9.2020, solange Vorrat."
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 1,
+    "average_all": 4
+  },
+  "reindex_date": "2020-09-28T23:59:59+0200"
+}

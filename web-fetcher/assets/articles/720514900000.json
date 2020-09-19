@@ -1,0 +1,291 @@
+{
+  "id": "720514900000",
+  "language": "de",
+  "name": "Papeteria Klebeband",
+  "slug": "papeteria-klebeband",
+  "boss_number": "150626951005",
+  "description": {
+    "text": "Selbstklebeb&auml;nder 19mmx33m transparent aus Polypropylen auf Plastikkern",
+    "source": "PEX"
+  },
+  "tags": [
+    "source-pex",
+    "near-non-food",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7613296429269",
+    "7613047071822"
+  ],
+  "brand": {
+    "id": "N48",
+    "name": "Papeteria",
+    "slug": "papeteria",
+    "image": {
+      "original": "https://image.migros.ch/original/f2835c02ff1b7b72978b9a8dbb516bb0c6ed7fa5/papeteria.jpg",
+      "stack": "https://image.migros.ch/{stack}/f2835c02ff1b7b72978b9a8dbb516bb0c6ed7fa5/papeteria.jpg"
+    }
+  },
+  "categories": [
+    {
+      "code": "BeSS_01051501",
+      "name": "Kleben",
+      "slug": "supermarkt/papeterie-bueromaterial/buerozubehoer/kleben",
+      "visible": true,
+      "parent_code": "BeSS_010515",
+      "level": 4
+    },
+    {
+      "code": "BeSS_010515",
+      "name": "Bürozubehör",
+      "slug": "supermarkt/papeterie-bueromaterial/buerozubehoer",
+      "visible": true,
+      "parent_code": "BeSS_0105",
+      "level": 3
+    },
+    {
+      "code": "BeSS_0105",
+      "name": "Papeterie & Büromaterial",
+      "slug": "supermarkt/papeterie-bueromaterial",
+      "visible": true,
+      "title": "Papeterie und Büromaterialien sind immer in Ihrer Migros zu finden",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/6b764b62482953963a5ab3263b9bd3a69cbf436a/papeterie-bueromaterial.jpg",
+        "stack": "https://image.migros.ch/{stack}/6b764b62482953963a5ab3263b9bd3a69cbf436a/papeterie-bueromaterial.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "features": [
+    {
+      "label_code": "miso_anzahl",
+      "label": "Anzahl",
+      "values": [
+        {
+          "value_code": "NUMERIC_5",
+          "value": "5 Stk.",
+          "numeric_value": 5
+        }
+      ],
+      "top_fact": false,
+      "unit_code": "Stk.",
+      "unit": "Stück",
+      "unit_symbol": "Stk."
+    },
+    {
+      "label_code": "miso_masse_groesse",
+      "label": "Masse / Grösse",
+      "values": [
+        {
+          "value": "33 m x 19 mm"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "miso_material",
+      "label": "Material",
+      "values": [
+        {
+          "value": "Polypropylen"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/f95723fd2e824f76038d3293dda5859d9eeef1ea/papeteria-klebeband.jpg",
+    "stack": "https://image.migros.ch/{stack}/f95723fd2e824f76038d3293dda5859d9eeef1ea/papeteria-klebeband.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/24dac3f4c3983ce7d5b56105fa7b094abc9a0cdd/papeteria-klebeband.png",
+    "stack": "https://image.migros.ch/{stack}/24dac3f4c3983ce7d5b56105fa7b094abc9a0cdd/papeteria-klebeband.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_DEFAULT_LOGISTIC_TYPE",
+      "values": [
+        {
+          "value_code": "55",
+          "value": "Versandart Paket"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Normalposition"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "HART"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUSTOMS_POSITION",
+      "values": [
+        {
+          "value_code": "NUMERIC_39191000000",
+          "value": "39191000000",
+          "numeric_value": 39191000000
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRESENTATION",
+      "values": [
+        {
+          "value_code": "H",
+          "value": "hängend"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_RISK_CLASS",
+      "values": [
+        {
+          "value_code": "3",
+          "value": "3 (low)"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_QUALITY_CHECK",
+      "values": [
+        {
+          "value_code": "00",
+          "value": "Keine Prüfung"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_KUBE_TUKA",
+      "values": [
+        {
+          "value_code": "BLANK",
+          "value": "KUBE und TUKA nicht zugelassen"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HART",
+          "value": "Hartwaren  Handelsware"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "H",
+          "value": "Hartwaren"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "57897",
+          "value": "LEIMEN / KLEBEN"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 1,
+    "percentage": 7.7
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/720514900000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/papeteria-klebeband",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/720514900000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/papeteria-klebeband",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "updated_at": "2020-09-16T06:44:14+0200",
+  "receipt_text": "Klebeband 5 Stk.",
+  "price": {
+    "valid_from": "2018-01-30T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 3.95,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "5 Stk."
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

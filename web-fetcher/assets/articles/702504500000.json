@@ -1,0 +1,533 @@
+{
+  "id": "702504500000",
+  "language": "de",
+  "name": "Cucina & Tavola Pastenbrenner-Set",
+  "slug": "cucina-tavola-pastenbrenner-set",
+  "boss_number": "150423151505",
+  "description": {
+    "text": "Bestandteile:\n1 Inox-Pastenbrenner mit Kunststoffgriff (ungef&uuml;llt)\n2 Sicherheitsbrennpastendosen &agrave; 80 g\nZusammensetzung: Bio-Ethanol",
+    "source": "PEX"
+  },
+  "tags": [
+    "source-pex",
+    "near-non-food",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7613346223113",
+    "2021000962288",
+    "7613064934575",
+    "7611172652091"
+  ],
+  "brand": {
+    "id": "NF1",
+    "name": "Cucina & Tavola",
+    "slug": "cucina-tavola",
+    "image": {
+      "original": "https://image.migros.ch/original/ec18c12011ab778b7756486a090e13866fc1eaf1/cucina-tavola.jpg",
+      "stack": "https://image.migros.ch/{stack}/ec18c12011ab778b7756486a090e13866fc1eaf1/cucina-tavola.jpg"
+    }
+  },
+  "categories": [
+    {
+      "code": "BeSS_01040903",
+      "name": "Table Cooking",
+      "slug": "supermarkt/haushalt-reinigung/kueche/table-cooking",
+      "visible": true,
+      "title": "Fondue, Raclette und Wok: Essen mit Spass",
+      "parent_code": "BeSS_010409",
+      "image": {
+        "original": "https://image.migros.ch/original/3d1d88512c73d73ef4df6451bf3a37fe63a2ebe6/table-cooking.jpg",
+        "stack": "https://image.migros.ch/{stack}/3d1d88512c73d73ef4df6451bf3a37fe63a2ebe6/table-cooking.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010409",
+      "name": "Küche",
+      "slug": "supermarkt/haushalt-reinigung/kueche",
+      "visible": true,
+      "title": "Artikel für die Küche aus Ihrer Migros – gut & günstig!",
+      "parent_code": "BeSS_0104",
+      "image": {
+        "original": "https://image.migros.ch/original/90120e4cc3d5d74e017d4b91bbdcb1da29eb70a6/kueche.jpg",
+        "stack": "https://image.migros.ch/{stack}/90120e4cc3d5d74e017d4b91bbdcb1da29eb70a6/kueche.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0104",
+      "name": "Haushalt & Reinigung",
+      "slug": "supermarkt/haushalt-reinigung",
+      "visible": true,
+      "title": "Reinigung mit der Migros – Reiniger für Haushalt und Garten",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/e5da3225980543e0c7ddcc443069f331d94e8439/haushalt-reinigung.png",
+        "stack": "https://image.migros.ch/{stack}/e5da3225980543e0c7ddcc443069f331d94e8439/haushalt-reinigung.png"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_KerzenAnzuendhilfen_LeuchtmittelKerzen_HaushaltReinigung",
+        "name": "Kerzen & Anzündhilfen",
+        "slug": "amigos/haushalt-reinigung/leuchtmittel-kerzen/kerzen-anzuendhilfen",
+        "visible": true,
+        "parent_code": "AMIG_CAT_LeuchtmittelKerzen_HaushaltReinigung",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_LeuchtmittelKerzen_HaushaltReinigung",
+        "name": "Leuchtmittel & Kerzen",
+        "slug": "amigos/haushalt-reinigung/leuchtmittel-kerzen",
+        "visible": true,
+        "parent_code": "AMIG_CAT_HaushaltReinigung",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_HaushaltReinigung",
+        "name": "Haushalt & Reinigung",
+        "slug": "amigos/haushalt-reinigung",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ],
+    [
+      {
+        "code": "AMIG_CAT_SonstigeKuechenartikel_Kueche_HaushaltReinigung",
+        "name": "Sonstige Küchenartikel",
+        "slug": "amigos/haushalt-reinigung/kueche/sonstige-kuechenartikel",
+        "visible": true,
+        "parent_code": "AMIG_CAT_Kueche_HaushaltReinigung",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_Kueche_HaushaltReinigung",
+        "name": "Küche",
+        "slug": "amigos/haushalt-reinigung/kueche",
+        "visible": true,
+        "parent_code": "AMIG_CAT_HaushaltReinigung",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_HaushaltReinigung",
+        "name": "Haushalt & Reinigung",
+        "slug": "amigos/haushalt-reinigung",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ],
+    [
+      {
+        "code": "MIC_SHOP_CAT_Kochen_am_Tisch_Essen_AccessoiresTextilien",
+        "name": "Kochen am Tisch",
+        "slug": "micasa/accessoires-textilien/essen/kochen-am-tisch",
+        "visible": true,
+        "parent_code": "MIC_SHOP_CAT_Essen_AccessoiresTextilien",
+        "level": 4
+      },
+      {
+        "code": "MIC_SHOP_CAT_Essen_AccessoiresTextilien",
+        "name": "Essen",
+        "slug": "micasa/accessoires-textilien/essen",
+        "visible": true,
+        "parent_code": "MIC_SHOP_CAT_AccessoiresTextilien",
+        "level": 3
+      },
+      {
+        "code": "MIC_SHOP_CAT_AccessoiresTextilien",
+        "name": "Accessoires & Textilien",
+        "slug": "micasa/accessoires-textilien",
+        "visible": true,
+        "parent_code": "BeSS_02",
+        "level": 2
+      },
+      {
+        "code": "BeSS_02",
+        "name": "Micasa",
+        "slug": "micasa",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ],
+    [
+      {
+        "code": "MIC_SHOP_CAT_Kochen_Essen_AccessoiresTextilien",
+        "name": "Kochen",
+        "slug": "micasa/accessoires-textilien/essen/kochen",
+        "visible": true,
+        "parent_code": "MIC_SHOP_CAT_Essen_AccessoiresTextilien",
+        "level": 4
+      },
+      {
+        "code": "MIC_SHOP_CAT_Essen_AccessoiresTextilien",
+        "name": "Essen",
+        "slug": "micasa/accessoires-textilien/essen",
+        "visible": true,
+        "parent_code": "MIC_SHOP_CAT_AccessoiresTextilien",
+        "level": 3
+      },
+      {
+        "code": "MIC_SHOP_CAT_AccessoiresTextilien",
+        "name": "Accessoires & Textilien",
+        "slug": "micasa/accessoires-textilien",
+        "visible": true,
+        "parent_code": "BeSS_02",
+        "level": 2
+      },
+      {
+        "code": "BeSS_02",
+        "name": "Micasa",
+        "slug": "micasa",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "features": [
+    {
+      "label_code": "mic_hoehe",
+      "label": "Höhe",
+      "values": [
+        {
+          "value_code": "NUMERIC_3.5",
+          "value": "3.5 cm",
+          "numeric_value": 3.5
+        }
+      ],
+      "top_fact": false,
+      "unit_code": "cm",
+      "unit": "Zentimeter",
+      "unit_symbol": "cm"
+    },
+    {
+      "label_code": "mic_durchmesser",
+      "label": "Durchmesser",
+      "values": [
+        {
+          "value_code": "NUMERIC_8",
+          "value": "8 cm",
+          "numeric_value": 8
+        }
+      ],
+      "top_fact": false,
+      "unit_code": "cm",
+      "unit": "Zentimeter",
+      "unit_symbol": "cm"
+    },
+    {
+      "label_code": "mic_farbewohnshop_farben",
+      "label": "Farben",
+      "values": [
+        {
+          "value_code": "MIC_FarbeWohnshop_Silber",
+          "value": "Silber"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "mic_materialwohnshop_material",
+      "label": "Material",
+      "values": [
+        {
+          "value_code": "MIC_MaterialWohnshop_Edelstahl",
+          "value": "Edelstahl"
+        },
+        {
+          "value_code": "MIC_MaterialWohnshop_BioEthanol",
+          "value": "Bio-Ethanol"
+        },
+        {
+          "value_code": "MIC_MaterialWohnshop_Kunststoff",
+          "value": "Kunststoff"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "mic_fuer_lebensmittel_geeignet",
+      "label": "Für Lebensmittel geeignet",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "Nein",
+          "boolean_value": false
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "CHEMICALS_WARNING",
+      "label": "Warnhinweis",
+      "values": [
+        {
+          "value": "Vor Gebrauch stets Kennzeichnung und Produktinformationen lesen."
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/cdea7018b470fc15b1f2f762b365bfbf178c73f0/cucina-tavola-pastenbrenner-set.jpg",
+    "stack": "https://image.migros.ch/{stack}/cdea7018b470fc15b1f2f762b365bfbf178c73f0/cucina-tavola-pastenbrenner-set.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/7374b3e4d7dc733a0a4c23ca60826c1ac9ed5c1b/cucina-tavola-pastenbrenner-set.png",
+    "stack": "https://image.migros.ch/{stack}/7374b3e4d7dc733a0a4c23ca60826c1ac9ed5c1b/cucina-tavola-pastenbrenner-set.png"
+  },
+  "additional_images": [
+    {
+      "original": "https://image.migros.ch/original/a6a5e7e360624687ebc7eea933e68936ad78c4fe.jpg",
+      "stack": "https://image.migros.ch/{stack}/a6a5e7e360624687ebc7eea933e68936ad78c4fe.jpg"
+    }
+  ],
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_nein",
+          "value": "Nein"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_RETURNABLE",
+      "label": "Rückgabe",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "true",
+          "boolean_value": true
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_EXCLUDE_FROM_COMPARISON_ENGINES",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "false",
+          "boolean_value": false
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_DEFAULT_LOGISTIC_TYPE",
+      "values": [
+        {
+          "value_code": "55",
+          "value": "Versandart Paket"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Normalposition"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "HART"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUSTOMS_POSITION",
+      "values": [
+        {
+          "value_code": "NUMERIC_73239310000",
+          "value": "73239310000",
+          "numeric_value": 73239310000
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_RISK_CLASS",
+      "values": [
+        {
+          "value_code": "1",
+          "value": "1 (high)"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_QUALITY_CHECK",
+      "values": [
+        {
+          "value_code": "00",
+          "value": "Keine Prüfung"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_KUBE_TUKA",
+      "values": [
+        {
+          "value_code": "BLANK",
+          "value": "KUBE und TUKA nicht zugelassen"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HART",
+          "value": "Hartwaren  Handelsware"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "H",
+          "value": "Hartwaren"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "50931",
+          "value": "TABLE COOKING ZUBEHOER"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 1,
+    "percentage": 7.7
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/702504500000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/cucina-tavola-pastenbrenner-set",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/702504500000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/cucina-tavola-pastenbrenner-set",
+      "type": "info",
+      "purchasable": false
+    },
+    "micasa": {
+      "url": "https://www.micasa.ch/de/p/702504500000/cucina-tavola-pastenbrenner-set",
+      "name": "Micasa",
+      "canonical": "https://produkte.migros.ch/cucina-tavola-pastenbrenner-set",
+      "type": "shop",
+      "purchasable": true
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/4978430",
+      "app_url": "leshop:///catalog/article/detail?ean=7613346223113",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/cucina-tavola-pastenbrenner-set",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "updated_at": "2020-09-15T03:57:42+0200",
+  "receipt_text": "Pastenbrenner Set",
+  "price": {
+    "valid_from": "2018-01-30T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 9.95,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "2 x 95g"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

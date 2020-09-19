@@ -1,0 +1,382 @@
+{
+  "id": "505103500000",
+  "language": "de",
+  "name": "Optimum Fliegenstreifen",
+  "slug": "optimum-fliegenstreifen",
+  "boss_number": "150126831005",
+  "description": {
+    "text": "Die insektizidfreie Klebefl&auml;che der Optimum Fliegenfalle f&auml;ngt Fliegen und andere kleine Insekten. Auf nat&uuml;rliche Weise werden so die l&auml;stigen Insekten nachhaltig bek&auml;mpft.",
+    "source": "PEX"
+  },
+  "tags": [
+    "source-pex",
+    "near-non-food",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "4037302105849",
+    "4037302115848"
+  ],
+  "brand": {
+    "id": "134",
+    "name": "Optimum",
+    "slug": "optimum"
+  },
+  "categories": [
+    {
+      "code": "BeSS_010403",
+      "name": "Insektizide",
+      "slug": "supermarkt/haushalt-reinigung/insektizide",
+      "visible": true,
+      "parent_code": "BeSS_0104",
+      "image": {
+        "original": "https://image.migros.ch/original/da2a51364e41c928bbbd2d014487984def0938cb/insektizide.jpg",
+        "stack": "https://image.migros.ch/{stack}/da2a51364e41c928bbbd2d014487984def0938cb/insektizide.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0104",
+      "name": "Haushalt & Reinigung",
+      "slug": "supermarkt/haushalt-reinigung",
+      "visible": true,
+      "title": "Reinigung mit der Migros – Reiniger für Haushalt und Garten",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/e5da3225980543e0c7ddcc443069f331d94e8439/haushalt-reinigung.png",
+        "stack": "https://image.migros.ch/{stack}/e5da3225980543e0c7ddcc443069f331d94e8439/haushalt-reinigung.png"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_InsektizideDuenger_Haushalt_HaushaltReinigung",
+        "name": "Insektizide & Dünger",
+        "slug": "amigos/haushalt-reinigung/haushalt/insektizide-duenger",
+        "visible": true,
+        "parent_code": "AMIG_CAT_Haushalt_HaushaltReinigung",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_Haushalt_HaushaltReinigung",
+        "name": "Haushalt",
+        "slug": "amigos/haushalt-reinigung/haushalt",
+        "visible": true,
+        "parent_code": "AMIG_CAT_HaushaltReinigung",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_HaushaltReinigung",
+        "name": "Haushalt & Reinigung",
+        "slug": "amigos/haushalt-reinigung",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "features": [
+    {
+      "label_code": "miso_spezielle_eigenschaften",
+      "label": "Spezielle Eigenschaften",
+      "values": [
+        {
+          "value": "Insektizidfreie Klebefallen"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "miso_anwendbarkeit_beschaffenheit_form",
+      "label": "Form",
+      "values": [
+        {
+          "value_code": "MISO_klebefalle",
+          "value": "Klebefalle"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "miso_inhalt",
+      "label": "Inhalt",
+      "values": [
+        {
+          "value": "4 Streifen"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "miso_zur_bekaempfung_von",
+      "label": "Zur Bekämpfung von",
+      "values": [
+        {
+          "value_code": "MISO_fliegen",
+          "value": "Fliegen"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "miso_wirkung",
+      "label": "Wirkung",
+      "values": [
+        {
+          "value_code": "MISO_langzeitwirkung",
+          "value": "Langzeitwirkung"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "CHEMICALS_WARNING",
+      "label": "Warnhinweis",
+      "values": [
+        {
+          "value": "Vor Gebrauch stets Kennzeichnung und Produktinformationen lesen."
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/ead39c8cc5244157eee9eef16cdf3c385374a37d/optimum-fliegenstreifen.jpg",
+    "stack": "https://image.migros.ch/{stack}/ead39c8cc5244157eee9eef16cdf3c385374a37d/optimum-fliegenstreifen.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/0296d2bafcfff1af17763f9eaa10e7631866c6bf/optimum-fliegenstreifen.png",
+    "stack": "https://image.migros.ch/{stack}/0296d2bafcfff1af17763f9eaa10e7631866c6bf/optimum-fliegenstreifen.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_sortierung",
+      "label": "Sortierung aMigos",
+      "values": [
+        {
+          "value_code": "NUMERIC_130",
+          "value": "130",
+          "numeric_value": 130
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_volumen",
+      "label": "Volumen aMigos!",
+      "values": [
+        {
+          "value_code": "NUMERIC_0.086505",
+          "value": "0.086505 l",
+          "numeric_value": 0.086505
+        }
+      ],
+      "top_fact": false,
+      "unit_code": "l",
+      "unit": "Liter",
+      "unit_symbol": "l"
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Normalposition"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "ZHKS"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUSTOMS_POSITION",
+      "values": [
+        {
+          "value_code": "NUMERIC_38081090000",
+          "value": "38081090000",
+          "numeric_value": 38081090000
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_RISK_CLASS",
+      "values": [
+        {
+          "value_code": "1",
+          "value": "1 (high)"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_QUALITY_CHECK",
+      "values": [
+        {
+          "value_code": "00",
+          "value": "Keine Prüfung"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZHKS",
+          "value": "HKS Standardartikel"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "H",
+          "value": "HKS Standard"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "50218",
+          "value": ""
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_LIFECYCLE",
+      "values": [
+        {
+          "value_code": "D",
+          "value": "Detailhandelsartikel"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 1,
+    "percentage": 7.7
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/505103500000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/optimum-fliegenstreifen",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/505103500000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/optimum-fliegenstreifen",
+      "type": "info",
+      "purchasable": false
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/4958935",
+      "app_url": "leshop:///catalog/article/detail?ean=4037302105849",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/optimum-fliegenstreifen",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "updated_at": "2020-09-12T06:32:50+0200",
+  "receipt_text": "Optimum Fliegenstreife",
+  "price": {
+    "valid_from": "2018-01-29T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 3.5,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "4 Stk."
+    },
+    "base": {
+      "price": 0.88,
+      "quantity": 1,
+      "unit": "st"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 3,
+    "average_all": 1
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

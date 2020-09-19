@@ -1,0 +1,544 @@
+{
+  "id": "702939100000",
+  "language": "de",
+  "name": "M-Topline MICRO Kochgeschirr 0.75L",
+  "slug": "m-topline-micro-kochgeschirr-075l",
+  "boss_number": "150423072005",
+  "description": {
+    "text": "F&uuml;r den schnellen Hunger in Schule und B&uuml;ro. Easy zu transportieren dank dichtem Deckel. Temperaturanwendungsbereich von -20° bis +180°C (nur Unterteil). F&uuml;r alle, die es praktisch, bequem und schnell m&ouml;gen!",
+    "source": "PEX"
+  },
+  "tags": [
+    "source-pex",
+    "near-non-food",
+    "migipedia",
+    "validity-range-not-set",
+    "leshop-discounted",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7617028786460"
+  ],
+  "brand": {
+    "id": "MGR",
+    "name": "M-Topline",
+    "slug": "m-topline",
+    "image": {
+      "original": "https://image.migros.ch/original/cb62232a71bb41718bdfee84b5303234bc8d5ed6/m-topline.jpg",
+      "stack": "https://image.migros.ch/{stack}/cb62232a71bb41718bdfee84b5303234bc8d5ed6/m-topline.jpg"
+    }
+  },
+  "labels": [
+    {
+      "id": "L53",
+      "name": "Swissness",
+      "slug": "swissness",
+      "image": {
+        "original": "https://image.migros.ch/original/d771bba2f6b08ba42970ea0243c6f8c5a8832f15/swissness.jpg",
+        "stack": "https://image.migros.ch/{stack}/d771bba2f6b08ba42970ea0243c6f8c5a8832f15/swissness.jpg"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_010418",
+      "name": "Topline",
+      "slug": "supermarkt/haushalt-reinigung/topline",
+      "visible": true,
+      "title": "Immer sch&ouml;n frisch: Dank Topline",
+      "parent_code": "BeSS_0104",
+      "level": 3
+    },
+    {
+      "code": "BeSS_0104",
+      "name": "Haushalt & Reinigung",
+      "slug": "supermarkt/haushalt-reinigung",
+      "visible": true,
+      "title": "Reinigung mit der Migros – Reiniger für Haushalt und Garten",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/e5da3225980543e0c7ddcc443069f331d94e8439/haushalt-reinigung.png",
+        "stack": "https://image.migros.ch/{stack}/e5da3225980543e0c7ddcc443069f331d94e8439/haushalt-reinigung.png"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "MIC_SHOP_CAT_Vorratsdosen_Kuechenzubehoer_Essen_AccessoiresTextilien",
+        "name": "Vorratsdosen",
+        "slug": "micasa/accessoires-textilien/essen/kuechenzubehoer/vorratsdosen",
+        "visible": true,
+        "parent_code": "MIC_SHOP_CAT_Kuechenzubehoer_Essen_AccessoiresTextilien",
+        "level": 5
+      },
+      {
+        "code": "MIC_SHOP_CAT_Kuechenzubehoer_Essen_AccessoiresTextilien",
+        "name": "Küchenzubehör",
+        "slug": "micasa/accessoires-textilien/essen/kuechenzubehoer",
+        "visible": true,
+        "parent_code": "MIC_SHOP_CAT_Essen_AccessoiresTextilien",
+        "level": 4
+      },
+      {
+        "code": "MIC_SHOP_CAT_Essen_AccessoiresTextilien",
+        "name": "Essen",
+        "slug": "micasa/accessoires-textilien/essen",
+        "visible": true,
+        "parent_code": "MIC_SHOP_CAT_AccessoiresTextilien",
+        "level": 3
+      },
+      {
+        "code": "MIC_SHOP_CAT_AccessoiresTextilien",
+        "name": "Accessoires & Textilien",
+        "slug": "micasa/accessoires-textilien",
+        "visible": true,
+        "parent_code": "BeSS_02",
+        "level": 2
+      },
+      {
+        "code": "BeSS_02",
+        "name": "Micasa",
+        "slug": "micasa",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ],
+    [
+      {
+        "code": "MIC_SHOP_CAT_MigrosSupermarkt_Essen_AccessoiresTextilien",
+        "name": "Migros Supermarkt",
+        "slug": "micasa/accessoires-textilien/essen/migros-supermarkt",
+        "visible": false,
+        "parent_code": "MIC_SHOP_CAT_Essen_AccessoiresTextilien",
+        "level": 4
+      },
+      {
+        "code": "MIC_SHOP_CAT_Essen_AccessoiresTextilien",
+        "name": "Essen",
+        "slug": "micasa/accessoires-textilien/essen",
+        "visible": true,
+        "parent_code": "MIC_SHOP_CAT_AccessoiresTextilien",
+        "level": 3
+      },
+      {
+        "code": "MIC_SHOP_CAT_AccessoiresTextilien",
+        "name": "Accessoires & Textilien",
+        "slug": "micasa/accessoires-textilien",
+        "visible": true,
+        "parent_code": "BeSS_02",
+        "level": 2
+      },
+      {
+        "code": "BeSS_02",
+        "name": "Micasa",
+        "slug": "micasa",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "features": [
+    {
+      "label_code": "mic_breite",
+      "label": "Breite",
+      "values": [
+        {
+          "value_code": "NUMERIC_23.5",
+          "value": "23.5 cm",
+          "numeric_value": 23.5
+        }
+      ],
+      "top_fact": false,
+      "unit_code": "cm",
+      "unit": "Zentimeter",
+      "unit_symbol": "cm"
+    },
+    {
+      "label_code": "mic_hoehe",
+      "label": "Höhe",
+      "values": [
+        {
+          "value_code": "NUMERIC_5",
+          "value": "5 cm",
+          "numeric_value": 5
+        }
+      ],
+      "top_fact": false,
+      "unit_code": "cm",
+      "unit": "Zentimeter",
+      "unit_symbol": "cm"
+    },
+    {
+      "label_code": "mic_farbewohnshop_farben",
+      "label": "Farben",
+      "values": [
+        {
+          "value_code": "MIC_FarbeWohnshop_Rot",
+          "value": "Rot"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "mic_materialwohnshop_material",
+      "label": "Material",
+      "values": [
+        {
+          "value_code": "MIC_MaterialWohnshop_Kunststoff",
+          "value": "Kunststoff"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "mic_volumeninhaltgewicht",
+      "label": "Volumen (Inhalt, Gewicht)",
+      "values": [
+        {
+          "value": "0.75l"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "mic_laenge",
+      "label": "Länge",
+      "values": [
+        {
+          "value_code": "NUMERIC_25.5",
+          "value": "25.5 cm",
+          "numeric_value": 25.5
+        }
+      ],
+      "top_fact": false,
+      "unit_code": "cm",
+      "unit": "Zentimeter",
+      "unit_symbol": "cm"
+    },
+    {
+      "label_code": "mic_fuer_lebensmittel_geeignet",
+      "label": "Für Lebensmittel geeignet",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "mic_spuelmaschinenfest",
+      "label": "Spülmaschinengeeignet",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "mic_mikrowellengeeignet",
+      "label": "Mikrowellengeeignet",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "mic_maximaltemperatur",
+      "label": "Maximaltemperatur",
+      "values": [
+        {
+          "value_code": "NUMERIC_180",
+          "value": "180 °C",
+          "numeric_value": 180
+        }
+      ],
+      "top_fact": false,
+      "unit_code": "grad_celsius",
+      "unit": "Grad Celsius",
+      "unit_symbol": "°C"
+    },
+    {
+      "label_code": "mic_minimaltemperatur",
+      "label": "Minimaltemperatur",
+      "values": [
+        {
+          "value_code": "NUMERIC_-20",
+          "value": "-20 °C",
+          "numeric_value": -20
+        }
+      ],
+      "top_fact": false,
+      "unit_code": "grad_celsius",
+      "unit": "Grad Celsius",
+      "unit_symbol": "°C"
+    },
+    {
+      "label_code": "mic_tiefkuehlgeeignet",
+      "label": "Tiefkühlgeeignet",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/2fed91f5eab2b8d2f1c42a76dd83dc63d776de4f/m-topline-micro-kochgeschirr-075l.jpg",
+    "stack": "https://image.migros.ch/{stack}/2fed91f5eab2b8d2f1c42a76dd83dc63d776de4f/m-topline-micro-kochgeschirr-075l.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/9f11628731bbbe9d8e57078a713327a15c2cd196/m-topline-micro-kochgeschirr-075l.png",
+    "stack": "https://image.migros.ch/{stack}/9f11628731bbbe9d8e57078a713327a15c2cd196/m-topline-micro-kochgeschirr-075l.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_DEFAULT_LOGISTIC_TYPE",
+      "values": [
+        {
+          "value_code": "55",
+          "value": "Versandart Paket"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Normalposition"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "HART"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUSTOMS_POSITION",
+      "values": [
+        {
+          "value_code": "NUMERIC_00039241000",
+          "value": "00039241000",
+          "numeric_value": 39241000
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_RISK_CLASS",
+      "values": [
+        {
+          "value_code": "2",
+          "value": "2 (medium)"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_KUBE_TUKA",
+      "values": [
+        {
+          "value_code": "BLANK",
+          "value": "KUBE und TUKA nicht zugelassen"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HART",
+          "value": "Hartwaren  Handelsware"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "H",
+          "value": "Hartwaren"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "50912",
+          "value": "KOCHEN"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 1,
+    "percentage": 7.7
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/702939100000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/m-topline-micro-kochgeschirr-075l",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/702939100000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/m-topline-micro-kochgeschirr-075l",
+      "type": "info",
+      "purchasable": false
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/79906",
+      "app_url": "leshop:///catalog/article/detail?ean=7617028786460",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/m-topline-micro-kochgeschirr-075l",
+      "type": "shop",
+      "purchasable": true
+    },
+    "micasa": {
+      "url": "https://www.micasa.ch/de/p/702939100000/m-topline-micro-kochgeschirr-0-75l",
+      "name": "Micasa",
+      "canonical": "https://produkte.migros.ch/m-topline-micro-kochgeschirr-075l",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "updated_at": "2020-09-16T06:42:42+0200",
+  "receipt_text": "Micro Menuteller 0.75l",
+  "price": {
+    "valid_from": "2020-09-08T00:00:00+0200",
+    "valid_to": "2020-09-21T23:59:59+0200",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 7.2,
+      "original_price": 11.95,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "0.75l"
+    },
+    "discount": {
+      "id": "1451378",
+      "region": "national",
+      "start_date": "2020-09-08T00:00:00+0200",
+      "end_date": "2020-09-21T23:59:59+0200",
+      "publication_date": "2020-09-06T00:00:00+0200",
+      "discount_amount": "40%",
+      "discount_regions": [
+        "national"
+      ],
+      "reference_product_id": "702920300040",
+      "discount_type": "aktion",
+      "discount_type_id": "005",
+      "discount_type_label": "GRAB Angebot CHF beim Kauf ab X Stueck",
+      "organisation": "09",
+      "cooperative": "mgb",
+      "image": {
+        "tags": [
+          "list-image"
+        ],
+        "original": "https://image.migros.ch/original/1cc899e6340e00c569d69418db70ac1936e2f2b7/gesamtes-migros-topline-sistema-und-cucina-tavola-fresh-sort.jpg",
+        "source": "PriceRepository",
+        "stack": "https://image.migros.ch/{stack}/1cc899e6340e00c569d69418db70ac1936e2f2b7/gesamtes-migros-topline-sistema-und-cucina-tavola-fresh-sort.jpg"
+      },
+      "image_transparent": {
+        "original": "https://image.migros.ch/original/1cc899e6340e00c569d69418db70ac1936e2f2b7/gesamtes-migros-topline-sistema-und-cucina-tavola-fresh-sort.png",
+        "source": "PriceRepository",
+        "stack": "https://image.migros.ch/{stack}/1cc899e6340e00c569d69418db70ac1936e2f2b7/gesamtes-migros-topline-sistema-und-cucina-tavola-fresh-sort.png"
+      },
+      "badge": {
+        "original": "https://image.migros.ch/original/b8c16a614fa0d7be55216a40e71cc3bb84913b1e.png",
+        "stack": "https://image.migros.ch/{stack}/b8c16a614fa0d7be55216a40e71cc3bb84913b1e.png"
+      },
+      "location_planning_type": "01",
+      "reduction_type_id": "01",
+      "special_advertisement": false,
+      "description": "Gesamtes Migros Topline-, Sistema- und Cucina & Tavola-Fresh-Sortiment",
+      "discount_hint": "<strong>ab 2 </strong><strong>Stück, </strong><strong>40% günstiger, </strong>(ohne Hit-Produkte und Trinkflaschen), z.B. Migros Topline Tiefkühldosen 5 x 0.75 Liter, <strong>2.95 </strong>statt 4.90, Angebot gilt nur vom 8.9. bis 21.9.2020, solange Vorrat.",
+      "high_performer": true,
+      "collective_discount": true,
+      "instead_of": "statt",
+      "price": 7.2,
+      "original_price": 11.95,
+      "disclaimer": "Gültigkeit siehe Angebots-Detailseite.\r\nBei allen Angeboten sind M-Budget und bereits reduzierte Artikel ausgenommen.\r\nBei Aktionen können bei der Verrechnung auf dem Kassabon Rundungsdifferenzen zu Gunsten des Kunden entstehen.",
+      "source": "PriceRepository",
+      "boss_number": "150423070505",
+      "discount_role_id": "2000000001",
+      "discount_role_label": "High-Performer",
+      "last_imported": "2020-08-31T21:15:11+0200"
+    },
+    "discount_hint": "<strong>ab 2 </strong><strong>Stück, </strong>Angebot gilt nur vom 8.9. bis 21.9.2020, solange Vorrat."
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 8,
+    "average_all": 3.375
+  },
+  "reindex_date": "2020-09-21T23:59:59+0200"
+}

@@ -1,0 +1,297 @@
+{
+  "id": "702814300000",
+  "language": "de",
+  "name": "Zedernholz Rund",
+  "slug": "zedernholz-rund",
+  "boss_number": "150223200505",
+  "description": {
+    "text": "6-teiliges Mottenschutz-Set",
+    "source": "PEX"
+  },
+  "tags": [
+    "source-pex",
+    "near-non-food",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7610859128959",
+    "7613206863978"
+  ],
+  "categories": [
+    {
+      "code": "BeSS_01042505",
+      "name": "Kleideraufbewahrung",
+      "slug": "supermarkt/haushalt-reinigung/waesche-buegeln-kleideraufbewahrung/kleideraufbewahrung",
+      "visible": true,
+      "parent_code": "BeSS_010425",
+      "level": 4
+    },
+    {
+      "code": "BeSS_010425",
+      "name": "Wäsche, Bügeln & Kleideraufbewahrung",
+      "slug": "supermarkt/haushalt-reinigung/waesche-buegeln-kleideraufbewahrung",
+      "visible": true,
+      "parent_code": "BeSS_0104",
+      "level": 3
+    },
+    {
+      "code": "BeSS_0104",
+      "name": "Haushalt & Reinigung",
+      "slug": "supermarkt/haushalt-reinigung",
+      "visible": true,
+      "title": "Reinigung mit der Migros – Reiniger für Haushalt und Garten",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/e5da3225980543e0c7ddcc443069f331d94e8439/haushalt-reinigung.png",
+        "stack": "https://image.migros.ch/{stack}/e5da3225980543e0c7ddcc443069f331d94e8439/haushalt-reinigung.png"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "features": [
+    {
+      "label_code": "miso_anzahl",
+      "label": "Anzahl",
+      "values": [
+        {
+          "value_code": "NUMERIC_6",
+          "value": "6 Stk.",
+          "numeric_value": 6
+        }
+      ],
+      "top_fact": false,
+      "unit_code": "Stk.",
+      "unit": "Stück",
+      "unit_symbol": "Stk."
+    },
+    {
+      "label_code": "miso_masse_groesse",
+      "label": "Masse / Grösse",
+      "values": [
+        {
+          "value": "25 cm x 7cm x 2 cm"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "miso_material",
+      "label": "Material",
+      "values": [
+        {
+          "value_code": "MISO_material_zedernholz",
+          "value": "Zedernholz"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "miso_farbe",
+      "label": "Farbe",
+      "values": [
+        {
+          "value_code": "MISO_farbe_rot",
+          "value": "rot"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/21bef7e2d4a7cebf0ff1c4115e6aa4999814c7fe/zedernholz-rund.jpg",
+    "stack": "https://image.migros.ch/{stack}/21bef7e2d4a7cebf0ff1c4115e6aa4999814c7fe/zedernholz-rund.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/ed68dc31ca35a45b065c296c45e9bfb3ca37cacc/zedernholz-rund.png",
+    "stack": "https://image.migros.ch/{stack}/ed68dc31ca35a45b065c296c45e9bfb3ca37cacc/zedernholz-rund.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_RETURNABLE",
+      "label": "Rückgabe",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "true",
+          "boolean_value": true
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_EXCLUDE_FROM_COMPARISON_ENGINES",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "false",
+          "boolean_value": false
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_DEFAULT_LOGISTIC_TYPE",
+      "values": [
+        {
+          "value_code": "55",
+          "value": "Versandart Paket"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Normalposition"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "HART"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUSTOMS_POSITION",
+      "values": [
+        {
+          "value_code": "NUMERIC_44219000000",
+          "value": "44219000000",
+          "numeric_value": 44219000000
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_RISK_CLASS",
+      "values": [
+        {
+          "value_code": "3",
+          "value": "3 (low)"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_KUBE_TUKA",
+      "values": [
+        {
+          "value_code": "BLANK",
+          "value": "KUBE und TUKA nicht zugelassen"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HART",
+          "value": "Hartwaren  Handelsware"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "H",
+          "value": "Hartwaren"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "50753",
+          "value": "AUFBEWAHRUNG"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 1,
+    "percentage": 7.7
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/702814300000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/zedernholz-rund",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/702814300000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/zedernholz-rund",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "updated_at": "2020-09-09T11:29:08+0200",
+  "receipt_text": "Zedernholz rund",
+  "price": {
+    "valid_from": "2019-01-09T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 5.3,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "6 Stk."
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

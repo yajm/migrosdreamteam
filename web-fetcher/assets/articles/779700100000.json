@@ -1,0 +1,357 @@
+{
+  "id": "779700100000",
+  "language": "de",
+  "name": "Canon CLI-8 CMY Tintenpatrone",
+  "slug": "canon-cli-8-cmy-tintenpatrone",
+  "product_type": "Tintenpatrone",
+  "boss_number": "241237930505",
+  "tags": [
+    "source-pex",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "8714574552569"
+  ],
+  "brand": {
+    "id": "MDC",
+    "name": "Canon",
+    "slug": "canon",
+    "image": {
+      "original": "https://image.migros.ch/original/730ab885d526f3b65792d904991f31e0d297a884/canon.jpg",
+      "stack": "https://image.migros.ch/{stack}/730ab885d526f3b65792d904991f31e0d297a884/canon.jpg"
+    }
+  },
+  "categories": [
+    {
+      "code": "MEL_SHOP_CAT_TintenpatronenToner_DruckerundZubehoer_ComputingTablets",
+      "name": "Tintenpatronen & Toner",
+      "slug": "melectronics/computing-tablets/drucker-und-zubehoer/tintenpatronen-toner",
+      "visible": true,
+      "parent_code": "MEL_SHOP_CAT_DruckerundZubehoer_ComputingTablets",
+      "level": 4
+    },
+    {
+      "code": "MEL_SHOP_CAT_DruckerundZubehoer_ComputingTablets",
+      "name": "Drucker und Zubehör",
+      "slug": "melectronics/computing-tablets/drucker-und-zubehoer",
+      "visible": true,
+      "parent_code": "MEL_SHOP_CAT_ComputingTablets",
+      "level": 3
+    },
+    {
+      "code": "MEL_SHOP_CAT_ComputingTablets",
+      "name": "Computing & Tablets",
+      "slug": "melectronics/computing-tablets",
+      "visible": true,
+      "parent_code": "BeSS_04",
+      "level": 2
+    },
+    {
+      "code": "BeSS_04",
+      "name": "melectronics",
+      "slug": "melectronics",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "features": [
+    {
+      "label_code": "mel_produkttyp_neu",
+      "label": "Produkttyp",
+      "values": [
+        {
+          "value_code": "MEL_produkttyp_neu_tintenpatrone_multipack",
+          "value": "Tintenpatrone Multipack"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "mel_anzahl_patronen",
+      "label": "Anzahl Patronen",
+      "values": [
+        {
+          "value_code": "NUMERIC_3",
+          "value": "3 Stk.",
+          "numeric_value": 3
+        }
+      ],
+      "top_fact": true,
+      "unit_code": "st",
+      "unit": "Stück",
+      "unit_symbol": "Stk."
+    },
+    {
+      "label_code": "mel_farben",
+      "label": "Farbe(n)",
+      "values": [
+        {
+          "value_code": "MEL_farben_cyan",
+          "value": "Cyan"
+        },
+        {
+          "value_code": "MEL_farben_magenta",
+          "value": "Magenta"
+        },
+        {
+          "value_code": "MEL_farben_gelb",
+          "value": "Gelb"
+        }
+      ],
+      "top_fact": true
+    },
+    {
+      "label_code": "mel_kapazitaet",
+      "label": "Kapazität",
+      "values": [
+        {
+          "value_code": "NUMERIC_13",
+          "value": "13 ml",
+          "numeric_value": 13
+        }
+      ],
+      "top_fact": true,
+      "unit_code": "ml",
+      "unit": "Milliliter",
+      "unit_symbol": "ml"
+    },
+    {
+      "label_code": "mel_kompatibilität",
+      "label": "Kompatibilität",
+      "values": [
+        {
+          "value": "PIXMA IP 4200"
+        }
+      ],
+      "top_fact": true
+    },
+    {
+      "label_code": "mel_originalpatrone",
+      "label": "Originalpatrone",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "top_fact": true
+    },
+    {
+      "label_code": "mel_kompatible_druckermarken",
+      "label": "Kompatible Druckermarken",
+      "values": [
+        {
+          "value_code": "MEL_kompatible_druckermarken_canon",
+          "value": "Canon"
+        }
+      ],
+      "top_fact": true
+    },
+    {
+      "label_code": "mel_geeignet_fuer_druckmedien",
+      "label": "Geeignet für (Druckmedien)",
+      "values": [
+        {
+          "value_code": "MEL_geeignet_fuer_druckmedien_univeralpapier_tintenstrahl",
+          "value": "Univeralpapier (Tintenstrahl)"
+        },
+        {
+          "value_code": "MEL_geeignet_fuer_druckmedien_photopapier_tintenstrahl",
+          "value": "Photopapier (Tintenstrahl)"
+        },
+        {
+          "value_code": "MEL_geeignet_fuer_druckmedien_visitenkarten",
+          "value": "Visitenkarten"
+        },
+        {
+          "value_code": "MEL_geeignet_fuer_druckmedien_folien_tintenstrahl",
+          "value": "Folien (Tintenstrahl)"
+        }
+      ],
+      "top_fact": true
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/99f921e2bbba03d8eea46e14aaac9112d93dcde0/canon-cli-8-cmy-tintenpatrone.jpg",
+    "stack": "https://image.migros.ch/{stack}/99f921e2bbba03d8eea46e14aaac9112d93dcde0/canon-cli-8-cmy-tintenpatrone.jpg"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_RETURNABLE",
+      "label": "Rückgabe",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "true",
+          "boolean_value": true
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_EXCLUDE_FROM_COMPARISON_ENGINES",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "false",
+          "boolean_value": false
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_DEFAULT_LOGISTIC_TYPE",
+      "values": [
+        {
+          "value_code": "55",
+          "value": "Versandart Paket"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "BANS",
+          "value": "Streckenposition"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "HART"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_RISK_CLASS",
+      "values": [
+        {
+          "value_code": "2",
+          "value": "2 (medium)"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_KUBE_TUKA",
+      "values": [
+        {
+          "value_code": "BLANK",
+          "value": "KUBE und TUKA nicht zugelassen"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HART",
+          "value": "Hartwaren  Handelsware"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "E",
+          "value": "E"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "56122",
+          "value": "PATRONEN"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 1,
+    "percentage": 7.7
+  },
+  "links": {
+    "melectronics": {
+      "url": "https://www.melectronics.ch/de/p/779700100000/canon-cli-8-cmy",
+      "name": "melectronics",
+      "canonical": "https://www.melectronics.ch/de/p/779700100000/canon-cli-8-cmy",
+      "type": "shop",
+      "purchasable": true
+    },
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/779700100000",
+      "name": "migros.ch",
+      "canonical": "https://www.melectronics.ch/de/p/779700100000/canon-cli-8-cmy",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/779700100000",
+      "name": "Migipedia",
+      "canonical": "https://www.melectronics.ch/de/p/779700100000/canon-cli-8-cmy",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "updated_at": "2020-09-14T11:34:07+0200",
+  "receipt_text": "Canon CLI-8CMY",
+  "price": {
+    "valid_from": "2018-01-30T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 49.8,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false
+    }
+  },
+  "retailer": {
+    "id": "melectronics",
+    "name": "melectronics"
+  },
+  "warranty_months": 24,
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

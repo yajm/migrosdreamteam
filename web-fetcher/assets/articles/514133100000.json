@@ -1,0 +1,205 @@
+{
+  "id": "514133100000",
+  "language": "de",
+  "name": "M-Classic Zahnpasta Whitening",
+  "slug": "m-classic-zahnpasta-whitening",
+  "boss_number": "090221700550",
+  "tags": [
+    "source-pim",
+    "near-non-food",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7630028625294"
+  ],
+  "brand": {
+    "id": "068",
+    "name": "M-Classic",
+    "slug": "m-classic",
+    "links": {
+      "homepage": {
+        "url": "https://m-classic.migros.ch/de.html",
+        "name": "Homepage",
+        "type": "info",
+        "purchasable": false
+      }
+    },
+    "image": {
+      "original": "https://image.migros.ch/original/72c18633f911e026e081ac11d872cff2d8dc8abb/m-classic.jpg",
+      "stack": "https://image.migros.ch/{stack}/72c18633f911e026e081ac11d872cff2d8dc8abb/m-classic.jpg"
+    }
+  },
+  "categories": [
+    {
+      "code": "BeSS_01110401",
+      "name": "Zahnpasta",
+      "slug": "supermarkt/beauty/mundpflege/zahnpasta",
+      "visible": true,
+      "parent_code": "BeSS_011104",
+      "level": 4
+    },
+    {
+      "code": "BeSS_011104",
+      "name": "Mundpflege",
+      "slug": "supermarkt/beauty/mundpflege",
+      "visible": true,
+      "parent_code": "BeSS_0111",
+      "level": 3
+    },
+    {
+      "code": "BeSS_0111",
+      "name": "Beauty",
+      "slug": "supermarkt/beauty",
+      "visible": true,
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/293925170bd129344f9259c67a15e903f881bef8/beauty.jpg",
+        "stack": "https://image.migros.ch/{stack}/293925170bd129344f9259c67a15e903f881bef8/beauty.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "features": [
+    {
+      "label_code": "MISO_geeignet_fuer",
+      "label": "Geeignet für",
+      "values": [
+        {
+          "value_code": "MISO_geeignet_fuer_kariesschutz",
+          "value": "Kariesschutz"
+        },
+        {
+          "value_code": "MISO_geeignet_fuer_zahnverfaerbungenwhitening",
+          "value": "Zahnverfärbungen (Whitening)"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/6c8620a63dd5eb3b8f79005d8c9ead9f07a89278/m-classic-zahnpasta-whitening.jpg",
+    "stack": "https://image.migros.ch/{stack}/6c8620a63dd5eb3b8f79005d8c9ead9f07a89278/m-classic-zahnpasta-whitening.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/6bdd523baf5e65847e8ddbe332fd24bc41eba5eb/m-classic-zahnpasta-whitening.png",
+    "stack": "https://image.migros.ch/{stack}/6bdd523baf5e65847e8ddbe332fd24bc41eba5eb/m-classic-zahnpasta-whitening.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZHKS",
+          "value": "HKS Standardartikel"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_QUALITY_CHECK",
+      "values": [
+        {
+          "value_code": "00",
+          "value": "Keine Prüfung"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_RISK_CLASS",
+      "values": [
+        {
+          "value_code": "1",
+          "value": "1 (high)"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "H",
+          "value": "HKS Standard"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "50048",
+          "value": "ZAHNPASTEN"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUSTOMS_POSITION",
+      "values": [
+        {
+          "value_code": "33061000000"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 1,
+    "percentage": 7.7
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/514133100000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/m-classic-zahnpasta-whitening",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/514133100000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/m-classic-zahnpasta-whitening",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "updated_at": "2020-09-14T15:18:35+0200",
+  "receipt_text": "M-Classic Whitening",
+  "price": {
+    "valid_from": "2020-05-08T00:00:00+0200",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 1.5,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "125ml"
+    },
+    "base": {
+      "price": 1.2,
+      "quantity": 100,
+      "unit": "ml"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "reindex_date": "2020-09-20T00:00:00+0200"
+}

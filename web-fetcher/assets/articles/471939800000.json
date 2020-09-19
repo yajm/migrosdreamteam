@@ -1,0 +1,403 @@
+{
+  "id": "471939800000",
+  "language": "de",
+  "name": "Isostar Power-Tabs Brausetabletten",
+  "slug": "isostar-power-tabs-brausetabletten-471939800000",
+  "product_type": "Brausetabletten",
+  "boss_number": "341611481020",
+  "description": {
+    "text": "Brausetabletten zur Herstellung eines isotonischen kalorienarmen Elektrolytgetränks. \r\n\r\nProduktevorteile\r\nIsostar Power Tabs sorgen für einen schnellen Flüssigkeitsersatz und unterstützen die sportliche Leistungsfähigkeit.\r\n\r\nZusammensetzung\r\nTraubenzucker, Säuerungsmittel Citronensäure, Mineralstoffe (Natriumbicarbonat, Kaliumcarbonat, Magnesiumcarbonat, Calciumcarbonat, Natriumchlorid, Calciumphosphat), natürliches Aroma, Maisstärke, Maltodextrin, Süssstoff Aspartam, Vitamine C, E, B1, Farbstoff Beta-Carotin.Enthält eine Phenylalaninquelle.\r\n\r\nZubereitung\r\n2 Brausetabletten für 500ml Getränk\r\n\r\noptimaler Zeitpunkt für den Konsum\r\nDie Powertabs eignen sich für ein kalorienarmes isotonisches Getränk für sportliche Aktivitäten bis 1 Stunde. Sie können besonders bequem unterwegs mit Wasser zubereitet werden",
+    "source": "PEX"
+  },
+  "tags": [
+    "source-pex",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "3175681833685",
+    "3175681827998"
+  ],
+  "brand": {
+    "id": "MMN",
+    "name": "Isostar",
+    "slug": "isostar",
+    "image": {
+      "original": "https://image.migros.ch/original/208adcccd53c1f29851ec009aedcadddf50cf24c/isostar.jpg",
+      "stack": "https://image.migros.ch/{stack}/208adcccd53c1f29851ec009aedcadddf50cf24c/isostar.jpg"
+    }
+  },
+  "categories": [
+    {
+      "code": "SPO_SHOP_CAT_Sportnahrung_Ausruestung",
+      "name": "Sportnahrung",
+      "slug": "sportxx/ausruestung/sportnahrung",
+      "visible": true,
+      "parent_code": "SPO_SHOP_CAT_Ausruestung",
+      "level": 3
+    },
+    {
+      "code": "SPO_SHOP_CAT_Ausruestung",
+      "name": "Ausrüstung",
+      "slug": "sportxx/ausruestung",
+      "visible": true,
+      "parent_code": "BeSS_03",
+      "level": 2
+    },
+    {
+      "code": "BeSS_03",
+      "name": "SportXX",
+      "slug": "sportxx",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "BeSS_011203",
+        "name": "Diät & Sportnahrung",
+        "slug": "supermarkt/gesundheit/diaet-sportnahrung",
+        "visible": true,
+        "parent_code": "BeSS_0112",
+        "level": 3
+      },
+      {
+        "code": "BeSS_0112",
+        "name": "Gesundheit",
+        "slug": "supermarkt/gesundheit",
+        "visible": true,
+        "parent_code": "BeSS_01",
+        "image": {
+          "original": "https://image.migros.ch/original/832762761a56d78835c380db87e2aa4ecd7a4eed/gesundheit.jpg",
+          "stack": "https://image.migros.ch/{stack}/832762761a56d78835c380db87e2aa4ecd7a4eed/gesundheit.jpg"
+        },
+        "level": 2
+      },
+      {
+        "code": "BeSS_01",
+        "name": "Supermarkt",
+        "slug": "supermarkt",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "features": [
+    {
+      "label_code": "miso_produkttyp",
+      "label": "Produkttyp",
+      "values": [
+        {
+          "value_code": "MISO_produkttyp_sportnahrung",
+          "value": "Sportnahrung"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "miso_beduerfnis_nutzen",
+      "label": "Bedürfnis / Nutzen",
+      "values": [
+        {
+          "value_code": "MISO_beduerfnis_nutzen_energieausdauer",
+          "value": "Energie & Ausdauer"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "spo_gewicht",
+      "label": "Gewicht",
+      "values": [
+        {
+          "value_code": "NUMERIC_12",
+          "value": "12 g",
+          "numeric_value": 12
+        }
+      ],
+      "top_fact": false,
+      "unit_code": "g",
+      "unit": "Gramm",
+      "unit_symbol": "g"
+    },
+    {
+      "label_code": "spo_anwendung_anwendung",
+      "label": "Anwendung",
+      "values": [
+        {
+          "value_code": "SPO_Anwendung_Ausdauersport",
+          "value": "Ausdauersport"
+        }
+      ],
+      "top_fact": true
+    },
+    {
+      "label_code": "spo_phase_phase",
+      "label": "Phase",
+      "values": [
+        {
+          "value_code": "SPO_Phase_vordemTraining",
+          "value": "vor dem Training"
+        },
+        {
+          "value_code": "SPO_Phase_waehrenddemTraining",
+          "value": "während dem Training"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "spo_form_form",
+      "label": "Form",
+      "values": [
+        {
+          "value_code": "SPO_Form_Getraenk",
+          "value": "Getränk"
+        }
+      ],
+      "top_fact": true
+    },
+    {
+      "label_code": "spo_vertraeglichkeit_vertraeglichkeit",
+      "label": "Verträglichkeit",
+      "values": [
+        {
+          "value_code": "SPO_Vertraeglichkeit_glutenfrei",
+          "value": "glutenfrei"
+        },
+        {
+          "value_code": "SPO_Vertraeglichkeit_laktosefrei",
+          "value": "laktosefrei"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "spo_geschmack",
+      "label": "Geschmack",
+      "values": [
+        {
+          "value": "Orange"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "spo_sportart_sportart",
+      "label": "Sportart",
+      "values": [
+        {
+          "value_code": "SPO_Sportart_Biking_BikingVelofahren",
+          "value": "Biking & Velofahren"
+        },
+        {
+          "value_code": "SPO_Sportart_Fitness",
+          "value": "Fitness"
+        },
+        {
+          "value_code": "SPO_Sportart_Fussball",
+          "value": "Fussball"
+        },
+        {
+          "value_code": "SPO_Sportart_Kraftraining",
+          "value": "Krafttraining"
+        },
+        {
+          "value_code": "SPO_Sportart_Langlauf",
+          "value": "Langlauf"
+        },
+        {
+          "value_code": "SPO_Sportart_NordicWalking",
+          "value": "Nordic Walking"
+        },
+        {
+          "value_code": "SPO_Sportart_Running",
+          "value": "Running"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/eb6a231500b3299af325a10586121fecda5fbdeb/isostar-power-tabs-brausetabletten.jpg",
+    "stack": "https://image.migros.ch/{stack}/eb6a231500b3299af325a10586121fecda5fbdeb/isostar-power-tabs-brausetabletten.jpg"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_RETURNABLE",
+      "label": "Rückgabe",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "false",
+          "boolean_value": false
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_DEFAULT_LOGISTIC_TYPE",
+      "values": [
+        {
+          "value_code": "55",
+          "value": "Versandart Paket"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Normalposition"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "SPOR"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_RISK_CLASS",
+      "values": [
+        {
+          "value_code": "2",
+          "value": "2 (medium)"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_KUBE_TUKA",
+      "values": [
+        {
+          "value_code": "BLANK",
+          "value": "KUBE und TUKA nicht zugelassen"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "SPOR",
+          "value": "Sport  Handelsware"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "S",
+          "value": "Sport"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "55537",
+          "value": "SPORTNAHRUNG"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/471939800000",
+      "name": "migros.ch",
+      "canonical": "https://www.sportxx.ch/de/p/471939800000/isostar-power-tabs",
+      "type": "info",
+      "purchasable": false
+    },
+    "sportxx": {
+      "url": "https://www.sportxx.ch/de/p/471939800000/isostar-power-tabs",
+      "name": "SportXX",
+      "canonical": "https://www.sportxx.ch/de/p/471939800000/isostar-power-tabs",
+      "type": "shop",
+      "purchasable": true
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/471939800000",
+      "name": "Migipedia",
+      "canonical": "https://www.sportxx.ch/de/p/471939800000/isostar-power-tabs",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "updated_at": "2020-09-12T06:31:39+0200",
+  "receipt_text": "Isostar Powertabs 120g",
+  "price": {
+    "valid_from": "2018-01-30T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 7.9,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "120g"
+    },
+    "base": {
+      "price": 65.83,
+      "quantity": 100,
+      "unit": "g"
+    }
+  },
+  "retailer": {
+    "id": "sportxx",
+    "name": "SportXX"
+  },
+  "ratings": {
+    "count_all": 2,
+    "average_all": 4.5
+  },
+  "warranty_months": 24,
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

@@ -1,0 +1,409 @@
+{
+  "id": "704405100000",
+  "language": "de",
+  "name": "Taschenlampe Compact LED",
+  "slug": "taschenlampe-compact-led",
+  "boss_number": "150332225020",
+  "description": {
+    "text": "-Mit Gummi-Schalterabdeckung",
+    "source": "PEX"
+  },
+  "tags": [
+    "source-pex",
+    "near-non-food",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7613296386951",
+    "7613206868829"
+  ],
+  "labels": [
+    {
+      "id": "L40",
+      "name": "LED",
+      "slug": "led",
+      "image": {
+        "original": "https://image.migros.ch/original/eeefb36e3ce49082379bb9fbf7dc05f7028ef96f/led.jpg",
+        "stack": "https://image.migros.ch/{stack}/eeefb36e3ce49082379bb9fbf7dc05f7028ef96f/led.jpg"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_01040606",
+      "name": "Taschenlampen",
+      "slug": "supermarkt/haushalt-reinigung/leuchtmittel/taschenlampen",
+      "visible": true,
+      "parent_code": "BeSS_010406",
+      "level": 4
+    },
+    {
+      "code": "BeSS_010406",
+      "name": "Leuchtmittel",
+      "slug": "supermarkt/haushalt-reinigung/leuchtmittel",
+      "visible": true,
+      "title": "Leuchtmittel aus der Migros – Lampen für jeden Zweck",
+      "parent_code": "BeSS_0104",
+      "image": {
+        "original": "https://image.migros.ch/original/cab4a247d35b1ab62be8af52a36f3ea62b4bdf2a/leuchtmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/cab4a247d35b1ab62be8af52a36f3ea62b4bdf2a/leuchtmittel.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0104",
+      "name": "Haushalt & Reinigung",
+      "slug": "supermarkt/haushalt-reinigung",
+      "visible": true,
+      "title": "Reinigung mit der Migros – Reiniger für Haushalt und Garten",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/e5da3225980543e0c7ddcc443069f331d94e8439/haushalt-reinigung.png",
+        "stack": "https://image.migros.ch/{stack}/e5da3225980543e0c7ddcc443069f331d94e8439/haushalt-reinigung.png"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_Taschenlampe_LeuchtmittelKerzen_HaushaltReinigung",
+        "name": "Taschenlampe",
+        "slug": "amigos/haushalt-reinigung/leuchtmittel-kerzen/taschenlampe",
+        "visible": true,
+        "parent_code": "AMIG_CAT_LeuchtmittelKerzen_HaushaltReinigung",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_LeuchtmittelKerzen_HaushaltReinigung",
+        "name": "Leuchtmittel & Kerzen",
+        "slug": "amigos/haushalt-reinigung/leuchtmittel-kerzen",
+        "visible": true,
+        "parent_code": "AMIG_CAT_HaushaltReinigung",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_HaushaltReinigung",
+        "name": "Haushalt & Reinigung",
+        "slug": "amigos/haushalt-reinigung",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "features": [
+    {
+      "label_code": "miso_anzahl",
+      "label": "Anzahl",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1 Stk.",
+          "numeric_value": 1
+        }
+      ],
+      "top_fact": false,
+      "unit_code": "Stk.",
+      "unit": "Stück",
+      "unit_symbol": "Stk."
+    },
+    {
+      "label_code": "miso_farbe",
+      "label": "Farbe",
+      "values": [
+        {
+          "value_code": "MISO_farbe_assortiert",
+          "value": "assortiert"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "miso_material",
+      "label": "Material",
+      "values": [
+        {
+          "value_code": "MISO_material_abs",
+          "value": "ABS"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "miso_leuchtweite",
+      "label": "Leuchtweite",
+      "values": [
+        {
+          "value_code": "NUMERIC_30",
+          "value": "30 m",
+          "numeric_value": 30
+        }
+      ],
+      "top_fact": false,
+      "unit_code": "m",
+      "unit": "Meter",
+      "unit_symbol": "m"
+    },
+    {
+      "label_code": "miso_lebensdauer",
+      "label": "Nennlebensdauer [h]",
+      "values": [
+        {
+          "value_code": "NUMERIC_30000",
+          "value": "30000 h",
+          "numeric_value": 30000
+        }
+      ],
+      "top_fact": false,
+      "unit_code": "h",
+      "unit": "Stunde(n)",
+      "unit_symbol": "h"
+    },
+    {
+      "label_code": "miso_hinweis",
+      "label": "Hinweis",
+      "values": [
+        {
+          "value": "inkl. vRG, inkl. Batterie (3x HR3 / LR3 / R3) "
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/8cc9b84e0e26192b45e3f258dd26ec52b7a14a64/taschenlampe-compact-led.jpg",
+    "stack": "https://image.migros.ch/{stack}/8cc9b84e0e26192b45e3f258dd26ec52b7a14a64/taschenlampe-compact-led.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/7d7fe01b527e848d2fa6ecf7b28a60d89b1e4243/taschenlampe-compact-led.png",
+    "stack": "https://image.migros.ch/{stack}/7d7fe01b527e848d2fa6ecf7b28a60d89b1e4243/taschenlampe-compact-led.png"
+  },
+  "additional_images": [
+    {
+      "original": "https://image.migros.ch/original/4f5ed764f17a5024374f52a5cf4ab881c4968fb5.jpg",
+      "stack": "https://image.migros.ch/{stack}/4f5ed764f17a5024374f52a5cf4ab881c4968fb5.jpg"
+    }
+  ],
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_sortierung",
+      "label": "Sortierung aMigos",
+      "values": [
+        {
+          "value_code": "NUMERIC_110",
+          "value": "110",
+          "numeric_value": 110
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_DEFAULT_LOGISTIC_TYPE",
+      "values": [
+        {
+          "value_code": "55",
+          "value": "Versandart Paket"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Normalposition"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "HART"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUSTOMS_POSITION",
+      "values": [
+        {
+          "value_code": "NUMERIC_85131000000",
+          "value": "85131000000",
+          "numeric_value": 85131000000
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRESENTATION",
+      "values": [
+        {
+          "value_code": "H",
+          "value": "hängend"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_RISK_CLASS",
+      "values": [
+        {
+          "value_code": "2",
+          "value": "2 (medium)"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_QUALITY_CHECK",
+      "values": [
+        {
+          "value_code": "00",
+          "value": "Keine Prüfung"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_KUBE_TUKA",
+      "values": [
+        {
+          "value_code": "BLANK",
+          "value": "KUBE und TUKA nicht zugelassen"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HART",
+          "value": "Hartwaren  Handelsware"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "H",
+          "value": "Hartwaren"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "60510",
+          "value": "TASCHENLAMPEN"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 1,
+    "percentage": 7.7
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/704405100000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/taschenlampe-compact-led",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/704405100000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/taschenlampe-compact-led",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "updated_at": "2020-09-16T06:09:47+0200",
+  "receipt_text": "LED Taschenlampe",
+  "price": {
+    "valid_from": "2018-01-30T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 11.95,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "1 Stück"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 1,
+    "average_all": 1
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

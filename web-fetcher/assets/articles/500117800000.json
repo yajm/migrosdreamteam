@@ -1,0 +1,458 @@
+{
+  "id": "500117800000",
+  "language": "de",
+  "name": "Milette Specialwaschmittel Pulver",
+  "slug": "milette-specialwaschmittel-pulver",
+  "boss_number": "150126753520",
+  "description": {
+    "text": "F&uuml;r empfindliche Baby- und Kleinkinderhaut",
+    "source": "PEX"
+  },
+  "tags": [
+    "source-pex",
+    "near-non-food",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7617300719407",
+    "7617300719414"
+  ],
+  "brand": {
+    "id": "117",
+    "name": "Milette",
+    "slug": "milette",
+    "image": {
+      "original": "https://image.migros.ch/original/5330a88ab282070f8763c7664f34888c22dd6ec1/milette.jpg",
+      "stack": "https://image.migros.ch/{stack}/5330a88ab282070f8763c7664f34888c22dd6ec1/milette.jpg"
+    }
+  },
+  "categories": [
+    {
+      "code": "BeSS_0104010102",
+      "name": "Waschpulver",
+      "slug": "supermarkt/haushalt-reinigung/waschen-reinigen-pflege/waschmittel/waschpulver",
+      "visible": true,
+      "parent_code": "BeSS_01040101",
+      "image": {
+        "original": "https://image.migros.ch/original/754e902cd0a7a00e614b11eecf66164745f01f3a/waschpulver.jpg",
+        "stack": "https://image.migros.ch/{stack}/754e902cd0a7a00e614b11eecf66164745f01f3a/waschpulver.jpg"
+      },
+      "level": 5
+    },
+    {
+      "code": "BeSS_01040101",
+      "name": "Waschmittel",
+      "slug": "supermarkt/haushalt-reinigung/waschen-reinigen-pflege/waschmittel",
+      "visible": true,
+      "title": "Waschmittel bei der Migros: Porentief rein und duftig fein",
+      "parent_code": "BeSS_010401",
+      "image": {
+        "original": "https://image.migros.ch/original/0076911ffef80a8fbf18236ab7ad28fcb069512a/waschmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/0076911ffef80a8fbf18236ab7ad28fcb069512a/waschmittel.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010401",
+      "name": "Waschen, Reinigen & Pflege",
+      "slug": "supermarkt/haushalt-reinigung/waschen-reinigen-pflege",
+      "visible": true,
+      "parent_code": "BeSS_0104",
+      "image": {
+        "original": "https://image.migros.ch/original/4187e91a67904fcbbbb5b901717fabe280e0ad24/waschen-reinigen-pflege.jpg",
+        "stack": "https://image.migros.ch/{stack}/4187e91a67904fcbbbb5b901717fabe280e0ad24/waschen-reinigen-pflege.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0104",
+      "name": "Haushalt & Reinigung",
+      "slug": "supermarkt/haushalt-reinigung",
+      "visible": true,
+      "title": "Reinigung mit der Migros – Reiniger für Haushalt und Garten",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/e5da3225980543e0c7ddcc443069f331d94e8439/haushalt-reinigung.png",
+        "stack": "https://image.migros.ch/{stack}/e5da3225980543e0c7ddcc443069f331d94e8439/haushalt-reinigung.png"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_Pulverwaschmittel_WaschenTextilpflege_HaushaltReinigung",
+        "name": "Pulverwaschmittel",
+        "slug": "amigos/haushalt-reinigung/waschen-textilpflege/pulverwaschmittel",
+        "visible": true,
+        "parent_code": "AMIG_CAT_WaschenTextilpflege_HaushaltReinigung",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_WaschenTextilpflege_HaushaltReinigung",
+        "name": "Waschen & Textilpflege",
+        "slug": "amigos/haushalt-reinigung/waschen-textilpflege",
+        "visible": true,
+        "parent_code": "AMIG_CAT_HaushaltReinigung",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_HaushaltReinigung",
+        "name": "Haushalt & Reinigung",
+        "slug": "amigos/haushalt-reinigung",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "features": [
+    {
+      "label_code": "miso_oeko_hinweis",
+      "label": "Öko Hinweis",
+      "values": [
+        {
+          "value_code": "MISO_biologisch_gut_abbaubar_OECD_test_302B_ergaenzt_mit_CO2_analytik",
+          "value": "Biologisch gut abbaubar (OECD-Test 302B, ergänzt mit CO2-Analytik)"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "miso_gefahrenhinweise",
+      "label": "Gefahrenhinweise",
+      "values": [
+        {
+          "value": "Darf nicht in die Hände von Kindern gelangen."
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "miso_anwendbarkeit_beschaffenheit_form",
+      "label": "Form",
+      "values": [
+        {
+          "value_code": "MISO_babywaschmittel",
+          "value": "Babywaschmittel"
+        },
+        {
+          "value_code": "MISO_pulver",
+          "value": "Pulver"
+        },
+        {
+          "value_code": "MISO_konzentrat",
+          "value": "Konzentrat"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "miso_waschgaenge",
+      "label": "Waschgänge",
+      "values": [
+        {
+          "value_code": "NUMERIC_21",
+          "value": "21",
+          "numeric_value": 21
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "miso_inhalt",
+      "label": "Inhalt",
+      "values": [
+        {
+          "value_code": "NUMERIC_1.5",
+          "value": "1.5 kg",
+          "numeric_value": 1.5
+        }
+      ],
+      "top_fact": false,
+      "unit_code": "kg",
+      "unit": "Kilogramm",
+      "unit_symbol": "kg"
+    },
+    {
+      "label_code": "miso_geeignet_fuer",
+      "label": "Geeignet für",
+      "values": [
+        {
+          "value_code": "MISO_baumwolle",
+          "value": "Baumwolle"
+        },
+        {
+          "value_code": "MISO_kunstfaser_synthetik",
+          "value": "Kunstfaser / Synthetik"
+        },
+        {
+          "value_code": "MISO_mischgewebe",
+          "value": "Mischgewebe"
+        },
+        {
+          "value_code": "MISO_weisses",
+          "value": "Weisses"
+        },
+        {
+          "value_code": "MISO_farbiges",
+          "value": "Farbiges"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "miso_nicht_geeignet_fuer",
+      "label": "Nicht geeignet für",
+      "values": [
+        {
+          "value_code": "MISO_wolle",
+          "value": "Wolle"
+        },
+        {
+          "value_code": "MISO_seide",
+          "value": "Seide"
+        },
+        {
+          "value_code": "MISO_feines",
+          "value": "Feines"
+        },
+        {
+          "value_code": "MISO_kaschmir",
+          "value": "Kaschmir"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "miso_temperaturbereich",
+      "label": "Temperaturbereich",
+      "values": [
+        {
+          "value": "20-95"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "miso_zusatz_hinweis",
+      "label": "Zusatz Hinweis",
+      "values": [
+        {
+          "value_code": "MISO_hautvertraeglichkeit_dermatologisch_bestaetigt",
+          "value": "Hautverträglichkeit dermatologisch bestätigt"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "CHEMICALS_WARNING",
+      "label": "Warnhinweis",
+      "values": [
+        {
+          "value": "Vor Gebrauch stets Kennzeichnung und Produktinformationen lesen."
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/ecd84ebe724ae34b6a26173e57397cc2f6972dab/milette-specialwaschmittel-pulver.jpg",
+    "stack": "https://image.migros.ch/{stack}/ecd84ebe724ae34b6a26173e57397cc2f6972dab/milette-specialwaschmittel-pulver.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/6e51d75580d0e1deed1d5fb0846421adbe0d709c/milette-specialwaschmittel-pulver.png",
+    "stack": "https://image.migros.ch/{stack}/6e51d75580d0e1deed1d5fb0846421adbe0d709c/milette-specialwaschmittel-pulver.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Normalposition"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "ZHKS"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_RISK_CLASS",
+      "values": [
+        {
+          "value_code": "2",
+          "value": "2 (medium)"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_QUALITY_CHECK",
+      "values": [
+        {
+          "value_code": "00",
+          "value": "Keine Prüfung"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZHKS",
+          "value": "HKS Standardartikel"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "H",
+          "value": "HKS Standard"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "50299",
+          "value": "PULVER"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_LIFECYCLE",
+      "values": [
+        {
+          "value_code": "D",
+          "value": "Detailhandelsartikel"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 1,
+    "percentage": 7.7
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/500117800000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/milette-specialwaschmittel-pulver",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/500117800000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/milette-specialwaschmittel-pulver",
+      "type": "info",
+      "purchasable": false
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/108773",
+      "app_url": "leshop:///catalog/article/detail?ean=7617300719407",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/milette-specialwaschmittel-pulver",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "updated_at": "2020-09-16T06:00:19+0200",
+  "receipt_text": "Milette Pulver 1.5KG",
+  "price": {
+    "valid_from": "2019-04-01T00:00:00+0200",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 13.95,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "1.5kg"
+    },
+    "base": {
+      "price": 9.3,
+      "quantity": 1,
+      "unit": "kg"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 3,
+    "average_all": 2.333333333333
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

@@ -1,0 +1,396 @@
+{
+  "id": "230560052002",
+  "language": "de",
+  "name": "M-Budget Geflügel Cervelas",
+  "slug": "m-budget-gefluegel-cervelas",
+  "boss_number": "040114502510",
+  "description": {
+    "text": "Poulet-Cervelas ist eine ger&auml;ucherte Br&uuml;hwurst",
+    "source": "PIM"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "source-qim-origins",
+    "validity-range-not-set",
+    "source-qim-fooddeclaration",
+    "source-qim-nutritionfacts",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7613269786962"
+  ],
+  "brand": {
+    "id": "N26",
+    "name": "M-Budget",
+    "slug": "m-budget",
+    "links": {
+      "homepage": {
+        "url": "https://m-budget.migros.ch/de.html",
+        "name": "Homepage",
+        "type": "info",
+        "purchasable": false
+      }
+    },
+    "image": {
+      "original": "https://image.migros.ch/original/1d1a13e240a94a7e1fa8ef99f15ce5b896f3486b/m-budget.jpg",
+      "stack": "https://image.migros.ch/{stack}/1d1a13e240a94a7e1fa8ef99f15ce5b896f3486b/m-budget.jpg"
+    }
+  },
+  "labels": [
+    {
+      "id": "L53",
+      "name": "Swissness",
+      "slug": "swissness",
+      "image": {
+        "original": "https://image.migros.ch/original/d771bba2f6b08ba42970ea0243c6f8c5a8832f15/swissness.jpg",
+        "stack": "https://image.migros.ch/{stack}/d771bba2f6b08ba42970ea0243c6f8c5a8832f15/swissness.jpg"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_0101061101",
+      "name": "Aufschnitt, Rohfleischwaren und Wurstwaren aus Geflügelfleisch",
+      "slug": "supermarkt/lebensmittel/fleisch/charcuterie-produkte/aufschnitt-rohfleischwaren-und-wurstwaren-aus-gefluegelfleis",
+      "visible": true,
+      "parent_code": "BeSS_01010611",
+      "image": {
+        "original": "https://image.migros.ch/original/adf225c06ab8ef3a6d68eb4a0e2e9c168e6c6f7a/aufschnitt-rohfleischwaren-und-wurstwaren-aus-gefluegelfleis.jpg",
+        "stack": "https://image.migros.ch/{stack}/adf225c06ab8ef3a6d68eb4a0e2e9c168e6c6f7a/aufschnitt-rohfleischwaren-und-wurstwaren-aus-gefluegelfleis.jpg"
+      },
+      "level": 5
+    },
+    {
+      "code": "BeSS_01010611",
+      "name": "Charcuterie Produkte",
+      "slug": "supermarkt/lebensmittel/fleisch/charcuterie-produkte",
+      "visible": true,
+      "title": "Vielfältige Charcuterie-Produkte jetzt in Ihrer Migros",
+      "parent_code": "BeSS_010106",
+      "image": {
+        "original": "https://image.migros.ch/original/25316d2bc38d6c6d28b266513291b23735ad8a1f/charcuterie-produkte.jpg",
+        "stack": "https://image.migros.ch/{stack}/25316d2bc38d6c6d28b266513291b23735ad8a1f/charcuterie-produkte.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010106",
+      "name": "Fleisch",
+      "slug": "supermarkt/lebensmittel/fleisch",
+      "visible": true,
+      "title": "Fleisch ausgezeichneter Qualität aus Ihrer Migros: einfach gut",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/03d32c0880d7a9ea6e58971966032e65ac442b58/fleisch.jpg",
+        "stack": "https://image.migros.ch/{stack}/03d32c0880d7a9ea6e58971966032e65ac442b58/fleisch.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_Wuerste_CharcuterieWurstwaren_FleischFisch",
+        "name": "Würste",
+        "slug": "amigos/fleisch-fisch/charcuterie-wurstwaren/wuerste",
+        "visible": true,
+        "parent_code": "AMIG_CAT_CharcuterieWurstwaren_FleischFisch",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_CharcuterieWurstwaren_FleischFisch",
+        "name": "Charcuterie & Wurstwaren",
+        "slug": "amigos/fleisch-fisch/charcuterie-wurstwaren",
+        "visible": true,
+        "parent_code": "AMIG_CAT_FleischFisch",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_FleischFisch",
+        "name": "Fleisch & Fisch",
+        "slug": "amigos/fleisch-fisch",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "features": [
+    {
+      "label_code": "MISO_mussgekuehltwerden",
+      "label": "Muss gekühlt werden",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_anzahlentnehmbarereinzelportionen",
+      "label": "Anzahl entnehmbarer Einzeleinheiten",
+      "values": [
+        {
+          "value_code": "NUMERIC_5.0",
+          "value": "5.0",
+          "numeric_value": 5
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_kunststoffverpackung",
+          "value": "Kunststoff-Verpackung"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zubereitungsverfahren",
+      "label": "Hinweise für die Zubereitung",
+      "values": [
+        {
+          "value_code": "MISO_zubereitungsverfahren_grillieren",
+          "value": "Grillieren"
+        },
+        {
+          "value_code": "MISO_zubereitungsverfahren_verzehrfertig",
+          "value": "Verzehrfertig"
+        },
+        {
+          "value_code": "MISO_zubereitungsverfahren_zumrohessen",
+          "value": "Zum Rohessen"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_fleischform",
+      "label": "Fleischform bearbeitet",
+      "values": [
+        {
+          "value_code": "MISO_fleischform_wurst",
+          "value": "Wurst"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_tierartodergattung",
+      "label": "Tierart oder Gattung",
+      "values": [
+        {
+          "value_code": "MISO_tierartodergattung_poulet",
+          "value": "Poulet"
+        },
+        {
+          "value_code": "MISO_tierartodergattung_truthahn",
+          "value": "Truthahn"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_verpackungsform",
+      "label": "Verpackungsform",
+      "values": [
+        {
+          "value_code": "MISO_verpackungsform_schutzatmosphaere",
+          "value": "Schutzatmosphäre"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_herstellungsverfahrenvonfleisch",
+      "label": "Herstellungsverfahren von Fleisch",
+      "values": [
+        {
+          "value_code": "MISO_herstellungsverfahrenvonfleisch_gekocht",
+          "value": "gekocht"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_haltbarmachung",
+      "label": "Haltbarmachung",
+      "values": [
+        {
+          "value_code": "MISO_haltbarmachung_geraeuchert",
+          "value": "geräuchert"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_fleischstueck",
+      "label": "Fleischstück",
+      "values": [
+        {
+          "value_code": "MISO_fleischstueck_wurstfleisch",
+          "value": "Wurstfleisch"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/eec4361bce8c469c20cee09f49870e80e19dcc41/m-budget-gefluegel-cervelas.jpg",
+    "stack": "https://image.migros.ch/{stack}/eec4361bce8c469c20cee09f49870e80e19dcc41/m-budget-gefluegel-cervelas.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/8ce8739150b25b00870defab87d00ebf618fb0aa/m-budget-gefluegel-cervelas.png",
+    "stack": "https://image.migros.ch/{stack}/8ce8739150b25b00870defab87d00ebf618fb0aa/m-budget-gefluegel-cervelas.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_sortierung",
+      "label": "Sortierung aMigos",
+      "values": [
+        {
+          "value_code": "NUMERIC_190",
+          "value": "190",
+          "numeric_value": 190
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZFRP",
+          "value": "Frische Beschaffung"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "6",
+          "value": "Fleisch-Fisch-Geflüg"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "71226",
+          "value": "GEFLUEGEL CHARCUTERIE"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/230560052002",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/m-budget-gefluegel-cervelas",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/230560052002",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/m-budget-gefluegel-cervelas",
+      "type": "info",
+      "purchasable": false
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/4956157",
+      "app_url": "leshop:///catalog/article/detail?ean=7613269786962",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/m-budget-gefluegel-cervelas",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "updated_at": "2020-09-16T05:50:47+0200",
+  "receipt_text": "MBud Geflügel Cervelas",
+  "price": {
+    "valid_from": "2018-01-29T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 3.7,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "500g"
+    },
+    "base": {
+      "price": 0.74,
+      "quantity": 100,
+      "unit": "g"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 6,
+    "average_all": 4.333333333333
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

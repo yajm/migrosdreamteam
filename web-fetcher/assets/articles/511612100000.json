@@ -1,0 +1,191 @@
+{
+  "id": "511612100000",
+  "language": "de",
+  "name": "Tabac Original After Shave Lotion",
+  "slug": "tabac-original-after-shave-lotion",
+  "boss_number": "090213113510",
+  "tags": [
+    "source-pim",
+    "near-non-food",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "4011700431205"
+  ],
+  "brand": {
+    "id": "J43",
+    "name": "Parfüm Fremdmarke",
+    "slug": "parfuem-fremdmarke"
+  },
+  "categories": [
+    {
+      "code": "BeSS_01110701",
+      "name": "Rasieren",
+      "slug": "supermarkt/beauty/maennerpflege/rasieren",
+      "visible": true,
+      "parent_code": "BeSS_011107",
+      "level": 4
+    },
+    {
+      "code": "BeSS_011107",
+      "name": "Männerpflege",
+      "slug": "supermarkt/beauty/maennerpflege",
+      "visible": true,
+      "parent_code": "BeSS_0111",
+      "level": 3
+    },
+    {
+      "code": "BeSS_0111",
+      "name": "Beauty",
+      "slug": "supermarkt/beauty",
+      "visible": true,
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/293925170bd129344f9259c67a15e903f881bef8/beauty.jpg",
+        "stack": "https://image.migros.ch/{stack}/293925170bd129344f9259c67a15e903f881bef8/beauty.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "features": [
+    {
+      "label_code": "MISO_produkttyp",
+      "label": "Produkttyp",
+      "values": [
+        {
+          "value_code": "MISO_produkttyp_preaftershave",
+          "value": "Pre- / Aftershave"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_geeignet_fuer",
+      "label": "Geeignet für",
+      "values": [
+        {
+          "value_code": "MISO_geeignet_fuer_normalehaut",
+          "value": "Normale Haut"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/de1f13bc5bdaf9c9bc82ac4db0ba9d3e3c664033/tabac-original-after-shave-lotion.jpg",
+    "stack": "https://image.migros.ch/{stack}/de1f13bc5bdaf9c9bc82ac4db0ba9d3e3c664033/tabac-original-after-shave-lotion.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/7e126de73f9591a01ed88cf308737976e0e43281/tabac-original-after-shave-lotion.png",
+    "stack": "https://image.migros.ch/{stack}/7e126de73f9591a01ed88cf308737976e0e43281/tabac-original-after-shave-lotion.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZHKS",
+          "value": "HKS Standardartikel"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_QUALITY_CHECK",
+      "values": [
+        {
+          "value_code": "00",
+          "value": "Keine Prüfung"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_RISK_CLASS",
+      "values": [
+        {
+          "value_code": "1",
+          "value": "1 (high)"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "H",
+          "value": "HKS Standard"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "50178",
+          "value": "HERRENDUEFTE"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 1,
+    "percentage": 7.7
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/511612100000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/tabac-original-after-shave-lotion",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/511612100000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/tabac-original-after-shave-lotion",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "updated_at": "2020-09-09T09:37:43+0200",
+  "receipt_text": "Tabac After Shave",
+  "price": {
+    "valid_from": "2018-01-29T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 17.5,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "100ml"
+    },
+    "base": {
+      "price": 17.5,
+      "quantity": 100,
+      "unit": "ml"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

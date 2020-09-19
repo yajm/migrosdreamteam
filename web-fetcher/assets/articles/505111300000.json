@@ -1,0 +1,392 @@
+{
+  "id": "505111300000",
+  "language": "de",
+  "name": "Optimum Motten-Gel",
+  "slug": "optimum-motten-gel-505111300000",
+  "boss_number": "150126831505",
+  "description": {
+    "text": "Optimum Motten-Gel vertreibt Motten durch nat&uuml;rliches Lavendel&ouml;l und sch&uuml;tzt Ihre Kleider vorbeugend. Direkt nach dem &Ouml;ffnen entfaltet das Produkt seine Wirkung. Anwendungsgebiet: Schr&auml;nke, Schubladen, Ruhen usw.",
+    "source": "PEX"
+  },
+  "tags": [
+    "source-pex",
+    "near-non-food",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7613312007297",
+    "7613312007303"
+  ],
+  "brand": {
+    "id": "134",
+    "name": "Optimum",
+    "slug": "optimum"
+  },
+  "categories": [
+    {
+      "code": "BeSS_010403",
+      "name": "Insektizide",
+      "slug": "supermarkt/haushalt-reinigung/insektizide",
+      "visible": true,
+      "parent_code": "BeSS_0104",
+      "image": {
+        "original": "https://image.migros.ch/original/da2a51364e41c928bbbd2d014487984def0938cb/insektizide.jpg",
+        "stack": "https://image.migros.ch/{stack}/da2a51364e41c928bbbd2d014487984def0938cb/insektizide.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0104",
+      "name": "Haushalt & Reinigung",
+      "slug": "supermarkt/haushalt-reinigung",
+      "visible": true,
+      "title": "Reinigung mit der Migros – Reiniger für Haushalt und Garten",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/e5da3225980543e0c7ddcc443069f331d94e8439/haushalt-reinigung.png",
+        "stack": "https://image.migros.ch/{stack}/e5da3225980543e0c7ddcc443069f331d94e8439/haushalt-reinigung.png"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_InsektizideDuenger_Haushalt_HaushaltReinigung",
+        "name": "Insektizide & Dünger",
+        "slug": "amigos/haushalt-reinigung/haushalt/insektizide-duenger",
+        "visible": true,
+        "parent_code": "AMIG_CAT_Haushalt_HaushaltReinigung",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_Haushalt_HaushaltReinigung",
+        "name": "Haushalt",
+        "slug": "amigos/haushalt-reinigung/haushalt",
+        "visible": true,
+        "parent_code": "AMIG_CAT_HaushaltReinigung",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_HaushaltReinigung",
+        "name": "Haushalt & Reinigung",
+        "slug": "amigos/haushalt-reinigung",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "features": [
+    {
+      "label_code": "miso_spezielle_eigenschaften",
+      "label": "Spezielle Eigenschaften",
+      "values": [
+        {
+          "value": "Insektizidfrei mit natürlichem Lavendelöl"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "miso_gefahrenhinweise",
+      "label": "Gefahrenhinweise",
+      "values": [
+        {
+          "value": "Nach Gebrauch Hände gründlich waschen. Kann allergische Reaktionen hervorrufen. Darf nicht in die Hände von Kindern gelangen. Vorsicht bei lackierten Oberflächen. n"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "miso_anwendbarkeit_beschaffenheit_form",
+      "label": "Form",
+      "values": [
+        {
+          "value_code": "MISO_mit_integriertem_Wirkstoff",
+          "value": "Mit integriertem Wirkstoff"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "miso_inhalt",
+      "label": "Inhalt",
+      "values": [
+        {
+          "value": "2 Hänger à 3 ml"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "miso_zur_bekaempfung_von",
+      "label": "Zur Bekämpfung von",
+      "values": [
+        {
+          "value_code": "MISO_kleidermotten",
+          "value": "Kleidermotten"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "miso_wirkung",
+      "label": "Wirkung",
+      "values": [
+        {
+          "value_code": "MISO_langzeitwirkung",
+          "value": "Langzeitwirkung"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "CHEMICALS_WARNING",
+      "label": "Warnhinweis",
+      "values": [
+        {
+          "value": "Vor Gebrauch stets Kennzeichnung und Produktinformationen lesen."
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/a1d971bf87f6f908600dd217938ac97dac767982/optimum-motten-gel.jpg",
+    "stack": "https://image.migros.ch/{stack}/a1d971bf87f6f908600dd217938ac97dac767982/optimum-motten-gel.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/eff197c46c0bb0e9a07a38b9ea43381dc8e329fe/optimum-motten-gel.png",
+    "stack": "https://image.migros.ch/{stack}/eff197c46c0bb0e9a07a38b9ea43381dc8e329fe/optimum-motten-gel.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_sortierung",
+      "label": "Sortierung aMigos",
+      "values": [
+        {
+          "value_code": "NUMERIC_170",
+          "value": "170",
+          "numeric_value": 170
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_volumen",
+      "label": "Volumen aMigos!",
+      "values": [
+        {
+          "value_code": "NUMERIC_0.0204",
+          "value": "0.0204 l",
+          "numeric_value": 0.0204
+        }
+      ],
+      "top_fact": false,
+      "unit_code": "l",
+      "unit": "Liter",
+      "unit_symbol": "l"
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Normalposition"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "ZHKS"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUSTOMS_POSITION",
+      "values": [
+        {
+          "value_code": "NUMERIC_38089190",
+          "value": "38089190",
+          "numeric_value": 38089190
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_RISK_CLASS",
+      "values": [
+        {
+          "value_code": "2",
+          "value": "2 (medium)"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_QUALITY_CHECK",
+      "values": [
+        {
+          "value_code": "00",
+          "value": "Keine Prüfung"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZHKS",
+          "value": "HKS Standardartikel"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "H",
+          "value": "HKS Standard"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "50219",
+          "value": ""
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_LIFECYCLE",
+      "values": [
+        {
+          "value_code": "D",
+          "value": "Detailhandelsartikel"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 1,
+    "percentage": 7.7
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/505111300000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/optimum-motten-gel-505111300000",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/505111300000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/optimum-motten-gel-505111300000",
+      "type": "info",
+      "purchasable": false
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/217391",
+      "app_url": "leshop:///catalog/article/detail?ean=7613312007297",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/optimum-motten-gel-505111300000",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "updated_at": "2020-09-16T06:39:31+0200",
+  "receipt_text": "Optimium Motten-Gel",
+  "price": {
+    "valid_from": "2018-01-29T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 3.7,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "2 Stk."
+    },
+    "base": {
+      "price": 1.85,
+      "quantity": 1,
+      "unit": "st"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 2,
+    "average_all": 2
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

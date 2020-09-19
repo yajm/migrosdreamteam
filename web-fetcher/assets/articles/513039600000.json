@@ -1,0 +1,368 @@
+{
+  "id": "513039600000",
+  "language": "de",
+  "name": "Alvaros shampoo douche",
+  "slug": "alvaros-shampoo-douche",
+  "boss_number": "090213113040",
+  "tags": [
+    "source-pim",
+    "near-non-food",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7630028612348",
+    "7624900125132"
+  ],
+  "brand": {
+    "id": "005",
+    "name": "Alvaros",
+    "slug": "alvaros"
+  },
+  "categories": [
+    {
+      "code": "BeSS_01110101",
+      "name": "Haarpflege",
+      "slug": "supermarkt/beauty/haare/haarpflege",
+      "visible": true,
+      "parent_code": "BeSS_011101",
+      "level": 4
+    },
+    {
+      "code": "BeSS_011101",
+      "name": "Haare",
+      "slug": "supermarkt/beauty/haare",
+      "visible": true,
+      "parent_code": "BeSS_0111",
+      "level": 3
+    },
+    {
+      "code": "BeSS_0111",
+      "name": "Beauty",
+      "slug": "supermarkt/beauty",
+      "visible": true,
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/293925170bd129344f9259c67a15e903f881bef8/beauty.jpg",
+        "stack": "https://image.migros.ch/{stack}/293925170bd129344f9259c67a15e903f881bef8/beauty.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "BeSS_01110301",
+        "name": "Duschen",
+        "slug": "supermarkt/beauty/koerperpflege/duschen",
+        "visible": true,
+        "parent_code": "BeSS_011103",
+        "level": 4
+      },
+      {
+        "code": "BeSS_011103",
+        "name": "Körperpflege",
+        "slug": "supermarkt/beauty/koerperpflege",
+        "visible": true,
+        "parent_code": "BeSS_0111",
+        "level": 3
+      },
+      {
+        "code": "BeSS_0111",
+        "name": "Beauty",
+        "slug": "supermarkt/beauty",
+        "visible": true,
+        "parent_code": "BeSS_01",
+        "image": {
+          "original": "https://image.migros.ch/original/293925170bd129344f9259c67a15e903f881bef8/beauty.jpg",
+          "stack": "https://image.migros.ch/{stack}/293925170bd129344f9259c67a15e903f881bef8/beauty.jpg"
+        },
+        "level": 2
+      },
+      {
+        "code": "BeSS_01",
+        "name": "Supermarkt",
+        "slug": "supermarkt",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ],
+    [
+      {
+        "code": "BeSS_01110704",
+        "name": "Körperpflege",
+        "slug": "supermarkt/beauty/maennerpflege/koerperpflege",
+        "visible": true,
+        "parent_code": "BeSS_011107",
+        "level": 4
+      },
+      {
+        "code": "BeSS_011107",
+        "name": "Männerpflege",
+        "slug": "supermarkt/beauty/maennerpflege",
+        "visible": true,
+        "parent_code": "BeSS_0111",
+        "level": 3
+      },
+      {
+        "code": "BeSS_0111",
+        "name": "Beauty",
+        "slug": "supermarkt/beauty",
+        "visible": true,
+        "parent_code": "BeSS_01",
+        "image": {
+          "original": "https://image.migros.ch/original/293925170bd129344f9259c67a15e903f881bef8/beauty.jpg",
+          "stack": "https://image.migros.ch/{stack}/293925170bd129344f9259c67a15e903f881bef8/beauty.jpg"
+        },
+        "level": 2
+      },
+      {
+        "code": "BeSS_01",
+        "name": "Supermarkt",
+        "slug": "supermarkt",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ],
+    [
+      {
+        "code": "AMIG_CAT_DuschgelBadSeife_Koerperpflege_HygieneGesundheitBaby",
+        "name": "Duschgel, Bad & Seife",
+        "slug": "amigos/hygiene-gesundheit-baby/koerperpflege/duschgel-bad-seife",
+        "visible": true,
+        "parent_code": "AMIG_CAT_Koerperpflege_HygieneGesundheitBaby",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_Koerperpflege_HygieneGesundheitBaby",
+        "name": "Körperpflege",
+        "slug": "amigos/hygiene-gesundheit-baby/koerperpflege",
+        "visible": true,
+        "parent_code": "AMIG_CAT_HygieneGesundheitBaby",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_HygieneGesundheitBaby",
+        "name": "Hygiene, Gesundheit & Baby",
+        "slug": "amigos/hygiene-gesundheit-baby",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "features": [
+    {
+      "label_code": "MISO_geeignet_fuer",
+      "label": "Geeignet für",
+      "values": [
+        {
+          "value_code": "MISO_geeignet_fuer_normaleshaar",
+          "value": "Normales Haar"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_produkttyp",
+      "label": "Produkttyp",
+      "values": [
+        {
+          "value_code": "MISO_produkttyp_shampoo",
+          "value": "Shampoo"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_geeignet_fuer",
+      "label": "Geeignet für",
+      "values": [
+        {
+          "value_code": "MISO_geeignet_fuer_normalehaut",
+          "value": "Normale Haut"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_kundengruppe",
+      "label": "Kundengruppe",
+      "values": [
+        {
+          "value_code": "MISO_kundengruppe_maenner",
+          "value": "Männer"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_anwendung",
+      "label": "Anwendung",
+      "values": [
+        {
+          "value_code": "MISO_anwendung_duschen",
+          "value": "Duschen"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/d3e6be9701d0ad109bd0d8377808baef50398905/alvaros-shampoo-douche.jpg",
+    "stack": "https://image.migros.ch/{stack}/d3e6be9701d0ad109bd0d8377808baef50398905/alvaros-shampoo-douche.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/06ebbc1581d8f5a99a0874f334f0f98c61bb8bbb/alvaros-shampoo-douche.png",
+    "stack": "https://image.migros.ch/{stack}/06ebbc1581d8f5a99a0874f334f0f98c61bb8bbb/alvaros-shampoo-douche.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_sortierung",
+      "label": "Sortierung aMigos",
+      "values": [
+        {
+          "value_code": "NUMERIC_1050",
+          "value": "1050",
+          "numeric_value": 1050
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZHKS",
+          "value": "HKS Standardartikel"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_QUALITY_CHECK",
+      "values": [
+        {
+          "value_code": "00",
+          "value": "Keine Prüfung"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_RISK_CLASS",
+      "values": [
+        {
+          "value_code": "1",
+          "value": "1 (high)"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "X",
+          "value": "Auslaufartikel"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "50177",
+          "value": "PFLEGE MEN"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 1,
+    "percentage": 7.7
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/513039600000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/alvaros-shampoo-douche",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/513039600000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/alvaros-shampoo-douche",
+      "type": "info",
+      "purchasable": false
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/5005387",
+      "app_url": "leshop:///catalog/article/detail?ean=7630028612348",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/alvaros-shampoo-douche",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "updated_at": "2020-09-16T06:03:29+0200",
+  "receipt_text": "Alvaros Shampoo douche",
+  "price": {
+    "valid_from": "2018-01-01T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 2.9,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "250ml"
+    },
+    "base": {
+      "price": 1.16,
+      "quantity": 100,
+      "unit": "ml"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}
