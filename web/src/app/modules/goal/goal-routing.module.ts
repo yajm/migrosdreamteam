@@ -9,7 +9,7 @@ const routes: Routes = [
     component: GoalComponent,
   },
   {
-    path: ':scale',
+    path: ':score',
     component: GoalTipComponent,
   },
 ];

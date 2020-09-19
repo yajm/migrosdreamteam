@@ -3,4 +3,14 @@
   <app-navbar-title>Goal tips</app-navbar-title>
 </app-navbar>
 <app-page-content>
+  <div class="flex flex-no-wrap bg-gray-400 rounded-full m-3">
+    <div class="flex-grow flex justify-center py-2 rounded-full cursor-pointer" [ngClass]="{'bg-orange-500 text-white': selected === 'best'}" (click)="select('best')">Do's</div>
+    <div class="flex-grow flex justify-center py-2 rounded-full cursor-pointer" [ngClass]="{'bg-orange-500 text-white': selected === 'worst'}" (click)="select('worst')">Don'ts</div>
+  </div>
+
+  <div>
+    <app-scrollable-list>
+      <app-product-card class="list-item" *ngFor="let product of activeProducts" [product]="product" [scoreKey]="scoreKey"></app-product-card>
+    </app-scrollable-list>
+  </div>
 </app-page-content>

@@ -9,9 +9,13 @@ import { PageModule } from '../page/page.module';
 import { NavbarModule } from '../navbar/navbar.module';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { GoalTipComponent } from './components/goal-tip/goal-tip.component';
+import { GoalStateService } from './services/goal-state.service';
+import { ProductCardModule } from '../product-card/product-card.module';
+import { ScrollableListModule } from '../scrollable-list/scrollable-list.module';
 
 @NgModule({
   declarations: [GoalComponent, GoalTipComponent],
+  providers: [GoalStateService],
   imports: [
     CommonModule,
     ApiModule,
@@ -20,6 +24,8 @@ import { GoalTipComponent } from './components/goal-tip/goal-tip.component';
     PageModule,
     NavbarModule,
     FontAwesomeModule,
+    ProductCardModule,
+    ScrollableListModule,
   ],
 })
 export class GoalModule {}

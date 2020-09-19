@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { AssetApiService } from '../../../api/services/asset-api.service';
 import { Goal } from '../../models/goal';
 import { faArrowRight, faBullseye } from '@fortawesome/pro-light-svg-icons';
+import { GoalStateService } from '../../services/goal-state.service';
 
 @Component({
   selector: 'app-goal',
@@ -13,9 +13,9 @@ export class GoalComponent implements OnInit {
   goalIcon = faBullseye;
   navigateIcon = faArrowRight;
 
-  constructor(private assetApi: AssetApiService) {}
+  constructor(private goalState: GoalStateService) {}
 
   async ngOnInit() {
-    this.goal = await this.assetApi.getGoal();
+    this.goal = await this.goalState.getGoal();
   }
 }

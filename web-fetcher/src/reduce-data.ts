@@ -195,6 +195,8 @@ async function main() {
   function aggregateGoalScore(scoreKey: string) {
     let score = 0;
     let count = 0;
+
+    const uniqueArticles: { [key: string]: ReducedArticleData } = {};
     for (const purchase of purchases) {
       const articles = purchaseArticles[purchase.einkaufID].map(
         (a) => articleMap[a.artikelID]
@@ -208,12 +210,22 @@ async function main() {
       if (articlesWithScore.length === 0) {
         continue;
       }
+      for (const article of articlesWithScore) {
+        uniqueArticles[article.id] = article;
+      }
       score += articlesWithScore.reduce(
         (value, article) => article[scoreKey] + value,
         0
       );
       count += articlesWithScore.length;
     }
+
+    const allArticles = Object.keys(uniqueArticles).map(
+      (k) => uniqueArticles[k]
+    );
+    allArticles.sort((a, b) => b[scoreKey] - a[scoreKey]);
+    goals[`${scoreKey}Best`] = allArticles.slice(0, 3);
+    goals[`${scoreKey}Worst`] = allArticles.slice(allArticles.length - 3);
     goals[scoreKey] = score / count;
   }
   aggregateGoalScore('priceScore');
