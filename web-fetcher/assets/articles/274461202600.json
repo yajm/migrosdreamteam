@@ -1,0 +1,446 @@
+{
+  "id": "274461202600",
+  "language": "de",
+  "name": "Sélection Kartoffeln Raclette",
+  "names": {
+    "name": "Sélection Kartoffeln Raclette"
+  },
+  "slug": "selection-kartoffeln-raclette",
+  "boss_number": "050115220510",
+  "description": {
+    "text": "Die festkochenden Raclette Kartoffeln von S&eacute;lection haben einen einzigartig nussigen Geschmack. Sie eignen sich nicht nur f&uuml;r Raclette hervorragend, sondern auch als Gschwellti, Salzkartoffeln und f&uuml;r Salat.",
+    "source": "PIM"
+  },
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "80"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7613269562979"
+  ],
+  "brand": {
+    "id": "NB1",
+    "name": "Sélection",
+    "slug": "selection",
+    "links": {
+      "homepage": {
+        "url": "https://www.migros.ch/de/einkaufen/migros-marken/selection.html",
+        "name": "Homepage",
+        "type": "info",
+        "purchasable": false
+      }
+    },
+    "image": {
+      "original": "https://image.migros.ch/original/04f877657368f73f8ee8973aab7fd0cdfb8e2cd1/selection.jpg",
+      "stack": "https://image.migros.ch/{stack}/04f877657368f73f8ee8973aab7fd0cdfb8e2cd1/selection.jpg"
+    }
+  },
+  "categories": [
+    {
+      "code": "BeSS_0101190205",
+      "name": "Lagergemüse",
+      "slug": "supermarkt/lebensmittel/fruechte-gemuese/gemuese/lagergemuese",
+      "visible": true,
+      "title": "Für den Winter: Kartoffeln und Lagergemüse von der Migros",
+      "parent_code": "BeSS_01011902",
+      "level": 5
+    },
+    {
+      "code": "BeSS_01011902",
+      "name": "Gemüse",
+      "slug": "supermarkt/lebensmittel/fruechte-gemuese/gemuese",
+      "visible": true,
+      "title": "Mit Gem&uuml;se von der Migros jeden Tag gesund essen",
+      "parent_code": "BeSS_010119",
+      "level": 4
+    },
+    {
+      "code": "BeSS_010119",
+      "name": "Früchte & Gemüse",
+      "slug": "supermarkt/lebensmittel/fruechte-gemuese",
+      "visible": true,
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/f839060a505bba25c0f37585edb558c003c50479/fruechte-gemuese.jpg",
+        "stack": "https://image.migros.ch/{stack}/f839060a505bba25c0f37585edb558c003c50479/fruechte-gemuese.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_Kartoffeln_Gemuese_FruechteGemuese",
+        "name": "Kartoffeln",
+        "slug": "amigos/fruechte-gemuese/gemuese/kartoffeln",
+        "visible": true,
+        "parent_code": "AMIG_CAT_Gemuese_FruechteGemuese",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_Gemuese_FruechteGemuese",
+        "name": "Gemüse",
+        "slug": "amigos/fruechte-gemuese/gemuese",
+        "visible": true,
+        "parent_code": "AMIG_CAT_FruechteGemuese",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_FruechteGemuese",
+        "name": "Früchte & Gemüse",
+        "slug": "amigos/fruechte-gemuese",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "features": [
+    {
+      "label_code": "MISO_zubereitungsverfahren",
+      "label": "Hinweise für die Zubereitung",
+      "values": [
+        {
+          "value_code": "MISO_zubereitungsverfahren_kochen",
+          "value": "Kochen"
+        }
+      ],
+      "category_code": "MISO_CLA_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aufbewahrunghaltbarkeit",
+      "label": "Aufbewahrung/Haltbarkeit",
+      "values": [
+        {
+          "value_code": "MISO_aufbewahrunghaltbarkeit_imdunkelnbei8bis10clagern",
+          "value": "Im Dunkeln bei 8 bis 10° C lagern."
+        }
+      ],
+      "category_code": "MISO_CLA_Gemuese_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_sorte",
+      "label": "Sorte",
+      "values": [
+        {
+          "value_code": "MISO_sorte_kartoffelnfestkochend",
+          "value": "Kartoffeln festkochend"
+        }
+      ],
+      "category_code": "MISO_CLA_BlattgemuesefrischesGemuese_Gemuese_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/f3cba9fb4cf73f9fb467f84e0d37deef2b6494c9/selection-kartoffeln-raclette.jpg",
+    "stack": "https://image.migros.ch/{stack}/f3cba9fb4cf73f9fb467f84e0d37deef2b6494c9/selection-kartoffeln-raclette.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/7921b7276561059f8489f6963e3d8581c2df7e27/selection-kartoffeln-raclette.png",
+    "stack": "https://image.migros.ch/{stack}/7921b7276561059f8489f6963e3d8581c2df7e27/selection-kartoffeln-raclette.png"
+  },
+  "additional_images": [
+    {
+      "original": "https://image.migros.ch/original/189c3dcf148e43b7fd7669ac18a93725f3744e5f.jpg",
+      "stack": "https://image.migros.ch/{stack}/189c3dcf148e43b7fd7669ac18a93725f3744e5f.jpg"
+    }
+  ],
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_sortierung",
+      "label": "Sortierung aMigos",
+      "values": [
+        {
+          "value_code": "NUMERIC_300",
+          "value": "300",
+          "numeric_value": 300
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_verkaufseinheit",
+      "label": "Verkaufseinheit",
+      "values": [
+        {
+          "value_code": "NUMERIC_1.0",
+          "value": "1.0 Sack",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false,
+      "unit_code": "Sack",
+      "unit": "Sack",
+      "unit_symbol": "Sack"
+    },
+    {
+      "label_code": "MISO_aMigos_gewicht",
+      "label": "Gewicht aMigos!",
+      "values": [
+        {
+          "value_code": "NUMERIC_1.0",
+          "value": "1.0 kg",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false,
+      "unit_code": "kg",
+      "unit": "Kilogramm",
+      "unit_symbol": "kg"
+    },
+    {
+      "label_code": "MISO_aMigos_volumen",
+      "label": "Volumen aMigos!",
+      "values": [
+        {
+          "value_code": "NUMERIC_2.0",
+          "value": "2.0 l",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false,
+      "unit_code": "l",
+      "unit": "Liter",
+      "unit_symbol": "l"
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZFRP",
+          "value": "Frische Beschaffung"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "2",
+          "value": "Früchte und Gemüse"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "71364",
+          "value": "KARTOFFELN"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/274461202600",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/selection-kartoffeln-raclette",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/274461202600",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/selection-kartoffeln-raclette",
+      "type": "info",
+      "purchasable": false
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/3936871",
+      "app_url": "leshop:///catalog/article/detail?ean=7613269562979",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/selection-kartoffeln-raclette",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "regional_availability": {
+    "gmaa": {
+      "probability": 62
+    },
+    "gmbs": {
+      "probability": 56
+    },
+    "gmge": {
+      "probability": 77
+    },
+    "gmlu": {
+      "probability": 89
+    },
+    "gmnf": {
+      "probability": 69
+    },
+    "gmos": {
+      "probability": 0
+    },
+    "gmti": {
+      "probability": 78
+    },
+    "gmvd": {
+      "probability": 31
+    },
+    "gmvs": {
+      "probability": 21
+    },
+    "gmzh": {
+      "probability": 77
+    }
+  },
+  "updated_at": "2020-09-16T05:54:11+0200",
+  "base_unit": "CU",
+  "slugs": {
+    "de": "selection-kartoffeln-raclette",
+    "fr": "selection-pommes-de-terre-raclette",
+    "it": "selection-patate-raclette"
+  },
+  "receipt_text": "Sélec Kartoffeln Racl.",
+  "main_supplier": {
+    "name": "Steffen-Ris fenaco Genossens",
+    "id": "0010007313"
+  },
+  "price": {
+    "valid_from": "2018-01-29T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 2.9,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "1kg"
+    },
+    "base": {
+      "price": 0.29,
+      "quantity": 100,
+      "unit": "g"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 2,
+    "average_all": 5
+  },
+  "data_source": "SAP-X4x",
+  "package": {
+    "content": 1000,
+    "content_unit_code": "g",
+    "content_unit": "Gramm",
+    "net_weight": 1,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogramm",
+    "brutto_weight": 1,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 0.001,
+    "brutto_volume_unit_code": "m3",
+    "height": 10,
+    "length": 10,
+    "width": 10,
+    "unit_dimension": "cm",
+    "price_comparison_content": 100,
+    "size": "1kg"
+  },
+  "package_information": {
+    "tu": {
+      "brutto_weight": 1,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0.001,
+      "brutto_volume_unit_code": "m3",
+      "height": 10,
+      "length": 10,
+      "width": 10,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "cu": {
+      "brutto_weight": 1,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0.001,
+      "brutto_volume_unit_code": "m3",
+      "height": 10,
+      "length": 10,
+      "width": 10,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    }
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "recipe_ingredient_ids": [
+    "16654",
+    "9933589"
+  ],
+  "views": [
+    "all",
+    "browse"
+  ]
+}

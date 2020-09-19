@@ -1,0 +1,697 @@
+{
+  "id": "110177500000",
+  "language": "de",
+  "name": "Blévita Thymian-Meersalz",
+  "names": {
+    "name": "Blévita Thymian-Meersalz"
+  },
+  "slug": "blevita-thymian-meersalz",
+  "boss_number": "010210131005",
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7617400036299"
+  ],
+  "brand": {
+    "id": "018",
+    "name": "Blévita",
+    "slug": "blevita",
+    "image": {
+      "original": "https://image.migros.ch/original/2263b89f8405700b3b058af2220d0301a9f0e048/blevita.jpg",
+      "stack": "https://image.migros.ch/{stack}/2263b89f8405700b3b058af2220d0301a9f0e048/blevita.jpg"
+    }
+  },
+  "labels": [
+    {
+      "id": "L61",
+      "name": "Folsäure",
+      "slug": "folsaeure",
+      "links": {
+        "homepage": {
+          "url": "https://www.stiftung-folsäure.ch",
+          "name": "Homepage",
+          "type": "info",
+          "purchasable": false
+        }
+      },
+      "image": {
+        "original": "https://image.migros.ch/original/79c993b3586f1ec2ed154dac98a308eddfddacd8/folsaeure.jpg",
+        "stack": "https://image.migros.ch/{stack}/79c993b3586f1ec2ed154dac98a308eddfddacd8/folsaeure.jpg"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_01010817",
+      "name": "Blévita",
+      "slug": "supermarkt/lebensmittel/suessigkeiten/blevita",
+      "visible": true,
+      "title": "Bl&eacute;vita-Süssigkeiten in Ihrer Migros kaufen",
+      "parent_code": "BeSS_010108",
+      "image": {
+        "original": "https://image.migros.ch/original/ba9aac27f1b582651ebf1cd96c4ecc895644d04f/blevita.jpg",
+        "stack": "https://image.migros.ch/{stack}/ba9aac27f1b582651ebf1cd96c4ecc895644d04f/blevita.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010108",
+      "name": "Süssigkeiten",
+      "slug": "supermarkt/lebensmittel/suessigkeiten",
+      "visible": true,
+      "title": "Süssigkeiten aus Ihrer Migros: für Naschkatzen und Schleckmäuler",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/a9c80f4e896b5ebdd3b7ebbee11f956c8ff157cf/suessigkeiten.jpg",
+        "stack": "https://image.migros.ch/{stack}/a9c80f4e896b5ebdd3b7ebbee11f956c8ff157cf/suessigkeiten.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_Blevita_ChipsSnacksAperos",
+        "name": "Blévita",
+        "slug": "amigos/chips-snacks-aperos/blevita",
+        "visible": true,
+        "parent_code": "AMIG_CAT_ChipsSnacksAperos",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_ChipsSnacksAperos",
+        "name": "Chips, Snacks & Apéros",
+        "slug": "amigos/chips-snacks-aperos",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "nutrition_facts": {
+    "standard": {
+      "nutrients": [
+        {
+          "code": "PIM_NUT_ENERGIE",
+          "name": "Energie",
+          "pictogram_name": "Energie",
+          "category": "BIG9",
+          "quantity": 1818,
+          "rda_percent_operator": "=",
+          "quantity_unit": "kJ",
+          "quantity_alternate": 432,
+          "quantity_alternate_unit": "kcal"
+        },
+        {
+          "code": "PIM_NUT_GES_FETT",
+          "name": "Fett",
+          "pictogram_name": "Fett",
+          "category": "BIG9",
+          "quantity": 12,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_GESFETTS",
+          "name": "davon gesättigte Fettsäuren",
+          "pictogram_name": "gesättigte Fettsäuren",
+          "category": "BIG9",
+          "quantity": 1.2,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_GES_KOHL",
+          "name": "Kohlenhydrate",
+          "category": "BIG9",
+          "quantity": 65,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_GES_ZUCK",
+          "name": "davon Zucker",
+          "pictogram_name": "Zuckerarten",
+          "category": "BIG9",
+          "quantity": 2.7,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_GES_BALL",
+          "name": "Ballaststoffe",
+          "category": "BIG9",
+          "quantity": 6,
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_GES_EIW",
+          "name": "Eiweiss",
+          "category": "BIG9",
+          "quantity": 13,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_KOCHSALZ",
+          "name": "Salz",
+          "pictogram_name": "Salz",
+          "category": "BIG9",
+          "quantity": 2,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_FOLSAEUR",
+          "name": "Folsäure",
+          "category": "VITAMINE",
+          "quantity": 80,
+          "rda_percent": 40,
+          "rda_percent_operator": "=",
+          "quantity_unit": "ug"
+        }
+      ],
+      "base_quantity": 100,
+      "base_unit": "g"
+    },
+    "portion": {
+      "nutrients": [
+        {
+          "code": "PIM_NUT_ENERGIE",
+          "name": "Energie",
+          "pictogram_name": "Energie",
+          "category": "BIG9",
+          "quantity": 691,
+          "rda_percent": 8,
+          "rda_percent_operator": "=",
+          "quantity_unit": "kJ",
+          "quantity_alternate": 164,
+          "quantity_alternate_unit": "kcal"
+        },
+        {
+          "code": "PIM_NUT_GES_FETT",
+          "name": "Fett",
+          "pictogram_name": "Fett",
+          "category": "BIG9",
+          "quantity": 4.6,
+          "rda_percent": 7,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_GESFETTS",
+          "name": "davon gesättigte Fettsäuren",
+          "pictogram_name": "gesättigte Fettsäuren",
+          "category": "BIG9",
+          "quantity": 0.5,
+          "rda_percent": 3,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_GES_KOHL",
+          "name": "Kohlenhydrate",
+          "category": "BIG9",
+          "quantity": 25,
+          "rda_percent": 10,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_GES_ZUCK",
+          "name": "davon Zucker",
+          "pictogram_name": "Zuckerarten",
+          "category": "BIG9",
+          "quantity": 1,
+          "rda_percent": 1,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_GES_BALL",
+          "name": "Ballaststoffe",
+          "category": "BIG9",
+          "quantity": 2.3,
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_GES_EIW",
+          "name": "Eiweiss",
+          "category": "BIG9",
+          "quantity": 4.9,
+          "rda_percent": 10,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_KOCHSALZ",
+          "name": "Salz",
+          "pictogram_name": "Salz",
+          "category": "BIG9",
+          "quantity": 0.76,
+          "rda_percent": 13,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_FOLSAEUR",
+          "name": "Folsäure",
+          "category": "VITAMINE",
+          "quantity": 30,
+          "rda_percent": 15,
+          "rda_percent_operator": "=",
+          "quantity_unit": "ug"
+        }
+      ],
+      "base_description": "8 Stück (≈ 38 g)"
+    }
+  },
+  "features": [
+    {
+      "label_code": "MISO_anzahlentnehmbarereinzelportionen",
+      "label": "Anzahl entnehmbarer Einzeleinheiten",
+      "values": [
+        {
+          "value_code": "NUMERIC_6.0",
+          "value": "6.0",
+          "numeric_value": 6
+        }
+      ],
+      "category_code": "MISO_CLA_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_folienverpackung",
+          "value": "Folienverpackung"
+        }
+      ],
+      "category_code": "MISO_CLA_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_naehrwertanspruch",
+      "label": "Nährwertanspruch",
+      "values": [
+        {
+          "value_code": "MISO_naehrwertanspruch_reichanfolsaeure",
+          "value": "Reich an Folsäure"
+        }
+      ],
+      "category_code": "MISO_CLA_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zubereitungsverfahren",
+      "label": "Hinweise für die Zubereitung",
+      "values": [
+        {
+          "value_code": "MISO_zubereitungsverfahren_verzehrfertig",
+          "value": "Verzehrfertig"
+        }
+      ],
+      "category_code": "MISO_CLA_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_besonderezutaten",
+      "label": "Besondere Zutaten",
+      "values": [
+        {
+          "value_code": "MISO_besonderezutaten_meersalz",
+          "value": "Meersalz"
+        },
+        {
+          "value_code": "MISO_besonderezutaten_thymian",
+          "value": "Thymian"
+        }
+      ],
+      "category_code": "MISO_CLA_BrotBackwaren_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_artvonkeksgebaeck",
+      "label": "Art von Keks/Gebäck",
+      "values": [
+        {
+          "value_code": "MISO_artvonkeksgebaeck_dinkelgebaeck",
+          "value": "Dinkelgebäck"
+        }
+      ],
+      "category_code": "MISO_CLA_KekseGebaeck_BrotBackwaren_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_getreideart",
+      "label": "Getreideart",
+      "values": [
+        {
+          "value_code": "MISO_getreideart_dinkel",
+          "value": "Dinkel"
+        }
+      ],
+      "category_code": "MISO_CLA_KekseGebaeck_BrotBackwaren_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_herzhaftsuess",
+      "label": "Herzhaft/süss",
+      "values": [
+        {
+          "value_code": "MISO_herzhaftsuess_herzhaft",
+          "value": "herzhaft"
+        }
+      ],
+      "category_code": "MISO_CLA_KekseGebaeck_BrotBackwaren_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    }
+  ],
+  "allergens": [
+    {
+      "code": "ALLG_GLUTEN",
+      "name": "Glutenhaltige Getreide",
+      "contamination_code": "VORHANDEN",
+      "contamination": "vorhanden"
+    },
+    {
+      "code": "ALLG_MILCH",
+      "name": "Milch",
+      "contamination_code": "VORHANDEN",
+      "contamination": "vorhanden"
+    },
+    {
+      "code": "ALLG_SESAM",
+      "name": "Sesamsamen",
+      "contamination_code": "KANN_ENTHALTEN",
+      "contamination": "kann enthalten"
+    }
+  ],
+  "general_information": [
+    {
+      "label": "Auslobung",
+      "value": "Dinkelgebäck\r\n6 Blévita\r\n8 Stück/pièces/pezzi 38g"
+    },
+    {
+      "label": "Auslobung",
+      "value": "Reich an Ballaststoffen \r\nProteinquelle"
+    },
+    {
+      "label": "Ergänzungen",
+      "value": "Folsäure-Logo"
+    },
+    {
+      "label": "Haltbarkeitshinweis",
+      "value": "Trocken lagern und vor Wärme schützen."
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/03275f714e992a2928274aa7822f58737b07cf24/blevita-thymian-meersalz.jpg",
+    "stack": "https://image.migros.ch/{stack}/03275f714e992a2928274aa7822f58737b07cf24/blevita-thymian-meersalz.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/3e4d6788aa97de63f1852f92e70599943817b54e/blevita-thymian-meersalz.png",
+    "stack": "https://image.migros.ch/{stack}/3e4d6788aa97de63f1852f92e70599943817b54e/blevita-thymian-meersalz.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_sortierung",
+      "label": "Sortierung aMigos",
+      "values": [
+        {
+          "value_code": "NUMERIC_140",
+          "value": "140",
+          "numeric_value": 140
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "M",
+          "value": "Kolonial Standard"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "10254",
+          "value": "BLEVITA PORTIONEN"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "regulated_description": "Dinkelgebäck mit Thymian und Meersalz",
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/110177500000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/blevita-thymian-meersalz",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/110177500000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/blevita-thymian-meersalz",
+      "type": "info",
+      "purchasable": false
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/121310",
+      "app_url": "leshop:///catalog/article/detail?ean=7617400036299",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/blevita-thymian-meersalz",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "regional_availability": {
+    "gmaa": {
+      "probability": 97
+    },
+    "gmbs": {
+      "probability": 100
+    },
+    "gmge": {
+      "probability": 90
+    },
+    "gmlu": {
+      "probability": 98
+    },
+    "gmnf": {
+      "probability": 98
+    },
+    "gmos": {
+      "probability": 100
+    },
+    "gmti": {
+      "probability": 100
+    },
+    "gmvd": {
+      "probability": 86
+    },
+    "gmvs": {
+      "probability": 79
+    },
+    "gmzh": {
+      "probability": 90
+    }
+  },
+  "updated_at": "2020-09-16T05:41:58+0200",
+  "base_unit": "CU",
+  "slugs": {
+    "de": "blevita-thymian-meersalz",
+    "fr": "blevita-thym-sel-marin",
+    "it": "blevita-timo-sale-marino"
+  },
+  "receipt_text": "Blévita Dinkelgebäck",
+  "main_supplier": {
+    "name": "MIDOR AG",
+    "id": "0003900000",
+    "supplier_product_id": "110177500000"
+  },
+  "price": {
+    "valid_from": "2018-01-01T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 3.55,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "228g"
+    },
+    "base": {
+      "price": 1.56,
+      "quantity": 100,
+      "unit": "g"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 121,
+    "average_all": 4.494252873563
+  },
+  "data_source": "SAP-X11",
+  "origins": {
+    "producing_country": "Hergestellt in der Schweiz"
+  },
+  "ingredients": "<strong>Dinkel</strong>mehl 57%, <strong>Dinkel</strong>flocken 34%, Sonnenblumenöl, Mager<strong>milch</strong>pulver, Meersalz 1.9%, <strong>Gersten</strong>malzextrakt, Hefe, <strong>Weizen</strong>keime, Thymian 0.5%, Backtriebmittel: E 500, Vitamin: Folsäure.",
+  "allergen_text": "Kann Sesam enthalten.",
+  "package": {
+    "content": 228,
+    "content_unit_code": "g",
+    "content_unit": "Gramm",
+    "net_weight": 0.228,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogramm",
+    "precision": "exact",
+    "brutto_weight": 0.234,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 0.79,
+    "brutto_volume_unit_code": "cdm",
+    "height": 7,
+    "length": 9.4,
+    "width": 12,
+    "unit_dimension": "cm",
+    "price_comparison_content": 100,
+    "size": "228g"
+  },
+  "package_information": {
+    "tu": {
+      "brutto_weight": 7.7,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 31.92,
+      "brutto_volume_unit_code": "cdm",
+      "height": 13.3,
+      "length": 60,
+      "width": 40,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 25
+    },
+    "cu": {
+      "brutto_weight": 0.234,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0.79,
+      "brutto_volume_unit_code": "cdm",
+      "height": 7,
+      "length": 9.4,
+      "width": 12,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "lu": {
+      "brutto_weight": 394.6,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 1612.8,
+      "brutto_volume_unit_code": "cdm",
+      "height": 168,
+      "length": 120,
+      "width": 80,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1200
+    }
+  },
+  "related_products": {
+    "purchase_recommendations": {
+      "product_ids": [
+        "110181300000",
+        "110181000000",
+        "110181400000",
+        "110115300000",
+        "110181200000"
+      ]
+    }
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "recipe_ingredient_ids": [
+    "84164"
+  ],
+  "views": [
+    "all",
+    "browse"
+  ]
+}

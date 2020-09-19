@@ -1,0 +1,93 @@
+{
+  "name": "Party Honey Nuts",
+  "regulated_description": "Cashewnuss-Erdnuss-Mischung geröstet und gesalzen, mit Zucker und Honig",
+  "image": {
+    "original": "https://image.migros.ch/original/c8c6d3f85bebe956c77b3e99aa1678446e427279/party-honey-nuts.jpg"
+  },
+  "price": {
+    "item": {
+      "price": 1.8
+    }
+  },
+  "nutrition_facts": {
+    "standard": {
+      "nutrients": {
+        "nutrients": [
+          {
+            "code": "PIM_NUT_ENERGIE",
+            "name": "Energie",
+            "pictogram_name": "Energie",
+            "category": "BIG9",
+            "quantity": 2256,
+            "nutrition_operator": "=",
+            "quantity_unit": "kJ",
+            "quantity_alternate": 541,
+            "quantity_alternate_unit": "kcal"
+          },
+          {
+            "code": "PIM_NUT_FETT",
+            "name": "Fett",
+            "pictogram_name": "Fett",
+            "category": "BIG9",
+            "quantity": 33,
+            "nutrition_operator": "=",
+            "quantity_unit": "g"
+          },
+          {
+            "code": "PIM_NUT_FETT_GES",
+            "name": "davon gesättigte Fettsäuren",
+            "pictogram_name": "gesättigte Fettsäuren",
+            "category": "BIG9",
+            "quantity": 5.7,
+            "nutrition_operator": "=",
+            "quantity_unit": "g"
+          },
+          {
+            "code": "PIM_NUT_KOHLENHY",
+            "name": "Kohlenhydrate",
+            "category": "BIG9",
+            "quantity": 44,
+            "nutrition_operator": "=",
+            "quantity_unit": "g"
+          },
+          {
+            "code": "PIM_NUT_ZUCKER",
+            "name": "davon Zucker",
+            "pictogram_name": "Zuckerarten",
+            "category": "BIG9",
+            "quantity": 36,
+            "nutrition_operator": "=",
+            "quantity_unit": "g"
+          },
+          {
+            "code": "PIM_NUT_GES_BALL",
+            "name": "Ballaststoffe",
+            "category": "BIG9",
+            "quantity": 4,
+            "nutrition_operator": "=",
+            "quantity_unit": "g"
+          },
+          {
+            "code": "PIM_NUT_PROTEINE",
+            "name": "Eiweiss",
+            "category": "BIG9",
+            "quantity": 15,
+            "nutrition_operator": "=",
+            "quantity_unit": "g"
+          },
+          {
+            "code": "PIM_NUT_KOCHSALZ",
+            "name": "Salz",
+            "pictogram_name": "Salz",
+            "category": "BIG9",
+            "quantity": 0.8,
+            "nutrition_operator": "=",
+            "quantity_unit": "g"
+          }
+        ],
+        "base_quantity": 100,
+        "base_unit": "g"
+      }
+    }
+  }
+}

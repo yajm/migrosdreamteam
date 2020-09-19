@@ -1,0 +1,347 @@
+{
+  "id": "511720300000",
+  "language": "de",
+  "name": "BiC 1 Sensitive Einwegrasierer",
+  "names": {
+    "name": "BiC 1 Sensitive Einwegrasierer"
+  },
+  "slug": "bic-1-sensitive-einwegrasierer",
+  "boss_number": "090213111515",
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03"
+  },
+  "tags": [
+    "source-pim",
+    "near-non-food",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "3086125705119"
+  ],
+  "brand": {
+    "id": "352",
+    "name": "BIC",
+    "slug": "bic",
+    "image": {
+      "original": "https://image.migros.ch/original/56bac06b8cd90ac832a7b4c8c218e161245f811d/bic.jpg",
+      "stack": "https://image.migros.ch/{stack}/56bac06b8cd90ac832a7b4c8c218e161245f811d/bic.jpg"
+    }
+  },
+  "categories": [
+    {
+      "code": "BeSS_01110701",
+      "name": "Rasieren",
+      "slug": "supermarkt/beauty/maennerpflege/rasieren",
+      "visible": true,
+      "parent_code": "BeSS_011107",
+      "level": 4
+    },
+    {
+      "code": "BeSS_011107",
+      "name": "Männerpflege",
+      "slug": "supermarkt/beauty/maennerpflege",
+      "visible": true,
+      "parent_code": "BeSS_0111",
+      "level": 3
+    },
+    {
+      "code": "BeSS_0111",
+      "name": "Beauty",
+      "slug": "supermarkt/beauty",
+      "visible": true,
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/293925170bd129344f9259c67a15e903f881bef8/beauty.jpg",
+        "stack": "https://image.migros.ch/{stack}/293925170bd129344f9259c67a15e903f881bef8/beauty.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "features": [
+    {
+      "label_code": "MISO_geeignet_fuer",
+      "label": "Geeignet für",
+      "values": [
+        {
+          "value_code": "MISO_geeignet_fuer_sensiblehaut",
+          "value": "Sensible Haut"
+        }
+      ],
+      "category_code": "MISO_CLA_Rasieren_Maennerpflege_Beauty_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_klingen",
+      "label": "Klingen",
+      "values": [
+        {
+          "value_code": "MISO_klingen_1klingen",
+          "value": "1 Klinge"
+        }
+      ],
+      "category_code": "MISO_CLA_Rasieren_Maennerpflege_Beauty_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_produkttyp",
+      "label": "Produkttyp",
+      "values": [
+        {
+          "value_code": "MISO_produkttyp_einwegrasierer",
+          "value": "Einwegrasierer"
+        }
+      ],
+      "category_code": "MISO_CLA_Rasieren_Maennerpflege_Beauty_Alle",
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/eb3ec607c6905ccd77fc5c06e6a811b7ef6ff886/bic-1-sensitive-einwegrasierer.jpg",
+    "stack": "https://image.migros.ch/{stack}/eb3ec607c6905ccd77fc5c06e6a811b7ef6ff886/bic-1-sensitive-einwegrasierer.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/016cd03a2ff2fcb7d9437830d0d50e2836e9ed7f/bic-1-sensitive-einwegrasierer.png",
+    "stack": "https://image.migros.ch/{stack}/016cd03a2ff2fcb7d9437830d0d50e2836e9ed7f/bic-1-sensitive-einwegrasierer.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZHKS",
+          "value": "HKS Standardartikel"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_QUALITY_CHECK",
+      "values": [
+        {
+          "value_code": "00",
+          "value": "Keine Prüfung"
+        }
+      ],
+      "category_code": "MAPI_QUALITY_CHECK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_RISK_CLASS",
+      "values": [
+        {
+          "value_code": "2",
+          "value": "2 (medium)"
+        }
+      ],
+      "category_code": "MAPI_RISK_CLASS",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "H",
+          "value": "HKS Standard"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "50174",
+          "value": "EINWEGRASIERER MEN"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUSTOMS_POSITION",
+      "values": [
+        {
+          "value_code": "82121000000"
+        }
+      ],
+      "category_code": "MAPI_CUSTOMS_POSITION",
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 1,
+    "percentage": 7.7
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/511720300000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/bic-1-sensitive-einwegrasierer",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/511720300000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/bic-1-sensitive-einwegrasierer",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "regional_availability": {
+    "gmaa": {
+      "probability": 41
+    },
+    "gmbs": {
+      "probability": 39
+    },
+    "gmge": {
+      "probability": 31
+    },
+    "gmlu": {
+      "probability": 31
+    },
+    "gmnf": {
+      "probability": 42
+    },
+    "gmos": {
+      "probability": 35
+    },
+    "gmti": {
+      "probability": 44
+    },
+    "gmvd": {
+      "probability": 37
+    },
+    "gmvs": {
+      "probability": 41
+    },
+    "gmzh": {
+      "probability": 41
+    }
+  },
+  "updated_at": "2020-09-09T09:39:08+0200",
+  "base_unit": "CU",
+  "slugs": {
+    "de": "bic-1-sensitive-einwegrasierer",
+    "fr": "bic-1-sensitive-rasoir-jetable",
+    "it": "bic-1-sensitive-rasoio-usa-a-getta"
+  },
+  "receipt_text": "BiC 1 Sensitive Ras.",
+  "main_supplier": {
+    "name": "Société BIC (Suisse) SA",
+    "id": "0010001511",
+    "supplier_product_id": "838523"
+  },
+  "price": {
+    "valid_from": "2018-01-29T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 2.5,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "10 Stk."
+    },
+    "base": {
+      "price": 0.25,
+      "quantity": 1,
+      "unit": "st"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "data_source": "SAP-X11",
+  "package": {
+    "content": 10,
+    "content_unit_code": "st",
+    "content_unit": "Stück",
+    "net_weight": 0.054,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogramm",
+    "brutto_weight": 0.057,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 0.583,
+    "brutto_volume_unit_code": "cdm",
+    "height": 23.5,
+    "length": 2.5,
+    "width": 10.5,
+    "unit_dimension": "cm",
+    "price_comparison_content": 1,
+    "size": "10 Stk."
+  },
+  "package_information": {
+    "tu": {
+      "brutto_weight": 1.38,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 13.832,
+      "brutto_volume_unit_code": "cdm",
+      "height": 26,
+      "length": 28,
+      "width": 19,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 20
+    },
+    "cu": {
+      "brutto_weight": 0.057,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0.583,
+      "brutto_volume_unit_code": "cdm",
+      "height": 23.5,
+      "length": 2.5,
+      "width": 10.5,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "lu": {
+      "brutto_weight": 0,
+      "brutto_volume": 0,
+      "height": 150,
+      "length": 0,
+      "width": 0,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1280
+    },
+    "lge": {
+      "brutto_weight": 0,
+      "brutto_volume": 0,
+      "height": 0,
+      "length": 0,
+      "width": 0,
+      "number_of_base_units": 320
+    },
+    "kar": {
+      "brutto_weight": 0,
+      "brutto_volume": 0,
+      "height": 0,
+      "length": 0,
+      "width": 0,
+      "number_of_base_units": 1
+    }
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "views": [
+    "all",
+    "browse"
+  ]
+}

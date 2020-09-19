@@ -1,0 +1,403 @@
+{
+  "id": "106276200000",
+  "language": "de",
+  "name": "Patissier Natron",
+  "names": {
+    "name": "Patissier Natron"
+  },
+  "slug": "patissier-natron",
+  "boss_number": "010410902020",
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7617600007624",
+    "7613312034965"
+  ],
+  "brand": {
+    "id": "Q05",
+    "name": "Patissier",
+    "slug": "patissier"
+  },
+  "categories": [
+    {
+      "code": "BeSS_0101030901",
+      "name": "Backen & Desserts",
+      "slug": "supermarkt/lebensmittel/baeckerei-confiserie-backen/backzutaten/backen-desserts",
+      "visible": true,
+      "title": "Backwaren und Desserts in der Migros kaufen",
+      "parent_code": "BeSS_01010309",
+      "image": {
+        "original": "https://image.migros.ch/original/9f1d49dbae2055f2327ad61e32dacb73a813012f/backen-desserts.jpg",
+        "stack": "https://image.migros.ch/{stack}/9f1d49dbae2055f2327ad61e32dacb73a813012f/backen-desserts.jpg"
+      },
+      "level": 5
+    },
+    {
+      "code": "BeSS_01010309",
+      "name": "Backzutaten",
+      "slug": "supermarkt/lebensmittel/baeckerei-confiserie-backen/backzutaten",
+      "visible": true,
+      "title": "Backzutaten von der Migros &ndash; Feines für den Ofen",
+      "parent_code": "BeSS_010103",
+      "image": {
+        "original": "https://image.migros.ch/original/7f4777fff65971e62d70347f2563db0eba17376b/backzutaten.jpg",
+        "stack": "https://image.migros.ch/{stack}/7f4777fff65971e62d70347f2563db0eba17376b/backzutaten.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010103",
+      "name": "Bäckerei, Confiserie & Backen",
+      "slug": "supermarkt/lebensmittel/baeckerei-confiserie-backen",
+      "visible": true,
+      "title": "Backen macht Freude! Alle Zutaten finden Sie in Ihrer Migros",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/04b41cd6f4daedf3061a2a37617d48e992760b35/baeckerei-confiserie-backen.jpg",
+        "stack": "https://image.migros.ch/{stack}/04b41cd6f4daedf3061a2a37617d48e992760b35/baeckerei-confiserie-backen.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_Zutaten_Backzutaten_BroteBacken",
+        "name": "Zutaten",
+        "slug": "amigos/brote-backen/backzutaten/zutaten",
+        "visible": true,
+        "parent_code": "AMIG_CAT_Backzutaten_BroteBacken",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_Backzutaten_BroteBacken",
+        "name": "Backzutaten",
+        "slug": "amigos/brote-backen/backzutaten",
+        "visible": true,
+        "parent_code": "AMIG_CAT_BroteBacken",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_BroteBacken",
+        "name": "Brote & Backen",
+        "slug": "amigos/brote-backen",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "features": [
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_beutelsack",
+          "value": "Beutel/Sack"
+        }
+      ],
+      "category_code": "MISO_CLA_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zubereitungsverfahren",
+      "label": "Hinweise für die Zubereitung",
+      "values": [
+        {
+          "value_code": "MISO_zubereitungsverfahren_backen",
+          "value": "Backen"
+        }
+      ],
+      "category_code": "MISO_CLA_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    }
+  ],
+  "general_information": [
+    {
+      "label": "Haltbarkeitshinweis",
+      "value": "Trocken aufbewahren und vor Licht schützen."
+    },
+    {
+      "label": "Herstellungsland",
+      "value": "Abgepackt in der Schweiz für Delica AG."
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/99f3df81fbb75780d8fd90d00b02b01b6912132a/patissier-natron.jpg",
+    "stack": "https://image.migros.ch/{stack}/99f3df81fbb75780d8fd90d00b02b01b6912132a/patissier-natron.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/3631fbd565d6ad0dc6fcf82afffd0047a1b00978/patissier-natron.png",
+    "stack": "https://image.migros.ch/{stack}/3631fbd565d6ad0dc6fcf82afffd0047a1b00978/patissier-natron.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_sortierung",
+      "label": "Sortierung aMigos",
+      "values": [
+        {
+          "value_code": "NUMERIC_480",
+          "value": "480",
+          "numeric_value": 480
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "M",
+          "value": "Kolonial Standard"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "10075",
+          "value": "BACKZUTATEN"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "regulated_description": "Natriumhydrogencarbonat",
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/106276200000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/patissier-natron",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/106276200000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/patissier-natron",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "regional_availability": {
+    "gmaa": {
+      "probability": 100
+    },
+    "gmbs": {
+      "probability": 100
+    },
+    "gmge": {
+      "probability": 90
+    },
+    "gmlu": {
+      "probability": 97
+    },
+    "gmnf": {
+      "probability": 96
+    },
+    "gmos": {
+      "probability": 100
+    },
+    "gmti": {
+      "probability": 100
+    },
+    "gmvd": {
+      "probability": 97
+    },
+    "gmvs": {
+      "probability": 95
+    },
+    "gmzh": {
+      "probability": 95
+    }
+  },
+  "updated_at": "2020-09-16T06:29:59+0200",
+  "base_unit": "CU",
+  "slugs": {
+    "de": "patissier-natron",
+    "fr": "patissier-bicarbonat-de-sodium",
+    "it": "patissier-bicarbonato-di-sodio"
+  },
+  "receipt_text": "Natron 50g",
+  "main_supplier": {
+    "name": "DELICA AG",
+    "id": "0004090000",
+    "supplier_product_id": "700941"
+  },
+  "price": {
+    "valid_from": "2018-01-29T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 0.5,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "50g"
+    },
+    "base": {
+      "price": 0.1,
+      "quantity": 10,
+      "unit": "g"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 14,
+    "average_all": 4.9
+  },
+  "data_source": "SAP-X11",
+  "origins": {
+    "producing_country": "Abgepackt in der Schweiz für Delica AG."
+  },
+  "ingredients": "Backtriebmittel: E 500.",
+  "package": {
+    "content": 50,
+    "content_unit_code": "g",
+    "content_unit": "Gramm",
+    "net_weight": 0.05,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogramm",
+    "brutto_weight": 0.052,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 0.094,
+    "brutto_volume_unit_code": "cdm",
+    "height": 17.6,
+    "length": 0.6,
+    "width": 8.9,
+    "unit_dimension": "cm",
+    "price_comparison_content": 10,
+    "size": "50g"
+  },
+  "package_information": {
+    "tu": {
+      "brutto_weight": 1.509,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 5.356,
+      "brutto_volume_unit_code": "cdm",
+      "height": 18.5,
+      "length": 30.8,
+      "width": 9.4,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 25
+    },
+    "cu": {
+      "brutto_weight": 0.052,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0.094,
+      "brutto_volume_unit_code": "cdm",
+      "height": 17.6,
+      "length": 0.6,
+      "width": 8.9,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "lu": {
+      "brutto_weight": 254.91,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 1209.6,
+      "brutto_volume_unit_code": "cdm",
+      "height": 111,
+      "length": 120,
+      "width": 80,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 4350
+    }
+  },
+  "related_products": {
+    "purchase_recommendations": {
+      "product_ids": [
+        "106281100000",
+        "106298100000",
+        "109701000000",
+        "109634900000",
+        "109700800000"
+      ]
+    }
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "recipe_ingredient_ids": [
+    "14952"
+  ],
+  "views": [
+    "all",
+    "browse"
+  ]
+}

@@ -1,0 +1,579 @@
+{
+  "id": "204150000000",
+  "language": "de",
+  "name": "Valflora Schlagrahm Dose",
+  "names": {
+    "name": "Valflora Schlagrahm Dose"
+  },
+  "slug": "valflora-schlagrahm-dose",
+  "boss_number": "030213251005",
+  "description": {
+    "text": "Vollrahm geschlagen mit Zuckerzusatz. Zum garnieren von Glac&eacute; und Desserts",
+    "source": "PIM"
+  },
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "80"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "22136169",
+    "7613269780328"
+  ],
+  "brand": {
+    "id": "594",
+    "name": "Valflora",
+    "slug": "valflora",
+    "image": {
+      "original": "https://image.migros.ch/original/3d6b6c4588ade686a87273d4ff3fe36b40dbe75d/valflora.jpg",
+      "stack": "https://image.migros.ch/{stack}/3d6b6c4588ade686a87273d4ff3fe36b40dbe75d/valflora.jpg"
+    }
+  },
+  "categories": [
+    {
+      "code": "BeSS_01010406",
+      "name": "Rahm",
+      "slug": "supermarkt/lebensmittel/milchprodukte-eier/rahm",
+      "visible": true,
+      "title": "Rahm von der Migros &ndash; ein Segen für die Küche",
+      "parent_code": "BeSS_010104",
+      "image": {
+        "original": "https://image.migros.ch/original/c3c47317490daf245f116504f3894477896aad40/rahm.jpg",
+        "stack": "https://image.migros.ch/{stack}/c3c47317490daf245f116504f3894477896aad40/rahm.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010104",
+      "name": "Milchprodukte & Eier",
+      "slug": "supermarkt/lebensmittel/milchprodukte-eier",
+      "visible": true,
+      "title": "Milchprodukte und Eier –",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/6b1ea6c2d41c3ccb21bf05c8dc342f7f55d83deb/milchprodukte-eier.jpg",
+        "stack": "https://image.migros.ch/{stack}/6b1ea6c2d41c3ccb21bf05c8dc342f7f55d83deb/milchprodukte-eier.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_Rahm_MilchprodukteEier",
+        "name": "Rahm",
+        "slug": "amigos/milchprodukte-eier/rahm",
+        "visible": true,
+        "parent_code": "AMIG_CAT_MilchprodukteEier",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_MilchprodukteEier",
+        "name": "Milchprodukte & Eier",
+        "slug": "amigos/milchprodukte-eier",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "nutrition_facts": {
+    "standard": {
+      "nutrients": [
+        {
+          "code": "PIM_NUT_ENERGIE",
+          "name": "Energie",
+          "pictogram_name": "Energie",
+          "category": "BIG9",
+          "quantity": 1440,
+          "rda_percent_operator": "=",
+          "quantity_unit": "kJ",
+          "quantity_alternate": 349,
+          "quantity_alternate_unit": "kcal"
+        },
+        {
+          "code": "PIM_NUT_GES_FETT",
+          "name": "Fett",
+          "pictogram_name": "Fett",
+          "category": "BIG9",
+          "quantity": 33,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_GESFETTS",
+          "name": "davon gesättigte Fettsäuren",
+          "pictogram_name": "gesättigte Fettsäuren",
+          "category": "BIG9",
+          "quantity": 19.6,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_GES_KOHL",
+          "name": "Kohlenhydrate",
+          "category": "BIG9",
+          "quantity": 11,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_GES_ZUCK",
+          "name": "davon Zucker",
+          "pictogram_name": "Zuckerarten",
+          "category": "BIG9",
+          "quantity": 11,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_GES_BALL",
+          "name": "Ballaststoffe",
+          "category": "BIG9",
+          "quantity": 0.5,
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_GES_EIW",
+          "name": "Eiweiss",
+          "category": "BIG9",
+          "quantity": 2,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_KOCHSALZ",
+          "name": "Salz",
+          "pictogram_name": "Salz",
+          "category": "BIG9",
+          "quantity": 0.1,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        }
+      ],
+      "base_quantity": 100,
+      "base_unit": "g"
+    },
+    "portion": {
+      "nutrients": [
+        {
+          "code": "PIM_NUT_ENERGIE",
+          "name": "Energie",
+          "pictogram_name": "Energie",
+          "category": "BIG9",
+          "quantity": 140,
+          "rda_percent": 2,
+          "rda_percent_operator": "=",
+          "quantity_unit": "kJ",
+          "quantity_alternate": 35,
+          "quantity_alternate_unit": "kcal"
+        },
+        {
+          "code": "PIM_NUT_GES_FETT",
+          "name": "Fett",
+          "pictogram_name": "Fett",
+          "category": "BIG9",
+          "quantity": 3.3,
+          "rda_percent": 5,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_GESFETTS",
+          "name": "davon gesättigte Fettsäuren",
+          "pictogram_name": "gesättigte Fettsäuren",
+          "category": "BIG9",
+          "quantity": 2,
+          "rda_percent": 10,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_GES_KOHL",
+          "name": "Kohlenhydrate",
+          "category": "BIG9",
+          "quantity": 1,
+          "rda_percent": 0.5,
+          "rda_percent_operator": "<",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_GES_ZUCK",
+          "name": "davon Zucker",
+          "pictogram_name": "Zuckerarten",
+          "category": "BIG9",
+          "quantity": 1,
+          "rda_percent": 1,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_GES_BALL",
+          "name": "Ballaststoffe",
+          "category": "BIG9",
+          "quantity": 0.5,
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_GES_EIW",
+          "name": "Eiweiss",
+          "category": "BIG9",
+          "quantity": 0.5,
+          "rda_percent": 0.5,
+          "rda_percent_operator": "<",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_KOCHSALZ",
+          "name": "Salz",
+          "pictogram_name": "Salz",
+          "category": "BIG9",
+          "quantity": 0,
+          "rda_percent": 0.5,
+          "rda_percent_operator": "<",
+          "quantity_unit": "g"
+        }
+      ],
+      "base_description": "1 Portion",
+      "base_quantity": 10,
+      "base_unit": "g"
+    }
+  },
+  "features": [
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_dose",
+          "value": "Dose"
+        }
+      ],
+      "category_code": "MISO_CLA_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_artvonrahm",
+      "label": "Art von Rahm",
+      "values": [
+        {
+          "value_code": "MISO_artvonrahm_vollrahm",
+          "value": "Vollrahm"
+        }
+      ],
+      "category_code": "MISO_CLA_Rahm_MilchButterRahmKaeseEierErsatzprodukte_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_milchartrohstoff",
+      "label": "Milchart/Rohstoff",
+      "values": [
+        {
+          "value_code": "MISO_milchartrohstoff_rahm",
+          "value": "Rahm"
+        }
+      ],
+      "category_code": "MISO_CLA_Rahm_MilchButterRahmKaeseEierErsatzprodukte_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    }
+  ],
+  "allergens": [
+    {
+      "code": "ALLG_MILCH",
+      "name": "Milch",
+      "contamination_code": "VORHANDEN",
+      "contamination": "vorhanden"
+    }
+  ],
+  "general_information": [
+    {
+      "label": "Auslobung",
+      "value": "Hergestellt in Belgien mit Schweizer Rahm."
+    },
+    {
+      "label": "Produkteinformation",
+      "value": "Um ein optimales Resultat zu erhalten, sind folgende Punkte zu beachten:\r\n1. Vor Gebrauch ca. 2 Stunden in den Kühlschrank (nicht Tiefkühler) stellen.\r\n2. Vor dem Sprühen kräftig schütteln.\r\n3. Bei Gebrauch Dose senkrecht halten und Düse leicht andrücken.\r\n4. Nach dem Gebrauch die Spühltülle seitlich umkippen und unter fliessendem Wasser reinigen.\r\nWichtig: Angebrochene Dose im Kühlschrank aufbewahren.\r\n\r\nAchtung: Behälter steht unter Druck. Vor Sonnenbestrahlung und Temperaturen über 50°C schützen. Auch nach Gebrauch nicht gewaltsam öffnen oder verbrennen."
+    },
+    {
+      "label": "Behandlungshinweise",
+      "value": "UHT"
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/fcba48b0c317abfcd8a1ec72bbbff516c937d99f/valflora-schlagrahm-dose.jpg",
+    "stack": "https://image.migros.ch/{stack}/fcba48b0c317abfcd8a1ec72bbbff516c937d99f/valflora-schlagrahm-dose.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/9f534ed6546d552549ca947778b4d937f002553f/valflora-schlagrahm-dose.png",
+    "stack": "https://image.migros.ch/{stack}/9f534ed6546d552549ca947778b4d937f002553f/valflora-schlagrahm-dose.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_sortierung",
+      "label": "Sortierung aMigos",
+      "values": [
+        {
+          "value_code": "NUMERIC_240",
+          "value": "240",
+          "numeric_value": 240
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZFRP",
+          "value": "Frische Beschaffung"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "1",
+          "value": "Molki"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "70013",
+          "value": "RAHM UNGEKUEHLT"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "regulated_description": "Vollrahm geschlagen, mit Zuckerzusatz.",
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/204150000000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/valflora-schlagrahm-dose",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/204150000000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/valflora-schlagrahm-dose",
+      "type": "info",
+      "purchasable": false
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/49991",
+      "app_url": "leshop:///catalog/article/detail?ean=7613269780328",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/valflora-schlagrahm-dose",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "regional_availability": {
+    "gmaa": {
+      "probability": 99
+    },
+    "gmbs": {
+      "probability": 81
+    },
+    "gmge": {
+      "probability": 87
+    },
+    "gmlu": {
+      "probability": 92
+    },
+    "gmnf": {
+      "probability": 96
+    },
+    "gmos": {
+      "probability": 96
+    },
+    "gmti": {
+      "probability": 100
+    },
+    "gmvd": {
+      "probability": 82
+    },
+    "gmvs": {
+      "probability": 77
+    },
+    "gmzh": {
+      "probability": 93
+    }
+  },
+  "updated_at": "2020-09-16T05:47:30+0200",
+  "base_unit": "CU",
+  "slugs": {
+    "de": "valflora-schlagrahm-dose",
+    "fr": "valflora-creme-fouettee-bombe",
+    "it": "valflora-panna-montata-bombola"
+  },
+  "receipt_text": "Valflora Schlagrahm",
+  "main_supplier": {
+    "name": "ESTAVAYER LAIT S.A.",
+    "id": "0003020000"
+  },
+  "price": {
+    "valid_from": "2018-01-29T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 4.4,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "250ml"
+    },
+    "base": {
+      "price": 1.76,
+      "quantity": 100,
+      "unit": "ml"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 9,
+    "average_all": 3.444444444444
+  },
+  "data_source": "SAP-X4x",
+  "origins": {
+    "producing_country": "Elaboré en Belgique"
+  },
+  "ingredients": "<strong>Rahm mit 35% Fett</strong>, Zucker 8.3%, Emulgator: E 471, Verdickungsmittel: E 407, Treibgas: E 942.",
+  "package": {
+    "content": 250,
+    "content_unit_code": "ml",
+    "content_unit": "Mililiter",
+    "net_weight": 0.25,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogramm",
+    "precision": "exact",
+    "brutto_weight": 0.25,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 0.766,
+    "brutto_volume_unit_code": "cdm",
+    "height": 22,
+    "length": 5.9,
+    "width": 5.9,
+    "unit_dimension": "cm",
+    "price_comparison_content": 100,
+    "size": "250ml"
+  },
+  "package_information": {
+    "tu": {
+      "brutto_weight": 3,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 15.96,
+      "brutto_volume_unit_code": "cdm",
+      "height": 13.3,
+      "length": 40,
+      "width": 30,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 12
+    },
+    "cu": {
+      "brutto_weight": 0.25,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0.766,
+      "brutto_volume_unit_code": "cdm",
+      "height": 22,
+      "length": 5.9,
+      "width": 5.9,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "lu": {
+      "brutto_weight": 0,
+      "brutto_volume": 0,
+      "height": 0,
+      "length": 0,
+      "width": 0,
+      "number_of_base_units": 1152
+    }
+  },
+  "related_products": {
+    "purchase_recommendations": {
+      "product_ids": [
+        "265200502400",
+        "204150100000",
+        "204150200000"
+      ]
+    }
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "recipe_ingredient_ids": [
+    "427745"
+  ],
+  "views": [
+    "all",
+    "browse"
+  ]
+}

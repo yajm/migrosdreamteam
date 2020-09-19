@@ -1,0 +1,531 @@
+{
+  "id": "151063200000",
+  "language": "de",
+  "name": "Extra Portionen-Konfitüre Erdbeeren",
+  "names": {
+    "name": "Extra Portionen-Konfitüre Erdbeeren"
+  },
+  "slug": "extra-portionen-konfituere-erdbeeren",
+  "boss_number": "010310407605",
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7616800899145"
+  ],
+  "brand": {
+    "id": "051",
+    "name": "Extra (Frühstück)",
+    "slug": "extra-fruehstueck"
+  },
+  "categories": [
+    {
+      "code": "BeSS_01011105",
+      "name": "Konfitüren & Honig Portionen",
+      "slug": "supermarkt/lebensmittel/fruehstueck/konfitueren-honig-portionen",
+      "visible": true,
+      "parent_code": "BeSS_010111",
+      "image": {
+        "original": "https://image.migros.ch/original/f8096c39b7bff5f2ec7c7bbc49c8f81ab9bf9c28/konfitueren-honig-portionen.jpg",
+        "stack": "https://image.migros.ch/{stack}/f8096c39b7bff5f2ec7c7bbc49c8f81ab9bf9c28/konfitueren-honig-portionen.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010111",
+      "name": "Frühstück",
+      "slug": "supermarkt/lebensmittel/fruehstueck",
+      "visible": true,
+      "title": "Frühstück: Mit Produkten aus Ihrer Migros einfach in den Tag starten",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/58a87c73cd077c5c9efb268051c16d5b373f5c29/fruehstueck.jpg",
+        "stack": "https://image.migros.ch/{stack}/58a87c73cd077c5c9efb268051c16d5b373f5c29/fruehstueck.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "nutrition_facts": {
+    "standard": {
+      "nutrients": [
+        {
+          "code": "PIM_NUT_ENERGIE",
+          "name": "Energie",
+          "pictogram_name": "Energie",
+          "category": "BIG9",
+          "quantity": 1050,
+          "rda_percent_operator": "=",
+          "quantity_unit": "kJ",
+          "quantity_alternate": 247,
+          "quantity_alternate_unit": "kcal"
+        },
+        {
+          "code": "PIM_NUT_GES_FETT",
+          "name": "Fett",
+          "pictogram_name": "Fett",
+          "category": "BIG9",
+          "quantity": 0.5,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_GESFETTS",
+          "name": "davon gesättigte Fettsäuren",
+          "pictogram_name": "gesättigte Fettsäuren",
+          "category": "BIG9",
+          "quantity": 0,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_GES_KOHL",
+          "name": "Kohlenhydrate",
+          "category": "BIG9",
+          "quantity": 61,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_GES_ZUCK",
+          "name": "davon Zucker",
+          "pictogram_name": "Zuckerarten",
+          "category": "BIG9",
+          "quantity": 60,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_GES_BALL",
+          "name": "Ballaststoffe",
+          "category": "BIG9",
+          "quantity": 1.5,
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_GES_EIW",
+          "name": "Eiweiss",
+          "category": "BIG9",
+          "quantity": 0.5,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_KOCHSALZ",
+          "name": "Salz",
+          "pictogram_name": "Salz",
+          "category": "BIG9",
+          "quantity": 0,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_NATRIUM",
+          "name": "Natrium",
+          "category": "BIG9",
+          "quantity": 0,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        }
+      ],
+      "base_description": "enthalten",
+      "base_quantity": 100,
+      "base_unit": "g"
+    },
+    "portion": {
+      "nutrients": [
+        {
+          "code": "PIM_NUT_ENERGIE",
+          "name": "Energie",
+          "pictogram_name": "Energie",
+          "category": "BIG9",
+          "quantity": 310,
+          "rda_percent": 4,
+          "rda_percent_operator": "=",
+          "quantity_unit": "kJ",
+          "quantity_alternate": 74,
+          "quantity_alternate_unit": "kcal"
+        },
+        {
+          "code": "PIM_NUT_GES_FETT",
+          "name": "Fett",
+          "pictogram_name": "Fett",
+          "category": "BIG9",
+          "quantity": 0.5,
+          "rda_percent": 0,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_GESFETTS",
+          "name": "davon gesättigte Fettsäuren",
+          "pictogram_name": "gesättigte Fettsäuren",
+          "category": "BIG9",
+          "quantity": 0,
+          "rda_percent": 0,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_GES_KOHL",
+          "name": "Kohlenhydrate",
+          "category": "BIG9",
+          "quantity": 18,
+          "rda_percent": 7,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_GES_ZUCK",
+          "name": "davon Zucker",
+          "pictogram_name": "Zuckerarten",
+          "category": "BIG9",
+          "quantity": 18,
+          "rda_percent": 20,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_GES_BALL",
+          "name": "Ballaststoffe",
+          "category": "BIG9",
+          "quantity": 0.5,
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_GES_EIW",
+          "name": "Eiweiss",
+          "category": "BIG9",
+          "quantity": 0.5,
+          "rda_percent": 0.5,
+          "rda_percent_operator": "<",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_KOCHSALZ",
+          "name": "Salz",
+          "pictogram_name": "Salz",
+          "category": "BIG9",
+          "quantity": 0,
+          "rda_percent": 0,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_NATRIUM",
+          "name": "Natrium",
+          "category": "BIG9",
+          "quantity": 0,
+          "rda_percent": 0,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        }
+      ],
+      "base_description": "1 Portion",
+      "base_quantity": 30,
+      "base_unit": "g"
+    }
+  },
+  "features": [
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_karton",
+          "value": "Karton"
+        }
+      ],
+      "category_code": "MISO_CLA_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_produktionslandherstellungsort",
+      "label": "Produktionsland/Herstellungsort",
+      "values": [
+        {
+          "value_code": "MISO_produktionslandherstellungsort_schweiz_bischofszell",
+          "value": "Schweiz/Bischofszell"
+        }
+      ],
+      "category_code": "MISO_CLA_BearbeiteteVerarbeiteteNahrungsmittel_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_artdermarmeladekonfituere",
+      "label": "Art der Marmelade/Konfitüre",
+      "values": [
+        {
+          "value_code": "MISO_artdermarmeladekonfituere_konfituere",
+          "value": "Konfitüre"
+        }
+      ],
+      "category_code": "MISO_CLA_SuesseAufstriche_BearbeiteteVerarbeiteteNahrungsmittel_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_hauptzutat",
+      "label": "Hauptzutat",
+      "values": [
+        {
+          "value_code": "MISO_hauptzutat_erdbeeren",
+          "value": "Erdbeeren"
+        }
+      ],
+      "category_code": "MISO_CLA_SuesseAufstriche_BearbeiteteVerarbeiteteNahrungsmittel_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    }
+  ],
+  "general_information": [
+    {
+      "label": "Fruchtanteil",
+      "value": "Hergestellt aus 45 g Früchten je 100 g."
+    },
+    {
+      "label": "Nährwerte",
+      "value": "Packung"
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/cbdefe94729cd7bcc9f1db046b341cf0898cfef8/extra-portionen-konfituere-erdbeeren.jpg",
+    "stack": "https://image.migros.ch/{stack}/cbdefe94729cd7bcc9f1db046b341cf0898cfef8/extra-portionen-konfituere-erdbeeren.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/8a2697d825027c425848d1d00b207801b299806e/extra-portionen-konfituere-erdbeeren.png",
+    "stack": "https://image.migros.ch/{stack}/8a2697d825027c425848d1d00b207801b299806e/extra-portionen-konfituere-erdbeeren.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "L",
+          "value": "Lieferunterbruch"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "10347",
+          "value": "PORT KONFI/BROTAUFST"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "regulated_description": "Konfitüre Extra",
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/151063200000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/extra-portionen-konfituere-erdbeeren",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/151063200000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/extra-portionen-konfituere-erdbeeren",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "regional_availability": {
+    "gmaa": {
+      "probability": 1
+    },
+    "gmbs": {
+      "probability": 4
+    },
+    "gmge": {
+      "probability": 3
+    },
+    "gmlu": {
+      "probability": 2
+    },
+    "gmnf": {
+      "probability": 4
+    },
+    "gmos": {
+      "probability": 3
+    },
+    "gmti": {
+      "probability": 3
+    },
+    "gmvd": {
+      "probability": 0
+    },
+    "gmvs": {
+      "probability": 13
+    },
+    "gmzh": {
+      "probability": 5
+    }
+  },
+  "updated_at": "2020-09-16T05:46:43+0200",
+  "base_unit": "CU",
+  "slugs": {
+    "de": "extra-portionen-konfituere-erdbeeren",
+    "fr": "extra-confiture-en-portions-fraises",
+    "it": "extra-confettura-in-porzioni-fragole"
+  },
+  "receipt_text": "Extra Portionen-Konfit",
+  "main_supplier": {
+    "name": "BISCHOFSZELL",
+    "id": "0003800000",
+    "supplier_product_id": "151063200000"
+  },
+  "price": {
+    "valid_from": "2018-01-08T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 2.7,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "6 x 30g"
+    },
+    "base": {
+      "price": 1.5,
+      "quantity": 100,
+      "unit": "g"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 3,
+    "average_all": 5
+  },
+  "data_source": "SAP-X11",
+  "origins": {
+    "producing_country": "Hergestellt in der Schweiz."
+  },
+  "ingredients": "Zucker, Erdbeeren, Säuerungsmittel: Citronensäure, Geliermittel: Pektin.",
+  "package": {
+    "content": 180,
+    "content_unit_code": "g",
+    "content_unit": "Gramm",
+    "net_weight": 0.18,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogramm",
+    "brutto_weight": 0.206,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 0.339,
+    "brutto_volume_unit_code": "cdm",
+    "height": 5.3,
+    "length": 4,
+    "width": 16,
+    "unit_dimension": "cm",
+    "price_comparison_content": 100,
+    "size": "6 x 30g"
+  },
+  "package_information": {
+    "tu": {
+      "brutto_weight": 2.58,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 5.178,
+      "brutto_volume_unit_code": "cdm",
+      "height": 9.6,
+      "length": 34.8,
+      "width": 15.5,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 12
+    },
+    "cu": {
+      "brutto_weight": 0.206,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0.339,
+      "brutto_volume_unit_code": "cdm",
+      "height": 5.3,
+      "length": 4,
+      "width": 16,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "lu": {
+      "brutto_weight": 507.46,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 821.76,
+      "brutto_volume_unit_code": "cdm",
+      "height": 127,
+      "length": 120,
+      "width": 80,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 2244
+    }
+  },
+  "related_products": {
+    "purchase_recommendations": {
+      "product_ids": [
+        "151063600000",
+        "151063700000",
+        "151063800000",
+        "151401500000",
+        "151063900000"
+      ]
+    }
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "recipe_ingredient_ids": [
+    "10000"
+  ],
+  "views": [
+    "all",
+    "browse"
+  ]
+}

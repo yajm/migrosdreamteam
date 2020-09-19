@@ -1,0 +1,776 @@
+{
+  "id": "110300200000",
+  "language": "de",
+  "name": "Zwieback Original B-Vitamine + Eisen",
+  "names": {
+    "name": "Zwieback Original B-Vitamine + Eisen"
+  },
+  "slug": "zwieback-original-b-vitamine-eisen",
+  "boss_number": "010318212605",
+  "description": {
+    "text": "<p><strong>ORIGINAL&nbsp;ZWIEBACK -&nbsp;mit Schweizer Mehl und B-Vitamine + Eisen&nbsp;</strong></p><p>Die Wurzeln des Zwieback f&uuml;hren bis auf die alten Griechen und R&ouml;mer zur&uuml;ck. Der Zwieback bestand damals aus Brot, welches zur Haltbarmachung in Scheiben geschnitten und ein zweites Mal gebacken wurde. Es entstand ein wasserarmes und lange haltbares Geb&auml;ck, das sich auf Reisen mitf&uuml;hren liess, ohne zu verderben.</p><p>Heutzutage ist der Zwieback ein gut verdauliches und bek&ouml;mmliches Geb&auml;ck, das &uuml;berall in der Schweiz gesch&auml;tzt wird und als Alternative zu Brot mit Butter, Honig oder Konfit&uuml;re gegessen wird. Unser Zwieback hat eine langj&auml;hrige Tradition. Er wird seit 1930 nach prakisch unver&auml;ndertem Rezept mit besten Rohmaterialien und einem schonenden R&ouml;stverfahren hergestellt.</p><p>Guten Appetit!</p>",
+    "source": "PIM"
+  },
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7617400030723"
+  ],
+  "labels": [
+    {
+      "id": "L61",
+      "name": "Folsäure",
+      "slug": "folsaeure",
+      "links": {
+        "homepage": {
+          "url": "https://www.stiftung-folsäure.ch",
+          "name": "Homepage",
+          "type": "info",
+          "purchasable": false
+        }
+      },
+      "image": {
+        "original": "https://image.migros.ch/original/79c993b3586f1ec2ed154dac98a308eddfddacd8/folsaeure.jpg",
+        "stack": "https://image.migros.ch/{stack}/79c993b3586f1ec2ed154dac98a308eddfddacd8/folsaeure.jpg"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_01010307",
+      "name": "Zwieback & Knäckebrot",
+      "slug": "supermarkt/lebensmittel/baeckerei-confiserie-backen/zwieback-knaeckebrot",
+      "visible": true,
+      "title": "Zwieback und Knäckebrot &ndash; knackig von der Migros",
+      "parent_code": "BeSS_010103",
+      "image": {
+        "original": "https://image.migros.ch/original/b4f1c9101c74e055cef373e835ee4b863eb1036a/zwieback-knaeckebrot.jpg",
+        "stack": "https://image.migros.ch/{stack}/b4f1c9101c74e055cef373e835ee4b863eb1036a/zwieback-knaeckebrot.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010103",
+      "name": "Bäckerei, Confiserie & Backen",
+      "slug": "supermarkt/lebensmittel/baeckerei-confiserie-backen",
+      "visible": true,
+      "title": "Backen macht Freude! Alle Zutaten finden Sie in Ihrer Migros",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/04b41cd6f4daedf3061a2a37617d48e992760b35/baeckerei-confiserie-backen.jpg",
+        "stack": "https://image.migros.ch/{stack}/04b41cd6f4daedf3061a2a37617d48e992760b35/baeckerei-confiserie-backen.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_ZwiebackKnaeckebrote_BroteBacken",
+        "name": "Zwieback & Knäckebrote",
+        "slug": "amigos/brote-backen/zwieback-knaeckebrote",
+        "visible": true,
+        "parent_code": "AMIG_CAT_BroteBacken",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_BroteBacken",
+        "name": "Brote & Backen",
+        "slug": "amigos/brote-backen",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "nutrition_facts": {
+    "standard": {
+      "nutrients": [
+        {
+          "code": "PIM_NUT_ENERGIE",
+          "name": "Energie",
+          "pictogram_name": "Energie",
+          "category": "BIG9",
+          "quantity": 1789,
+          "rda_percent_operator": "=",
+          "quantity_unit": "kJ",
+          "quantity_alternate": 424,
+          "quantity_alternate_unit": "kcal"
+        },
+        {
+          "code": "PIM_NUT_GES_FETT",
+          "name": "Fett",
+          "pictogram_name": "Fett",
+          "category": "BIG9",
+          "quantity": 9,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_GESFETTS",
+          "name": "davon gesättigte Fettsäuren",
+          "pictogram_name": "gesättigte Fettsäuren",
+          "category": "BIG9",
+          "quantity": 0.8,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_GES_KOHL",
+          "name": "Kohlenhydrate",
+          "category": "BIG9",
+          "quantity": 72,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_GES_ZUCK",
+          "name": "davon Zucker",
+          "pictogram_name": "Zuckerarten",
+          "category": "BIG9",
+          "quantity": 16,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_GES_BALL",
+          "name": "Ballaststoffe",
+          "category": "BIG9",
+          "quantity": 3.5,
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_GES_EIW",
+          "name": "Eiweiss",
+          "category": "BIG9",
+          "quantity": 12,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_KOCHSALZ",
+          "name": "Salz",
+          "pictogram_name": "Salz",
+          "category": "BIG9",
+          "quantity": 1.2,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_VIT_B1",
+          "name": "Vitamin B1 (Thiamin)",
+          "category": "VITAMINE",
+          "quantity": 0.3,
+          "rda_percent": 27,
+          "rda_percent_operator": "=",
+          "quantity_unit": "mg"
+        },
+        {
+          "code": "PIM_NUT_VIT_B2",
+          "name": "Vitamin B2 (Riboflavin)",
+          "category": "VITAMINE",
+          "quantity": 0.4,
+          "rda_percent": 29,
+          "rda_percent_operator": "=",
+          "quantity_unit": "mg"
+        },
+        {
+          "code": "PIM_NUT_NIACIN",
+          "name": "Niacin",
+          "category": "VITAMINE",
+          "quantity": 4.8,
+          "rda_percent": 30,
+          "rda_percent_operator": "=",
+          "quantity_unit": "mg"
+        },
+        {
+          "code": "PIM_NUT_VIT_B6",
+          "name": "Vitamin B6",
+          "category": "VITAMINE",
+          "quantity": 0.4,
+          "rda_percent": 29,
+          "rda_percent_operator": "=",
+          "quantity_unit": "mg"
+        },
+        {
+          "code": "PIM_NUT_FOLSAEUR",
+          "name": "Folsäure",
+          "category": "VITAMINE",
+          "quantity": 60,
+          "rda_percent": 30,
+          "rda_percent_operator": "=",
+          "quantity_unit": "ug"
+        },
+        {
+          "code": "PIM_NUT_EISEN",
+          "name": "Eisen",
+          "category": "MINERALSTOFFE_SPURENELEMENTE",
+          "quantity": 4.2,
+          "rda_percent_operator": "=",
+          "quantity_unit": "mg"
+        }
+      ],
+      "base_quantity": 100,
+      "base_unit": "g"
+    },
+    "portion": {
+      "nutrients": [
+        {
+          "code": "PIM_NUT_ENERGIE",
+          "name": "Energie",
+          "pictogram_name": "Energie",
+          "category": "BIG9",
+          "quantity": 197,
+          "rda_percent": 2,
+          "rda_percent_operator": "=",
+          "quantity_unit": "kJ",
+          "quantity_alternate": 47,
+          "quantity_alternate_unit": "kcal"
+        },
+        {
+          "code": "PIM_NUT_GES_FETT",
+          "name": "Fett",
+          "pictogram_name": "Fett",
+          "category": "BIG9",
+          "quantity": 1,
+          "rda_percent": 1,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_GESFETTS",
+          "name": "davon gesättigte Fettsäuren",
+          "pictogram_name": "gesättigte Fettsäuren",
+          "category": "BIG9",
+          "quantity": 0.5,
+          "rda_percent": 0.5,
+          "rda_percent_operator": "<",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_GES_KOHL",
+          "name": "Kohlenhydrate",
+          "category": "BIG9",
+          "quantity": 8,
+          "rda_percent": 3,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_GES_ZUCK",
+          "name": "davon Zucker",
+          "pictogram_name": "Zuckerarten",
+          "category": "BIG9",
+          "quantity": 2,
+          "rda_percent": 2,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_GES_BALL",
+          "name": "Ballaststoffe",
+          "category": "BIG9",
+          "quantity": 0.5,
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_GES_EIW",
+          "name": "Eiweiss",
+          "category": "BIG9",
+          "quantity": 1.5,
+          "rda_percent": 3,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_KOCHSALZ",
+          "name": "Salz",
+          "pictogram_name": "Salz",
+          "category": "BIG9",
+          "quantity": 0.13,
+          "rda_percent": 2,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_VIT_B1",
+          "name": "Vitamin B1 (Thiamin)",
+          "category": "VITAMINE",
+          "quantity": 0.1,
+          "rda_percent": 3,
+          "rda_percent_operator": "=",
+          "quantity_unit": "mg"
+        },
+        {
+          "code": "PIM_NUT_VIT_B2",
+          "name": "Vitamin B2 (Riboflavin)",
+          "category": "VITAMINE",
+          "quantity": 0.1,
+          "rda_percent": 3,
+          "rda_percent_operator": "=",
+          "quantity_unit": "mg"
+        },
+        {
+          "code": "PIM_NUT_NIACIN",
+          "name": "Niacin",
+          "category": "VITAMINE",
+          "quantity": 0.5,
+          "rda_percent": 3,
+          "rda_percent_operator": "=",
+          "quantity_unit": "mg"
+        },
+        {
+          "code": "PIM_NUT_VIT_B6",
+          "name": "Vitamin B6",
+          "category": "VITAMINE",
+          "quantity": 0.1,
+          "rda_percent": 3,
+          "rda_percent_operator": "=",
+          "quantity_unit": "mg"
+        },
+        {
+          "code": "PIM_NUT_FOLSAEUR",
+          "name": "Folsäure",
+          "category": "VITAMINE",
+          "quantity": 7,
+          "rda_percent": 3,
+          "rda_percent_operator": "=",
+          "quantity_unit": "ug"
+        },
+        {
+          "code": "PIM_NUT_EISEN",
+          "name": "Eisen",
+          "category": "MINERALSTOFFE_SPURENELEMENTE",
+          "quantity": 0.5,
+          "rda_percent_operator": "=",
+          "quantity_unit": "mg"
+        }
+      ],
+      "base_description": "1 Scheibe (≈ 11 g)"
+    }
+  },
+  "features": [
+    {
+      "label_code": "MISO_anzahlentnehmbarereinzelportionen",
+      "label": "Anzahl entnehmbarer Einzeleinheiten",
+      "values": [
+        {
+          "value_code": "NUMERIC_4.0",
+          "value": "4.0",
+          "numeric_value": 4
+        }
+      ],
+      "category_code": "MISO_CLA_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_schachtel",
+          "value": "Schachtel"
+        }
+      ],
+      "category_code": "MISO_CLA_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zubereitungsverfahren",
+      "label": "Hinweise für die Zubereitung",
+      "values": [
+        {
+          "value_code": "MISO_zubereitungsverfahren_verzehrfertig",
+          "value": "Verzehrfertig"
+        }
+      ],
+      "category_code": "MISO_CLA_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_geschnitten",
+      "label": "Geschnitten",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MISO_CLA_BrotBackwaren_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_wiederverschliessbar",
+      "label": "Wiederverschliessbar",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MISO_CLA_BrotBackwaren_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_artvonkeksgebaeck",
+      "label": "Art von Keks/Gebäck",
+      "values": [
+        {
+          "value_code": "MISO_artvonkeksgebaeck_zwieback",
+          "value": "Zwieback"
+        }
+      ],
+      "category_code": "MISO_CLA_KekseGebaeck_BrotBackwaren_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_getreideart",
+      "label": "Getreideart",
+      "values": [
+        {
+          "value_code": "MISO_getreideart_weizen",
+          "value": "Weizen"
+        }
+      ],
+      "category_code": "MISO_CLA_KekseGebaeck_BrotBackwaren_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_herzhaftsuess",
+      "label": "Herzhaft/süss",
+      "values": [
+        {
+          "value_code": "MISO_herzhaftsuess_suess",
+          "value": "süss"
+        }
+      ],
+      "category_code": "MISO_CLA_KekseGebaeck_BrotBackwaren_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    }
+  ],
+  "allergens": [
+    {
+      "code": "ALLG_GLUTEN",
+      "name": "Glutenhaltige Getreide",
+      "contamination_code": "VORHANDEN",
+      "contamination": "vorhanden"
+    },
+    {
+      "code": "ALLG_MILCH",
+      "name": "Milch",
+      "contamination_code": "VORHANDEN",
+      "contamination": "vorhanden"
+    },
+    {
+      "code": "ALLG_EIER",
+      "name": "Eier",
+      "contamination_code": "VORHANDEN",
+      "contamination": "vorhanden"
+    }
+  ],
+  "general_information": [
+    {
+      "label": "Auslobung",
+      "value": "4 Innenportionen\r\n\r\nMit Schweizer Mehl\r\n\r\n\r\nDieser Zwieback ist reich an den Vitaminen B1, B2, Niacin, B6 und Folsäure und am Mineralstoff Eisen."
+    },
+    {
+      "label": "Produkteinformation (1)",
+      "value": "B-Vitamine + Eisen\r\n\r\nDie Wurzeln des Zwieback führen bis auf die alten Griechen und Römer zurück. Der Zwieback bestand damals aus Brot, welches zur Haltbarmachung in Scheiben geschnitten und ein zweites Mal gebacken wurde. Es entstand ein wasserarmes und lange haltbares Gebäck, das sich auf Reisen mitführen liess, ohne zu verderben.\r\n\r\nHeutzutage ist der Zwieback ein gut verdauliches und bekömmliches Gebäck, das überall in der Schweiz geschätzt wird und als Alternative zu Brot mit Butter, Honig oder Konfitüre gegessen wird.\r\n\r\nUnser Zwieback hat eine langjährige Tradition. Er wird seit 1930 nach praktisch unverändertem Rezept mit besten Rohmaterialien und einem schonenden Röstverfahren hergestellt.\r\n\r\nGuten Appetit!"
+    },
+    {
+      "label": "Produkteinformation (Phrasen) (2)",
+      "value": "Serviervorschlag"
+    },
+    {
+      "label": "Haltbarkeitshinweis",
+      "value": "Trocken lagern und vor Wärme schützen."
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/2fae670da5c49cd047dcf02e217b44b4940ff634/zwieback-original-b-vitamine-eisen.jpg",
+    "stack": "https://image.migros.ch/{stack}/2fae670da5c49cd047dcf02e217b44b4940ff634/zwieback-original-b-vitamine-eisen.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/8507c4837c2785691ace60f6ce330d893309a67e/zwieback-original-b-vitamine-eisen.png",
+    "stack": "https://image.migros.ch/{stack}/8507c4837c2785691ace60f6ce330d893309a67e/zwieback-original-b-vitamine-eisen.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_sortierung",
+      "label": "Sortierung aMigos",
+      "values": [
+        {
+          "value_code": "NUMERIC_100",
+          "value": "100",
+          "numeric_value": 100
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "M",
+          "value": "Kolonial Standard"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "10353",
+          "value": "ZWIEBACK"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "regulated_description": "Zwieback",
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/110300200000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/zwieback-original-b-vitamine-eisen",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/110300200000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/zwieback-original-b-vitamine-eisen",
+      "type": "info",
+      "purchasable": false
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/54373",
+      "app_url": "leshop:///catalog/article/detail?ean=7617400030723",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/zwieback-original-b-vitamine-eisen",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "regional_availability": {
+    "gmaa": {
+      "probability": 99
+    },
+    "gmbs": {
+      "probability": 100
+    },
+    "gmge": {
+      "probability": 92
+    },
+    "gmlu": {
+      "probability": 98
+    },
+    "gmnf": {
+      "probability": 98
+    },
+    "gmos": {
+      "probability": 100
+    },
+    "gmti": {
+      "probability": 100
+    },
+    "gmvd": {
+      "probability": 98
+    },
+    "gmvs": {
+      "probability": 97
+    },
+    "gmzh": {
+      "probability": 97
+    }
+  },
+  "updated_at": "2020-09-16T05:42:10+0200",
+  "base_unit": "CU",
+  "slugs": {
+    "de": "zwieback-original-b-vitamine-eisen",
+    "fr": "zwieback-original-vitamines-b-fer",
+    "it": "zwieback-original-vitamine-b-ferro"
+  },
+  "receipt_text": "Zwieback    260g",
+  "main_supplier": {
+    "name": "MIDOR AG",
+    "id": "0003900000",
+    "supplier_product_id": "110300200000"
+  },
+  "price": {
+    "valid_from": "2018-01-01T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 3.2,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "260g"
+    },
+    "base": {
+      "price": 1.23,
+      "quantity": 100,
+      "unit": "g"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 74,
+    "average_all": 4.672727272727
+  },
+  "data_source": "SAP-X11",
+  "origins": {
+    "producing_country": "Hergestellt in der Schweiz"
+  },
+  "ingredients": "<strong>Weizen</strong>mehl, Zucker, Sonnenblumenöl, Hefe, Kochsalz, <strong>Gersten</strong>malzextrakt, Kondens<strong>milch</strong>, <strong>Vollei</strong>pulver (aus Bodenhaltung), Vitamine: B1, B2, Niacin, B6 und Folsäure, Mineralstoff: Eisen.",
+  "package": {
+    "content": 260,
+    "content_unit_code": "g",
+    "content_unit": "Gramm",
+    "net_weight": 0.26,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogramm",
+    "brutto_weight": 0.304,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 1.771,
+    "brutto_volume_unit_code": "cdm",
+    "height": 23.2,
+    "length": 7,
+    "width": 11.1,
+    "unit_dimension": "cm",
+    "price_comparison_content": 100,
+    "size": "260g"
+  },
+  "package_information": {
+    "tu": {
+      "brutto_weight": 10.77,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 63.84,
+      "brutto_volume_unit_code": "cdm",
+      "height": 26.6,
+      "length": 60,
+      "width": 40,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 25
+    },
+    "cu": {
+      "brutto_weight": 0.304,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 1.771,
+      "brutto_volume_unit_code": "cdm",
+      "height": 23.2,
+      "length": 7,
+      "width": 11.1,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "lu": {
+      "brutto_weight": 270,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 1676.16,
+      "brutto_volume_unit_code": "cdm",
+      "height": 168,
+      "length": 120,
+      "width": 80,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 600
+    }
+  },
+  "related_products": {
+    "purchase_recommendations": {
+      "product_ids": [
+        "110300400000",
+        "110301300000",
+        "110301400000",
+        "110300900000",
+        "110300500000"
+      ]
+    }
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "recipe_ingredient_ids": [
+    "15748"
+  ],
+  "views": [
+    "all",
+    "browse"
+  ]
+}

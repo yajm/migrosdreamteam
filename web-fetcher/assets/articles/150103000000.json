@@ -1,0 +1,640 @@
+{
+  "id": "150103000000",
+  "language": "de",
+  "name": "Kondensmilch gezuckert",
+  "names": {
+    "name": "Kondensmilch gezuckert"
+  },
+  "slug": "kondensmilch-gezuckert",
+  "boss_number": "010310273605",
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "source-qim-allergens",
+    "source-qim-fooddeclaration",
+    "source-qim-nutritionfacts",
+    "source-qim-origins",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7610200010094"
+  ],
+  "categories": [
+    {
+      "code": "BeSS_01011101",
+      "name": "Kakao & Schokoladen Pulver",
+      "slug": "supermarkt/lebensmittel/fruehstueck/kakao-schokoladen-pulver",
+      "visible": true,
+      "parent_code": "BeSS_010111",
+      "image": {
+        "original": "https://image.migros.ch/original/bb15de8d7297a55afc2e11c56f03389035777661/kakao-schokoladen-pulver.jpg",
+        "stack": "https://image.migros.ch/{stack}/bb15de8d7297a55afc2e11c56f03389035777661/kakao-schokoladen-pulver.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010111",
+      "name": "Frühstück",
+      "slug": "supermarkt/lebensmittel/fruehstueck",
+      "visible": true,
+      "title": "Frühstück: Mit Produkten aus Ihrer Migros einfach in den Tag starten",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/58a87c73cd077c5c9efb268051c16d5b373f5c29/fruehstueck.jpg",
+        "stack": "https://image.migros.ch/{stack}/58a87c73cd077c5c9efb268051c16d5b373f5c29/fruehstueck.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_Spezialmilch_MilchMilchdrink_MilchprodukteEier",
+        "name": "Spezialmilch",
+        "slug": "amigos/milchprodukte-eier/milch-milchdrink/spezialmilch",
+        "visible": true,
+        "parent_code": "AMIG_CAT_MilchMilchdrink_MilchprodukteEier",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_MilchMilchdrink_MilchprodukteEier",
+        "name": "Milch & Milchdrink",
+        "slug": "amigos/milchprodukte-eier/milch-milchdrink",
+        "visible": true,
+        "parent_code": "AMIG_CAT_MilchprodukteEier",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_MilchprodukteEier",
+        "name": "Milchprodukte & Eier",
+        "slug": "amigos/milchprodukte-eier",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "nutrition_facts": {
+    "standard": {
+      "nutrients": [
+        {
+          "code": "PIM_NUT_ENERGIE",
+          "name": "Energie",
+          "pictogram_name": "Energie",
+          "category": "BIG9",
+          "quantity": 1443,
+          "nutrition_operator": "=",
+          "quantity_unit": "kJ",
+          "quantity_alternate": 342,
+          "quantity_alternate_unit": "kcal"
+        },
+        {
+          "code": "PIM_NUT_FETT",
+          "name": "Fett",
+          "pictogram_name": "Fett",
+          "category": "BIG9",
+          "quantity": 9.1,
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_FETT_GES",
+          "name": "davon gesättigte Fettsäuren",
+          "pictogram_name": "gesättigte Fettsäuren",
+          "category": "BIG9",
+          "quantity": 6.3,
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_KOHLENHY",
+          "name": "Kohlenhydrate",
+          "category": "BIG9",
+          "quantity": 57,
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_ZUCKER",
+          "name": "davon Zucker",
+          "pictogram_name": "Zuckerarten",
+          "category": "BIG9",
+          "quantity": 57,
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_GES_BALL",
+          "name": "Ballaststoffe",
+          "category": "BIG9",
+          "quantity": 0,
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_PROTEINE",
+          "name": "Eiweiss",
+          "category": "BIG9",
+          "quantity": 8.1,
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_KOCHSALZ",
+          "name": "Salz",
+          "pictogram_name": "Salz",
+          "category": "BIG9",
+          "quantity": 0.26,
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        }
+      ],
+      "base_quantity": 100,
+      "base_unit": "g"
+    },
+    "portion": {
+      "nutrients": [
+        {
+          "code": "PIM_NUT_ENERGIE",
+          "name": "Energie",
+          "pictogram_name": "Energie",
+          "category": "BIG9",
+          "quantity": 217,
+          "rda_percent": 3,
+          "rda_percent_operator": "=",
+          "nutrition_operator": "=",
+          "quantity_unit": "kJ",
+          "quantity_alternate": 51,
+          "quantity_alternate_unit": "kcal"
+        },
+        {
+          "code": "PIM_NUT_FETT",
+          "name": "Fett",
+          "pictogram_name": "Fett",
+          "category": "BIG9",
+          "quantity": 1.4,
+          "rda_percent": 2,
+          "rda_percent_operator": "=",
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_FETT_GES",
+          "name": "davon gesättigte Fettsäuren",
+          "pictogram_name": "gesättigte Fettsäuren",
+          "category": "BIG9",
+          "quantity": 0.9,
+          "rda_percent": 5,
+          "rda_percent_operator": "=",
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_KOHLENHY",
+          "name": "Kohlenhydrate",
+          "category": "BIG9",
+          "quantity": 8.5,
+          "rda_percent": 3,
+          "rda_percent_operator": "=",
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_ZUCKER",
+          "name": "davon Zucker",
+          "pictogram_name": "Zuckerarten",
+          "category": "BIG9",
+          "quantity": 8.5,
+          "rda_percent": 9,
+          "rda_percent_operator": "=",
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_GES_BALL",
+          "name": "Ballaststoffe",
+          "category": "BIG9",
+          "quantity": 0,
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_PROTEINE",
+          "name": "Eiweiss",
+          "category": "BIG9",
+          "quantity": 1.2,
+          "rda_percent": 2,
+          "rda_percent_operator": "=",
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_KOCHSALZ",
+          "name": "Salz",
+          "pictogram_name": "Salz",
+          "category": "BIG9",
+          "quantity": 0.04,
+          "rda_percent": 1,
+          "rda_percent_operator": "=",
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        }
+      ],
+      "base_description": "1 Esslöffel",
+      "base_quantity": 15,
+      "base_unit": "g",
+      "package_type": "Tube",
+      "portions_per_package": "20",
+      "portions_per_package_precision": "="
+    }
+  },
+  "features": [
+    {
+      "label_code": "MISO_anzahlentnehmbarereinzelportionen",
+      "label": "Anzahl entnehmbarer Einzeleinheiten",
+      "values": [
+        {
+          "value_code": "NUMERIC_20.0",
+          "value": "20.0",
+          "numeric_value": 20
+        }
+      ],
+      "category_code": "MISO_CLA_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_tube",
+          "value": "Tube"
+        }
+      ],
+      "category_code": "MISO_CLA_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_behandlungdesgetraenks",
+      "label": "Behandlung des Getränks",
+      "values": [
+        {
+          "value_code": "MISO_behandlungdesgetraenks_pasteurisiert",
+          "value": "pasteurisiert"
+        }
+      ],
+      "category_code": "MISO_CLA_AlkoholfreieGetraenketrinkfertig_Getraenke_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zuckerfrei",
+      "label": "Zuckerfrei",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "Nein",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MISO_CLA_AlkoholfreieGetraenketrinkfertig_Getraenke_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    }
+  ],
+  "allergens": [
+    {
+      "code": "ALLG_MILCH",
+      "name": "Milch und daraus gewonnene Erzeugnisse (einschliesslich Laktose)",
+      "contamination_code": "VORHANDEN",
+      "contamination": "vorhanden"
+    }
+  ],
+  "general_information": [
+    {
+      "label": "Kühlhinweis / Aufbewahrungshinweis",
+      "value": "Ohne Kühlung haltbar. Nach dem Öffnen im Kühlschrank aufbewahren und rasch konsumieren."
+    },
+    {
+      "label": "Produktionshinweis",
+      "value": "Pasteurisiert"
+    },
+    {
+      "label": "Zubereitungshinweis",
+      "value": "Mit 470 ml Wasser verdünnt, entspricht der Inhalt dieser Tube ca. 700 ml gezuckerter Vollmilch mit einem Zuckergehalt von 135 g/l."
+    },
+    {
+      "label": "Weitere Zusatzangaben",
+      "value": "Milchfett: 91 g/kg. Fettfreie Milchtrockenmasse: 217 g/kg"
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/4bf0ea3a983202666cfdda8928c7300b9cc26ea6/kondensmilch-gezuckert.jpg",
+    "stack": "https://image.migros.ch/{stack}/4bf0ea3a983202666cfdda8928c7300b9cc26ea6/kondensmilch-gezuckert.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/968f3dbff039103d8d1c4e09662a5dc5f3cb21d2/kondensmilch-gezuckert.png",
+    "stack": "https://image.migros.ch/{stack}/968f3dbff039103d8d1c4e09662a5dc5f3cb21d2/kondensmilch-gezuckert.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_sortierung",
+      "label": "Sortierung aMigos",
+      "values": [
+        {
+          "value_code": "NUMERIC_460",
+          "value": "460",
+          "numeric_value": 460
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "M",
+          "value": "Kolonial Standard"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "10305",
+          "value": "KONDENSMILCH/MILCHPULVER"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "regulated_description": "Kondensmilch, gezuckert",
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/150103000000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/kondensmilch-gezuckert",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/150103000000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/kondensmilch-gezuckert",
+      "type": "info",
+      "purchasable": false
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/51572",
+      "app_url": "leshop:///catalog/article/detail?ean=7610200010094",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/kondensmilch-gezuckert",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "regional_availability": {
+    "gmaa": {
+      "probability": 99
+    },
+    "gmbs": {
+      "probability": 100
+    },
+    "gmge": {
+      "probability": 92
+    },
+    "gmlu": {
+      "probability": 97
+    },
+    "gmnf": {
+      "probability": 98
+    },
+    "gmos": {
+      "probability": 100
+    },
+    "gmti": {
+      "probability": 100
+    },
+    "gmvd": {
+      "probability": 98
+    },
+    "gmvs": {
+      "probability": 100
+    },
+    "gmzh": {
+      "probability": 97
+    }
+  },
+  "updated_at": "2020-09-16T04:35:14+0200",
+  "base_unit": "CU",
+  "slugs": {
+    "de": "kondensmilch-gezuckert",
+    "fr": "lait-condense-sucre",
+    "it": "latte-condensato-zuccherato"
+  },
+  "receipt_text": "Kondensmilch",
+  "main_supplier": {
+    "name": "HOCHDORF Swiss Nutrition AG",
+    "id": "0010014959"
+  },
+  "price": {
+    "valid_from": "2019-03-27T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 2.9,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "300g"
+    },
+    "base": {
+      "price": 0.97,
+      "quantity": 100,
+      "unit": "g"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 24,
+    "average_all": 4.555555555556
+  },
+  "data_source": "SAP-X11",
+  "origins": {
+    "producing_country": "Hergestellt in der Schweiz",
+    "production_facility_id": "CH 2412"
+  },
+  "ingredients": "<strong>Milch</strong>, Zucker, Stabilisator: Natriumdihydrogenphosphat.",
+  "package": {
+    "content": 300,
+    "content_unit_code": "g",
+    "content_unit": "Gramm",
+    "net_weight": 0.3,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogramm",
+    "brutto_weight": 0.32,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 0.709,
+    "brutto_volume_unit_code": "cdm",
+    "height": 17.5,
+    "length": 5,
+    "width": 8.1,
+    "unit_dimension": "cm",
+    "price_comparison_content": 100,
+    "size": "300g"
+  },
+  "package_information": {
+    "tu": {
+      "brutto_weight": 5,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 10.433,
+      "brutto_volume_unit_code": "cdm",
+      "height": 19.2,
+      "length": 28.6,
+      "width": 19,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 15
+    },
+    "cu": {
+      "brutto_weight": 0.32,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0.709,
+      "brutto_volume_unit_code": "cdm",
+      "height": 17.5,
+      "length": 5,
+      "width": 8.1,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "lu": {
+      "brutto_weight": 505,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 1051.2,
+      "brutto_volume_unit_code": "cdm",
+      "height": 100,
+      "length": 120,
+      "width": 80,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1440
+    }
+  },
+  "related_products": {
+    "purchase_recommendations": {
+      "product_ids": [
+        "150111000000",
+        "150141000000"
+      ]
+    }
+  },
+  "declarations": {
+    "food": {
+      "features": [
+        {
+          "label_code": "GDSN_M281_NetContent",
+          "label": "Nettofüllmenge Wert",
+          "values": [
+            {
+              "value_code": "NUMERIC_300",
+              "value": "300",
+              "numeric_value": 300
+            }
+          ],
+          "category_code": "GDSN",
+          "top_fact": false,
+          "unit_code": "g"
+        },
+        {
+          "label_code": "QIM_ZubereitungshinweisDeklaration",
+          "label": "Zubereitungshinweis",
+          "values": [
+            {
+              "value": "Mit 470 ml Wasser verdünnt, entspricht der Inhalt dieser Tube ca. 700 ml gezuckerter Vollmilch mit einem Zuckergehalt von 135 g/l."
+            }
+          ],
+          "category_code": "GDSN",
+          "top_fact": false
+        }
+      ]
+    }
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "recipe_ingredient_ids": [
+    "16901",
+    "37000"
+  ],
+  "views": [
+    "all",
+    "browse"
+  ]
+}

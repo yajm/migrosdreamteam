@@ -1,0 +1,567 @@
+{
+  "id": "153223300000",
+  "language": "de",
+  "name": "Agnesi Pesto Rosso",
+  "names": {
+    "name": "Agnesi Pesto Rosso",
+    "short_name": "Agnesi Pesto Rosso"
+  },
+  "slug": "agnesi-pesto-rosso",
+  "boss_number": "011011270510",
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03"
+  },
+  "tags": [
+    "source-pex",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "80525493",
+    "8001200038215",
+    "8001200038307"
+  ],
+  "brand": {
+    "id": "003",
+    "name": "Agnesi",
+    "slug": "agnesi"
+  },
+  "categories": [
+    {
+      "code": "BeSS_0101140905",
+      "name": "Pasta-Saucen",
+      "slug": "supermarkt/lebensmittel/pasta-zutaten-konserven/suppen-saucen-bouillon/pasta-saucen",
+      "visible": true,
+      "title": "Pasta-Saucen in Ihrer Migros kaufen",
+      "parent_code": "BeSS_01011409",
+      "image": {
+        "original": "https://image.migros.ch/original/acb0d99c9ddd2625a193fe58059b0d98be064ceb/pasta-saucen.jpg",
+        "stack": "https://image.migros.ch/{stack}/acb0d99c9ddd2625a193fe58059b0d98be064ceb/pasta-saucen.jpg"
+      },
+      "level": 5
+    },
+    {
+      "code": "BeSS_01011409",
+      "name": "Suppen, Saucen & Bouillon",
+      "slug": "supermarkt/lebensmittel/pasta-zutaten-konserven/suppen-saucen-bouillon",
+      "visible": true,
+      "title": "Bouillon in Ihrer Migros kaufen",
+      "parent_code": "BeSS_010114",
+      "image": {
+        "original": "https://image.migros.ch/original/5f7779de5b06c3e5051c0ccdb81a414859a26cf5/suppen-saucen-bouillon.jpg",
+        "stack": "https://image.migros.ch/{stack}/5f7779de5b06c3e5051c0ccdb81a414859a26cf5/suppen-saucen-bouillon.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010114",
+      "name": "Pasta, Zutaten & Konserven",
+      "slug": "supermarkt/lebensmittel/pasta-zutaten-konserven",
+      "visible": true,
+      "title": "Pasta aus Ihrer Migros: alles rund um Teigwaren",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/6d0964bbb34b8e041ba4d74fc0c90b149907f46a/pasta-zutaten-konserven.jpg",
+        "stack": "https://image.migros.ch/{stack}/6d0964bbb34b8e041ba4d74fc0c90b149907f46a/pasta-zutaten-konserven.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_Pastasaucen_PastasaucenwarmeSaucen_Grundnahrungsmittel",
+        "name": "Pastasaucen",
+        "slug": "amigos/grundnahrungsmittel/pastasaucen-warme-saucen/pastasaucen",
+        "visible": true,
+        "parent_code": "AMIG_CAT_PastasaucenwarmeSaucen_Grundnahrungsmittel",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_PastasaucenwarmeSaucen_Grundnahrungsmittel",
+        "name": "Pastasaucen & warme Saucen",
+        "slug": "amigos/grundnahrungsmittel/pastasaucen-warme-saucen",
+        "visible": true,
+        "parent_code": "AMIG_CAT_Grundnahrungsmittel",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_Grundnahrungsmittel",
+        "name": "Grundnahrungsmittel",
+        "slug": "amigos/grundnahrungsmittel",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "features": [
+    {
+      "label_code": "miso_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_glas",
+          "value": "Glas"
+        }
+      ],
+      "category_code": "MISO_CLA_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "miso_zusatzangaben",
+      "label": "Zusatzangaben",
+      "values": [
+        {
+          "value_code": "MISO_zusatzangaben_337",
+          "value": "Nach dem Öffnen im Kühlschrank aufbewahren und in 5 Tagen verbrauchen."
+        }
+      ],
+      "category_code": "MISO_CLA_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "miso_artvonsaucedip",
+      "label": "Art von Sauce/Dip",
+      "values": [
+        {
+          "value_code": "MISO_artvonsaucedip_pesto",
+          "value": "Pesto"
+        }
+      ],
+      "category_code": "MISO_CLA_SaucenAufstricheDipsWuerzsaucen_GewuerzeKonservierungsstoffeExtrakte_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "miso_vorgeseheneverwendungdersauce",
+      "label": "Vorgesehene Verwendung der Sauce",
+      "values": [
+        {
+          "value_code": "MISO_vorgeseheneverwendungdersauce_teigwaren",
+          "value": "Teigwaren"
+        }
+      ],
+      "category_code": "MISO_CLA_SaucenAufstricheDipsWuerzsaucen_GewuerzeKonservierungsstoffeExtrakte_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    }
+  ],
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    }
+  },
+  "image": {
+    "original": "https://image.migros.ch/original/c2bbc9b5f90bf45c7fb18dc4f67f1014f10301b8/agnesi-pesto-rosso.jpg",
+    "stack": "https://image.migros.ch/{stack}/c2bbc9b5f90bf45c7fb18dc4f67f1014f10301b8/agnesi-pesto-rosso.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/c2d43600435d86495ec401bbf375fb94436dbf71/agnesi-pesto-rosso.png",
+    "stack": "https://image.migros.ch/{stack}/c2d43600435d86495ec401bbf375fb94436dbf71/agnesi-pesto-rosso.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_sortierung",
+      "label": "Sortierung aMigos",
+      "values": [
+        {
+          "value_code": "NUMERIC_370",
+          "value": "370",
+          "numeric_value": 370
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_RETURNABLE",
+      "label": "Rückgabe",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "true",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MAPI_RETURNABLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_EXCLUDE_FROM_COMPARISON_ENGINES",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "false",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_EXCLUDE_FROM_COMPARISON_ENGINES",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Normalposition"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "HAWA"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUSTOMS_POSITION",
+      "values": [
+        {
+          "value_code": "NUMERIC_2103.9000",
+          "value": "2103.9000",
+          "numeric_value": 2103.9
+        }
+      ],
+      "category_code": "MAPI_CUSTOMS_POSITION",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "M",
+          "value": "Kolonial Standard"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "10133",
+          "value": "PREM. NASSSAUCEN F. PASTA"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_LIFECYCLE",
+      "values": [
+        {
+          "value_code": "D",
+          "value": "Detailhandelsartikel"
+        }
+      ],
+      "category_code": "MAPI_LIFECYCLE",
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/153223300000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/agnesi-pesto-rosso",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/153223300000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/agnesi-pesto-rosso",
+      "type": "info",
+      "purchasable": false
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/4961600",
+      "app_url": "leshop:///catalog/article/detail?ean=80525493",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/agnesi-pesto-rosso",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "regional_availability": {
+    "gmaa": {
+      "probability": 60
+    },
+    "gmbs": {
+      "probability": 91
+    },
+    "gmge": {
+      "probability": 77
+    },
+    "gmlu": {
+      "probability": 70
+    },
+    "gmnf": {
+      "probability": 56
+    },
+    "gmos": {
+      "probability": 77
+    },
+    "gmti": {
+      "probability": 75
+    },
+    "gmvd": {
+      "probability": 65
+    },
+    "gmvs": {
+      "probability": 67
+    },
+    "gmzh": {
+      "probability": 81
+    }
+  },
+  "updated_at": "2020-09-16T05:47:00+0200",
+  "base_unit": "CU",
+  "slugs": {
+    "de": "agnesi-pesto-rosso",
+    "fr": "agnesi-pesto-rosso",
+    "it": "agnesi-pesto-rosso"
+  },
+  "receipt_text": "Agnesi Pesto Rosso",
+  "main_supplier": {
+    "name": "Colussi S.p.A.",
+    "id": "0010000005",
+    "supplier_product_id": "AGNESI 119MIE"
+  },
+  "price": {
+    "valid_from": "2019-06-18T00:00:00+0200",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 3.4,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "185g"
+    },
+    "base": {
+      "price": 1.84,
+      "quantity": 100,
+      "unit": "g"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 6,
+    "average_all": 3
+  },
+  "data_source": "SAP-X11",
+  "package": {
+    "content": 185,
+    "content_unit_code": "g",
+    "content_unit": "Gramm",
+    "net_weight": 0.185,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogramm",
+    "brutto_weight": 0.321,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 0.413,
+    "brutto_volume_unit_code": "cdm",
+    "height": 8.3,
+    "length": 6.3,
+    "width": 7.9,
+    "unit_dimension": "cm",
+    "price_comparison_content": 100,
+    "size": "185g"
+  },
+  "package_information": {
+    "tu": {
+      "brutto_weight": 3.98,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 5.838,
+      "brutto_volume_unit_code": "cdm",
+      "height": 8.9,
+      "length": 32.8,
+      "width": 20,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 12
+    },
+    "cu": {
+      "brutto_weight": 0.321,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0.413,
+      "brutto_volume_unit_code": "cdm",
+      "height": 8.3,
+      "length": 6.3,
+      "width": 7.9,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "lu": {
+      "brutto_weight": 627,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 854.4,
+      "brutto_volume_unit_code": "cdm",
+      "height": 89,
+      "length": 120,
+      "width": 80,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1680
+    }
+  },
+  "related_products": {
+    "purchase_recommendations": {
+      "product_ids": [
+        "153225800000",
+        "153223400000",
+        "153225700000",
+        "153237000000",
+        "153237300000"
+      ]
+    }
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "recipe_ingredient_ids": [
+    "15052",
+    "18675732"
+  ],
+  "views": [
+    "all",
+    "browse"
+  ]
+}

@@ -1,0 +1,588 @@
+{
+  "id": "233110281500",
+  "language": "de",
+  "name": "Bio Ländle Kräuterspeck",
+  "names": {
+    "name": "Bio Ländle Kräuterspeck"
+  },
+  "slug": "bio-laendle-kraeuterspeck",
+  "boss_number": "040114515505",
+  "description": {
+    "text": "Bio Kr&auml;uterspeck, gem&auml;ss den Vorgaben der Schweizer Bio-Verordnung, der Kr&auml;uterspeck wird traditionell ger&auml;ucht/hergestellt und mit Kr&auml;utern verfeinert",
+    "source": "PIM"
+  },
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "80"
+  },
+  "tags": [
+    "source-pim",
+    "source-qim-origins",
+    "migipedia",
+    "validity-range-not-set",
+    "source-qim-fooddeclaration",
+    "source-qim-nutritionfacts",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "2150226000006",
+    "7617100217974"
+  ],
+  "labels": [
+    {
+      "id": "L02",
+      "name": "Migros Bio",
+      "slug": "migros-bio",
+      "links": {
+        "homepage": {
+          "url": "https://bio.migros.ch/de.html",
+          "name": "Homepage",
+          "type": "info",
+          "purchasable": false
+        }
+      },
+      "image": {
+        "original": "https://image.migros.ch/original/f32d1804b8db5760147310b8d6458eb36757b486/migros-bio.jpg",
+        "stack": "https://image.migros.ch/{stack}/f32d1804b8db5760147310b8d6458eb36757b486/migros-bio.jpg"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_0101061108",
+      "name": "Ungekühlte Wurst und Fleischwaren aus Bio Fleisch",
+      "slug": "supermarkt/lebensmittel/fleisch/charcuterie-produkte/ungekuehlte-wurst-und-fleischwaren-aus-bio-fleisch",
+      "visible": true,
+      "parent_code": "BeSS_01010611",
+      "image": {
+        "original": "https://image.migros.ch/original/31394d67f251706edbfe3d4bfe0eb314f3b951bf/ungekuehlte-wurst-und-fleischwaren-aus-bio-fleisch.jpg",
+        "stack": "https://image.migros.ch/{stack}/31394d67f251706edbfe3d4bfe0eb314f3b951bf/ungekuehlte-wurst-und-fleischwaren-aus-bio-fleisch.jpg"
+      },
+      "level": 5
+    },
+    {
+      "code": "BeSS_01010611",
+      "name": "Charcuterie Produkte",
+      "slug": "supermarkt/lebensmittel/fleisch/charcuterie-produkte",
+      "visible": true,
+      "title": "Vielfältige Charcuterie-Produkte jetzt in Ihrer Migros",
+      "parent_code": "BeSS_010106",
+      "image": {
+        "original": "https://image.migros.ch/original/25316d2bc38d6c6d28b266513291b23735ad8a1f/charcuterie-produkte.jpg",
+        "stack": "https://image.migros.ch/{stack}/25316d2bc38d6c6d28b266513291b23735ad8a1f/charcuterie-produkte.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010106",
+      "name": "Fleisch",
+      "slug": "supermarkt/lebensmittel/fleisch",
+      "visible": true,
+      "title": "Fleisch ausgezeichneter Qualität aus Ihrer Migros: einfach gut",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/03d32c0880d7a9ea6e58971966032e65ac442b58/fleisch.jpg",
+        "stack": "https://image.migros.ch/{stack}/03d32c0880d7a9ea6e58971966032e65ac442b58/fleisch.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "nutrition_facts": {
+    "standard": {
+      "nutrients": [
+        {
+          "code": "PIM_NUT_ENERGIE",
+          "name": "Energie",
+          "pictogram_name": "Energie",
+          "category": "BIG9",
+          "quantity": 1720,
+          "nutrition_operator": "=",
+          "quantity_unit": "kJ",
+          "quantity_alternate": 415,
+          "quantity_alternate_unit": "kcal"
+        },
+        {
+          "code": "PIM_NUT_FETT",
+          "name": "Fett",
+          "pictogram_name": "Fett",
+          "category": "BIG9",
+          "quantity": 35,
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_FETT_GES",
+          "name": "davon gesättigte Fettsäuren",
+          "pictogram_name": "gesättigte Fettsäuren",
+          "category": "BIG9",
+          "quantity": 13,
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_KOHLENHY",
+          "name": "Kohlenhydrate",
+          "category": "BIG9",
+          "quantity": 1,
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_ZUCKER",
+          "name": "davon Zucker",
+          "pictogram_name": "Zuckerarten",
+          "category": "BIG9",
+          "quantity": 1,
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_GES_BALL",
+          "name": "Ballaststoffe",
+          "category": "BIG9",
+          "quantity": 0.5,
+          "nutrition_operator": "<",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_PROTEINE",
+          "name": "Eiweiss",
+          "category": "BIG9",
+          "quantity": 24,
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_KOCHSALZ",
+          "name": "Salz",
+          "pictogram_name": "Salz",
+          "category": "BIG9",
+          "quantity": 4.3,
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        }
+      ],
+      "base_quantity": 100,
+      "base_unit": "g"
+    }
+  },
+  "features": [
+    {
+      "label_code": "MISO_mussgekuehltwerden",
+      "label": "Muss gekühlt werden",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "Nein",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MISO_CLA_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_produktionsanspruch",
+      "label": "Produktionsverfahren",
+      "values": [
+        {
+          "value_code": "MISO_produktionsanspruch_bioproduktion",
+          "value": "Bio-Produktion"
+        }
+      ],
+      "category_code": "MISO_CLA_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_kunststoffverpackungmitpapieranteil60wenigerkunststoff",
+          "value": "Kunststoff-Verpackung mit Papieranteil (60% weniger Kunststoff)"
+        }
+      ],
+      "category_code": "MISO_CLA_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zubereitungsverfahren",
+      "label": "Hinweise für die Zubereitung",
+      "values": [
+        {
+          "value_code": "MISO_zubereitungsverfahren_verzehrfertig",
+          "value": "Verzehrfertig"
+        },
+        {
+          "value_code": "MISO_zubereitungsverfahren_zumrohessen",
+          "value": "Zum Rohessen"
+        }
+      ],
+      "category_code": "MISO_CLA_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_inscheibenodertranchen",
+      "label": "In Scheiben oder Tranchen",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "Nein",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MISO_CLA_FleischGefluegelsonstigeTiere_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_fleischform",
+      "label": "Fleischform bearbeitet",
+      "values": [
+        {
+          "value_code": "MISO_fleischform_inscheibenodertranchen",
+          "value": "In Scheiben oder Tranchen"
+        }
+      ],
+      "category_code": "MISO_CLA_FleischGefluegelsonstigeTiere_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_primaerezusaetze",
+      "label": "Primäre Zusätze",
+      "values": [
+        {
+          "value_code": "MISO_primaerezusaetze_kraeuter",
+          "value": "Kräuter"
+        },
+        {
+          "value_code": "MISO_primaerezusaetze_salz",
+          "value": "Salz"
+        }
+      ],
+      "category_code": "MISO_CLA_FleischGefluegelsonstigeTiere_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_tierartodergattung",
+      "label": "Tierart oder Gattung",
+      "values": [
+        {
+          "value_code": "MISO_tierartodergattung_schwein",
+          "value": "Schwein"
+        }
+      ],
+      "category_code": "MISO_CLA_FleischGefluegelsonstigeTiere_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_verpackungsform",
+      "label": "Verpackungsform",
+      "values": [
+        {
+          "value_code": "MISO_verpackungsform_schutzatmosphaere",
+          "value": "Schutzatmosphäre"
+        }
+      ],
+      "category_code": "MISO_CLA_FleischGefluegelsonstigeTiere_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_herstellungsverfahrenvonfleisch",
+      "label": "Herstellungsverfahren von Fleisch",
+      "values": [
+        {
+          "value_code": "MISO_herstellungsverfahrenvonfleisch_getrocknet",
+          "value": "getrocknet"
+        }
+      ],
+      "category_code": "MISO_CLA_FleischGefluegelsonstigeTiere_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_haltbarmachung",
+      "label": "Haltbarmachung",
+      "values": [
+        {
+          "value_code": "MISO_haltbarmachung_gesalzen",
+          "value": "gesalzen"
+        }
+      ],
+      "category_code": "MISO_CLA_WuersteFleischGefluegelsonstigeTierebearbeitetverarbeitet_FleischGefluegelsonstigeTiere_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_fleischstueck",
+      "label": "Fleischstück",
+      "values": [
+        {
+          "value_code": "MISO_fleischstueck_schweinsbrust",
+          "value": "Schweinsbrust"
+        }
+      ],
+      "category_code": "MISO_CLA_WuersteFleischGefluegelsonstigeTierebearbeitetverarbeitet_FleischGefluegelsonstigeTiere_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_schneideart",
+      "label": "Schneideart",
+      "values": [
+        {
+          "value_code": "MISO_schneideart_duenngeschnitten",
+          "value": "dünn geschnitten"
+        }
+      ],
+      "category_code": "MISO_CLA_WuersteFleischGefluegelsonstigeTierebearbeitetverarbeitet_FleischGefluegelsonstigeTiere_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    }
+  ],
+  "general_information": [
+    {
+      "label": "Produktionshinweis",
+      "value": "Unter Schutzatmosphäre verpackt."
+    },
+    {
+      "label": "Warnhinweis und weitere obligatorische Angaben",
+      "value": "Zum Rohessen."
+    },
+    {
+      "label": "Kühlhinweis / Aufbewahrungshinweis",
+      "value": "Ohne Kühlung haltbar. Nach dem Öffnen im Kühlschrank aufbewahren."
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/8acc353679cc484f5756138ccf337a7c218f56b8/bio-laendle-kraeuterspeck.jpg",
+    "stack": "https://image.migros.ch/{stack}/8acc353679cc484f5756138ccf337a7c218f56b8/bio-laendle-kraeuterspeck.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/46d6671fda9208e9ca3088b7ca8b3fa1fba2a3f6/bio-laendle-kraeuterspeck.png",
+    "stack": "https://image.migros.ch/{stack}/46d6671fda9208e9ca3088b7ca8b3fa1fba2a3f6/bio-laendle-kraeuterspeck.png"
+  },
+  "additional_images": [
+    {
+      "original": "https://image.migros.ch/original/0803f040bde16d67b0d165a879054a4b648bf146.jpg",
+      "stack": "https://image.migros.ch/{stack}/0803f040bde16d67b0d165a879054a4b648bf146.jpg"
+    }
+  ],
+  "internal_features": [
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZFRP",
+          "value": "Frische Beschaffung"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "6",
+          "value": "Fleisch-Fisch-Geflüg"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "70125",
+          "value": "BIO"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "regulated_description": "Rohessspeck",
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/233110281500",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/bio-laendle-kraeuterspeck",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/233110281500",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/bio-laendle-kraeuterspeck",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "regional_availability": {
+    "gmaa": {
+      "probability": 9
+    },
+    "gmbs": {
+      "probability": 0
+    },
+    "gmge": {
+      "probability": 0
+    },
+    "gmlu": {
+      "probability": 5
+    },
+    "gmnf": {
+      "probability": 0
+    },
+    "gmos": {
+      "probability": 7
+    },
+    "gmti": {
+      "probability": 0
+    },
+    "gmvd": {
+      "probability": 12
+    },
+    "gmvs": {
+      "probability": 0
+    },
+    "gmzh": {
+      "probability": 14
+    }
+  },
+  "updated_at": "2020-09-16T05:53:00+0200",
+  "base_unit": "KG",
+  "slugs": {
+    "de": "bio-laendle-kraeuterspeck",
+    "fr": "bio-lard-aux-herbes",
+    "it": "bio-pancetta-paesana-alle-erbe"
+  },
+  "receipt_text": "Bio Kräuterspeck",
+  "main_supplier": {
+    "name": "Fleischtrocknerei Churwalden",
+    "id": "0010016222"
+  },
+  "price": {
+    "valid_from": "2018-01-29T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 6.25,
+      "quantity": 100,
+      "unit": "g",
+      "varying_quantity": true,
+      "display_quantity": "100 g"
+    },
+    "base": {
+      "price": 0.63,
+      "quantity": 100,
+      "unit": "g"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 6,
+    "average_all": 3.2
+  },
+  "data_source": "SAP-X4x",
+  "origins": {
+    "producing_country": "Hergestellt in der Schweiz aus Schweizer Fleisch",
+    "production_facility_id": "CH 73765493"
+  },
+  "ingredients": "Schweinefleisch **, Kochsalz, Kräuter 1 % *, Gewürze *, Glucosesirup *, Säuerungsmittel: Natriumcitrate, Konservierungsstoff: Kaliumnitrat, Antioxidationsmittel: Natriumascorbat. \n** Aus Schweizer Bio-Produktion. \n* Aus ausländischer Bio-Produktion.",
+  "package": {
+    "content": 1000,
+    "content_unit_code": "g",
+    "content_unit": "Gramm",
+    "net_weight": 1,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogramm",
+    "brutto_weight": 1,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 0.001,
+    "brutto_volume_unit_code": "m3",
+    "height": 23.8,
+    "length": 1.3,
+    "width": 18.7,
+    "unit_dimension": "cm",
+    "price_comparison_content": 100
+  },
+  "package_information": {
+    "tu": {
+      "brutto_weight": 1,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 31.2,
+      "brutto_volume_unit_code": "cdm",
+      "height": 13,
+      "length": 60,
+      "width": 40,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "kg": {
+      "brutto_weight": 1,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0.001,
+      "brutto_volume_unit_code": "m3",
+      "height": 23.8,
+      "length": 1.3,
+      "width": 18.7,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    }
+  },
+  "declarations": {
+    "food": {
+      "features": [
+        {
+          "label_code": "MAPI_CERTIFICATION_BODY",
+          "label": "Zertifizierungsstellen für Bio und/oder Berg/Alp inkl. Zertifizierungsnummer",
+          "values": [
+            {
+              "value": "CH-BIO-006"
+            }
+          ],
+          "category_code": "GDSN",
+          "top_fact": false
+        }
+      ]
+    }
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "recipe_ingredient_ids": [
+    "15379",
+    "18772"
+  ],
+  "views": [
+    "all",
+    "browse"
+  ]
+}

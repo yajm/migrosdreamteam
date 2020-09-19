@@ -1,0 +1,100 @@
+{
+  "name": "Rindshackfleisch Terrasuisse",
+  "regulated_description": "Rindfleisch",
+  "image": {
+    "original": "https://image.migros.ch/original/6e7e00ba55d5a16746564b6fe4ebd239c9d1ae99/rindshackfleisch-terrasuisse.jpg"
+  },
+  "price": {
+    "item": {
+      "price": 2
+    }
+  },
+  "nutrition_facts": {
+    "standard": {
+      "nutrients": {
+        "nutrients": [
+          {
+            "code": "PIM_NUT_ENERGIE",
+            "name": "Energie",
+            "pictogram_name": "Energie",
+            "category": "BIG9",
+            "quantity": 780,
+            "rda_percent_operator": "=",
+            "quantity_unit": "kJ",
+            "quantity_alternate": 187,
+            "quantity_alternate_unit": "kcal"
+          },
+          {
+            "code": "PIM_NUT_GES_FETT",
+            "name": "Fett",
+            "pictogram_name": "Fett",
+            "category": "BIG9",
+            "quantity": 12,
+            "rda_percent_operator": "=",
+            "quantity_unit": "g"
+          },
+          {
+            "code": "PIM_NUT_GESFETTS",
+            "name": "davon gesättigte Fettsäuren",
+            "pictogram_name": "gesättigte Fettsäuren",
+            "category": "BIG9",
+            "quantity": 4,
+            "rda_percent_operator": "=",
+            "quantity_unit": "g"
+          },
+          {
+            "code": "PIM_NUT_GES_KOHL",
+            "name": "Kohlenhydrate",
+            "category": "BIG9",
+            "quantity": 1,
+            "rda_percent_operator": "=",
+            "quantity_unit": "g"
+          },
+          {
+            "code": "PIM_NUT_GES_ZUCK",
+            "name": "davon Zucker",
+            "pictogram_name": "Zuckerarten",
+            "category": "BIG9",
+            "quantity": 1,
+            "rda_percent_operator": "=",
+            "quantity_unit": "g"
+          },
+          {
+            "code": "PIM_NUT_GES_BALL",
+            "name": "Ballaststoffe",
+            "category": "BIG9",
+            "quantity": 0.5,
+            "quantity_unit": "g"
+          },
+          {
+            "code": "PIM_NUT_GES_EIW",
+            "name": "Eiweiss",
+            "category": "BIG9",
+            "quantity": 19,
+            "rda_percent_operator": "=",
+            "quantity_unit": "g"
+          },
+          {
+            "code": "PIM_NUT_KOCHSALZ",
+            "name": "Salz",
+            "pictogram_name": "Salz",
+            "category": "BIG9",
+            "quantity": 0.1,
+            "rda_percent_operator": "=",
+            "quantity_unit": "g"
+          },
+          {
+            "code": "PIM_NUT_NATRIUM",
+            "name": "Natrium",
+            "category": "BIG9",
+            "quantity": 0.04,
+            "rda_percent_operator": "=",
+            "quantity_unit": "g"
+          }
+        ],
+        "base_quantity": 100,
+        "base_unit": "g"
+      }
+    }
+  }
+}

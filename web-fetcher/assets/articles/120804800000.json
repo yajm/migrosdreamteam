@@ -1,0 +1,416 @@
+{
+  "id": "120804800000",
+  "language": "de",
+  "name": "Evian",
+  "names": {
+    "name": "Evian"
+  },
+  "slug": "evian-120804800000",
+  "boss_number": "010710412105",
+  "description": {
+    "text": "Das nat&uuml;rliche, stille Mineralwasser entspringt aus der &Eacute;vian-les-Bains Quelle, einem Badekurort in den franz&ouml;sischen Alpen. Die Quelle ist umgeben von einem 70.000 ha grossen Naturschutzgebiet. 15 Jahre durch das Gestein der franz&ouml;sischen Alpen gefiltert, bietet das natriumarme evian durch seine ausgewogene Mineralisierung ein pures Geschmackserlebnis.",
+    "source": "PIM"
+  },
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "source-qim-origins",
+    "source-qim-distributor",
+    "validity-range-not-set",
+    "source-qim-fooddeclaration",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "3068320084602"
+  ],
+  "brand": {
+    "id": "F10",
+    "name": "Evian",
+    "slug": "evian"
+  },
+  "categories": [
+    {
+      "code": "BeSS_01011003",
+      "name": "Mineralwasser",
+      "slug": "supermarkt/lebensmittel/getraenke-heiss-kalt/mineralwasser",
+      "visible": true,
+      "title": "Prickelnd oder still? Mineralwasser bei der Migros.",
+      "parent_code": "BeSS_010110",
+      "image": {
+        "original": "https://image.migros.ch/original/12bd975bcb43071aa066ae16ec61f5b147a3166a/mineralwasser.jpg",
+        "stack": "https://image.migros.ch/{stack}/12bd975bcb43071aa066ae16ec61f5b147a3166a/mineralwasser.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010110",
+      "name": "Getränke heiss & kalt",
+      "slug": "supermarkt/lebensmittel/getraenke-heiss-kalt",
+      "visible": true,
+      "title": "Getränke aus der Migros löschen auch Ihren Durst",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/d04d95fbc2e1b4ada4783d2976d37a962a0318a1/getraenke-heiss-kalt.jpg",
+        "stack": "https://image.migros.ch/{stack}/d04d95fbc2e1b4ada4783d2976d37a962a0318a1/getraenke-heiss-kalt.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_OhneKohlensaeure_Mineralwasser_Getraenke",
+        "name": "Ohne Kohlensäure",
+        "slug": "amigos/getraenke/mineralwasser/ohne-kohlensaeure",
+        "visible": true,
+        "parent_code": "AMIG_CAT_Mineralwasser_Getraenke",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_Mineralwasser_Getraenke",
+        "name": "Mineralwasser",
+        "slug": "amigos/getraenke/mineralwasser",
+        "visible": true,
+        "parent_code": "AMIG_CAT_Getraenke",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_Getraenke",
+        "name": "Getränke",
+        "slug": "amigos/getraenke",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "features": [
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_flasche",
+          "value": "Flasche"
+        }
+      ],
+      "category_code": "MISO_CLA_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_naehrwertanspruch",
+      "label": "Nährwertanspruch",
+      "values": [
+        {
+          "value_code": "MISO_naehrwertanspruch_natriumarm",
+          "value": "Natriumarm"
+        }
+      ],
+      "category_code": "MISO_CLA_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_artvonwasser",
+      "label": "Art von Wasser",
+      "values": [
+        {
+          "value_code": "MISO_artvonwasser_mineralwasser",
+          "value": "Mineralwasser"
+        }
+      ],
+      "category_code": "MISO_CLA_AlkoholfreieGetraenketrinkfertig_Getraenke_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_karbonisierungsgehalt",
+      "label": "Karbonisierungsgehalt",
+      "values": [
+        {
+          "value_code": "MISO_karbonisierungsgehalt_natuerlich",
+          "value": "natürlich"
+        }
+      ],
+      "category_code": "MISO_CLA_AlkoholfreieGetraenketrinkfertig_Getraenke_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/18862b8a6fa7130d2eed7eb7ed3c683f6ca86a98/evian.jpg",
+    "stack": "https://image.migros.ch/{stack}/18862b8a6fa7130d2eed7eb7ed3c683f6ca86a98/evian.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/4fb7c49033b3ddfd78ce6dc3ef3d6c42d515c2ae/evian.png",
+    "stack": "https://image.migros.ch/{stack}/4fb7c49033b3ddfd78ce6dc3ef3d6c42d515c2ae/evian.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_sortierung",
+      "label": "Sortierung aMigos",
+      "values": [
+        {
+          "value_code": "NUMERIC_250",
+          "value": "250",
+          "numeric_value": 250
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "A",
+          "value": "Aufreissartikel"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "10743",
+          "value": "MW PREMIUM"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "regulated_description": "Natürliches Mineralwasser",
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/120804800000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/evian-120804800000",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/120804800000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/evian-120804800000",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "regional_availability": {
+    "gmaa": {
+      "probability": 87
+    },
+    "gmbs": {
+      "probability": 91
+    },
+    "gmge": {
+      "probability": 85
+    },
+    "gmlu": {
+      "probability": 86
+    },
+    "gmnf": {
+      "probability": 92
+    },
+    "gmos": {
+      "probability": 78
+    },
+    "gmti": {
+      "probability": 81
+    },
+    "gmvd": {
+      "probability": 82
+    },
+    "gmvs": {
+      "probability": 79
+    },
+    "gmzh": {
+      "probability": 86
+    }
+  },
+  "updated_at": "2020-09-16T05:43:05+0200",
+  "base_unit": "CU",
+  "slugs": {
+    "de": "evian-120804800000",
+    "fr": "evian-120804800000",
+    "it": "evian-120804800000"
+  },
+  "receipt_text": "Evian 1.5l",
+  "main_supplier": {
+    "name": "Evian-Volvic Suisse S.A.",
+    "id": "0010000511"
+  },
+  "price": {
+    "valid_from": "2019-01-09T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 1.05,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "1.5l"
+    },
+    "base": {
+      "price": 0.07,
+      "quantity": 100,
+      "unit": "ml"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 6,
+    "average_all": 4.333333333333
+  },
+  "data_source": "SAP-X11",
+  "origins": {},
+  "distributor": {
+    "name": "Evian-Volvic Suisse SA",
+    "address": "Leutschenbachstrasse 95, CH-8050 Zürich"
+  },
+  "package": {
+    "content": 1500,
+    "content_unit_code": "ml",
+    "content_unit": "Mililiter",
+    "net_weight": 1.5,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogramm",
+    "brutto_weight": 1.563,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 2.63,
+    "brutto_volume_unit_code": "cdm",
+    "height": 33.2,
+    "length": 8.9,
+    "width": 8.9,
+    "unit_dimension": "cm",
+    "price_comparison_content": 100,
+    "size": "1.5l"
+  },
+  "package_information": {
+    "cu": {
+      "brutto_weight": 1.563,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 2.63,
+      "brutto_volume_unit_code": "cdm",
+      "height": 33.2,
+      "length": 8.9,
+      "width": 8.9,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    }
+  },
+  "related_products": {
+    "purchase_recommendations": {
+      "product_ids": [
+        "120804900000",
+        "120850800000",
+        "120852000000",
+        "120850900000",
+        "120808800000"
+      ]
+    }
+  },
+  "declarations": {
+    "food": {
+      "features": [
+        {
+          "label_code": "GDSN_M094_CompulsoryAdditiveLabelInformation",
+          "label": "Verpflichtende Kennzeichnung an der Ware",
+          "values": [
+            {
+              "value": "Source Cachat S.A.E.M.E, BP 87, 74503 Evian, France"
+            }
+          ],
+          "category_code": "GDSN",
+          "top_fact": false
+        },
+        {
+          "label_code": "GDSN_M362_ConsumerStorageInstructions",
+          "label": "Aufbewahrungshinweise für den Konsumenten",
+          "values": [
+            {
+              "value": "Vor Licht schützen, sauber, trocken und kühl lagern."
+            }
+          ],
+          "category_code": "GDSN",
+          "top_fact": false
+        }
+      ]
+    }
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "recipe_ingredient_ids": [
+    "14724"
+  ],
+  "views": [
+    "all",
+    "browse"
+  ]
+}

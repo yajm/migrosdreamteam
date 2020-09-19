@@ -1,0 +1,771 @@
+{
+  "id": "130107200000",
+  "language": "de",
+  "name": "M-Classic Tortelloni mit Fleisch",
+  "names": {
+    "name": "M-Classic Tortelloni mit Fleisch"
+  },
+  "slug": "m-classic-tortelloni-mit-fleisch",
+  "boss_number": "020630160505",
+  "description": {
+    "text": "Tortelloni gef&uuml;llt mit Fleisch",
+    "source": "PIM"
+  },
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "80"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "source-qim-origins",
+    "validity-range-not-set",
+    "source-qim-allergens",
+    "source-qim-fooddeclaration",
+    "source-qim-nutritionfacts",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7617027115025",
+    "7613404435496"
+  ],
+  "brand": {
+    "id": "068",
+    "name": "M-Classic",
+    "slug": "m-classic",
+    "links": {
+      "homepage": {
+        "url": "https://m-classic.migros.ch/de.html",
+        "name": "Homepage",
+        "type": "info",
+        "purchasable": false
+      }
+    },
+    "image": {
+      "original": "https://image.migros.ch/original/72c18633f911e026e081ac11d872cff2d8dc8abb/m-classic.jpg",
+      "stack": "https://image.migros.ch/{stack}/72c18633f911e026e081ac11d872cff2d8dc8abb/m-classic.jpg"
+    }
+  },
+  "categories": [
+    {
+      "code": "BeSS_0101130205",
+      "name": "Pasta",
+      "slug": "supermarkt/lebensmittel/fertiggerichte-menues-snacks/fertige-pizzen-menues-snacks/pasta",
+      "visible": true,
+      "parent_code": "BeSS_01011302",
+      "image": {
+        "original": "https://image.migros.ch/original/575157a6841bafed0ce21e17512a8375f3e11c7a/pasta.jpg",
+        "stack": "https://image.migros.ch/{stack}/575157a6841bafed0ce21e17512a8375f3e11c7a/pasta.jpg"
+      },
+      "level": 5
+    },
+    {
+      "code": "BeSS_01011302",
+      "name": "Fertige Pizzen, Menüs & Snacks",
+      "slug": "supermarkt/lebensmittel/fertiggerichte-menues-snacks/fertige-pizzen-menues-snacks",
+      "visible": true,
+      "title": "Feine Fertiggerichte aus Ihrer Migros!",
+      "parent_code": "BeSS_010113",
+      "image": {
+        "original": "https://image.migros.ch/original/0014f54049f00019a8782aedb21ad671bd28a8e8/fertige-pizzen-menues-snacks.jpg",
+        "stack": "https://image.migros.ch/{stack}/0014f54049f00019a8782aedb21ad671bd28a8e8/fertige-pizzen-menues-snacks.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010113",
+      "name": "Fertiggerichte, Menüs & Snacks",
+      "slug": "supermarkt/lebensmittel/fertiggerichte-menues-snacks",
+      "visible": true,
+      "title": "Fertige Pizzen, Menüs und Snacks &ndash; schnell und lecker von der Migros",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/6770b6c8fbbd2689aece359ffeda93b90c58dd09/fertiggerichte-menues-snacks.jpg",
+        "stack": "https://image.migros.ch/{stack}/6770b6c8fbbd2689aece359ffeda93b90c58dd09/fertiggerichte-menues-snacks.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_Fertiggerichte_FertiggerichtePizzas_Grundnahrungsmittel",
+        "name": "Fertiggerichte",
+        "slug": "amigos/grundnahrungsmittel/fertiggerichte-pizzas/fertiggerichte",
+        "visible": true,
+        "parent_code": "AMIG_CAT_FertiggerichtePizzas_Grundnahrungsmittel",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_FertiggerichtePizzas_Grundnahrungsmittel",
+        "name": "Fertiggerichte & Pizzas",
+        "slug": "amigos/grundnahrungsmittel/fertiggerichte-pizzas",
+        "visible": true,
+        "parent_code": "AMIG_CAT_Grundnahrungsmittel",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_Grundnahrungsmittel",
+        "name": "Grundnahrungsmittel",
+        "slug": "amigos/grundnahrungsmittel",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "nutrition_facts": {
+    "standard": {
+      "nutrients": [
+        {
+          "code": "PIM_NUT_ENERGIE",
+          "name": "Energie",
+          "pictogram_name": "Energie",
+          "category": "BIG9",
+          "quantity": 833,
+          "nutrition_operator": "=",
+          "quantity_unit": "kJ",
+          "quantity_alternate": 197,
+          "quantity_alternate_unit": "kcal"
+        },
+        {
+          "code": "PIM_NUT_FETT",
+          "name": "Fett",
+          "pictogram_name": "Fett",
+          "category": "BIG9",
+          "quantity": 3,
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_FETT_GES",
+          "name": "davon gesättigte Fettsäuren",
+          "pictogram_name": "gesättigte Fettsäuren",
+          "category": "BIG9",
+          "quantity": 1,
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_KOHLENHY",
+          "name": "Kohlenhydrate",
+          "category": "BIG9",
+          "quantity": 33,
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_ZUCKER",
+          "name": "davon Zucker",
+          "pictogram_name": "Zuckerarten",
+          "category": "BIG9",
+          "quantity": 0.7,
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_GES_BALL",
+          "name": "Ballaststoffe",
+          "category": "BIG9",
+          "quantity": 3.3,
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_PROTEINE",
+          "name": "Eiweiss",
+          "category": "BIG9",
+          "quantity": 7.9,
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_KOCHSALZ",
+          "name": "Salz",
+          "pictogram_name": "Salz",
+          "category": "BIG9",
+          "quantity": 1.2,
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        }
+      ],
+      "base_quantity": 100,
+      "base_unit": "g"
+    },
+    "portion": {
+      "nutrients": [
+        {
+          "code": "PIM_NUT_ENERGIE",
+          "name": "Energie",
+          "pictogram_name": "Energie",
+          "category": "BIG9",
+          "quantity": 2095,
+          "rda_percent": 25,
+          "rda_percent_operator": "=",
+          "nutrition_operator": "=",
+          "quantity_unit": "kJ",
+          "quantity_alternate": 496,
+          "quantity_alternate_unit": "kcal"
+        },
+        {
+          "code": "PIM_NUT_FETT",
+          "name": "Fett",
+          "pictogram_name": "Fett",
+          "category": "BIG9",
+          "quantity": 7.5,
+          "rda_percent": 11,
+          "rda_percent_operator": "=",
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_FETT_GES",
+          "name": "davon gesättigte Fettsäuren",
+          "pictogram_name": "gesättigte Fettsäuren",
+          "category": "BIG9",
+          "quantity": 2.5,
+          "rda_percent": 13,
+          "rda_percent_operator": "=",
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_KOHLENHY",
+          "name": "Kohlenhydrate",
+          "category": "BIG9",
+          "quantity": 83,
+          "rda_percent": 32,
+          "rda_percent_operator": "=",
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_ZUCKER",
+          "name": "davon Zucker",
+          "pictogram_name": "Zuckerarten",
+          "category": "BIG9",
+          "quantity": 1.8,
+          "rda_percent": 2,
+          "rda_percent_operator": "=",
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_GES_BALL",
+          "name": "Ballaststoffe",
+          "category": "BIG9",
+          "quantity": 8.3,
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_PROTEINE",
+          "name": "Eiweiss",
+          "category": "BIG9",
+          "quantity": 20,
+          "rda_percent": 40,
+          "rda_percent_operator": "=",
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_KOCHSALZ",
+          "name": "Salz",
+          "pictogram_name": "Salz",
+          "category": "BIG9",
+          "quantity": 3,
+          "rda_percent": 50,
+          "rda_percent_operator": "=",
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        }
+      ],
+      "base_description": "1 Packung",
+      "base_quantity": 250,
+      "base_unit": "g",
+      "package_type": "Packung",
+      "portions_per_package": "1",
+      "portions_per_package_precision": "="
+    }
+  },
+  "features": [
+    {
+      "label_code": "MISO_mussgekuehltwerden",
+      "label": "Muss gekühlt werden",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MISO_CLA_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_kunststoffverpackung",
+          "value": "Kunststoff-Verpackung"
+        }
+      ],
+      "category_code": "MISO_CLA_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zubereitungsverfahren",
+      "label": "Hinweise für die Zubereitung",
+      "values": [
+        {
+          "value_code": "MISO_zubereitungsverfahren_kochen",
+          "value": "Kochen"
+        }
+      ],
+      "category_code": "MISO_CLA_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_musserwaermtwerden",
+      "label": "Muss erwärmt werden",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MISO_CLA_BearbeiteteVerarbeiteteNahrungsmittel_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_anzahlportionen",
+      "label": "Anzahl Portionen",
+      "values": [
+        {
+          "value": "1-2"
+        }
+      ],
+      "category_code": "MISO_CLA_BearbeiteteVerarbeiteteNahrungsmittel_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_teige",
+      "label": "Teige",
+      "values": [
+        {
+          "value_code": "MISO_teige_frischeierteig",
+          "value": "Frischeierteig"
+        }
+      ],
+      "category_code": "MISO_CLA_BearbeiteteVerarbeiteteNahrungsmittel_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_produktionslandherstellungsort",
+      "label": "Produktionsland/Herstellungsort",
+      "values": [
+        {
+          "value_code": "MISO_produktionslandherstellungsort_oesterreich",
+          "value": "Austria"
+        }
+      ],
+      "category_code": "MISO_CLA_BearbeiteteVerarbeiteteNahrungsmittel_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_artvonteigwarennudeln",
+      "label": "Art von Teigwaren/Nudeln",
+      "values": [
+        {
+          "value_code": "MISO_artvonteigwarennudeln_tortelloni",
+          "value": "Tortelloni"
+        }
+      ],
+      "category_code": "MISO_CLA_TeigwarenNudeln_BearbeiteteVerarbeiteteNahrungsmittel_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_artvonverwendetemei",
+      "label": "Art von verwendetem Ei",
+      "values": [
+        {
+          "value_code": "MISO_artvonverwendetemei_freilandhaltung",
+          "value": "Freilandhaltung"
+        }
+      ],
+      "category_code": "MISO_CLA_TeigwarenNudeln_BearbeiteteVerarbeiteteNahrungsmittel_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_gefuellt",
+      "label": "Gefüllt",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MISO_CLA_TeigwarenNudeln_BearbeiteteVerarbeiteteNahrungsmittel_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_getreideart",
+      "label": "Getreideart",
+      "values": [
+        {
+          "value_code": "MISO_getreideart_hartweizengriess",
+          "value": "Hartweizengriess"
+        }
+      ],
+      "category_code": "MISO_CLA_TeigwarenNudeln_BearbeiteteVerarbeiteteNahrungsmittel_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_kochzeit",
+      "label": "Kochzeit (min.)",
+      "values": [
+        {
+          "value": "2-3"
+        }
+      ],
+      "category_code": "MISO_CLA_TeigwarenNudeln_BearbeiteteVerarbeiteteNahrungsmittel_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    }
+  ],
+  "allergens": [
+    {
+      "code": "ALLG_MILCH",
+      "name": "Milch und daraus gewonnene Erzeugnisse (einschliesslich Laktose)",
+      "contamination_code": "VORHANDEN",
+      "contamination": "vorhanden"
+    },
+    {
+      "code": "ALLG_GLUTEN",
+      "name": "Glutenhaltiges Getreide und daraus gewonnene Erzeugnisse",
+      "contamination_code": "VORHANDEN",
+      "contamination": "vorhanden"
+    },
+    {
+      "code": "ALLG_EIER",
+      "name": "Eier und daraus gewonnene Erzeugnisse",
+      "contamination_code": "VORHANDEN",
+      "contamination": "vorhanden"
+    }
+  ],
+  "general_information": [
+    {
+      "label": "Produktionshinweis",
+      "value": "Pasteurisiert"
+    },
+    {
+      "label": "Kühlhinweis / Aufbewahrungshinweis",
+      "value": "Gekühlt aufbewahren bei max. +5 °C."
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/fc5452d13d902320c87f99c67ad4f2e462aca409/m-classic-tortelloni-mit-fleisch.jpg",
+    "stack": "https://image.migros.ch/{stack}/fc5452d13d902320c87f99c67ad4f2e462aca409/m-classic-tortelloni-mit-fleisch.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/d5f40bad3408480453df4dafcb75a0a1503c3622/m-classic-tortelloni-mit-fleisch.png",
+    "stack": "https://image.migros.ch/{stack}/d5f40bad3408480453df4dafcb75a0a1503c3622/m-classic-tortelloni-mit-fleisch.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_sortierung",
+      "label": "Sortierung aMigos",
+      "values": [
+        {
+          "value_code": "NUMERIC_410",
+          "value": "410",
+          "numeric_value": 410
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_volumen",
+      "label": "Volumen aMigos!",
+      "values": [
+        {
+          "value_code": "NUMERIC_1.004304",
+          "value": "1.004304 l",
+          "numeric_value": 1.004304
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false,
+      "unit_code": "l",
+      "unit": "Liter",
+      "unit_symbol": "l"
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZFRP",
+          "value": "Frische Beschaffung"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "7",
+          "value": "Convenience"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "70216",
+          "value": "PASTA GEFUE.FLEISCH/KAESE"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "regulated_description": "Frischeierteigwaren gefüllt mit Rindfleisch",
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/130107200000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/m-classic-tortelloni-mit-fleisch",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/130107200000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/m-classic-tortelloni-mit-fleisch",
+      "type": "info",
+      "purchasable": false
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/4468285",
+      "app_url": "leshop:///catalog/article/detail?ean=7617027115025",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/m-classic-tortelloni-mit-fleisch",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "regional_availability": {
+    "gmaa": {
+      "probability": 82
+    },
+    "gmbs": {
+      "probability": 74
+    },
+    "gmge": {
+      "probability": 77
+    },
+    "gmlu": {
+      "probability": 71
+    },
+    "gmnf": {
+      "probability": 86
+    },
+    "gmos": {
+      "probability": 87
+    },
+    "gmti": {
+      "probability": 97
+    },
+    "gmvd": {
+      "probability": 78
+    },
+    "gmvs": {
+      "probability": 82
+    },
+    "gmzh": {
+      "probability": 85
+    }
+  },
+  "updated_at": "2020-09-16T05:44:01+0200",
+  "base_unit": "CU",
+  "slugs": {
+    "de": "m-classic-tortelloni-mit-fleisch",
+    "fr": "m-classic-tortelloni-viande",
+    "it": "m-classic-tortelloni-carne"
+  },
+  "receipt_text": "MClass Tortelloni",
+  "main_supplier": {
+    "name": "BISCHOFSZELL",
+    "id": "0003800000",
+    "supplier_product_id": "300000004"
+  },
+  "price": {
+    "valid_from": "2019-07-24T00:00:00+0200",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 3.6,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "250g"
+    },
+    "base": {
+      "price": 1.44,
+      "quantity": 100,
+      "unit": "g"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 16,
+    "average_all": 2.933333333333
+  },
+  "data_source": "SAP-X4x",
+  "origins": {
+    "producing_country": "Hergestellt in Österreich",
+    "production_facility_id": "AT\n20271\nEG"
+  },
+  "ingredients": "Hart<strong>weizen</strong>griess, Wasser, Rindfleisch 10%, <strong>Eier</strong> 6% (aus Freilandhaltung), <strong>Weizen</strong>mehl, Ricotta Frisch<strong>käse</strong>, Zwiebeln, Tomatenpaste, Kochsalz, Karotten, Gewürze, Rapsöl, Rosmarin, Aroma, Hefe.",
+  "package": {
+    "content": 250,
+    "content_unit_code": "g",
+    "content_unit": "Gramm",
+    "net_weight": 0.25,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogramm",
+    "brutto_weight": 0.265,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 1004.304,
+    "brutto_volume_unit_code": "ccm",
+    "height": 24.4,
+    "length": 2.8,
+    "width": 14.7,
+    "unit_dimension": "cm",
+    "price_comparison_content": 100,
+    "size": "250g"
+  },
+  "package_information": {
+    "tu": {
+      "brutto_weight": 0.795,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 15.96,
+      "brutto_volume_unit_code": "cdm",
+      "height": 13.3,
+      "length": 40,
+      "width": 30,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 3
+    },
+    "cu": {
+      "brutto_weight": 0.265,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 1004.304,
+      "brutto_volume_unit_code": "ccm",
+      "height": 24.4,
+      "length": 2.8,
+      "width": 14.7,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    }
+  },
+  "related_products": {
+    "purchase_recommendations": {
+      "product_ids": [
+        "130107300000",
+        "130107400000",
+        "130108000000",
+        "130140500000",
+        "130112500000"
+      ]
+    }
+  },
+  "declarations": {
+    "food": {
+      "features": [
+        {
+          "label_code": "GDSN_M281_NetContent",
+          "label": "Nettofüllmenge Wert",
+          "values": [
+            {
+              "value_code": "NUMERIC_250",
+              "value": "250",
+              "numeric_value": 250
+            }
+          ],
+          "category_code": "GDSN",
+          "top_fact": false,
+          "unit_code": "g"
+        }
+      ]
+    }
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "recipe_ingredient_ids": [
+    "10000"
+  ],
+  "views": [
+    "all",
+    "browse"
+  ]
+}

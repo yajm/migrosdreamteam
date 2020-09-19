@@ -1,0 +1,560 @@
+{
+  "id": "795835300000",
+  "language": "de",
+  "name": "HP Tintenpatrone 62 schwarz Tintenpatrone",
+  "names": {
+    "name": "HP Tintenpatrone 62 schwarz Tintenpatrone",
+    "short_name": "Tintenpatrone 62 schwarz"
+  },
+  "slug": "hp-tintenpatrone-62-schwarz-tintenpatrone",
+  "product_type": "Tintenpatrone",
+  "boss_number": "241237930505",
+  "description": {
+    "text": "Original HP Tintenpatronen liefern Seite für Seite langlebige Dokumente in Laserqualität. Erzielen Sie mit speziell für den Einsatz in Ihrem HP Drucker konzipierten Patronen bei allen Projekten zu Hause, für die Arbeit oder die Schule die Ergebnisse, die Sie erwarten.<br /><br />- Schwarz<br />- ca. 200 Seiten",
+    "source": "PEX"
+  },
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03"
+  },
+  "tags": [
+    "source-pex",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "0888793376713"
+  ],
+  "brand": {
+    "id": "MES",
+    "name": "HP",
+    "slug": "hp",
+    "image": {
+      "original": "https://image.migros.ch/original/91d881baba7017a54f285946ad224166b67a4b22/hp.jpg",
+      "stack": "https://image.migros.ch/{stack}/91d881baba7017a54f285946ad224166b67a4b22/hp.jpg"
+    }
+  },
+  "categories": [
+    {
+      "code": "MEL_SHOP_CAT_TintenpatronenToner_DruckerundZubehoer_ComputingTablets",
+      "name": "Tintenpatronen & Toner",
+      "slug": "melectronics/computing-tablets/drucker-und-zubehoer/tintenpatronen-toner",
+      "visible": true,
+      "parent_code": "MEL_SHOP_CAT_DruckerundZubehoer_ComputingTablets",
+      "level": 4
+    },
+    {
+      "code": "MEL_SHOP_CAT_DruckerundZubehoer_ComputingTablets",
+      "name": "Drucker und Zubehör",
+      "slug": "melectronics/computing-tablets/drucker-und-zubehoer",
+      "visible": true,
+      "parent_code": "MEL_SHOP_CAT_ComputingTablets",
+      "level": 3
+    },
+    {
+      "code": "MEL_SHOP_CAT_ComputingTablets",
+      "name": "Computing & Tablets",
+      "slug": "melectronics/computing-tablets",
+      "visible": true,
+      "parent_code": "BeSS_04",
+      "level": 2
+    },
+    {
+      "code": "BeSS_04",
+      "name": "melectronics",
+      "slug": "melectronics",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_Druckerpatronen_Bueromaterial_HaushaltReinigung",
+        "name": "Druckerpatronen",
+        "slug": "amigos/haushalt-reinigung/bueromaterial/druckerpatronen",
+        "visible": true,
+        "parent_code": "AMIG_CAT_Bueromaterial_HaushaltReinigung",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_Bueromaterial_HaushaltReinigung",
+        "name": "Büromaterial",
+        "slug": "amigos/haushalt-reinigung/bueromaterial",
+        "visible": true,
+        "parent_code": "AMIG_CAT_HaushaltReinigung",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_HaushaltReinigung",
+        "name": "Haushalt & Reinigung",
+        "slug": "amigos/haushalt-reinigung",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "features": [
+    {
+      "label_code": "mel_produkttyp_neu",
+      "label": "Produkttyp",
+      "values": [
+        {
+          "value_code": "MEL_produkttyp_neu_tintenpatrone",
+          "value": "Tintenpatrone"
+        }
+      ],
+      "category_code": "MEL_CLA_Tintenpatronen_ZubehoerBereich_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "mel_farben",
+      "label": "Farbe(n)",
+      "values": [
+        {
+          "value_code": "MEL_farben_schwarz",
+          "value": "Schwarz"
+        }
+      ],
+      "category_code": "MEL_CLA_Tintenpatronen_ZubehoerBereich_Alle",
+      "top_fact": true
+    },
+    {
+      "label_code": "mel_kompatibilität",
+      "label": "Kompatibilität",
+      "values": [
+        {
+          "value": "HP OJ 200; 250; 5740e; 5742e; 5744e / HP Envy 5540; 5542; 5543; 5544; 5546; 7640"
+        }
+      ],
+      "category_code": "MEL_CLA_Tintenpatronen_ZubehoerBereich_Alle",
+      "top_fact": true
+    },
+    {
+      "label_code": "mel_originalpatrone",
+      "label": "Originalpatrone",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MEL_CLA_Tintenpatronen_ZubehoerBereich_Alle",
+      "top_fact": true
+    },
+    {
+      "label_code": "mel_kompatible_druckermarken",
+      "label": "Kompatible Druckermarken",
+      "values": [
+        {
+          "value_code": "MEL_kompatible_druckermarken_hp",
+          "value": "HP"
+        }
+      ],
+      "category_code": "MEL_CLA_Tintenpatronen_ZubehoerBereich_Alle",
+      "top_fact": true
+    },
+    {
+      "label_code": "mel_geeignet_fuer_druckmedien",
+      "label": "Geeignet für (Druckmedien)",
+      "values": [
+        {
+          "value_code": "MEL_geeignet_fuer_druckmedien_univeralpapier_tintenstrahl",
+          "value": "Univeralpapier (Tintenstrahl)"
+        },
+        {
+          "value_code": "MEL_geeignet_fuer_druckmedien_photopapier_tintenstrahl",
+          "value": "Photopapier (Tintenstrahl)"
+        },
+        {
+          "value_code": "MEL_geeignet_fuer_druckmedien_visitenkarten",
+          "value": "Visitenkarten"
+        },
+        {
+          "value_code": "MEL_geeignet_fuer_druckmedien_folien_tintenstrahl",
+          "value": "Folien (Tintenstrahl)"
+        }
+      ],
+      "category_code": "MEL_CLA_Tintenpatronen_ZubehoerBereich_Alle",
+      "top_fact": true
+    },
+    {
+      "label_code": "mel_m-garantie_m-garantie",
+      "label": "M-Garantie",
+      "values": [
+        {
+          "value_code": "MEL_M-Garantie_2Jahre",
+          "value": "2 Jahre"
+        }
+      ],
+      "category_code": "MEL_CLA_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "mel_mpn",
+      "label": "MPN - Hersteller Artikelnummer",
+      "values": [
+        {
+          "value": "C2P04AE"
+        }
+      ],
+      "category_code": "MEL_CLA_Alle",
+      "top_fact": false
+    }
+  ],
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": true,
+      "reservable": true,
+      "stock_request": true,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": true,
+      "reservable": true,
+      "stock_request": true,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": true,
+      "reservable": true,
+      "stock_request": true,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": true,
+      "reservable": true,
+      "stock_request": true,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": true,
+      "reservable": true,
+      "stock_request": true,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": true,
+      "reservable": true,
+      "stock_request": true,
+      "visible": true,
+      "exclude_cross_channel": []
+    }
+  },
+  "image": {
+    "original": "https://image.migros.ch/original/621be085238982c21e681397e1ece79b63129c51/hp-tintenpatrone-62-schwarz-tintenpatrone.jpg",
+    "stack": "https://image.migros.ch/{stack}/621be085238982c21e681397e1ece79b63129c51/hp-tintenpatrone-62-schwarz-tintenpatrone.jpg"
+  },
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_RETURNABLE",
+      "label": "Rückgabe",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "true",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MAPI_RETURNABLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_EXCLUDE_FROM_COMPARISON_ENGINES",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "false",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_EXCLUDE_FROM_COMPARISON_ENGINES",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_DEFAULT_LOGISTIC_TYPE",
+      "values": [
+        {
+          "value_code": "55",
+          "value": "Versandart Paket"
+        }
+      ],
+      "category_code": "MAPI_DEFAULT_LOGISTIC_TYPE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "BANS",
+          "value": "Streckenposition"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "HART"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_RISK_CLASS",
+      "values": [
+        {
+          "value_code": "2",
+          "value": "2 (medium)"
+        }
+      ],
+      "category_code": "MAPI_RISK_CLASS",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_KUBE_TUKA",
+      "values": [
+        {
+          "value_code": "BLANK",
+          "value": "KUBE und TUKA nicht zugelassen"
+        }
+      ],
+      "category_code": "MAPI_KUBE_TUKA",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HART",
+          "value": "Hartwaren  Handelsware"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "E",
+          "value": "E"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "56122",
+          "value": "PATRONEN"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_MPN",
+      "values": [
+        {
+          "value": "C2P04AE"
+        }
+      ],
+      "category_code": "MAPI_MPN",
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 1,
+    "percentage": 7.7
+  },
+  "links": {
+    "melectronics": {
+      "url": "https://www.melectronics.ch/de/p/795835300000/hp-tintenpatrone-62-schwarz",
+      "name": "melectronics",
+      "canonical": "https://www.melectronics.ch/de/p/795835300000/hp-tintenpatrone-62-schwarz",
+      "type": "shop",
+      "purchasable": true
+    },
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/795835300000",
+      "name": "migros.ch",
+      "canonical": "https://www.melectronics.ch/de/p/795835300000/hp-tintenpatrone-62-schwarz",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/795835300000",
+      "name": "Migipedia",
+      "canonical": "https://www.melectronics.ch/de/p/795835300000/hp-tintenpatrone-62-schwarz",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "regional_availability": {
+    "gmaa": {
+      "probability": 68
+    },
+    "gmbs": {
+      "probability": 83
+    },
+    "gmge": {
+      "probability": 72
+    },
+    "gmlu": {
+      "probability": 71
+    },
+    "gmnf": {
+      "probability": 86
+    },
+    "gmos": {
+      "probability": 72
+    },
+    "gmti": {
+      "probability": 94
+    },
+    "gmvd": {
+      "probability": 78
+    },
+    "gmvs": {
+      "probability": 64
+    },
+    "gmzh": {
+      "probability": 67
+    }
+  },
+  "updated_at": "2020-09-16T06:16:24+0200",
+  "online_shop_relevant": true,
+  "services": {
+    "logistics": [
+      {
+        "code": "MEL_LOGISTIK_FILIALE_POSTPAKET_GRATIS"
+      },
+      {
+        "code": "MEL_LOGISTIK_POSTPAKET_GRATIS"
+      }
+    ]
+  },
+  "base_unit": "CU",
+  "slugs": {
+    "de": "hp-tintenpatrone-62-schwarz-tintenpatrone",
+    "fr": "hp-cartouche-dencre-62-noir-cartouche-dencre",
+    "it": "hp-cartuccia-dinchiostro-62-nero-cartuccia-dinchiostro"
+  },
+  "receipt_text": "HP Tintenpatrone 62, E",
+  "main_supplier": {
+    "name": "Oridis AG",
+    "id": "0010006109",
+    "supplier_product_id": "123239"
+  },
+  "price": {
+    "valid_from": "2020-01-20T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 23.8,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false
+    }
+  },
+  "retailer": {
+    "id": "melectronics",
+    "name": "melectronics"
+  },
+  "ratings": {
+    "count_all": 3,
+    "average_all": 5
+  },
+  "data_source": "SAP-X12",
+  "origins": {},
+  "package_information": {
+    "cu": {
+      "number_of_base_units": 1
+    },
+    "tuv": {
+      "number_of_base_units": 1
+    },
+    "tue": {
+      "number_of_base_units": 1
+    },
+    "lu": {
+      "number_of_base_units": 1
+    }
+  },
+  "warranty_months": 24,
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "views": [
+    "all",
+    "browse"
+  ]
+}

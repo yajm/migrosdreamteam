@@ -1,0 +1,680 @@
+{
+  "id": "703803100000",
+  "language": "de",
+  "name": "Cucina & Tavola PRIMA Deckel 20cm",
+  "names": {
+    "name": "Cucina & Tavola PRIMA Deckel 20cm",
+    "short_name": "PRIMA Deckel 20cm"
+  },
+  "slug": "cucina-tavola-prima-deckel-20cm",
+  "boss_number": "150423084515",
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03"
+  },
+  "tags": [
+    "source-pex",
+    "near-non-food",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7613247525996"
+  ],
+  "brand": {
+    "id": "NF1",
+    "name": "Cucina & Tavola",
+    "slug": "cucina-tavola",
+    "image": {
+      "original": "https://image.migros.ch/original/ec18c12011ab778b7756486a090e13866fc1eaf1/cucina-tavola.jpg",
+      "stack": "https://image.migros.ch/{stack}/ec18c12011ab778b7756486a090e13866fc1eaf1/cucina-tavola.jpg"
+    }
+  },
+  "categories": [
+    {
+      "code": "BeSS_01040910",
+      "name": "Kochgeschirr",
+      "slug": "supermarkt/haushalt-reinigung/kueche/kochgeschirr",
+      "visible": true,
+      "title": "Es geht heiss her: Pfannen und Töpfe bei der Migros",
+      "parent_code": "BeSS_010409",
+      "image": {
+        "original": "https://image.migros.ch/original/6fc86f7979452ef175917b4d70b41fc7d9fb9f86/kochgeschirr.jpg",
+        "stack": "https://image.migros.ch/{stack}/6fc86f7979452ef175917b4d70b41fc7d9fb9f86/kochgeschirr.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010409",
+      "name": "Küche",
+      "slug": "supermarkt/haushalt-reinigung/kueche",
+      "visible": true,
+      "title": "Artikel für die Küche aus Ihrer Migros – gut & günstig!",
+      "parent_code": "BeSS_0104",
+      "image": {
+        "original": "https://image.migros.ch/original/90120e4cc3d5d74e017d4b91bbdcb1da29eb70a6/kueche.jpg",
+        "stack": "https://image.migros.ch/{stack}/90120e4cc3d5d74e017d4b91bbdcb1da29eb70a6/kueche.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0104",
+      "name": "Haushalt & Reinigung",
+      "slug": "supermarkt/haushalt-reinigung",
+      "visible": true,
+      "title": "Reinigung mit der Migros – Reiniger für Haushalt und Garten",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/e5da3225980543e0c7ddcc443069f331d94e8439/haushalt-reinigung.png",
+        "stack": "https://image.migros.ch/{stack}/e5da3225980543e0c7ddcc443069f331d94e8439/haushalt-reinigung.png"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "MIC_SHOP_CAT_PfannenToepfe_Kochen_Essen_AccessoiresTextilien",
+        "name": "Pfannen & Töpfe",
+        "slug": "micasa/accessoires-textilien/essen/kochen/pfannen-toepfe",
+        "visible": true,
+        "parent_code": "MIC_SHOP_CAT_Kochen_Essen_AccessoiresTextilien",
+        "level": 5
+      },
+      {
+        "code": "MIC_SHOP_CAT_Kochen_Essen_AccessoiresTextilien",
+        "name": "Kochen",
+        "slug": "micasa/accessoires-textilien/essen/kochen",
+        "visible": true,
+        "parent_code": "MIC_SHOP_CAT_Essen_AccessoiresTextilien",
+        "level": 4
+      },
+      {
+        "code": "MIC_SHOP_CAT_Essen_AccessoiresTextilien",
+        "name": "Essen",
+        "slug": "micasa/accessoires-textilien/essen",
+        "visible": true,
+        "parent_code": "MIC_SHOP_CAT_AccessoiresTextilien",
+        "level": 3
+      },
+      {
+        "code": "MIC_SHOP_CAT_AccessoiresTextilien",
+        "name": "Accessoires & Textilien",
+        "slug": "micasa/accessoires-textilien",
+        "visible": true,
+        "parent_code": "BeSS_02",
+        "level": 2
+      },
+      {
+        "code": "BeSS_02",
+        "name": "Micasa",
+        "slug": "micasa",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ],
+    [
+      {
+        "code": "MIC_SHOP_CAT_MigrosSupermarkt_Essen_AccessoiresTextilien",
+        "name": "Migros Supermarkt",
+        "slug": "micasa/accessoires-textilien/essen/migros-supermarkt",
+        "visible": false,
+        "parent_code": "MIC_SHOP_CAT_Essen_AccessoiresTextilien",
+        "level": 4
+      },
+      {
+        "code": "MIC_SHOP_CAT_Essen_AccessoiresTextilien",
+        "name": "Essen",
+        "slug": "micasa/accessoires-textilien/essen",
+        "visible": true,
+        "parent_code": "MIC_SHOP_CAT_AccessoiresTextilien",
+        "level": 3
+      },
+      {
+        "code": "MIC_SHOP_CAT_AccessoiresTextilien",
+        "name": "Accessoires & Textilien",
+        "slug": "micasa/accessoires-textilien",
+        "visible": true,
+        "parent_code": "BeSS_02",
+        "level": 2
+      },
+      {
+        "code": "BeSS_02",
+        "name": "Micasa",
+        "slug": "micasa",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "features": [
+    {
+      "label_code": "mic_durchmesser",
+      "label": "Durchmesser",
+      "values": [
+        {
+          "value_code": "NUMERIC_20",
+          "value": "20 cm",
+          "numeric_value": 20
+        }
+      ],
+      "category_code": "MIC_CLA_Alle",
+      "top_fact": false,
+      "unit_code": "cm",
+      "unit": "Zentimeter",
+      "unit_symbol": "cm"
+    },
+    {
+      "label_code": "mic_farbewohnshop_farben",
+      "label": "Farben",
+      "values": [
+        {
+          "value_code": "MIC_FarbeWohnshop_Schwarz_Silber",
+          "value": "Schwarz / Silber"
+        }
+      ],
+      "category_code": "MIC_CLA_Accessoires_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "mic_materialwohnshop_material",
+      "label": "Material",
+      "values": [
+        {
+          "value_code": "MIC_MaterialWohnshop_Chromnickelstahl188",
+          "value": "Chromnickelstahl 18/8"
+        },
+        {
+          "value_code": "MIC_MaterialWohnshop_Kunststoff",
+          "value": "Kunststoff"
+        }
+      ],
+      "category_code": "MIC_CLA_Accessoires_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "mic_fuer_lebensmittel_geeignet",
+      "label": "Für Lebensmittel geeignet",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MIC_CLA_GedeckterTischKueche_Accessoires_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "mic_spuelmaschinenfest",
+      "label": "Spülmaschinengeeignet",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MIC_CLA_GedeckterTischKueche_Accessoires_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "mic_mikrowellengeeignet",
+      "label": "Mikrowellengeeignet",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "Nein",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MIC_CLA_GedeckterTischKueche_Accessoires_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "mic_backofenfest",
+      "label": "Backofenfest",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MIC_CLA_GedeckterTischKueche_Accessoires_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "mic_maximaltemperatur",
+      "label": "Maximaltemperatur",
+      "values": [
+        {
+          "value_code": "NUMERIC_180",
+          "value": "180 °C",
+          "numeric_value": 180
+        }
+      ],
+      "category_code": "MIC_CLA_GedeckterTischKueche_Accessoires_Alle",
+      "top_fact": false,
+      "unit_code": "grad_celsius",
+      "unit": "Grad Celsius",
+      "unit_symbol": "°C"
+    }
+  ],
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": true,
+      "reservable": true,
+      "stock_request": true,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": true,
+      "reservable": true,
+      "stock_request": true,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": true,
+      "reservable": true,
+      "stock_request": true,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": true,
+      "reservable": true,
+      "stock_request": true,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": true,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": true,
+      "reservable": true,
+      "stock_request": true,
+      "visible": true,
+      "exclude_cross_channel": []
+    }
+  },
+  "image": {
+    "original": "https://image.migros.ch/original/6d51497d213bb7d9271265645d8f6ee4369d0ff0/cucina-tavola-prima-deckel-20cm.jpg",
+    "stack": "https://image.migros.ch/{stack}/6d51497d213bb7d9271265645d8f6ee4369d0ff0/cucina-tavola-prima-deckel-20cm.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/a527b6d772863ef772f7b231f575e885c3fe5caa/cucina-tavola-prima-deckel-20cm.png",
+    "stack": "https://image.migros.ch/{stack}/a527b6d772863ef772f7b231f575e885c3fe5caa/cucina-tavola-prima-deckel-20cm.png"
+  },
+  "additional_images": [
+    {
+      "original": "https://image.migros.ch/original/e311b413c6e3cda9089b21462198843c56b95ed3.jpg",
+      "stack": "https://image.migros.ch/{stack}/e311b413c6e3cda9089b21462198843c56b95ed3.jpg"
+    }
+  ],
+  "internal_features": [
+    {
+      "label_code": "mic_weitere_groessen_farben_weiteregroessenfarben",
+      "label": "Weitere Grössen / Farben",
+      "values": [
+        {
+          "value_code": "MIC_Weitere_Groessen_Farben_IndiversenGroessenerhaeltlich",
+          "value": "In diversen Grössen erhältlich"
+        }
+      ],
+      "category_code": "MIC_CLA_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_DEFAULT_LOGISTIC_TYPE",
+      "values": [
+        {
+          "value_code": "55",
+          "value": "Versandart Paket"
+        }
+      ],
+      "category_code": "MAPI_DEFAULT_LOGISTIC_TYPE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Normalposition"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "HART"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUSTOMS_POSITION",
+      "values": [
+        {
+          "value_code": "NUMERIC_07323930000",
+          "value": "07323930000",
+          "numeric_value": 7323930000
+        }
+      ],
+      "category_code": "MAPI_CUSTOMS_POSITION",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_RISK_CLASS",
+      "values": [
+        {
+          "value_code": "2",
+          "value": "2 (medium)"
+        }
+      ],
+      "category_code": "MAPI_RISK_CLASS",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_QUALITY_CHECK",
+      "values": [
+        {
+          "value_code": "00",
+          "value": "Keine Prüfung"
+        }
+      ],
+      "category_code": "MAPI_QUALITY_CHECK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_KUBE_TUKA",
+      "values": [
+        {
+          "value_code": "BLANK",
+          "value": "KUBE und TUKA nicht zugelassen"
+        }
+      ],
+      "category_code": "MAPI_KUBE_TUKA",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HART",
+          "value": "Hartwaren  Handelsware"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "H",
+          "value": "Hartwaren"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "57921",
+          "value": "PFANNENDECKEL"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 1,
+    "percentage": 7.7
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/703803100000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/cucina-tavola-prima-deckel-20cm",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/703803100000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/cucina-tavola-prima-deckel-20cm",
+      "type": "info",
+      "purchasable": false
+    },
+    "micasa": {
+      "url": "https://www.micasa.ch/de/p/703803100000/cucina-tavola-prima-deckel-20cm",
+      "name": "Micasa",
+      "canonical": "https://produkte.migros.ch/cucina-tavola-prima-deckel-20cm",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "regional_availability": {
+    "gmaa": {
+      "probability": 19
+    },
+    "gmbs": {
+      "probability": 22
+    },
+    "gmge": {
+      "probability": 23
+    },
+    "gmlu": {
+      "probability": 20
+    },
+    "gmnf": {
+      "probability": 16
+    },
+    "gmos": {
+      "probability": 19
+    },
+    "gmti": {
+      "probability": 16
+    },
+    "gmvd": {
+      "probability": 18
+    },
+    "gmvs": {
+      "probability": 23
+    },
+    "gmzh": {
+      "probability": 22
+    }
+  },
+  "updated_at": "2020-09-16T06:09:19+0200",
+  "online_shop_relevant": true,
+  "services": {
+    "logistics": [
+      {
+        "code": "MIC_LOGISTIK_FILIALLIEFERUNG_POSTPAKET_GRATIS"
+      },
+      {
+        "code": "MIC_LOGISTIK_POSTPAKET_4_9"
+      }
+    ]
+  },
+  "base_unit": "CU",
+  "slugs": {
+    "de": "cucina-tavola-prima-deckel-20cm",
+    "fr": "cucina-tavola-prima-couvercle-20cm",
+    "it": "cucina-tavola-prima-coperchio-20cm"
+  },
+  "receipt_text": "Deckel Prima  ø 20cm",
+  "main_supplier": {
+    "name": "Suzhou Jiayi Stainless",
+    "id": "0010022351"
+  },
+  "price": {
+    "valid_from": "2018-01-30T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 10.95,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "1 Stück"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "colors": [
+    {
+      "label": "Schwarz / Silber",
+      "hex": "#000000",
+      "group": "Schwarz",
+      "group_hex": "#000000"
+    }
+  ],
+  "galaxus_relevant": true,
+  "ratings": {
+    "count_all": 2,
+    "average_all": 4
+  },
+  "data_source": "SAP-X12",
+  "origins": {
+    "producing_country": "China"
+  },
+  "package": {
+    "content": 1,
+    "content_unit_code": "cu",
+    "net_weight": 0.28,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogramm",
+    "brutto_weight": 0.305,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 2.268,
+    "brutto_volume_unit_code": "cdm",
+    "height": 26.8,
+    "length": 4.5,
+    "width": 21.4,
+    "unit_dimension": "cm"
+  },
+  "package_information": {
+    "cu": {
+      "brutto_weight": 0.305,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 2.268,
+      "brutto_volume_unit_code": "cdm",
+      "height": 26.8,
+      "length": 4.5,
+      "width": 21.4,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "tuv": {
+      "brutto_weight": 2.01,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 16.008,
+      "brutto_volume_unit_code": "cdm",
+      "height": 29,
+      "length": 24,
+      "width": 23,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 5
+    },
+    "tue": {
+      "brutto_weight": 1.825,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 15.66,
+      "brutto_volume_unit_code": "cdm",
+      "height": 29,
+      "length": 24,
+      "width": 22.5,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 5
+    },
+    "lu": {
+      "number_of_base_units": 320
+    },
+    "moq": {
+      "number_of_base_units": 1000
+    }
+  },
+  "related_products": {
+    "reference_recommendations": {
+      "product_ids": [
+        "703306500000",
+        "703525800000"
+      ]
+    }
+  },
+  "quantity_on_stock": 5744,
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "recipe_ingredient_ids": [
+    "10000"
+  ],
+  "views": [
+    "all",
+    "browse"
+  ]
+}

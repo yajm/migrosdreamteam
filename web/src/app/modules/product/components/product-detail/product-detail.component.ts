@@ -22,7 +22,7 @@ export class ProductDetailComponent implements OnInit {
     private productState: ProductStateService
   ) {}
 
-  ngOnInit(): void {
+  async ngOnInit() {
     this.purchaseId = this.route.snapshot.params.purchaseId;
     this.productId = this.route.snapshot.params.productId;
     if (this.purchaseId) {
@@ -34,6 +34,6 @@ export class ProductDetailComponent implements OnInit {
       this.productInfo = productInfo;
       this.loading = false;
     });
-    this.products = this.productState.products;
+    this.products = await this.productState.getProducts(0, 10);
   }
 }

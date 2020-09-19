@@ -1,0 +1,629 @@
+{
+  "id": "111767205500",
+  "language": "de",
+  "name": "Semmeli Terrasuisse",
+  "names": {
+    "name": "Semmeli Terrasuisse"
+  },
+  "slug": "semmeli-terrasuisse",
+  "boss_number": "020110576515",
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "80"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7616700194487"
+  ],
+  "labels": [
+    {
+      "id": "L14",
+      "name": "TerraSuisse",
+      "slug": "terrasuisse",
+      "links": {
+        "homepage": {
+          "url": "https://terrasuisse.migros.ch/de.html",
+          "name": "Homepage",
+          "type": "info",
+          "purchasable": false
+        }
+      },
+      "image": {
+        "original": "https://image.migros.ch/original/1ffb197ef3d9b3099bc31eb47f8dfa585c93daa6/terrasuisse.jpg",
+        "stack": "https://image.migros.ch/{stack}/1ffb197ef3d9b3099bc31eb47f8dfa585c93daa6/terrasuisse.jpg"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_01010302",
+      "name": "Kleinbrote",
+      "slug": "supermarkt/lebensmittel/baeckerei-confiserie-backen/kleinbrote",
+      "visible": true,
+      "title": "Frisch gebackene Kleinbrote in Ihrer Migros kaufen",
+      "parent_code": "BeSS_010103",
+      "image": {
+        "original": "https://image.migros.ch/original/d82a9abca2189f0b0df92555ebefd49d1cb0e55e/kleinbrote.jpg",
+        "stack": "https://image.migros.ch/{stack}/d82a9abca2189f0b0df92555ebefd49d1cb0e55e/kleinbrote.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010103",
+      "name": "Bäckerei, Confiserie & Backen",
+      "slug": "supermarkt/lebensmittel/baeckerei-confiserie-backen",
+      "visible": true,
+      "title": "Backen macht Freude! Alle Zutaten finden Sie in Ihrer Migros",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/04b41cd6f4daedf3061a2a37617d48e992760b35/baeckerei-confiserie-backen.jpg",
+        "stack": "https://image.migros.ch/{stack}/04b41cd6f4daedf3061a2a37617d48e992760b35/baeckerei-confiserie-backen.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_Broetchen_Brote_BroteBacken",
+        "name": "Brötchen",
+        "slug": "amigos/brote-backen/brote/broetchen",
+        "visible": true,
+        "parent_code": "AMIG_CAT_Brote_BroteBacken",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_Brote_BroteBacken",
+        "name": "Brote",
+        "slug": "amigos/brote-backen/brote",
+        "visible": true,
+        "parent_code": "AMIG_CAT_BroteBacken",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_BroteBacken",
+        "name": "Brote & Backen",
+        "slug": "amigos/brote-backen",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "nutrition_facts": {
+    "standard": {
+      "nutrients": [
+        {
+          "code": "PIM_NUT_ENERGIE",
+          "name": "Energie",
+          "pictogram_name": "Energie",
+          "category": "BIG9",
+          "quantity": 1281,
+          "rda_percent_operator": "=",
+          "quantity_unit": "kJ",
+          "quantity_alternate": 303,
+          "quantity_alternate_unit": "kcal"
+        },
+        {
+          "code": "PIM_NUT_GES_FETT",
+          "name": "Fett",
+          "pictogram_name": "Fett",
+          "category": "BIG9",
+          "quantity": 3.2,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_GESFETTS",
+          "name": "davon gesättigte Fettsäuren",
+          "pictogram_name": "gesättigte Fettsäuren",
+          "category": "BIG9",
+          "quantity": 0.4,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_GES_KOHL",
+          "name": "Kohlenhydrate",
+          "category": "BIG9",
+          "quantity": 56,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_GES_ZUCK",
+          "name": "davon Zucker",
+          "pictogram_name": "Zuckerarten",
+          "category": "BIG9",
+          "quantity": 3,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_GES_BALL",
+          "name": "Ballaststoffe",
+          "category": "BIG9",
+          "quantity": 3,
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_GES_EIW",
+          "name": "Eiweiss",
+          "category": "BIG9",
+          "quantity": 11,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_KOCHSALZ",
+          "name": "Salz",
+          "pictogram_name": "Salz",
+          "category": "BIG9",
+          "quantity": 1.9,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_NATRIUM",
+          "name": "Natrium",
+          "category": "BIG9",
+          "quantity": 0.8,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        }
+      ],
+      "base_quantity": 100,
+      "base_unit": "g"
+    },
+    "portion": {
+      "nutrients": [
+        {
+          "code": "PIM_NUT_ENERGIE",
+          "name": "Energie",
+          "pictogram_name": "Energie",
+          "category": "BIG9",
+          "quantity": 1153,
+          "rda_percent": 14,
+          "rda_percent_operator": "=",
+          "quantity_unit": "kJ",
+          "quantity_alternate": 273,
+          "quantity_alternate_unit": "kcal"
+        },
+        {
+          "code": "PIM_NUT_GES_FETT",
+          "name": "Fett",
+          "pictogram_name": "Fett",
+          "category": "BIG9",
+          "quantity": 2.9,
+          "rda_percent": 4,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_GESFETTS",
+          "name": "davon gesättigte Fettsäuren",
+          "pictogram_name": "gesättigte Fettsäuren",
+          "category": "BIG9",
+          "quantity": 0.4,
+          "rda_percent": 2,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_GES_KOHL",
+          "name": "Kohlenhydrate",
+          "category": "BIG9",
+          "quantity": 50,
+          "rda_percent": 19,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_GES_ZUCK",
+          "name": "davon Zucker",
+          "pictogram_name": "Zuckerarten",
+          "category": "BIG9",
+          "quantity": 2.7,
+          "rda_percent": 3,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_GES_BALL",
+          "name": "Ballaststoffe",
+          "category": "BIG9",
+          "quantity": 2.7,
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_GES_EIW",
+          "name": "Eiweiss",
+          "category": "BIG9",
+          "quantity": 9.9,
+          "rda_percent": 20,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_KOCHSALZ",
+          "name": "Salz",
+          "pictogram_name": "Salz",
+          "category": "BIG9",
+          "quantity": 1.7,
+          "rda_percent": 28,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_NATRIUM",
+          "name": "Natrium",
+          "category": "BIG9",
+          "quantity": 0.7,
+          "rda_percent": 29,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        }
+      ],
+      "base_description": "1 Brötchen",
+      "base_quantity": 90,
+      "base_unit": "g"
+    }
+  },
+  "features": [
+    {
+      "label_code": "MISO_produktionsanspruch",
+      "label": "Produktionsverfahren",
+      "values": [
+        {
+          "value_code": "MISO_produktionsanspruch_ipsuissebauernhof",
+          "value": "IP-SUISSE Bauernhof"
+        }
+      ],
+      "category_code": "MISO_CLA_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zubereitungsverfahren",
+      "label": "Hinweise für die Zubereitung",
+      "values": [
+        {
+          "value_code": "MISO_zubereitungsverfahren_verzehrfertig",
+          "value": "Verzehrfertig"
+        }
+      ],
+      "category_code": "MISO_CLA_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_artvonbrot",
+      "label": "Art von Brot",
+      "values": [
+        {
+          "value_code": "MISO_artvonbrot_semmeli",
+          "value": "Semmeli"
+        }
+      ],
+      "category_code": "MISO_CLA_Brot_BrotBackwaren_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_getreideart",
+      "label": "Getreideart",
+      "values": [
+        {
+          "value_code": "MISO_getreideart_weizen",
+          "value": "Weizen"
+        }
+      ],
+      "category_code": "MISO_CLA_Brot_BrotBackwaren_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_artvonprodukt",
+      "label": "Art von Produkt",
+      "values": [
+        {
+          "value_code": "MISO_artvonprodukt_kleinbrot",
+          "value": "Kleinbrot"
+        }
+      ],
+      "category_code": "MISO_CLA_Brot_BrotBackwaren_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    }
+  ],
+  "allergens": [
+    {
+      "code": "ALLG_GLUTEN",
+      "name": "Glutenhaltige Getreide",
+      "contamination_code": "VORHANDEN",
+      "contamination": "vorhanden"
+    },
+    {
+      "code": "ALLG_NUSS",
+      "name": "Nüsse",
+      "contamination_code": "KANN_ENTHALTEN",
+      "contamination": "kann enthalten"
+    },
+    {
+      "code": "ALLG_SESAM",
+      "name": "Sesamsamen",
+      "contamination_code": "KANN_ENTHALTEN",
+      "contamination": "kann enthalten"
+    },
+    {
+      "code": "ALLG_SOJA",
+      "name": "Sojabohnen",
+      "contamination_code": "KANN_ENTHALTEN",
+      "contamination": "kann enthalten"
+    },
+    {
+      "code": "ALLG_MILCH",
+      "name": "Milch",
+      "contamination_code": "VORHANDEN",
+      "contamination": "vorhanden"
+    },
+    {
+      "code": "ALLG_EIER",
+      "name": "Eier",
+      "contamination_code": "KANN_ENTHALTEN",
+      "contamination": "kann enthalten"
+    }
+  ],
+  "general_information": [
+    {
+      "label": "Produktinformationen / Zusatzangaben",
+      "value": "Brotbeutelfarbe: Dieses Brot ist aus hellem Mehl (= niedriger Ausmahlungsgrad) hergestellt."
+    },
+    {
+      "label": "Herstellungshinweis",
+      "value": "Ofenfrisch: für Sie vor Ort aus einem tiefgekühlten Produkt fertig gebacken."
+    },
+    {
+      "label": "Temperaturbedingung",
+      "value": "Raumtemperatur"
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/f13647292c923b296e9d75cd5035fc386ee07d59/semmeli-terrasuisse.jpg",
+    "stack": "https://image.migros.ch/{stack}/f13647292c923b296e9d75cd5035fc386ee07d59/semmeli-terrasuisse.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/26fc6404eb8bf84367bd7054c5db395199c340b1/semmeli-terrasuisse.png",
+    "stack": "https://image.migros.ch/{stack}/26fc6404eb8bf84367bd7054c5db395199c340b1/semmeli-terrasuisse.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_sortierung",
+      "label": "Sortierung aMigos",
+      "values": [
+        {
+          "value_code": "NUMERIC_176",
+          "value": "176",
+          "numeric_value": 176
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_gewicht",
+      "label": "Gewicht aMigos!",
+      "values": [
+        {
+          "value_code": "NUMERIC_0.09",
+          "value": "0.09 kg",
+          "numeric_value": 0.09
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false,
+      "unit_code": "kg",
+      "unit": "Kilogramm",
+      "unit_symbol": "kg"
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZFRP",
+          "value": "Frische Beschaffung"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "8",
+          "value": "Backwaren"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "71015",
+          "value": "BAKE-OFF"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "regulated_description": "Helles Weizenbrötchen",
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/111767205500",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/semmeli-terrasuisse",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/111767205500",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/semmeli-terrasuisse",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "regional_availability": {
+    "gmaa": {
+      "probability": 100
+    },
+    "gmzh": {
+      "probability": 100
+    }
+  },
+  "updated_at": "2020-09-16T05:42:54+0200",
+  "base_unit": "CU",
+  "slugs": {
+    "de": "semmeli-terrasuisse",
+    "fr": "ballon-terrasuisse",
+    "it": "michetta-terrasuisse"
+  },
+  "receipt_text": "Semmeli",
+  "main_supplier": {
+    "name": "JOWA AG",
+    "id": "0003110000"
+  },
+  "price": {
+    "valid_from": "2020-01-14T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "source": "PriceRepository",
+    "no_price_hint": "Aktueller Tagespreis"
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 7,
+    "average_all": 3.285714285714
+  },
+  "data_source": "SAP-X4x",
+  "origins": {
+    "producing_country": "Hergestellt in der Schweiz"
+  },
+  "ingredients": "<strong>Weizen</strong>mehl *, Wasser, Hefe, <strong>Weizen</strong>protein, Rapsöl, Kochsalz jodiert, <strong>Buttermilch</strong>pulver, Glucose, Malzmehl aus <strong>Gerste</strong>, Mehlbehandlungsmittel: Ascorbinsäure.* in IP-SUISSE Qualität",
+  "allergen_text": "Kann Nüsse \r\n, Sesam \r\n, Soja \r\n und Eier enthalten.",
+  "package": {
+    "content": 90,
+    "content_unit_code": "g",
+    "content_unit": "Gramm",
+    "net_weight": 0.09,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogramm",
+    "precision": "exact",
+    "brutto_weight": 0.09,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 0.499,
+    "brutto_volume_unit_code": "cdm",
+    "height": 6.4,
+    "length": 9.5,
+    "width": 8.2,
+    "unit_dimension": "cm",
+    "price_comparison_content": 100,
+    "size": "90g"
+  },
+  "package_information": {
+    "tu": {
+      "brutto_weight": 4.5,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0,
+      "height": 0,
+      "length": 0,
+      "width": 0,
+      "number_of_base_units": 50
+    },
+    "cu": {
+      "brutto_weight": 0.09,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0.499,
+      "brutto_volume_unit_code": "cdm",
+      "height": 6.4,
+      "length": 9.5,
+      "width": 8.2,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    }
+  },
+  "related_products": {
+    "purchase_recommendations": {
+      "product_ids": [
+        "111783005500",
+        "111767305500",
+        "111770105500",
+        "111778005500",
+        "111770505500"
+      ]
+    }
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "recipe_ingredient_ids": [
+    "4534164",
+    "61923"
+  ],
+  "views": [
+    "all",
+    "browse"
+  ]
+}

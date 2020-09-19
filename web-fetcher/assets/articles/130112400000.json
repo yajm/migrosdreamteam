@@ -1,0 +1,802 @@
+{
+  "id": "130112400000",
+  "language": "de",
+  "name": "Fiori spinaci ricotta aha!",
+  "names": {
+    "name": "Fiori spinaci ricotta aha!"
+  },
+  "slug": "fiori-spinaci-ricotta-aha",
+  "boss_number": "020630161005",
+  "description": {
+    "text": "Fiori auf Basis von Tapioka und Reis, gef&uuml;llt mit Spinat und Ricotta",
+    "source": "PIM"
+  },
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "80"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7613269346388"
+  ],
+  "labels": [
+    {
+      "id": "L15",
+      "name": "aha!",
+      "slug": "aha",
+      "links": {
+        "homepage": {
+          "url": "https://www.migros-impuls.ch/de/ernaehrung/ernaehrungsformen/allergien-intoleranzen/aha",
+          "name": "Homepage",
+          "type": "info",
+          "purchasable": false
+        }
+      },
+      "image": {
+        "original": "https://image.migros.ch/original/ddc0ba54b162f407e050f09ed5f0c948ed31e289/aha.jpg",
+        "stack": "https://image.migros.ch/{stack}/ddc0ba54b162f407e050f09ed5f0c948ed31e289/aha.jpg"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_0101130205",
+      "name": "Pasta",
+      "slug": "supermarkt/lebensmittel/fertiggerichte-menues-snacks/fertige-pizzen-menues-snacks/pasta",
+      "visible": true,
+      "parent_code": "BeSS_01011302",
+      "image": {
+        "original": "https://image.migros.ch/original/575157a6841bafed0ce21e17512a8375f3e11c7a/pasta.jpg",
+        "stack": "https://image.migros.ch/{stack}/575157a6841bafed0ce21e17512a8375f3e11c7a/pasta.jpg"
+      },
+      "level": 5
+    },
+    {
+      "code": "BeSS_01011302",
+      "name": "Fertige Pizzen, Menüs & Snacks",
+      "slug": "supermarkt/lebensmittel/fertiggerichte-menues-snacks/fertige-pizzen-menues-snacks",
+      "visible": true,
+      "title": "Feine Fertiggerichte aus Ihrer Migros!",
+      "parent_code": "BeSS_010113",
+      "image": {
+        "original": "https://image.migros.ch/original/0014f54049f00019a8782aedb21ad671bd28a8e8/fertige-pizzen-menues-snacks.jpg",
+        "stack": "https://image.migros.ch/{stack}/0014f54049f00019a8782aedb21ad671bd28a8e8/fertige-pizzen-menues-snacks.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010113",
+      "name": "Fertiggerichte, Menüs & Snacks",
+      "slug": "supermarkt/lebensmittel/fertiggerichte-menues-snacks",
+      "visible": true,
+      "title": "Fertige Pizzen, Menüs und Snacks &ndash; schnell und lecker von der Migros",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/6770b6c8fbbd2689aece359ffeda93b90c58dd09/fertiggerichte-menues-snacks.jpg",
+        "stack": "https://image.migros.ch/{stack}/6770b6c8fbbd2689aece359ffeda93b90c58dd09/fertiggerichte-menues-snacks.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_Fertiggerichte_FertiggerichtePizzas_Grundnahrungsmittel",
+        "name": "Fertiggerichte",
+        "slug": "amigos/grundnahrungsmittel/fertiggerichte-pizzas/fertiggerichte",
+        "visible": true,
+        "parent_code": "AMIG_CAT_FertiggerichtePizzas_Grundnahrungsmittel",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_FertiggerichtePizzas_Grundnahrungsmittel",
+        "name": "Fertiggerichte & Pizzas",
+        "slug": "amigos/grundnahrungsmittel/fertiggerichte-pizzas",
+        "visible": true,
+        "parent_code": "AMIG_CAT_Grundnahrungsmittel",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_Grundnahrungsmittel",
+        "name": "Grundnahrungsmittel",
+        "slug": "amigos/grundnahrungsmittel",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "nutrition_facts": {
+    "standard": {
+      "nutrients": [
+        {
+          "code": "PIM_NUT_ENERGIE",
+          "name": "Energie",
+          "pictogram_name": "Energie",
+          "category": "BIG9",
+          "quantity": 791,
+          "rda_percent": 9,
+          "rda_percent_operator": "=",
+          "quantity_unit": "kJ",
+          "quantity_alternate": 188,
+          "quantity_alternate_unit": "kcal"
+        },
+        {
+          "code": "PIM_NUT_FETT",
+          "name": "Fett",
+          "pictogram_name": "Fett",
+          "category": "BIG9",
+          "quantity": 6,
+          "rda_percent": 9,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_FETT_GES",
+          "name": "davon gesättigte Fettsäuren",
+          "pictogram_name": "gesättigte Fettsäuren",
+          "category": "BIG9",
+          "quantity": 2.5,
+          "rda_percent": 13,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_KOHLENHY",
+          "name": "Kohlenhydrate",
+          "category": "BIG9",
+          "quantity": 24,
+          "rda_percent": 9,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_ZUCKER",
+          "name": "davon Zucker",
+          "pictogram_name": "Zuckerarten",
+          "category": "BIG9",
+          "quantity": 0.6,
+          "rda_percent": 1,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_GES_BALL",
+          "name": "Ballaststoffe",
+          "category": "BIG9",
+          "quantity": 1,
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_PROTEINE",
+          "name": "Eiweiss",
+          "category": "BIG9",
+          "quantity": 9,
+          "rda_percent": 18,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_KOCHSALZ",
+          "name": "Salz",
+          "pictogram_name": "Salz",
+          "category": "BIG9",
+          "quantity": 1.1,
+          "rda_percent": 18,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        }
+      ],
+      "base_description": "enthalten",
+      "base_quantity": 100,
+      "base_unit": "g"
+    },
+    "portion": {
+      "nutrients": [
+        {
+          "code": "PIM_NUT_ENERGIE",
+          "name": "Energie",
+          "pictogram_name": "Energie",
+          "category": "BIG9",
+          "quantity": 1582,
+          "rda_percent": 19,
+          "rda_percent_operator": "=",
+          "quantity_unit": "kJ",
+          "quantity_alternate": 376,
+          "quantity_alternate_unit": "kcal"
+        },
+        {
+          "code": "PIM_NUT_FETT",
+          "name": "Fett",
+          "pictogram_name": "Fett",
+          "category": "BIG9",
+          "quantity": 12,
+          "rda_percent": 17,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_FETT_GES",
+          "name": "davon gesättigte Fettsäuren",
+          "pictogram_name": "gesättigte Fettsäuren",
+          "category": "BIG9",
+          "quantity": 5,
+          "rda_percent": 25,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_KOHLENHY",
+          "name": "Kohlenhydrate",
+          "category": "BIG9",
+          "quantity": 48,
+          "rda_percent": 18,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_ZUCKER",
+          "name": "davon Zucker",
+          "pictogram_name": "Zuckerarten",
+          "category": "BIG9",
+          "quantity": 1,
+          "rda_percent": 1,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_GES_BALL",
+          "name": "Ballaststoffe",
+          "category": "BIG9",
+          "quantity": 2,
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_PROTEINE",
+          "name": "Eiweiss",
+          "category": "BIG9",
+          "quantity": 18,
+          "rda_percent": 36,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_KOCHSALZ",
+          "name": "Salz",
+          "pictogram_name": "Salz",
+          "category": "BIG9",
+          "quantity": 2.2,
+          "rda_percent": 37,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        }
+      ],
+      "base_description": "1 Packung",
+      "base_quantity": 200,
+      "base_unit": "g"
+    }
+  },
+  "features": [
+    {
+      "label_code": "MISO_mussgekuehltwerden",
+      "label": "Muss gekühlt werden",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MISO_CLA_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_kunststoffverpackung",
+          "value": "Kunststoff-Verpackung"
+        }
+      ],
+      "category_code": "MISO_CLA_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zubereitungsverfahren",
+      "label": "Hinweise für die Zubereitung",
+      "values": [
+        {
+          "value_code": "MISO_zubereitungsverfahren_kochen",
+          "value": "Kochen"
+        }
+      ],
+      "category_code": "MISO_CLA_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_musserwaermtwerden",
+      "label": "Muss erwärmt werden",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MISO_CLA_BearbeiteteVerarbeiteteNahrungsmittel_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_anzahlportionen",
+      "label": "Anzahl Portionen",
+      "values": [
+        {
+          "value": "1-2"
+        }
+      ],
+      "category_code": "MISO_CLA_BearbeiteteVerarbeiteteNahrungsmittel_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_teige",
+      "label": "Teige",
+      "values": [
+        {
+          "value_code": "MISO_teige_frischeierteig",
+          "value": "Frischeierteig"
+        }
+      ],
+      "category_code": "MISO_CLA_BearbeiteteVerarbeiteteNahrungsmittel_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_lebensmittel_AB_pikto_portion",
+      "label": "Portion",
+      "values": [
+        {
+          "image": {
+            "original": "https://image.migros.ch/original/f80874175bf09a27e90e8d90cc5a5c7a0998ca6a/portion-fuer-1-person.jpg",
+            "code": "MISO_lebensmittel_AB_pikto_portion_1",
+            "description": "Portion für 1 Person",
+            "stack": "https://image.migros.ch/{stack}/f80874175bf09a27e90e8d90cc5a5c7a0998ca6a/portion-fuer-1-person.jpg"
+          },
+          "value_code": "MISO_lebensmittel_AB_pikto_portion_1",
+          "value": "Portion für 1 Person"
+        }
+      ],
+      "category_code": "MISO_CLA_Annasbest_Lebensmittel_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_lebensmittel_AB_pikto_zubereitung",
+      "label": "Zubereitung",
+      "values": [
+        {
+          "image": {
+            "original": "https://image.migros.ch/original/b6d5f10c07b9abdd2bcb396bbdb2b2a9be476d44/im-kochtopf-zubereiten-kochen.jpg",
+            "code": "MISO_lebensmittel_AB_pikto_zubereitung_pfanne",
+            "description": "Im Kochtopf zubereiten / Kochen",
+            "stack": "https://image.migros.ch/{stack}/b6d5f10c07b9abdd2bcb396bbdb2b2a9be476d44/im-kochtopf-zubereiten-kochen.jpg"
+          },
+          "value_code": "MISO_lebensmittel_AB_pikto_zubereitung_pfanne",
+          "value": "Im Kochtopf zubereiten / Kochen"
+        }
+      ],
+      "category_code": "MISO_CLA_Annasbest_Lebensmittel_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_produktionslandherstellungsort",
+      "label": "Produktionsland/Herstellungsort",
+      "values": [
+        {
+          "value_code": "MISO_produktionslandherstellungsort_schweiz",
+          "value": "Schweiz"
+        }
+      ],
+      "category_code": "MISO_CLA_BearbeiteteVerarbeiteteNahrungsmittel_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_artvonteigwarennudeln",
+      "label": "Art von Teigwaren/Nudeln",
+      "values": [
+        {
+          "value_code": "MISO_artvonteigwarennudeln_fiori",
+          "value": "Fiori"
+        }
+      ],
+      "category_code": "MISO_CLA_TeigwarenNudeln_BearbeiteteVerarbeiteteNahrungsmittel_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_artvonverwendetemei",
+      "label": "Art von verwendetem Ei",
+      "values": [
+        {
+          "value_code": "MISO_artvonverwendetemei_freilandhaltung",
+          "value": "Freilandhaltung"
+        }
+      ],
+      "category_code": "MISO_CLA_TeigwarenNudeln_BearbeiteteVerarbeiteteNahrungsmittel_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_gefuellt",
+      "label": "Gefüllt",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MISO_CLA_TeigwarenNudeln_BearbeiteteVerarbeiteteNahrungsmittel_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_kochzeit",
+      "label": "Kochzeit (min.)",
+      "values": [
+        {
+          "value": "1,5"
+        }
+      ],
+      "category_code": "MISO_CLA_TeigwarenNudeln_BearbeiteteVerarbeiteteNahrungsmittel_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ALLERGENES",
+      "label": "Allergenauslobungen",
+      "values": [
+        {
+          "value_code": "MAPI_ALLERGENES_glutenfrei",
+          "value": "Glutenfrei"
+        },
+        {
+          "value_code": "MAPI_ALLERGENES_laktosefrei",
+          "value": "Laktosefrei"
+        },
+        {
+          "value_code": "MAPI_ALLERGENES_ohneWeizen",
+          "value": "Ohne Weizen"
+        }
+      ],
+      "category_code": "MAPI_ALLERGENES",
+      "top_fact": false
+    }
+  ],
+  "allergens": [
+    {
+      "code": "ALLG_EIER",
+      "name": "Eier",
+      "contamination_code": "VORHANDEN",
+      "contamination": "vorhanden"
+    },
+    {
+      "code": "ALLG_MILCH",
+      "name": "Milch",
+      "contamination_code": "VORHANDEN",
+      "contamination": "vorhanden"
+    }
+  ],
+  "general_information": [
+    {
+      "label": "Obligatorische Zusatzangaben",
+      "value": "-"
+    },
+    {
+      "label": "Aufbewarungs- und Verpackungshinweise",
+      "value": "Pasteurisiert. Unter Schutzatmosphäre verpackt. Gekühlt aufbewahren bei max. +5 °C"
+    },
+    {
+      "label": "Haltbarkeit",
+      "value": "Verkaufen bis:               Verbrauchen bis:"
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/f8405a9c8e44beab6246e816e814bb6084a4206b/fiori-spinaci-ricotta-aha.jpg",
+    "stack": "https://image.migros.ch/{stack}/f8405a9c8e44beab6246e816e814bb6084a4206b/fiori-spinaci-ricotta-aha.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/238f4ae4c9e1c307ef2eeb88dfc2e4cc71316f07/fiori-spinaci-ricotta-aha.png",
+    "stack": "https://image.migros.ch/{stack}/238f4ae4c9e1c307ef2eeb88dfc2e4cc71316f07/fiori-spinaci-ricotta-aha.png"
+  },
+  "additional_images": [
+    {
+      "original": "https://image.migros.ch/original/18b145c6b7127a1e620632c2872a9e1176d113dd.jpg",
+      "stack": "https://image.migros.ch/{stack}/18b145c6b7127a1e620632c2872a9e1176d113dd.jpg"
+    }
+  ],
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_sortierung",
+      "label": "Sortierung aMigos",
+      "values": [
+        {
+          "value_code": "NUMERIC_640",
+          "value": "640",
+          "numeric_value": 640
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_lebensmittel_AB_kategorien",
+      "label": "Kategorien",
+      "values": [
+        {
+          "value_code": "MISO_lebensmittel_AB_kategorien_pasta",
+          "value": "Pasta"
+        }
+      ],
+      "category_code": "MISO_CLA_Annasbest_Lebensmittel_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_lebensmittel_AB_genusstyp",
+      "label": "Genusstypen",
+      "values": [
+        {
+          "value_code": "MISO_lebensmittel_AB_genusstyp_allergiker",
+          "value": "Allergiker"
+        },
+        {
+          "value_code": "MISO_lebensmittel_AB_genusstyp_warm-geniessen",
+          "value": "Warm geniessen"
+        },
+        {
+          "value_code": "MISO_lebensmittel_AB_genusstyp_zu-hause",
+          "value": "Zu Hause"
+        }
+      ],
+      "category_code": "MISO_CLA_Annasbest_Lebensmittel_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZFRP",
+          "value": "Frische Beschaffung"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "7",
+          "value": "Convenience"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "71152",
+          "value": "PASTA GEFUE VEGETARISCH"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "regulated_description": "Frischeierteigwaren auf Basis von Tapioka und Reis, gefüllt mit Spinat und Ricotta, glutenfrei, laktosefrei",
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/130112400000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/fiori-spinaci-ricotta-aha",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/130112400000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/fiori-spinaci-ricotta-aha",
+      "type": "info",
+      "purchasable": false
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/220699",
+      "app_url": "leshop:///catalog/article/detail?ean=7613269346388",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/fiori-spinaci-ricotta-aha",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "regional_availability": {
+    "gmaa": {
+      "probability": 45
+    },
+    "gmbs": {
+      "probability": 61
+    },
+    "gmge": {
+      "probability": 49
+    },
+    "gmlu": {
+      "probability": 57
+    },
+    "gmnf": {
+      "probability": 59
+    },
+    "gmos": {
+      "probability": 41
+    },
+    "gmti": {
+      "probability": 72
+    },
+    "gmvd": {
+      "probability": 43
+    },
+    "gmvs": {
+      "probability": 36
+    },
+    "gmzh": {
+      "probability": 71
+    }
+  },
+  "updated_at": "2020-09-16T05:44:03+0200",
+  "base_unit": "CU",
+  "slugs": {
+    "de": "fiori-spinaci-ricotta-aha",
+    "fr": "fiori-spinaci-ricotta-aha",
+    "it": "fiori-spinaci-ricotta-aha"
+  },
+  "receipt_text": "Fiori spinaci ricotta",
+  "main_supplier": {
+    "name": "BISCHOFSZELL",
+    "id": "0003800000"
+  },
+  "price": {
+    "valid_from": "2018-01-29T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 4.9,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "200g"
+    },
+    "base": {
+      "price": 2.45,
+      "quantity": 100,
+      "unit": "g"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 17,
+    "average_all": 3.923076923077
+  },
+  "data_source": "SAP-X4x",
+  "origins": {
+    "producing_country": "Elaboré en Suisse"
+  },
+  "ingredients": "Wasser, Spinat 18%, Ricotta (<strong>Käse</strong>) laktosefrei 12%, Tapiokastärke 10%, Reismehl 7%, Halbhart<strong>käse</strong> laktosefrei, Erbsenmehlzubereitung (Erbsenmehl, Nahrungsfasern [aus Kartoffeln, Mais, Erbsen und Plantago Psyllium], natürliche Aromen), Paniermehl glutenfrei (Reismehl, Kochsalz, Emulgator: E 471), Zwiebeln, <strong>Vollei</strong>pulver 2.3% und <strong>Eiweiss</strong>pulver 2.3% (von Eiern aus Freilandhaltung), Rapsöl, Kochsalz, Emulgator: E 471, Verdickungsmittel: Guarkernmehl, Knoblauch, Pfeffer, Muskatnuss.",
+  "package": {
+    "content": 200,
+    "content_unit_code": "g",
+    "content_unit": "Gramm",
+    "net_weight": 0.2,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogramm",
+    "brutto_weight": 0.2,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 1.029,
+    "brutto_volume_unit_code": "cdm",
+    "height": 23.5,
+    "length": 2.8,
+    "width": 14.7,
+    "unit_dimension": "cm",
+    "price_comparison_content": 100,
+    "size": "200g"
+  },
+  "package_information": {
+    "tu": {
+      "brutto_weight": 0.8,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 31.92,
+      "brutto_volume_unit_code": "cdm",
+      "height": 13.3,
+      "length": 60,
+      "width": 40,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 4
+    },
+    "cu": {
+      "brutto_weight": 0.2,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 1.029,
+      "brutto_volume_unit_code": "cdm",
+      "height": 23.5,
+      "length": 2.8,
+      "width": 14.7,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    }
+  },
+  "related_products": {
+    "purchase_recommendations": {
+      "product_ids": [
+        "130140400000"
+      ]
+    }
+  },
+  "reindex_date": "2020-09-20T00:00:00+0200",
+  "recipe_ingredient_ids": [
+    "10000"
+  ],
+  "views": [
+    "all",
+    "browse"
+  ]
+}

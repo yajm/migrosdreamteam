@@ -1,0 +1,487 @@
+{
+  "id": "121325900000",
+  "language": "de",
+  "name": "Erdinger Bier alkoholfrei",
+  "names": {
+    "name": "Erdinger Bier alkoholfrei"
+  },
+  "slug": "erdinger-bier-alkoholfrei",
+  "boss_number": "010710380605",
+  "description": {
+    "text": "ERDINGER Alkoholfrei. Alles geben, Ziele erreichen, Regeneration starten! Daf&uuml;r genau richtig: Ein k&uuml;hles ERDINGER Alkoholfrei &ndash; l&ouml;scht den Durst auf die spritzige Art. Die Vitamine B9 und B12 f&ouml;rdern die k&ouml;rperliche und mentale Leistungsf&auml;higkeit. Durch seine isotonischen Eigenschaften versorgt es den K&ouml;rper unmittelbar mit den wertvollen Inhaltsstoffen und l&ouml;scht so schneller den Durst. Als echter Fitmacher ist das Alkoholfreie aus Erding mit nur 125 kcal pro 0,5l-Flasche kalorienreduziert und besteht ausschliesslich aus nat&uuml;rlichen Zutaten. Eine abwechslungsreiche und ausgewogene Ern&auml;hrung sowie eine gesunde Lebensweise sind wichtig. ERDINGER Alkoholfrei unterst&uuml;tzt diese und schmeckt herrlich vollmundig und erfrischend! Der sportliche Durstl&ouml;scher.",
+    "source": "PIM"
+  },
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "source-qim-origins",
+    "source-qim-distributor",
+    "validity-range-not-set",
+    "source-qim-allergens",
+    "source-qim-fooddeclaration",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "4002103282020"
+  ],
+  "brand": {
+    "id": "637",
+    "name": "Erdinger",
+    "slug": "erdinger"
+  },
+  "categories": [
+    {
+      "code": "BeSS_01011008",
+      "name": "Apéro-Getränke",
+      "slug": "supermarkt/lebensmittel/getraenke-heiss-kalt/apero-getraenke",
+      "visible": true,
+      "parent_code": "BeSS_010110",
+      "image": {
+        "original": "https://image.migros.ch/original/b1d1c5474055c73040b8a2518ff75cef51cf3d4c/apero-getraenke.jpg",
+        "stack": "https://image.migros.ch/{stack}/b1d1c5474055c73040b8a2518ff75cef51cf3d4c/apero-getraenke.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010110",
+      "name": "Getränke heiss & kalt",
+      "slug": "supermarkt/lebensmittel/getraenke-heiss-kalt",
+      "visible": true,
+      "title": "Getränke aus der Migros löschen auch Ihren Durst",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/d04d95fbc2e1b4ada4783d2976d37a962a0318a1/getraenke-heiss-kalt.jpg",
+        "stack": "https://image.migros.ch/{stack}/d04d95fbc2e1b4ada4783d2976d37a962a0318a1/getraenke-heiss-kalt.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_AlkoholfreieBiere_AlkoholfreieBiereAperos_Getraenke",
+        "name": "Alkoholfreie Biere",
+        "slug": "amigos/getraenke/alkoholfreie-biere-aperos/alkoholfreie-biere",
+        "visible": true,
+        "parent_code": "AMIG_CAT_AlkoholfreieBiereAperos_Getraenke",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_AlkoholfreieBiereAperos_Getraenke",
+        "name": "Alkoholfreie Biere & Apéros",
+        "slug": "amigos/getraenke/alkoholfreie-biere-aperos",
+        "visible": true,
+        "parent_code": "AMIG_CAT_Getraenke",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_Getraenke",
+        "name": "Getränke",
+        "slug": "amigos/getraenke",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "features": [
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_dose",
+          "value": "Dose"
+        }
+      ],
+      "category_code": "MISO_CLA_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_naehrwertanspruch",
+      "label": "Nährwertanspruch",
+      "values": [
+        {
+          "value_code": "MISO_naehrwertanspruch_kalorienreduziert",
+          "value": "Kalorienreduziert"
+        }
+      ],
+      "category_code": "MISO_CLA_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_kohlensaeurehaltig",
+      "label": "Kohlensäurehaltig",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MISO_CLA_Getraenke_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_dietlight",
+      "label": "Diet/Light",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MISO_CLA_Getraenke_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_alkoholfrei",
+      "label": "Alkoholfrei",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MISO_CLA_Getraenke_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_artvonerfrischungsgetraenk",
+      "label": "Art von Erfrischungsgetränk",
+      "values": [
+        {
+          "value_code": "MISO_artvonerfrischungsgetraenk_bier",
+          "value": "Bier"
+        }
+      ],
+      "category_code": "MISO_CLA_AlkoholfreieGetraenketrinkfertig_Getraenke_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_mitvitaminennaehrstoffenangereichert",
+      "label": "Mit Vitaminen/Nährstoffen angereichert",
+      "values": [
+        {
+          "value_code": "MISO_mitvitaminennaehrstoffenangereichert_vitaminb12",
+          "value": "Vitamin B12"
+        },
+        {
+          "value_code": "MISO_mitvitaminennaehrstoffenangereichert_vitaminb9",
+          "value": "Vitamin B9"
+        }
+      ],
+      "category_code": "MISO_CLA_AlkoholfreieGetraenketrinkfertig_Getraenke_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_artvonsportgetraenk",
+      "label": "Art von Sportgetränk",
+      "values": [
+        {
+          "value_code": "MISO_artvonsportgetraenk_isotonisch",
+          "value": "isotonisch"
+        }
+      ],
+      "category_code": "MISO_CLA_AlkoholfreieGetraenketrinkfertig_Getraenke_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    }
+  ],
+  "allergens": [
+    {
+      "code": "UW",
+      "name": "Weizen und Weizenderivate",
+      "contamination_code": "VORHANDEN",
+      "contamination": "vorhanden"
+    },
+    {
+      "code": "GB",
+      "name": "Gerste und Gerstenerzeugnisse",
+      "contamination_code": "VORHANDEN",
+      "contamination": "vorhanden"
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/872b874e558b01c3fc20646c3cfd910b05ac031d/erdinger-bier-alkoholfrei.jpg",
+    "stack": "https://image.migros.ch/{stack}/872b874e558b01c3fc20646c3cfd910b05ac031d/erdinger-bier-alkoholfrei.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/213d89107caed20b8788070dff9ddbfe5259e074/erdinger-bier-alkoholfrei.png",
+    "stack": "https://image.migros.ch/{stack}/213d89107caed20b8788070dff9ddbfe5259e074/erdinger-bier-alkoholfrei.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "M",
+          "value": "Kolonial Standard"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "10720",
+          "value": "AF BIER"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "regulated_description": "Alkoholfreies Bier",
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/121325900000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/erdinger-bier-alkoholfrei",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/121325900000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/erdinger-bier-alkoholfrei",
+      "type": "info",
+      "purchasable": false
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/4980242",
+      "app_url": "leshop:///catalog/article/detail?ean=4002103282020",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/erdinger-bier-alkoholfrei",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "regional_availability": {
+    "gmaa": {
+      "probability": 33
+    },
+    "gmbs": {
+      "probability": 56
+    },
+    "gmge": {
+      "probability": 8
+    },
+    "gmlu": {
+      "probability": 33
+    },
+    "gmnf": {
+      "probability": 10
+    },
+    "gmos": {
+      "probability": 59
+    },
+    "gmti": {
+      "probability": 37
+    },
+    "gmvd": {
+      "probability": 17
+    },
+    "gmvs": {
+      "probability": 28
+    },
+    "gmzh": {
+      "probability": 64
+    }
+  },
+  "updated_at": "2020-09-16T05:43:38+0200",
+  "base_unit": "CU",
+  "slugs": {
+    "de": "erdinger-bier-alkoholfrei",
+    "fr": "erdinger-biere-sans-alcool",
+    "it": "erdinger-birra-analcolica"
+  },
+  "receipt_text": "Erdinger Bier 50cl",
+  "main_supplier": {
+    "name": "Heineken Switzerland AG",
+    "id": "0010017144"
+  },
+  "price": {
+    "valid_from": "2019-08-05T00:00:00+0200",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 2.1,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "500ml"
+    },
+    "base": {
+      "price": 0.42,
+      "quantity": 100,
+      "unit": "ml"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 8,
+    "average_all": 3.875
+  },
+  "data_source": "SAP-X11",
+  "origins": {},
+  "distributor": {
+    "name": "Heineken Switzerland AG",
+    "address": "Obergrundstrasse 110, 6002 Luzern"
+  },
+  "ingredients": "Wasser, WEIZENMALZ, GERSTENMALZ, Hopfen, Hefe, Gärungskohlensäure.",
+  "package": {
+    "content": 500,
+    "content_unit_code": "ml",
+    "content_unit": "Mililiter",
+    "net_weight": 0.5,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogramm",
+    "brutto_weight": 0.52,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 0.738,
+    "brutto_volume_unit_code": "cdm",
+    "height": 17,
+    "length": 6.59,
+    "width": 6.59,
+    "unit_dimension": "cm",
+    "price_comparison_content": 100,
+    "size": "500ml"
+  },
+  "package_information": {
+    "tu": {
+      "brutto_weight": 12.82,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 18.59,
+      "brutto_volume_unit_code": "cdm",
+      "height": 17,
+      "length": 40.5,
+      "width": 27,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 24
+    },
+    "cu": {
+      "brutto_weight": 0.52,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0.738,
+      "brutto_volume_unit_code": "cdm",
+      "height": 17,
+      "length": 6.59,
+      "width": 6.59,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "lu": {
+      "brutto_weight": 932.2,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 1.306,
+      "brutto_volume_unit_code": "m3",
+      "height": 136,
+      "length": 120,
+      "width": 80,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1728
+    }
+  },
+  "declarations": {
+    "food": {
+      "features": [
+        {
+          "label_code": "GDSN_M109_PERCENTAGE_OF_ALCOHOL_BY_VOLUME",
+          "label": "Volumenalkohol in %",
+          "values": [
+            {
+              "value_code": "NUMERIC_0.5",
+              "value": "0.5",
+              "numeric_value": 0.5
+            }
+          ],
+          "category_code": "GDSN",
+          "top_fact": false,
+          "unit_code": "prozent",
+          "unit": "Prozent",
+          "unit_symbol": "%"
+        }
+      ]
+    }
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "recipe_ingredient_ids": [
+    "14654",
+    "59059"
+  ],
+  "views": [
+    "all",
+    "browse"
+  ]
+}

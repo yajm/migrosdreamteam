@@ -1,0 +1,92 @@
+{
+  "name": "Giandor Blanc",
+  "regulated_description": "Feine weisse Schokolade mit Mandelcremefüllung",
+  "image": {
+    "original": "https://image.migros.ch/original/a48b105a6dc74f11589e892b0054ba3aa2c4f633/giandor-blanc.jpg"
+  },
+  "price": {
+    "item": {
+      "price": 1.85
+    }
+  },
+  "nutrition_facts": {
+    "standard": {
+      "nutrients": {
+        "nutrients": [
+          {
+            "code": "PIM_NUT_ENERGIE",
+            "name": "Energie",
+            "pictogram_name": "Energie",
+            "category": "BIG9",
+            "quantity": 2487,
+            "rda_percent_operator": "=",
+            "quantity_unit": "kJ",
+            "quantity_alternate": 598,
+            "quantity_alternate_unit": "kcal"
+          },
+          {
+            "code": "PIM_NUT_GES_FETT",
+            "name": "Fett",
+            "pictogram_name": "Fett",
+            "category": "BIG9",
+            "quantity": 42,
+            "rda_percent_operator": "=",
+            "quantity_unit": "g"
+          },
+          {
+            "code": "PIM_NUT_GESFETTS",
+            "name": "davon gesättigte Fettsäuren",
+            "pictogram_name": "gesättigte Fettsäuren",
+            "category": "BIG9",
+            "quantity": 22,
+            "rda_percent_operator": "=",
+            "quantity_unit": "g"
+          },
+          {
+            "code": "PIM_NUT_GES_KOHL",
+            "name": "Kohlenhydrate",
+            "category": "BIG9",
+            "quantity": 45,
+            "rda_percent_operator": "=",
+            "quantity_unit": "g"
+          },
+          {
+            "code": "PIM_NUT_GES_ZUCK",
+            "name": "davon Zucker",
+            "pictogram_name": "Zuckerarten",
+            "category": "BIG9",
+            "quantity": 43,
+            "rda_percent_operator": "=",
+            "quantity_unit": "g"
+          },
+          {
+            "code": "PIM_NUT_GES_BALL",
+            "name": "Ballaststoffe",
+            "category": "BIG9",
+            "quantity": 1.6,
+            "quantity_unit": "g"
+          },
+          {
+            "code": "PIM_NUT_GES_EIW",
+            "name": "Eiweiss",
+            "category": "BIG9",
+            "quantity": 9.1,
+            "rda_percent_operator": "=",
+            "quantity_unit": "g"
+          },
+          {
+            "code": "PIM_NUT_KOCHSALZ",
+            "name": "Salz",
+            "pictogram_name": "Salz",
+            "category": "BIG9",
+            "quantity": 0.22,
+            "rda_percent_operator": "=",
+            "quantity_unit": "g"
+          }
+        ],
+        "base_quantity": 100,
+        "base_unit": "g"
+      }
+    }
+  }
+}

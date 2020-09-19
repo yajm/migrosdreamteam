@@ -1,0 +1,641 @@
+{
+  "id": "491976620000",
+  "language": "de",
+  "name": "Isostar Energy Energieriegel",
+  "names": {
+    "name": "Isostar Energy Energieriegel",
+    "short_name": "Energy"
+  },
+  "slug": "isostar-energy-energieriegel-banana",
+  "product_type": "Energieriegel",
+  "boss_number": "341611481015",
+  "description": {
+    "text": "Energiereiche Ergänzungsnahrung für Sport und Freizeit. \r\n\r\nProduktevorteile\r\nIsostar High Energy Riegel sind leicht verdaulich und versorgen den Körper mit rasch verfügbarer Energie zur Leistungserhaltung und/oder zum Auffüllen von Energiereserven im Körper.\r\n\r\nZusammensetzung\r\nGlasur (Zucker, pflanzliche Fette, Magermilchpulver, Molkenpulver, Emulgator Sojalecithin), Haferflocken, Getreideextrudat (Reis- und Weizenmehl, Rohrzucker, Malz, Weizeneiweiß, Salz), Glukosesirup, kandierte Orangenschalen 10,5 % (Orangenschalen, Glukosesirup, Zucker, Säuerungsmittel: Citronensäure), Invertzuckersirup, Glukose, Puffreis, Apfelstücke 3,1%, Palmfett, Stabilisatoren: Sorbit und Glycerin, Aromen, Ananasflocken 1,3% (Ananas, Maisstärke, Zucker), Säuerungsmittel: Citronensäure, Salz, Emulgator Rapslecithin, Vitamine C, Vitamin E, Niacin, Vitamin B6, Vitamin B1, Vitamin B2., Konservierungsmittel : Schwefeldioxid \r\n\r\noptimaler Zeitpunkt für den Konsum\r\nVor oder während Training bzw. Wettkampf bei Belastungen von mittlerer bis hoher Intensität",
+    "source": "PEX"
+  },
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03"
+  },
+  "tags": [
+    "source-pex",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": true,
+  "base_product_id": "491976600000",
+  "gtins": [
+    "7612100008225",
+    "3175681100312"
+  ],
+  "brand": {
+    "id": "MMN",
+    "name": "Isostar",
+    "slug": "isostar",
+    "image": {
+      "original": "https://image.migros.ch/original/208adcccd53c1f29851ec009aedcadddf50cf24c/isostar.jpg",
+      "stack": "https://image.migros.ch/{stack}/208adcccd53c1f29851ec009aedcadddf50cf24c/isostar.jpg"
+    }
+  },
+  "categories": [
+    {
+      "code": "SPO_SHOP_CAT_Sportnahrung_Ausruestung",
+      "name": "Sportnahrung",
+      "slug": "sportxx/ausruestung/sportnahrung",
+      "visible": true,
+      "parent_code": "SPO_SHOP_CAT_Ausruestung",
+      "level": 3
+    },
+    {
+      "code": "SPO_SHOP_CAT_Ausruestung",
+      "name": "Ausrüstung",
+      "slug": "sportxx/ausruestung",
+      "visible": true,
+      "parent_code": "BeSS_03",
+      "level": 2
+    },
+    {
+      "code": "BeSS_03",
+      "name": "SportXX",
+      "slug": "sportxx",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_Nahrungsergaenzung_Hausapotheke_HygieneGesundheitBaby",
+        "name": "Nahrungsergänzung",
+        "slug": "amigos/hygiene-gesundheit-baby/hausapotheke/nahrungsergaenzung",
+        "visible": true,
+        "parent_code": "AMIG_CAT_Hausapotheke_HygieneGesundheitBaby",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_Hausapotheke_HygieneGesundheitBaby",
+        "name": "Hausapotheke",
+        "slug": "amigos/hygiene-gesundheit-baby/hausapotheke",
+        "visible": true,
+        "parent_code": "AMIG_CAT_HygieneGesundheitBaby",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_HygieneGesundheitBaby",
+        "name": "Hygiene, Gesundheit & Baby",
+        "slug": "amigos/hygiene-gesundheit-baby",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ],
+    [
+      {
+        "code": "BeSS_011203",
+        "name": "Diät & Sportnahrung",
+        "slug": "supermarkt/gesundheit/diaet-sportnahrung",
+        "visible": true,
+        "parent_code": "BeSS_0112",
+        "level": 3
+      },
+      {
+        "code": "BeSS_0112",
+        "name": "Gesundheit",
+        "slug": "supermarkt/gesundheit",
+        "visible": true,
+        "parent_code": "BeSS_01",
+        "image": {
+          "original": "https://image.migros.ch/original/832762761a56d78835c380db87e2aa4ecd7a4eed/gesundheit.jpg",
+          "stack": "https://image.migros.ch/{stack}/832762761a56d78835c380db87e2aa4ecd7a4eed/gesundheit.jpg"
+        },
+        "level": 2
+      },
+      {
+        "code": "BeSS_01",
+        "name": "Supermarkt",
+        "slug": "supermarkt",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "features": [
+    {
+      "label_code": "miso_produkttyp",
+      "label": "Produkttyp",
+      "values": [
+        {
+          "value_code": "MISO_produkttyp_sportnahrung",
+          "value": "Sportnahrung"
+        }
+      ],
+      "category_code": "MISO_CLA_DiaetSportnahrung_Gesundheit_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "miso_beduerfnis_nutzen",
+      "label": "Bedürfnis / Nutzen",
+      "values": [
+        {
+          "value_code": "MISO_beduerfnis_nutzen_energieausdauer",
+          "value": "Energie & Ausdauer"
+        }
+      ],
+      "category_code": "MISO_CLA_DiaetSportnahrung_Gesundheit_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "spo_gewicht",
+      "label": "Gewicht",
+      "values": [
+        {
+          "value_code": "NUMERIC_40",
+          "value": "40 g",
+          "numeric_value": 40
+        }
+      ],
+      "category_code": "SPO_CLA_Sportnahrung_Alle",
+      "top_fact": false,
+      "unit_code": "g",
+      "unit": "Gramm",
+      "unit_symbol": "g"
+    },
+    {
+      "label_code": "spo_anwendung_anwendung",
+      "label": "Anwendung",
+      "values": [
+        {
+          "value_code": "SPO_Anwendung_Ausdauersport",
+          "value": "Ausdauersport"
+        }
+      ],
+      "category_code": "SPO_CLA_Sportnahrung_Alle",
+      "top_fact": true
+    },
+    {
+      "label_code": "spo_phase_phase",
+      "label": "Phase",
+      "values": [
+        {
+          "value_code": "SPO_Phase_vordemTraining",
+          "value": "vor dem Training"
+        },
+        {
+          "value_code": "SPO_Phase_waehrenddemTraining",
+          "value": "während dem Training"
+        }
+      ],
+      "category_code": "SPO_CLA_Sportnahrung_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "spo_form_form",
+      "label": "Form",
+      "values": [
+        {
+          "value_code": "SPO_Form_Riegel",
+          "value": "Riegel"
+        }
+      ],
+      "category_code": "SPO_CLA_Sportnahrung_Alle",
+      "top_fact": true
+    },
+    {
+      "label_code": "spo_geschmack",
+      "label": "Geschmack",
+      "values": [
+        {
+          "value": "Banana"
+        }
+      ],
+      "category_code": "SPO_CLA_Sportnahrung_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "spo_sportart_sportart",
+      "label": "Sportart",
+      "values": [
+        {
+          "value_code": "SPO_Sportart_Biking_BikingVelofahren",
+          "value": "Biking & Velofahren"
+        },
+        {
+          "value_code": "SPO_Sportart_Fitness",
+          "value": "Fitness"
+        },
+        {
+          "value_code": "SPO_Sportart_Fussball",
+          "value": "Fussball"
+        },
+        {
+          "value_code": "SPO_Sportart_Kraftraining",
+          "value": "Krafttraining"
+        },
+        {
+          "value_code": "SPO_Sportart_Langlauf",
+          "value": "Langlauf"
+        },
+        {
+          "value_code": "SPO_Sportart_NordicWalking",
+          "value": "Nordic Walking"
+        },
+        {
+          "value_code": "SPO_Sportart_Running",
+          "value": "Running"
+        }
+      ],
+      "category_code": "SPO_CLA_Alle",
+      "top_fact": false
+    }
+  ],
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": true,
+      "reservable": true,
+      "stock_request": true,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": true,
+      "reservable": true,
+      "stock_request": true,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": true,
+      "reservable": true,
+      "stock_request": true,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": true,
+      "reservable": true,
+      "stock_request": true,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": true,
+      "reservable": true,
+      "stock_request": true,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": true,
+      "reservable": true,
+      "stock_request": true,
+      "visible": true,
+      "exclude_cross_channel": []
+    }
+  },
+  "attributes": {
+    "typ_geschmack": {
+      "code": "491976600000-A001-20000",
+      "name": "Geschmack",
+      "value": "Banana"
+    }
+  },
+  "image": {
+    "original": "https://image.migros.ch/original/8beb0c70585c7ebdfbf697920149288f022229e4/isostar-energy-energieriegel.jpg",
+    "stack": "https://image.migros.ch/{stack}/8beb0c70585c7ebdfbf697920149288f022229e4/isostar-energy-energieriegel.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/59b8b9e2603ef505e02fb7cdb95f34a24d46239c/isostar-energy-energieriegel.png",
+    "stack": "https://image.migros.ch/{stack}/59b8b9e2603ef505e02fb7cdb95f34a24d46239c/isostar-energy-energieriegel.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_RETURNABLE",
+      "label": "Rückgabe",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "false",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_RETURNABLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_EXCLUDE_FROM_COMPARISON_ENGINES",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "false",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_EXCLUDE_FROM_COMPARISON_ENGINES",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_DEFAULT_LOGISTIC_TYPE",
+      "values": [
+        {
+          "value_code": "55",
+          "value": "Versandart Paket"
+        }
+      ],
+      "category_code": "MAPI_DEFAULT_LOGISTIC_TYPE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Normalposition"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "SPOR"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_RISK_CLASS",
+      "values": [
+        {
+          "value_code": "2",
+          "value": "2 (medium)"
+        }
+      ],
+      "category_code": "MAPI_RISK_CLASS",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_KUBE_TUKA",
+      "values": [
+        {
+          "value_code": "BLANK",
+          "value": "KUBE und TUKA nicht zugelassen"
+        }
+      ],
+      "category_code": "MAPI_KUBE_TUKA",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "SPOR",
+          "value": "Sport  Handelsware"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "S",
+          "value": "Sport"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "55537",
+          "value": "SPORTNAHRUNG"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/491976620000",
+      "name": "migros.ch",
+      "canonical": "https://www.sportxx.ch/de/p/491976600000/isostar-energy",
+      "type": "info",
+      "purchasable": false
+    },
+    "sportxx": {
+      "url": "https://www.sportxx.ch/de/p/491976620000/isostar-energy?selectVariant=",
+      "name": "SportXX",
+      "canonical": "https://www.sportxx.ch/de/p/491976600000/isostar-energy",
+      "type": "shop",
+      "purchasable": true
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/491976620000",
+      "name": "Migipedia",
+      "canonical": "https://www.sportxx.ch/de/p/491976600000/isostar-energy",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "regional_availability": {
+    "gmaa": {
+      "probability": 13
+    },
+    "gmbs": {
+      "probability": 7
+    },
+    "gmge": {
+      "probability": 5
+    },
+    "gmlu": {
+      "probability": 17
+    },
+    "gmnf": {
+      "probability": 10
+    },
+    "gmos": {
+      "probability": 9
+    },
+    "gmti": {
+      "probability": 37
+    },
+    "gmvd": {
+      "probability": 6
+    },
+    "gmvs": {
+      "probability": 13
+    },
+    "gmzh": {
+      "probability": 18
+    }
+  },
+  "updated_at": "2020-09-16T06:03:09+0200",
+  "online_shop_relevant": true,
+  "services": {
+    "logistics": [
+      {
+        "code": "SPO_LOGISTIK_FILIALE_POSTPAKET_GRATIS"
+      },
+      {
+        "code": "SPO_LOGISTIK_POSTPAKET_4_9"
+      }
+    ]
+  },
+  "base_unit": "CU",
+  "slugs": {
+    "de": "isostar-energy-energieriegel-banana",
+    "fr": "isostar-energy-barre-energetique-banana",
+    "it": "isostar-energy-barretta-energetica-banana"
+  },
+  "receipt_text": "Isostar Energy",
+  "main_supplier": {
+    "name": "Wander AG",
+    "id": "0010011450"
+  },
+  "price": {
+    "valid_from": "2018-01-30T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 1.9,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "1 Stück"
+    },
+    "base": {
+      "price": 4.75,
+      "quantity": 100,
+      "unit": "g"
+    }
+  },
+  "retailer": {
+    "id": "sportxx",
+    "name": "SportXX"
+  },
+  "ratings": {
+    "count_all": 1,
+    "average_all": 4
+  },
+  "data_source": "SAP-X12",
+  "origins": {
+    "producing_country": "Schweiz"
+  },
+  "package": {
+    "content": 40,
+    "content_unit_code": "g",
+    "content_unit": "Gramm",
+    "brutto_volume": 0.18,
+    "brutto_volume_unit_code": "cdm",
+    "height": 4,
+    "length": 1.4,
+    "width": 16,
+    "unit_dimension": "cm",
+    "price_comparison_content": 100
+  },
+  "package_information": {
+    "cu": {
+      "brutto_volume": 0.18,
+      "brutto_volume_unit_code": "cdm",
+      "height": 4,
+      "length": 1.4,
+      "width": 16,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "tuv": {
+      "brutto_weight": 1.26,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 2.88,
+      "brutto_volume_unit_code": "cdm",
+      "height": 9,
+      "length": 16,
+      "width": 20,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 30
+    },
+    "tue": {
+      "number_of_base_units": 30
+    },
+    "lu": {
+      "height": 40,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 840
+    }
+  },
+  "warranty_months": 24,
+  "quantity_on_stock": 4098,
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "views": [
+    "all",
+    "browse"
+  ]
+}

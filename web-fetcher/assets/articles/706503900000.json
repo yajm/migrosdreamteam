@@ -1,0 +1,576 @@
+{
+  "id": "706503900000",
+  "language": "de",
+  "name": "Miobrill Soft Schwämme Synthetisch",
+  "names": {
+    "name": "Miobrill Soft Schwämme Synthetisch",
+    "short_name": "Soft Schwämme Synthetisch"
+  },
+  "slug": "miobrill-soft-schwaemme-synthetisch",
+  "boss_number": "150223301010",
+  "description": {
+    "text": "-Vlies nicht kratzend und nicht scheuernd\r\n-Entfernt Seifenreste und Kalkflecken sanft\r\n-Saugf&auml;higer synthetischer Schaumstoff",
+    "source": "PEX"
+  },
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03"
+  },
+  "tags": [
+    "source-pex",
+    "near-non-food",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7613194144905",
+    "7610197650396"
+  ],
+  "brand": {
+    "id": "MGF",
+    "name": "Miobrill",
+    "slug": "miobrill"
+  },
+  "categories": [
+    {
+      "code": "BeSS_0104200301",
+      "name": "Schwämme",
+      "slug": "supermarkt/haushalt-reinigung/reinigungsutensilien/abwasch/schwaemme",
+      "visible": true,
+      "parent_code": "BeSS_01042003",
+      "level": 5
+    },
+    {
+      "code": "BeSS_01042003",
+      "name": "Abwasch",
+      "slug": "supermarkt/haushalt-reinigung/reinigungsutensilien/abwasch",
+      "visible": true,
+      "parent_code": "BeSS_010420",
+      "level": 4
+    },
+    {
+      "code": "BeSS_010420",
+      "name": "Reinigungsutensilien",
+      "slug": "supermarkt/haushalt-reinigung/reinigungsutensilien",
+      "visible": true,
+      "parent_code": "BeSS_0104",
+      "level": 3
+    },
+    {
+      "code": "BeSS_0104",
+      "name": "Haushalt & Reinigung",
+      "slug": "supermarkt/haushalt-reinigung",
+      "visible": true,
+      "title": "Reinigung mit der Migros – Reiniger für Haushalt und Garten",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/e5da3225980543e0c7ddcc443069f331d94e8439/haushalt-reinigung.png",
+        "stack": "https://image.migros.ch/{stack}/e5da3225980543e0c7ddcc443069f331d94e8439/haushalt-reinigung.png"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_SchwaemmeLappen_ReinigenPutzen_HaushaltReinigung",
+        "name": "Schwämme & Lappen",
+        "slug": "amigos/haushalt-reinigung/reinigen-putzen/schwaemme-lappen",
+        "visible": true,
+        "parent_code": "AMIG_CAT_ReinigenPutzen_HaushaltReinigung",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_ReinigenPutzen_HaushaltReinigung",
+        "name": "Reinigen & Putzen",
+        "slug": "amigos/haushalt-reinigung/reinigen-putzen",
+        "visible": true,
+        "parent_code": "AMIG_CAT_HaushaltReinigung",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_HaushaltReinigung",
+        "name": "Haushalt & Reinigung",
+        "slug": "amigos/haushalt-reinigung",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "features": [
+    {
+      "label_code": "miso_farbe",
+      "label": "Farbe",
+      "values": [
+        {
+          "value_code": "MISO_farbe_hellgruen",
+          "value": "hellgrün"
+        },
+        {
+          "value_code": "MISO_farbe_weiss",
+          "value": "weiss"
+        }
+      ],
+      "category_code": "MISO_CLA_Reinigungshilfen_Verbrauch_Haushalt_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "miso_material",
+      "label": "Material",
+      "values": [
+        {
+          "value_code": "MISO_material_synthetisch",
+          "value": "Synthetisch"
+        },
+        {
+          "value_code": "MISO_material_vlies",
+          "value": "Vlies"
+        }
+      ],
+      "category_code": "MISO_CLA_Reinigungshilfen_Verbrauch_Haushalt_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "miso_anzahl",
+      "label": "Anzahl",
+      "values": [
+        {
+          "value_code": "NUMERIC_3",
+          "value": "3 Stk.",
+          "numeric_value": 3
+        }
+      ],
+      "category_code": "MISO_CLA_Reinigungshilfen_Verbrauch_Haushalt_Alle",
+      "top_fact": false,
+      "unit_code": "Stk.",
+      "unit": "Stück",
+      "unit_symbol": "Stk."
+    },
+    {
+      "label_code": "miso_hinweis",
+      "label": "Hinweis",
+      "values": [
+        {
+          "value_code": "MISO_vorsicht_bei_silber_und_hochempfindlichen_kunststoffen",
+          "value": "Vorsicht bei Silber und hochempfindlichen Kunststoffen"
+        }
+      ],
+      "category_code": "MISO_CLA_Reinigungshilfen_Verbrauch_Haushalt_Alle",
+      "top_fact": false
+    }
+  ],
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    }
+  },
+  "image": {
+    "original": "https://image.migros.ch/original/3f82452185061fde80f954b44eba63549ba26b30/miobrill-soft-schwaemme-synthetisch.jpg",
+    "stack": "https://image.migros.ch/{stack}/3f82452185061fde80f954b44eba63549ba26b30/miobrill-soft-schwaemme-synthetisch.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/b348b4e37966e6df38859e64e395bff7f945f8d0/miobrill-soft-schwaemme-synthetisch.png",
+    "stack": "https://image.migros.ch/{stack}/b348b4e37966e6df38859e64e395bff7f945f8d0/miobrill-soft-schwaemme-synthetisch.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_sortierung",
+      "label": "Sortierung aMigos",
+      "values": [
+        {
+          "value_code": "NUMERIC_520",
+          "value": "520",
+          "numeric_value": 520
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "miso_marke",
+      "label": "Marke",
+      "values": [
+        {
+          "value_code": "MISO_marke_Miobrill",
+          "value": "Miobrill"
+        }
+      ],
+      "category_code": "MISO_CLA_Reinigungshilfen_Verbrauch_Haushalt_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_DEFAULT_LOGISTIC_TYPE",
+      "values": [
+        {
+          "value_code": "55",
+          "value": "Versandart Paket"
+        }
+      ],
+      "category_code": "MAPI_DEFAULT_LOGISTIC_TYPE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Normalposition"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "HART"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUSTOMS_POSITION",
+      "values": [
+        {
+          "value_code": "NUMERIC_68053000000",
+          "value": "68053000000",
+          "numeric_value": 68053000000
+        }
+      ],
+      "category_code": "MAPI_CUSTOMS_POSITION",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_RISK_CLASS",
+      "values": [
+        {
+          "value_code": "3",
+          "value": "3 (low)"
+        }
+      ],
+      "category_code": "MAPI_RISK_CLASS",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_KUBE_TUKA",
+      "values": [
+        {
+          "value_code": "BLANK",
+          "value": "KUBE und TUKA nicht zugelassen"
+        }
+      ],
+      "category_code": "MAPI_KUBE_TUKA",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HART",
+          "value": "Hartwaren  Handelsware"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "H",
+          "value": "Hartwaren"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "50778",
+          "value": "SCHWAEMME"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 1,
+    "percentage": 7.7
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/706503900000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/miobrill-soft-schwaemme-synthetisch",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/706503900000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/miobrill-soft-schwaemme-synthetisch",
+      "type": "info",
+      "purchasable": false
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/3872759",
+      "app_url": "leshop:///catalog/article/detail?ean=7613194144905",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/miobrill-soft-schwaemme-synthetisch",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "regional_availability": {
+    "gmaa": {
+      "probability": 98
+    },
+    "gmbs": {
+      "probability": 96
+    },
+    "gmge": {
+      "probability": 92
+    },
+    "gmlu": {
+      "probability": 97
+    },
+    "gmnf": {
+      "probability": 98
+    },
+    "gmos": {
+      "probability": 100
+    },
+    "gmti": {
+      "probability": 100
+    },
+    "gmvd": {
+      "probability": 100
+    },
+    "gmvs": {
+      "probability": 77
+    },
+    "gmzh": {
+      "probability": 94
+    }
+  },
+  "updated_at": "2020-09-16T06:10:40+0200",
+  "base_unit": "CU",
+  "slugs": {
+    "de": "miobrill-soft-schwaemme-synthetisch",
+    "fr": "miobrill-soft-eponges-synthetique",
+    "it": "miobrill-soft-spugne-sintetica"
+  },
+  "receipt_text": "Miobrill Soft Schwämme",
+  "main_supplier": {
+    "name": "Frina Mousse France Sarl",
+    "id": "0010034323"
+  },
+  "price": {
+    "valid_from": "2018-01-30T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 1.5,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "3 Stk."
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "galaxus_relevant": true,
+  "ratings": {
+    "count_all": 6,
+    "average_all": 3.666666666667
+  },
+  "data_source": "SAP-X12",
+  "origins": {
+    "producing_country": "Frankreich"
+  },
+  "package": {
+    "content": 3,
+    "content_unit_code": "cu",
+    "net_weight": 0.035,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogramm",
+    "brutto_weight": 0.036,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 0.99,
+    "brutto_volume_unit_code": "cdm",
+    "height": 7,
+    "length": 13,
+    "width": 11.5,
+    "unit_dimension": "cm",
+    "size": "3 Stk."
+  },
+  "package_information": {
+    "cu": {
+      "brutto_weight": 0.036,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0.99,
+      "brutto_volume_unit_code": "cdm",
+      "height": 7,
+      "length": 13,
+      "width": 11.5,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "tuv": {
+      "brutto_weight": 0.7,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 13.224,
+      "brutto_volume_unit_code": "cdm",
+      "height": 12,
+      "length": 38,
+      "width": 29,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 12
+    },
+    "tue": {
+      "brutto_weight": 0.68,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0.001,
+      "brutto_volume_unit_code": "ccm",
+      "height": 10.3,
+      "length": 39.9,
+      "width": 29.2,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 12
+    },
+    "lu": {
+      "number_of_base_units": 864
+    }
+  },
+  "related_products": {
+    "reference_recommendations": {
+      "product_ids": [
+        "501021100000",
+        "501021300000",
+        "501021000000",
+        "501021200000",
+        "501002000000"
+      ]
+    }
+  },
+  "quantity_on_stock": 100284,
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "recipe_ingredient_ids": [
+    "10000"
+  ],
+  "views": [
+    "all",
+    "browse"
+  ]
+}

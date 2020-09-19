@@ -1,0 +1,726 @@
+{
+  "id": "130757000000",
+  "language": "de",
+  "name": "M-Budget Orangensaft",
+  "names": {
+    "name": "M-Budget Orangensaft"
+  },
+  "slug": "m-budget-orangensaft-130757000000",
+  "boss_number": "020530326010",
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "80"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "source-qim-origins",
+    "validity-range-not-set",
+    "source-qim-fooddeclaration",
+    "source-qim-nutritionfacts",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7616800833668",
+    "7613404025949"
+  ],
+  "brand": {
+    "id": "N26",
+    "name": "M-Budget",
+    "slug": "m-budget",
+    "links": {
+      "homepage": {
+        "url": "https://m-budget.migros.ch/de.html",
+        "name": "Homepage",
+        "type": "info",
+        "purchasable": false
+      }
+    },
+    "image": {
+      "original": "https://image.migros.ch/original/1d1a13e240a94a7e1fa8ef99f15ce5b896f3486b/m-budget.jpg",
+      "stack": "https://image.migros.ch/{stack}/1d1a13e240a94a7e1fa8ef99f15ce5b896f3486b/m-budget.jpg"
+    }
+  },
+  "categories": [
+    {
+      "code": "BeSS_0101130212",
+      "name": "Säfte",
+      "slug": "supermarkt/lebensmittel/fertiggerichte-menues-snacks/fertige-pizzen-menues-snacks/saefte",
+      "visible": true,
+      "title": "Fruchtsäfte in Ihrer Migros kaufen",
+      "parent_code": "BeSS_01011302",
+      "image": {
+        "original": "https://image.migros.ch/original/ea8c9f9903476e17a5ce841f8a56a6ae0c92775a/saefte.jpg",
+        "stack": "https://image.migros.ch/{stack}/ea8c9f9903476e17a5ce841f8a56a6ae0c92775a/saefte.jpg"
+      },
+      "level": 5
+    },
+    {
+      "code": "BeSS_01011302",
+      "name": "Fertige Pizzen, Menüs & Snacks",
+      "slug": "supermarkt/lebensmittel/fertiggerichte-menues-snacks/fertige-pizzen-menues-snacks",
+      "visible": true,
+      "title": "Feine Fertiggerichte aus Ihrer Migros!",
+      "parent_code": "BeSS_010113",
+      "image": {
+        "original": "https://image.migros.ch/original/0014f54049f00019a8782aedb21ad671bd28a8e8/fertige-pizzen-menues-snacks.jpg",
+        "stack": "https://image.migros.ch/{stack}/0014f54049f00019a8782aedb21ad671bd28a8e8/fertige-pizzen-menues-snacks.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010113",
+      "name": "Fertiggerichte, Menüs & Snacks",
+      "slug": "supermarkt/lebensmittel/fertiggerichte-menues-snacks",
+      "visible": true,
+      "title": "Fertige Pizzen, Menüs und Snacks &ndash; schnell und lecker von der Migros",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/6770b6c8fbbd2689aece359ffeda93b90c58dd09/fertiggerichte-menues-snacks.jpg",
+        "stack": "https://image.migros.ch/{stack}/6770b6c8fbbd2689aece359ffeda93b90c58dd09/fertiggerichte-menues-snacks.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_Orangensaft_Saefte_Getraenke",
+        "name": "Orangensaft",
+        "slug": "amigos/getraenke/saefte/orangensaft",
+        "visible": true,
+        "parent_code": "AMIG_CAT_Saefte_Getraenke",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_Saefte_Getraenke",
+        "name": "Säfte",
+        "slug": "amigos/getraenke/saefte",
+        "visible": true,
+        "parent_code": "AMIG_CAT_Getraenke",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_Getraenke",
+        "name": "Getränke",
+        "slug": "amigos/getraenke",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "nutrition_facts": {
+    "standard": {
+      "nutrients": [
+        {
+          "code": "PIM_NUT_ENERGIE",
+          "name": "Energie",
+          "pictogram_name": "Energie",
+          "category": "BIG9",
+          "quantity": 204,
+          "rda_percent": 2,
+          "rda_percent_operator": "=",
+          "nutrition_operator": "=",
+          "quantity_unit": "kJ",
+          "quantity_alternate": 48,
+          "quantity_alternate_unit": "kcal"
+        },
+        {
+          "code": "PIM_NUT_FETT",
+          "name": "Fett",
+          "pictogram_name": "Fett",
+          "category": "BIG9",
+          "quantity": 0.5,
+          "rda_percent": 1,
+          "rda_percent_operator": "=",
+          "nutrition_operator": "<",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_FETT_GES",
+          "name": "davon gesättigte Fettsäuren",
+          "pictogram_name": "gesättigte Fettsäuren",
+          "category": "BIG9",
+          "quantity": 0,
+          "rda_percent": 0,
+          "rda_percent_operator": "=",
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_KOHLENHY",
+          "name": "Kohlenhydrate",
+          "category": "BIG9",
+          "quantity": 11,
+          "rda_percent": 4,
+          "rda_percent_operator": "=",
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_ZUCKER",
+          "name": "davon Zucker",
+          "pictogram_name": "Zuckerarten",
+          "category": "BIG9",
+          "quantity": 9.4,
+          "rda_percent": 10,
+          "rda_percent_operator": "=",
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_GES_BALL",
+          "name": "Ballaststoffe",
+          "category": "BIG9",
+          "quantity": 0.5,
+          "nutrition_operator": "<",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_PROTEINE",
+          "name": "Eiweiss",
+          "category": "BIG9",
+          "quantity": 0.7,
+          "rda_percent": 1,
+          "rda_percent_operator": "=",
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_KOCHSALZ",
+          "name": "Salz",
+          "pictogram_name": "Salz",
+          "category": "BIG9",
+          "quantity": 0.03,
+          "rda_percent": 1,
+          "rda_percent_operator": "=",
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        }
+      ],
+      "base_quantity": 100,
+      "base_unit": "ml"
+    },
+    "portion": {
+      "nutrients": [
+        {
+          "code": "PIM_NUT_ENERGIE",
+          "name": "Energie",
+          "pictogram_name": "Energie",
+          "category": "BIG9",
+          "quantity": 426,
+          "rda_percent": 5,
+          "rda_percent_operator": "=",
+          "nutrition_operator": "=",
+          "quantity_unit": "kJ",
+          "quantity_alternate": 100,
+          "quantity_alternate_unit": "kcal"
+        },
+        {
+          "code": "PIM_NUT_FETT",
+          "name": "Fett",
+          "pictogram_name": "Fett",
+          "category": "BIG9",
+          "quantity": 0.5,
+          "rda_percent": 1,
+          "rda_percent_operator": "=",
+          "nutrition_operator": "<",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_FETT_GES",
+          "name": "davon gesättigte Fettsäuren",
+          "pictogram_name": "gesättigte Fettsäuren",
+          "category": "BIG9",
+          "quantity": 0,
+          "rda_percent": 0,
+          "rda_percent_operator": "=",
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_KOHLENHY",
+          "name": "Kohlenhydrate",
+          "category": "BIG9",
+          "quantity": 23,
+          "rda_percent": 9,
+          "rda_percent_operator": "=",
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_ZUCKER",
+          "name": "davon Zucker",
+          "pictogram_name": "Zuckerarten",
+          "category": "BIG9",
+          "quantity": 19,
+          "rda_percent": 21,
+          "rda_percent_operator": "=",
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_GES_BALL",
+          "name": "Ballaststoffe",
+          "category": "BIG9",
+          "quantity": 0.5,
+          "nutrition_operator": "<",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_PROTEINE",
+          "name": "Eiweiss",
+          "category": "BIG9",
+          "quantity": 1.5,
+          "rda_percent": 3,
+          "rda_percent_operator": "=",
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_KOCHSALZ",
+          "name": "Salz",
+          "pictogram_name": "Salz",
+          "category": "BIG9",
+          "quantity": 0.05,
+          "rda_percent": 1,
+          "rda_percent_operator": "=",
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        }
+      ],
+      "base_description": "1 Glas",
+      "base_quantity": 200,
+      "base_unit": "ml",
+      "package_type": "Flasche",
+      "portions_per_package": "5",
+      "portions_per_package_precision": "="
+    }
+  },
+  "features": [
+    {
+      "label_code": "MISO_mussgekuehltwerden",
+      "label": "Muss gekühlt werden",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MISO_CLA_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_produktionsanspruch",
+      "label": "Produktionsverfahren",
+      "values": [
+        {
+          "value_code": "MISO_produktionsanspruch_ohnezuckerzusatz",
+          "value": "Ohne Zuckerzusatz"
+        }
+      ],
+      "category_code": "MISO_CLA_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_flasche",
+          "value": "Flasche"
+        }
+      ],
+      "category_code": "MISO_CLA_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zubereitungsverfahren",
+      "label": "Hinweise für die Zubereitung",
+      "values": [
+        {
+          "value_code": "MISO_zubereitungsverfahren_verzehrfertig",
+          "value": "Verzehrfertig"
+        }
+      ],
+      "category_code": "MISO_CLA_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zusatzangaben",
+      "label": "Zusatzangaben",
+      "values": [
+        {
+          "value_code": "MISO_zusatzangaben_30",
+          "value": "Vor Gebrauch schütteln"
+        }
+      ],
+      "category_code": "MISO_CLA_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_artvonerfrischungsgetraenk",
+      "label": "Art von Erfrischungsgetränk",
+      "values": [
+        {
+          "value_code": "MISO_artvonerfrischungsgetraenk_fruchtsaft",
+          "value": "Fruchtsaft"
+        }
+      ],
+      "category_code": "MISO_CLA_AlkoholfreieGetraenketrinkfertig_Getraenke_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_auskonzentrat",
+      "label": "Aus Konzentrat",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "Nein",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MISO_CLA_AlkoholfreieGetraenketrinkfertig_Getraenke_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_saftsorte",
+      "label": "Saftsorte",
+      "values": [
+        {
+          "value_code": "MISO_saftsorte_orange",
+          "value": "Orange"
+        }
+      ],
+      "category_code": "MISO_CLA_AlkoholfreieGetraenketrinkfertig_Getraenke_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_behandlungdesgetraenks",
+      "label": "Behandlung des Getränks",
+      "values": [
+        {
+          "value_code": "MISO_behandlungdesgetraenks_pasteurisiert",
+          "value": "pasteurisiert"
+        }
+      ],
+      "category_code": "MISO_CLA_AlkoholfreieGetraenketrinkfertig_Getraenke_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_fruchtgehalt",
+      "label": "Fruchtgehalt",
+      "values": [
+        {
+          "value_code": "NUMERIC_100.0",
+          "value": "100.0 %",
+          "numeric_value": 100
+        }
+      ],
+      "category_code": "MISO_CLA_AlkoholfreieGetraenketrinkfertig_Getraenke_LebensmittelGetraenke_Alle",
+      "top_fact": false,
+      "unit_code": "prozent",
+      "unit": "Prozent",
+      "unit_symbol": "%"
+    }
+  ],
+  "general_information": [
+    {
+      "label": "Kühlhinweis / Aufbewahrungshinweis",
+      "value": "Gekühlt aufbewahren bei max. +5 °C."
+    },
+    {
+      "label": "Produktionshinweis",
+      "value": "Pasteurisiert"
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/f343af39176eb951d45d9945793cde04ea1e5de2/m-budget-orangensaft.jpg",
+    "stack": "https://image.migros.ch/{stack}/f343af39176eb951d45d9945793cde04ea1e5de2/m-budget-orangensaft.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/42444c1bb6e871710630552484a8c6b51d82113e/m-budget-orangensaft.png",
+    "stack": "https://image.migros.ch/{stack}/42444c1bb6e871710630552484a8c6b51d82113e/m-budget-orangensaft.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_sortierung",
+      "label": "Sortierung aMigos",
+      "values": [
+        {
+          "value_code": "NUMERIC_160",
+          "value": "160",
+          "numeric_value": 160
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZFRP",
+          "value": "Frische Beschaffung"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "7",
+          "value": "Convenience"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "70206",
+          "value": "SAEFTE GROSS"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "regulated_description": "Direkt gepresster Orangensaft",
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/130757000000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/m-budget-orangensaft-130757000000",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/130757000000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/m-budget-orangensaft-130757000000",
+      "type": "info",
+      "purchasable": false
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/227237",
+      "app_url": "leshop:///catalog/article/detail?ean=7613404025949",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/m-budget-orangensaft-130757000000",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "regional_availability": {
+    "gmaa": {
+      "probability": 86
+    },
+    "gmbs": {
+      "probability": 78
+    },
+    "gmge": {
+      "probability": 79
+    },
+    "gmlu": {
+      "probability": 91
+    },
+    "gmnf": {
+      "probability": 82
+    },
+    "gmos": {
+      "probability": 94
+    },
+    "gmti": {
+      "probability": 94
+    },
+    "gmvd": {
+      "probability": 85
+    },
+    "gmvs": {
+      "probability": 87
+    },
+    "gmzh": {
+      "probability": 79
+    }
+  },
+  "updated_at": "2020-09-16T05:44:49+0200",
+  "base_unit": "CU",
+  "slugs": {
+    "de": "m-budget-orangensaft-130757000000",
+    "fr": "m-budget-jus-dorange-130757000000",
+    "it": "m-budget-succo-darancia-130757000000"
+  },
+  "receipt_text": "MBud Orangensaft",
+  "main_supplier": {
+    "name": "BISCHOFSZELL",
+    "id": "0003800000",
+    "supplier_product_id": "300002797"
+  },
+  "price": {
+    "valid_from": "2019-01-02T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 1.95,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "1l"
+    },
+    "base": {
+      "price": 0.2,
+      "quantity": 100,
+      "unit": "ml"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 94,
+    "average_all": 4.679012345679
+  },
+  "data_source": "SAP-X4x",
+  "origins": {
+    "producing_country": "Abgefüllt in der Schweiz."
+  },
+  "ingredients": "Orangensaft, Orangenzellen.",
+  "package": {
+    "content": 1000,
+    "content_unit_code": "ml",
+    "content_unit": "Mililiter",
+    "net_weight": 1.049,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogramm",
+    "precision": "exact",
+    "brutto_weight": 1.087,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 1.664,
+    "brutto_volume_unit_code": "cdm",
+    "height": 26,
+    "length": 8,
+    "width": 8,
+    "unit_dimension": "cm",
+    "price_comparison_content": 100,
+    "size": "1l"
+  },
+  "package_information": {
+    "tu": {
+      "brutto_weight": 7.609,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 31.92,
+      "brutto_volume_unit_code": "cdm",
+      "height": 13.3,
+      "length": 60,
+      "width": 40,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 7
+    },
+    "cu": {
+      "brutto_weight": 1.087,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 1.664,
+      "brutto_volume_unit_code": "cdm",
+      "height": 26,
+      "length": 8,
+      "width": 8,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    }
+  },
+  "related_products": {
+    "purchase_recommendations": {
+      "product_ids": [
+        "130758000000",
+        "130758100000",
+        "130758500000",
+        "130758200000",
+        "130758400000"
+      ]
+    }
+  },
+  "declarations": {
+    "food": {
+      "features": [
+        {
+          "label_code": "GDSN_M281_NetContent",
+          "label": "Nettofüllmenge Wert",
+          "values": [
+            {
+              "value_code": "NUMERIC_1000",
+              "value": "1000",
+              "numeric_value": 1000
+            }
+          ],
+          "category_code": "GDSN",
+          "top_fact": false,
+          "unit_code": "ml"
+        }
+      ]
+    }
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "recipe_ingredient_ids": [
+    "14688"
+  ],
+  "views": [
+    "all",
+    "browse"
+  ]
+}

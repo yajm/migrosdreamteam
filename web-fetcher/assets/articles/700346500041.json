@@ -1,0 +1,753 @@
+{
+  "id": "700346500041",
+  "language": "de",
+  "name": "Cucina & Tavola Küchentuch Mikrofaser",
+  "names": {
+    "name": "Cucina & Tavola Küchentuch Mikrofaser",
+    "short_name": "Küchentuch Mikrofaser"
+  },
+  "slug": "cucina-tavola-kuechentuch-mikrofaser-blau-b-500-cm",
+  "boss_number": "150432261015",
+  "description": {
+    "text": "Sekundenschnelles und fusselfreies Abtrocknen von wertvollen Gläsern oder Geschirr mit glatter Oberfläche. \nHohe Saugfähigkeit durch speziell behandelte Kunstfasern.",
+    "source": "PEX"
+  },
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03"
+  },
+  "tags": [
+    "source-pex",
+    "near-non-food",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": true,
+  "base_product_id": "700346500000",
+  "gtins": [
+    "7613294540188"
+  ],
+  "brand": {
+    "id": "NF1",
+    "name": "Cucina & Tavola",
+    "slug": "cucina-tavola",
+    "image": {
+      "original": "https://image.migros.ch/original/ec18c12011ab778b7756486a090e13866fc1eaf1/cucina-tavola.jpg",
+      "stack": "https://image.migros.ch/{stack}/ec18c12011ab778b7756486a090e13866fc1eaf1/cucina-tavola.jpg"
+    }
+  },
+  "categories": [
+    {
+      "code": "BeSS_01040920",
+      "name": "Küchentextil",
+      "slug": "supermarkt/haushalt-reinigung/kueche/kuechentextil",
+      "visible": true,
+      "parent_code": "BeSS_010409",
+      "level": 4
+    },
+    {
+      "code": "BeSS_010409",
+      "name": "Küche",
+      "slug": "supermarkt/haushalt-reinigung/kueche",
+      "visible": true,
+      "title": "Artikel für die Küche aus Ihrer Migros – gut & günstig!",
+      "parent_code": "BeSS_0104",
+      "image": {
+        "original": "https://image.migros.ch/original/90120e4cc3d5d74e017d4b91bbdcb1da29eb70a6/kueche.jpg",
+        "stack": "https://image.migros.ch/{stack}/90120e4cc3d5d74e017d4b91bbdcb1da29eb70a6/kueche.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0104",
+      "name": "Haushalt & Reinigung",
+      "slug": "supermarkt/haushalt-reinigung",
+      "visible": true,
+      "title": "Reinigung mit der Migros – Reiniger für Haushalt und Garten",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/e5da3225980543e0c7ddcc443069f331d94e8439/haushalt-reinigung.png",
+        "stack": "https://image.migros.ch/{stack}/e5da3225980543e0c7ddcc443069f331d94e8439/haushalt-reinigung.png"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_Kuechentextil_Kueche_HaushaltReinigung",
+        "name": "Küchentextil",
+        "slug": "amigos/haushalt-reinigung/kueche/kuechentextil",
+        "visible": true,
+        "parent_code": "AMIG_CAT_Kueche_HaushaltReinigung",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_Kueche_HaushaltReinigung",
+        "name": "Küche",
+        "slug": "amigos/haushalt-reinigung/kueche",
+        "visible": true,
+        "parent_code": "AMIG_CAT_HaushaltReinigung",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_HaushaltReinigung",
+        "name": "Haushalt & Reinigung",
+        "slug": "amigos/haushalt-reinigung",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ],
+    [
+      {
+        "code": "MIC_SHOP_CAT_MigrosSupermarkt_Essen_AccessoiresTextilien",
+        "name": "Migros Supermarkt",
+        "slug": "micasa/accessoires-textilien/essen/migros-supermarkt",
+        "visible": false,
+        "parent_code": "MIC_SHOP_CAT_Essen_AccessoiresTextilien",
+        "level": 4
+      },
+      {
+        "code": "MIC_SHOP_CAT_Essen_AccessoiresTextilien",
+        "name": "Essen",
+        "slug": "micasa/accessoires-textilien/essen",
+        "visible": true,
+        "parent_code": "MIC_SHOP_CAT_AccessoiresTextilien",
+        "level": 3
+      },
+      {
+        "code": "MIC_SHOP_CAT_AccessoiresTextilien",
+        "name": "Accessoires & Textilien",
+        "slug": "micasa/accessoires-textilien",
+        "visible": true,
+        "parent_code": "BeSS_02",
+        "level": 2
+      },
+      {
+        "code": "BeSS_02",
+        "name": "Micasa",
+        "slug": "micasa",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ],
+    [
+      {
+        "code": "MIC_SHOP_CAT_Kuechentuecher_KuechenTischtextilien_Essen_AccessoiresTextilien",
+        "name": "Küchentücher",
+        "slug": "micasa/accessoires-textilien/essen/kuechen-tischtextilien/kuechentuecher",
+        "visible": true,
+        "parent_code": "MIC_SHOP_CAT_KuechenTischtextilien_Essen_AccessoiresTextilien",
+        "level": 5
+      },
+      {
+        "code": "MIC_SHOP_CAT_KuechenTischtextilien_Essen_AccessoiresTextilien",
+        "name": "Küchen- & Tischtextilien",
+        "slug": "micasa/accessoires-textilien/essen/kuechen-tischtextilien",
+        "visible": true,
+        "parent_code": "MIC_SHOP_CAT_Essen_AccessoiresTextilien",
+        "level": 4
+      },
+      {
+        "code": "MIC_SHOP_CAT_Essen_AccessoiresTextilien",
+        "name": "Essen",
+        "slug": "micasa/accessoires-textilien/essen",
+        "visible": true,
+        "parent_code": "MIC_SHOP_CAT_AccessoiresTextilien",
+        "level": 3
+      },
+      {
+        "code": "MIC_SHOP_CAT_AccessoiresTextilien",
+        "name": "Accessoires & Textilien",
+        "slug": "micasa/accessoires-textilien",
+        "visible": true,
+        "parent_code": "BeSS_02",
+        "level": 2
+      },
+      {
+        "code": "BeSS_02",
+        "name": "Micasa",
+        "slug": "micasa",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "features": [
+    {
+      "label_code": "mic_breite",
+      "label": "Breite",
+      "values": [
+        {
+          "value_code": "NUMERIC_50",
+          "value": "50 cm",
+          "numeric_value": 50
+        }
+      ],
+      "category_code": "MIC_CLA_Alle",
+      "top_fact": false,
+      "unit_code": "cm",
+      "unit": "Zentimeter",
+      "unit_symbol": "cm"
+    },
+    {
+      "label_code": "mic_farbewohnshop_farben",
+      "label": "Farben",
+      "values": [
+        {
+          "value_code": "MIC_FarbeWohnshop_Blau",
+          "value": "Blau"
+        }
+      ],
+      "category_code": "MIC_CLA_Accessoires_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "mic_materialwohnshop_material",
+      "label": "Material",
+      "values": [
+        {
+          "value_code": "MIC_MaterialWohnshop_Polyamid",
+          "value": "Polyamid"
+        },
+        {
+          "value_code": "MIC_MaterialWohnshop_Polyester",
+          "value": "Polyester"
+        }
+      ],
+      "category_code": "MIC_CLA_Accessoires_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "mic_inhaltstueckteile",
+      "label": "Inhalt (Stück, Teile)",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1 Stk.",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MIC_CLA_Accessoires_Alle",
+      "top_fact": false,
+      "unit_code": "st",
+      "unit": "Stück",
+      "unit_symbol": "Stk."
+    },
+    {
+      "label_code": "mic_warendeklaration",
+      "label": "Warendeklaration",
+      "values": [
+        {
+          "value": "80% Polyester, 20% Polyamid"
+        }
+      ],
+      "category_code": "MIC_CLA_Accessoires_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "mic_laenge",
+      "label": "Länge",
+      "values": [
+        {
+          "value_code": "NUMERIC_70",
+          "value": "70 cm",
+          "numeric_value": 70
+        }
+      ],
+      "category_code": "MIC_CLA_GedeckterTischKueche_Accessoires_Alle",
+      "top_fact": false,
+      "unit_code": "cm",
+      "unit": "Zentimeter",
+      "unit_symbol": "cm"
+    },
+    {
+      "label_code": "mic_pflegehinweise",
+      "label": "Pflegehinweise",
+      "values": [
+        {
+          "value": "Kein Weichspüler verwenden! Mit ähnlichen Farben waschen."
+        }
+      ],
+      "category_code": "MIC_CLA_GedeckterTischKueche_Accessoires_Alle",
+      "top_fact": false
+    }
+  ],
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": true,
+      "reservable": true,
+      "stock_request": true,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": true,
+      "reservable": true,
+      "stock_request": true,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": true,
+      "reservable": true,
+      "stock_request": true,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": true,
+      "reservable": true,
+      "stock_request": true,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": true,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": true,
+      "reservable": true,
+      "stock_request": true,
+      "visible": true,
+      "exclude_cross_channel": []
+    }
+  },
+  "attributes": {
+    "MIC_FarbeWohnshop_farben|Accessoires_Alle": {
+      "code": "MIC_FarbeWohnshop_Blau",
+      "name": "Farbe",
+      "value": "Blau",
+      "hex_color": "#0000FF"
+    },
+    "MIC_breite/MIC_tiefe/MIC_hoehe|Alle": {
+      "code": "MIC_breite-MIC_tiefe-MIC_hoehe",
+      "name": "Grösse",
+      "value": "B: 50.0 cm"
+    }
+  },
+  "care_labels": [
+    {
+      "id": "W_60",
+      "name": "60° Normalwaschgang",
+      "image": {
+        "original": "https://image.migros.ch/original/529212b84b8b1a92f71ed33039440497208e533e/60-normalwaschgang.jpg",
+        "stack": "https://image.migros.ch/{stack}/529212b84b8b1a92f71ed33039440497208e533e/60-normalwaschgang.jpg"
+      }
+    },
+    {
+      "id": "CL_NICHT",
+      "name": "nicht bleichen",
+      "image": {
+        "original": "https://image.migros.ch/original/759f5552f381d0c55e3a86bae8497f6395000c3b/nicht-bleichen.jpg",
+        "stack": "https://image.migros.ch/{stack}/759f5552f381d0c55e3a86bae8497f6395000c3b/nicht-bleichen.jpg"
+      }
+    },
+    {
+      "id": "T_NICHT",
+      "name": "nicht im Tumbler trocknen",
+      "image": {
+        "original": "https://image.migros.ch/original/5174c479f45f5136f98e78a480aa1f3e0269c9a7/nicht-im-tumbler-trocknen.jpg",
+        "stack": "https://image.migros.ch/{stack}/5174c479f45f5136f98e78a480aa1f3e0269c9a7/nicht-im-tumbler-trocknen.jpg"
+      }
+    },
+    {
+      "id": "B_NICHT",
+      "name": "nicht bügeln",
+      "image": {
+        "original": "https://image.migros.ch/original/f55c03fcfd0f7ee9da936e7ba2932d196ea392bd/nicht-buegeln.jpg",
+        "stack": "https://image.migros.ch/{stack}/f55c03fcfd0f7ee9da936e7ba2932d196ea392bd/nicht-buegeln.jpg"
+      }
+    },
+    {
+      "id": "CR_NICHT",
+      "name": "nicht professionell reinigen",
+      "image": {
+        "original": "https://image.migros.ch/original/43f6cddfa5ff099c3d08a9fb3bd043fce733875c/nicht-professionell-reinigen.jpg",
+        "stack": "https://image.migros.ch/{stack}/43f6cddfa5ff099c3d08a9fb3bd043fce733875c/nicht-professionell-reinigen.jpg"
+      }
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/53b9589cfd49898ca2ee649038e49e6e62386a94/cucina-tavola-kuechentuch-mikrofaser.jpg",
+    "stack": "https://image.migros.ch/{stack}/53b9589cfd49898ca2ee649038e49e6e62386a94/cucina-tavola-kuechentuch-mikrofaser.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/dac7a63f29c8f9cd47bfc30fe55f3ae0f89d55a4/cucina-tavola-kuechentuch-mikrofaser.png",
+    "stack": "https://image.migros.ch/{stack}/dac7a63f29c8f9cd47bfc30fe55f3ae0f89d55a4/cucina-tavola-kuechentuch-mikrofaser.png"
+  },
+  "additional_images": [
+    {
+      "original": "https://image.migros.ch/original/1419dcf886be4fe44eb58f8e34fb5dedc52bcaba.jpg",
+      "stack": "https://image.migros.ch/{stack}/1419dcf886be4fe44eb58f8e34fb5dedc52bcaba.jpg"
+    }
+  ],
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_sortierung",
+      "label": "Sortierung aMigos",
+      "values": [
+        {
+          "value_code": "NUMERIC_110",
+          "value": "110",
+          "numeric_value": 110
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_DEFAULT_LOGISTIC_TYPE",
+      "values": [
+        {
+          "value_code": "55",
+          "value": "Versandart Paket"
+        }
+      ],
+      "category_code": "MAPI_DEFAULT_LOGISTIC_TYPE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Normalposition"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "HART"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_RISK_CLASS",
+      "values": [
+        {
+          "value_code": "2",
+          "value": "2 (medium)"
+        }
+      ],
+      "category_code": "MAPI_RISK_CLASS",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_QUALITY_CHECK",
+      "values": [
+        {
+          "value_code": "02",
+          "value": "FRI (Final Random  Inspection)"
+        }
+      ],
+      "category_code": "MAPI_QUALITY_CHECK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_KUBE_TUKA",
+      "values": [
+        {
+          "value_code": "BLANK",
+          "value": "KUBE und TUKA nicht zugelassen"
+        }
+      ],
+      "category_code": "MAPI_KUBE_TUKA",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HART",
+          "value": "Hartwaren  Handelsware"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "H",
+          "value": "Hartwaren"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "60521",
+          "value": "KUECHENTUECHER"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 1,
+    "percentage": 7.7
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/700346500041",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/cucina-tavola-kuechentuch-mikrofaser-blau-b-500-cm",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/700346500041",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/cucina-tavola-kuechentuch-mikrofaser-blau-b-500-cm",
+      "type": "info",
+      "purchasable": false
+    },
+    "micasa": {
+      "url": "https://www.micasa.ch/de/p/700346500041/cucina-tavola-kuechentuch-mikrofaser",
+      "name": "Micasa",
+      "canonical": "https://produkte.migros.ch/cucina-tavola-kuechentuch-mikrofaser-blau-b-500-cm",
+      "type": "shop",
+      "purchasable": true
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/4988105",
+      "app_url": "leshop:///catalog/article/detail?ean=7613294540188",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/cucina-tavola-kuechentuch-mikrofaser-blau-b-500-cm",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "regional_availability": {
+    "gmaa": {
+      "probability": 62
+    },
+    "gmbs": {
+      "probability": 67
+    },
+    "gmge": {
+      "probability": 56
+    },
+    "gmlu": {
+      "probability": 55
+    },
+    "gmnf": {
+      "probability": 76
+    },
+    "gmos": {
+      "probability": 64
+    },
+    "gmti": {
+      "probability": 37
+    },
+    "gmvd": {
+      "probability": 56
+    },
+    "gmvs": {
+      "probability": 59
+    },
+    "gmzh": {
+      "probability": 62
+    }
+  },
+  "updated_at": "2020-09-16T06:09:57+0200",
+  "online_shop_relevant": true,
+  "services": {
+    "logistics": [
+      {
+        "code": "MIC_LOGISTIK_FILIALLIEFERUNG_POSTPAKET_GRATIS"
+      },
+      {
+        "code": "MIC_LOGISTIK_POSTPAKET_4_9"
+      }
+    ]
+  },
+  "base_unit": "CU",
+  "slugs": {
+    "de": "cucina-tavola-kuechentuch-mikrofaser-blau-b-500-cm",
+    "fr": "cucina-tavola-linge-en-microfibre-bleu-l-500-cm",
+    "it": "cucina-tavola-ascuigapiatto-microfibra-blu-l-500-cm"
+  },
+  "receipt_text": "Küchentuch Mikrofaser",
+  "main_supplier": {
+    "name": "Saehan Puriwell Co. Ltd.",
+    "id": "0010028486",
+    "supplier_product_id": "SHP-86"
+  },
+  "price": {
+    "valid_from": "2018-01-30T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 6.95,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "1 Stück"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "colors": [
+    {
+      "label": "Blau",
+      "hex": "#0000FF",
+      "group": "Blau",
+      "group_hex": "#0000FF"
+    },
+    {
+      "label": "Hellblau",
+      "hex": "#ADD8E6",
+      "group": "Hellblau",
+      "group_hex": "#ADD8E6"
+    }
+  ],
+  "galaxus_relevant": true,
+  "ratings": {
+    "count_all": 1,
+    "average_all": 5
+  },
+  "data_source": "SAP-X12",
+  "origins": {
+    "producing_country": "Republik Korea"
+  },
+  "package": {
+    "content": 1,
+    "content_unit_code": "cu",
+    "brutto_weight": 0.155,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 0.525,
+    "brutto_volume_unit_code": "cdm",
+    "height": 1,
+    "length": 30,
+    "width": 17.5,
+    "unit_dimension": "cm",
+    "size": "1 Stück"
+  },
+  "package_information": {
+    "cu": {
+      "brutto_weight": 0.155,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0.525,
+      "brutto_volume_unit_code": "cdm",
+      "height": 1,
+      "length": 30,
+      "width": 17.5,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "tuv": {
+      "brutto_weight": 0.82,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 5.208,
+      "brutto_volume_unit_code": "cdm",
+      "height": 8,
+      "length": 31,
+      "width": 21,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 6
+    },
+    "tue": {
+      "number_of_base_units": 6
+    },
+    "lu": {
+      "number_of_base_units": 1152
+    },
+    "moq": {
+      "number_of_base_units": 4000
+    }
+  },
+  "quantity_on_stock": 2275,
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "recipe_ingredient_ids": [
+    "10000"
+  ],
+  "views": [
+    "all",
+    "browse"
+  ]
+}

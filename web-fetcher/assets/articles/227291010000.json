@@ -1,0 +1,639 @@
+{
+  "id": "227291010000",
+  "language": "de",
+  "name": "Kräuterbutter",
+  "names": {
+    "name": "Kräuterbutter"
+  },
+  "slug": "kraeuterbutter-227291010000",
+  "boss_number": "040214525010",
+  "description": {
+    "text": "Kr&auml;uterbutter zu Gem&uuml;se, Teigwaren &amp; Grilladen",
+    "source": "PIM"
+  },
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "80"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7617027582193"
+  ],
+  "labels": [
+    {
+      "id": "L53",
+      "name": "Swissness",
+      "slug": "swissness",
+      "image": {
+        "original": "https://image.migros.ch/original/d771bba2f6b08ba42970ea0243c6f8c5a8832f15/swissness.jpg",
+        "stack": "https://image.migros.ch/{stack}/d771bba2f6b08ba42970ea0243c6f8c5a8832f15/swissness.jpg"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_01010616",
+      "name": "Beilagen",
+      "slug": "supermarkt/lebensmittel/fleisch/beilagen",
+      "visible": true,
+      "parent_code": "BeSS_010106",
+      "level": 4
+    },
+    {
+      "code": "BeSS_010106",
+      "name": "Fleisch",
+      "slug": "supermarkt/lebensmittel/fleisch",
+      "visible": true,
+      "title": "Fleisch ausgezeichneter Qualität aus Ihrer Migros: einfach gut",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/03d32c0880d7a9ea6e58971966032e65ac442b58/fleisch.jpg",
+        "stack": "https://image.migros.ch/{stack}/03d32c0880d7a9ea6e58971966032e65ac442b58/fleisch.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_Butter_ButterMargarine_MilchprodukteEier",
+        "name": "Butter",
+        "slug": "amigos/milchprodukte-eier/butter-margarine/butter",
+        "visible": true,
+        "parent_code": "AMIG_CAT_ButterMargarine_MilchprodukteEier",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_ButterMargarine_MilchprodukteEier",
+        "name": "Butter & Margarine",
+        "slug": "amigos/milchprodukte-eier/butter-margarine",
+        "visible": true,
+        "parent_code": "AMIG_CAT_MilchprodukteEier",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_MilchprodukteEier",
+        "name": "Milchprodukte & Eier",
+        "slug": "amigos/milchprodukte-eier",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "nutrition_facts": {
+    "standard": {
+      "nutrients": [
+        {
+          "code": "PIM_NUT_ENERGIE",
+          "name": "Energie",
+          "pictogram_name": "Energie",
+          "category": "BIG9",
+          "quantity": 2375,
+          "rda_percent": 29,
+          "rda_percent_operator": "=",
+          "quantity_unit": "kJ",
+          "quantity_alternate": 577,
+          "quantity_alternate_unit": "kcal"
+        },
+        {
+          "code": "PIM_NUT_FETT",
+          "name": "Fett",
+          "pictogram_name": "Fett",
+          "category": "BIG9",
+          "quantity": 62,
+          "rda_percent": 89,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_FETT_GES",
+          "name": "davon gesättigte Fettsäuren",
+          "pictogram_name": "gesättigte Fettsäuren",
+          "category": "BIG9",
+          "quantity": 37,
+          "rda_percent": 185,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_KOHLENHY",
+          "name": "Kohlenhydrate",
+          "category": "BIG9",
+          "quantity": 3.5,
+          "rda_percent": 1,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_ZUCKER",
+          "name": "davon Zucker",
+          "pictogram_name": "Zuckerarten",
+          "category": "BIG9",
+          "quantity": 0.7,
+          "rda_percent": 1,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_GES_BALL",
+          "name": "Ballaststoffe",
+          "category": "BIG9",
+          "quantity": 0.5,
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_PROTEINE",
+          "name": "Eiweiss",
+          "category": "BIG9",
+          "quantity": 1,
+          "rda_percent": 2,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_KOCHSALZ",
+          "name": "Salz",
+          "pictogram_name": "Salz",
+          "category": "BIG9",
+          "quantity": 1.5,
+          "rda_percent": 25,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        }
+      ],
+      "base_description": "enthalten",
+      "base_quantity": 100,
+      "base_unit": "g"
+    },
+    "portion": {
+      "nutrients": [
+        {
+          "code": "PIM_NUT_ENERGIE",
+          "name": "Energie",
+          "pictogram_name": "Energie",
+          "category": "BIG9",
+          "quantity": 356,
+          "rda_percent": 4,
+          "rda_percent_operator": "=",
+          "quantity_unit": "kJ",
+          "quantity_alternate": 87,
+          "quantity_alternate_unit": "kcal"
+        },
+        {
+          "code": "PIM_NUT_FETT",
+          "name": "Fett",
+          "pictogram_name": "Fett",
+          "category": "BIG9",
+          "quantity": 9,
+          "rda_percent": 13,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_FETT_GES",
+          "name": "davon gesättigte Fettsäuren",
+          "pictogram_name": "gesättigte Fettsäuren",
+          "category": "BIG9",
+          "quantity": 6,
+          "rda_percent": 30,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_KOHLENHY",
+          "name": "Kohlenhydrate",
+          "category": "BIG9",
+          "quantity": 0.5,
+          "rda_percent": 0.5,
+          "rda_percent_operator": "<",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_ZUCKER",
+          "name": "davon Zucker",
+          "pictogram_name": "Zuckerarten",
+          "category": "BIG9",
+          "quantity": 0.5,
+          "rda_percent": 0.5,
+          "rda_percent_operator": "<",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_GES_BALL",
+          "name": "Ballaststoffe",
+          "category": "BIG9",
+          "quantity": 0.5,
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_PROTEINE",
+          "name": "Eiweiss",
+          "category": "BIG9",
+          "quantity": 0.5,
+          "rda_percent": 0.5,
+          "rda_percent_operator": "<",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_KOCHSALZ",
+          "name": "Salz",
+          "pictogram_name": "Salz",
+          "category": "BIG9",
+          "quantity": 0.23,
+          "rda_percent": 4,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        }
+      ],
+      "base_description": "1 Portion enthält",
+      "base_quantity": 15,
+      "base_unit": "g"
+    }
+  },
+  "features": [
+    {
+      "label_code": "MISO_mussgekuehltwerden",
+      "label": "Muss gekühlt werden",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MISO_CLA_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_produktionsanspruch",
+      "label": "Produktionsverfahren",
+      "values": [
+        {
+          "value_code": "MISO_produktionsanspruch_mitnatuerlichenaromen",
+          "value": "Mit natürlichen Aromen"
+        }
+      ],
+      "category_code": "MISO_CLA_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_schale",
+          "value": "Schale"
+        }
+      ],
+      "category_code": "MISO_CLA_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_beschaffenheitderbutter",
+      "label": "Beschaffenheit der Butter",
+      "values": [
+        {
+          "value_code": "MISO_beschaffenheitderbutter_aufstrich",
+          "value": "Aufstrich"
+        }
+      ],
+      "category_code": "MISO_CLA_ButterPflanzlicheFette_MilchButterRahmKaeseEierErsatzprodukte_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    }
+  ],
+  "allergens": [
+    {
+      "code": "ALLG_MILCH",
+      "name": "Milch",
+      "contamination_code": "VORHANDEN",
+      "contamination": "vorhanden"
+    },
+    {
+      "code": "ALLG_MILCHZUCKER",
+      "name": "Milchzucker",
+      "contamination_code": "VORHANDEN",
+      "contamination": "vorhanden"
+    }
+  ],
+  "general_information": [
+    {
+      "label": "Obligatorische Zusatzangaben",
+      "value": "Betriebszulassungsnummer: CH 2411"
+    },
+    {
+      "label": "Aufbewarungs- und Verpackungshinweise",
+      "value": "Gekühlt aufbewahren bei max. +5 °C. Vor Licht geschützt aufbewahren."
+    },
+    {
+      "label": "Haltbarkeit",
+      "value": "Verkaufen bis:               Verbrauchen bis:"
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/fbf459ad6a6b5e22f10d923181b572b77602675c/kraeuterbutter.jpg",
+    "stack": "https://image.migros.ch/{stack}/fbf459ad6a6b5e22f10d923181b572b77602675c/kraeuterbutter.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/9d11f90b45439c487cb797d866606791e342dd71/kraeuterbutter.png",
+    "stack": "https://image.migros.ch/{stack}/9d11f90b45439c487cb797d866606791e342dd71/kraeuterbutter.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_sortierung",
+      "label": "Sortierung aMigos",
+      "values": [
+        {
+          "value_code": "NUMERIC_360",
+          "value": "360",
+          "numeric_value": 360
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_verkaufseinheit",
+      "label": "Verkaufseinheit",
+      "values": [
+        {
+          "value_code": "NUMERIC_1.0",
+          "value": "1.0 Pk",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false,
+      "unit_code": "Pk",
+      "unit": "Pack",
+      "unit_symbol": "Pk"
+    },
+    {
+      "label_code": "MISO_aMigos_gewicht",
+      "label": "Gewicht aMigos!",
+      "values": [
+        {
+          "value_code": "NUMERIC_100.0",
+          "value": "100.0 g",
+          "numeric_value": 100
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false,
+      "unit_code": "g",
+      "unit": "Gramm",
+      "unit_symbol": "g"
+    },
+    {
+      "label_code": "MISO_aMigos_volumen",
+      "label": "Volumen aMigos!",
+      "values": [
+        {
+          "value_code": "NUMERIC_0.216",
+          "value": "0.216 l",
+          "numeric_value": 0.216
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false,
+      "unit_code": "l",
+      "unit": "Liter",
+      "unit_symbol": "l"
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZFRP",
+          "value": "Frische Beschaffung"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "6",
+          "value": "Fleisch-Fisch-Geflüg"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "70190",
+          "value": "BEILAGEN"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "regulated_description": "Butterzubereitung mit Kräutern",
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/227291010000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/kraeuterbutter-227291010000",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/227291010000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/kraeuterbutter-227291010000",
+      "type": "info",
+      "purchasable": false
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/4952006",
+      "app_url": "leshop:///catalog/article/detail?ean=7617027582193",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/kraeuterbutter-227291010000",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "regional_availability": {
+    "gmaa": {
+      "probability": 97
+    },
+    "gmbs": {
+      "probability": 80
+    },
+    "gmge": {
+      "probability": 54
+    },
+    "gmlu": {
+      "probability": 95
+    },
+    "gmnf": {
+      "probability": 82
+    },
+    "gmos": {
+      "probability": 96
+    },
+    "gmti": {
+      "probability": 66
+    },
+    "gmvd": {
+      "probability": 60
+    },
+    "gmvs": {
+      "probability": 62
+    },
+    "gmzh": {
+      "probability": 93
+    }
+  },
+  "updated_at": "2020-09-16T05:49:20+0200",
+  "base_unit": "CU",
+  "slugs": {
+    "de": "kraeuterbutter-227291010000",
+    "fr": "beurre-aux-herbes-227291010000",
+    "it": "burro-alle-erb-227291010000"
+  },
+  "receipt_text": "Kräuterbutter",
+  "main_supplier": {
+    "name": "Orior Menu AG - Le Patron",
+    "id": "0010004771"
+  },
+  "price": {
+    "valid_from": "2020-08-06T00:00:00+0200",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "source": "PriceRepository",
+    "no_price_hint": "Aktueller Tagespreis"
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 21,
+    "average_all": 3.55
+  },
+  "data_source": "SAP-X4x",
+  "origins": {
+    "producing_country": "Elaboré en Suisse"
+  },
+  "ingredients": "<strong>Butter</strong> 76%, Wasser, Zwiebeln, Kräuter 5% (Petersilie, Schnittlauch, Majoran, Estragon, Rosmarin, Thymian), Knoblauch, Kochsalz, Gewürze, modifizierte Tapiokastärke, Hefeextrakt, Zitronensaftkonzentrat, Säuerungsmittel: Essigsäure, natürliche Aromen.",
+  "package": {
+    "content": 100,
+    "content_unit_code": "g",
+    "content_unit": "Gramm",
+    "net_weight": 0.1,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogramm",
+    "brutto_weight": 0.1,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 0.246,
+    "brutto_volume_unit_code": "cdm",
+    "height": 6.2,
+    "length": 3.3,
+    "width": 12,
+    "unit_dimension": "cm",
+    "price_comparison_content": 100,
+    "size": "100g"
+  },
+  "package_information": {
+    "tu": {
+      "brutto_weight": 1,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 15.96,
+      "brutto_volume_unit_code": "cdm",
+      "height": 13.3,
+      "length": 40,
+      "width": 30,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 10
+    },
+    "cu": {
+      "brutto_weight": 0.1,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0.246,
+      "brutto_volume_unit_code": "cdm",
+      "height": 6.2,
+      "length": 3.3,
+      "width": 12,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    }
+  },
+  "related_products": {
+    "purchase_recommendations": {
+      "product_ids": [
+        "227291110000",
+        "227291210000",
+        "227292006100",
+        "227293025000",
+        "227292025500"
+      ]
+    }
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "recipe_ingredient_ids": [
+    "10000"
+  ],
+  "views": [
+    "all",
+    "browse"
+  ]
+}

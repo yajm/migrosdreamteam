@@ -1,0 +1,684 @@
+{
+  "id": "121002800000",
+  "language": "de",
+  "name": "M-Classic Apfelsaft",
+  "names": {
+    "name": "M-Classic Apfelsaft"
+  },
+  "slug": "m-classic-apfelsaft-121002800000",
+  "boss_number": "010710390605",
+  "description": {
+    "text": "M-Classic Apfelsaft, 100% Kernobstsaft aus Konzentraten",
+    "source": "PIM"
+  },
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "76168765",
+    "7613269190431",
+    "7613312316528"
+  ],
+  "brand": {
+    "id": "068",
+    "name": "M-Classic",
+    "slug": "m-classic",
+    "links": {
+      "homepage": {
+        "url": "https://m-classic.migros.ch/de.html",
+        "name": "Homepage",
+        "type": "info",
+        "purchasable": false
+      }
+    },
+    "image": {
+      "original": "https://image.migros.ch/original/72c18633f911e026e081ac11d872cff2d8dc8abb/m-classic.jpg",
+      "stack": "https://image.migros.ch/{stack}/72c18633f911e026e081ac11d872cff2d8dc8abb/m-classic.jpg"
+    }
+  },
+  "labels": [
+    {
+      "id": "L57",
+      "name": "V-vegan",
+      "slug": "v-vegan",
+      "image": {
+        "original": "https://image.migros.ch/original/9425b8ea6312342ddd2d0dc87e65567c88e1b757/v-vegan.jpg",
+        "stack": "https://image.migros.ch/{stack}/9425b8ea6312342ddd2d0dc87e65567c88e1b757/v-vegan.jpg"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_01011007",
+      "name": "Fruchtsäfte & Gemüsesäfte",
+      "slug": "supermarkt/lebensmittel/getraenke-heiss-kalt/fruchtsaefte-gemuesesaefte",
+      "visible": true,
+      "title": "Fruchtsäfte in Ihrer Migros kaufen",
+      "parent_code": "BeSS_010110",
+      "image": {
+        "original": "https://image.migros.ch/original/00f501bbe0ba9efd6b668f7490cd907be904396d/fruchtsaefte-gemuesesaefte.jpg",
+        "stack": "https://image.migros.ch/{stack}/00f501bbe0ba9efd6b668f7490cd907be904396d/fruchtsaefte-gemuesesaefte.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010110",
+      "name": "Getränke heiss & kalt",
+      "slug": "supermarkt/lebensmittel/getraenke-heiss-kalt",
+      "visible": true,
+      "title": "Getränke aus der Migros löschen auch Ihren Durst",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/d04d95fbc2e1b4ada4783d2976d37a962a0318a1/getraenke-heiss-kalt.jpg",
+        "stack": "https://image.migros.ch/{stack}/d04d95fbc2e1b4ada4783d2976d37a962a0318a1/getraenke-heiss-kalt.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_Apfelsaft_Saefte_Getraenke",
+        "name": "Apfelsaft",
+        "slug": "amigos/getraenke/saefte/apfelsaft",
+        "visible": true,
+        "parent_code": "AMIG_CAT_Saefte_Getraenke",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_Saefte_Getraenke",
+        "name": "Säfte",
+        "slug": "amigos/getraenke/saefte",
+        "visible": true,
+        "parent_code": "AMIG_CAT_Getraenke",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_Getraenke",
+        "name": "Getränke",
+        "slug": "amigos/getraenke",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "nutrition_facts": {
+    "standard": {
+      "nutrients": [
+        {
+          "code": "PIM_NUT_ENERGIE",
+          "name": "Energie",
+          "pictogram_name": "Energie",
+          "category": "BIG9",
+          "quantity": 189,
+          "rda_percent_operator": "=",
+          "quantity_unit": "kJ",
+          "quantity_alternate": 44,
+          "quantity_alternate_unit": "kcal"
+        },
+        {
+          "code": "PIM_NUT_GES_FETT",
+          "name": "Fett",
+          "pictogram_name": "Fett",
+          "category": "BIG9",
+          "quantity": 0.5,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_GESFETTS",
+          "name": "davon gesättigte Fettsäuren",
+          "pictogram_name": "gesättigte Fettsäuren",
+          "category": "BIG9",
+          "quantity": 0.5,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_GES_KOHL",
+          "name": "Kohlenhydrate",
+          "category": "BIG9",
+          "quantity": 11,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_GES_ZUCK",
+          "name": "davon Zucker",
+          "pictogram_name": "Zuckerarten",
+          "category": "BIG9",
+          "quantity": 10,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_GES_BALL",
+          "name": "Ballaststoffe",
+          "category": "BIG9",
+          "quantity": 0.5,
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_GES_EIW",
+          "name": "Eiweiss",
+          "category": "BIG9",
+          "quantity": 0.5,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_KOCHSALZ",
+          "name": "Salz",
+          "pictogram_name": "Salz",
+          "category": "BIG9",
+          "quantity": 0.05,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_NATRIUM",
+          "name": "Natrium",
+          "category": "BIG9",
+          "quantity": 0.02,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        }
+      ],
+      "base_description": "enthalten",
+      "base_quantity": 100,
+      "base_unit": "ml"
+    },
+    "portion": {
+      "nutrients": [
+        {
+          "code": "PIM_NUT_ENERGIE",
+          "name": "Energie",
+          "pictogram_name": "Energie",
+          "category": "BIG9",
+          "quantity": 377,
+          "rda_percent": 4,
+          "rda_percent_operator": "=",
+          "quantity_unit": "kJ",
+          "quantity_alternate": 88,
+          "quantity_alternate_unit": "kcal"
+        },
+        {
+          "code": "PIM_NUT_GES_FETT",
+          "name": "Fett",
+          "pictogram_name": "Fett",
+          "category": "BIG9",
+          "quantity": 0.5,
+          "rda_percent": 0.5,
+          "rda_percent_operator": "<",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_GESFETTS",
+          "name": "davon gesättigte Fettsäuren",
+          "pictogram_name": "gesättigte Fettsäuren",
+          "category": "BIG9",
+          "quantity": 0.5,
+          "rda_percent": 0.5,
+          "rda_percent_operator": "<",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_GES_KOHL",
+          "name": "Kohlenhydrate",
+          "category": "BIG9",
+          "quantity": 22,
+          "rda_percent": 8,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_GES_ZUCK",
+          "name": "davon Zucker",
+          "pictogram_name": "Zuckerarten",
+          "category": "BIG9",
+          "quantity": 20,
+          "rda_percent": 22,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_GES_BALL",
+          "name": "Ballaststoffe",
+          "category": "BIG9",
+          "quantity": 0.5,
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_GES_EIW",
+          "name": "Eiweiss",
+          "category": "BIG9",
+          "quantity": 0.5,
+          "rda_percent": 0.5,
+          "rda_percent_operator": "<",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_KOCHSALZ",
+          "name": "Salz",
+          "pictogram_name": "Salz",
+          "category": "BIG9",
+          "quantity": 0.1,
+          "rda_percent": 2,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_NATRIUM",
+          "name": "Natrium",
+          "category": "BIG9",
+          "quantity": 0.04,
+          "rda_percent": 2,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        }
+      ],
+      "base_description": "1 Packung",
+      "base_quantity": 250,
+      "base_unit": "ml"
+    }
+  },
+  "features": [
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_tetrapak",
+          "value": "TetraPak"
+        }
+      ],
+      "category_code": "MISO_CLA_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_artvonerfrischungsgetraenk",
+      "label": "Art von Erfrischungsgetränk",
+      "values": [
+        {
+          "value_code": "MISO_artvonerfrischungsgetraenk_saft",
+          "value": "Saft"
+        }
+      ],
+      "category_code": "MISO_CLA_AlkoholfreieGetraenketrinkfertig_Getraenke_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_auskonzentrat",
+      "label": "Aus Konzentrat",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MISO_CLA_AlkoholfreieGetraenketrinkfertig_Getraenke_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_saftsorte",
+      "label": "Saftsorte",
+      "values": [
+        {
+          "value_code": "MISO_saftsorte_apfel",
+          "value": "Apfel"
+        }
+      ],
+      "category_code": "MISO_CLA_AlkoholfreieGetraenketrinkfertig_Getraenke_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_behandlungdesgetraenks",
+      "label": "Behandlung des Getränks",
+      "values": [
+        {
+          "value_code": "MISO_behandlungdesgetraenks_pasteurisiert",
+          "value": "pasteurisiert"
+        }
+      ],
+      "category_code": "MISO_CLA_AlkoholfreieGetraenketrinkfertig_Getraenke_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_fruchtgehalt",
+      "label": "Fruchtgehalt",
+      "values": [
+        {
+          "value_code": "NUMERIC_100.0",
+          "value": "100.0 %",
+          "numeric_value": 100
+        }
+      ],
+      "category_code": "MISO_CLA_AlkoholfreieGetraenketrinkfertig_Getraenke_LebensmittelGetraenke_Alle",
+      "top_fact": false,
+      "unit_code": "prozent",
+      "unit": "Prozent",
+      "unit_symbol": "%"
+    },
+    {
+      "label_code": "MISO_veganeherstellung",
+      "label": "Vegane Herstellung",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MISO_CLA_AlkoholfreieGetraenketrinkfertig_Getraenke_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_VEGETARIANISM",
+      "label": "Vegetarismus",
+      "values": [
+        {
+          "value_code": "MAPI_VEGETARIANISM_vegan",
+          "value": "vegan"
+        }
+      ],
+      "category_code": "MAPI_VEGETARIANISM",
+      "top_fact": false
+    }
+  ],
+  "general_information": [
+    {
+      "label": "Behandlungshinweise",
+      "value": "Pasteurisiert."
+    },
+    {
+      "label": "Nährwerte",
+      "value": "Packung"
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/29bfdfcdab8aa6ac5a189132c541ded6a118e3f7/m-classic-apfelsaft.jpg",
+    "stack": "https://image.migros.ch/{stack}/29bfdfcdab8aa6ac5a189132c541ded6a118e3f7/m-classic-apfelsaft.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/50e981b44a3b9b204299951b93347f23d094c464/m-classic-apfelsaft.png",
+    "stack": "https://image.migros.ch/{stack}/50e981b44a3b9b204299951b93347f23d094c464/m-classic-apfelsaft.png"
+  },
+  "additional_images": [
+    {
+      "original": "https://image.migros.ch/original/d3ae272389edd5f369feeff9a5c705109efe0d81.jpg",
+      "stack": "https://image.migros.ch/{stack}/d3ae272389edd5f369feeff9a5c705109efe0d81.jpg"
+    }
+  ],
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_sortierung",
+      "label": "Sortierung aMigos",
+      "values": [
+        {
+          "value_code": "NUMERIC_110",
+          "value": "110",
+          "numeric_value": 110
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "M",
+          "value": "Kolonial Standard"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "10730",
+          "value": "FS SOFORTKONSUM"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "regulated_description": "100% Kernobstsaft aus Konzentraten",
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/121002800000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/m-classic-apfelsaft-121002800000",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/121002800000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/m-classic-apfelsaft-121002800000",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "regional_availability": {
+    "gmaa": {
+      "probability": 96
+    },
+    "gmbs": {
+      "probability": 100
+    },
+    "gmge": {
+      "probability": 87
+    },
+    "gmlu": {
+      "probability": 95
+    },
+    "gmnf": {
+      "probability": 96
+    },
+    "gmos": {
+      "probability": 100
+    },
+    "gmti": {
+      "probability": 100
+    },
+    "gmvd": {
+      "probability": 92
+    },
+    "gmvs": {
+      "probability": 87
+    },
+    "gmzh": {
+      "probability": 86
+    }
+  },
+  "updated_at": "2020-09-16T06:30:39+0200",
+  "base_unit": "CU",
+  "slugs": {
+    "de": "m-classic-apfelsaft-121002800000",
+    "fr": "m-classic-jus-de-pomme-121002800000",
+    "it": "m-classic-succo-di-mele-121002800000"
+  },
+  "receipt_text": "MClass Apfelsaft 25cl",
+  "main_supplier": {
+    "name": "BISCHOFSZELL",
+    "id": "0003800000",
+    "supplier_product_id": "121002800000"
+  },
+  "price": {
+    "valid_from": "2018-01-29T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 0.55,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "250ml"
+    },
+    "base": {
+      "price": 0.22,
+      "quantity": 100,
+      "unit": "ml"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 16,
+    "average_all": 4.285714285714
+  },
+  "data_source": "SAP-X11",
+  "origins": {
+    "producing_country": "Schweizer Produkt."
+  },
+  "ingredients": "Apfelsaft aus Konzentrat, Birnensaft aus Konzentrat.",
+  "package": {
+    "content": 250,
+    "content_unit_code": "ml",
+    "content_unit": "Mililiter",
+    "net_weight": 0.262,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogramm",
+    "precision": "exact",
+    "brutto_weight": 0.272,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 0.303,
+    "brutto_volume_unit_code": "cdm",
+    "height": 11,
+    "length": 4.3,
+    "width": 6.4,
+    "unit_dimension": "cm",
+    "price_comparison_content": 100,
+    "size": "250ml"
+  },
+  "package_information": {
+    "tu": {
+      "brutto_weight": 6.62,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 7.821,
+      "brutto_volume_unit_code": "cdm",
+      "height": 11,
+      "length": 35.2,
+      "width": 20.2,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 24
+    },
+    "cu": {
+      "brutto_weight": 0.272,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0.303,
+      "brutto_volume_unit_code": "cdm",
+      "height": 11,
+      "length": 4.3,
+      "width": 6.4,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "lu": {
+      "brutto_weight": 739.96,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 1209.6,
+      "brutto_volume_unit_code": "cdm",
+      "height": 126,
+      "length": 120,
+      "width": 80,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 2592
+    }
+  },
+  "related_products": {
+    "purchase_recommendations": {
+      "product_ids": [
+        "122022900000",
+        "122040200000",
+        "122084200000",
+        "122040700000",
+        "122023000000"
+      ]
+    }
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "recipe_ingredient_ids": [
+    "14657",
+    "63005"
+  ],
+  "views": [
+    "all",
+    "browse"
+  ]
+}

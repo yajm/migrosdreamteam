@@ -1,0 +1,605 @@
+{
+  "id": "156024900000",
+  "language": "de",
+  "name": "Griechische Oliven gefüllt mit Peperoni",
+  "names": {
+    "name": "Griechische Oliven gefüllt mit Peperoni"
+  },
+  "slug": "griechische-oliven-gefuellt-mit-peperoni",
+  "boss_number": "011018301030",
+  "description": {
+    "text": "Griechische Oliven gef&uuml;llt mit Peperoni",
+    "source": "PIM"
+  },
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7610200324009"
+  ],
+  "categories": [
+    {
+      "code": "BeSS_01011416",
+      "name": "Pilzkonserven & Olivenkonserven",
+      "slug": "supermarkt/lebensmittel/pasta-zutaten-konserven/pilzkonserven-olivenkonserven",
+      "visible": true,
+      "parent_code": "BeSS_010114",
+      "image": {
+        "original": "https://image.migros.ch/original/e33d4f44b82d8a8907b5f0bbf03b19bc3e806a86/pilzkonserven-olivenkonserven.jpg",
+        "stack": "https://image.migros.ch/{stack}/e33d4f44b82d8a8907b5f0bbf03b19bc3e806a86/pilzkonserven-olivenkonserven.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010114",
+      "name": "Pasta, Zutaten & Konserven",
+      "slug": "supermarkt/lebensmittel/pasta-zutaten-konserven",
+      "visible": true,
+      "title": "Pasta aus Ihrer Migros: alles rund um Teigwaren",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/6d0964bbb34b8e041ba4d74fc0c90b149907f46a/pasta-zutaten-konserven.jpg",
+        "stack": "https://image.migros.ch/{stack}/6d0964bbb34b8e041ba4d74fc0c90b149907f46a/pasta-zutaten-konserven.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_PilzeOliven_KonservenEingemachtes_Grundnahrungsmittel",
+        "name": "Pilze & Oliven",
+        "slug": "amigos/grundnahrungsmittel/konserven-eingemachtes/pilze-oliven",
+        "visible": true,
+        "parent_code": "AMIG_CAT_KonservenEingemachtes_Grundnahrungsmittel",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_KonservenEingemachtes_Grundnahrungsmittel",
+        "name": "Konserven & Eingemachtes",
+        "slug": "amigos/grundnahrungsmittel/konserven-eingemachtes",
+        "visible": true,
+        "parent_code": "AMIG_CAT_Grundnahrungsmittel",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_Grundnahrungsmittel",
+        "name": "Grundnahrungsmittel",
+        "slug": "amigos/grundnahrungsmittel",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "nutrition_facts": {
+    "standard": {
+      "nutrients": [
+        {
+          "code": "PIM_NUT_ENERGIE",
+          "name": "Energie",
+          "pictogram_name": "Energie",
+          "category": "BIG9",
+          "quantity": 573,
+          "rda_percent": 7,
+          "rda_percent_operator": "=",
+          "quantity_unit": "kJ",
+          "quantity_alternate": 139,
+          "quantity_alternate_unit": "kcal"
+        },
+        {
+          "code": "PIM_NUT_FETT",
+          "name": "Fett",
+          "pictogram_name": "Fett",
+          "category": "BIG9",
+          "quantity": 13,
+          "rda_percent": 19,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_FETT_GES",
+          "name": "davon gesättigte Fettsäuren",
+          "pictogram_name": "gesättigte Fettsäuren",
+          "category": "BIG9",
+          "quantity": 1.5,
+          "rda_percent": 8,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_KOHLENHY",
+          "name": "Kohlenhydrate",
+          "category": "BIG9",
+          "quantity": 2,
+          "rda_percent": 1,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_ZUCKER",
+          "name": "davon Zucker",
+          "pictogram_name": "Zuckerarten",
+          "category": "BIG9",
+          "quantity": 0.5,
+          "rda_percent": 0.5,
+          "rda_percent_operator": "<",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_GES_BALL",
+          "name": "Ballaststoffe",
+          "category": "BIG9",
+          "quantity": 4,
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_PROTEINE",
+          "name": "Eiweiss",
+          "category": "BIG9",
+          "quantity": 1.5,
+          "rda_percent": 3,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_KOCHSALZ",
+          "name": "Salz",
+          "pictogram_name": "Salz",
+          "category": "BIG9",
+          "quantity": 4.1,
+          "rda_percent": 68,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        }
+      ],
+      "base_description": "abgetropft enthalten",
+      "base_quantity": 100,
+      "base_unit": "g"
+    },
+    "portion": {
+      "nutrients": [
+        {
+          "code": "PIM_NUT_ENERGIE",
+          "name": "Energie",
+          "pictogram_name": "Energie",
+          "category": "BIG9",
+          "quantity": 172,
+          "rda_percent": 2,
+          "rda_percent_operator": "=",
+          "quantity_unit": "kJ",
+          "quantity_alternate": 42,
+          "quantity_alternate_unit": "kcal"
+        },
+        {
+          "code": "PIM_NUT_FETT",
+          "name": "Fett",
+          "pictogram_name": "Fett",
+          "category": "BIG9",
+          "quantity": 4,
+          "rda_percent": 6,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_FETT_GES",
+          "name": "davon gesättigte Fettsäuren",
+          "pictogram_name": "gesättigte Fettsäuren",
+          "category": "BIG9",
+          "quantity": 0.5,
+          "rda_percent": 2,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_KOHLENHY",
+          "name": "Kohlenhydrate",
+          "category": "BIG9",
+          "quantity": 0.6,
+          "rda_percent": 0.5,
+          "rda_percent_operator": "<",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_ZUCKER",
+          "name": "davon Zucker",
+          "pictogram_name": "Zuckerarten",
+          "category": "BIG9",
+          "quantity": 0.5,
+          "rda_percent": 0.5,
+          "rda_percent_operator": "<",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_GES_BALL",
+          "name": "Ballaststoffe",
+          "category": "BIG9",
+          "quantity": 1,
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_PROTEINE",
+          "name": "Eiweiss",
+          "category": "BIG9",
+          "quantity": 0.5,
+          "rda_percent": 1,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_KOCHSALZ",
+          "name": "Salz",
+          "pictogram_name": "Salz",
+          "category": "BIG9",
+          "quantity": 1.2,
+          "rda_percent": 20,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        }
+      ],
+      "base_description": "1 Portion abgetropft enthält",
+      "base_quantity": 30,
+      "base_unit": "g"
+    }
+  },
+  "features": [
+    {
+      "label_code": "MISO_produktionsanspruch",
+      "label": "Produktionsverfahren",
+      "values": [
+        {
+          "value_code": "MISO_produktionsanspruch_handgepflueckt",
+          "value": "Handgepflückt"
+        }
+      ],
+      "category_code": "MISO_CLA_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_beutelsack",
+          "value": "Beutel/Sack"
+        }
+      ],
+      "category_code": "MISO_CLA_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_artvoneingelegtemgemuesesauerkonserven",
+      "label": "Art von eingelegtem Gemüse/Sauerkonserven",
+      "values": [
+        {
+          "value_code": "MISO_artvoneingelegtemgemuesesauerkonserven_oliven",
+          "value": "Oliven"
+        }
+      ],
+      "category_code": "MISO_CLA_EingelegtesGemueseRelishesChutneysOliven_GewuerzeKonservierungsstoffeExtrakte_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_artvonoliven",
+      "label": "Art von Oliven",
+      "values": [
+        {
+          "value_code": "MISO_artvonoliven_chalkidiki",
+          "value": "Chalkidiki"
+        }
+      ],
+      "category_code": "MISO_CLA_EingelegtesGemueseRelishesChutneysOliven_GewuerzeKonservierungsstoffeExtrakte_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_entkerntentsteint",
+      "label": "Entkernt/entsteint",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MISO_CLA_EingelegtesGemueseRelishesChutneysOliven_GewuerzeKonservierungsstoffeExtrakte_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    }
+  ],
+  "general_information": [
+    {
+      "label": "Obligatorische Zusatzangaben",
+      "value": "Trotz sorgfältiger Verarbeitung kann das Produkt Fruchtsteine oder Fragmente davon enthalten."
+    },
+    {
+      "label": "Aufbewarungs- und Verpackungshinweise",
+      "value": "Ohne Kühlung haltbar! Nach dem Öffnen im Kühlschrank aufbewahren."
+    },
+    {
+      "label": "Haltbarkeit",
+      "value": "Mindestens haltbar bis:"
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/d974c359d599ec4a574e0a453b292ca523dfa16e/griechische-oliven-gefuellt-mit-peperoni.jpg",
+    "stack": "https://image.migros.ch/{stack}/d974c359d599ec4a574e0a453b292ca523dfa16e/griechische-oliven-gefuellt-mit-peperoni.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/e9ec7970863e59886fa4b6e344aeffc17e56e4b4/griechische-oliven-gefuellt-mit-peperoni.png",
+    "stack": "https://image.migros.ch/{stack}/e9ec7970863e59886fa4b6e344aeffc17e56e4b4/griechische-oliven-gefuellt-mit-peperoni.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_sortierung",
+      "label": "Sortierung aMigos",
+      "values": [
+        {
+          "value_code": "NUMERIC_260",
+          "value": "260",
+          "numeric_value": 260
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "M",
+          "value": "Kolonial Standard"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "10152",
+          "value": "OLIVEN"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "regulated_description": "Griechische Oliven gefüllt mit Peperoni",
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/156024900000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/griechische-oliven-gefuellt-mit-peperoni",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/156024900000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/griechische-oliven-gefuellt-mit-peperoni",
+      "type": "info",
+      "purchasable": false
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/53858",
+      "app_url": "leshop:///catalog/article/detail?ean=7610200324009",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/griechische-oliven-gefuellt-mit-peperoni",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "regional_availability": {
+    "gmaa": {
+      "probability": 76
+    },
+    "gmbs": {
+      "probability": 78
+    },
+    "gmge": {
+      "probability": 41
+    },
+    "gmlu": {
+      "probability": 77
+    },
+    "gmnf": {
+      "probability": 27
+    },
+    "gmos": {
+      "probability": 72
+    },
+    "gmti": {
+      "probability": 78
+    },
+    "gmvd": {
+      "probability": 37
+    },
+    "gmvs": {
+      "probability": 28
+    },
+    "gmzh": {
+      "probability": 83
+    }
+  },
+  "updated_at": "2020-09-15T06:02:57+0200",
+  "base_unit": "CU",
+  "slugs": {
+    "de": "griechische-oliven-gefuellt-mit-peperoni",
+    "fr": "olives-grecques-farcies-aux-poivrons",
+    "it": "olive-greche-farcite-con-peperoni"
+  },
+  "receipt_text": "Gr. Oliven peperoni",
+  "main_supplier": {
+    "name": "Dumet AG",
+    "id": "0010000530"
+  },
+  "price": {
+    "valid_from": "2018-01-29T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 2.8,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "150g"
+    },
+    "base": {
+      "price": 1.87,
+      "quantity": 100,
+      "unit": "g"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 6,
+    "average_all": 4.333333333333
+  },
+  "data_source": "SAP-X11",
+  "origins": {
+    "producing_country": "Emballé en Suisse\nProvenance: Grèce"
+  },
+  "ingredients": "Oliven 85% (Griechenland), Wasser, Peperoni 10%, Kochsalz, Säuerungsmittel: Citronensäure und Milchsäure.",
+  "package": {
+    "content": 150,
+    "content_unit_code": "g",
+    "content_unit": "Gramm",
+    "net_weight": 0.27,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogramm",
+    "brutto_weight": 0.275,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 1.038,
+    "brutto_volume_unit_code": "cdm",
+    "height": 17,
+    "length": 5.5,
+    "width": 11.1,
+    "unit_dimension": "cm",
+    "price_comparison_content": 100,
+    "size": "150g"
+  },
+  "package_information": {
+    "tu": {
+      "brutto_weight": 7.8,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 15.96,
+      "brutto_volume_unit_code": "cdm",
+      "height": 13.3,
+      "length": 40,
+      "width": 30,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 24
+    },
+    "cu": {
+      "brutto_weight": 0.275,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 1.038,
+      "brutto_volume_unit_code": "cdm",
+      "height": 17,
+      "length": 5.5,
+      "width": 11.1,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "lu": {
+      "brutto_weight": 752.296,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 1037.76,
+      "brutto_volume_unit_code": "cdm",
+      "height": 168,
+      "length": 120,
+      "width": 80,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 2304
+    }
+  },
+  "related_products": {
+    "purchase_recommendations": {
+      "product_ids": [
+        "156092000000",
+        "156025600000",
+        "156026500000",
+        "156026600000",
+        "156026100000"
+      ]
+    }
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "recipe_ingredient_ids": [
+    "17351"
+  ],
+  "views": [
+    "all",
+    "browse"
+  ]
+}

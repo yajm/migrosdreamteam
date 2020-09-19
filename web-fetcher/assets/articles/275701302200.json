@@ -1,0 +1,326 @@
+{
+  "id": "275701302200",
+  "language": "de",
+  "name": "Blumenkohl Broccoli mini",
+  "names": {
+    "name": "Blumenkohl Broccoli mini"
+  },
+  "slug": "blumenkohl-broccoli-mini",
+  "boss_number": "050115240505",
+  "description": {
+    "text": "Blumenkohl Broccoli mini Dieses Duo beinhaltet einen Blumenkohl und einen Broccoli im Mini-Format. Ideal f&uuml;r kleine Haushalte oder viel Abwechslung auf dem Teller.",
+    "source": "PIM"
+  },
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "80"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7610632985397"
+  ],
+  "brand": {
+    "id": "S10",
+    "name": "Fresca",
+    "slug": "fresca-S10",
+    "image": {
+      "original": "https://image.migros.ch/original/d169433eae86571fe4796efc52300f787084eaa4/fresca-S10.jpg",
+      "stack": "https://image.migros.ch/{stack}/d169433eae86571fe4796efc52300f787084eaa4/fresca-S10.jpg"
+    }
+  },
+  "categories": [
+    {
+      "code": "BeSS_0101190204",
+      "name": "Frischgemüse",
+      "slug": "supermarkt/lebensmittel/fruechte-gemuese/gemuese/frischgemuese",
+      "visible": true,
+      "title": "Gesund und gut: Frisches Saisongemüse von Ihrer Migros",
+      "parent_code": "BeSS_01011902",
+      "level": 5
+    },
+    {
+      "code": "BeSS_01011902",
+      "name": "Gemüse",
+      "slug": "supermarkt/lebensmittel/fruechte-gemuese/gemuese",
+      "visible": true,
+      "title": "Mit Gem&uuml;se von der Migros jeden Tag gesund essen",
+      "parent_code": "BeSS_010119",
+      "level": 4
+    },
+    {
+      "code": "BeSS_010119",
+      "name": "Früchte & Gemüse",
+      "slug": "supermarkt/lebensmittel/fruechte-gemuese",
+      "visible": true,
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/f839060a505bba25c0f37585edb558c003c50479/fruechte-gemuese.jpg",
+        "stack": "https://image.migros.ch/{stack}/f839060a505bba25c0f37585edb558c003c50479/fruechte-gemuese.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_Frischgemuese_Gemuese_FruechteGemuese",
+        "name": "Frischgemüse",
+        "slug": "amigos/fruechte-gemuese/gemuese/frischgemuese",
+        "visible": true,
+        "parent_code": "AMIG_CAT_Gemuese_FruechteGemuese",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_Gemuese_FruechteGemuese",
+        "name": "Gemüse",
+        "slug": "amigos/fruechte-gemuese/gemuese",
+        "visible": true,
+        "parent_code": "AMIG_CAT_FruechteGemuese",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_FruechteGemuese",
+        "name": "Früchte & Gemüse",
+        "slug": "amigos/fruechte-gemuese",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "features": [
+    {
+      "label_code": "MISO_saison",
+      "label": "Saison",
+      "values": [
+        {
+          "value_code": "MISO_saison_septembermai",
+          "value": "September - Mai"
+        }
+      ],
+      "category_code": "MISO_CLA_Gemuese_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/7b64a68190cf8a987a4f3e037672e88e340fbcb3/blumenkohl-broccoli-mini.jpg",
+    "stack": "https://image.migros.ch/{stack}/7b64a68190cf8a987a4f3e037672e88e340fbcb3/blumenkohl-broccoli-mini.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/daa89910ded792a37c2ac21541e1c77570ae1d47/blumenkohl-broccoli-mini.png",
+    "stack": "https://image.migros.ch/{stack}/daa89910ded792a37c2ac21541e1c77570ae1d47/blumenkohl-broccoli-mini.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZFRP",
+          "value": "Frische Beschaffung"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "2",
+          "value": "Früchte und Gemüse"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "71369",
+          "value": "KOCHGEMUESE"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/275701302200",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/blumenkohl-broccoli-mini",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/275701302200",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/blumenkohl-broccoli-mini",
+      "type": "info",
+      "purchasable": false
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/125199",
+      "app_url": "leshop:///catalog/article/detail?ean=7610632985397",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/blumenkohl-broccoli-mini",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "regional_availability": {
+    "gmaa": {
+      "probability": 31
+    },
+    "gmbs": {
+      "probability": 17
+    },
+    "gmge": {
+      "probability": 0
+    },
+    "gmlu": {
+      "probability": 20
+    },
+    "gmnf": {
+      "probability": 0
+    },
+    "gmos": {
+      "probability": 0
+    },
+    "gmti": {
+      "probability": 37
+    },
+    "gmvd": {
+      "probability": 12
+    },
+    "gmvs": {
+      "probability": 8
+    },
+    "gmzh": {
+      "probability": 0
+    }
+  },
+  "updated_at": "2020-09-16T06:34:01+0200",
+  "base_unit": "CU",
+  "slugs": {
+    "de": "blumenkohl-broccoli-mini",
+    "fr": "chou-fleur-brocoli-mini",
+    "it": "cavolfiore-croccoli-mini"
+  },
+  "receipt_text": "Blumenkohl Broccoli",
+  "main_supplier": {
+    "name": "Satori S.A.",
+    "id": "0010006510"
+  },
+  "price": {
+    "valid_from": "2018-01-31T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "source": "PriceRepository",
+    "no_price_hint": "Aktueller Tagespreis"
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 3,
+    "average_all": 3.333333333333
+  },
+  "data_source": "SAP-X4x",
+  "package": {
+    "net_weight": 0.24,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogramm",
+    "brutto_weight": 0.24,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 1000,
+    "brutto_volume_unit_code": "ccm",
+    "height": 10,
+    "length": 10,
+    "width": 10,
+    "unit_dimension": "cm"
+  },
+  "package_information": {
+    "tu": {
+      "brutto_weight": 0.24,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0,
+      "height": 0,
+      "length": 0,
+      "width": 0,
+      "number_of_base_units": 1
+    },
+    "cu": {
+      "brutto_weight": 0.24,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 1000,
+      "brutto_volume_unit_code": "ccm",
+      "height": 10,
+      "length": 10,
+      "width": 10,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    }
+  },
+  "related_products": {
+    "purchase_recommendations": {
+      "product_ids": [
+        "276600513200",
+        "275704701000",
+        "276500508300",
+        "275704702100",
+        "275702302100"
+      ]
+    }
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "recipe_ingredient_ids": [
+    "10000"
+  ],
+  "views": [
+    "all",
+    "browse"
+  ]
+}

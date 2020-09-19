@@ -1,6 +1,6 @@
 import * as axios from 'axios';
-import * as fs from 'fs';
 import * as path from 'path';
+import { writeJson } from './utils';
 
 axios.default.defaults.headers.common['Authorization'] =
   'Basic aGFja3p1cmljaDIwMjA6dWhTeUowOEtleEtuNFpGUw==';
@@ -16,7 +16,7 @@ async function main() {
     'https://hackzurich-api.migros.ch/hack/purchase/102531'
   );
 
-  fs.writeFileSync(purchasesFile, JSON.stringify(purchases.data, null, 2));
+  writeJson(purchasesFile, purchases.data);
 
   const purchaseArticles: any = {};
   for (const purchase of purchases.data) {
@@ -26,10 +26,7 @@ async function main() {
     purchaseArticles[purchase.einkaufID] = articles.data;
   }
 
-  fs.writeFileSync(
-    purchaseArticlesFile,
-    JSON.stringify(purchaseArticles, null, 2)
-  );
+  writeJson(purchaseArticlesFile, purchaseArticles);
 }
 
 main();

@@ -1,0 +1,632 @@
+{
+  "id": "463031800000",
+  "language": "de",
+  "name": "Powerbar Clean Whey Riegel",
+  "names": {
+    "name": "Powerbar Clean Whey Riegel",
+    "short_name": "Clean Whey"
+  },
+  "slug": "powerbar-clean-whey-riegel",
+  "product_type": "Riegel",
+  "boss_number": "341611481015",
+  "description": {
+    "text": "Reduziert aufs Maximum: der Clean Whey Riegel verzichtet selbstbewußt auf die Schokohülle und zeigt Dir direkt, was er drauf hat: Hochwertiges Premium Protein. 15 g pro Riegel! Dazu nur maximal 0,9 g Zucker. Aber viel Geschmack: Chocolate Brownie oder Vanilla Coconut Crunch. Der Clean Whey schmeckt nicht nur nach dem Sport, sondern auch als Snack zwischendurch.",
+    "source": "PEX"
+  },
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03"
+  },
+  "tags": [
+    "source-pex",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "4029679996793",
+    "4029679996809"
+  ],
+  "brand": {
+    "id": "N59",
+    "name": "Powerbar",
+    "slug": "powerbar",
+    "image": {
+      "original": "https://image.migros.ch/original/5ac7ecbc14e242147039d14029a57365375c9789/powerbar.jpg",
+      "stack": "https://image.migros.ch/{stack}/5ac7ecbc14e242147039d14029a57365375c9789/powerbar.jpg"
+    }
+  },
+  "categories": [
+    {
+      "code": "SPO_SHOP_CAT_Sportnahrung_Ausruestung",
+      "name": "Sportnahrung",
+      "slug": "sportxx/ausruestung/sportnahrung",
+      "visible": true,
+      "parent_code": "SPO_SHOP_CAT_Ausruestung",
+      "level": 3
+    },
+    {
+      "code": "SPO_SHOP_CAT_Ausruestung",
+      "name": "Ausrüstung",
+      "slug": "sportxx/ausruestung",
+      "visible": true,
+      "parent_code": "BeSS_03",
+      "level": 2
+    },
+    {
+      "code": "BeSS_03",
+      "name": "SportXX",
+      "slug": "sportxx",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "BeSS_011203",
+        "name": "Diät & Sportnahrung",
+        "slug": "supermarkt/gesundheit/diaet-sportnahrung",
+        "visible": true,
+        "parent_code": "BeSS_0112",
+        "level": 3
+      },
+      {
+        "code": "BeSS_0112",
+        "name": "Gesundheit",
+        "slug": "supermarkt/gesundheit",
+        "visible": true,
+        "parent_code": "BeSS_01",
+        "image": {
+          "original": "https://image.migros.ch/original/832762761a56d78835c380db87e2aa4ecd7a4eed/gesundheit.jpg",
+          "stack": "https://image.migros.ch/{stack}/832762761a56d78835c380db87e2aa4ecd7a4eed/gesundheit.jpg"
+        },
+        "level": 2
+      },
+      {
+        "code": "BeSS_01",
+        "name": "Supermarkt",
+        "slug": "supermarkt",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "features": [
+    {
+      "label_code": "miso_produkttyp",
+      "label": "Produkttyp",
+      "values": [
+        {
+          "value_code": "MISO_produkttyp_sportnahrung",
+          "value": "Sportnahrung"
+        }
+      ],
+      "category_code": "MISO_CLA_DiaetSportnahrung_Gesundheit_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "miso_beduerfnis_nutzen",
+      "label": "Bedürfnis / Nutzen",
+      "values": [
+        {
+          "value_code": "MISO_beduerfnis_nutzen_proteine",
+          "value": "Proteine"
+        }
+      ],
+      "category_code": "MISO_CLA_DiaetSportnahrung_Gesundheit_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "spo_zutaten",
+      "label": "Zutaten",
+      "values": [
+        {
+          "value": "Milcheiweiß (33%) (Molkeneiweißisolat, Milcheiweißisolat), Oligofruktosesirup, lösliche Ballaststoffe (resistentes Maltodextrin), Feuchthaltemittel (Glycerin), Molkeneiweißcrispies (7%) [Reismehl, Molkeneiweißisolat, Emulgator (Sojalecithine)], Kokosraspel (5%), Mandelmark, Rapsöl, weiße Schokolade mit Süßungsmittel (3%) [Süßungsmittel (Maltit), Kakaobutter, Vollmilchpulver, Emulgator (Lecithine)], Aromen, Salz, Emulgator (Sojalecithine), Süßungsmittel (Sucralose). Kann enthalten: Erdnüsse, Gluten, Haselnüsse."
+        }
+      ],
+      "category_code": "SPO_CLA_Sportnahrung_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "spo_100g_preis_chf",
+      "label": "100g Preis CHF",
+      "values": [
+        {
+          "value_code": "NUMERIC_5.55",
+          "value": "5.55",
+          "numeric_value": 5.55
+        }
+      ],
+      "category_code": "SPO_CLA_Sportnahrung_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "spo_naehrwerte",
+      "label": "Nährwerte",
+      "values": [
+        {
+          "value": "Nährwertangaben pro 100 g pro Riegel (45 g) Energie kJ (kcal) 1358 (326) 611 (147) Fett 11 g 4,9 g davon gesättigte Fettsäuren 4,4 g 2,0 g Kohlenhydrate 20 g 9,1 g davon Zucker 2,1 g 0,9 g davon mehrwertige Alkohole 14 g 6,5 g Ballaststoffe 18 g 8,1 g Eiweiß 33 g 15 g Salz 0,69 g 0,31 g"
+        }
+      ],
+      "category_code": "SPO_CLA_Sportnahrung_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "spo_produktionsland",
+      "label": "Produktionsland",
+      "values": [
+        {
+          "value": "Deutschland"
+        }
+      ],
+      "category_code": "SPO_CLA_Sportnahrung_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "spo_einnahmeempfehlung",
+      "label": "Einnahmeempfehlung",
+      "values": [
+        {
+          "value": "1 Riegel pro Tag. Zusätzlich zu einer abwechslungsreichen und ausgewogenen Ernährung und einer gesunden Lebensweise. Kann bei übermäßigem Verzehr abführend wirken."
+        }
+      ],
+      "category_code": "SPO_CLA_Sportnahrung_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "spo_gewicht",
+      "label": "Gewicht",
+      "values": [
+        {
+          "value_code": "NUMERIC_45",
+          "value": "45 g",
+          "numeric_value": 45
+        }
+      ],
+      "category_code": "SPO_CLA_Sportnahrung_Alle",
+      "top_fact": false,
+      "unit_code": "g",
+      "unit": "Gramm",
+      "unit_symbol": "g"
+    },
+    {
+      "label_code": "spo_anwendung_anwendung",
+      "label": "Anwendung",
+      "values": [
+        {
+          "value_code": "SPO_Anwendung_Kraftaufbau",
+          "value": "Kraftaufbau"
+        },
+        {
+          "value_code": "SPO_Anwendung_Regeneration",
+          "value": "Regeneration"
+        },
+        {
+          "value_code": "SPO_Anwendung_WeightManagment",
+          "value": "WeightManagment"
+        }
+      ],
+      "category_code": "SPO_CLA_Sportnahrung_Alle",
+      "top_fact": true
+    },
+    {
+      "label_code": "spo_phase_phase",
+      "label": "Phase",
+      "values": [
+        {
+          "value_code": "SPO_Phase_nachdemTraining",
+          "value": "nach dem Training"
+        }
+      ],
+      "category_code": "SPO_CLA_Sportnahrung_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "spo_form_form",
+      "label": "Form",
+      "values": [
+        {
+          "value_code": "SPO_Form_Riegel",
+          "value": "Riegel"
+        }
+      ],
+      "category_code": "SPO_CLA_Sportnahrung_Alle",
+      "top_fact": true
+    },
+    {
+      "label_code": "spo_geschmack",
+      "label": "Geschmack",
+      "values": [
+        {
+          "value": "Vanilla Coconut"
+        }
+      ],
+      "category_code": "SPO_CLA_Sportnahrung_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "spo_sportart_sportart",
+      "label": "Sportart",
+      "values": [
+        {
+          "value_code": "SPO_Sportart_Allgemein",
+          "value": "Allgemein"
+        },
+        {
+          "value_code": "SPO_Sportart_Fitness",
+          "value": "Fitness"
+        }
+      ],
+      "category_code": "SPO_CLA_Alle",
+      "top_fact": false
+    }
+  ],
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": true,
+      "reservable": true,
+      "stock_request": true,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": true,
+      "reservable": true,
+      "stock_request": true,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": true,
+      "reservable": true,
+      "stock_request": true,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": true,
+      "reservable": true,
+      "stock_request": true,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": true,
+      "reservable": true,
+      "stock_request": true,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": true,
+      "reservable": true,
+      "stock_request": true,
+      "visible": true,
+      "exclude_cross_channel": []
+    }
+  },
+  "image": {
+    "original": "https://image.migros.ch/original/0ff0678b257d3164a70a6a14b566f2ee5c44e951/powerbar-clean-whey-riegel.jpg",
+    "stack": "https://image.migros.ch/{stack}/0ff0678b257d3164a70a6a14b566f2ee5c44e951/powerbar-clean-whey-riegel.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/3f1bc975d6040863268cc3ac5769a61dd9ca3fb8/powerbar-clean-whey-riegel.png",
+    "stack": "https://image.migros.ch/{stack}/3f1bc975d6040863268cc3ac5769a61dd9ca3fb8/powerbar-clean-whey-riegel.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_RETURNABLE",
+      "label": "Rückgabe",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "true",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MAPI_RETURNABLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_EXCLUDE_FROM_COMPARISON_ENGINES",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "false",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_EXCLUDE_FROM_COMPARISON_ENGINES",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_DEFAULT_LOGISTIC_TYPE",
+      "values": [
+        {
+          "value_code": "55",
+          "value": "Versandart Paket"
+        }
+      ],
+      "category_code": "MAPI_DEFAULT_LOGISTIC_TYPE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Normalposition"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "SPOR"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_RISK_CLASS",
+      "values": [
+        {
+          "value_code": "2",
+          "value": "2 (medium)"
+        }
+      ],
+      "category_code": "MAPI_RISK_CLASS",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_KUBE_TUKA",
+      "values": [
+        {
+          "value_code": "BLANK",
+          "value": "KUBE und TUKA nicht zugelassen"
+        }
+      ],
+      "category_code": "MAPI_KUBE_TUKA",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "SPOR",
+          "value": "Sport  Handelsware"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "S",
+          "value": "Sport"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "55537",
+          "value": "SPORTNAHRUNG"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/463031800000",
+      "name": "migros.ch",
+      "canonical": "https://www.sportxx.ch/de/p/463031800000/powerbar-clean-whey",
+      "type": "info",
+      "purchasable": false
+    },
+    "sportxx": {
+      "url": "https://www.sportxx.ch/de/p/463031800000/powerbar-clean-whey",
+      "name": "SportXX",
+      "canonical": "https://www.sportxx.ch/de/p/463031800000/powerbar-clean-whey",
+      "type": "shop",
+      "purchasable": true
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/463031800000",
+      "name": "Migipedia",
+      "canonical": "https://www.sportxx.ch/de/p/463031800000/powerbar-clean-whey",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "regional_availability": {
+    "gmaa": {
+      "probability": 13
+    },
+    "gmbs": {
+      "probability": 7
+    },
+    "gmge": {
+      "probability": 5
+    },
+    "gmlu": {
+      "probability": 17
+    },
+    "gmnf": {
+      "probability": 10
+    },
+    "gmos": {
+      "probability": 9
+    },
+    "gmti": {
+      "probability": 37
+    },
+    "gmvd": {
+      "probability": 6
+    },
+    "gmvs": {
+      "probability": 13
+    },
+    "gmzh": {
+      "probability": 18
+    }
+  },
+  "updated_at": "2020-09-15T06:53:56+0200",
+  "online_shop_relevant": true,
+  "services": {
+    "logistics": [
+      {
+        "code": "SPO_LOGISTIK_FILIALE_POSTPAKET_GRATIS"
+      },
+      {
+        "code": "SPO_LOGISTIK_POSTPAKET_4_9"
+      }
+    ]
+  },
+  "base_unit": "CU",
+  "slugs": {
+    "de": "powerbar-clean-whey-riegel",
+    "fr": "powerbar-clean-whey-barre",
+    "it": "powerbar-clean-whey-barretta"
+  },
+  "receipt_text": "Powerbar Clean Whey Ri",
+  "short_description": "Clean Whey Riegel ohne Schokoladenüberzug, wenig Zucker und viel Protein.",
+  "new_product": {
+    "from": "2018-04-09T00:00:00+0200",
+    "to": "2018-05-21T00:00:00+0200"
+  },
+  "main_supplier": {
+    "name": "Active Nutrition Internation",
+    "id": "0010015089",
+    "supplier_product_id": "21631900"
+  },
+  "price": {
+    "valid_from": "2018-03-06T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 2.5,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "45g"
+    },
+    "base": {
+      "price": 16.67,
+      "quantity": 100,
+      "unit": "g"
+    }
+  },
+  "retailer": {
+    "id": "sportxx",
+    "name": "SportXX"
+  },
+  "data_source": "SAP-X12",
+  "origins": {},
+  "package": {
+    "content": 15,
+    "content_unit_code": "g",
+    "content_unit": "Gramm",
+    "brutto_volume": 111.375,
+    "brutto_volume_unit_code": "ccm",
+    "height": 1.5,
+    "length": 16.5,
+    "width": 4.5,
+    "unit_dimension": "cm",
+    "price_comparison_content": 100,
+    "size": "45g"
+  },
+  "package_information": {
+    "cu": {
+      "brutto_volume": 111.375,
+      "brutto_volume_unit_code": "ccm",
+      "height": 1.5,
+      "length": 16.5,
+      "width": 4.5,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "tuv": {
+      "brutto_weight": 0.95,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 2.94,
+      "brutto_volume_unit_code": "cdm",
+      "height": 7,
+      "length": 28,
+      "width": 15,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 18
+    },
+    "tue": {
+      "brutto_volume": 2.87,
+      "brutto_volume_unit_code": "cdm",
+      "height": 6.7,
+      "length": 28,
+      "width": 15.3,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 18
+    },
+    "lu": {
+      "number_of_base_units": 342
+    }
+  },
+  "quantity_on_stock": 3245,
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "views": [
+    "all",
+    "browse"
+  ]
+}

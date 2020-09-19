@@ -1,0 +1,342 @@
+{
+  "id": "528000300000",
+  "language": "de",
+  "name": "Candida Zahnpasta White Micro-Crystals",
+  "names": {
+    "name": "Candida Zahnpasta White Micro-Crystals"
+  },
+  "slug": "candida-zahnpasta-white-micro-crystals-528000300000",
+  "boss_number": "090113420520",
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03"
+  },
+  "tags": [
+    "source-pim",
+    "near-non-food",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "76249266"
+  ],
+  "brand": {
+    "id": "026",
+    "name": "Candida",
+    "slug": "candida",
+    "links": {
+      "homepage": {
+        "url": "https://produkte.migros.ch/marken/candida",
+        "name": "Homepage",
+        "type": "info",
+        "purchasable": false
+      }
+    },
+    "image": {
+      "original": "https://image.migros.ch/original/cc947858aee28377918b6bf0ff16b031b803a5ab/candida.jpg",
+      "stack": "https://image.migros.ch/{stack}/cc947858aee28377918b6bf0ff16b031b803a5ab/candida.jpg"
+    }
+  },
+  "categories": [
+    {
+      "code": "BeSS_01110401",
+      "name": "Zahnpasta",
+      "slug": "supermarkt/beauty/mundpflege/zahnpasta",
+      "visible": true,
+      "parent_code": "BeSS_011104",
+      "level": 4
+    },
+    {
+      "code": "BeSS_011104",
+      "name": "Mundpflege",
+      "slug": "supermarkt/beauty/mundpflege",
+      "visible": true,
+      "parent_code": "BeSS_0111",
+      "level": 3
+    },
+    {
+      "code": "BeSS_0111",
+      "name": "Beauty",
+      "slug": "supermarkt/beauty",
+      "visible": true,
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/293925170bd129344f9259c67a15e903f881bef8/beauty.jpg",
+        "stack": "https://image.migros.ch/{stack}/293925170bd129344f9259c67a15e903f881bef8/beauty.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "features": [
+    {
+      "label_code": "MISO_geeignet_fuer",
+      "label": "Geeignet für",
+      "values": [
+        {
+          "value_code": "MISO_geeignet_fuer_kariesschutz",
+          "value": "Kariesschutz"
+        },
+        {
+          "value_code": "MISO_geeignet_fuer_zahnverfaerbungenwhitening",
+          "value": "Zahnverfärbungen (Whitening)"
+        }
+      ],
+      "category_code": "MISO_CLA_Zahnpasta_Mundpflege_Beauty_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zahnpasta_RDA",
+      "label": "RDA",
+      "values": [
+        {
+          "value_code": "MISO_rda_wert_RDA75",
+          "value": "RDA 75"
+        }
+      ],
+      "category_code": "MISO_CLA_Zahnpasta_Mundpflege_Beauty_Alle",
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/8f906338aff89af7022ad7efb1a9523ce7264011/candida-zahnpasta-white-micro-crystals.jpg",
+    "stack": "https://image.migros.ch/{stack}/8f906338aff89af7022ad7efb1a9523ce7264011/candida-zahnpasta-white-micro-crystals.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/067d6f782c22bc471081fb2dabf84005ea59099a/candida-zahnpasta-white-micro-crystals.png",
+    "stack": "https://image.migros.ch/{stack}/067d6f782c22bc471081fb2dabf84005ea59099a/candida-zahnpasta-white-micro-crystals.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZHKS",
+          "value": "HKS Standardartikel"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_QUALITY_CHECK",
+      "values": [
+        {
+          "value_code": "00",
+          "value": "Keine Prüfung"
+        }
+      ],
+      "category_code": "MAPI_QUALITY_CHECK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_RISK_CLASS",
+      "values": [
+        {
+          "value_code": "1",
+          "value": "1 (high)"
+        }
+      ],
+      "category_code": "MAPI_RISK_CLASS",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "H",
+          "value": "HKS Standard"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "50280",
+          "value": ""
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 1,
+    "percentage": 7.7
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/528000300000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/candida-zahnpasta-white-micro-crystals-528000300000",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/528000300000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/candida-zahnpasta-white-micro-crystals-528000300000",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "regional_availability": {
+    "gmaa": {
+      "probability": 21
+    },
+    "gmbs": {
+      "probability": 17
+    },
+    "gmge": {
+      "probability": 10
+    },
+    "gmlu": {
+      "probability": 12
+    },
+    "gmnf": {
+      "probability": 10
+    },
+    "gmos": {
+      "probability": 13
+    },
+    "gmti": {
+      "probability": 19
+    },
+    "gmvd": {
+      "probability": 9
+    },
+    "gmvs": {
+      "probability": 13
+    },
+    "gmzh": {
+      "probability": 11
+    }
+  },
+  "updated_at": "2020-09-11T06:07:09+0200",
+  "base_unit": "CU",
+  "slugs": {
+    "de": "candida-zahnpasta-white-micro-crystals-528000300000",
+    "fr": "candida-dentifrice-white-micro-crystals-528000300000",
+    "it": "candida-dentifricio-white-micro-crystals-528000300000"
+  },
+  "receipt_text": "Mini Candida Micro ZP",
+  "main_supplier": {
+    "name": "MIBELLE AG COSMETICS",
+    "id": "0003810000",
+    "supplier_product_id": "332436"
+  },
+  "price": {
+    "valid_from": "2018-01-01T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 0.9,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "15ml"
+    },
+    "base": {
+      "price": 6,
+      "quantity": 100,
+      "unit": "ml"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 3,
+    "average_all": 4.666666666667
+  },
+  "data_source": "SAP-X11",
+  "package": {
+    "content": 15,
+    "content_unit_code": "ml",
+    "content_unit": "Mililiter",
+    "net_weight": 0.019,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogramm",
+    "brutto_weight": 0.024,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 57.57,
+    "brutto_volume_unit_code": "ccm",
+    "height": 10.1,
+    "length": 1.9,
+    "width": 3,
+    "unit_dimension": "cm",
+    "price_comparison_content": 100,
+    "size": "15ml"
+  },
+  "package_information": {
+    "tu": {
+      "brutto_weight": 0.96,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 1.6,
+      "brutto_volume_unit_code": "cdm",
+      "height": 10,
+      "length": 20,
+      "width": 15,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 40
+    },
+    "cu": {
+      "brutto_weight": 0.024,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 57.57,
+      "brutto_volume_unit_code": "ccm",
+      "height": 10.1,
+      "length": 1.9,
+      "width": 3,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "lu": {
+      "brutto_weight": 0,
+      "brutto_volume": 1584,
+      "brutto_volume_unit_code": "cdm",
+      "height": 165,
+      "length": 120,
+      "width": 80,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 19200
+    },
+    "lge": {
+      "brutto_weight": 0,
+      "brutto_volume": 0,
+      "height": 0,
+      "length": 0,
+      "width": 0,
+      "number_of_base_units": 1
+    },
+    "kar": {
+      "brutto_weight": 0,
+      "brutto_volume": 0,
+      "height": 0,
+      "length": 0,
+      "width": 0,
+      "number_of_base_units": 1
+    }
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "views": [
+    "all",
+    "browse"
+  ]
+}

@@ -1,0 +1,680 @@
+{
+  "id": "130630500000",
+  "language": "de",
+  "name": "Tradition Sauce Francaise",
+  "names": {
+    "name": "Tradition Sauce Francaise"
+  },
+  "slug": "tradition-sauce-francaise-130630500000",
+  "boss_number": "020530370505",
+  "description": {
+    "text": "French Dressing",
+    "source": "PIM"
+  },
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "80"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7613269580928"
+  ],
+  "brand": {
+    "id": "FR5",
+    "name": "Tradition - Karo",
+    "slug": "tradition-karo"
+  },
+  "categories": [
+    {
+      "code": "BeSS_0101130213",
+      "name": "Salatsaucen",
+      "slug": "supermarkt/lebensmittel/fertiggerichte-menues-snacks/fertige-pizzen-menues-snacks/salatsaucen",
+      "visible": true,
+      "parent_code": "BeSS_01011302",
+      "image": {
+        "original": "https://image.migros.ch/original/d0eccff2081de39d4c8fcd4aad4ec9d05a114ae0/salatsaucen.jpg",
+        "stack": "https://image.migros.ch/{stack}/d0eccff2081de39d4c8fcd4aad4ec9d05a114ae0/salatsaucen.jpg"
+      },
+      "level": 5
+    },
+    {
+      "code": "BeSS_01011302",
+      "name": "Fertige Pizzen, Menüs & Snacks",
+      "slug": "supermarkt/lebensmittel/fertiggerichte-menues-snacks/fertige-pizzen-menues-snacks",
+      "visible": true,
+      "title": "Feine Fertiggerichte aus Ihrer Migros!",
+      "parent_code": "BeSS_010113",
+      "image": {
+        "original": "https://image.migros.ch/original/0014f54049f00019a8782aedb21ad671bd28a8e8/fertige-pizzen-menues-snacks.jpg",
+        "stack": "https://image.migros.ch/{stack}/0014f54049f00019a8782aedb21ad671bd28a8e8/fertige-pizzen-menues-snacks.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010113",
+      "name": "Fertiggerichte, Menüs & Snacks",
+      "slug": "supermarkt/lebensmittel/fertiggerichte-menues-snacks",
+      "visible": true,
+      "title": "Fertige Pizzen, Menüs und Snacks &ndash; schnell und lecker von der Migros",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/6770b6c8fbbd2689aece359ffeda93b90c58dd09/fertiggerichte-menues-snacks.jpg",
+        "stack": "https://image.migros.ch/{stack}/6770b6c8fbbd2689aece359ffeda93b90c58dd09/fertiggerichte-menues-snacks.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_Salatsaucen_Salate_FruechteGemuese",
+        "name": "Salatsaucen",
+        "slug": "amigos/fruechte-gemuese/salate/salatsaucen",
+        "visible": true,
+        "parent_code": "AMIG_CAT_Salate_FruechteGemuese",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_Salate_FruechteGemuese",
+        "name": "Salate",
+        "slug": "amigos/fruechte-gemuese/salate",
+        "visible": true,
+        "parent_code": "AMIG_CAT_FruechteGemuese",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_FruechteGemuese",
+        "name": "Früchte & Gemüse",
+        "slug": "amigos/fruechte-gemuese",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ],
+    [
+      {
+        "code": "AMIG_CAT_Salatsaucen_SalatsaucenkalteSaucen_Grundnahrungsmittel",
+        "name": "Salatsaucen",
+        "slug": "amigos/grundnahrungsmittel/salatsaucen-kalte-saucen/salatsaucen",
+        "visible": true,
+        "parent_code": "AMIG_CAT_SalatsaucenkalteSaucen_Grundnahrungsmittel",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_SalatsaucenkalteSaucen_Grundnahrungsmittel",
+        "name": "Salatsaucen & kalte Saucen",
+        "slug": "amigos/grundnahrungsmittel/salatsaucen-kalte-saucen",
+        "visible": true,
+        "parent_code": "AMIG_CAT_Grundnahrungsmittel",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_Grundnahrungsmittel",
+        "name": "Grundnahrungsmittel",
+        "slug": "amigos/grundnahrungsmittel",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "nutrition_facts": {
+    "standard": {
+      "nutrients": [
+        {
+          "code": "PIM_NUT_ENERGIE",
+          "name": "Energie",
+          "pictogram_name": "Energie",
+          "category": "BIG9",
+          "quantity": 1630,
+          "rda_percent_operator": "=",
+          "quantity_unit": "kJ",
+          "quantity_alternate": 396,
+          "quantity_alternate_unit": "kcal"
+        },
+        {
+          "code": "PIM_NUT_GES_FETT",
+          "name": "Fett",
+          "pictogram_name": "Fett",
+          "category": "BIG9",
+          "quantity": 41,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_GESFETTS",
+          "name": "davon gesättigte Fettsäuren",
+          "pictogram_name": "gesättigte Fettsäuren",
+          "category": "BIG9",
+          "quantity": 4.5,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_GES_KOHL",
+          "name": "Kohlenhydrate",
+          "category": "BIG9",
+          "quantity": 3.5,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_GES_ZUCK",
+          "name": "davon Zucker",
+          "pictogram_name": "Zuckerarten",
+          "category": "BIG9",
+          "quantity": 2.5,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_GES_BALL",
+          "name": "Ballaststoffe",
+          "category": "BIG9",
+          "quantity": 0.5,
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_GES_EIW",
+          "name": "Eiweiss",
+          "category": "BIG9",
+          "quantity": 3,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_KOCHSALZ",
+          "name": "Salz",
+          "pictogram_name": "Salz",
+          "category": "BIG9",
+          "quantity": 1.2,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        }
+      ],
+      "base_quantity": 100,
+      "base_unit": "ml"
+    },
+    "portion": {
+      "nutrients": [
+        {
+          "code": "PIM_NUT_ENERGIE",
+          "name": "Energie",
+          "pictogram_name": "Energie",
+          "category": "BIG9",
+          "quantity": 490,
+          "rda_percent": 6,
+          "rda_percent_operator": "=",
+          "quantity_unit": "kJ",
+          "quantity_alternate": 119,
+          "quantity_alternate_unit": "kcal"
+        },
+        {
+          "code": "PIM_NUT_GES_FETT",
+          "name": "Fett",
+          "pictogram_name": "Fett",
+          "category": "BIG9",
+          "quantity": 12,
+          "rda_percent": 17,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_GESFETTS",
+          "name": "davon gesättigte Fettsäuren",
+          "pictogram_name": "gesättigte Fettsäuren",
+          "category": "BIG9",
+          "quantity": 1.5,
+          "rda_percent": 8,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_GES_KOHL",
+          "name": "Kohlenhydrate",
+          "category": "BIG9",
+          "quantity": 1,
+          "rda_percent": 0.5,
+          "rda_percent_operator": "<",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_GES_ZUCK",
+          "name": "davon Zucker",
+          "pictogram_name": "Zuckerarten",
+          "category": "BIG9",
+          "quantity": 0.8,
+          "rda_percent": 1,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_GES_BALL",
+          "name": "Ballaststoffe",
+          "category": "BIG9",
+          "quantity": 0.5,
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_GES_EIW",
+          "name": "Eiweiss",
+          "category": "BIG9",
+          "quantity": 0.9,
+          "rda_percent": 2,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_KOCHSALZ",
+          "name": "Salz",
+          "pictogram_name": "Salz",
+          "category": "BIG9",
+          "quantity": 0.4,
+          "rda_percent": 7,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        }
+      ],
+      "base_description": "2 Esslöffel",
+      "base_quantity": 30,
+      "base_unit": "ml"
+    }
+  },
+  "features": [
+    {
+      "label_code": "MISO_mussgekuehltwerden",
+      "label": "Muss gekühlt werden",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MISO_CLA_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_produktionsanspruch",
+      "label": "Produktionsverfahren",
+      "values": [
+        {
+          "value_code": "MISO_produktionsanspruch_hausgemacht",
+          "value": "Hausgemacht"
+        },
+        {
+          "value_code": "MISO_produktionsanspruch_natuerlichezutaten",
+          "value": "Natürliche Zutaten"
+        }
+      ],
+      "category_code": "MISO_CLA_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_flasche",
+          "value": "Flasche"
+        }
+      ],
+      "category_code": "MISO_CLA_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zubereitungsverfahren",
+      "label": "Hinweise für die Zubereitung",
+      "values": [
+        {
+          "value_code": "MISO_zubereitungsverfahren_zummarinierengeeignet",
+          "value": "Zum Marinieren geeignet"
+        }
+      ],
+      "category_code": "MISO_CLA_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_artvonsaucedip",
+      "label": "Art von Sauce/Dip",
+      "values": [
+        {
+          "value_code": "MISO_artvonsaucedip_salatsauce",
+          "value": "Salatsauce"
+        }
+      ],
+      "category_code": "MISO_CLA_SaucenAufstricheDipsWuerzsaucen_GewuerzeKonservierungsstoffeExtrakte_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_vorgeseheneverwendungdersauce",
+      "label": "Vorgesehene Verwendung der Sauce",
+      "values": [
+        {
+          "value_code": "MISO_vorgeseheneverwendungdersauce_salatgerichte",
+          "value": "Salatgerichte"
+        }
+      ],
+      "category_code": "MISO_CLA_SaucenAufstricheDipsWuerzsaucen_GewuerzeKonservierungsstoffeExtrakte_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_ohneei",
+      "label": "Ohne Ei",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "Nein",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MISO_CLA_SaucenAufstricheDipsWuerzsaucen_GewuerzeKonservierungsstoffeExtrakte_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_haltungsartderverwendeteneier",
+      "label": "Haltungsart der verwendeten Eier",
+      "values": [
+        {
+          "value_code": "MISO_haltungsartderverwendeteneier_bodenhaltung",
+          "value": "Bodenhaltung"
+        }
+      ],
+      "category_code": "MISO_CLA_SaucenAufstricheDipsWuerzsaucen_GewuerzeKonservierungsstoffeExtrakte_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    }
+  ],
+  "allergens": [
+    {
+      "code": "ALLG_EIER",
+      "name": "Eier",
+      "contamination_code": "VORHANDEN",
+      "contamination": "vorhanden"
+    },
+    {
+      "code": "ALLG_MILCH",
+      "name": "Milch",
+      "contamination_code": "VORHANDEN",
+      "contamination": "vorhanden"
+    },
+    {
+      "code": "ALLG_SENF",
+      "name": "Senf",
+      "contamination_code": "VORHANDEN",
+      "contamination": "vorhanden"
+    }
+  ],
+  "general_information": [
+    {
+      "label": "Produkteinformation",
+      "value": "Vor Gebrauch schütteln."
+    },
+    {
+      "label": "Behandlungshinweise",
+      "value": "Pasteurisiert."
+    },
+    {
+      "label": "Haltbarkeitshinweise",
+      "value": "Bei höchstens +8°C aufbewahren."
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/3643682dbf250ff8c409a4d39231a0b0f9c828d0/tradition-sauce-francaise.jpg",
+    "stack": "https://image.migros.ch/{stack}/3643682dbf250ff8c409a4d39231a0b0f9c828d0/tradition-sauce-francaise.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/229ac9c26dff63c01a0f38f0d8f942a938b9fd9a/tradition-sauce-francaise.png",
+    "stack": "https://image.migros.ch/{stack}/229ac9c26dff63c01a0f38f0d8f942a938b9fd9a/tradition-sauce-francaise.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_sortierung",
+      "label": "Sortierung aMigos",
+      "values": [
+        {
+          "value_code": "NUMERIC_300",
+          "value": "300",
+          "numeric_value": 300
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZFRP",
+          "value": "Frische Beschaffung"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "7",
+          "value": "Convenience"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "70209",
+          "value": "SALATSAUCEN EINZELPORTION"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "regulated_description": "Salatsauce",
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/130630500000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/tradition-sauce-francaise-130630500000",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/130630500000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/tradition-sauce-francaise-130630500000",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "regional_availability": {
+    "gmaa": {
+      "probability": 0
+    },
+    "gmbs": {
+      "probability": 0
+    },
+    "gmge": {
+      "probability": 79
+    },
+    "gmlu": {
+      "probability": 21
+    },
+    "gmnf": {
+      "probability": 90
+    },
+    "gmos": {
+      "probability": 0
+    },
+    "gmti": {
+      "probability": 87
+    },
+    "gmvd": {
+      "probability": 71
+    },
+    "gmvs": {
+      "probability": 69
+    },
+    "gmzh": {
+      "probability": 0
+    }
+  },
+  "updated_at": "2020-09-16T05:44:18+0200",
+  "base_unit": "CU",
+  "slugs": {
+    "de": "tradition-sauce-francaise-130630500000",
+    "fr": "tradition-sauce-francaise-130630500000",
+    "it": "tradition-sauce-francaise-130630500000"
+  },
+  "receipt_text": "Sauce Francaise",
+  "main_supplier": {
+    "name": "BISCHOFSZELL",
+    "id": "0003800000"
+  },
+  "price": {
+    "valid_from": "2018-01-29T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 0.7,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "60ml"
+    },
+    "base": {
+      "price": 1.17,
+      "quantity": 100,
+      "unit": "ml"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 4,
+    "average_all": 4.5
+  },
+  "data_source": "SAP-X4x",
+  "origins": {
+    "producing_country": "Elaboré en Suisse"
+  },
+  "ingredients": "Sonnenblumenöl, Wasser, <strong>Joghurt</strong> teilentrahmt  (1,5% Fett) 15%, <strong>Senf</strong>, <strong>Eigelb</strong> (aus Bodenhaltung), Kochsalz, Zucker, Bouillon, Knoblauch, Hefeextrakt, Alkoholessig, Zwiebel, Verdickungsmittel: E 415, Pfefferextrakt.",
+  "package": {
+    "content": 60,
+    "content_unit_code": "ml",
+    "content_unit": "Mililiter",
+    "net_weight": 0.06,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogramm",
+    "brutto_weight": 0.075,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 0.126,
+    "brutto_volume_unit_code": "cdm",
+    "height": 9.2,
+    "length": 3.7,
+    "width": 3.7,
+    "unit_dimension": "cm",
+    "price_comparison_content": 100,
+    "size": "60ml"
+  },
+  "package_information": {
+    "tu": {
+      "brutto_weight": 1.5,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 31920,
+      "brutto_volume_unit_code": "ccm",
+      "height": 13.3,
+      "length": 60,
+      "width": 40,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 20
+    },
+    "cu": {
+      "brutto_weight": 0.075,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0.126,
+      "brutto_volume_unit_code": "cdm",
+      "height": 9.2,
+      "length": 3.7,
+      "width": 3.7,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    }
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "recipe_ingredient_ids": [
+    "10000"
+  ],
+  "views": [
+    "all",
+    "browse"
+  ]
+}

@@ -1,0 +1,622 @@
+{
+  "id": "100117700000",
+  "language": "de",
+  "name": "Suprême Framboise",
+  "names": {
+    "name": "Suprême Framboise"
+  },
+  "slug": "supreme-framboise",
+  "boss_number": "010110042105",
+  "description": {
+    "text": "Feine weisse Schokolade mit fruchtigen Himbeeren und einem Hauch Vanille. Die Schokolade-Kreationen der Frey Supr&ecirc;me-Linie zeichnen sich durch erlesene Zutaten in hohen Anteilen und sorgf&auml;ltiger, fachm&auml;nnischer Herstellung aus. Neben traditionellen Schokolade-Varianten und -Aromen verf&uuml;hren auch neue, andersartige, bekannte aber neu inszenierte oder gar &uuml;berraschende Aromen und Kombinationen zum (Premium) Schokolade-Genuss und sorgen f&uuml;r Abwechslung.",
+    "source": "PIM"
+  },
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7616500659964"
+  ],
+  "brand": {
+    "id": "062",
+    "name": "Frey",
+    "slug": "frey",
+    "links": {
+      "homepage": {
+        "url": "http://www.chocolatfrey.ch/de",
+        "name": "Homepage",
+        "type": "info",
+        "purchasable": false
+      }
+    },
+    "image": {
+      "original": "https://image.migros.ch/original/0f240825beceb0ba78936de6bce6939efdfd3f26/frey.jpg",
+      "stack": "https://image.migros.ch/{stack}/0f240825beceb0ba78936de6bce6939efdfd3f26/frey.jpg"
+    }
+  },
+  "labels": [
+    {
+      "id": "L53",
+      "name": "Swissness",
+      "slug": "swissness",
+      "image": {
+        "original": "https://image.migros.ch/original/d771bba2f6b08ba42970ea0243c6f8c5a8832f15/swissness.jpg",
+        "stack": "https://image.migros.ch/{stack}/d771bba2f6b08ba42970ea0243c6f8c5a8832f15/swissness.jpg"
+      }
+    },
+    {
+      "id": "L34",
+      "name": "UTZ",
+      "slug": "utz",
+      "links": {
+        "homepage": {
+          "url": "https://utz.org/",
+          "name": "Homepage",
+          "type": "info",
+          "purchasable": false
+        }
+      },
+      "image": {
+        "original": "https://image.migros.ch/original/64192d97b7770d351f5bbe89a57c9f614e529150/utz.jpg",
+        "stack": "https://image.migros.ch/{stack}/64192d97b7770d351f5bbe89a57c9f614e529150/utz.jpg"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_0101082101",
+      "name": "Schokoladentafeln",
+      "slug": "supermarkt/lebensmittel/suessigkeiten/schokolade/schokoladentafeln",
+      "visible": true,
+      "title": "Schokoladentafeln in grosser Auswahl bei der Migros",
+      "parent_code": "BeSS_01010821",
+      "level": 5
+    },
+    {
+      "code": "BeSS_01010821",
+      "name": "Schokolade",
+      "slug": "supermarkt/lebensmittel/suessigkeiten/schokolade",
+      "visible": true,
+      "parent_code": "BeSS_010108",
+      "level": 4
+    },
+    {
+      "code": "BeSS_010108",
+      "name": "Süssigkeiten",
+      "slug": "supermarkt/lebensmittel/suessigkeiten",
+      "visible": true,
+      "title": "Süssigkeiten aus Ihrer Migros: für Naschkatzen und Schleckmäuler",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/a9c80f4e896b5ebdd3b7ebbee11f956c8ff157cf/suessigkeiten.jpg",
+        "stack": "https://image.migros.ch/{stack}/a9c80f4e896b5ebdd3b7ebbee11f956c8ff157cf/suessigkeiten.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "nutrition_facts": {
+    "standard": {
+      "nutrients": [
+        {
+          "code": "PIM_NUT_ENERGIE",
+          "name": "Energie",
+          "pictogram_name": "Energie",
+          "category": "BIG9",
+          "quantity": 2408,
+          "rda_percent_operator": "=",
+          "quantity_unit": "kJ",
+          "quantity_alternate": 578,
+          "quantity_alternate_unit": "kcal"
+        },
+        {
+          "code": "PIM_NUT_GES_FETT",
+          "name": "Fett",
+          "pictogram_name": "Fett",
+          "category": "BIG9",
+          "quantity": 38,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_GESFETTS",
+          "name": "davon gesättigte Fettsäuren",
+          "pictogram_name": "gesättigte Fettsäuren",
+          "category": "BIG9",
+          "quantity": 23,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_GES_KOHL",
+          "name": "Kohlenhydrate",
+          "category": "BIG9",
+          "quantity": 53,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_GES_ZUCK",
+          "name": "davon Zucker",
+          "pictogram_name": "Zuckerarten",
+          "category": "BIG9",
+          "quantity": 53,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_GES_BALL",
+          "name": "Ballaststoffe",
+          "category": "BIG9",
+          "quantity": 0.5,
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_GES_EIW",
+          "name": "Eiweiss",
+          "category": "BIG9",
+          "quantity": 5.9,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_KOCHSALZ",
+          "name": "Salz",
+          "pictogram_name": "Salz",
+          "category": "BIG9",
+          "quantity": 0.24,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        }
+      ],
+      "base_quantity": 100,
+      "base_unit": "g"
+    },
+    "portion": {
+      "nutrients": [
+        {
+          "code": "PIM_NUT_ENERGIE",
+          "name": "Energie",
+          "pictogram_name": "Energie",
+          "category": "BIG9",
+          "quantity": 482,
+          "rda_percent": 6,
+          "rda_percent_operator": "=",
+          "quantity_unit": "kJ",
+          "quantity_alternate": 116,
+          "quantity_alternate_unit": "kcal"
+        },
+        {
+          "code": "PIM_NUT_GES_FETT",
+          "name": "Fett",
+          "pictogram_name": "Fett",
+          "category": "BIG9",
+          "quantity": 7.6,
+          "rda_percent": 11,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_GESFETTS",
+          "name": "davon gesättigte Fettsäuren",
+          "pictogram_name": "gesättigte Fettsäuren",
+          "category": "BIG9",
+          "quantity": 4.6,
+          "rda_percent": 23,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_GES_KOHL",
+          "name": "Kohlenhydrate",
+          "category": "BIG9",
+          "quantity": 11,
+          "rda_percent": 4,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_GES_ZUCK",
+          "name": "davon Zucker",
+          "pictogram_name": "Zuckerarten",
+          "category": "BIG9",
+          "quantity": 11,
+          "rda_percent": 12,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_GES_BALL",
+          "name": "Ballaststoffe",
+          "category": "BIG9",
+          "quantity": 0.5,
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_GES_EIW",
+          "name": "Eiweiss",
+          "category": "BIG9",
+          "quantity": 1.2,
+          "rda_percent": 2,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_KOCHSALZ",
+          "name": "Salz",
+          "pictogram_name": "Salz",
+          "category": "BIG9",
+          "quantity": 0.05,
+          "rda_percent": 1,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        }
+      ],
+      "base_description": "1 Reihe",
+      "base_quantity": 20,
+      "base_unit": "g"
+    }
+  },
+  "features": [
+    {
+      "label_code": "MISO_anzahlentnehmbarereinzelportionen",
+      "label": "Anzahl entnehmbarer Einzeleinheiten",
+      "values": [
+        {
+          "value_code": "NUMERIC_1.0",
+          "value": "1.0",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MISO_CLA_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_schachtel",
+          "value": "Schachtel"
+        }
+      ],
+      "category_code": "MISO_CLA_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_Lebensmittel_Schokolade_Sortiment",
+      "label": "Sortiment",
+      "values": [
+        {
+          "value_code": "MISO_Tafeln",
+          "value": "Tafeln"
+        }
+      ],
+      "category_code": "MISO_CLA_Schokolade_Lebensmittel_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_Lebensmittel_Schokolade_Themen",
+      "label": "Themen",
+      "values": [
+        {
+          "value_code": "MISO_WeisseSchokolade",
+          "value": "Weisse Schokolade"
+        }
+      ],
+      "category_code": "MISO_CLA_Schokolade_Lebensmittel_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_Lebensmittel_Schokolade_Submarken",
+      "label": "Submarken",
+      "values": [
+        {
+          "value_code": "MISO_Supreme",
+          "value": "Suprême"
+        }
+      ],
+      "category_code": "MISO_CLA_Schokolade_Lebensmittel_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_artvonbonbonsanderensuesswaren",
+      "label": "Art von Bonbons/anderen Süsswaren",
+      "values": [
+        {
+          "value_code": "MISO_artvonbonbonsanderensuesswaren_schokoladentafel",
+          "value": "Schokoladentafel"
+        }
+      ],
+      "category_code": "MISO_CLA_Suesswaren_SuesswarenSuessungsmittel_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_formdersuesswaren",
+      "label": "Form der Süsswaren",
+      "values": [
+        {
+          "value_code": "MISO_formdersuesswaren_tafel",
+          "value": "Tafel"
+        }
+      ],
+      "category_code": "MISO_CLA_Suesswaren_SuesswarenSuessungsmittel_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_artvonschokolade",
+      "label": "Art von Schokolade",
+      "values": [
+        {
+          "value_code": "MISO_artvonschokolade_weisseschokolade",
+          "value": "weisse Schokolade"
+        }
+      ],
+      "category_code": "MISO_CLA_Suesswaren_SuesswarenSuessungsmittel_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_hinzugefuegtezutaten",
+      "label": "Hinzugefügte Zutaten",
+      "values": [
+        {
+          "value_code": "MISO_hinzugefuegtezutaten_heidelbeere",
+          "value": "Heidelbeere"
+        },
+        {
+          "value_code": "MISO_hinzugefuegtezutaten_himbeere",
+          "value": "Himbeere"
+        }
+      ],
+      "category_code": "MISO_CLA_Suesswaren_SuesswarenSuessungsmittel_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    }
+  ],
+  "allergens": [
+    {
+      "code": "ALLG_MILCH",
+      "name": "Milch",
+      "contamination_code": "VORHANDEN",
+      "contamination": "vorhanden"
+    },
+    {
+      "code": "ALLG_SOJA",
+      "name": "Sojabohnen",
+      "contamination_code": "VORHANDEN",
+      "contamination": "vorhanden"
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/29933ebf1b9f4284b2907c48dee75a951fce5aae/supreme-framboise.jpg",
+    "stack": "https://image.migros.ch/{stack}/29933ebf1b9f4284b2907c48dee75a951fce5aae/supreme-framboise.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/24300b6ae7d3be2166081b524db6458ccca8bc7c/supreme-framboise.png",
+    "stack": "https://image.migros.ch/{stack}/24300b6ae7d3be2166081b524db6458ccca8bc7c/supreme-framboise.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "M",
+          "value": "Kolonial Standard"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "11144",
+          "value": "SUPREME SELECTION"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "regulated_description": "Feine weisse Schokolade mit Himbeergranulat und Vanillesamen",
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/100117700000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/supreme-framboise",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/100117700000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/supreme-framboise",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "regional_availability": {
+    "gmaa": {
+      "probability": 9
+    },
+    "gmbs": {
+      "probability": 20
+    },
+    "gmge": {
+      "probability": 33
+    },
+    "gmlu": {
+      "probability": 11
+    },
+    "gmnf": {
+      "probability": 12
+    },
+    "gmos": {
+      "probability": 14
+    },
+    "gmti": {
+      "probability": 12
+    },
+    "gmvd": {
+      "probability": 15
+    },
+    "gmvs": {
+      "probability": 15
+    },
+    "gmzh": {
+      "probability": 22
+    }
+  },
+  "updated_at": "2020-09-12T06:22:45+0200",
+  "base_unit": "CU",
+  "slugs": {
+    "de": "supreme-framboise",
+    "fr": "supreme-framboise",
+    "it": "supreme-framboise"
+  },
+  "receipt_text": "Suprême Framboise",
+  "main_supplier": {
+    "name": "CHOCOLAT FREY AG",
+    "id": "0003010000",
+    "supplier_product_id": "108019"
+  },
+  "price": {
+    "valid_from": "2018-12-13T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 2.75,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "100g"
+    },
+    "base": {
+      "price": 2.75,
+      "quantity": 100,
+      "unit": "g"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 1,
+    "average_all": 5
+  },
+  "data_source": "SAP-X11",
+  "origins": {
+    "producing_country": "Hergestellt in der Schweiz"
+  },
+  "ingredients": "Zucker, Kakaobutter, Voll<strong>milch</strong>pulver, Mager<strong>milch</strong>pulver, Himbeergranulat 3.5 % (Zucker, Himbeersaftkonzentrat, Fructose, natürliches Aroma), Emulgator: <strong>Soja</strong>lecithin, natürliche Aromen, Vanillesamen. Milch: 21 % mindestens in der Schokolade",
+  "allergen_text": "Kann Haselnüsse, Mandeln und Spuren anderer Schalenfrüchte (Nüsse) enthalten",
+  "package": {
+    "content": 100,
+    "content_unit_code": "g",
+    "content_unit": "Gramm",
+    "net_weight": 0.1,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogramm",
+    "precision": "exact",
+    "brutto_weight": 0.115,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 0.144,
+    "brutto_volume_unit_code": "cdm",
+    "height": 18.4,
+    "length": 0.8,
+    "width": 9.8,
+    "unit_dimension": "cm",
+    "price_comparison_content": 100,
+    "size": "100g"
+  },
+  "package_information": {
+    "tu": {
+      "brutto_weight": 2.364,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 3.32,
+      "brutto_volume_unit_code": "cdm",
+      "height": 10.1,
+      "length": 19,
+      "width": 17.3,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 20
+    },
+    "cu": {
+      "brutto_weight": 0.115,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0.144,
+      "brutto_volume_unit_code": "cdm",
+      "height": 18.4,
+      "length": 0.8,
+      "width": 9.8,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "lu": {
+      "brutto_weight": 535.624,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0.873,
+      "brutto_volume_unit_code": "m3",
+      "height": 90.9,
+      "length": 120,
+      "width": 80,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 4320
+    }
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "recipe_ingredient_ids": [
+    "7200736"
+  ],
+  "views": [
+    "all",
+    "browse"
+  ]
+}

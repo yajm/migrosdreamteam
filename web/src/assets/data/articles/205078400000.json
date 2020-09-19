@@ -1,0 +1,93 @@
+{
+  "name": "M-Classic Joghurt Mokka/Schokolade",
+  "regulated_description": "Joghurt mit Schokolade und Kaffee-Extrakt, 3,5% Fett im Milchanteil",
+  "image": {
+    "original": "https://image.migros.ch/original/9ed98db08bd7cd7a6ec2211f754ad2e5d1ac49c0/m-classic-joghurt-mokkaschokolade.jpg"
+  },
+  "price": {
+    "item": {
+      "price": 0.55
+    }
+  },
+  "nutrition_facts": {
+    "standard": {
+      "nutrients": {
+        "nutrients": [
+          {
+            "code": "PIM_NUT_ENERGIE",
+            "name": "Energie",
+            "pictogram_name": "Energie",
+            "category": "BIG9",
+            "quantity": 450,
+            "rda_percent_operator": "=",
+            "quantity_unit": "kJ",
+            "quantity_alternate": 107,
+            "quantity_alternate_unit": "kcal"
+          },
+          {
+            "code": "PIM_NUT_GES_FETT",
+            "name": "Fett",
+            "pictogram_name": "Fett",
+            "category": "BIG9",
+            "quantity": 4.6,
+            "rda_percent_operator": "=",
+            "quantity_unit": "g"
+          },
+          {
+            "code": "PIM_NUT_GESFETTS",
+            "name": "davon gesättigte Fettsäuren",
+            "pictogram_name": "gesättigte Fettsäuren",
+            "category": "BIG9",
+            "quantity": 2.8,
+            "rda_percent_operator": "=",
+            "quantity_unit": "g"
+          },
+          {
+            "code": "PIM_NUT_GES_KOHL",
+            "name": "Kohlenhydrate",
+            "category": "BIG9",
+            "quantity": 13,
+            "rda_percent_operator": "=",
+            "quantity_unit": "g"
+          },
+          {
+            "code": "PIM_NUT_GES_ZUCK",
+            "name": "davon Zucker",
+            "pictogram_name": "Zuckerarten",
+            "category": "BIG9",
+            "quantity": 12,
+            "rda_percent_operator": "=",
+            "quantity_unit": "g"
+          },
+          {
+            "code": "PIM_NUT_GES_BALL",
+            "name": "Ballaststoffe",
+            "category": "BIG9",
+            "quantity": 0,
+            "quantity_unit": "g"
+          },
+          {
+            "code": "PIM_NUT_GES_EIW",
+            "name": "Eiweiss",
+            "category": "BIG9",
+            "quantity": 3.3,
+            "rda_percent_operator": "=",
+            "quantity_unit": "g"
+          },
+          {
+            "code": "PIM_NUT_KOCHSALZ",
+            "name": "Salz",
+            "pictogram_name": "Salz",
+            "category": "BIG9",
+            "quantity": 0.1,
+            "rda_percent_operator": "=",
+            "quantity_unit": "g"
+          }
+        ],
+        "base_description": "enthalten",
+        "base_quantity": 100,
+        "base_unit": "g"
+      }
+    }
+  }
+}

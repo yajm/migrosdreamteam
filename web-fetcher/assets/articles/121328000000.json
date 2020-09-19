@@ -1,0 +1,453 @@
+{
+  "id": "121328000000",
+  "language": "de",
+  "name": "Feldschlösschen Weizen alkoholfrei",
+  "names": {
+    "name": "Feldschlösschen Weizen alkoholfrei"
+  },
+  "slug": "feldschloesschen-weizen-alkoholfrei-121328000000",
+  "boss_number": "010710380605",
+  "description": {
+    "text": "<p><strong>FELDSCHL&Ouml;SSCHEN WEIZENFRISCH, alkoholfrei</strong></p><p>Tr&uuml;bes alkoholfreies Biel mit Weizenmals und nat&uuml;rlichen Aromen</p>",
+    "source": "PIM"
+  },
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "source-qim-origins",
+    "source-qim-distributor",
+    "validity-range-not-set",
+    "source-qim-allergens",
+    "source-qim-fooddeclaration",
+    "source-qim-nutritionfacts",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "76403163"
+  ],
+  "brand": {
+    "id": "G55",
+    "name": "Feldschlösschen",
+    "slug": "feldschloesschen"
+  },
+  "categories": [
+    {
+      "code": "BeSS_01011008",
+      "name": "Apéro-Getränke",
+      "slug": "supermarkt/lebensmittel/getraenke-heiss-kalt/apero-getraenke",
+      "visible": true,
+      "parent_code": "BeSS_010110",
+      "image": {
+        "original": "https://image.migros.ch/original/b1d1c5474055c73040b8a2518ff75cef51cf3d4c/apero-getraenke.jpg",
+        "stack": "https://image.migros.ch/{stack}/b1d1c5474055c73040b8a2518ff75cef51cf3d4c/apero-getraenke.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010110",
+      "name": "Getränke heiss & kalt",
+      "slug": "supermarkt/lebensmittel/getraenke-heiss-kalt",
+      "visible": true,
+      "title": "Getränke aus der Migros löschen auch Ihren Durst",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/d04d95fbc2e1b4ada4783d2976d37a962a0318a1/getraenke-heiss-kalt.jpg",
+        "stack": "https://image.migros.ch/{stack}/d04d95fbc2e1b4ada4783d2976d37a962a0318a1/getraenke-heiss-kalt.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "nutrition_facts": {
+    "standard": {
+      "nutrients": [
+        {
+          "code": "PIM_NUT_ENERGIE",
+          "name": "Energie",
+          "pictogram_name": "Energie",
+          "category": "BIG9",
+          "quantity": 138,
+          "nutrition_operator": "=",
+          "quantity_unit": "kJ",
+          "quantity_alternate": 33,
+          "quantity_alternate_unit": "kcal"
+        },
+        {
+          "code": "PIM_NUT_FETT",
+          "name": "Fett",
+          "pictogram_name": "Fett",
+          "category": "BIG9",
+          "quantity": 0,
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_FETT_GES",
+          "name": "davon gesättigte Fettsäuren",
+          "pictogram_name": "gesättigte Fettsäuren",
+          "category": "BIG9",
+          "quantity": 0,
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_KOHLENHY",
+          "name": "Kohlenhydrate",
+          "category": "BIG9",
+          "quantity": 6,
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_ZUCKER",
+          "name": "davon Zucker",
+          "pictogram_name": "Zuckerarten",
+          "category": "BIG9",
+          "quantity": 0.5,
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_PROTEINE",
+          "name": "Eiweiss",
+          "category": "BIG9",
+          "quantity": 0.5,
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_KOCHSALZ",
+          "name": "Salz",
+          "pictogram_name": "Salz",
+          "category": "BIG9",
+          "quantity": 0,
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        }
+      ],
+      "base_quantity": 100,
+      "base_unit": "ml"
+    }
+  },
+  "features": [
+    {
+      "label_code": "MISO_produktionsanspruch",
+      "label": "Produktionsverfahren",
+      "values": [
+        {
+          "value_code": "MISO_produktionsanspruch_mitnatuerlichenaromen",
+          "value": "Mit natürlichen Aromen"
+        }
+      ],
+      "category_code": "MISO_CLA_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_dose",
+          "value": "Dose"
+        }
+      ],
+      "category_code": "MISO_CLA_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_kohlensaeurehaltig",
+      "label": "Kohlensäurehaltig",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MISO_CLA_Getraenke_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_alkoholfrei",
+      "label": "Alkoholfrei",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MISO_CLA_Getraenke_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_artvonerfrischungsgetraenk",
+      "label": "Art von Erfrischungsgetränk",
+      "values": [
+        {
+          "value_code": "MISO_artvonerfrischungsgetraenk_bier",
+          "value": "Bier"
+        }
+      ],
+      "category_code": "MISO_CLA_AlkoholfreieGetraenketrinkfertig_Getraenke_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_naturtrueb",
+      "label": "Naturtrüb",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MISO_CLA_AlkoholfreieGetraenketrinkfertig_Getraenke_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    }
+  ],
+  "allergens": [
+    {
+      "code": "GB",
+      "name": "Gerste und Gerstenerzeugnisse",
+      "contamination_code": "VORHANDEN",
+      "contamination": "vorhanden"
+    },
+    {
+      "code": "UW",
+      "name": "Weizen und Weizenderivate",
+      "contamination_code": "VORHANDEN",
+      "contamination": "vorhanden"
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/d14e8c0b15d85d5be716dab92c9d2837e0b70617/feldschloesschen-weizen-alkoholfrei.jpg",
+    "stack": "https://image.migros.ch/{stack}/d14e8c0b15d85d5be716dab92c9d2837e0b70617/feldschloesschen-weizen-alkoholfrei.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/1ea7be6951cf3d167ebc87a479c886093b4094ad/feldschloesschen-weizen-alkoholfrei.png",
+    "stack": "https://image.migros.ch/{stack}/1ea7be6951cf3d167ebc87a479c886093b4094ad/feldschloesschen-weizen-alkoholfrei.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "A",
+          "value": "Aufreissartikel"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "10720",
+          "value": "AF BIER"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "regulated_description": "Trübes alkoholfreies Bier mit Weizenmalz und natürlichen Aromen",
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/121328000000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/feldschloesschen-weizen-alkoholfrei-121328000000",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/121328000000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/feldschloesschen-weizen-alkoholfrei-121328000000",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "regional_availability": {
+    "gmaa": {
+      "probability": 44
+    },
+    "gmbs": {
+      "probability": 56
+    },
+    "gmge": {
+      "probability": 41
+    },
+    "gmlu": {
+      "probability": 17
+    },
+    "gmnf": {
+      "probability": 51
+    },
+    "gmos": {
+      "probability": 36
+    },
+    "gmti": {
+      "probability": 47
+    },
+    "gmvd": {
+      "probability": 66
+    },
+    "gmvs": {
+      "probability": 44
+    },
+    "gmzh": {
+      "probability": 45
+    }
+  },
+  "updated_at": "2020-09-16T05:43:39+0200",
+  "base_unit": "CU",
+  "slugs": {
+    "de": "feldschloesschen-weizen-alkoholfrei-121328000000",
+    "fr": "feldschloesschen-blanche-sans-alcool",
+    "it": "feldschloesschen-bianca-senza-alcool-121328000000"
+  },
+  "receipt_text": "Feldschlösschen Weizen",
+  "main_supplier": {
+    "name": "Feldschloesschen Getraenke A",
+    "id": "0010000500"
+  },
+  "price": {
+    "valid_from": "2018-05-10T00:00:00+0200",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 2,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "500ml"
+    },
+    "base": {
+      "price": 0.4,
+      "quantity": 100,
+      "unit": "ml"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 4,
+    "average_all": 5
+  },
+  "data_source": "SAP-X11",
+  "origins": {},
+  "distributor": {
+    "name": "Feldschlösschen Getränke AG",
+    "address": "Theophil-Roniger-Strasse, 4310 Rheinfelden"
+  },
+  "ingredients": "Wasser, GERSTENMALZ, WEIZENMALZ (26%), Hopfen, natürliche Aromen",
+  "package": {
+    "content": 500,
+    "content_unit_code": "ml",
+    "content_unit": "Mililiter",
+    "net_weight": 0.5,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogramm",
+    "brutto_weight": 0.525,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 0.732,
+    "brutto_volume_unit_code": "cdm",
+    "height": 16.8,
+    "length": 6.6,
+    "width": 6.6,
+    "unit_dimension": "cm",
+    "price_comparison_content": 100,
+    "size": "500ml"
+  },
+  "package_information": {
+    "cu": {
+      "brutto_weight": 0.525,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0.732,
+      "brutto_volume_unit_code": "cdm",
+      "height": 16.8,
+      "length": 6.6,
+      "width": 6.6,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    }
+  },
+  "declarations": {
+    "food": {
+      "features": [
+        {
+          "label_code": "GDSN_M109_PERCENTAGE_OF_ALCOHOL_BY_VOLUME",
+          "label": "Volumenalkohol in %",
+          "values": [
+            {
+              "value_code": "NUMERIC_0.5",
+              "value": "0.5",
+              "numeric_value": 0.5
+            }
+          ],
+          "category_code": "GDSN",
+          "top_fact": false,
+          "unit_code": "prozent",
+          "unit": "Prozent",
+          "unit_symbol": "%"
+        }
+      ]
+    }
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "recipe_ingredient_ids": [
+    "14654",
+    "59059"
+  ],
+  "views": [
+    "all",
+    "browse"
+  ]
+}

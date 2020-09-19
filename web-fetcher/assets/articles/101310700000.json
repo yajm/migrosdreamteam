@@ -1,0 +1,709 @@
+{
+  "id": "101310700000",
+  "language": "de",
+  "name": "Alnatura Erdnuss Krokant Riegel",
+  "names": {
+    "name": "Alnatura Erdnuss Krokant Riegel"
+  },
+  "slug": "alnatura-erdnuss-krokant-riegel",
+  "boss_number": "010110014605",
+  "description": {
+    "text": "Bio Erdnuss-Krokant-Riegel. Ein knackig-s&uuml;sser Riegel mit aromatischen Erdn&uuml;ssen und Rohrohrzucker. Alle Zutaten f&uuml;r den Alnatura Riegel Erdnuss-Krokant stammen aus Bio-Anbau und sind vegan.",
+    "source": "PIM"
+  },
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "source-qim-origins",
+    "source-qim-distributor",
+    "validity-range-not-set",
+    "source-qim-allergens",
+    "source-qim-fooddeclaration",
+    "source-qim-nutritionfacts",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "42328209",
+    "7613312096536",
+    "42115366"
+  ],
+  "brand": {
+    "id": "D06",
+    "name": "Alnatura",
+    "slug": "alnatura",
+    "links": {
+      "homepage": {
+        "url": "https://alnatura.migros.ch/de.html",
+        "name": "Homepage",
+        "type": "info",
+        "purchasable": false
+      }
+    },
+    "image": {
+      "original": "https://image.migros.ch/original/2c0deb7a67525727ed8213ce2b42bc8a6eb35567/alnatura.jpg",
+      "stack": "https://image.migros.ch/{stack}/2c0deb7a67525727ed8213ce2b42bc8a6eb35567/alnatura.jpg"
+    }
+  },
+  "labels": [
+    {
+      "id": "L55",
+      "name": "Veganblume",
+      "slug": "veganblume",
+      "image": {
+        "original": "https://image.migros.ch/original/3eaf56466dd201e7010a81e9bc118d140e93b71b/veganblume.jpg",
+        "stack": "https://image.migros.ch/{stack}/3eaf56466dd201e7010a81e9bc118d140e93b71b/veganblume.jpg"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_010108",
+      "name": "Süssigkeiten",
+      "slug": "supermarkt/lebensmittel/suessigkeiten",
+      "visible": true,
+      "title": "Süssigkeiten aus Ihrer Migros: für Naschkatzen und Schleckmäuler",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/a9c80f4e896b5ebdd3b7ebbee11f956c8ff157cf/suessigkeiten.jpg",
+        "stack": "https://image.migros.ch/{stack}/a9c80f4e896b5ebdd3b7ebbee11f956c8ff157cf/suessigkeiten.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "ALNA_CAT_SchokoladeundGetreideriegel_SchokoladeBiscuitsundsuesseSnacks",
+        "name": "Schokolade- und Getreideriegel",
+        "slug": "alnatura/schokolade-biscuits-und-suesse-snacks/schokolade-und-getreideriegel",
+        "visible": true,
+        "parent_code": "ALNA_CAT_SchokoladeBiscuitsundsuesseSnacks",
+        "level": 3
+      },
+      {
+        "code": "ALNA_CAT_SchokoladeBiscuitsundsuesseSnacks",
+        "name": "Schokolade, Biscuits und süsse Snacks",
+        "slug": "alnatura/schokolade-biscuits-und-suesse-snacks",
+        "visible": true,
+        "parent_code": "BeSS_97",
+        "level": 2
+      },
+      {
+        "code": "BeSS_97",
+        "name": "Alnatura",
+        "slug": "alnatura",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "nutrition_facts": {
+    "standard": {
+      "nutrients": [
+        {
+          "code": "PIM_NUT_ENERGIE",
+          "name": "Energie",
+          "pictogram_name": "Energie",
+          "category": "BIG9",
+          "quantity": 2229,
+          "nutrition_operator": "~",
+          "quantity_unit": "kJ",
+          "quantity_alternate": 535,
+          "quantity_alternate_unit": "kcal"
+        },
+        {
+          "code": "PIM_NUT_FETT",
+          "name": "Fett",
+          "pictogram_name": "Fett",
+          "category": "BIG9",
+          "quantity": 32,
+          "nutrition_operator": "~",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_FETT_GES",
+          "name": "davon gesättigte Fettsäuren",
+          "pictogram_name": "gesättigte Fettsäuren",
+          "category": "BIG9",
+          "quantity": 4.6,
+          "nutrition_operator": "~",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_KOHLENHY",
+          "name": "Kohlenhydrate",
+          "category": "BIG9",
+          "quantity": 38,
+          "nutrition_operator": "~",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_ZUCKER",
+          "name": "davon Zucker",
+          "pictogram_name": "Zuckerarten",
+          "category": "BIG9",
+          "quantity": 29,
+          "nutrition_operator": "~",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_GES_BALL",
+          "name": "Ballaststoffe",
+          "category": "BIG9",
+          "quantity": 7.2,
+          "nutrition_operator": "~",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_PROTEINE",
+          "name": "Eiweiss",
+          "category": "BIG9",
+          "quantity": 20,
+          "nutrition_operator": "~",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_KOCHSALZ",
+          "name": "Salz",
+          "pictogram_name": "Salz",
+          "category": "BIG9",
+          "quantity": 0.02,
+          "nutrition_operator": "~",
+          "quantity_unit": "g"
+        }
+      ],
+      "base_quantity": 100,
+      "base_unit": "g",
+      "preparation_state": "UNPREPARED"
+    },
+    "portion": {
+      "nutrients": [
+        {
+          "code": "PIM_NUT_ENERGIE",
+          "name": "Energie",
+          "pictogram_name": "Energie",
+          "category": "BIG9",
+          "quantity": 662,
+          "nutrition_operator": "~",
+          "quantity_unit": "kJ",
+          "quantity_alternate": 159,
+          "quantity_alternate_unit": "kcal"
+        },
+        {
+          "code": "PIM_NUT_FETT",
+          "name": "Fett",
+          "pictogram_name": "Fett",
+          "category": "BIG9",
+          "quantity": 9.6,
+          "nutrition_operator": "~",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_FETT_GES",
+          "name": "davon gesättigte Fettsäuren",
+          "pictogram_name": "gesättigte Fettsäuren",
+          "category": "BIG9",
+          "quantity": 1.4,
+          "nutrition_operator": "~",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_KOHLENHY",
+          "name": "Kohlenhydrate",
+          "category": "BIG9",
+          "quantity": 11,
+          "nutrition_operator": "~",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_ZUCKER",
+          "name": "davon Zucker",
+          "pictogram_name": "Zuckerarten",
+          "category": "BIG9",
+          "quantity": 8.7,
+          "nutrition_operator": "~",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_GES_BALL",
+          "name": "Ballaststoffe",
+          "category": "BIG9",
+          "quantity": 2.2,
+          "nutrition_operator": "~",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_PROTEINE",
+          "name": "Eiweiss",
+          "category": "BIG9",
+          "quantity": 6,
+          "nutrition_operator": "~",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_KOCHSALZ",
+          "name": "Salz",
+          "pictogram_name": "Salz",
+          "category": "BIG9",
+          "quantity": 0.01,
+          "nutrition_operator": "<",
+          "quantity_unit": "g"
+        }
+      ],
+      "serving_description": "pro Riegel",
+      "serving_size_description": "30 Gramm",
+      "preparation_state": "UNPREPARED"
+    }
+  },
+  "features": [
+    {
+      "label_code": "MISO_produktionsanspruch",
+      "label": "Produktionsverfahren",
+      "values": [
+        {
+          "value_code": "MISO_produktionsanspruch_bioproduktion",
+          "value": "Bio-Produktion"
+        }
+      ],
+      "category_code": "MISO_CLA_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_artvonbonbonsanderensuesswaren",
+      "label": "Art von Bonbons/anderen Süsswaren",
+      "values": [
+        {
+          "value_code": "MISO_artvonbonbonsanderensuesswaren_erdnusskorkantriegel",
+          "value": "Erdnuss-Korkant-Riegel"
+        }
+      ],
+      "category_code": "MISO_CLA_Suesswaren_SuesswarenSuessungsmittel_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_formdersuesswaren",
+      "label": "Form der Süsswaren",
+      "values": [
+        {
+          "value_code": "MISO_formdersuesswaren_riegel",
+          "value": "Riegel"
+        }
+      ],
+      "category_code": "MISO_CLA_Suesswaren_SuesswarenSuessungsmittel_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_mitnuessen",
+      "label": "Mit Nüssen",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MISO_CLA_Suesswaren_SuesswarenSuessungsmittel_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_hinzugefuegtezutaten",
+      "label": "Hinzugefügte Zutaten",
+      "values": [
+        {
+          "value_code": "MISO_hinzugefuegtezutaten_erdnuesse",
+          "value": "Erdnüsse"
+        },
+        {
+          "value_code": "MISO_hinzugefuegtezutaten_mandeln",
+          "value": "Mandeln"
+        }
+      ],
+      "category_code": "MISO_CLA_Suesswaren_SuesswarenSuessungsmittel_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_einzelnverpackt",
+      "label": "Einzeln verpackt",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MISO_CLA_Suesswaren_SuesswarenSuessungsmittel_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_VEGETARIANISM",
+      "label": "Vegetarismus",
+      "values": [
+        {
+          "value_code": "MAPI_VEGETARIANISM_vegan",
+          "value": "vegan"
+        }
+      ],
+      "category_code": "MAPI_VEGETARIANISM",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ALLERGENES",
+      "label": "Allergenauslobungen",
+      "values": [
+        {
+          "value_code": "MAPI_ALLERGENES_laktosefrei",
+          "value": "Laktosefrei"
+        }
+      ],
+      "category_code": "MAPI_ALLERGENES",
+      "top_fact": false
+    }
+  ],
+  "allergens": [
+    {
+      "code": "ALLG_MANDELN",
+      "name": "Mandeln und Mandelerzeugnisse",
+      "contamination_code": "KANN_ENTHALTEN",
+      "contamination": "kann enthalten"
+    },
+    {
+      "code": "ALLG_SESAM",
+      "name": "Sesamsamen und Sesamsamenderivate",
+      "contamination_code": "KANN_ENTHALTEN",
+      "contamination": "kann enthalten"
+    },
+    {
+      "code": "ALLG_ERDNUSS",
+      "name": "Erdnüsse und Erdnussderivate",
+      "contamination_code": "VORHANDEN",
+      "contamination": "vorhanden"
+    },
+    {
+      "code": "ALLG_NUSS",
+      "name": "Nüsse und Nussderivate. (Kann Mandeln, Haselnüsse, Walnüsse, Cashewnüsse etc. einschließen)",
+      "contamination_code": "KANN_ENTHALTEN",
+      "contamination": "kann enthalten"
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/20d29864e61722a4808d1c1874572ad5f1696d27/alnatura-erdnuss-krokant-riegel.jpg",
+    "stack": "https://image.migros.ch/{stack}/20d29864e61722a4808d1c1874572ad5f1696d27/alnatura-erdnuss-krokant-riegel.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/ee9b81f22bdeaa7e5ac52ba831d066f047db65da/alnatura-erdnuss-krokant-riegel.png",
+    "stack": "https://image.migros.ch/{stack}/ee9b81f22bdeaa7e5ac52ba831d066f047db65da/alnatura-erdnuss-krokant-riegel.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "M",
+          "value": "Kolonial Standard"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "11121",
+          "value": "ALNATURA CHOCO SNACKS"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUSTOMS_POSITION",
+      "values": [
+        {
+          "value_code": "2008.1190"
+        }
+      ],
+      "category_code": "MAPI_CUSTOMS_POSITION",
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "regulated_description": "Bio Erdnuss-Krokant-Riegel",
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/101310700000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/alnatura-erdnuss-krokant-riegel",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/101310700000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/alnatura-erdnuss-krokant-riegel",
+      "type": "info",
+      "purchasable": false
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/3290624",
+      "app_url": "leshop:///catalog/article/detail?ean=42328209",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/alnatura-erdnuss-krokant-riegel",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "regional_availability": {
+    "gmaa": {
+      "probability": 35
+    },
+    "gmbs": {
+      "probability": 56
+    },
+    "gmge": {
+      "probability": 54
+    },
+    "gmlu": {
+      "probability": 14
+    },
+    "gmnf": {
+      "probability": 33
+    },
+    "gmos": {
+      "probability": 25
+    },
+    "gmti": {
+      "probability": 16
+    },
+    "gmvd": {
+      "probability": 26
+    },
+    "gmvs": {
+      "probability": 31
+    },
+    "gmzh": {
+      "probability": 46
+    }
+  },
+  "updated_at": "2020-09-16T06:49:25+0200",
+  "base_unit": "CU",
+  "slugs": {
+    "de": "alnatura-erdnuss-krokant-riegel",
+    "fr": "alnatura-barre-nougatine-cacahuete",
+    "it": "alnatura-barrette-croccante-arachidi"
+  },
+  "receipt_text": "Alnatura Erdnuss Kroka",
+  "main_supplier": {
+    "name": "Alnatura Produktions-",
+    "id": "0010030436",
+    "supplier_product_id": "127422"
+  },
+  "price": {
+    "valid_from": "2018-01-29T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 0.7,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "30g"
+    },
+    "base": {
+      "price": 2.33,
+      "quantity": 100,
+      "unit": "g"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 2,
+    "average_all": 3.5
+  },
+  "data_source": "SAP-X11",
+  "origins": {},
+  "distributor": {
+    "name": "Alnatura GmbH",
+    "address": "Mahatma-Gandhi-Straße 7, 64295 Darmstadt"
+  },
+  "ingredients": "ERDNÜSSE* 65 %, Glukosesirup*, Rohrohrzucker**aus biologischer Landwirtschaft. Kann Spuren Mandel, Haselnuss, Cashewnuss und Sesam enthalten.",
+  "package": {
+    "content": 30,
+    "content_unit_code": "g",
+    "content_unit": "Gramm",
+    "net_weight": 0.03,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogramm",
+    "brutto_weight": 0.031,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 0.043,
+    "brutto_volume_unit_code": "cdm",
+    "height": 4,
+    "length": 1,
+    "width": 10.8,
+    "unit_dimension": "cm",
+    "price_comparison_content": 100,
+    "size": "30g"
+  },
+  "package_information": {
+    "tu": {
+      "brutto_weight": 0.839,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 1.973,
+      "brutto_volume_unit_code": "cdm",
+      "height": 6.7,
+      "length": 21.5,
+      "width": 13.7,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 25
+    },
+    "cu": {
+      "brutto_weight": 0.031,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0.043,
+      "brutto_volume_unit_code": "cdm",
+      "height": 4,
+      "length": 1,
+      "width": 10.8,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "lu": {
+      "brutto_weight": 352.21,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0.624,
+      "brutto_volume_unit_code": "m3",
+      "height": 84.5,
+      "length": 120,
+      "width": 80,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 9750
+    }
+  },
+  "declarations": {
+    "food": {
+      "features": [
+        {
+          "label_code": "GDSN_M281_NetContent",
+          "label": "Nettofüllmenge Wert",
+          "values": [
+            {
+              "value_code": "NUMERIC_30",
+              "value": "30",
+              "numeric_value": 30
+            }
+          ],
+          "category_code": "GDSN",
+          "top_fact": false,
+          "unit_code": "g"
+        },
+        {
+          "label_code": "GDSN_M362_ConsumerStorageInstructions",
+          "label": "Aufbewahrungshinweise für den Konsumenten",
+          "values": [
+            {
+              "value": "Trocken lagern und vor Wärme schützen."
+            }
+          ],
+          "category_code": "GDSN",
+          "top_fact": false
+        },
+        {
+          "label_code": "MAPI_CERTIFICATION_BODY",
+          "label": "Zertifizierungsstellen für Bio und/oder Berg/Alp inkl. Zertifizierungsnummer",
+          "values": [
+            {
+              "value": "PL-EKO-07"
+            }
+          ],
+          "category_code": "GDSN",
+          "top_fact": false
+        },
+        {
+          "label_code": "GDSN_M236_IsVariableUnit",
+          "label": "Mengenvariabler Artikel",
+          "values": [
+            {
+              "value_code": "BOOLEAN_FALSE",
+              "value": "false",
+              "boolean_value": false
+            }
+          ],
+          "category_code": "GDSN",
+          "top_fact": false
+        },
+        {
+          "label_code": "GDSN_M278_NetWeight",
+          "label": "Nettogewicht",
+          "values": [
+            {
+              "value_code": "NUMERIC_30",
+              "value": "30",
+              "numeric_value": 30
+            }
+          ],
+          "category_code": "GDSN",
+          "top_fact": false,
+          "unit_code": "g",
+          "unit": "Gramm",
+          "unit_symbol": "g"
+        }
+      ]
+    }
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "recipe_ingredient_ids": [
+    "10000"
+  ],
+  "views": [
+    "all",
+    "browse"
+  ]
+}

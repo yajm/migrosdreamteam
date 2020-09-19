@@ -1,0 +1,563 @@
+{
+  "id": "704417200000",
+  "language": "de",
+  "name": "LEDVANCE LED Nightlux",
+  "names": {
+    "name": "LEDVANCE LED Nightlux",
+    "short_name": "LED Nightlux"
+  },
+  "slug": "ledvance-led-nightlux",
+  "boss_number": "150332225005",
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03"
+  },
+  "tags": [
+    "source-pex",
+    "near-non-food",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "4058075027213",
+    "4058075260672"
+  ],
+  "brand": {
+    "id": "W41",
+    "name": "LEDVANCE",
+    "slug": "ledvance",
+    "image": {
+      "original": "https://image.migros.ch/original/47e03c4b5a56fa028b83315ac758e30ca2ff8b79/ledvance.jpg",
+      "stack": "https://image.migros.ch/{stack}/47e03c4b5a56fa028b83315ac758e30ca2ff8b79/ledvance.jpg"
+    }
+  },
+  "categories": [
+    {
+      "code": "BeSS_01040606",
+      "name": "Taschenlampen",
+      "slug": "supermarkt/haushalt-reinigung/leuchtmittel/taschenlampen",
+      "visible": true,
+      "parent_code": "BeSS_010406",
+      "level": 4
+    },
+    {
+      "code": "BeSS_010406",
+      "name": "Leuchtmittel",
+      "slug": "supermarkt/haushalt-reinigung/leuchtmittel",
+      "visible": true,
+      "title": "Leuchtmittel aus der Migros – Lampen für jeden Zweck",
+      "parent_code": "BeSS_0104",
+      "image": {
+        "original": "https://image.migros.ch/original/cab4a247d35b1ab62be8af52a36f3ea62b4bdf2a/leuchtmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/cab4a247d35b1ab62be8af52a36f3ea62b4bdf2a/leuchtmittel.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0104",
+      "name": "Haushalt & Reinigung",
+      "slug": "supermarkt/haushalt-reinigung",
+      "visible": true,
+      "title": "Reinigung mit der Migros – Reiniger für Haushalt und Garten",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/e5da3225980543e0c7ddcc443069f331d94e8439/haushalt-reinigung.png",
+        "stack": "https://image.migros.ch/{stack}/e5da3225980543e0c7ddcc443069f331d94e8439/haushalt-reinigung.png"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_Taschenlampe_LeuchtmittelKerzen_HaushaltReinigung",
+        "name": "Taschenlampe",
+        "slug": "amigos/haushalt-reinigung/leuchtmittel-kerzen/taschenlampe",
+        "visible": true,
+        "parent_code": "AMIG_CAT_LeuchtmittelKerzen_HaushaltReinigung",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_LeuchtmittelKerzen_HaushaltReinigung",
+        "name": "Leuchtmittel & Kerzen",
+        "slug": "amigos/haushalt-reinigung/leuchtmittel-kerzen",
+        "visible": true,
+        "parent_code": "AMIG_CAT_HaushaltReinigung",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_HaushaltReinigung",
+        "name": "Haushalt & Reinigung",
+        "slug": "amigos/haushalt-reinigung",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "features": [
+    {
+      "label_code": "miso_anzahl",
+      "label": "Anzahl",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1 Stk.",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MISO_CLA_Leuchtmittel_Verbrauch_Haushalt_Alle",
+      "top_fact": false,
+      "unit_code": "Stk.",
+      "unit": "Stück",
+      "unit_symbol": "Stk."
+    },
+    {
+      "label_code": "miso_farbe",
+      "label": "Farbe",
+      "values": [
+        {
+          "value_code": "MISO_farbe_silbern",
+          "value": "silbern"
+        }
+      ],
+      "category_code": "MISO_CLA_Leuchtmittel_Verbrauch_Haushalt_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "miso_dimmbar",
+      "label": "Dimmbar",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "Nein",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MISO_CLA_Leuchtmittel_Verbrauch_Haushalt_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "miso_lichtleistung",
+      "label": "Bemessungslichtstrom [lm]",
+      "values": [
+        {
+          "value_code": "NUMERIC_14",
+          "value": "14 lm",
+          "numeric_value": 14
+        }
+      ],
+      "category_code": "MISO_CLA_Leuchtmittel_Verbrauch_Haushalt_Alle",
+      "top_fact": false,
+      "unit_code": "lm",
+      "unit": "Lichtstrom (Lumen)",
+      "unit_symbol": "lm"
+    }
+  ],
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    }
+  },
+  "image": {
+    "original": "https://image.migros.ch/original/8911d3e6fd0971948b37541029c51ec4332690bf/ledvance-led-nightlux.jpg",
+    "stack": "https://image.migros.ch/{stack}/8911d3e6fd0971948b37541029c51ec4332690bf/ledvance-led-nightlux.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/5d8c97bd770f4124c218c1e32bfa55553ba8edd3/ledvance-led-nightlux.png",
+    "stack": "https://image.migros.ch/{stack}/5d8c97bd770f4124c218c1e32bfa55553ba8edd3/ledvance-led-nightlux.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_RETURNABLE",
+      "label": "Rückgabe",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "true",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MAPI_RETURNABLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_EXCLUDE_FROM_COMPARISON_ENGINES",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "false",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_EXCLUDE_FROM_COMPARISON_ENGINES",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_DEFAULT_LOGISTIC_TYPE",
+      "values": [
+        {
+          "value_code": "55",
+          "value": "Versandart Paket"
+        }
+      ],
+      "category_code": "MAPI_DEFAULT_LOGISTIC_TYPE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Normalposition"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "HART"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUSTOMS_POSITION",
+      "values": [
+        {
+          "value_code": "NUMERIC_54039900000",
+          "value": "54039900000",
+          "numeric_value": 54039900000
+        }
+      ],
+      "category_code": "MAPI_CUSTOMS_POSITION",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRESENTATION",
+      "values": [
+        {
+          "value_code": "H",
+          "value": "hängend"
+        }
+      ],
+      "category_code": "MAPI_PRESENTATION",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_RISK_CLASS",
+      "values": [
+        {
+          "value_code": "2",
+          "value": "2 (medium)"
+        }
+      ],
+      "category_code": "MAPI_RISK_CLASS",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_KUBE_TUKA",
+      "values": [
+        {
+          "value_code": "BLANK",
+          "value": "KUBE und TUKA nicht zugelassen"
+        }
+      ],
+      "category_code": "MAPI_KUBE_TUKA",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HART",
+          "value": "Hartwaren  Handelsware"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "H",
+          "value": "Hartwaren"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "60510",
+          "value": "TASCHENLAMPEN"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 1,
+    "percentage": 7.7
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/704417200000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/ledvance-led-nightlux",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/704417200000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/ledvance-led-nightlux",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "regional_availability": {
+    "gmaa": {
+      "probability": 64
+    },
+    "gmbs": {
+      "probability": 69
+    },
+    "gmge": {
+      "probability": 74
+    },
+    "gmlu": {
+      "probability": 44
+    },
+    "gmnf": {
+      "probability": 78
+    },
+    "gmos": {
+      "probability": 72
+    },
+    "gmti": {
+      "probability": 72
+    },
+    "gmvd": {
+      "probability": 66
+    },
+    "gmvs": {
+      "probability": 64
+    },
+    "gmzh": {
+      "probability": 64
+    }
+  },
+  "updated_at": "2020-09-16T06:09:47+0200",
+  "base_unit": "CU",
+  "slugs": {
+    "de": "ledvance-led-nightlux",
+    "fr": "ledvance-led-nightlux",
+    "it": "ledvance-led-nightlux"
+  },
+  "receipt_text": "LEDVANCE LED Nightlux",
+  "short_description": "-Batteriebetrieb mit 3x 1.5V AAA (inbegriffen)",
+  "new_product": {
+    "from": "2017-02-13T00:00:00+0100",
+    "to": "2017-02-27T00:00:00+0100"
+  },
+  "main_supplier": {
+    "name": "LEDVANCE AG",
+    "id": "0010005695",
+    "supplier_product_id": "4058075027213"
+  },
+  "price": {
+    "valid_from": "2018-01-30T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 15.95,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "1 Stück"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "data_source": "SAP-X12",
+  "origins": {
+    "producing_country": "China"
+  },
+  "package": {
+    "content": 1,
+    "content_unit_code": "cu",
+    "net_weight": 0.098,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogramm",
+    "brutto_weight": 0.118,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 0.68,
+    "brutto_volume_unit_code": "cdm",
+    "height": 19.5,
+    "length": 2.5,
+    "width": 14,
+    "unit_dimension": "cm"
+  },
+  "package_information": {
+    "cu": {
+      "brutto_weight": 0.118,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0.68,
+      "brutto_volume_unit_code": "cdm",
+      "height": 19.5,
+      "length": 2.5,
+      "width": 14,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "tuv": {
+      "brutto_weight": 0.88,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 5.355,
+      "brutto_volume_unit_code": "cdm",
+      "height": 21,
+      "length": 17,
+      "width": 15,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 6
+    },
+    "tue": {
+      "brutto_weight": 0.817,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 8.873,
+      "brutto_volume_unit_code": "cdm",
+      "height": 21,
+      "length": 15.4,
+      "width": 16.3,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 6
+    },
+    "lu": {
+      "number_of_base_units": 1470
+    }
+  },
+  "warranty_months": 24,
+  "quantity_on_stock": 462,
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "recipe_ingredient_ids": [
+    "10000"
+  ],
+  "views": [
+    "all",
+    "browse"
+  ]
+}

@@ -1,0 +1,727 @@
+{
+  "id": "104211900000",
+  "language": "de",
+  "name": "Farmer Plus Protein",
+  "names": {
+    "name": "Farmer Plus Protein"
+  },
+  "slug": "farmer-plus-protein",
+  "boss_number": "010310521605",
+  "description": {
+    "text": "Dieses knusprige, vegane Farmer Plus M&uuml;esli Protein mit Soja, Bananen und Dinkelflakes ist eine sehr gute Quelle f&uuml;r Eiweiss (Protein).",
+    "source": "PIM"
+  },
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "source-qim-origins",
+    "validity-range-not-set",
+    "source-qim-allergens",
+    "source-qim-fooddeclaration",
+    "source-qim-nutritionfacts",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7613312091951"
+  ],
+  "brand": {
+    "id": "052",
+    "name": "Farmer",
+    "slug": "farmer",
+    "image": {
+      "original": "https://image.migros.ch/original/3c1bd7ea87cddf27b0b1e57b502cca4f6c01f4b1/farmer.jpg",
+      "stack": "https://image.migros.ch/{stack}/3c1bd7ea87cddf27b0b1e57b502cca4f6c01f4b1/farmer.jpg"
+    }
+  },
+  "labels": [
+    {
+      "id": "L57",
+      "name": "V-vegan",
+      "slug": "v-vegan",
+      "image": {
+        "original": "https://image.migros.ch/original/9425b8ea6312342ddd2d0dc87e65567c88e1b757/v-vegan.jpg",
+        "stack": "https://image.migros.ch/{stack}/9425b8ea6312342ddd2d0dc87e65567c88e1b757/v-vegan.jpg"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_01011201",
+      "name": "Müesli",
+      "slug": "supermarkt/lebensmittel/mueesli-cerealien/mueesli",
+      "visible": true,
+      "parent_code": "BeSS_010112",
+      "image": {
+        "original": "https://image.migros.ch/original/33c958e5d8cb6d7719833c9e1bf8fe39691a6ed9/mueesli.jpg",
+        "stack": "https://image.migros.ch/{stack}/33c958e5d8cb6d7719833c9e1bf8fe39691a6ed9/mueesli.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010112",
+      "name": "Müesli & Cerealien",
+      "slug": "supermarkt/lebensmittel/mueesli-cerealien",
+      "visible": true,
+      "title": "Cerealien von der Migros &ndash; für einen guten Start in den Tag",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/94adab320c7d6778bba96c16ad7b18a493850519/mueesli-cerealien.jpg",
+        "stack": "https://image.migros.ch/{stack}/94adab320c7d6778bba96c16ad7b18a493850519/mueesli-cerealien.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_Mueesli_MueesliGetreideflocken_MueesliCerealienBrotaufstriche",
+        "name": "Müesli",
+        "slug": "amigos/mueesli-cerealien-brotaufstriche/mueesli-getreideflocken/mueesli",
+        "visible": true,
+        "parent_code": "AMIG_CAT_MueesliGetreideflocken_MueesliCerealienBrotaufstriche",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_MueesliGetreideflocken_MueesliCerealienBrotaufstriche",
+        "name": "Müesli & Getreideflocken",
+        "slug": "amigos/mueesli-cerealien-brotaufstriche/mueesli-getreideflocken",
+        "visible": true,
+        "parent_code": "AMIG_CAT_MueesliCerealienBrotaufstriche",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_MueesliCerealienBrotaufstriche",
+        "name": "Müesli, Cerealien & Brotaufstriche",
+        "slug": "amigos/mueesli-cerealien-brotaufstriche",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "nutrition_facts": {
+    "standard": {
+      "nutrients": [
+        {
+          "code": "PIM_NUT_ENERGIE",
+          "name": "Energie",
+          "pictogram_name": "Energie",
+          "category": "BIG9",
+          "quantity": 1826,
+          "nutrition_operator": "=",
+          "quantity_unit": "kJ",
+          "quantity_alternate": 435,
+          "quantity_alternate_unit": "kcal"
+        },
+        {
+          "code": "PIM_NUT_FETT",
+          "name": "Fett",
+          "pictogram_name": "Fett",
+          "category": "BIG9",
+          "quantity": 13,
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_FETT_GES",
+          "name": "davon gesättigte Fettsäuren",
+          "pictogram_name": "gesättigte Fettsäuren",
+          "category": "BIG9",
+          "quantity": 1.7,
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_KOHLENHY",
+          "name": "Kohlenhydrate",
+          "category": "BIG9",
+          "quantity": 54,
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_ZUCKER",
+          "name": "davon Zucker",
+          "pictogram_name": "Zuckerarten",
+          "category": "BIG9",
+          "quantity": 22,
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_GES_BALL",
+          "name": "Ballaststoffe",
+          "category": "BIG9",
+          "quantity": 8.8,
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_PROTEINE",
+          "name": "Eiweiss",
+          "category": "BIG9",
+          "quantity": 21,
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_KOCHSALZ",
+          "name": "Salz",
+          "pictogram_name": "Salz",
+          "category": "BIG9",
+          "quantity": 0.36,
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        }
+      ],
+      "base_quantity": 100,
+      "base_unit": "g"
+    },
+    "portion": {
+      "nutrients": [
+        {
+          "code": "PIM_NUT_ENERGIE",
+          "name": "Energie",
+          "pictogram_name": "Energie",
+          "category": "BIG9",
+          "quantity": 822,
+          "rda_percent": 10,
+          "rda_percent_operator": "=",
+          "nutrition_operator": "=",
+          "quantity_unit": "kJ",
+          "quantity_alternate": 196,
+          "quantity_alternate_unit": "kcal"
+        },
+        {
+          "code": "PIM_NUT_FETT",
+          "name": "Fett",
+          "pictogram_name": "Fett",
+          "category": "BIG9",
+          "quantity": 5.9,
+          "rda_percent": 8,
+          "rda_percent_operator": "=",
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_FETT_GES",
+          "name": "davon gesättigte Fettsäuren",
+          "pictogram_name": "gesättigte Fettsäuren",
+          "category": "BIG9",
+          "quantity": 0.8,
+          "rda_percent": 4,
+          "rda_percent_operator": "=",
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_KOHLENHY",
+          "name": "Kohlenhydrate",
+          "category": "BIG9",
+          "quantity": 24,
+          "rda_percent": 9,
+          "rda_percent_operator": "=",
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_ZUCKER",
+          "name": "davon Zucker",
+          "pictogram_name": "Zuckerarten",
+          "category": "BIG9",
+          "quantity": 9.9,
+          "rda_percent": 11,
+          "rda_percent_operator": "=",
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_GES_BALL",
+          "name": "Ballaststoffe",
+          "category": "BIG9",
+          "quantity": 4,
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_PROTEINE",
+          "name": "Eiweiss",
+          "category": "BIG9",
+          "quantity": 9.5,
+          "rda_percent": 19,
+          "rda_percent_operator": "=",
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_KOCHSALZ",
+          "name": "Salz",
+          "pictogram_name": "Salz",
+          "category": "BIG9",
+          "quantity": 0.16,
+          "rda_percent": 3,
+          "rda_percent_operator": "=",
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        }
+      ],
+      "base_description": "1 Portion",
+      "base_quantity": 45,
+      "base_unit": "g",
+      "package_type": "Packung",
+      "portions_per_package": "11",
+      "portions_per_package_precision": "≈"
+    }
+  },
+  "features": [
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_beutelsack",
+          "value": "Beutel/Sack"
+        }
+      ],
+      "category_code": "MISO_CLA_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_naehrwertanspruch",
+      "label": "Nährwertanspruch",
+      "values": [
+        {
+          "value_code": "MISO_naehrwertanspruch_22protein",
+          "value": "22% Protein"
+        },
+        {
+          "value_code": "MISO_naehrwertanspruch_ballaststoffquelle",
+          "value": "Ballaststoffquelle"
+        }
+      ],
+      "category_code": "MISO_CLA_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zubereitungsverfahren",
+      "label": "Hinweise für die Zubereitung",
+      "values": [
+        {
+          "value_code": "MISO_zubereitungsverfahren_milchhinzugeben",
+          "value": "Milch hinzugeben"
+        }
+      ],
+      "category_code": "MISO_CLA_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_artvonbearbeitetemgetreideprodukt",
+      "label": "Art von bearbeitetem Getreideprodukt",
+      "values": [
+        {
+          "value_code": "MISO_artvonbearbeitetemgetreideprodukt_hafer",
+          "value": "Hafer"
+        },
+        {
+          "value_code": "MISO_artvonbearbeitetemgetreideprodukt_soja",
+          "value": "Soja"
+        }
+      ],
+      "category_code": "MISO_CLA_bearbeiteteGetreideprodukte_GetreideHuelsenfruchtprodukte_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_mitobst",
+      "label": "Mit Obst",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MISO_CLA_bearbeiteteGetreideprodukte_GetreideHuelsenfruchtprodukte_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zubereitung",
+      "label": "Zubereitung",
+      "values": [
+        {
+          "value_code": "MISO_zubereitung_mitfruechten",
+          "value": "Mit Früchten"
+        },
+        {
+          "value_code": "MISO_zubereitung_mitjoghurt",
+          "value": "mit Joghurt"
+        },
+        {
+          "value_code": "MISO_zubereitung_mitmilch",
+          "value": "mit Milch"
+        }
+      ],
+      "category_code": "MISO_CLA_bearbeiteteGetreideprodukte_GetreideHuelsenfruchtprodukte_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_besonderezutaten",
+      "label": "Besondere Zutaten",
+      "values": [
+        {
+          "value_code": "MISO_besonderezutaten_fruechte",
+          "value": "Früchte"
+        },
+        {
+          "value_code": "MISO_besonderezutaten_soja",
+          "value": "Soja"
+        }
+      ],
+      "category_code": "MISO_CLA_bearbeiteteGetreideprodukte_GetreideHuelsenfruchtprodukte_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_VEGETARIANISM",
+      "label": "Vegetarismus",
+      "values": [
+        {
+          "value_code": "MAPI_VEGETARIANISM_vegan",
+          "value": "vegan"
+        }
+      ],
+      "category_code": "MAPI_VEGETARIANISM",
+      "top_fact": false
+    }
+  ],
+  "allergens": [
+    {
+      "code": "ALLG_GLUTEN",
+      "name": "Glutenhaltiges Getreide und daraus gewonnene Erzeugnisse",
+      "contamination_code": "VORHANDEN",
+      "contamination": "vorhanden"
+    },
+    {
+      "code": "ALLG_SOJA",
+      "name": "Sojabohnen und daraus gewonnene Erzeugnisse",
+      "contamination_code": "VORHANDEN",
+      "contamination": "vorhanden"
+    },
+    {
+      "code": "ALLG_CASHEW",
+      "name": "Cashewnüsse",
+      "contamination_code": "KANN_ENTHALTEN",
+      "contamination": "kann enthalten"
+    },
+    {
+      "code": "ALLG_MILCHPROTEIN",
+      "name": "Milchprotein",
+      "contamination_code": "KANN_ENTHALTEN",
+      "contamination": "kann enthalten"
+    },
+    {
+      "code": "ALLG_SESAM",
+      "name": "Sesamsamen",
+      "contamination_code": "KANN_ENTHALTEN",
+      "contamination": "kann enthalten"
+    },
+    {
+      "code": "ALLG_PECAN",
+      "name": "Pecannüsse",
+      "contamination_code": "KANN_ENTHALTEN",
+      "contamination": "kann enthalten"
+    },
+    {
+      "code": "ALLG_MANDELN",
+      "name": "Mandeln",
+      "contamination_code": "KANN_ENTHALTEN",
+      "contamination": "kann enthalten"
+    },
+    {
+      "code": "ALLG_HASELNU",
+      "name": "Haselnüsse",
+      "contamination_code": "KANN_ENTHALTEN",
+      "contamination": "kann enthalten"
+    }
+  ],
+  "general_information": [
+    {
+      "label": "Produktionshinweis",
+      "value": "Unter Schutzatmosphäre verpackt."
+    },
+    {
+      "label": "Kühlhinweis / Aufbewahrungshinweis",
+      "value": "Bei Raumtemperatur aufbewahren."
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/57bf1f5a7f426d7ea4b405a41ef2a35985f2bef7/farmer-plus-protein.jpg",
+    "stack": "https://image.migros.ch/{stack}/57bf1f5a7f426d7ea4b405a41ef2a35985f2bef7/farmer-plus-protein.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/a4fe7ac8cf1b9c35eba47a067b2fedd25cd7a1ea/farmer-plus-protein.png",
+    "stack": "https://image.migros.ch/{stack}/a4fe7ac8cf1b9c35eba47a067b2fedd25cd7a1ea/farmer-plus-protein.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_sortierung",
+      "label": "Sortierung aMigos",
+      "values": [
+        {
+          "value_code": "NUMERIC_320",
+          "value": "320",
+          "numeric_value": 320
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "M",
+          "value": "Kolonial Standard"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "10317",
+          "value": "KNUSPERMUEESLI"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "regulated_description": "Cerealienmischung gebacken, mit Soja und Früchten",
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/104211900000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/farmer-plus-protein",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/104211900000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/farmer-plus-protein",
+      "type": "info",
+      "purchasable": false
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/4963674",
+      "app_url": "leshop:///catalog/article/detail?ean=7613312091951",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/farmer-plus-protein",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "regional_availability": {
+    "gmaa": {
+      "probability": 72
+    },
+    "gmbs": {
+      "probability": 65
+    },
+    "gmge": {
+      "probability": 26
+    },
+    "gmlu": {
+      "probability": 74
+    },
+    "gmnf": {
+      "probability": 12
+    },
+    "gmos": {
+      "probability": 78
+    },
+    "gmti": {
+      "probability": 44
+    },
+    "gmvd": {
+      "probability": 15
+    },
+    "gmvs": {
+      "probability": 31
+    },
+    "gmzh": {
+      "probability": 76
+    }
+  },
+  "updated_at": "2020-09-16T06:29:32+0200",
+  "base_unit": "CU",
+  "slugs": {
+    "de": "farmer-plus-protein",
+    "fr": "farmer-plus-protein",
+    "it": "farmer-plus-protein"
+  },
+  "receipt_text": "Farmer Plus Protein",
+  "main_supplier": {
+    "name": "bio-familia AG",
+    "id": "0010000522",
+    "supplier_product_id": "204572 / L205"
+  },
+  "price": {
+    "valid_from": "2019-03-27T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 5.95,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "500g"
+    },
+    "base": {
+      "price": 1.19,
+      "quantity": 100,
+      "unit": "g"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 11,
+    "average_all": 3.363636363636
+  },
+  "data_source": "SAP-X11",
+  "origins": {
+    "producing_country": "Hergestellt in der Schweiz"
+  },
+  "ingredients": "<strong>Soja</strong>flocken 17 %, <strong>Hafer</strong>flocken, <strong>Soja</strong>schrot 11 %, Dinkelflakes (<strong>Dinkel</strong>, Zucker, Kochsalz, <strong>Gersten</strong>malz, Emulgator: Sonnenblumenlecithin), Rohzucker, Cornflakes (Mais, Kochsalz, <strong>Gersten</strong>malz), Ackerbohnenprotein 7 %, Getreidecrispies (Mais, Reis, Rohzucker, Vollkornmehle [<strong>Weizen</strong>, <strong>Roggen</strong>, <strong>Gerste</strong>], <strong>Gersten</strong>malz, Kakaopulver fettarm, Kochsalz), Apfelchips 5 %, Bananenflocken 5 % (Bananenpüree, Reismehl), Sonnenblumenöl, Bananengranulat gefriergetrocknet 3%.",
+  "allergen_text": "Kann enthalten: Milchproteine, Cashewnüsse, Mandeln, Haselnüsse, Pecannüsse, Sesamsamen.",
+  "package": {
+    "content": 500,
+    "content_unit_code": "g",
+    "content_unit": "Gramm",
+    "net_weight": 0.5,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogramm",
+    "precision": "approximate",
+    "brutto_weight": 0.512,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 2.205,
+    "brutto_volume_unit_code": "cdm",
+    "height": 30,
+    "length": 7,
+    "width": 10.5,
+    "unit_dimension": "cm",
+    "price_comparison_content": 100,
+    "size": "500g"
+  },
+  "package_information": {
+    "tu": {
+      "brutto_weight": 6.618,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 33.629,
+      "brutto_volume_unit_code": "cdm",
+      "height": 26.5,
+      "length": 54,
+      "width": 23.5,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 12
+    },
+    "cu": {
+      "brutto_weight": 0.512,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 2.205,
+      "brutto_volume_unit_code": "cdm",
+      "height": 30,
+      "length": 7,
+      "width": 10.5,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "lu": {
+      "brutto_weight": 302.956,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 1.526,
+      "brutto_volume_unit_code": "m3",
+      "height": 159,
+      "length": 120,
+      "width": 80,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 504
+    }
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "recipe_ingredient_ids": [
+    "10000"
+  ],
+  "views": [
+    "all",
+    "browse"
+  ]
+}

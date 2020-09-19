@@ -1,0 +1,585 @@
+{
+  "id": "795846600000",
+  "language": "de",
+  "name": "HP Combopack 62 Tintenpatrone",
+  "names": {
+    "name": "HP Combopack 62 Tintenpatrone",
+    "short_name": "Combopack 62"
+  },
+  "slug": "hp-combopack-62-tintenpatrone",
+  "product_type": "Tintenpatrone",
+  "boss_number": "241237930505",
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03"
+  },
+  "tags": [
+    "source-pex",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "0889894508881"
+  ],
+  "brand": {
+    "id": "MES",
+    "name": "HP",
+    "slug": "hp",
+    "image": {
+      "original": "https://image.migros.ch/original/91d881baba7017a54f285946ad224166b67a4b22/hp.jpg",
+      "stack": "https://image.migros.ch/{stack}/91d881baba7017a54f285946ad224166b67a4b22/hp.jpg"
+    }
+  },
+  "categories": [
+    {
+      "code": "MEL_SHOP_CAT_TintenpatronenToner_DruckerundZubehoer_ComputingTablets",
+      "name": "Tintenpatronen & Toner",
+      "slug": "melectronics/computing-tablets/drucker-und-zubehoer/tintenpatronen-toner",
+      "visible": true,
+      "parent_code": "MEL_SHOP_CAT_DruckerundZubehoer_ComputingTablets",
+      "level": 4
+    },
+    {
+      "code": "MEL_SHOP_CAT_DruckerundZubehoer_ComputingTablets",
+      "name": "Drucker und Zubehör",
+      "slug": "melectronics/computing-tablets/drucker-und-zubehoer",
+      "visible": true,
+      "parent_code": "MEL_SHOP_CAT_ComputingTablets",
+      "level": 3
+    },
+    {
+      "code": "MEL_SHOP_CAT_ComputingTablets",
+      "name": "Computing & Tablets",
+      "slug": "melectronics/computing-tablets",
+      "visible": true,
+      "parent_code": "BeSS_04",
+      "level": 2
+    },
+    {
+      "code": "BeSS_04",
+      "name": "melectronics",
+      "slug": "melectronics",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_Druckerpatronen_Bueromaterial_HaushaltReinigung",
+        "name": "Druckerpatronen",
+        "slug": "amigos/haushalt-reinigung/bueromaterial/druckerpatronen",
+        "visible": true,
+        "parent_code": "AMIG_CAT_Bueromaterial_HaushaltReinigung",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_Bueromaterial_HaushaltReinigung",
+        "name": "Büromaterial",
+        "slug": "amigos/haushalt-reinigung/bueromaterial",
+        "visible": true,
+        "parent_code": "AMIG_CAT_HaushaltReinigung",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_HaushaltReinigung",
+        "name": "Haushalt & Reinigung",
+        "slug": "amigos/haushalt-reinigung",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ],
+    [
+      {
+        "code": "BeSS_011009",
+        "name": "Sonstiges",
+        "slug": "supermarkt/heimwerker/sonstiges",
+        "visible": true,
+        "parent_code": "BeSS_0110",
+        "level": 3
+      },
+      {
+        "code": "BeSS_0110",
+        "name": "Heimwerker",
+        "slug": "supermarkt/heimwerker",
+        "visible": true,
+        "parent_code": "BeSS_01",
+        "level": 2
+      },
+      {
+        "code": "BeSS_01",
+        "name": "Supermarkt",
+        "slug": "supermarkt",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "features": [
+    {
+      "label_code": "mel_produkttyp_neu",
+      "label": "Produkttyp",
+      "values": [
+        {
+          "value_code": "MEL_produkttyp_neu_tintenpatrone_multipack",
+          "value": "Tintenpatrone Multipack"
+        }
+      ],
+      "category_code": "MEL_CLA_Tintenpatronen_ZubehoerBereich_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "mel_anzahl_patronen",
+      "label": "Anzahl Patronen",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2 Stk.",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MEL_CLA_Tintenpatronen_ZubehoerBereich_Alle",
+      "top_fact": true,
+      "unit_code": "st",
+      "unit": "Stück",
+      "unit_symbol": "Stk."
+    },
+    {
+      "label_code": "mel_farben",
+      "label": "Farbe(n)",
+      "values": [
+        {
+          "value_code": "MEL_farben_cyan",
+          "value": "Cyan"
+        },
+        {
+          "value_code": "MEL_farben_magenta",
+          "value": "Magenta"
+        },
+        {
+          "value_code": "MEL_farben_gelb",
+          "value": "Gelb"
+        },
+        {
+          "value_code": "MEL_farben_schwarz",
+          "value": "Schwarz"
+        }
+      ],
+      "category_code": "MEL_CLA_Tintenpatronen_ZubehoerBereich_Alle",
+      "top_fact": true
+    },
+    {
+      "label_code": "mel_originalpatrone",
+      "label": "Originalpatrone",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MEL_CLA_Tintenpatronen_ZubehoerBereich_Alle",
+      "top_fact": true
+    },
+    {
+      "label_code": "mel_kompatible_druckermarken",
+      "label": "Kompatible Druckermarken",
+      "values": [
+        {
+          "value_code": "MEL_kompatible_druckermarken_hp",
+          "value": "HP"
+        }
+      ],
+      "category_code": "MEL_CLA_Tintenpatronen_ZubehoerBereich_Alle",
+      "top_fact": true
+    },
+    {
+      "label_code": "mel_geeignet_fuer_druckmedien",
+      "label": "Geeignet für (Druckmedien)",
+      "values": [
+        {
+          "value_code": "MEL_geeignet_fuer_druckmedien_univeralpapier_tintenstrahl",
+          "value": "Univeralpapier (Tintenstrahl)"
+        },
+        {
+          "value_code": "MEL_geeignet_fuer_druckmedien_photopapier_tintenstrahl",
+          "value": "Photopapier (Tintenstrahl)"
+        },
+        {
+          "value_code": "MEL_geeignet_fuer_druckmedien_visitenkarten",
+          "value": "Visitenkarten"
+        },
+        {
+          "value_code": "MEL_geeignet_fuer_druckmedien_folien_tintenstrahl",
+          "value": "Folien (Tintenstrahl)"
+        }
+      ],
+      "category_code": "MEL_CLA_Tintenpatronen_ZubehoerBereich_Alle",
+      "top_fact": true
+    },
+    {
+      "label_code": "mel_m-garantie_m-garantie",
+      "label": "M-Garantie",
+      "values": [
+        {
+          "value_code": "MEL_M-Garantie_2Jahre",
+          "value": "2 Jahre"
+        }
+      ],
+      "category_code": "MEL_CLA_Alle",
+      "top_fact": false
+    }
+  ],
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": true,
+      "exclude_cross_channel": []
+    }
+  },
+  "image": {
+    "original": "https://image.migros.ch/original/5c6f1e977f843be8d8fca5209c3ebd764146b94a/hp-combopack-62-tintenpatrone.jpg",
+    "stack": "https://image.migros.ch/{stack}/5c6f1e977f843be8d8fca5209c3ebd764146b94a/hp-combopack-62-tintenpatrone.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/8cae5636fa97ec7656847eadd7e81112fbabd580/hp-combopack-62-tintenpatrone.png",
+    "stack": "https://image.migros.ch/{stack}/8cae5636fa97ec7656847eadd7e81112fbabd580/hp-combopack-62-tintenpatrone.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_sortierung",
+      "label": "Sortierung aMigos",
+      "values": [
+        {
+          "value_code": "NUMERIC_160",
+          "value": "160",
+          "numeric_value": 160
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_DEFAULT_LOGISTIC_TYPE",
+      "values": [
+        {
+          "value_code": "55",
+          "value": "Versandart Paket"
+        }
+      ],
+      "category_code": "MAPI_DEFAULT_LOGISTIC_TYPE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "BANS",
+          "value": "Streckenposition"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "HART"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_RISK_CLASS",
+      "values": [
+        {
+          "value_code": "2",
+          "value": "2 (medium)"
+        }
+      ],
+      "category_code": "MAPI_RISK_CLASS",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_KUBE_TUKA",
+      "values": [
+        {
+          "value_code": "BLANK",
+          "value": "KUBE und TUKA nicht zugelassen"
+        }
+      ],
+      "category_code": "MAPI_KUBE_TUKA",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HART",
+          "value": "Hartwaren  Handelsware"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "E",
+          "value": "E"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "56122",
+          "value": "PATRONEN"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 1,
+    "percentage": 7.7
+  },
+  "links": {
+    "melectronics": {
+      "url": "https://www.melectronics.ch/de/p/795846600000/hp-combopack-62",
+      "name": "melectronics",
+      "canonical": "https://www.melectronics.ch/de/p/795846600000/hp-combopack-62",
+      "type": "shop",
+      "purchasable": false
+    },
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/795846600000",
+      "name": "migros.ch",
+      "canonical": "https://www.melectronics.ch/de/p/795846600000/hp-combopack-62",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/795846600000",
+      "name": "Migipedia",
+      "canonical": "https://www.melectronics.ch/de/p/795846600000/hp-combopack-62",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "regional_availability": {
+    "gmaa": {
+      "probability": 13
+    },
+    "gmbs": {
+      "probability": 9
+    },
+    "gmge": {
+      "probability": 21
+    },
+    "gmlu": {
+      "probability": 9
+    },
+    "gmnf": {
+      "probability": 6
+    },
+    "gmos": {
+      "probability": 13
+    },
+    "gmti": {
+      "probability": 19
+    },
+    "gmvd": {
+      "probability": 14
+    },
+    "gmvs": {
+      "probability": 8
+    },
+    "gmzh": {
+      "probability": 13
+    }
+  },
+  "updated_at": "2020-09-16T03:59:19+0200",
+  "online_shop_relevant": true,
+  "services": {
+    "logistics": [
+      {
+        "code": "MEL_LOGISTIK_FILIALE_POSTPAKET_GRATIS"
+      },
+      {
+        "code": "MEL_LOGISTIK_POSTPAKET_GRATIS"
+      }
+    ]
+  },
+  "base_unit": "CU",
+  "slugs": {
+    "de": "hp-combopack-62-tintenpatrone",
+    "fr": "hp-combopack-62-cartouche-dencre",
+    "it": "hp-combopack-62-cartuccia-dinchiostro"
+  },
+  "receipt_text": "HP Combopack 62 N9J71A",
+  "short_description": "- 1x HP Nr. 62 schwarz\r\n- 1x HP Nr. 62 dreifarbig",
+  "main_supplier": {
+    "name": "Oridis AG",
+    "id": "0010006109",
+    "supplier_product_id": "134013"
+  },
+  "price": {
+    "valid_from": "2020-02-10T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 43.9,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false
+    }
+  },
+  "retailer": {
+    "id": "melectronics",
+    "name": "melectronics"
+  },
+  "ratings": {
+    "count_all": 6,
+    "average_all": 4.833333333333
+  },
+  "data_source": "SAP-X12",
+  "origins": {},
+  "package": {
+    "brutto_volume": 0.579,
+    "brutto_volume_unit_code": "cdm",
+    "height": 15.6,
+    "length": 3.2,
+    "width": 11.6,
+    "unit_dimension": "cm"
+  },
+  "package_information": {
+    "cu": {
+      "brutto_volume": 0.579,
+      "brutto_volume_unit_code": "cdm",
+      "height": 15.6,
+      "length": 3.2,
+      "width": 11.6,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "tuv": {
+      "number_of_base_units": 1
+    },
+    "tue": {
+      "number_of_base_units": 1
+    },
+    "lu": {
+      "number_of_base_units": 1
+    }
+  },
+  "warranty_months": 24,
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "views": [
+    "all",
+    "browse"
+  ]
+}

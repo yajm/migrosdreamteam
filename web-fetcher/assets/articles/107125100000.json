@@ -1,0 +1,645 @@
+{
+  "id": "107125100000",
+  "language": "de",
+  "name": "Delizio get started Espresso 12 Kap.",
+  "names": {
+    "name": "Delizio get started Espresso 12 Kap."
+  },
+  "slug": "delizio-get-started-espresso-12-kap",
+  "boss_number": "010310303610",
+  "description": {
+    "text": "<p><strong>DELIZIO GET STARTED</strong></p><p>Dieser rauchig-w&uuml;rzige Blend ist mit 30% monsunierten Arabica-Bohnen verfeinert. Wenn dein Espresso schon den Monsun &uuml;berstanden hat, h&auml;ltst auch du den gr&ouml;ssten St&uuml;rmen des Tages locker stand!</p>",
+    "source": "PIM"
+  },
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7617014188179"
+  ],
+  "brand": {
+    "id": "603",
+    "name": "Delizio",
+    "slug": "delizio",
+    "image": {
+      "original": "https://image.migros.ch/original/f87e04a40a76daf824573bab55f9bf58e65ee249/delizio.jpg",
+      "stack": "https://image.migros.ch/{stack}/f87e04a40a76daf824573bab55f9bf58e65ee249/delizio.jpg"
+    }
+  },
+  "labels": [
+    {
+      "id": "L34",
+      "name": "UTZ",
+      "slug": "utz",
+      "links": {
+        "homepage": {
+          "url": "https://utz.org/",
+          "name": "Homepage",
+          "type": "info",
+          "purchasable": false
+        }
+      },
+      "image": {
+        "original": "https://image.migros.ch/original/64192d97b7770d351f5bbe89a57c9f614e529150/utz.jpg",
+        "stack": "https://image.migros.ch/{stack}/64192d97b7770d351f5bbe89a57c9f614e529150/utz.jpg"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_0101100102",
+      "name": "Kaffeekapseln",
+      "slug": "supermarkt/lebensmittel/getraenke-heiss-kalt/kaffee/kaffeekapseln",
+      "visible": true,
+      "title": "Kaffeekapseln in Ihrer Migros kaufen",
+      "parent_code": "BeSS_01011001",
+      "image": {
+        "original": "https://image.migros.ch/original/aa27c81fb04432f42ad3adf318d527e35435f309/kaffeekapseln.jpg",
+        "stack": "https://image.migros.ch/{stack}/aa27c81fb04432f42ad3adf318d527e35435f309/kaffeekapseln.jpg"
+      },
+      "level": 5
+    },
+    {
+      "code": "BeSS_01011001",
+      "name": "Kaffee",
+      "slug": "supermarkt/lebensmittel/getraenke-heiss-kalt/kaffee",
+      "visible": true,
+      "title": "Das schwarze Gold der Geniesser: Kaffee bei der Migros",
+      "parent_code": "BeSS_010110",
+      "image": {
+        "original": "https://image.migros.ch/original/be9ca8bc37911ac3d695139eadc7cb2446fd5974/kaffee.jpg",
+        "stack": "https://image.migros.ch/{stack}/be9ca8bc37911ac3d695139eadc7cb2446fd5974/kaffee.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010110",
+      "name": "Getränke heiss & kalt",
+      "slug": "supermarkt/lebensmittel/getraenke-heiss-kalt",
+      "visible": true,
+      "title": "Getränke aus der Migros löschen auch Ihren Durst",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/d04d95fbc2e1b4ada4783d2976d37a962a0318a1/getraenke-heiss-kalt.jpg",
+        "stack": "https://image.migros.ch/{stack}/d04d95fbc2e1b4ada4783d2976d37a962a0318a1/getraenke-heiss-kalt.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_Kapseln_Kaffee_Getraenke",
+        "name": "Kapseln",
+        "slug": "amigos/getraenke/kaffee/kapseln",
+        "visible": true,
+        "parent_code": "AMIG_CAT_Kaffee_Getraenke",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_Kaffee_Getraenke",
+        "name": "Kaffee",
+        "slug": "amigos/getraenke/kaffee",
+        "visible": true,
+        "parent_code": "AMIG_CAT_Getraenke",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_Getraenke",
+        "name": "Getränke",
+        "slug": "amigos/getraenke",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "features": [
+    {
+      "label_code": "MISO_anzahlentnehmbarereinzelportionen",
+      "label": "Anzahl entnehmbarer Einzeleinheiten",
+      "values": [
+        {
+          "value_code": "NUMERIC_12.0",
+          "value": "12.0",
+          "numeric_value": 12
+        }
+      ],
+      "category_code": "MISO_CLA_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_schachtel",
+          "value": "Schachtel"
+        }
+      ],
+      "category_code": "MISO_CLA_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zubereitungsverfahren",
+      "label": "Hinweise für die Zubereitung",
+      "values": [
+        {
+          "value_code": "MISO_zubereitungsverfahren_deliziokapselsystem",
+          "value": "Delizio Kapselsystem"
+        }
+      ],
+      "category_code": "MISO_CLA_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_kapselsystem",
+      "label": "Kapselsystem",
+      "values": [
+        {
+          "value_code": "MISO_kapselsystem_DelizioKompatibel",
+          "value": "Delizio kompatibel"
+        }
+      ],
+      "category_code": "MISO_CLA_KaffeeTeeErsatzprodukte_Getraenke_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_botanischesorte",
+      "label": "Botanische Sorte",
+      "values": [
+        {
+          "value_code": "MISO_botanischesorte_arabica",
+          "value": "Arabica"
+        }
+      ],
+      "category_code": "MISO_CLA_KaffeeTeeErsatzprodukte_Getraenke_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_entkoffeiniert",
+      "label": "Entkoffeiniert",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "Nein",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MISO_CLA_KaffeeTeeErsatzprodukte_Getraenke_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_formbeschaffenheitdeskaffees",
+      "label": "Form/Beschaffenheit des Kaffees",
+      "values": [
+        {
+          "value_code": "MISO_formbeschaffenheitdeskaffees_kaffeepulver",
+          "value": "Kaffeepulver"
+        }
+      ],
+      "category_code": "MISO_CLA_KaffeeTeeErsatzprodukte_Getraenke_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_kaffeeroestung",
+      "label": "Kaffeeröstung",
+      "values": [
+        {
+          "value_code": "MISO_kaffeeroestung_mittlereroestung",
+          "value": "mittlere Röstung"
+        }
+      ],
+      "category_code": "MISO_CLA_KaffeeTeeErsatzprodukte_Getraenke_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zubereitungdeskaffees",
+      "label": "Zubereitung des Kaffees",
+      "values": [
+        {
+          "value_code": "MISO_zubereitungdeskaffees_kapsel",
+          "value": "Kapsel"
+        }
+      ],
+      "category_code": "MISO_CLA_KaffeeTeeErsatzprodukte_Getraenke_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_sortedeskaffees",
+      "label": "Sorte des Kaffees",
+      "values": [
+        {
+          "value_code": "MISO_sortedeskaffees_espresso",
+          "value": "Espresso"
+        }
+      ],
+      "category_code": "MISO_CLA_KaffeeTeeErsatzprodukte_Getraenke_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_wiederverschliessbar",
+      "label": "Wiederverschliessbar",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MISO_CLA_KaffeeTeeErsatzprodukte_Getraenke_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_anzahlpadskapselnbeutel",
+      "label": "Anzahl Pads/Kapseln/Beutel",
+      "values": [
+        {
+          "value_code": "NUMERIC_12.0",
+          "value": "12.0 Stk.",
+          "numeric_value": 12
+        }
+      ],
+      "category_code": "MISO_CLA_KaffeeTeeErsatzprodukte_Getraenke_LebensmittelGetraenke_Alle",
+      "top_fact": false,
+      "unit_code": "Stk.",
+      "unit": "Stück",
+      "unit_symbol": "Stk."
+    },
+    {
+      "label_code": "MISO_staerke15",
+      "label": "Stärke (1-5)",
+      "values": [
+        {
+          "value_code": "NUMERIC_4.0",
+          "value": "4.0",
+          "numeric_value": 4
+        }
+      ],
+      "category_code": "MISO_CLA_KaffeeTeeErsatzprodukte_Getraenke_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_geeignetfuerkapselsystem",
+      "label": "Geeignet für Kapselsystem",
+      "values": [
+        {
+          "value_code": "MISO_geeignetfuerkapselsystem_delizio",
+          "value": "Delizio"
+        }
+      ],
+      "category_code": "MISO_CLA_KaffeeTeeErsatzprodukte_Getraenke_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_tassengroesse",
+      "label": "Tassengrösse",
+      "values": [
+        {
+          "value_code": "MISO_tassengroesse_espresso_50ml",
+          "value": "Espresso (50ml)"
+        }
+      ],
+      "category_code": "MISO_CLA_KaffeeTeeErsatzprodukte_Getraenke_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    }
+  ],
+  "general_information": [
+    {
+      "label": "Auslobung",
+      "value": "DE: Stärkegrad 4 / 5"
+    },
+    {
+      "label": "Produkteinformation",
+      "value": "DE: Unter Schutzatmosphäre verpackt."
+    },
+    {
+      "label": "Haltbarkeitshinweis",
+      "value": "DE: Vor Wärme schützen."
+    },
+    {
+      "label": "Herstellungsland",
+      "value": "DE: Hergestellt in der Schweiz durch Delica AG. \r\n100% edle Arabicas."
+    }
+  ],
+  "utz_declarations": [
+    {
+      "members": [
+        "CF72310610",
+        "CF75021255",
+        "CF50765808"
+      ],
+      "lot_number": "0000000001",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=CF72310610,CF75021255,CF50765808&lang=de"
+    },
+    {
+      "members": [
+        "CF71678995",
+        "CF38803485"
+      ],
+      "lot_number": "0000000002",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=CF71678995,CF38803485&lang=de"
+    },
+    {
+      "members": [
+        "CF70575497"
+      ],
+      "lot_number": "0000000003",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=CF70575497&lang=de"
+    },
+    {
+      "members": [
+        "CF36792212",
+        "60583"
+      ],
+      "lot_number": "0000000004",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=CF36792212,60583&lang=de"
+    },
+    {
+      "members": [
+        "CF84788488",
+        "CF3353025"
+      ],
+      "lot_number": "0000000005",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=CF84788488,CF3353025&lang=de"
+    },
+    {
+      "members": [
+        "95028"
+      ],
+      "lot_number": "0000000006",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=95028&lang=de"
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/8b69e72340b098f367b693fea9a09593cbfd7deb/delizio-get-started-espresso-12-kap.jpg",
+    "stack": "https://image.migros.ch/{stack}/8b69e72340b098f367b693fea9a09593cbfd7deb/delizio-get-started-espresso-12-kap.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/fc29142a72587bf32dd5fef154c9e6ba9f72a286/delizio-get-started-espresso-12-kap.png",
+    "stack": "https://image.migros.ch/{stack}/fc29142a72587bf32dd5fef154c9e6ba9f72a286/delizio-get-started-espresso-12-kap.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_intensitaet",
+      "label": "Intensität",
+      "values": [
+        {
+          "value_code": "MISO_intensitaet_kraeftig",
+          "value": "kräftig"
+        }
+      ],
+      "category_code": "MISO_CLA_KaffeeTeeErsatzprodukte_Getraenke_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "M",
+          "value": "Kolonial Standard"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "10383",
+          "value": "DELIZIO"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "regulated_description": "Röstkaffee, gemahlen, in Kapseln",
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/107125100000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/delizio-get-started-espresso-12-kap",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/107125100000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/delizio-get-started-espresso-12-kap",
+      "type": "info",
+      "purchasable": false
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/4588955",
+      "app_url": "leshop:///catalog/article/detail?ean=7617014188179",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/delizio-get-started-espresso-12-kap",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "regional_availability": {
+    "gmaa": {
+      "probability": 90
+    },
+    "gmbs": {
+      "probability": 80
+    },
+    "gmge": {
+      "probability": 64
+    },
+    "gmlu": {
+      "probability": 97
+    },
+    "gmnf": {
+      "probability": 65
+    },
+    "gmos": {
+      "probability": 97
+    },
+    "gmti": {
+      "probability": 97
+    },
+    "gmvd": {
+      "probability": 56
+    },
+    "gmvs": {
+      "probability": 54
+    },
+    "gmzh": {
+      "probability": 88
+    }
+  },
+  "updated_at": "2020-09-16T06:30:19+0200",
+  "base_unit": "CU",
+  "slugs": {
+    "de": "delizio-get-started-espresso-12-kap",
+    "fr": "delizio-get-started-espresso-12-cap",
+    "it": "delizio-get-started-espresso-12-cap"
+  },
+  "receipt_text": "Delizio get start. 12K",
+  "main_supplier": {
+    "name": "DELICA AG",
+    "id": "0004090000",
+    "supplier_product_id": "2001724"
+  },
+  "price": {
+    "valid_from": "2018-10-04T00:00:00+0200",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 5.3,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "72g"
+    },
+    "base": {
+      "price": 7.36,
+      "quantity": 100,
+      "unit": "g"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 37,
+    "average_all": 4.594594594595
+  },
+  "data_source": "SAP-X11",
+  "origins": {
+    "producing_country": "DE: Hergestellt in der Schweiz durch Delica AG."
+  },
+  "ingredients": "Röstkaffee.",
+  "package": {
+    "content": 72,
+    "content_unit_code": "g",
+    "content_unit": "Gramm",
+    "net_weight": 0.072,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogramm",
+    "brutto_weight": 0.101,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 0.675,
+    "brutto_volume_unit_code": "cdm",
+    "height": 13.4,
+    "length": 6,
+    "width": 8.4,
+    "unit_dimension": "cm",
+    "price_comparison_content": 100,
+    "size": "72g"
+  },
+  "package_information": {
+    "tu": {
+      "brutto_weight": 0.726,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 5.215,
+      "brutto_volume_unit_code": "cdm",
+      "height": 13.9,
+      "length": 37.9,
+      "width": 9.9,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 6
+    },
+    "cu": {
+      "brutto_weight": 0.101,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0.675,
+      "brutto_volume_unit_code": "cdm",
+      "height": 13.4,
+      "length": 6,
+      "width": 8.4,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "lu": {
+      "brutto_weight": 216.664,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0,
+      "height": 0,
+      "length": 120,
+      "width": 80,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1584
+    }
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "recipe_ingredient_ids": [
+    "14684"
+  ],
+  "views": [
+    "all",
+    "browse"
+  ]
+}

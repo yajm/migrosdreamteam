@@ -1,0 +1,108 @@
+{
+  "name": "Farmer aha! Crunchy Natural",
+  "regulated_description": "Getreidestängel ohne Zuckerzusatz, mit Süssungsmittel",
+  "image": {
+    "original": "https://image.migros.ch/original/4be2f6dd1915517c75c2461a309c81ed02387751/farmer-aha-crunchy-natural.jpg"
+  },
+  "price": {
+    "item": {
+      "price": 4.4
+    }
+  },
+  "nutrition_facts": {
+    "standard": {
+      "nutrients": {
+        "nutrients": [
+          {
+            "code": "PIM_NUT_ENERGIE",
+            "name": "Energie",
+            "pictogram_name": "Energie",
+            "category": "BIG9",
+            "quantity": 1710,
+            "rda_percent": 21,
+            "rda_percent_operator": "=",
+            "quantity_unit": "kJ",
+            "quantity_alternate": 410,
+            "quantity_alternate_unit": "kcal"
+          },
+          {
+            "code": "PIM_NUT_FETT",
+            "name": "Fett",
+            "pictogram_name": "Fett",
+            "category": "BIG9",
+            "quantity": 16,
+            "rda_percent": 23,
+            "rda_percent_operator": "=",
+            "quantity_unit": "g"
+          },
+          {
+            "code": "PIM_NUT_FETT_GES",
+            "name": "davon gesättigte Fettsäuren",
+            "pictogram_name": "gesättigte Fettsäuren",
+            "category": "BIG9",
+            "quantity": 7,
+            "rda_percent": 35,
+            "rda_percent_operator": "=",
+            "quantity_unit": "g"
+          },
+          {
+            "code": "PIM_NUT_KOHLENHY",
+            "name": "Kohlenhydrate",
+            "category": "BIG9",
+            "quantity": 59,
+            "rda_percent": 23,
+            "rda_percent_operator": "=",
+            "quantity_unit": "g"
+          },
+          {
+            "code": "PIM_NUT_ZUCKER",
+            "name": "davon Zucker",
+            "pictogram_name": "Zuckerarten",
+            "category": "BIG9",
+            "quantity": 3,
+            "rda_percent": 3,
+            "rda_percent_operator": "=",
+            "quantity_unit": "g"
+          },
+          {
+            "code": "PIM_NUT_MEHRWALK",
+            "name": "Mehrwertige Alkohole",
+            "category": "SONSTIGE",
+            "quantity": 31,
+            "rda_percent": 0,
+            "rda_percent_operator": "=",
+            "quantity_unit": "g"
+          },
+          {
+            "code": "PIM_NUT_GES_BALL",
+            "name": "Ballaststoffe",
+            "category": "BIG9",
+            "quantity": 9,
+            "quantity_unit": "g"
+          },
+          {
+            "code": "PIM_NUT_PROTEINE",
+            "name": "Eiweiss",
+            "category": "BIG9",
+            "quantity": 15,
+            "rda_percent": 30,
+            "rda_percent_operator": "=",
+            "quantity_unit": "g"
+          },
+          {
+            "code": "PIM_NUT_KOCHSALZ",
+            "name": "Salz",
+            "pictogram_name": "Salz",
+            "category": "BIG9",
+            "quantity": 0.01,
+            "rda_percent": 0.5,
+            "rda_percent_operator": "<",
+            "quantity_unit": "g"
+          }
+        ],
+        "base_quantity": 100,
+        "base_unit": "g"
+      }
+    }
+  }
+}

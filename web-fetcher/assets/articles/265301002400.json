@@ -1,0 +1,317 @@
+{
+  "id": "265301002400",
+  "language": "de",
+  "name": "Sélection Trauben Muscat",
+  "names": {
+    "name": "Sélection Trauben Muscat"
+  },
+  "slug": "selection-trauben-muscat",
+  "boss_number": "050215440520",
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "80"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7613269535843"
+  ],
+  "brand": {
+    "id": "NB1",
+    "name": "Sélection",
+    "slug": "selection",
+    "links": {
+      "homepage": {
+        "url": "https://www.migros.ch/de/einkaufen/migros-marken/selection.html",
+        "name": "Homepage",
+        "type": "info",
+        "purchasable": false
+      }
+    },
+    "image": {
+      "original": "https://image.migros.ch/original/04f877657368f73f8ee8973aab7fd0cdfb8e2cd1/selection.jpg",
+      "stack": "https://image.migros.ch/{stack}/04f877657368f73f8ee8973aab7fd0cdfb8e2cd1/selection.jpg"
+    }
+  },
+  "categories": [
+    {
+      "code": "BeSS_0101190103",
+      "name": "Trauben",
+      "slug": "supermarkt/lebensmittel/fruechte-gemuese/fruechte/trauben",
+      "visible": true,
+      "title": "Trauben in Ihrer Migros kaufen",
+      "parent_code": "BeSS_01011901",
+      "level": 5
+    },
+    {
+      "code": "BeSS_01011901",
+      "name": "Früchte",
+      "slug": "supermarkt/lebensmittel/fruechte-gemuese/fruechte",
+      "visible": true,
+      "title": "Früchte – in Ihrer Migros täglich frisch",
+      "parent_code": "BeSS_010119",
+      "level": 4
+    },
+    {
+      "code": "BeSS_010119",
+      "name": "Früchte & Gemüse",
+      "slug": "supermarkt/lebensmittel/fruechte-gemuese",
+      "visible": true,
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/f839060a505bba25c0f37585edb558c003c50479/fruechte-gemuese.jpg",
+        "stack": "https://image.migros.ch/{stack}/f839060a505bba25c0f37585edb558c003c50479/fruechte-gemuese.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "features": [
+    {
+      "label_code": "MISO_verwendungszweckvonobstfruechten",
+      "label": "Verwendungszweck",
+      "values": [
+        {
+          "value_code": "MISO_verwendungszweckvonobstfruechten_15",
+          "value": "Trauben können roh gegessen, zu Rosinen getrocknet oder zu Traubensaft und Wein verarbeitet werden. Aus den Kernen kann hochwertiges Traubenkernöl gewonnen werden."
+        }
+      ],
+      "category_code": "MISO_CLA_ObstFruechte_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_saison",
+      "label": "Saison",
+      "values": [
+        {
+          "value_code": "MISO_saison_augustnovember",
+          "value": "August - November"
+        }
+      ],
+      "category_code": "MISO_CLA_ObstFruechte_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_reifekriterien",
+      "label": "Reifekriterien",
+      "values": [
+        {
+          "value": "Tafeltrauben reifen nach der Ernte nicht nach und müssen daher voll ausgereift geerntet werden, sodass sie möglichst aromatisch und süss schmecken. Frische Trauben haben ein grünes Stielgerüst und leuchtend gefärbte, pralle Beeren."
+        }
+      ],
+      "category_code": "MISO_CLA_frischesObstfrischeFruechte_ObstFruechte_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/9f437d43dcdf45e8296d08eebb22ecad01f185ba/selection-trauben-muscat.jpg",
+    "stack": "https://image.migros.ch/{stack}/9f437d43dcdf45e8296d08eebb22ecad01f185ba/selection-trauben-muscat.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/a5aae2b8d83b756ff4575f959242232e04239970/selection-trauben-muscat.png",
+    "stack": "https://image.migros.ch/{stack}/a5aae2b8d83b756ff4575f959242232e04239970/selection-trauben-muscat.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZFRP",
+          "value": "Frische Beschaffung"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "2",
+          "value": "Früchte und Gemüse"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "71412",
+          "value": "TRAUBEN"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/265301002400",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/selection-trauben-muscat",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/265301002400",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/selection-trauben-muscat",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "regional_availability": {
+    "gmaa": {
+      "probability": 53
+    },
+    "gmbs": {
+      "probability": 41
+    },
+    "gmge": {
+      "probability": 0
+    },
+    "gmlu": {
+      "probability": 67
+    },
+    "gmnf": {
+      "probability": 39
+    },
+    "gmos": {
+      "probability": 38
+    },
+    "gmti": {
+      "probability": 72
+    },
+    "gmvd": {
+      "probability": 25
+    },
+    "gmvs": {
+      "probability": 36
+    },
+    "gmzh": {
+      "probability": 43
+    }
+  },
+  "updated_at": "2020-09-16T05:54:59+0200",
+  "base_unit": "CU",
+  "slugs": {
+    "de": "selection-trauben-muscat",
+    "fr": "selection-raisins-muscat",
+    "it": "selection-uva-muscat"
+  },
+  "receipt_text": "Sélec Trauben Muscat",
+  "main_supplier": {
+    "name": "Buonvicini AG",
+    "id": "0010001825"
+  },
+  "price": {
+    "valid_from": "2019-08-07T00:00:00+0200",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 2.9,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "500g"
+    },
+    "base": {
+      "price": 0.58,
+      "quantity": 100,
+      "unit": "g"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 2,
+    "average_all": 3
+  },
+  "data_source": "SAP-X4x",
+  "package": {
+    "content": 500,
+    "content_unit_code": "g",
+    "content_unit": "Gramm",
+    "net_weight": 0.5,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogramm",
+    "brutto_weight": 0.5,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 0.001,
+    "brutto_volume_unit_code": "m3",
+    "height": 10,
+    "length": 10,
+    "width": 10,
+    "unit_dimension": "cm",
+    "price_comparison_content": 100,
+    "size": "500g"
+  },
+  "package_information": {
+    "tu": {
+      "brutto_weight": 5,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0,
+      "height": 0,
+      "length": 0,
+      "width": 0,
+      "number_of_base_units": 10
+    },
+    "cu": {
+      "brutto_weight": 0.5,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0.001,
+      "brutto_volume_unit_code": "m3",
+      "height": 10,
+      "length": 10,
+      "width": 10,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    }
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "recipe_ingredient_ids": [
+    "14632",
+    "14626",
+    "18382390"
+  ],
+  "views": [
+    "all",
+    "browse"
+  ]
+}

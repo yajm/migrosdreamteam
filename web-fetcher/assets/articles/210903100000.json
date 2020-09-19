@@ -1,0 +1,424 @@
+{
+  "id": "210903100000",
+  "language": "de",
+  "name": "Zigerbutter",
+  "names": {
+    "name": "Zigerbutter"
+  },
+  "slug": "zigerbutter",
+  "boss_number": "030413503070",
+  "description": {
+    "text": "Das Original",
+    "source": "PIM"
+  },
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "80"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7617027153188"
+  ],
+  "brand": {
+    "id": "K99",
+    "name": "Glarner",
+    "slug": "glarner"
+  },
+  "labels": [
+    {
+      "id": "L53",
+      "name": "Swissness",
+      "slug": "swissness",
+      "image": {
+        "original": "https://image.migros.ch/original/d771bba2f6b08ba42970ea0243c6f8c5a8832f15/swissness.jpg",
+        "stack": "https://image.migros.ch/{stack}/d771bba2f6b08ba42970ea0243c6f8c5a8832f15/swissness.jpg"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_0101040105",
+      "name": "Spezialitäten Käse",
+      "slug": "supermarkt/lebensmittel/milchprodukte-eier/kaese/spezialitaeten-kaese",
+      "visible": true,
+      "title": "Der edle Norditaliener bei Ihrer Migros",
+      "parent_code": "BeSS_01010401",
+      "image": {
+        "original": "https://image.migros.ch/original/fbc00a96cd8a6d1f493b4a8052bcd68bbfd4dfb0/spezialitaeten-kaese.jpg",
+        "stack": "https://image.migros.ch/{stack}/fbc00a96cd8a6d1f493b4a8052bcd68bbfd4dfb0/spezialitaeten-kaese.jpg"
+      },
+      "level": 5
+    },
+    {
+      "code": "BeSS_01010401",
+      "name": "Käse",
+      "slug": "supermarkt/lebensmittel/milchprodukte-eier/kaese",
+      "visible": true,
+      "title": "Käse von Ihrer Migros &ndash; macht Appetit auf mehr",
+      "parent_code": "BeSS_010104",
+      "image": {
+        "original": "https://image.migros.ch/original/4fbf646a3ebce5b0f570ef4c8f4f9e8d708bb65f/kaese.jpg",
+        "stack": "https://image.migros.ch/{stack}/4fbf646a3ebce5b0f570ef4c8f4f9e8d708bb65f/kaese.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010104",
+      "name": "Milchprodukte & Eier",
+      "slug": "supermarkt/lebensmittel/milchprodukte-eier",
+      "visible": true,
+      "title": "Milchprodukte und Eier –",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/6b1ea6c2d41c3ccb21bf05c8dc342f7f55d83deb/milchprodukte-eier.jpg",
+        "stack": "https://image.migros.ch/{stack}/6b1ea6c2d41c3ccb21bf05c8dc342f7f55d83deb/milchprodukte-eier.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_Butter_ButterMargarine_MilchprodukteEier",
+        "name": "Butter",
+        "slug": "amigos/milchprodukte-eier/butter-margarine/butter",
+        "visible": true,
+        "parent_code": "AMIG_CAT_ButterMargarine_MilchprodukteEier",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_ButterMargarine_MilchprodukteEier",
+        "name": "Butter & Margarine",
+        "slug": "amigos/milchprodukte-eier/butter-margarine",
+        "visible": true,
+        "parent_code": "AMIG_CAT_MilchprodukteEier",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_MilchprodukteEier",
+        "name": "Milchprodukte & Eier",
+        "slug": "amigos/milchprodukte-eier",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "features": [
+    {
+      "label_code": "MISO_mussgekuehltwerden",
+      "label": "Muss gekühlt werden",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MISO_CLA_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_becher",
+          "value": "Becher"
+        }
+      ],
+      "category_code": "MISO_CLA_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_kaesesorte",
+      "label": "Käsesorte",
+      "values": [
+        {
+          "value_code": "MISO_kaesesorte_glarnerschabziger",
+          "value": "Glarner Schabziger"
+        }
+      ],
+      "category_code": "MISO_CLA_Kaese_MilchButterRahmKaeseEierErsatzprodukte_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_milchartrohstoff",
+      "label": "Milchart/Rohstoff",
+      "values": [
+        {
+          "value_code": "MISO_milchartrohstoff_kuh",
+          "value": "Kuh"
+        }
+      ],
+      "category_code": "MISO_CLA_Kaese_MilchButterRahmKaeseEierErsatzprodukte_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/b412f3004c7a244dc119866a802933e092d2e5ab/zigerbutter.jpg",
+    "stack": "https://image.migros.ch/{stack}/b412f3004c7a244dc119866a802933e092d2e5ab/zigerbutter.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/18f36f1df8b570caa54f491ebb0153963fe8fba0/zigerbutter.png",
+    "stack": "https://image.migros.ch/{stack}/18f36f1df8b570caa54f491ebb0153963fe8fba0/zigerbutter.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_sortierung",
+      "label": "Sortierung aMigos",
+      "values": [
+        {
+          "value_code": "NUMERIC_305",
+          "value": "305",
+          "numeric_value": 305
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZFRP",
+          "value": "Frische Beschaffung"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "1",
+          "value": "Molki"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "70048",
+          "value": "SPEZIALITAETEN"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/210903100000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/zigerbutter",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/210903100000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/zigerbutter",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "regional_availability": {
+    "gmaa": {
+      "probability": 94
+    },
+    "gmbs": {
+      "probability": 74
+    },
+    "gmge": {
+      "probability": 5
+    },
+    "gmlu": {
+      "probability": 88
+    },
+    "gmnf": {
+      "probability": 10
+    },
+    "gmos": {
+      "probability": 96
+    },
+    "gmti": {
+      "probability": 84
+    },
+    "gmvd": {
+      "probability": 18
+    },
+    "gmvs": {
+      "probability": 0
+    },
+    "gmzh": {
+      "probability": 93
+    }
+  },
+  "updated_at": "2020-09-16T05:50:57+0200",
+  "base_unit": "CU",
+  "slugs": {
+    "de": "zigerbutter",
+    "fr": "beurre-au-ziger",
+    "it": "burro-allo-ziger"
+  },
+  "receipt_text": "Zigerbutter",
+  "main_supplier": {
+    "name": "ESTAVAYER LAIT S.A.",
+    "id": "0003020000"
+  },
+  "price": {
+    "valid_from": "2018-02-13T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 2.5,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "80g"
+    },
+    "base": {
+      "price": 3.13,
+      "quantity": 100,
+      "unit": "g"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 10,
+    "average_all": 4.9
+  },
+  "data_source": "SAP-X4x",
+  "package": {
+    "content": 80,
+    "content_unit_code": "g",
+    "content_unit": "Gramm",
+    "net_weight": 0.08,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogramm",
+    "brutto_weight": 0.08,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 0.318,
+    "brutto_volume_unit_code": "cdm",
+    "height": 5.5,
+    "length": 7.6,
+    "width": 7.6,
+    "unit_dimension": "cm",
+    "price_comparison_content": 100,
+    "size": "80g"
+  },
+  "package_information": {
+    "tu": {
+      "brutto_weight": 0.32,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 15.96,
+      "brutto_volume_unit_code": "cdm",
+      "height": 13.3,
+      "length": 40,
+      "width": 30,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 4
+    },
+    "cu": {
+      "brutto_weight": 0.08,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0.318,
+      "brutto_volume_unit_code": "cdm",
+      "height": 5.5,
+      "length": 7.6,
+      "width": 7.6,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "lu": {
+      "brutto_weight": 0,
+      "brutto_volume": 0,
+      "height": 0,
+      "length": 0,
+      "width": 0,
+      "number_of_base_units": 2304
+    }
+  },
+  "related_products": {
+    "purchase_recommendations": {
+      "product_ids": [
+        "210903300000",
+        "212588100000",
+        "212586000000",
+        "212504500000",
+        "212589800000"
+      ]
+    }
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "recipe_ingredient_ids": [
+    "705594",
+    "16827"
+  ],
+  "views": [
+    "all",
+    "browse"
+  ]
+}

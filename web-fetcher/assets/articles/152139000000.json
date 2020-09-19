@@ -1,0 +1,647 @@
+{
+  "id": "152139000000",
+  "language": "de",
+  "name": "M-Classic Apfelmus ohne Zuckerzusatz",
+  "names": {
+    "name": "M-Classic Apfelmus ohne Zuckerzusatz"
+  },
+  "slug": "m-classic-apfelmus-ohne-zuckerzusatz-152139000000",
+  "boss_number": "011111092120",
+  "description": {
+    "text": "<p>M-Classic Apfelmus</p><p>Ohne Zuckerzusatz</p>",
+    "source": "PIM"
+  },
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "source-qim-origins",
+    "validity-range-not-set",
+    "source-qim-fooddeclaration",
+    "source-qim-nutritionfacts",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7617027845571"
+  ],
+  "brand": {
+    "id": "068",
+    "name": "M-Classic",
+    "slug": "m-classic",
+    "links": {
+      "homepage": {
+        "url": "https://m-classic.migros.ch/de.html",
+        "name": "Homepage",
+        "type": "info",
+        "purchasable": false
+      }
+    },
+    "image": {
+      "original": "https://image.migros.ch/original/72c18633f911e026e081ac11d872cff2d8dc8abb/m-classic.jpg",
+      "stack": "https://image.migros.ch/{stack}/72c18633f911e026e081ac11d872cff2d8dc8abb/m-classic.jpg"
+    }
+  },
+  "categories": [
+    {
+      "code": "BeSS_01011415",
+      "name": "Früchtekonserven",
+      "slug": "supermarkt/lebensmittel/pasta-zutaten-konserven/fruechtekonserven",
+      "visible": true,
+      "parent_code": "BeSS_010114",
+      "image": {
+        "original": "https://image.migros.ch/original/0ddab8a8d58f3a9713c510b0e506fc69558499b2/fruechtekonserven.jpg",
+        "stack": "https://image.migros.ch/{stack}/0ddab8a8d58f3a9713c510b0e506fc69558499b2/fruechtekonserven.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010114",
+      "name": "Pasta, Zutaten & Konserven",
+      "slug": "supermarkt/lebensmittel/pasta-zutaten-konserven",
+      "visible": true,
+      "title": "Pasta aus Ihrer Migros: alles rund um Teigwaren",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/6d0964bbb34b8e041ba4d74fc0c90b149907f46a/pasta-zutaten-konserven.jpg",
+        "stack": "https://image.migros.ch/{stack}/6d0964bbb34b8e041ba4d74fc0c90b149907f46a/pasta-zutaten-konserven.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_Fruechte_KonservenEingemachtes_Grundnahrungsmittel",
+        "name": "Früchte",
+        "slug": "amigos/grundnahrungsmittel/konserven-eingemachtes/fruechte",
+        "visible": true,
+        "parent_code": "AMIG_CAT_KonservenEingemachtes_Grundnahrungsmittel",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_KonservenEingemachtes_Grundnahrungsmittel",
+        "name": "Konserven & Eingemachtes",
+        "slug": "amigos/grundnahrungsmittel/konserven-eingemachtes",
+        "visible": true,
+        "parent_code": "AMIG_CAT_Grundnahrungsmittel",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_Grundnahrungsmittel",
+        "name": "Grundnahrungsmittel",
+        "slug": "amigos/grundnahrungsmittel",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "nutrition_facts": {
+    "standard": {
+      "nutrients": [
+        {
+          "code": "PIM_NUT_ENERGIE",
+          "name": "Energie",
+          "pictogram_name": "Energie",
+          "category": "BIG9",
+          "quantity": 314,
+          "nutrition_operator": "=",
+          "quantity_unit": "kJ",
+          "quantity_alternate": 74,
+          "quantity_alternate_unit": "kcal"
+        },
+        {
+          "code": "PIM_NUT_FETT",
+          "name": "Fett",
+          "pictogram_name": "Fett",
+          "category": "BIG9",
+          "quantity": 0.5,
+          "nutrition_operator": "<",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_FETT_GES",
+          "name": "davon gesättigte Fettsäuren",
+          "pictogram_name": "gesättigte Fettsäuren",
+          "category": "BIG9",
+          "quantity": 0.1,
+          "nutrition_operator": "<",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_KOHLENHY",
+          "name": "Kohlenhydrate",
+          "category": "BIG9",
+          "quantity": 17,
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_ZUCKER",
+          "name": "davon Zucker",
+          "pictogram_name": "Zuckerarten",
+          "category": "BIG9",
+          "quantity": 16,
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_GES_BALL",
+          "name": "Ballaststoffe",
+          "category": "BIG9",
+          "quantity": 2,
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_PROTEINE",
+          "name": "Eiweiss",
+          "category": "BIG9",
+          "quantity": 0.5,
+          "nutrition_operator": "<",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_KOCHSALZ",
+          "name": "Salz",
+          "pictogram_name": "Salz",
+          "category": "BIG9",
+          "quantity": 0.01,
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        }
+      ],
+      "base_quantity": 100,
+      "base_unit": "g"
+    },
+    "portion": {
+      "nutrients": [
+        {
+          "code": "PIM_NUT_ENERGIE",
+          "name": "Energie",
+          "pictogram_name": "Energie",
+          "category": "BIG9",
+          "quantity": 317,
+          "rda_percent": 4,
+          "rda_percent_operator": "=",
+          "nutrition_operator": "=",
+          "quantity_unit": "kJ",
+          "quantity_alternate": 75,
+          "quantity_alternate_unit": "kcal"
+        },
+        {
+          "code": "PIM_NUT_FETT",
+          "name": "Fett",
+          "pictogram_name": "Fett",
+          "category": "BIG9",
+          "quantity": 0.5,
+          "rda_percent": 0.5,
+          "rda_percent_operator": "<",
+          "nutrition_operator": "<",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_FETT_GES",
+          "name": "davon gesättigte Fettsäuren",
+          "pictogram_name": "gesättigte Fettsäuren",
+          "category": "BIG9",
+          "quantity": 0.1,
+          "rda_percent": 1,
+          "rda_percent_operator": "=",
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_KOHLENHY",
+          "name": "Kohlenhydrate",
+          "category": "BIG9",
+          "quantity": 17,
+          "rda_percent": 7,
+          "rda_percent_operator": "=",
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_ZUCKER",
+          "name": "davon Zucker",
+          "pictogram_name": "Zuckerarten",
+          "category": "BIG9",
+          "quantity": 16,
+          "rda_percent": 18,
+          "rda_percent_operator": "=",
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_GES_BALL",
+          "name": "Ballaststoffe",
+          "category": "BIG9",
+          "quantity": 2,
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_PROTEINE",
+          "name": "Eiweiss",
+          "category": "BIG9",
+          "quantity": 0.5,
+          "rda_percent": 1,
+          "rda_percent_operator": "=",
+          "nutrition_operator": "<",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_KOCHSALZ",
+          "name": "Salz",
+          "pictogram_name": "Salz",
+          "category": "BIG9",
+          "quantity": 0.01,
+          "rda_percent": 0.5,
+          "rda_percent_operator": "<",
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        }
+      ],
+      "base_description": "1 Becher",
+      "base_quantity": 100,
+      "base_unit": "g",
+      "package_type": "Mehrfachpackung",
+      "portions_per_package": "4",
+      "portions_per_package_precision": "="
+    }
+  },
+  "features": [
+    {
+      "label_code": "MISO_anzahlentnehmbarereinzelportionen",
+      "label": "Anzahl entnehmbarer Einzeleinheiten",
+      "values": [
+        {
+          "value_code": "NUMERIC_4.0",
+          "value": "4.0",
+          "numeric_value": 4
+        }
+      ],
+      "category_code": "MISO_CLA_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_schachtel",
+          "value": "Schachtel"
+        }
+      ],
+      "category_code": "MISO_CLA_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_formbeschaffenheitvonobst",
+      "label": "Form/Beschaffenheit",
+      "values": [
+        {
+          "value_code": "MISO_formbeschaffenheitvonobst_mus",
+          "value": "Mus"
+        }
+      ],
+      "category_code": "MISO_CLA_ObstFruechte_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_gezuckert",
+      "label": "Gezuckert",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "Nein",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MISO_CLA_bearbeiteteshaltbaresObstFruechte_ObstFruechte_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_geschmackvonobstfruechten",
+      "label": "Geschmack von Obst/Früchten",
+      "values": [
+        {
+          "value_code": "MISO_geschmackvonobstfruechten_apfel",
+          "value": "Apfel"
+        }
+      ],
+      "category_code": "MISO_CLA_bearbeiteteshaltbaresObstFruechte_ObstFruechte_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    }
+  ],
+  "general_information": [
+    {
+      "label": "Weitere Zusatzangaben",
+      "value": "*Enthält von Natur aus Zuckerarten"
+    },
+    {
+      "label": "Kühlhinweis / Aufbewahrungshinweis",
+      "value": "Ohne Kühlung haltbar. Nach dem Öffnen im Kühlschrank aufbewahren und rasch konsumieren."
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/e1d42c822f9e21cd724c08bb0cb8d66570649d51/m-classic-apfelmus-ohne-zuckerzusatz.jpg",
+    "stack": "https://image.migros.ch/{stack}/e1d42c822f9e21cd724c08bb0cb8d66570649d51/m-classic-apfelmus-ohne-zuckerzusatz.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/7e2e1f6624b5445cfdba1c024fab0e6be2396bf6/m-classic-apfelmus-ohne-zuckerzusatz.png",
+    "stack": "https://image.migros.ch/{stack}/7e2e1f6624b5445cfdba1c024fab0e6be2396bf6/m-classic-apfelmus-ohne-zuckerzusatz.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_sortierung",
+      "label": "Sortierung aMigos",
+      "values": [
+        {
+          "value_code": "NUMERIC_130",
+          "value": "130",
+          "numeric_value": 130
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "M",
+          "value": "Kolonial Standard"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "11134",
+          "value": "FRUCHTKONSERVEN"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "regulated_description": "Apfelmus mit Apfelsaftkonzentrat",
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/152139000000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/m-classic-apfelmus-ohne-zuckerzusatz-152139000000",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/152139000000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/m-classic-apfelmus-ohne-zuckerzusatz-152139000000",
+      "type": "info",
+      "purchasable": false
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/3683299",
+      "app_url": "leshop:///catalog/article/detail?ean=7617027845571",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/m-classic-apfelmus-ohne-zuckerzusatz-152139000000",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "regional_availability": {
+    "gmaa": {
+      "probability": 99
+    },
+    "gmbs": {
+      "probability": 91
+    },
+    "gmge": {
+      "probability": 87
+    },
+    "gmlu": {
+      "probability": 97
+    },
+    "gmnf": {
+      "probability": 92
+    },
+    "gmos": {
+      "probability": 100
+    },
+    "gmti": {
+      "probability": 97
+    },
+    "gmvd": {
+      "probability": 86
+    },
+    "gmvs": {
+      "probability": 95
+    },
+    "gmzh": {
+      "probability": 92
+    }
+  },
+  "updated_at": "2020-09-16T06:31:48+0200",
+  "base_unit": "CU",
+  "slugs": {
+    "de": "m-classic-apfelmus-ohne-zuckerzusatz-152139000000",
+    "fr": "m-classic-compote-de-pommes-sans-sucres",
+    "it": "m-classic-purea-di-mele-senza-zuccheri"
+  },
+  "receipt_text": "MClass Apfelmus 4x100g",
+  "main_supplier": {
+    "name": "Andros (Suisse) SA",
+    "id": "0010000021"
+  },
+  "price": {
+    "valid_from": "2018-01-29T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 2.7,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "4 x 100g"
+    },
+    "base": {
+      "price": 0.68,
+      "quantity": 100,
+      "unit": "g"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 15,
+    "average_all": 3.727272727273
+  },
+  "data_source": "SAP-X11",
+  "origins": {
+    "producing_country": "Hergestellt in Deutschland"
+  },
+  "ingredients": "Äpfel 94 %, Apfelsaftkonzentrat 6 %, Antioxidationsmittel: Ascorbinsäure.",
+  "package": {
+    "content": 400,
+    "content_unit_code": "g",
+    "content_unit": "Gramm",
+    "net_weight": 0.4,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogramm",
+    "precision": "exact",
+    "brutto_weight": 0.43,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 0.794,
+    "brutto_volume_unit_code": "cdm",
+    "height": 12.6,
+    "length": 5,
+    "width": 12.6,
+    "unit_dimension": "cm",
+    "price_comparison_content": 100,
+    "size": "4 x 100g"
+  },
+  "package_information": {
+    "tu": {
+      "brutto_weight": 5.36,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 11.082,
+      "brutto_volume_unit_code": "cdm",
+      "height": 10.6,
+      "length": 39.6,
+      "width": 26.4,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 12
+    },
+    "cu": {
+      "brutto_weight": 0.43,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0.794,
+      "brutto_volume_unit_code": "cdm",
+      "height": 12.6,
+      "length": 5,
+      "width": 12.6,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "lu": {
+      "brutto_weight": 410.92,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 1424.64,
+      "brutto_volume_unit_code": "cdm",
+      "height": 84.8,
+      "length": 120,
+      "width": 80,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 864
+    }
+  },
+  "related_products": {
+    "purchase_recommendations": {
+      "product_ids": [
+        "152139100000",
+        "152139500000",
+        "152139600000",
+        "152150100000",
+        "152612100000"
+      ]
+    }
+  },
+  "declarations": {
+    "food": {
+      "features": [
+        {
+          "label_code": "GDSN_M281_NetContent",
+          "label": "Nettofüllmenge Wert",
+          "values": [
+            {
+              "value_code": "NUMERIC_400",
+              "value": "400",
+              "numeric_value": 400
+            }
+          ],
+          "category_code": "GDSN",
+          "top_fact": false,
+          "unit_code": "g"
+        }
+      ]
+    }
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "recipe_ingredient_ids": [
+    "10000"
+  ],
+  "views": [
+    "all",
+    "browse"
+  ]
+}

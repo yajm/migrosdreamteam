@@ -1,0 +1,431 @@
+{
+  "id": "106252300000",
+  "language": "de",
+  "name": "Knoblauch granuliert",
+  "names": {
+    "name": "Knoblauch granuliert"
+  },
+  "slug": "knoblauch-granuliert",
+  "boss_number": "011011361505",
+  "description": {
+    "text": "Knoblauf granuliert",
+    "source": "PIM"
+  },
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7617014133971",
+    "7613312017265"
+  ],
+  "categories": [
+    {
+      "code": "BeSS_01011421",
+      "name": "Gewürze & Kräuter",
+      "slug": "supermarkt/lebensmittel/pasta-zutaten-konserven/gewuerze-kraeuter",
+      "visible": true,
+      "title": "Bringen Aroma in die Küche: Gewürze aus der Migros",
+      "parent_code": "BeSS_010114",
+      "image": {
+        "original": "https://image.migros.ch/original/21eef66859e1592c1038e1a3455b367ba78b1694/gewuerze-kraeuter.jpg",
+        "stack": "https://image.migros.ch/{stack}/21eef66859e1592c1038e1a3455b367ba78b1694/gewuerze-kraeuter.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010114",
+      "name": "Pasta, Zutaten & Konserven",
+      "slug": "supermarkt/lebensmittel/pasta-zutaten-konserven",
+      "visible": true,
+      "title": "Pasta aus Ihrer Migros: alles rund um Teigwaren",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/6d0964bbb34b8e041ba4d74fc0c90b149907f46a/pasta-zutaten-konserven.jpg",
+        "stack": "https://image.migros.ch/{stack}/6d0964bbb34b8e041ba4d74fc0c90b149907f46a/pasta-zutaten-konserven.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_Gewuerze_Grundnahrungsmittel",
+        "name": "Gewürze",
+        "slug": "amigos/grundnahrungsmittel/gewuerze",
+        "visible": true,
+        "parent_code": "AMIG_CAT_Grundnahrungsmittel",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_Grundnahrungsmittel",
+        "name": "Grundnahrungsmittel",
+        "slug": "amigos/grundnahrungsmittel",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ],
+    [
+      {
+        "code": "AMIG_CAT_Gewuerze_Gewuerze_Grundnahrungsmittel",
+        "name": "Gewürze",
+        "slug": "amigos/grundnahrungsmittel/gewuerze/gewuerze",
+        "visible": true,
+        "parent_code": "AMIG_CAT_Gewuerze_Grundnahrungsmittel",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_Gewuerze_Grundnahrungsmittel",
+        "name": "Gewürze",
+        "slug": "amigos/grundnahrungsmittel/gewuerze",
+        "visible": true,
+        "parent_code": "AMIG_CAT_Grundnahrungsmittel",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_Grundnahrungsmittel",
+        "name": "Grundnahrungsmittel",
+        "slug": "amigos/grundnahrungsmittel",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "features": [
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_glas",
+          "value": "Glas"
+        }
+      ],
+      "category_code": "MISO_CLA_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_artvonkraeuterngewuerzen",
+      "label": "Art von Kräutern/Gewürzen",
+      "values": [
+        {
+          "value_code": "MISO_artvonkraeuterngewuerzen_knoblauch",
+          "value": "Knoblauch"
+        }
+      ],
+      "category_code": "MISO_CLA_KraeuterGewuerzeExtrakte_GewuerzeKonservierungsstoffeExtrakte_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zustandsform",
+      "label": "Zustandsform",
+      "values": [
+        {
+          "value_code": "MISO_zustandsform_getrocknet",
+          "value": "Getrocknet"
+        },
+        {
+          "value_code": "MISO_zustandsform_granuliert",
+          "value": "Granuliert"
+        }
+      ],
+      "category_code": "MISO_CLA_KraeuterGewuerzeExtrakte_GewuerzeKonservierungsstoffeExtrakte_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    }
+  ],
+  "general_information": [
+    {
+      "label": "Haltbarkeitshinweis",
+      "value": "Trocken aufbewahren und vor Licht schützen."
+    },
+    {
+      "label": "Herstellungsland",
+      "value": "Abgepackt in der Schweiz für Delica AG."
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/7481e0bd8dcc722e6d446fdc7239b94595a29399/knoblauch-granuliert.jpg",
+    "stack": "https://image.migros.ch/{stack}/7481e0bd8dcc722e6d446fdc7239b94595a29399/knoblauch-granuliert.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/a20be16fa46701da70b1dc37b8476cf0ada07f0e/knoblauch-granuliert.png",
+    "stack": "https://image.migros.ch/{stack}/a20be16fa46701da70b1dc37b8476cf0ada07f0e/knoblauch-granuliert.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_sortierung",
+      "label": "Sortierung aMigos",
+      "values": [
+        {
+          "value_code": "NUMERIC_320",
+          "value": "320",
+          "numeric_value": 320
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "M",
+          "value": "Kolonial Standard"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "10264",
+          "value": "MONOGEWUERZE"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "regulated_description": "Knoblauch, getrocknet und granuliert",
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/106252300000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/knoblauch-granuliert",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/106252300000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/knoblauch-granuliert",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "regional_availability": {
+    "gmaa": {
+      "probability": 100
+    },
+    "gmbs": {
+      "probability": 100
+    },
+    "gmge": {
+      "probability": 92
+    },
+    "gmlu": {
+      "probability": 97
+    },
+    "gmnf": {
+      "probability": 96
+    },
+    "gmos": {
+      "probability": 100
+    },
+    "gmti": {
+      "probability": 100
+    },
+    "gmvd": {
+      "probability": 97
+    },
+    "gmvs": {
+      "probability": 97
+    },
+    "gmzh": {
+      "probability": 98
+    }
+  },
+  "updated_at": "2020-09-16T06:29:55+0200",
+  "base_unit": "CU",
+  "slugs": {
+    "de": "knoblauch-granuliert",
+    "fr": "ail-granule",
+    "it": "aglio-granulato"
+  },
+  "receipt_text": "Knoblauch 49g",
+  "main_supplier": {
+    "name": "DELICA AG",
+    "id": "0004090000",
+    "supplier_product_id": "106252300000"
+  },
+  "price": {
+    "valid_from": "2019-09-25T00:00:00+0200",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 0.65,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "49g"
+    },
+    "base": {
+      "price": 0.13,
+      "quantity": 10,
+      "unit": "g"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 14,
+    "average_all": 3.923076923077
+  },
+  "data_source": "SAP-X11",
+  "origins": {
+    "producing_country": "Abgepackt in der Schweiz für Delica AG."
+  },
+  "ingredients": "Knoblauch.",
+  "package": {
+    "content": 49,
+    "content_unit_code": "g",
+    "content_unit": "Gramm",
+    "net_weight": 0.049,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogramm",
+    "brutto_weight": 0.143,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 0.199,
+    "brutto_volume_unit_code": "cdm",
+    "height": 10.3,
+    "length": 4.4,
+    "width": 4.4,
+    "unit_dimension": "cm",
+    "price_comparison_content": 10,
+    "size": "49g"
+  },
+  "package_information": {
+    "tu": {
+      "brutto_weight": 2.229,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 3.393,
+      "brutto_volume_unit_code": "cdm",
+      "height": 10.8,
+      "length": 22.6,
+      "width": 13.9,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 15
+    },
+    "cu": {
+      "brutto_weight": 0.143,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0.199,
+      "brutto_volume_unit_code": "cdm",
+      "height": 10.3,
+      "length": 4.4,
+      "width": 4.4,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "lu": {
+      "brutto_weight": 736.051,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 1140.48,
+      "brutto_volume_unit_code": "cdm",
+      "height": 118.8,
+      "length": 120,
+      "width": 80,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 4785
+    }
+  },
+  "related_products": {
+    "purchase_recommendations": {
+      "product_ids": [
+        "106254100000",
+        "106252600000",
+        "106254000000",
+        "106253600000",
+        "106253700000"
+      ]
+    }
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "recipe_ingredient_ids": [
+    "16508"
+  ],
+  "views": [
+    "all",
+    "browse"
+  ]
+}

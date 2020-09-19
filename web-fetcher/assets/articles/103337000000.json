@@ -1,0 +1,733 @@
+{
+  "id": "103337000000",
+  "language": "de",
+  "name": "Don Pablo Olivenöl Extra",
+  "names": {
+    "name": "Don Pablo Olivenöl Extra"
+  },
+  "slug": "don-pablo-olivenoel-extra",
+  "boss_number": "011011280715",
+  "description": {
+    "text": "Natives Oliven&ouml;l Extra Vergine",
+    "source": "PIM"
+  },
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "source-qim-fooddeclaration",
+    "source-qim-nutritionfacts",
+    "source-qim-origins",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7617027160940"
+  ],
+  "brand": {
+    "id": "G81",
+    "name": "Don Pablo",
+    "slug": "don-pablo"
+  },
+  "categories": [
+    {
+      "code": "BeSS_0101141001",
+      "name": "Olivenöl",
+      "slug": "supermarkt/lebensmittel/pasta-zutaten-konserven/essig-oele/olivenoel",
+      "visible": true,
+      "parent_code": "BeSS_01011410",
+      "image": {
+        "original": "https://image.migros.ch/original/1ecea852ffea11ab45082661685dc9cd38aa2fb4/olivenoel.jpg",
+        "stack": "https://image.migros.ch/{stack}/1ecea852ffea11ab45082661685dc9cd38aa2fb4/olivenoel.jpg"
+      },
+      "level": 5
+    },
+    {
+      "code": "BeSS_01011410",
+      "name": "Essig & Öle",
+      "slug": "supermarkt/lebensmittel/pasta-zutaten-konserven/essig-oele",
+      "visible": true,
+      "title": "Essig und öl &ndash; das Beste zum Kochen aus Ihrer Migros",
+      "parent_code": "BeSS_010114",
+      "image": {
+        "original": "https://image.migros.ch/original/1ba9cadbce840aaa77db246b510e97af4f66c258/essig-oele.jpg",
+        "stack": "https://image.migros.ch/{stack}/1ba9cadbce840aaa77db246b510e97af4f66c258/essig-oele.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010114",
+      "name": "Pasta, Zutaten & Konserven",
+      "slug": "supermarkt/lebensmittel/pasta-zutaten-konserven",
+      "visible": true,
+      "title": "Pasta aus Ihrer Migros: alles rund um Teigwaren",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/6d0964bbb34b8e041ba4d74fc0c90b149907f46a/pasta-zutaten-konserven.jpg",
+        "stack": "https://image.migros.ch/{stack}/6d0964bbb34b8e041ba4d74fc0c90b149907f46a/pasta-zutaten-konserven.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_Oel_EssigOelSpeisefett_Grundnahrungsmittel",
+        "name": "Öl",
+        "slug": "amigos/grundnahrungsmittel/essig-oel-speisefett/oel",
+        "visible": true,
+        "parent_code": "AMIG_CAT_EssigOelSpeisefett_Grundnahrungsmittel",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_EssigOelSpeisefett_Grundnahrungsmittel",
+        "name": "Essig, Öl & Speisefett",
+        "slug": "amigos/grundnahrungsmittel/essig-oel-speisefett",
+        "visible": true,
+        "parent_code": "AMIG_CAT_Grundnahrungsmittel",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_Grundnahrungsmittel",
+        "name": "Grundnahrungsmittel",
+        "slug": "amigos/grundnahrungsmittel",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "nutrition_facts": {
+    "standard": {
+      "nutrients": [
+        {
+          "code": "PIM_NUT_ENERGIE",
+          "name": "Energie",
+          "pictogram_name": "Energie",
+          "category": "BIG9",
+          "quantity": 3367,
+          "nutrition_operator": "=",
+          "quantity_unit": "kJ",
+          "quantity_alternate": 819,
+          "quantity_alternate_unit": "kcal"
+        },
+        {
+          "code": "PIM_NUT_FETT",
+          "name": "Fett",
+          "pictogram_name": "Fett",
+          "category": "BIG9",
+          "quantity": 91,
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_FETT_GES",
+          "name": "davon gesättigte Fettsäuren",
+          "pictogram_name": "gesättigte Fettsäuren",
+          "category": "BIG9",
+          "quantity": 13,
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_ME_UNG_F",
+          "name": "davon mehrfach ungesättigte Fettsäuren",
+          "category": "SONSTIGE",
+          "quantity": 7,
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_KOHLENHY",
+          "name": "Kohlenhydrate",
+          "category": "BIG9",
+          "quantity": 0,
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_ZUCKER",
+          "name": "davon Zucker",
+          "pictogram_name": "Zuckerarten",
+          "category": "BIG9",
+          "quantity": 0,
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_GES_BALL",
+          "name": "Ballaststoffe",
+          "category": "BIG9",
+          "quantity": 0,
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_PROTEINE",
+          "name": "Eiweiss",
+          "category": "BIG9",
+          "quantity": 0,
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_KOCHSALZ",
+          "name": "Salz",
+          "pictogram_name": "Salz",
+          "category": "BIG9",
+          "quantity": 0,
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        }
+      ],
+      "base_quantity": 100,
+      "base_unit": "ml"
+    },
+    "portion": {
+      "nutrients": [
+        {
+          "code": "PIM_NUT_ENERGIE",
+          "name": "Energie",
+          "pictogram_name": "Energie",
+          "category": "BIG9",
+          "quantity": 505,
+          "rda_percent": 6,
+          "rda_percent_operator": "=",
+          "nutrition_operator": "=",
+          "quantity_unit": "kJ",
+          "quantity_alternate": 123,
+          "quantity_alternate_unit": "kcal"
+        },
+        {
+          "code": "PIM_NUT_FETT",
+          "name": "Fett",
+          "pictogram_name": "Fett",
+          "category": "BIG9",
+          "quantity": 14,
+          "rda_percent": 20,
+          "rda_percent_operator": "=",
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_FETT_GES",
+          "name": "davon gesättigte Fettsäuren",
+          "pictogram_name": "gesättigte Fettsäuren",
+          "category": "BIG9",
+          "quantity": 2,
+          "rda_percent": 10,
+          "rda_percent_operator": "=",
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_ME_UNG_F",
+          "name": "davon mehrfach ungesättigte Fettsäuren",
+          "category": "SONSTIGE",
+          "quantity": 1.1,
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_KOHLENHY",
+          "name": "Kohlenhydrate",
+          "category": "BIG9",
+          "quantity": 0,
+          "rda_percent": 0,
+          "rda_percent_operator": "=",
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_ZUCKER",
+          "name": "davon Zucker",
+          "pictogram_name": "Zuckerarten",
+          "category": "BIG9",
+          "quantity": 0,
+          "rda_percent": 0,
+          "rda_percent_operator": "=",
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_GES_BALL",
+          "name": "Ballaststoffe",
+          "category": "BIG9",
+          "quantity": 0,
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_PROTEINE",
+          "name": "Eiweiss",
+          "category": "BIG9",
+          "quantity": 0,
+          "rda_percent": 0,
+          "rda_percent_operator": "=",
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_KOCHSALZ",
+          "name": "Salz",
+          "pictogram_name": "Salz",
+          "category": "BIG9",
+          "quantity": 0,
+          "rda_percent": 0,
+          "rda_percent_operator": "=",
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        }
+      ],
+      "base_description": "1 Esslöffel",
+      "base_quantity": 15,
+      "base_precision": "≈",
+      "base_unit": "ml",
+      "package_type": "Flasche",
+      "portions_per_package": "33",
+      "portions_per_package_precision": "≈"
+    }
+  },
+  "additional_nutrition_facts": {
+    "standard": {
+      "nutrients": [
+        {
+          "code": "PIM_NUT_FETT_UNGES",
+          "name": "davon einfach ungesättigte Fettsäuren",
+          "category": "SONSTIGE",
+          "quantity": 63,
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        }
+      ],
+      "base_quantity": 100,
+      "base_unit": "ml"
+    },
+    "portion": {
+      "nutrients": [
+        {
+          "code": "PIM_NUT_FETT_UNGES",
+          "name": "davon einfach ungesättigte Fettsäuren",
+          "category": "SONSTIGE",
+          "quantity": 9.5,
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        }
+      ],
+      "base_description": "1 Esslöffel",
+      "base_quantity": 15,
+      "base_precision": "≈",
+      "base_unit": "ml"
+    }
+  },
+  "features": [
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_flasche",
+          "value": "Flasche"
+        }
+      ],
+      "category_code": "MISO_CLA_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_extravergine",
+      "label": "Extra Vergine",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MISO_CLA_SpeiseoeleFette_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zumbratengeeignet",
+      "label": "Zum Braten geeignet",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MISO_CLA_SpeiseoeleFette_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zumfrittierengeeignet",
+      "label": "Zum Frittieren geeignet",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MISO_CLA_SpeiseoeleFette_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_verwendungstemperatur",
+      "label": "Verwendungstemperatur",
+      "values": [
+        {
+          "value": "100-180"
+        }
+      ],
+      "category_code": "MISO_CLA_SpeiseoeleFette_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_artvonspeiseoel",
+      "label": "Art von Speiseöl",
+      "values": [
+        {
+          "value_code": "MISO_artvonspeiseoel_olivenoel",
+          "value": "Olivenöl"
+        }
+      ],
+      "category_code": "MISO_CLA_Speiseoel_SpeiseoeleFette_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_kaltgepresst",
+      "label": "Kaltgepresst",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MISO_CLA_Speiseoel_SpeiseoeleFette_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    }
+  ],
+  "general_information": [
+    {
+      "label": "Kühlhinweis / Aufbewahrungshinweis",
+      "value": "Kühl, trocken und vor Licht geschützt aufbewahren."
+    },
+    {
+      "label": "Weitere Zusatzangaben",
+      "value": "erste Güteklasse - direkt aus Oliven ausschliesslich mit mechanischen Verfahren gewonnen"
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/664ac99ea8f319b45d6620d9c752dbe679f5cf09/don-pablo-olivenoel-extra.jpg",
+    "stack": "https://image.migros.ch/{stack}/664ac99ea8f319b45d6620d9c752dbe679f5cf09/don-pablo-olivenoel-extra.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/df8e5452f689c4cbc632a6b293751ef51185f052/don-pablo-olivenoel-extra.png",
+    "stack": "https://image.migros.ch/{stack}/df8e5452f689c4cbc632a6b293751ef51185f052/don-pablo-olivenoel-extra.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_sortierung",
+      "label": "Sortierung aMigos",
+      "values": [
+        {
+          "value_code": "NUMERIC_330",
+          "value": "330",
+          "numeric_value": 330
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "M",
+          "value": "Kolonial Standard"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "11030",
+          "value": "OLIVENOEL"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUSTOMS_POSITION",
+      "values": [
+        {
+          "value_code": "1509.1099"
+        }
+      ],
+      "category_code": "MAPI_CUSTOMS_POSITION",
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "regulated_description": "Natives Olivenöl extra",
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/103337000000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/don-pablo-olivenoel-extra",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/103337000000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/don-pablo-olivenoel-extra",
+      "type": "info",
+      "purchasable": false
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/218329",
+      "app_url": "leshop:///catalog/article/detail?ean=7617027160940",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/don-pablo-olivenoel-extra",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "regional_availability": {
+    "gmaa": {
+      "probability": 65
+    },
+    "gmbs": {
+      "probability": 70
+    },
+    "gmge": {
+      "probability": 82
+    },
+    "gmlu": {
+      "probability": 62
+    },
+    "gmnf": {
+      "probability": 94
+    },
+    "gmos": {
+      "probability": 74
+    },
+    "gmti": {
+      "probability": 94
+    },
+    "gmvd": {
+      "probability": 91
+    },
+    "gmvs": {
+      "probability": 95
+    },
+    "gmzh": {
+      "probability": 82
+    }
+  },
+  "updated_at": "2020-09-15T04:58:26+0200",
+  "base_unit": "CU",
+  "slugs": {
+    "de": "don-pablo-olivenoel-extra",
+    "fr": "don-pablo-huile-olive-extra",
+    "it": "don-pablo-olio-oliva-extra"
+  },
+  "receipt_text": "Don Pablo Olivenöl",
+  "main_supplier": {
+    "name": "S. de Mendieta S.A.",
+    "id": "0010000108"
+  },
+  "price": {
+    "valid_from": "2020-03-16T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 5.3,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "500ml"
+    },
+    "base": {
+      "price": 1.06,
+      "quantity": 100,
+      "unit": "ml"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 8,
+    "average_all": 4
+  },
+  "data_source": "SAP-X11",
+  "origins": {
+    "producing_country": "Spanisches Produkt"
+  },
+  "package": {
+    "content": 500,
+    "content_unit_code": "ml",
+    "content_unit": "Mililiter",
+    "net_weight": 0.456,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogramm",
+    "precision": "approximate",
+    "brutto_weight": 0.488,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 0.844,
+    "brutto_volume_unit_code": "cdm",
+    "height": 20.6,
+    "length": 6.4,
+    "width": 6.4,
+    "unit_dimension": "cm",
+    "price_comparison_content": 100,
+    "size": "500ml"
+  },
+  "package_information": {
+    "tu": {
+      "brutto_weight": 6.08,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 12.288,
+      "brutto_volume_unit_code": "cdm",
+      "height": 21.2,
+      "length": 27.6,
+      "width": 21,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 12
+    },
+    "cu": {
+      "brutto_weight": 0.488,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0.844,
+      "brutto_volume_unit_code": "cdm",
+      "height": 20.6,
+      "length": 6.4,
+      "width": 6.4,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "lu": {
+      "brutto_weight": 946.9,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 1221.12,
+      "brutto_volume_unit_code": "cdm",
+      "height": 148.4,
+      "length": 120,
+      "width": 80,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1260
+    }
+  },
+  "related_products": {
+    "purchase_recommendations": {
+      "product_ids": [
+        "103337100000",
+        "103337300000",
+        "103360500000",
+        "103360400000"
+      ]
+    }
+  },
+  "declarations": {
+    "food": {
+      "features": [
+        {
+          "label_code": "GDSN_M281_NetContent",
+          "label": "Nettofüllmenge Wert",
+          "values": [
+            {
+              "value_code": "NUMERIC_500",
+              "value": "500",
+              "numeric_value": 500
+            }
+          ],
+          "category_code": "GDSN",
+          "top_fact": false,
+          "unit_code": "ml"
+        }
+      ]
+    }
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "recipe_ingredient_ids": [
+    "15119",
+    "72101",
+    "19414",
+    "15110"
+  ],
+  "views": [
+    "all",
+    "browse"
+  ]
+}

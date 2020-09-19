@@ -1,0 +1,729 @@
+{
+  "id": "104208000000",
+  "language": "de",
+  "name": "Farmer aha! Crunchy Natural",
+  "names": {
+    "name": "Farmer aha! Crunchy Natural"
+  },
+  "slug": "farmer-aha-crunchy-natural",
+  "boss_number": "010318208005",
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7613269187370",
+    "7610121600299"
+  ],
+  "brand": {
+    "id": "052",
+    "name": "Farmer",
+    "slug": "farmer",
+    "image": {
+      "original": "https://image.migros.ch/original/3c1bd7ea87cddf27b0b1e57b502cca4f6c01f4b1/farmer.jpg",
+      "stack": "https://image.migros.ch/{stack}/3c1bd7ea87cddf27b0b1e57b502cca4f6c01f4b1/farmer.jpg"
+    }
+  },
+  "labels": [
+    {
+      "id": "L15",
+      "name": "aha!",
+      "slug": "aha",
+      "links": {
+        "homepage": {
+          "url": "https://www.migros-impuls.ch/de/ernaehrung/ernaehrungsformen/allergien-intoleranzen/aha",
+          "name": "Homepage",
+          "type": "info",
+          "purchasable": false
+        }
+      },
+      "image": {
+        "original": "https://image.migros.ch/original/ddc0ba54b162f407e050f09ed5f0c948ed31e289/aha.jpg",
+        "stack": "https://image.migros.ch/{stack}/ddc0ba54b162f407e050f09ed5f0c948ed31e289/aha.jpg"
+      }
+    },
+    {
+      "id": "L57",
+      "name": "V-vegan",
+      "slug": "v-vegan",
+      "image": {
+        "original": "https://image.migros.ch/original/9425b8ea6312342ddd2d0dc87e65567c88e1b757/v-vegan.jpg",
+        "stack": "https://image.migros.ch/{stack}/9425b8ea6312342ddd2d0dc87e65567c88e1b757/v-vegan.jpg"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_01011203",
+      "name": "Getreidestängel",
+      "slug": "supermarkt/lebensmittel/mueesli-cerealien/getreidestaengel",
+      "visible": true,
+      "parent_code": "BeSS_010112",
+      "image": {
+        "original": "https://image.migros.ch/original/3b881f916213a24572e37aa906dc530045e6feae/getreidestaengel.jpg",
+        "stack": "https://image.migros.ch/{stack}/3b881f916213a24572e37aa906dc530045e6feae/getreidestaengel.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010112",
+      "name": "Müesli & Cerealien",
+      "slug": "supermarkt/lebensmittel/mueesli-cerealien",
+      "visible": true,
+      "title": "Cerealien von der Migros &ndash; für einen guten Start in den Tag",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/94adab320c7d6778bba96c16ad7b18a493850519/mueesli-cerealien.jpg",
+        "stack": "https://image.migros.ch/{stack}/94adab320c7d6778bba96c16ad7b18a493850519/mueesli-cerealien.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_Getreideriegel_MueesliCerealienBrotaufstriche",
+        "name": "Getreideriegel",
+        "slug": "amigos/mueesli-cerealien-brotaufstriche/getreideriegel",
+        "visible": true,
+        "parent_code": "AMIG_CAT_MueesliCerealienBrotaufstriche",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_MueesliCerealienBrotaufstriche",
+        "name": "Müesli, Cerealien & Brotaufstriche",
+        "slug": "amigos/mueesli-cerealien-brotaufstriche",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "nutrition_facts": {
+    "standard": {
+      "nutrients": [
+        {
+          "code": "PIM_NUT_ENERGIE",
+          "name": "Energie",
+          "pictogram_name": "Energie",
+          "category": "BIG9",
+          "quantity": 1710,
+          "rda_percent": 21,
+          "rda_percent_operator": "=",
+          "quantity_unit": "kJ",
+          "quantity_alternate": 410,
+          "quantity_alternate_unit": "kcal"
+        },
+        {
+          "code": "PIM_NUT_FETT",
+          "name": "Fett",
+          "pictogram_name": "Fett",
+          "category": "BIG9",
+          "quantity": 16,
+          "rda_percent": 23,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_FETT_GES",
+          "name": "davon gesättigte Fettsäuren",
+          "pictogram_name": "gesättigte Fettsäuren",
+          "category": "BIG9",
+          "quantity": 7,
+          "rda_percent": 35,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_KOHLENHY",
+          "name": "Kohlenhydrate",
+          "category": "BIG9",
+          "quantity": 59,
+          "rda_percent": 23,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_ZUCKER",
+          "name": "davon Zucker",
+          "pictogram_name": "Zuckerarten",
+          "category": "BIG9",
+          "quantity": 3,
+          "rda_percent": 3,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_MEHRWALK",
+          "name": "Mehrwertige Alkohole",
+          "category": "SONSTIGE",
+          "quantity": 31,
+          "rda_percent": 0,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_GES_BALL",
+          "name": "Ballaststoffe",
+          "category": "BIG9",
+          "quantity": 9,
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_PROTEINE",
+          "name": "Eiweiss",
+          "category": "BIG9",
+          "quantity": 15,
+          "rda_percent": 30,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_KOCHSALZ",
+          "name": "Salz",
+          "pictogram_name": "Salz",
+          "category": "BIG9",
+          "quantity": 0.01,
+          "rda_percent": 0.5,
+          "rda_percent_operator": "<",
+          "quantity_unit": "g"
+        }
+      ],
+      "base_quantity": 100,
+      "base_unit": "g"
+    },
+    "portion": {
+      "nutrients": [
+        {
+          "code": "PIM_NUT_ENERGIE",
+          "name": "Energie",
+          "pictogram_name": "Energie",
+          "category": "BIG9",
+          "quantity": 290,
+          "rda_percent": 4,
+          "rda_percent_operator": "=",
+          "quantity_unit": "kJ",
+          "quantity_alternate": 70,
+          "quantity_alternate_unit": "kcal"
+        },
+        {
+          "code": "PIM_NUT_FETT",
+          "name": "Fett",
+          "pictogram_name": "Fett",
+          "category": "BIG9",
+          "quantity": 3,
+          "rda_percent": 4,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_FETT_GES",
+          "name": "davon gesättigte Fettsäuren",
+          "pictogram_name": "gesättigte Fettsäuren",
+          "category": "BIG9",
+          "quantity": 1,
+          "rda_percent": 5,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_KOHLENHY",
+          "name": "Kohlenhydrate",
+          "category": "BIG9",
+          "quantity": 10,
+          "rda_percent": 4,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_ZUCKER",
+          "name": "davon Zucker",
+          "pictogram_name": "Zuckerarten",
+          "category": "BIG9",
+          "quantity": 0.5,
+          "rda_percent": 1,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_MEHRWALK",
+          "name": "Mehrwertige Alkohole",
+          "category": "SONSTIGE",
+          "quantity": 5,
+          "rda_percent": 0,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_GES_BALL",
+          "name": "Ballaststoffe",
+          "category": "BIG9",
+          "quantity": 1.5,
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_PROTEINE",
+          "name": "Eiweiss",
+          "category": "BIG9",
+          "quantity": 2.5,
+          "rda_percent": 5,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_KOCHSALZ",
+          "name": "Salz",
+          "pictogram_name": "Salz",
+          "category": "BIG9",
+          "quantity": 0.01,
+          "rda_percent": 0.5,
+          "rda_percent_operator": "<",
+          "quantity_unit": "g"
+        }
+      ],
+      "base_description": "1 Riegel",
+      "base_quantity": 17,
+      "base_unit": "g"
+    }
+  },
+  "features": [
+    {
+      "label_code": "MISO_produktionsanspruch",
+      "label": "Produktionsverfahren",
+      "values": [
+        {
+          "value_code": "MISO_produktionsanspruch_ohnezuckerzusatz",
+          "value": "Ohne Zuckerzusatz"
+        }
+      ],
+      "category_code": "MISO_CLA_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_anzahlentnehmbarereinzelportionen",
+      "label": "Anzahl entnehmbarer Einzeleinheiten",
+      "values": [
+        {
+          "value_code": "NUMERIC_12.0",
+          "value": "12.0",
+          "numeric_value": 12
+        }
+      ],
+      "category_code": "MISO_CLA_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_schachtel",
+          "value": "Schachtel"
+        }
+      ],
+      "category_code": "MISO_CLA_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_naehrwertanspruch",
+      "label": "Nährwertanspruch",
+      "values": [
+        {
+          "value_code": "MISO_naehrwertanspruch_hoherballaststoffgehalt",
+          "value": "Hoher Ballaststoffgehalt"
+        }
+      ],
+      "category_code": "MISO_CLA_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zubereitungsverfahren",
+      "label": "Hinweise für die Zubereitung",
+      "values": [
+        {
+          "value_code": "MISO_zubereitungsverfahren_verzehrfertig",
+          "value": "Verzehrfertig"
+        }
+      ],
+      "category_code": "MISO_CLA_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_artvonbearbeitetemgetreideprodukt",
+      "label": "Art von bearbeitetem Getreideprodukt",
+      "values": [
+        {
+          "value_code": "MISO_artvonbearbeitetemgetreideprodukt_hafer",
+          "value": "Hafer"
+        },
+        {
+          "value_code": "MISO_artvonbearbeitetemgetreideprodukt_reis",
+          "value": "Reis"
+        },
+        {
+          "value_code": "MISO_artvonbearbeitetemgetreideprodukt_weizen",
+          "value": "Weizen"
+        }
+      ],
+      "category_code": "MISO_CLA_bearbeiteteGetreideprodukte_GetreideHuelsenfruchtprodukte_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_einzelnverpackt",
+      "label": "Einzeln verpackt",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MISO_CLA_bearbeiteteGetreideprodukte_GetreideHuelsenfruchtprodukte_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_VEGETARIANISM",
+      "label": "Vegetarismus",
+      "values": [
+        {
+          "value_code": "MAPI_VEGETARIANISM_vegan",
+          "value": "vegan"
+        }
+      ],
+      "category_code": "MAPI_VEGETARIANISM",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ALLERGENES",
+      "label": "Allergenauslobungen",
+      "values": [
+        {
+          "value_code": "MAPI_ALLERGENES_laktosefrei",
+          "value": "Laktosefrei"
+        },
+        {
+          "value_code": "MAPI_ALLERGENES_ohneMilch",
+          "value": "Ohne Milch"
+        }
+      ],
+      "category_code": "MAPI_ALLERGENES",
+      "top_fact": false
+    }
+  ],
+  "allergens": [
+    {
+      "code": "ALLG_GLUTEN",
+      "name": "Glutenhaltige Getreide",
+      "contamination_code": "VORHANDEN",
+      "contamination": "vorhanden"
+    },
+    {
+      "code": "ALLG_HASELNU",
+      "name": "Haselnüsse",
+      "contamination_code": "VORHANDEN",
+      "contamination": "vorhanden"
+    },
+    {
+      "code": "ALLG_NUSS",
+      "name": "Nüsse",
+      "contamination_code": "VORHANDEN",
+      "contamination": "vorhanden"
+    },
+    {
+      "code": "ALLG_SOJA",
+      "name": "Sojabohnen",
+      "contamination_code": "VORHANDEN",
+      "contamination": "vorhanden"
+    }
+  ],
+  "general_information": [
+    {
+      "label": "Obligatorische Zusatzangaben",
+      "value": "-"
+    },
+    {
+      "label": "Aufbewarungs- und Verpackungshinweise",
+      "value": "-"
+    },
+    {
+      "label": "Haltbarkeit",
+      "value": "Mindestens haltbar bis Ende"
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/4be2f6dd1915517c75c2461a309c81ed02387751/farmer-aha-crunchy-natural.jpg",
+    "stack": "https://image.migros.ch/{stack}/4be2f6dd1915517c75c2461a309c81ed02387751/farmer-aha-crunchy-natural.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/87f22bbdbe6c2906c8815e2c560bee53e9933a79/farmer-aha-crunchy-natural.png",
+    "stack": "https://image.migros.ch/{stack}/87f22bbdbe6c2906c8815e2c560bee53e9933a79/farmer-aha-crunchy-natural.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_sortierung",
+      "label": "Sortierung aMigos",
+      "values": [
+        {
+          "value_code": "NUMERIC_310",
+          "value": "310",
+          "numeric_value": 310
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "M",
+          "value": "Kolonial Standard"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "10351",
+          "value": "ALLERG. GETREIDERIEGEL"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "regulated_description": "Getreidestängel ohne Zuckerzusatz, mit Süssungsmittel",
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/104208000000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/farmer-aha-crunchy-natural",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/104208000000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/farmer-aha-crunchy-natural",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "regional_availability": {
+    "gmaa": {
+      "probability": 87
+    },
+    "gmbs": {
+      "probability": 94
+    },
+    "gmge": {
+      "probability": 74
+    },
+    "gmlu": {
+      "probability": 92
+    },
+    "gmnf": {
+      "probability": 88
+    },
+    "gmos": {
+      "probability": 97
+    },
+    "gmti": {
+      "probability": 100
+    },
+    "gmvd": {
+      "probability": 54
+    },
+    "gmvs": {
+      "probability": 90
+    },
+    "gmzh": {
+      "probability": 95
+    }
+  },
+  "updated_at": "2020-09-16T06:29:32+0200",
+  "base_unit": "CU",
+  "slugs": {
+    "de": "farmer-aha-crunchy-natural",
+    "fr": "farmer-aha-crunchy-natural",
+    "it": "farmer-aha-crunchy-natural"
+  },
+  "receipt_text": "Farmer aha! Crun. Nat.",
+  "main_supplier": {
+    "name": "HACO AG",
+    "id": "0010000181",
+    "supplier_product_id": "865500"
+  },
+  "price": {
+    "valid_from": "2018-01-29T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 4.4,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "204g"
+    },
+    "base": {
+      "price": 2.16,
+      "quantity": 100,
+      "unit": "g"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 72,
+    "average_all": 4.219512195122
+  },
+  "data_source": "SAP-X11",
+  "origins": {
+    "producing_country": "Hergestellt in der Schweiz"
+  },
+  "ingredients": "Getreide 38% (<strong>Hafer</strong>, <strong>Weizen</strong>, Reis), Süssungsmittel : Maltit, <strong>Soja</strong>kerne, Kokosraspel, <strong>Haselnüsse</strong>, Aroma.",
+  "package": {
+    "content": 204,
+    "content_unit_code": "g",
+    "content_unit": "Gramm",
+    "net_weight": 0.204,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogramm",
+    "precision": "exact",
+    "brutto_weight": 0.232,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 0.871,
+    "brutto_volume_unit_code": "cdm",
+    "height": 12.5,
+    "length": 4.3,
+    "width": 16.2,
+    "unit_dimension": "cm",
+    "price_comparison_content": 100,
+    "size": "204g"
+  },
+  "package_information": {
+    "tu": {
+      "brutto_weight": 2.83,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 13.64,
+      "brutto_volume_unit_code": "cdm",
+      "height": 17.4,
+      "length": 40.2,
+      "width": 19.5,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 10
+    },
+    "cu": {
+      "brutto_weight": 0.232,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0.871,
+      "brutto_volume_unit_code": "cdm",
+      "height": 12.5,
+      "length": 4.3,
+      "width": 16.2,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "lu": {
+      "brutto_weight": 308.176,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 823.68,
+      "brutto_volume_unit_code": "cdm",
+      "height": 156.6,
+      "length": 120,
+      "width": 80,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1080
+    }
+  },
+  "related_products": {
+    "purchase_recommendations": {
+      "product_ids": [
+        "104209900000",
+        "104208400000",
+        "104208300000",
+        "104209500000",
+        "104210200000"
+      ]
+    }
+  },
+  "reindex_date": "2020-09-20T00:00:00+0200",
+  "recipe_ingredient_ids": [
+    "10000"
+  ],
+  "views": [
+    "all",
+    "browse"
+  ]
+}

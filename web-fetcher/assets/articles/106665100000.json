@@ -1,0 +1,389 @@
+{
+  "id": "106665100000",
+  "language": "de",
+  "name": "Heinz Tomato Ketchup",
+  "names": {
+    "name": "Heinz Tomato Ketchup"
+  },
+  "slug": "heinz-tomato-ketchup",
+  "boss_number": "011011292005",
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "50457137",
+    "024000035978",
+    "87157482",
+    "87157635"
+  ],
+  "brand": {
+    "id": "080",
+    "name": "Heinz",
+    "slug": "heinz"
+  },
+  "categories": [
+    {
+      "code": "BeSS_0101140907",
+      "name": "Ketchup",
+      "slug": "supermarkt/lebensmittel/pasta-zutaten-konserven/suppen-saucen-bouillon/ketchup",
+      "visible": true,
+      "parent_code": "BeSS_01011409",
+      "image": {
+        "original": "https://image.migros.ch/original/0fda9979470d2c2121a82228ed829e646d5b0f9b/ketchup.jpg",
+        "stack": "https://image.migros.ch/{stack}/0fda9979470d2c2121a82228ed829e646d5b0f9b/ketchup.jpg"
+      },
+      "level": 5
+    },
+    {
+      "code": "BeSS_01011409",
+      "name": "Suppen, Saucen & Bouillon",
+      "slug": "supermarkt/lebensmittel/pasta-zutaten-konserven/suppen-saucen-bouillon",
+      "visible": true,
+      "title": "Bouillon in Ihrer Migros kaufen",
+      "parent_code": "BeSS_010114",
+      "image": {
+        "original": "https://image.migros.ch/original/5f7779de5b06c3e5051c0ccdb81a414859a26cf5/suppen-saucen-bouillon.jpg",
+        "stack": "https://image.migros.ch/{stack}/5f7779de5b06c3e5051c0ccdb81a414859a26cf5/suppen-saucen-bouillon.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010114",
+      "name": "Pasta, Zutaten & Konserven",
+      "slug": "supermarkt/lebensmittel/pasta-zutaten-konserven",
+      "visible": true,
+      "title": "Pasta aus Ihrer Migros: alles rund um Teigwaren",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/6d0964bbb34b8e041ba4d74fc0c90b149907f46a/pasta-zutaten-konserven.jpg",
+        "stack": "https://image.migros.ch/{stack}/6d0964bbb34b8e041ba4d74fc0c90b149907f46a/pasta-zutaten-konserven.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_MayoKetchup_SalatsaucenkalteSaucen_Grundnahrungsmittel",
+        "name": "Mayo & Ketchup",
+        "slug": "amigos/grundnahrungsmittel/salatsaucen-kalte-saucen/mayo-ketchup",
+        "visible": true,
+        "parent_code": "AMIG_CAT_SalatsaucenkalteSaucen_Grundnahrungsmittel",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_SalatsaucenkalteSaucen_Grundnahrungsmittel",
+        "name": "Salatsaucen & kalte Saucen",
+        "slug": "amigos/grundnahrungsmittel/salatsaucen-kalte-saucen",
+        "visible": true,
+        "parent_code": "AMIG_CAT_Grundnahrungsmittel",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_Grundnahrungsmittel",
+        "name": "Grundnahrungsmittel",
+        "slug": "amigos/grundnahrungsmittel",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "features": [
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_flasche",
+          "value": "Flasche"
+        }
+      ],
+      "category_code": "MISO_CLA_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_artvonsaucedip",
+      "label": "Art von Sauce/Dip",
+      "values": [
+        {
+          "value_code": "MISO_artvonsaucedip_tomatenketchup",
+          "value": "Tomatenketchup"
+        }
+      ],
+      "category_code": "MISO_CLA_SaucenAufstricheDipsWuerzsaucen_GewuerzeKonservierungsstoffeExtrakte_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/15d4efcbeb03dcf3bf84c9b00717b8dbd43f582a/heinz-tomato-ketchup.jpg",
+    "stack": "https://image.migros.ch/{stack}/15d4efcbeb03dcf3bf84c9b00717b8dbd43f582a/heinz-tomato-ketchup.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/9553b8cc5682ac4b496262b5a034e859a1bf1eb8/heinz-tomato-ketchup.png",
+    "stack": "https://image.migros.ch/{stack}/9553b8cc5682ac4b496262b5a034e859a1bf1eb8/heinz-tomato-ketchup.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_sortierung",
+      "label": "Sortierung aMigos",
+      "values": [
+        {
+          "value_code": "NUMERIC_200",
+          "value": "200",
+          "numeric_value": 200
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "M",
+          "value": "Kolonial Standard"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "10145",
+          "value": "KETCHUP"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/106665100000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/heinz-tomato-ketchup",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/106665100000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/heinz-tomato-ketchup",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "regional_availability": {
+    "gmaa": {
+      "probability": 98
+    },
+    "gmbs": {
+      "probability": 100
+    },
+    "gmge": {
+      "probability": 90
+    },
+    "gmlu": {
+      "probability": 98
+    },
+    "gmnf": {
+      "probability": 98
+    },
+    "gmos": {
+      "probability": 99
+    },
+    "gmti": {
+      "probability": 100
+    },
+    "gmvd": {
+      "probability": 100
+    },
+    "gmvs": {
+      "probability": 95
+    },
+    "gmzh": {
+      "probability": 95
+    }
+  },
+  "updated_at": "2020-09-16T05:40:18+0200",
+  "base_unit": "CU",
+  "slugs": {
+    "de": "heinz-tomato-ketchup",
+    "fr": "heinz-tomato-ketchup",
+    "it": "heinz-tomato-ketchup"
+  },
+  "receipt_text": "Heinz Ketchup 342g",
+  "main_supplier": {
+    "name": "H.J. Heinz GmbH",
+    "id": "0010023810"
+  },
+  "price": {
+    "valid_from": "2019-02-18T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 1.75,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "342g"
+    },
+    "base": {
+      "price": 0.51,
+      "quantity": 100,
+      "unit": "g"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 22,
+    "average_all": 4.235294117647
+  },
+  "data_source": "SAP-X11",
+  "package": {
+    "content": 342,
+    "content_unit_code": "g",
+    "content_unit": "Gramm",
+    "net_weight": 0.342,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogramm",
+    "brutto_weight": 0.35,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 0.516,
+    "brutto_volume_unit_code": "cdm",
+    "height": 18.5,
+    "length": 4.5,
+    "width": 6.2,
+    "unit_dimension": "cm",
+    "price_comparison_content": 100,
+    "size": "342g"
+  },
+  "package_information": {
+    "tu": {
+      "brutto_weight": 3.5,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 6.156,
+      "brutto_volume_unit_code": "cdm",
+      "height": 19,
+      "length": 24,
+      "width": 13.5,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 10
+    },
+    "cu": {
+      "brutto_weight": 0.35,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0.516,
+      "brutto_volume_unit_code": "cdm",
+      "height": 18.5,
+      "length": 4.5,
+      "width": 6.2,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "lu": {
+      "brutto_weight": 1005,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 1249.92,
+      "brutto_volume_unit_code": "cdm",
+      "height": 133,
+      "length": 120,
+      "width": 80,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 2800
+    }
+  },
+  "related_products": {
+    "purchase_recommendations": {
+      "product_ids": [
+        "106605000000",
+        "106665700000",
+        "106665800000",
+        "106665600000",
+        "106666000000"
+      ]
+    }
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "recipe_ingredient_ids": [
+    "15034",
+    "5874067"
+  ],
+  "views": [
+    "all",
+    "browse"
+  ]
+}

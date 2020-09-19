@@ -1,0 +1,681 @@
+{
+  "id": "106050400000",
+  "language": "de",
+  "name": "Bio Bon Chef Curry Chia",
+  "names": {
+    "name": "Bio Bon Chef Curry Chia"
+  },
+  "slug": "bio-bon-chef-curry-chia",
+  "boss_number": "011111080110",
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "source-qim-origins",
+    "validity-range-not-set",
+    "source-qim-allergens",
+    "source-qim-fooddeclaration",
+    "source-qim-nutritionfacts",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7613312221419"
+  ],
+  "brand": {
+    "id": "652",
+    "name": "Bon Chef",
+    "slug": "bon-chef",
+    "image": {
+      "original": "https://image.migros.ch/original/19823c12a870ef747fb91c2ebd0a6c10084f3c81/bon-chef.jpg",
+      "stack": "https://image.migros.ch/{stack}/19823c12a870ef747fb91c2ebd0a6c10084f3c81/bon-chef.jpg"
+    }
+  },
+  "labels": [
+    {
+      "id": "L02",
+      "name": "Migros Bio",
+      "slug": "migros-bio",
+      "links": {
+        "homepage": {
+          "url": "https://bio.migros.ch/de.html",
+          "name": "Homepage",
+          "type": "info",
+          "purchasable": false
+        }
+      },
+      "image": {
+        "original": "https://image.migros.ch/original/f32d1804b8db5760147310b8d6458eb36757b486/migros-bio.jpg",
+        "stack": "https://image.migros.ch/{stack}/f32d1804b8db5760147310b8d6458eb36757b486/migros-bio.jpg"
+      }
+    },
+    {
+      "id": "L57",
+      "name": "V-vegan",
+      "slug": "v-vegan",
+      "image": {
+        "original": "https://image.migros.ch/original/9425b8ea6312342ddd2d0dc87e65567c88e1b757/v-vegan.jpg",
+        "stack": "https://image.migros.ch/{stack}/9425b8ea6312342ddd2d0dc87e65567c88e1b757/v-vegan.jpg"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_0101140901",
+      "name": "Suppen",
+      "slug": "supermarkt/lebensmittel/pasta-zutaten-konserven/suppen-saucen-bouillon/suppen",
+      "visible": true,
+      "title": "Suppen in Ihrer Migros kaufen",
+      "parent_code": "BeSS_01011409",
+      "image": {
+        "original": "https://image.migros.ch/original/5e42f21d72f75d363cf04979b8d573688c090e6b/suppen.jpg",
+        "stack": "https://image.migros.ch/{stack}/5e42f21d72f75d363cf04979b8d573688c090e6b/suppen.jpg"
+      },
+      "level": 5
+    },
+    {
+      "code": "BeSS_01011409",
+      "name": "Suppen, Saucen & Bouillon",
+      "slug": "supermarkt/lebensmittel/pasta-zutaten-konserven/suppen-saucen-bouillon",
+      "visible": true,
+      "title": "Bouillon in Ihrer Migros kaufen",
+      "parent_code": "BeSS_010114",
+      "image": {
+        "original": "https://image.migros.ch/original/5f7779de5b06c3e5051c0ccdb81a414859a26cf5/suppen-saucen-bouillon.jpg",
+        "stack": "https://image.migros.ch/{stack}/5f7779de5b06c3e5051c0ccdb81a414859a26cf5/suppen-saucen-bouillon.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010114",
+      "name": "Pasta, Zutaten & Konserven",
+      "slug": "supermarkt/lebensmittel/pasta-zutaten-konserven",
+      "visible": true,
+      "title": "Pasta aus Ihrer Migros: alles rund um Teigwaren",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/6d0964bbb34b8e041ba4d74fc0c90b149907f46a/pasta-zutaten-konserven.jpg",
+        "stack": "https://image.migros.ch/{stack}/6d0964bbb34b8e041ba4d74fc0c90b149907f46a/pasta-zutaten-konserven.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "nutrition_facts": {
+    "standard": {
+      "nutrients": [
+        {
+          "code": "PIM_NUT_ENERGIE",
+          "name": "Energie",
+          "pictogram_name": "Energie",
+          "category": "BIG9",
+          "quantity": 130,
+          "nutrition_operator": "=",
+          "quantity_unit": "kJ",
+          "quantity_alternate": 31,
+          "quantity_alternate_unit": "kcal"
+        },
+        {
+          "code": "PIM_NUT_FETT",
+          "name": "Fett",
+          "pictogram_name": "Fett",
+          "category": "BIG9",
+          "quantity": 0.5,
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_FETT_GES",
+          "name": "davon gesättigte Fettsäuren",
+          "pictogram_name": "gesättigte Fettsäuren",
+          "category": "BIG9",
+          "quantity": 0,
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_KOHLENHY",
+          "name": "Kohlenhydrate",
+          "category": "BIG9",
+          "quantity": 4.5,
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_ZUCKER",
+          "name": "davon Zucker",
+          "pictogram_name": "Zuckerarten",
+          "category": "BIG9",
+          "quantity": 0.7,
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_GES_BALL",
+          "name": "Ballaststoffe",
+          "category": "BIG9",
+          "quantity": 0.5,
+          "nutrition_operator": "<",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_PROTEINE",
+          "name": "Eiweiss",
+          "category": "BIG9",
+          "quantity": 1.9,
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_KOCHSALZ",
+          "name": "Salz",
+          "pictogram_name": "Salz",
+          "category": "BIG9",
+          "quantity": 1,
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        }
+      ],
+      "base_quantity": 100,
+      "base_unit": "ml"
+    },
+    "portion": {
+      "nutrients": [
+        {
+          "code": "PIM_NUT_ENERGIE",
+          "name": "Energie",
+          "pictogram_name": "Energie",
+          "category": "BIG9",
+          "quantity": 324,
+          "rda_percent": 4,
+          "rda_percent_operator": "=",
+          "nutrition_operator": "=",
+          "quantity_unit": "kJ",
+          "quantity_alternate": 77,
+          "quantity_alternate_unit": "kcal"
+        },
+        {
+          "code": "PIM_NUT_FETT",
+          "name": "Fett",
+          "pictogram_name": "Fett",
+          "category": "BIG9",
+          "quantity": 1.3,
+          "rda_percent": 2,
+          "rda_percent_operator": "=",
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_FETT_GES",
+          "name": "davon gesättigte Fettsäuren",
+          "pictogram_name": "gesättigte Fettsäuren",
+          "category": "BIG9",
+          "quantity": 0,
+          "rda_percent": 0,
+          "rda_percent_operator": "=",
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_KOHLENHY",
+          "name": "Kohlenhydrate",
+          "category": "BIG9",
+          "quantity": 11,
+          "rda_percent": 4,
+          "rda_percent_operator": "=",
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_ZUCKER",
+          "name": "davon Zucker",
+          "pictogram_name": "Zuckerarten",
+          "category": "BIG9",
+          "quantity": 1.8,
+          "rda_percent": 2,
+          "rda_percent_operator": "=",
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_GES_BALL",
+          "name": "Ballaststoffe",
+          "category": "BIG9",
+          "quantity": 0.8,
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_PROTEINE",
+          "name": "Eiweiss",
+          "category": "BIG9",
+          "quantity": 4.8,
+          "rda_percent": 10,
+          "rda_percent_operator": "=",
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_KOCHSALZ",
+          "name": "Salz",
+          "pictogram_name": "Salz",
+          "category": "BIG9",
+          "quantity": 2.5,
+          "rda_percent": 42,
+          "rda_percent_operator": "=",
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        }
+      ],
+      "base_description": "1 Teller",
+      "base_quantity": 250,
+      "base_unit": "ml",
+      "package_type": "Packung",
+      "portions_per_package": "4",
+      "portions_per_package_precision": "="
+    }
+  },
+  "features": [
+    {
+      "label_code": "MISO_mussgekuehltwerden",
+      "label": "Muss gekühlt werden",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "Nein",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MISO_CLA_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_produktionsanspruch",
+      "label": "Produktionsverfahren",
+      "values": [
+        {
+          "value_code": "MISO_produktionsanspruch_bioproduktion",
+          "value": "Bio-Produktion"
+        },
+        {
+          "value_code": "MISO_produktionsanspruch_freivonkonservierungsstoffengesetz",
+          "value": "Frei von Konservierungsstoffen laut Gesetz"
+        },
+        {
+          "value_code": "MISO_produktionsanspruch_freivongeschmacksverstaerkendenzusatzstoffen",
+          "value": "Frei von geschmacksverstärkenden Zusatzstoffen laut Gesetz"
+        }
+      ],
+      "category_code": "MISO_CLA_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_beutel",
+          "value": "Beutel"
+        }
+      ],
+      "category_code": "MISO_CLA_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zubereitungsverfahren",
+      "label": "Hinweise für die Zubereitung",
+      "values": [
+        {
+          "value_code": "MISO_zubereitungsverfahren_kochen",
+          "value": "Kochen"
+        }
+      ],
+      "category_code": "MISO_CLA_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_anzahlportionen",
+      "label": "Anzahl Portionen",
+      "values": [
+        {
+          "value_code": "NUMERIC_4",
+          "value": "4",
+          "numeric_value": 4
+        }
+      ],
+      "category_code": "MISO_CLA_BearbeiteteVerarbeiteteNahrungsmittel_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zubereitungszeit",
+      "label": "Zubereitungszeit (min.)",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MISO_CLA_BearbeiteteVerarbeiteteNahrungsmittel_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_serviertemperatur",
+      "label": "Serviertemperatur",
+      "values": [
+        {
+          "value_code": "MISO_serviertemperatur_heisswarm",
+          "value": "heiss/warm"
+        }
+      ],
+      "category_code": "MISO_CLA_Fertigsuppen_BearbeiteteVerarbeiteteNahrungsmittel_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_unterscheidendebestandteile",
+      "label": "Unterscheidende Bestandteile",
+      "values": [
+        {
+          "value_code": "MISO_unterscheidendebestandteile_curry",
+          "value": "Curry"
+        }
+      ],
+      "category_code": "MISO_CLA_Fertigsuppen_BearbeiteteVerarbeiteteNahrungsmittel_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_formbeschaffenheit",
+      "label": "Form/Beschaffenheit",
+      "values": [
+        {
+          "value_code": "MISO_formbeschaffenheit_pulver",
+          "value": "Pulver"
+        }
+      ],
+      "category_code": "MISO_CLA_Fertigsuppen_BearbeiteteVerarbeiteteNahrungsmittel_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_VEGETARIANISM",
+      "label": "Vegetarismus",
+      "values": [
+        {
+          "value_code": "MAPI_VEGETARIANISM_vegan",
+          "value": "vegan"
+        }
+      ],
+      "category_code": "MAPI_VEGETARIANISM",
+      "top_fact": false
+    }
+  ],
+  "allergens": [
+    {
+      "code": "ALLG_GLUTEN",
+      "name": "Glutenhaltiges Getreide und daraus gewonnene Erzeugnisse",
+      "contamination_code": "VORHANDEN",
+      "contamination": "vorhanden"
+    },
+    {
+      "code": "ALLG_SOJA",
+      "name": "Sojabohnen und daraus gewonnene Erzeugnisse",
+      "contamination_code": "VORHANDEN",
+      "contamination": "vorhanden"
+    }
+  ],
+  "general_information": [
+    {
+      "label": "Kühlhinweis / Aufbewahrungshinweis",
+      "value": "Kühl, trocken und vor Licht geschützt aufbewahren."
+    },
+    {
+      "label": "Weitere Zusatzangaben",
+      "value": "Bio-Zertifizierung: CH-Bio-004, IMO"
+    },
+    {
+      "label": "Zubereitungshinweis",
+      "value": "90g Pulver langsam in 1l Wasser einrühren, aufkochen und unter gelegentlichem Umrühren bei kleiner Hitze 2 min kochen lassen (Endvolumen = 1l)."
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/b072d099108f810b3a0619d0560f0ed6ec27cab3/bio-bon-chef-curry-chia.jpg",
+    "stack": "https://image.migros.ch/{stack}/b072d099108f810b3a0619d0560f0ed6ec27cab3/bio-bon-chef-curry-chia.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/b98ed9f8a04b32771535b0568d9b3ce195b6385f/bio-bon-chef-curry-chia.png",
+    "stack": "https://image.migros.ch/{stack}/b98ed9f8a04b32771535b0568d9b3ce195b6385f/bio-bon-chef-curry-chia.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "M",
+          "value": "Kolonial Standard"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "11110",
+          "value": "TROCKENSUPPEN BEUTEL"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "regulated_description": "Bio Suppe mit Chiasamen (Salvia hispanica) und Curry, getrocknet",
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/106050400000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/bio-bon-chef-curry-chia",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/106050400000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/bio-bon-chef-curry-chia",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "regional_availability": {
+    "gmaa": {
+      "probability": 25
+    },
+    "gmbs": {
+      "probability": 26
+    },
+    "gmge": {
+      "probability": 5
+    },
+    "gmlu": {
+      "probability": 30
+    },
+    "gmnf": {
+      "probability": 18
+    },
+    "gmos": {
+      "probability": 34
+    },
+    "gmti": {
+      "probability": 16
+    },
+    "gmvd": {
+      "probability": 23
+    },
+    "gmvs": {
+      "probability": 26
+    },
+    "gmzh": {
+      "probability": 26
+    }
+  },
+  "updated_at": "2020-09-16T06:29:50+0200",
+  "base_unit": "CU",
+  "slugs": {
+    "de": "bio-bon-chef-curry-chia",
+    "fr": "bio-bon-chef-curry-chia",
+    "it": "bio-bon-chef-curry-chia"
+  },
+  "receipt_text": "Bio Bon Chef Curry Chi",
+  "main_supplier": {
+    "name": "Huegli Naehrmittel AG",
+    "id": "0010010611"
+  },
+  "price": {
+    "valid_from": "2018-09-05T00:00:00+0200",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 1.9,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "90g"
+    },
+    "base": {
+      "price": 2.11,
+      "quantity": 100,
+      "unit": "g"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 3,
+    "average_all": 5
+  },
+  "data_source": "SAP-X11",
+  "origins": {
+    "producing_country": "Hergestellt in der Schweiz"
+  },
+  "ingredients": "Maisstärke *, <strong>Weizen</strong>mehl *, <strong>Soja</strong>protein *, Meersalz, Chiasamen (Salvia hispanica) * 6 %, Rohrohrzucker *, Hefeextrakt, Curry * 3.7 % (Kurkuma gemahlen, Koriandersamen, Pfeffer schwarz gemahlen, Kümmel, Liebstöckelblätter, Ingwer), Sonnenblumenöl *, Zwiebeln *, Knoblauchpulver *. \n* Aus ausländischer Bio-Produktion.",
+  "package": {
+    "content": 90,
+    "content_unit_code": "g",
+    "content_unit": "Gramm",
+    "net_weight": 0.09,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogramm",
+    "precision": "exact",
+    "brutto_weight": 0.097,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 0.396,
+    "brutto_volume_unit_code": "cdm",
+    "height": 15.7,
+    "length": 1.8,
+    "width": 14,
+    "unit_dimension": "cm",
+    "price_comparison_content": 100,
+    "size": "90g"
+  },
+  "package_information": {
+    "tu": {
+      "brutto_weight": 0.582,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 3.081,
+      "brutto_volume_unit_code": "cdm",
+      "height": 18.9,
+      "length": 14.3,
+      "width": 11.4,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 6
+    },
+    "cu": {
+      "brutto_weight": 0.097,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0.396,
+      "brutto_volume_unit_code": "cdm",
+      "height": 15.7,
+      "length": 1.8,
+      "width": 14,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "lu": {
+      "brutto_weight": 155.368,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0,
+      "height": 0,
+      "length": 120,
+      "width": 80,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1344
+    }
+  },
+  "declarations": {
+    "food": {
+      "features": [
+        {
+          "label_code": "QIM_ZubereitungshinweisDeklaration",
+          "label": "Zubereitungshinweis",
+          "values": [
+            {
+              "value": "90g Pulver langsam in 1l Wasser einrühren, aufkochen und unter gelegentlichem Umrühren bei kleiner Hitze 2 min kochen lassen (Endvolumen = 1l)."
+            }
+          ],
+          "category_code": "GDSN",
+          "top_fact": false
+        }
+      ]
+    }
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "recipe_ingredient_ids": [
+    "10000"
+  ],
+  "views": [
+    "all",
+    "browse"
+  ]
+}

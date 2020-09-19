@@ -1,0 +1,92 @@
+{
+  "name": "M-Classic Cottage Cheese Schnittlauch",
+  "regulated_description": "Frischkäse-Zubereitung viertelfett mit Schnittlauch",
+  "image": {
+    "original": "https://image.migros.ch/original/27a0d477f1345fa603143e5ff4ad0bd8987f6b17/m-classic-cottage-cheese-schnittlauch.jpg"
+  },
+  "price": {
+    "item": {
+      "price": 1.85
+    }
+  },
+  "nutrition_facts": {
+    "standard": {
+      "nutrients": {
+        "nutrients": [
+          {
+            "code": "PIM_NUT_ENERGIE",
+            "name": "Energie",
+            "pictogram_name": "Energie",
+            "category": "BIG9",
+            "quantity": 370,
+            "rda_percent_operator": "=",
+            "quantity_unit": "kJ",
+            "quantity_alternate": 88,
+            "quantity_alternate_unit": "kcal"
+          },
+          {
+            "code": "PIM_NUT_GES_FETT",
+            "name": "Fett",
+            "pictogram_name": "Fett",
+            "category": "BIG9",
+            "quantity": 4,
+            "rda_percent_operator": "=",
+            "quantity_unit": "g"
+          },
+          {
+            "code": "PIM_NUT_GESFETTS",
+            "name": "davon gesättigte Fettsäuren",
+            "pictogram_name": "gesättigte Fettsäuren",
+            "category": "BIG9",
+            "quantity": 2.5,
+            "rda_percent_operator": "=",
+            "quantity_unit": "g"
+          },
+          {
+            "code": "PIM_NUT_GES_KOHL",
+            "name": "Kohlenhydrate",
+            "category": "BIG9",
+            "quantity": 4,
+            "rda_percent_operator": "=",
+            "quantity_unit": "g"
+          },
+          {
+            "code": "PIM_NUT_GES_ZUCK",
+            "name": "davon Zucker",
+            "pictogram_name": "Zuckerarten",
+            "category": "BIG9",
+            "quantity": 2,
+            "rda_percent_operator": "=",
+            "quantity_unit": "g"
+          },
+          {
+            "code": "PIM_NUT_GES_BALL",
+            "name": "Ballaststoffe",
+            "category": "BIG9",
+            "quantity": 0.5,
+            "quantity_unit": "g"
+          },
+          {
+            "code": "PIM_NUT_GES_EIW",
+            "name": "Eiweiss",
+            "category": "BIG9",
+            "quantity": 9,
+            "rda_percent_operator": "=",
+            "quantity_unit": "g"
+          },
+          {
+            "code": "PIM_NUT_KOCHSALZ",
+            "name": "Salz",
+            "pictogram_name": "Salz",
+            "category": "BIG9",
+            "quantity": 1.3,
+            "rda_percent_operator": "=",
+            "quantity_unit": "g"
+          }
+        ],
+        "base_quantity": 100,
+        "base_unit": "g"
+      }
+    }
+  }
+}

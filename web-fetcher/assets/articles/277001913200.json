@@ -1,0 +1,374 @@
+{
+  "id": "277001913200",
+  "language": "de",
+  "name": "Knoblauch frisch",
+  "names": {
+    "name": "Knoblauch frisch"
+  },
+  "slug": "knoblauch-frisch-277001913200",
+  "boss_number": "050115222505",
+  "description": {
+    "text": "Knoblauch Der Knoblauch hat ein vielgestaltiges Wesen. Er besteht aus zahlreichen, voneinander abgetrennten Zehen, die wiederum Gem&uuml;s und Gew&uuml;rz in einem sind. Sein Ruf ist rund um den Erdball legend&auml;r, auch weil der strenge Geruch und Geschmack polarisieren: Man mag Knoblauch oder nicht. Verantwortlich daf&uuml;r ist Allicin, eine schwefelartige Verbindung. Beheimatet in Innerasien, wird Knoblauch heute weltweit angebaut. Frische Knollen haben blassgr&uuml;nes Kraut und geschmeidige H&uuml;llbl&auml;tter. Getrocknete sind eher spr&ouml;de anzuf&uuml;hlen und krautfrei. Knoblauch schmeckt roh, eingelegt und ged&auml;mpft. Brutzeln macht ihn bitter.",
+    "source": "PIM"
+  },
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "80"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7610632976814"
+  ],
+  "brand": {
+    "id": "S10",
+    "name": "Fresca",
+    "slug": "fresca",
+    "image": {
+      "original": "https://image.migros.ch/original/d169433eae86571fe4796efc52300f787084eaa4/fresca.jpg",
+      "stack": "https://image.migros.ch/{stack}/d169433eae86571fe4796efc52300f787084eaa4/fresca.jpg"
+    }
+  },
+  "categories": [
+    {
+      "code": "BeSS_0101190205",
+      "name": "Lagergemüse",
+      "slug": "supermarkt/lebensmittel/fruechte-gemuese/gemuese/lagergemuese",
+      "visible": true,
+      "title": "Für den Winter: Kartoffeln und Lagergemüse von der Migros",
+      "parent_code": "BeSS_01011902",
+      "level": 5
+    },
+    {
+      "code": "BeSS_01011902",
+      "name": "Gemüse",
+      "slug": "supermarkt/lebensmittel/fruechte-gemuese/gemuese",
+      "visible": true,
+      "title": "Mit Gem&uuml;se von der Migros jeden Tag gesund essen",
+      "parent_code": "BeSS_010119",
+      "level": 4
+    },
+    {
+      "code": "BeSS_010119",
+      "name": "Früchte & Gemüse",
+      "slug": "supermarkt/lebensmittel/fruechte-gemuese",
+      "visible": true,
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/f839060a505bba25c0f37585edb558c003c50479/fruechte-gemuese.jpg",
+        "stack": "https://image.migros.ch/{stack}/f839060a505bba25c0f37585edb558c003c50479/fruechte-gemuese.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "nutrition_facts": {
+    "standard": {
+      "nutrients": [
+        {
+          "code": "PIM_NUT_ENERGIE",
+          "name": "Energie",
+          "pictogram_name": "Energie",
+          "category": "BIG9",
+          "quantity": 578,
+          "rda_percent": 7,
+          "rda_percent_operator": "=",
+          "quantity_unit": "kJ",
+          "quantity_alternate": 137,
+          "quantity_alternate_unit": "kcal"
+        },
+        {
+          "code": "PIM_NUT_FETT",
+          "name": "Fett",
+          "pictogram_name": "Fett",
+          "category": "BIG9",
+          "quantity": 0.5,
+          "rda_percent": 1,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_FETT_GES",
+          "name": "davon gesättigte Fettsäuren",
+          "pictogram_name": "gesättigte Fettsäuren",
+          "category": "BIG9",
+          "quantity": 0.1,
+          "rda_percent": 0.5,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_KOHLENHY",
+          "name": "Kohlenhydrate",
+          "category": "BIG9",
+          "quantity": 25,
+          "rda_percent": 10,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_ZUCKER",
+          "name": "davon Zucker",
+          "pictogram_name": "Zuckerarten",
+          "category": "BIG9",
+          "quantity": 2.5,
+          "rda_percent": 3,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_GES_BALL",
+          "name": "Ballaststoffe",
+          "category": "BIG9",
+          "quantity": 3,
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_PROTEINE",
+          "name": "Eiweiss",
+          "category": "BIG9",
+          "quantity": 7,
+          "rda_percent": 14,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_KOCHSALZ",
+          "name": "Salz",
+          "pictogram_name": "Salz",
+          "category": "BIG9",
+          "quantity": 0.3,
+          "rda_percent": 5,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        }
+      ],
+      "base_description": "enthalten",
+      "base_quantity": 100,
+      "base_unit": "g"
+    }
+  },
+  "features": [
+    {
+      "label_code": "MISO_saison",
+      "label": "Saison",
+      "values": [
+        {
+          "value_code": "MISO_saison_augustfebruar",
+          "value": "August - Februar"
+        }
+      ],
+      "category_code": "MISO_CLA_Gemuese_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    }
+  ],
+  "general_information": [
+    {
+      "label": "Obligatorische Zusatzangaben",
+      "value": "-"
+    },
+    {
+      "label": "Aufbewarungs- und Verpackungshinweise",
+      "value": "-"
+    },
+    {
+      "label": "Haltbarkeit",
+      "value": "-"
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/f84a5cfe864556f52c3bb399ef0580f5a413126e/knoblauch-frisch.jpg",
+    "stack": "https://image.migros.ch/{stack}/f84a5cfe864556f52c3bb399ef0580f5a413126e/knoblauch-frisch.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/26fdcc51711e11af7bd8d39af3b7d6541093d9fe/knoblauch-frisch.png",
+    "stack": "https://image.migros.ch/{stack}/26fdcc51711e11af7bd8d39af3b7d6541093d9fe/knoblauch-frisch.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZFRP",
+          "value": "Frische Beschaffung"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "2",
+          "value": "Früchte und Gemüse"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "70315",
+          "value": "KNOBLAUCH"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "regulated_description": "Knoblauch",
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/277001913200",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/knoblauch-frisch-277001913200",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/277001913200",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/knoblauch-frisch-277001913200",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "regional_availability": {
+    "gmaa": {
+      "probability": 35
+    },
+    "gmbs": {
+      "probability": 43
+    },
+    "gmge": {
+      "probability": 54
+    },
+    "gmlu": {
+      "probability": 70
+    },
+    "gmnf": {
+      "probability": 39
+    },
+    "gmos": {
+      "probability": 72
+    },
+    "gmti": {
+      "probability": 6
+    },
+    "gmvd": {
+      "probability": 55
+    },
+    "gmvs": {
+      "probability": 54
+    },
+    "gmzh": {
+      "probability": 72
+    }
+  },
+  "updated_at": "2020-09-16T05:54:37+0200",
+  "base_unit": "CU",
+  "slugs": {
+    "de": "knoblauch-frisch-277001913200",
+    "fr": "ail-frais",
+    "it": "aglio-fresco"
+  },
+  "receipt_text": "Knoblauch frisch",
+  "main_supplier": {
+    "name": "Mueller & Dietrich Fruchthof",
+    "id": "0010005378"
+  },
+  "price": {
+    "valid_from": "2018-01-30T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "source": "PriceRepository",
+    "no_price_hint": "Aktueller Tagespreis"
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 4,
+    "average_all": 4.75
+  },
+  "data_source": "SAP-X4x",
+  "origins": {
+    "producing_country": "-"
+  },
+  "package": {
+    "net_weight": 0.1,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogramm",
+    "brutto_weight": 0.1,
+    "brutto_weight_unit_code": "kg"
+  },
+  "package_information": {
+    "tu": {
+      "brutto_weight": 0.1,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0,
+      "height": 0,
+      "length": 0,
+      "width": 0,
+      "number_of_base_units": 1
+    },
+    "cu": {
+      "brutto_weight": 0.1,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0,
+      "height": 0,
+      "length": 0,
+      "width": 0,
+      "number_of_base_units": 1
+    }
+  },
+  "related_products": {
+    "purchase_recommendations": {
+      "product_ids": [
+        "277005509300"
+      ]
+    }
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "recipe_ingredient_ids": [
+    "5619672"
+  ],
+  "views": [
+    "all",
+    "browse"
+  ]
+}

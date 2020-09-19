@@ -1,0 +1,642 @@
+{
+  "id": "212406900000",
+  "language": "de",
+  "name": "Leerdammer Finesse Original",
+  "names": {
+    "name": "Leerdammer Finesse Original"
+  },
+  "slug": "leerdammer-finesse-original",
+  "boss_number": "030413502605",
+  "description": {
+    "text": "<p>Leerdammer&reg; Finesse Original</p><p>Mild-nussiger LEERDAMMER&reg; Genuss in feinsten Scheiben</p><p>Erleben Sie, wie feinst geschnittener LEERDAMMER&reg; seinen vollen Geschmack besonders zart-schmelzend entfaltet. Ob auf Brot, einfach pur oder auf einer K&auml;seplatte, LEERDAMMER&reg; Finesse bietet vielseitigen Genuss.</p><p>Laktosefrei\n<br />F&uuml;r Lakto-Vegetarier geeignet\n<br />Reich an Calcium\n<br />Ohne Zusatz von Konservierungsstoffen</p>",
+    "source": "PIM"
+  },
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "80"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "source-qim-origins",
+    "source-qim-distributor",
+    "validity-range-not-set",
+    "source-qim-allergens",
+    "source-qim-fooddeclaration",
+    "source-qim-nutritionfacts",
+    "leshop-discounted",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "3073781075137"
+  ],
+  "brand": {
+    "id": "K67",
+    "name": "Leerdammer",
+    "slug": "leerdammer"
+  },
+  "categories": [
+    {
+      "code": "BeSS_0101040116",
+      "name": "Scheibenkäse",
+      "slug": "supermarkt/lebensmittel/milchprodukte-eier/kaese/scheibenkaese",
+      "visible": true,
+      "title": "Köstlicher Schmelzkäse bei Ihrer Migros",
+      "parent_code": "BeSS_01010401",
+      "image": {
+        "original": "https://image.migros.ch/original/c9367e1edeacb9dd8e2f2d47f92e049ddcb07094/scheibenkaese.jpg",
+        "stack": "https://image.migros.ch/{stack}/c9367e1edeacb9dd8e2f2d47f92e049ddcb07094/scheibenkaese.jpg"
+      },
+      "level": 5
+    },
+    {
+      "code": "BeSS_01010401",
+      "name": "Käse",
+      "slug": "supermarkt/lebensmittel/milchprodukte-eier/kaese",
+      "visible": true,
+      "title": "Käse von Ihrer Migros &ndash; macht Appetit auf mehr",
+      "parent_code": "BeSS_010104",
+      "image": {
+        "original": "https://image.migros.ch/original/4fbf646a3ebce5b0f570ef4c8f4f9e8d708bb65f/kaese.jpg",
+        "stack": "https://image.migros.ch/{stack}/4fbf646a3ebce5b0f570ef4c8f4f9e8d708bb65f/kaese.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010104",
+      "name": "Milchprodukte & Eier",
+      "slug": "supermarkt/lebensmittel/milchprodukte-eier",
+      "visible": true,
+      "title": "Milchprodukte und Eier –",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/6b1ea6c2d41c3ccb21bf05c8dc342f7f55d83deb/milchprodukte-eier.jpg",
+        "stack": "https://image.migros.ch/{stack}/6b1ea6c2d41c3ccb21bf05c8dc342f7f55d83deb/milchprodukte-eier.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_HartHalbhart_Kaese_MilchprodukteEier",
+        "name": "Hart & Halbhart",
+        "slug": "amigos/milchprodukte-eier/kaese/hart-halbhart",
+        "visible": true,
+        "parent_code": "AMIG_CAT_Kaese_MilchprodukteEier",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_Kaese_MilchprodukteEier",
+        "name": "Käse",
+        "slug": "amigos/milchprodukte-eier/kaese",
+        "visible": true,
+        "parent_code": "AMIG_CAT_MilchprodukteEier",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_MilchprodukteEier",
+        "name": "Milchprodukte & Eier",
+        "slug": "amigos/milchprodukte-eier",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "nutrition_facts": {
+    "standard": {
+      "nutrients": [
+        {
+          "code": "PIM_NUT_ENERGIE",
+          "name": "Energie",
+          "pictogram_name": "Energie",
+          "category": "BIG9",
+          "quantity": 1460,
+          "nutrition_operator": "~",
+          "quantity_unit": "kJ",
+          "quantity_alternate": 352,
+          "quantity_alternate_unit": "kcal"
+        },
+        {
+          "code": "PIM_NUT_FETT",
+          "name": "Fett",
+          "pictogram_name": "Fett",
+          "category": "BIG9",
+          "quantity": 27.5,
+          "nutrition_operator": "~",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_FETT_GES",
+          "name": "davon gesättigte Fettsäuren",
+          "pictogram_name": "gesättigte Fettsäuren",
+          "category": "BIG9",
+          "quantity": 18.5,
+          "nutrition_operator": "~",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_KOHLENHY",
+          "name": "Kohlenhydrate",
+          "category": "BIG9",
+          "quantity": 0.1,
+          "nutrition_operator": "<",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_ZUCKER",
+          "name": "davon Zucker",
+          "pictogram_name": "Zuckerarten",
+          "category": "BIG9",
+          "quantity": 0.1,
+          "nutrition_operator": "<",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_PROTEINE",
+          "name": "Eiweiss",
+          "category": "BIG9",
+          "quantity": 26,
+          "nutrition_operator": "~",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_KOCHSALZ",
+          "name": "Salz",
+          "pictogram_name": "Salz",
+          "category": "BIG9",
+          "quantity": 1.5,
+          "nutrition_operator": "~",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_CALCIUM",
+          "name": "Calcium",
+          "category": "MINERALSTOFFE_SPURENELEMENTE",
+          "quantity": 860,
+          "rda_percent": 108,
+          "nutrition_operator": "~",
+          "quantity_unit": "mg"
+        }
+      ],
+      "base_quantity": 100,
+      "base_unit": "g",
+      "serving_size_description": "100 Gramm",
+      "preparation_state": "UNPREPARED"
+    }
+  },
+  "features": [
+    {
+      "label_code": "MISO_mussgekuehltwerden",
+      "label": "Muss gekühlt werden",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MISO_CLA_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_anzahlentnehmbarereinzelportionen",
+      "label": "Anzahl entnehmbarer Einzeleinheiten",
+      "values": [
+        {
+          "value_code": "NUMERIC_10.0",
+          "value": "10.0",
+          "numeric_value": 10
+        }
+      ],
+      "category_code": "MISO_CLA_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_kunststoffverpackung",
+          "value": "Kunststoff-Verpackung"
+        }
+      ],
+      "category_code": "MISO_CLA_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_naehrwertanspruch",
+      "label": "Nährwertanspruch",
+      "values": [
+        {
+          "value_code": "MISO_naehrwertanspruch_reichancalcium",
+          "value": "Reich an Calcium"
+        }
+      ],
+      "category_code": "MISO_CLA_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_festigkeit",
+      "label": "Festigkeit",
+      "values": [
+        {
+          "value_code": "MISO_festigkeit_halbhart",
+          "value": "halbhart"
+        }
+      ],
+      "category_code": "MISO_CLA_Kaese_MilchButterRahmKaeseEierErsatzprodukte_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_formbeschaffenheitdeskaeses",
+      "label": "Form/Beschaffenheit des Käses",
+      "values": [
+        {
+          "value_code": "MISO_formbeschaffenheitdeskaeses_kaesescheiben",
+          "value": "Käsescheiben"
+        }
+      ],
+      "category_code": "MISO_CLA_Kaese_MilchButterRahmKaeseEierErsatzprodukte_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_kaesesorte",
+      "label": "Käsesorte",
+      "values": [
+        {
+          "value_code": "MISO_kaesesorte_leerdammer",
+          "value": "Leerdammer"
+        }
+      ],
+      "category_code": "MISO_CLA_Kaese_MilchButterRahmKaeseEierErsatzprodukte_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_milchartrohstoff",
+      "label": "Milchart/Rohstoff",
+      "values": [
+        {
+          "value_code": "MISO_milchartrohstoff_kuh",
+          "value": "Kuh"
+        }
+      ],
+      "category_code": "MISO_CLA_Kaese_MilchButterRahmKaeseEierErsatzprodukte_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_wuerzigkeit",
+      "label": "Würzigkeit",
+      "values": [
+        {
+          "value_code": "MISO_wuerzigkeit_mild",
+          "value": "mild"
+        }
+      ],
+      "category_code": "MISO_CLA_Kaese_MilchButterRahmKaeseEierErsatzprodukte_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_milchbehandlungsart",
+      "label": "Milchbehandlungsart",
+      "values": [
+        {
+          "value_code": "MISO_milchbehandlungsart_pastmilch",
+          "value": "Pastmilch"
+        }
+      ],
+      "category_code": "MISO_CLA_Kaese_MilchButterRahmKaeseEierErsatzprodukte_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    }
+  ],
+  "allergens": [
+    {
+      "code": "ALLG_MILCH",
+      "name": "Milch und Milchderivate",
+      "contamination_code": "VORHANDEN",
+      "contamination": "vorhanden"
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/e528580e81fd1d4d99c839b73253b29c45c8018d/leerdammer-finesse-original.jpg",
+    "stack": "https://image.migros.ch/{stack}/e528580e81fd1d4d99c839b73253b29c45c8018d/leerdammer-finesse-original.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/1a58839a8504076583eb82006614bad8989a6200/leerdammer-finesse-original.png",
+    "stack": "https://image.migros.ch/{stack}/1a58839a8504076583eb82006614bad8989a6200/leerdammer-finesse-original.png"
+  },
+  "additional_images": [
+    {
+      "original": "https://image.migros.ch/original/ccd15175c4f06f1410d945db8ecf2d1f50f9d73f.jpg",
+      "stack": "https://image.migros.ch/{stack}/ccd15175c4f06f1410d945db8ecf2d1f50f9d73f.jpg"
+    }
+  ],
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZFRP",
+          "value": "Frische Beschaffung"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "1",
+          "value": "Molki"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "70457",
+          "value": "KAESESCHEIBEN"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/212406900000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/leerdammer-finesse-original",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/212406900000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/leerdammer-finesse-original",
+      "type": "info",
+      "purchasable": false
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/231051",
+      "app_url": "leshop:///catalog/article/detail?ean=3073781075137",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/leerdammer-finesse-original",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "regional_availability": {
+    "gmaa": {
+      "probability": 19
+    },
+    "gmbs": {
+      "probability": 48
+    },
+    "gmge": {
+      "probability": 26
+    },
+    "gmlu": {
+      "probability": 20
+    },
+    "gmnf": {
+      "probability": 8
+    },
+    "gmos": {
+      "probability": 59
+    },
+    "gmti": {
+      "probability": 16
+    },
+    "gmvd": {
+      "probability": 20
+    },
+    "gmvs": {
+      "probability": 18
+    },
+    "gmzh": {
+      "probability": 25
+    }
+  },
+  "updated_at": "2020-09-16T06:50:47+0200",
+  "base_unit": "CU",
+  "slugs": {
+    "de": "leerdammer-finesse-original",
+    "fr": "leerdammer-finesse-original",
+    "it": "leerdammer-finesse-original"
+  },
+  "receipt_text": "Leerdammer Finesse",
+  "main_supplier": {
+    "name": "ESTAVAYER LAIT S.A.",
+    "id": "0003020000"
+  },
+  "price": {
+    "valid_from": "2018-01-29T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 3.15,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "100g"
+    },
+    "base": {
+      "price": 3.15,
+      "quantity": 100,
+      "unit": "g"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 1,
+    "average_all": 5
+  },
+  "data_source": "SAP-X4x",
+  "origins": {
+    "production_facility_id": "NL Z 0106 EG"
+  },
+  "distributor": {
+    "name": "BEL",
+    "address": "Bel Suisse SA, Hinterbergstrasse 15, 6330 Cham"
+  },
+  "package": {
+    "content": 100,
+    "content_unit_code": "g",
+    "content_unit": "Gramm",
+    "net_weight": 0.1,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogramm",
+    "brutto_weight": 0.1,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 0.588,
+    "brutto_volume_unit_code": "cdm",
+    "height": 20,
+    "length": 2.1,
+    "width": 14,
+    "unit_dimension": "cm",
+    "price_comparison_content": 100,
+    "size": "100g"
+  },
+  "package_information": {
+    "tu": {
+      "brutto_weight": 1.1,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 63.84,
+      "brutto_volume_unit_code": "cdm",
+      "height": 26.6,
+      "length": 60,
+      "width": 40,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 11
+    },
+    "cu": {
+      "brutto_weight": 0.1,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0.588,
+      "brutto_volume_unit_code": "cdm",
+      "height": 20,
+      "length": 2.1,
+      "width": 14,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "lu": {
+      "brutto_weight": 0,
+      "brutto_volume": 0,
+      "height": 0,
+      "length": 0,
+      "width": 0,
+      "number_of_base_units": 2024
+    }
+  },
+  "declarations": {
+    "food": {
+      "additives_declaration_obligatory": {
+        "code": "ATM",
+        "label": "Unter Schutzatmosphäre verpackt"
+      },
+      "features": [
+        {
+          "label_code": "GDSN_M281_NetContent",
+          "label": "Nettofüllmenge Wert",
+          "values": [
+            {
+              "value_code": "NUMERIC_100",
+              "value": "100",
+              "numeric_value": 100
+            }
+          ],
+          "category_code": "GDSN",
+          "top_fact": false,
+          "unit_code": "g"
+        },
+        {
+          "label_code": "GDSN_M094_CompulsoryAdditiveLabelInformation",
+          "label": "Verpflichtende Kennzeichnung an der Ware",
+          "values": [
+            {
+              "value": "Aus pasteurisierter Milch #  Für Lakto-Vegetarier geeignet"
+            }
+          ],
+          "category_code": "GDSN",
+          "top_fact": false
+        },
+        {
+          "label_code": "GDSN_M236_IsVariableUnit",
+          "label": "Mengenvariabler Artikel",
+          "values": [
+            {
+              "value_code": "BOOLEAN_FALSE",
+              "value": "false",
+              "boolean_value": false
+            }
+          ],
+          "category_code": "GDSN",
+          "top_fact": false
+        },
+        {
+          "label_code": "GDSN_M278_NetWeight",
+          "label": "Nettogewicht",
+          "values": [
+            {
+              "value_code": "NUMERIC_100",
+              "value": "100",
+              "numeric_value": 100
+            }
+          ],
+          "category_code": "GDSN",
+          "top_fact": false,
+          "unit_code": "g",
+          "unit": "Gramm",
+          "unit_symbol": "g"
+        }
+      ]
+    }
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "recipe_ingredient_ids": [
+    "10000"
+  ],
+  "views": [
+    "all",
+    "browse"
+  ]
+}

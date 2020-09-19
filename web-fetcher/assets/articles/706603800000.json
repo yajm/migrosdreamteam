@@ -1,0 +1,580 @@
+{
+  "id": "706603800000",
+  "language": "de",
+  "name": "M-Budget Haushaltshandschuhe L",
+  "names": {
+    "name": "M-Budget Haushaltshandschuhe L",
+    "short_name": "Haushaltshandschuhe L"
+  },
+  "slug": "m-budget-haushaltshandschuhe-l",
+  "boss_number": "150223302515",
+  "description": {
+    "text": "-F&uuml;r den t&auml;glichen Gebrauch im Haushalt",
+    "source": "PEX"
+  },
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03"
+  },
+  "tags": [
+    "source-pex",
+    "near-non-food",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7613249275899"
+  ],
+  "brand": {
+    "id": "N26",
+    "name": "M-Budget",
+    "slug": "m-budget",
+    "links": {
+      "homepage": {
+        "url": "https://m-budget.migros.ch/de.html",
+        "name": "Homepage",
+        "type": "info",
+        "purchasable": false
+      }
+    },
+    "image": {
+      "original": "https://image.migros.ch/original/1d1a13e240a94a7e1fa8ef99f15ce5b896f3486b/m-budget.jpg",
+      "stack": "https://image.migros.ch/{stack}/1d1a13e240a94a7e1fa8ef99f15ce5b896f3486b/m-budget.jpg"
+    }
+  },
+  "categories": [
+    {
+      "code": "BeSS_0104200502",
+      "name": "Wiederverwendbar",
+      "slug": "supermarkt/haushalt-reinigung/reinigungsutensilien/haushaltshandschuhe/wiederverwendbar",
+      "visible": true,
+      "parent_code": "BeSS_01042005",
+      "level": 5
+    },
+    {
+      "code": "BeSS_01042005",
+      "name": "Haushaltshandschuhe",
+      "slug": "supermarkt/haushalt-reinigung/reinigungsutensilien/haushaltshandschuhe",
+      "visible": true,
+      "parent_code": "BeSS_010420",
+      "level": 4
+    },
+    {
+      "code": "BeSS_010420",
+      "name": "Reinigungsutensilien",
+      "slug": "supermarkt/haushalt-reinigung/reinigungsutensilien",
+      "visible": true,
+      "parent_code": "BeSS_0104",
+      "level": 3
+    },
+    {
+      "code": "BeSS_0104",
+      "name": "Haushalt & Reinigung",
+      "slug": "supermarkt/haushalt-reinigung",
+      "visible": true,
+      "title": "Reinigung mit der Migros – Reiniger für Haushalt und Garten",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/e5da3225980543e0c7ddcc443069f331d94e8439/haushalt-reinigung.png",
+        "stack": "https://image.migros.ch/{stack}/e5da3225980543e0c7ddcc443069f331d94e8439/haushalt-reinigung.png"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_Handschuhe_ReinigenPutzen_HaushaltReinigung",
+        "name": "Handschuhe",
+        "slug": "amigos/haushalt-reinigung/reinigen-putzen/handschuhe",
+        "visible": true,
+        "parent_code": "AMIG_CAT_ReinigenPutzen_HaushaltReinigung",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_ReinigenPutzen_HaushaltReinigung",
+        "name": "Reinigen & Putzen",
+        "slug": "amigos/haushalt-reinigung/reinigen-putzen",
+        "visible": true,
+        "parent_code": "AMIG_CAT_HaushaltReinigung",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_HaushaltReinigung",
+        "name": "Haushalt & Reinigung",
+        "slug": "amigos/haushalt-reinigung",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "features": [
+    {
+      "label_code": "miso_farbe",
+      "label": "Farbe",
+      "values": [
+        {
+          "value_code": "MISO_farbe_pink",
+          "value": "pink"
+        }
+      ],
+      "category_code": "MISO_CLA_Reinigungshilfen_Verbrauch_Haushalt_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "miso_material",
+      "label": "Material",
+      "values": [
+        {
+          "value_code": "MISO_material_baumwolle",
+          "value": "Baumwolle"
+        },
+        {
+          "value_code": "MISO_material_latex",
+          "value": "Latex"
+        }
+      ],
+      "category_code": "MISO_CLA_Reinigungshilfen_Verbrauch_Haushalt_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "miso_anzahl",
+      "label": "Anzahl",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2 Paar",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MISO_CLA_Reinigungshilfen_Verbrauch_Haushalt_Alle",
+      "top_fact": false,
+      "unit_code": "paar",
+      "unit": "Paar",
+      "unit_symbol": "Paar"
+    },
+    {
+      "label_code": "miso_masse_groesse",
+      "label": "Masse / Grösse",
+      "values": [
+        {
+          "value": "L"
+        }
+      ],
+      "category_code": "MISO_CLA_Reinigungshilfen_Verbrauch_Haushalt_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "miso_hinweis",
+      "label": "Hinweis",
+      "values": [
+        {
+          "value_code": "MISO_nicht_bestaendig_gegen_oele_fette_laugen_und_verduenner",
+          "value": "Nicht beständig gegen Öle, Fette, Laugen und Verdünner"
+        }
+      ],
+      "category_code": "MISO_CLA_Reinigungshilfen_Verbrauch_Haushalt_Alle",
+      "top_fact": false
+    }
+  ],
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    }
+  },
+  "image": {
+    "original": "https://image.migros.ch/original/ebb1dbfed86ed5551d44c7e6dfe2944fd6a55df0/m-budget-haushaltshandschuhe-l.jpg",
+    "stack": "https://image.migros.ch/{stack}/ebb1dbfed86ed5551d44c7e6dfe2944fd6a55df0/m-budget-haushaltshandschuhe-l.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/3481a2b5b260e3d8ecfc8e0443eaa7004e566bb1/m-budget-haushaltshandschuhe-l.png",
+    "stack": "https://image.migros.ch/{stack}/3481a2b5b260e3d8ecfc8e0443eaa7004e566bb1/m-budget-haushaltshandschuhe-l.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_sortierung",
+      "label": "Sortierung aMigos",
+      "values": [
+        {
+          "value_code": "NUMERIC_120",
+          "value": "120",
+          "numeric_value": 120
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "miso_marke",
+      "label": "Marke",
+      "values": [
+        {
+          "value_code": "MISO_marke_MBudget",
+          "value": "M-Budget"
+        }
+      ],
+      "category_code": "MISO_CLA_Reinigungshilfen_Verbrauch_Haushalt_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_DEFAULT_LOGISTIC_TYPE",
+      "values": [
+        {
+          "value_code": "55",
+          "value": "Versandart Paket"
+        }
+      ],
+      "category_code": "MAPI_DEFAULT_LOGISTIC_TYPE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Normalposition"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "HART"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUSTOMS_POSITION",
+      "values": [
+        {
+          "value_code": "NUMERIC_40151900000",
+          "value": "40151900000",
+          "numeric_value": 40151900000
+        }
+      ],
+      "category_code": "MAPI_CUSTOMS_POSITION",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_RISK_CLASS",
+      "values": [
+        {
+          "value_code": "2",
+          "value": "2 (medium)"
+        }
+      ],
+      "category_code": "MAPI_RISK_CLASS",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_KUBE_TUKA",
+      "values": [
+        {
+          "value_code": "BLANK",
+          "value": "KUBE und TUKA nicht zugelassen"
+        }
+      ],
+      "category_code": "MAPI_KUBE_TUKA",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HART",
+          "value": "Hartwaren  Handelsware"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "H",
+          "value": "Hartwaren"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "50781",
+          "value": "HANDSCHUHE"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_3",
+          "value": "3",
+          "numeric_value": 3
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 1,
+    "percentage": 7.7
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/706603800000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/m-budget-haushaltshandschuhe-l",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/706603800000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/m-budget-haushaltshandschuhe-l",
+      "type": "info",
+      "purchasable": false
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/3872791",
+      "app_url": "leshop:///catalog/article/detail?ean=7613249275899",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/m-budget-haushaltshandschuhe-l",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "regional_availability": {
+    "gmaa": {
+      "probability": 95
+    },
+    "gmbs": {
+      "probability": 89
+    },
+    "gmge": {
+      "probability": 82
+    },
+    "gmlu": {
+      "probability": 88
+    },
+    "gmnf": {
+      "probability": 88
+    },
+    "gmos": {
+      "probability": 93
+    },
+    "gmti": {
+      "probability": 91
+    },
+    "gmvd": {
+      "probability": 86
+    },
+    "gmvs": {
+      "probability": 77
+    },
+    "gmzh": {
+      "probability": 85
+    }
+  },
+  "updated_at": "2020-09-16T06:47:42+0200",
+  "base_unit": "CU",
+  "slugs": {
+    "de": "m-budget-haushaltshandschuhe-l",
+    "fr": "m-budget-gants-a-usage-domestique-l",
+    "it": "m-budget-guanti-per-uso-domestico-l"
+  },
+  "receipt_text": "MBud Handschuhe 2Stk.L",
+  "main_supplier": {
+    "name": "Schlittler & Co. AG",
+    "id": "0010007042",
+    "supplier_product_id": "96410.3"
+  },
+  "price": {
+    "valid_from": "2018-01-30T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 1.5,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "2 Stk."
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "galaxus_relevant": false,
+  "data_source": "SAP-X12",
+  "origins": {
+    "producing_country": "Malaysia"
+  },
+  "package": {
+    "content": 1,
+    "content_unit_code": "cu",
+    "net_weight": 0.1,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogramm",
+    "brutto_weight": 0.102,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 0.604,
+    "brutto_volume_unit_code": "cdm",
+    "height": 23,
+    "length": 2,
+    "width": 15,
+    "unit_dimension": "cm",
+    "size": "2 Stk."
+  },
+  "package_information": {
+    "cu": {
+      "brutto_weight": 0.102,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0.604,
+      "brutto_volume_unit_code": "cdm",
+      "height": 23,
+      "length": 2,
+      "width": 15,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "tuv": {
+      "brutto_weight": 1,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 2.7,
+      "brutto_volume_unit_code": "cdm",
+      "height": 25,
+      "length": 54,
+      "width": 34,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 9
+    },
+    "tue": {
+      "brutto_weight": 12.5,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0.001,
+      "brutto_volume_unit_code": "ccm",
+      "height": 25,
+      "length": 54,
+      "width": 34,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 9
+    },
+    "lu": {
+      "number_of_base_units": 2592
+    }
+  },
+  "quantity_on_stock": 12996,
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "recipe_ingredient_ids": [
+    "10000"
+  ],
+  "views": [
+    "all",
+    "browse"
+  ]
+}

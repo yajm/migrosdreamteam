@@ -9,9 +9,13 @@ import { ProductStateService } from '../../services/product-state.service';
 })
 export class ProductComponent implements OnInit {
   productIcon = faUtensils;
-  products = this.productState.products;
+  products = [];
 
   constructor(private productState: ProductStateService) {}
 
-  ngOnInit(): void {}
+  ngOnInit(): void {
+    this.productState.getProducts(0, 50).then((products) => {
+      this.products = products;
+    });
+  }
 }

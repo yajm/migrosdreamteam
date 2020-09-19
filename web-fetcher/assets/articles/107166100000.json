@@ -1,0 +1,674 @@
+{
+  "id": "107166100000",
+  "language": "de",
+  "name": "Nescafé Gold Finesse Glas 100g",
+  "names": {
+    "name": "Nescafé Gold Finesse Glas 100g"
+  },
+  "slug": "nescafe-gold-finesse-glas-100g",
+  "boss_number": "010310305610",
+  "description": {
+    "text": "NESCAF&Eacute; GOLD Finesse l&auml;sst Sie aufs Neue entdecken, wie reichhaltig ein Aroma sein kann: eine Verbindung von hochwertigen Arabicas und sorgf&auml;ltig ausgew&auml;hlten Robustas, leicht ger&ouml;stet, um Ihnen einen Kaffee von subtilem und feinem Aroma zu bieten.",
+    "source": "PIM"
+  },
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "source-qim-origins",
+    "source-qim-distributor",
+    "validity-range-not-set",
+    "source-qim-fooddeclaration",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7613035909212",
+    "7617027872225",
+    "7613032795818"
+  ],
+  "brand": {
+    "id": "401",
+    "name": "Nescafé",
+    "slug": "nescafe"
+  },
+  "categories": [
+    {
+      "code": "BeSS_0101100103",
+      "name": "Instantkaffee",
+      "slug": "supermarkt/lebensmittel/getraenke-heiss-kalt/kaffee/instantkaffee",
+      "visible": true,
+      "parent_code": "BeSS_01011001",
+      "image": {
+        "original": "https://image.migros.ch/original/59719c8f8756d4b1718ad9f8351e8414931b1cdb/instantkaffee.jpg",
+        "stack": "https://image.migros.ch/{stack}/59719c8f8756d4b1718ad9f8351e8414931b1cdb/instantkaffee.jpg"
+      },
+      "level": 5
+    },
+    {
+      "code": "BeSS_01011001",
+      "name": "Kaffee",
+      "slug": "supermarkt/lebensmittel/getraenke-heiss-kalt/kaffee",
+      "visible": true,
+      "title": "Das schwarze Gold der Geniesser: Kaffee bei der Migros",
+      "parent_code": "BeSS_010110",
+      "image": {
+        "original": "https://image.migros.ch/original/be9ca8bc37911ac3d695139eadc7cb2446fd5974/kaffee.jpg",
+        "stack": "https://image.migros.ch/{stack}/be9ca8bc37911ac3d695139eadc7cb2446fd5974/kaffee.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010110",
+      "name": "Getränke heiss & kalt",
+      "slug": "supermarkt/lebensmittel/getraenke-heiss-kalt",
+      "visible": true,
+      "title": "Getränke aus der Migros löschen auch Ihren Durst",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/d04d95fbc2e1b4ada4783d2976d37a962a0318a1/getraenke-heiss-kalt.jpg",
+        "stack": "https://image.migros.ch/{stack}/d04d95fbc2e1b4ada4783d2976d37a962a0318a1/getraenke-heiss-kalt.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_Instantkaffee_Kaffee_Getraenke",
+        "name": "Instantkaffee",
+        "slug": "amigos/getraenke/kaffee/instantkaffee",
+        "visible": true,
+        "parent_code": "AMIG_CAT_Kaffee_Getraenke",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_Kaffee_Getraenke",
+        "name": "Kaffee",
+        "slug": "amigos/getraenke/kaffee",
+        "visible": true,
+        "parent_code": "AMIG_CAT_Getraenke",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_Getraenke",
+        "name": "Getränke",
+        "slug": "amigos/getraenke",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "features": [
+    {
+      "label_code": "MISO_anzahlentnehmbarereinzelportionen",
+      "label": "Anzahl entnehmbarer Einzeleinheiten",
+      "values": [
+        {
+          "value_code": "NUMERIC_50.0",
+          "value": "50.0",
+          "numeric_value": 50
+        }
+      ],
+      "category_code": "MISO_CLA_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_glastiegel",
+          "value": "Glastiegel"
+        }
+      ],
+      "category_code": "MISO_CLA_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zubereitungsverfahren",
+      "label": "Hinweise für die Zubereitung",
+      "values": [
+        {
+          "value_code": "MISO_zubereitungsverfahren_heisseswasserhinzugeben",
+          "value": "Heisses Wasser hinzugeben"
+        }
+      ],
+      "category_code": "MISO_CLA_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_botanischesorte",
+      "label": "Botanische Sorte",
+      "values": [
+        {
+          "value_code": "MISO_botanischesorte_arabica",
+          "value": "Arabica"
+        }
+      ],
+      "category_code": "MISO_CLA_KaffeeTeeErsatzprodukte_Getraenke_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_verwendung",
+      "label": "Verwendung",
+      "values": [
+        {
+          "value_code": "MISO_verwendung_instant",
+          "value": "Instant"
+        }
+      ],
+      "category_code": "MISO_CLA_KaffeeTeeErsatzprodukte_Getraenke_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_formbeschaffenheitdeskaffees",
+      "label": "Form/Beschaffenheit des Kaffees",
+      "values": [
+        {
+          "value_code": "MISO_formbeschaffenheitdeskaffees_granulat",
+          "value": "Granulat"
+        }
+      ],
+      "category_code": "MISO_CLA_KaffeeTeeErsatzprodukte_Getraenke_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zubereitungdeskaffees",
+      "label": "Zubereitung des Kaffees",
+      "values": [
+        {
+          "value_code": "MISO_zubereitungdeskaffees_lose",
+          "value": "lose"
+        }
+      ],
+      "category_code": "MISO_CLA_KaffeeTeeErsatzprodukte_Getraenke_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_instant",
+      "label": "Instant",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MISO_CLA_KaffeeTeeErsatzprodukte_Getraenke_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_sortedeskaffees",
+      "label": "Sorte des Kaffees",
+      "values": [
+        {
+          "value_code": "MISO_sortedeskaffees_schwarzerkaffee",
+          "value": "schwarzer Kaffee"
+        }
+      ],
+      "category_code": "MISO_CLA_KaffeeTeeErsatzprodukte_Getraenke_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_wiederverschliessbar",
+      "label": "Wiederverschliessbar",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MISO_CLA_KaffeeTeeErsatzprodukte_Getraenke_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_moeglichevewendungsmengeintassen",
+      "label": "Mögliche Vewendungsmenge in Tassen",
+      "values": [
+        {
+          "value_code": "NUMERIC_50",
+          "value": "50",
+          "numeric_value": 50
+        }
+      ],
+      "category_code": "MISO_CLA_KaffeeTeeErsatzprodukte_Getraenke_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_staerke15",
+      "label": "Stärke (1-5)",
+      "values": [
+        {
+          "value_code": "NUMERIC_3.0",
+          "value": "3.0",
+          "numeric_value": 3
+        }
+      ],
+      "category_code": "MISO_CLA_KaffeeTeeErsatzprodukte_Getraenke_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_tassengroesse",
+      "label": "Tassengrösse",
+      "values": [
+        {
+          "value_code": "MISO_tassengroesse_lungo_120ml",
+          "value": "Lungo (120ml)"
+        }
+      ],
+      "category_code": "MISO_CLA_KaffeeTeeErsatzprodukte_Getraenke_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_tassengroesse",
+      "label": "Tassengrösse",
+      "values": [
+        {
+          "value_code": "MISO_tassengroesse_lungo_120ml",
+          "value": "Lungo (120ml)"
+        }
+      ],
+      "category_code": "MISO_CLA_Kaffee_Getraenke_heiss_kalt_Lebensmittel_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_koffein",
+      "label": "Koffein",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MISO_CLA_Kaffee_Getraenke_heiss_kalt_Lebensmittel_Alle",
+      "top_fact": false
+    }
+  ],
+  "general_information": [
+    {
+      "label": "Zubereitungshinweis",
+      "value": "Zubereitung : Zwei Teelöffel Kaffee in eine Tasse geben und mit 200 ml heisses, nicht kochendes Wasser (80°C) aufgiessen."
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/78131a4fd947496b5d252897b3368803aa8ab541/nescafe-gold-finesse-glas-100g.jpg",
+    "stack": "https://image.migros.ch/{stack}/78131a4fd947496b5d252897b3368803aa8ab541/nescafe-gold-finesse-glas-100g.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/ee1bb861ddb7113c8da3e5d897873d1b439ed148/nescafe-gold-finesse-glas-100g.png",
+    "stack": "https://image.migros.ch/{stack}/ee1bb861ddb7113c8da3e5d897873d1b439ed148/nescafe-gold-finesse-glas-100g.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MISO_intensitaet",
+      "label": "Intensität",
+      "values": [
+        {
+          "value_code": "MISO_intensitaet_ausgewogen",
+          "value": "Ausgewogen"
+        }
+      ],
+      "category_code": "MISO_CLA_KaffeeTeeErsatzprodukte_Getraenke_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_intensitaet",
+      "label": "Intensität",
+      "values": [
+        {
+          "value_code": "MISO_intensitaet_ausgewogen",
+          "value": "Ausgewogen"
+        },
+        {
+          "value_code": "MISO_intensitaet_mild",
+          "value": "Mild"
+        }
+      ],
+      "category_code": "MISO_CLA_Kaffee_Getraenke_heiss_kalt_Lebensmittel_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_frucht",
+      "label": "Frucht",
+      "values": [
+        {
+          "value_code": "MISO_frucht_zitrus",
+          "value": "Zitrus"
+        }
+      ],
+      "category_code": "MISO_CLA_Kaffee_Getraenke_heiss_kalt_Lebensmittel_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_roestaromen",
+      "label": "Röstaromen",
+      "values": [
+        {
+          "value_code": "MISO_roestaromen_brotkruste",
+          "value": "Brotkruste"
+        },
+        {
+          "value_code": "MISO_roestaromen_karamel",
+          "value": "Karamel"
+        },
+        {
+          "value_code": "MISO_roestaromen_toast",
+          "value": "Toast"
+        }
+      ],
+      "category_code": "MISO_CLA_Kaffee_Getraenke_heiss_kalt_Lebensmittel_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "M",
+          "value": "Kolonial Standard"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "10385",
+          "value": "INSTANTKAFFEE REIN"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "regulated_description": "Löslicher Kaffee mit fein gemahlenem Röstkaffee",
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/107166100000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/nescafe-gold-finesse-glas-100g",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/107166100000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/nescafe-gold-finesse-glas-100g",
+      "type": "info",
+      "purchasable": false
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/4963625",
+      "app_url": "leshop:///catalog/article/detail?ean=7613035909212",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/nescafe-gold-finesse-glas-100g",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "regional_availability": {
+    "gmaa": {
+      "probability": 53
+    },
+    "gmbs": {
+      "probability": 81
+    },
+    "gmge": {
+      "probability": 31
+    },
+    "gmlu": {
+      "probability": 47
+    },
+    "gmnf": {
+      "probability": 14
+    },
+    "gmos": {
+      "probability": 64
+    },
+    "gmti": {
+      "probability": 31
+    },
+    "gmvd": {
+      "probability": 26
+    },
+    "gmvs": {
+      "probability": 33
+    },
+    "gmzh": {
+      "probability": 71
+    }
+  },
+  "updated_at": "2020-09-16T05:40:41+0200",
+  "base_unit": "CU",
+  "slugs": {
+    "de": "nescafe-gold-finesse-glas-100g",
+    "fr": "nescafe-gold-finesse-vase-100g",
+    "it": "nescafe-gold-finesse-vaso-100g"
+  },
+  "receipt_text": "Nescafé Finesse 100g",
+  "main_supplier": {
+    "name": "Nestlé Suisse S.A. / Food NN",
+    "id": "0010000295"
+  },
+  "price": {
+    "valid_from": "2018-01-29T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 7.9,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "100g"
+    },
+    "base": {
+      "price": 7.9,
+      "quantity": 100,
+      "unit": "g"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 1,
+    "average_all": 5
+  },
+  "data_source": "SAP-X11",
+  "origins": {},
+  "distributor": {
+    "name": "Nestlé Suisse S.A.",
+    "address": "CP 2222, 1800 Vevey"
+  },
+  "ingredients": "löslicher Kaffee, gemahlener Röstkaffee (3%).",
+  "package": {
+    "content": 100,
+    "content_unit_code": "g",
+    "content_unit": "Gramm",
+    "net_weight": 0.1,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogramm",
+    "brutto_weight": 0.375,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 0.79,
+    "brutto_volume_unit_code": "cdm",
+    "height": 15.2,
+    "length": 6.5,
+    "width": 8,
+    "unit_dimension": "cm",
+    "price_comparison_content": 100,
+    "size": "100g"
+  },
+  "package_information": {
+    "tu": {
+      "brutto_weight": 4.72,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 9.516,
+      "brutto_volume_unit_code": "cdm",
+      "height": 16.3,
+      "length": 27.8,
+      "width": 21,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 12
+    },
+    "cu": {
+      "brutto_weight": 0.375,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0.79,
+      "brutto_volume_unit_code": "cdm",
+      "height": 15.2,
+      "length": 6.5,
+      "width": 8,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "lu": {
+      "brutto_weight": 449.8,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 898.56,
+      "brutto_volume_unit_code": "cdm",
+      "height": 93.6,
+      "length": 120,
+      "width": 80,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1080
+    }
+  },
+  "related_products": {
+    "purchase_recommendations": {
+      "product_ids": [
+        "107166400000",
+        "107166300000",
+        "107166200000"
+      ]
+    }
+  },
+  "declarations": {
+    "food": {
+      "additives_declaration_obligatory": {
+        "code": "ATM",
+        "label": "Unter Schutzatmosphäre verpackt"
+      },
+      "features": [
+        {
+          "label_code": "GDSN_M281_NetContent",
+          "label": "Nettofüllmenge Wert",
+          "values": [
+            {
+              "value_code": "NUMERIC_100",
+              "value": "100",
+              "numeric_value": 100
+            }
+          ],
+          "category_code": "GDSN",
+          "top_fact": false,
+          "unit_code": "g"
+        },
+        {
+          "label_code": "GDSN_M278_NetWeight",
+          "label": "Nettogewicht",
+          "values": [
+            {
+              "value_code": "NUMERIC_100",
+              "value": "100",
+              "numeric_value": 100
+            }
+          ],
+          "category_code": "GDSN",
+          "top_fact": false,
+          "unit_code": "g",
+          "unit": "Gramm",
+          "unit_symbol": "g"
+        },
+        {
+          "label_code": "GDSN_M236_IsVariableUnit",
+          "label": "Mengenvariabler Artikel",
+          "values": [
+            {
+              "value_code": "BOOLEAN_FALSE",
+              "value": "false",
+              "boolean_value": false
+            }
+          ],
+          "category_code": "GDSN",
+          "top_fact": false
+        },
+        {
+          "label_code": "QIM_ZubereitungshinweisDeklaration",
+          "label": "Zubereitungshinweis",
+          "values": [
+            {
+              "value": "Zubereitung : Zwei Teelöffel Kaffee in eine Tasse geben und mit 200 ml heisses, nicht kochendes Wasser (80°C) aufgiessen."
+            }
+          ],
+          "category_code": "GDSN",
+          "top_fact": false
+        }
+      ]
+    }
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "recipe_ingredient_ids": [
+    "14759"
+  ],
+  "views": [
+    "all",
+    "browse"
+  ]
+}

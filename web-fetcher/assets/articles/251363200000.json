@@ -1,0 +1,782 @@
+{
+  "id": "251363200000",
+  "language": "de",
+  "name": "MSC Wildlachs Sockeye",
+  "names": {
+    "name": "MSC Wildlachs Sockeye"
+  },
+  "slug": "msc-wildlachs-sockeye-251363200000",
+  "boss_number": "040414361005",
+  "description": {
+    "text": "Wildlachs-R&uuml;ckenfilet",
+    "source": "PIM"
+  },
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "80"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "source-qim-origins",
+    "validity-range-not-set",
+    "source-qim-allergens",
+    "source-qim-fooddeclaration",
+    "source-qim-nutritionfacts",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7617027783491"
+  ],
+  "labels": [
+    {
+      "id": "L05",
+      "name": "MSC",
+      "slug": "msc",
+      "links": {
+        "homepage": {
+          "url": "https://generation-m.migros.ch/de/nachhaltig-leben/tipps-tools/nachhaltiger-fisch-faq.html",
+          "name": "Homepage",
+          "type": "info",
+          "purchasable": false
+        }
+      },
+      "image": {
+        "original": "https://image.migros.ch/original/b4f2b83e8fa72e840367b33d46a26ab586685a13/msc.jpg",
+        "stack": "https://image.migros.ch/{stack}/b4f2b83e8fa72e840367b33d46a26ab586685a13/msc.jpg"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_01010706",
+      "name": "Traiteur",
+      "slug": "supermarkt/lebensmittel/fisch-meeresfruechte/traiteur",
+      "visible": true,
+      "title": "Frischen Fisch in Ihrer Migros kaufen",
+      "parent_code": "BeSS_010107",
+      "level": 4
+    },
+    {
+      "code": "BeSS_010107",
+      "name": "Fisch & Meeresfrüchte",
+      "slug": "supermarkt/lebensmittel/fisch-meeresfruechte",
+      "visible": true,
+      "title": "Frische Fische – natürlich aus Ihrer Migros",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/ec75a7d58e38e50543a63ffef79d21bc22d60668/fisch-meeresfruechte.jpg",
+        "stack": "https://image.migros.ch/{stack}/ec75a7d58e38e50543a63ffef79d21bc22d60668/fisch-meeresfruechte.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_Lachs_FischMeeresfruechte_FleischFisch",
+        "name": "Lachs",
+        "slug": "amigos/fleisch-fisch/fisch-meeresfruechte/lachs",
+        "visible": true,
+        "parent_code": "AMIG_CAT_FischMeeresfruechte_FleischFisch",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_FischMeeresfruechte_FleischFisch",
+        "name": "Fisch & Meeresfrüchte",
+        "slug": "amigos/fleisch-fisch/fisch-meeresfruechte",
+        "visible": true,
+        "parent_code": "AMIG_CAT_FleischFisch",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_FleischFisch",
+        "name": "Fleisch & Fisch",
+        "slug": "amigos/fleisch-fisch",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "nutrition_facts": {
+    "standard": {
+      "nutrients": [
+        {
+          "code": "PIM_NUT_ENERGIE",
+          "name": "Energie",
+          "pictogram_name": "Energie",
+          "category": "BIG9",
+          "quantity": 486,
+          "nutrition_operator": "=",
+          "quantity_unit": "kJ",
+          "quantity_alternate": 115,
+          "quantity_alternate_unit": "kcal"
+        },
+        {
+          "code": "PIM_NUT_FETT",
+          "name": "Fett",
+          "pictogram_name": "Fett",
+          "category": "BIG9",
+          "quantity": 2.1,
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_FETT_GES",
+          "name": "davon gesättigte Fettsäuren",
+          "pictogram_name": "gesättigte Fettsäuren",
+          "category": "BIG9",
+          "quantity": 0.5,
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_KOHLENHY",
+          "name": "Kohlenhydrate",
+          "category": "BIG9",
+          "quantity": 0.5,
+          "nutrition_operator": "<",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_ZUCKER",
+          "name": "davon Zucker",
+          "pictogram_name": "Zuckerarten",
+          "category": "BIG9",
+          "quantity": 0.5,
+          "nutrition_operator": "<",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_GES_BALL",
+          "name": "Ballaststoffe",
+          "category": "BIG9",
+          "quantity": 0.5,
+          "nutrition_operator": "<",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_PROTEINE",
+          "name": "Eiweiss",
+          "category": "BIG9",
+          "quantity": 24,
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_KOCHSALZ",
+          "name": "Salz",
+          "pictogram_name": "Salz",
+          "category": "BIG9",
+          "quantity": 3.5,
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        }
+      ],
+      "base_quantity": 100,
+      "base_unit": "g"
+    },
+    "portion": {
+      "nutrients": [
+        {
+          "code": "PIM_NUT_ENERGIE",
+          "name": "Energie",
+          "pictogram_name": "Energie",
+          "category": "BIG9",
+          "quantity": 247,
+          "rda_percent": 3,
+          "rda_percent_operator": "=",
+          "nutrition_operator": "=",
+          "quantity_unit": "kJ",
+          "quantity_alternate": 58,
+          "quantity_alternate_unit": "kcal"
+        },
+        {
+          "code": "PIM_NUT_FETT",
+          "name": "Fett",
+          "pictogram_name": "Fett",
+          "category": "BIG9",
+          "quantity": 1.1,
+          "rda_percent": 2,
+          "rda_percent_operator": "=",
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_FETT_GES",
+          "name": "davon gesättigte Fettsäuren",
+          "pictogram_name": "gesättigte Fettsäuren",
+          "category": "BIG9",
+          "quantity": 0.3,
+          "rda_percent": 2,
+          "rda_percent_operator": "=",
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_KOHLENHY",
+          "name": "Kohlenhydrate",
+          "category": "BIG9",
+          "quantity": 0.5,
+          "rda_percent": 0.5,
+          "rda_percent_operator": "<",
+          "nutrition_operator": "<",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_ZUCKER",
+          "name": "davon Zucker",
+          "pictogram_name": "Zuckerarten",
+          "category": "BIG9",
+          "quantity": 0.5,
+          "rda_percent": 0.5,
+          "rda_percent_operator": "<",
+          "nutrition_operator": "<",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_GES_BALL",
+          "name": "Ballaststoffe",
+          "category": "BIG9",
+          "quantity": 0.5,
+          "nutrition_operator": "<",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_PROTEINE",
+          "name": "Eiweiss",
+          "category": "BIG9",
+          "quantity": 12,
+          "rda_percent": 24,
+          "rda_percent_operator": "=",
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_KOCHSALZ",
+          "name": "Salz",
+          "pictogram_name": "Salz",
+          "category": "BIG9",
+          "quantity": 1.8,
+          "rda_percent": 30,
+          "rda_percent_operator": "=",
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        }
+      ],
+      "base_description": "1 Portion",
+      "base_quantity": 50,
+      "base_unit": "g",
+      "package_type": "Packung",
+      "portions_per_package": "2",
+      "portions_per_package_precision": "="
+    }
+  },
+  "features": [
+    {
+      "label_code": "MISO_mussgekuehltwerden",
+      "label": "Muss gekühlt werden",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MISO_CLA_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_produktionsanspruch",
+      "label": "Produktionsverfahren",
+      "values": [
+        {
+          "value_code": "MISO_produktionsanspruch_nachhaltigefischerei",
+          "value": "Nachhaltige Fischerei"
+        }
+      ],
+      "category_code": "MISO_CLA_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_kunststoffverpackung",
+          "value": "Kunststoff-Verpackung"
+        }
+      ],
+      "category_code": "MISO_CLA_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zubereitungsverfahren",
+      "label": "Hinweise für die Zubereitung",
+      "values": [
+        {
+          "value_code": "MISO_zubereitungsverfahren_verzehrfertig",
+          "value": "Verzehrfertig"
+        }
+      ],
+      "category_code": "MISO_CLA_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_fischspezies",
+      "label": "Fischspezies",
+      "values": [
+        {
+          "value_code": "MISO_fischspezies_lachs",
+          "value": "Lachs"
+        }
+      ],
+      "category_code": "MISO_CLA_FischMeeresfruechte_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_anatomischeformvonfisch",
+      "label": "Anatomische Form von Fisch",
+      "values": [
+        {
+          "value_code": "MISO_anatomischeformvonfisch_tranchen",
+          "value": "Tranchen"
+        }
+      ],
+      "category_code": "MISO_CLA_FischMeeresfruechte_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zuchtoderwildfang",
+      "label": "Zucht oder Wildfang",
+      "values": [
+        {
+          "value_code": "MISO_zuchtoderwildfang_wildfang",
+          "value": "Wildfang"
+        }
+      ],
+      "category_code": "MISO_CLA_FischMeeresfruechte_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_suessodersalzwasser",
+      "label": "Süss- oder Salzwasser",
+      "values": [
+        {
+          "value_code": "MISO_suessodersalzwasser_salzwasser",
+          "value": "Salzwasser"
+        }
+      ],
+      "category_code": "MISO_CLA_FischMeeresfruechte_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zuchtoderfangmethode",
+      "label": "Zucht- oder Fangmethode",
+      "values": [
+        {
+          "value_code": "MISO_zuchtoderfangmethode_meeresfischerei",
+          "value": "Meeresfischerei"
+        }
+      ],
+      "category_code": "MISO_CLA_FischMeeresfruechte_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_verpackungsform",
+      "label": "Verpackungsform",
+      "values": [
+        {
+          "value_code": "MISO_verpackungsform_vakuum",
+          "value": "Vakuum"
+        }
+      ],
+      "category_code": "MISO_CLA_FischMeeresfruechte_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_haut",
+      "label": "Haut",
+      "values": [
+        {
+          "value_code": "MISO_haut_ohnehaut",
+          "value": "ohne Haut"
+        }
+      ],
+      "category_code": "MISO_CLA_FischMeeresfruechte_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_herstellungsverfahren",
+      "label": "Herstellungsverfahren",
+      "values": [
+        {
+          "value_code": "MISO_herstellungsverfahren_geraeuchert",
+          "value": "Geräuchert"
+        }
+      ],
+      "category_code": "MISO_CLA_FischMeeresfruechte_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_tierwohlmehrwert",
+      "label": "Tierwohl Mehrwert",
+      "values": [
+        {
+          "value_code": "MISO_tierwohlmehrwert_msc",
+          "value": "MSC"
+        }
+      ],
+      "category_code": "MISO_CLA_FischMeeresfruechte_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    }
+  ],
+  "allergens": [
+    {
+      "code": "ALLG_FISCH",
+      "name": "Fische und daraus gewonnene Erzeugnisse",
+      "contamination_code": "VORHANDEN",
+      "contamination": "vorhanden"
+    }
+  ],
+  "general_information": [
+    {
+      "label": "Kühlhinweis / Aufbewahrungshinweis",
+      "value": "Nach dem Öffnen wieder gekühlt aufbewahren und rasch konsumieren. Gekühlt aufbewahren bei max. +5 °C."
+    },
+    {
+      "label": "Produktionshinweis",
+      "value": "Unter Hochvakuum verpackt"
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/0bef4d80b5e4f76990c4bc8a2a30fe340bd7d439/msc-wildlachs-sockeye.jpg",
+    "stack": "https://image.migros.ch/{stack}/0bef4d80b5e4f76990c4bc8a2a30fe340bd7d439/msc-wildlachs-sockeye.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/c6429172caafcf48072c99877dff91bf9614820e/msc-wildlachs-sockeye.png",
+    "stack": "https://image.migros.ch/{stack}/c6429172caafcf48072c99877dff91bf9614820e/msc-wildlachs-sockeye.png"
+  },
+  "additional_images": [
+    {
+      "original": "https://image.migros.ch/original/4076fdf67dd643ba48ae6998dac7443f7f58fb4c.jpg",
+      "stack": "https://image.migros.ch/{stack}/4076fdf67dd643ba48ae6998dac7443f7f58fb4c.jpg"
+    },
+    {
+      "original": "https://image.migros.ch/original/e2fc3fd27b3c4c376f1b1ba7702ae0007f02f16e.jpg",
+      "stack": "https://image.migros.ch/{stack}/e2fc3fd27b3c4c376f1b1ba7702ae0007f02f16e.jpg"
+    }
+  ],
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_sortierung",
+      "label": "Sortierung aMigos",
+      "values": [
+        {
+          "value_code": "NUMERIC_210",
+          "value": "210",
+          "numeric_value": 210
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_gewicht",
+      "label": "Gewicht aMigos!",
+      "values": [
+        {
+          "value_code": "NUMERIC_100.0",
+          "value": "100.0 g",
+          "numeric_value": 100
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false,
+      "unit_code": "g",
+      "unit": "Gramm",
+      "unit_symbol": "g"
+    },
+    {
+      "label_code": "MISO_aMigos_volumen",
+      "label": "Volumen aMigos!",
+      "values": [
+        {
+          "value_code": "NUMERIC_0.23275",
+          "value": "0.23275 l",
+          "numeric_value": 0.23275
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false,
+      "unit_code": "l",
+      "unit": "Liter",
+      "unit_symbol": "l"
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZFRP",
+          "value": "Frische Beschaffung"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "6",
+          "value": "Fleisch-Fisch-Geflüg"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "71313",
+          "value": "RAUCHFISCH"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "regulated_description": "Wildlachs (Sockeye, Oncorhynchus nerka) geräuchert, in Tranchen geschnitten, zum Rohessen",
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/251363200000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/msc-wildlachs-sockeye-251363200000",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/251363200000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/msc-wildlachs-sockeye-251363200000",
+      "type": "info",
+      "purchasable": false
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/101637",
+      "app_url": "leshop:///catalog/article/detail?ean=7617027783491",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/msc-wildlachs-sockeye-251363200000",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "regional_availability": {
+    "gmaa": {
+      "probability": 89
+    },
+    "gmbs": {
+      "probability": 87
+    },
+    "gmge": {
+      "probability": 85
+    },
+    "gmlu": {
+      "probability": 94
+    },
+    "gmnf": {
+      "probability": 90
+    },
+    "gmos": {
+      "probability": 99
+    },
+    "gmti": {
+      "probability": 100
+    },
+    "gmvd": {
+      "probability": 89
+    },
+    "gmvs": {
+      "probability": 77
+    },
+    "gmzh": {
+      "probability": 90
+    }
+  },
+  "updated_at": "2020-09-16T05:53:26+0200",
+  "base_unit": "CU",
+  "slugs": {
+    "de": "msc-wildlachs-sockeye-251363200000",
+    "fr": "msc-saumon-sockeye-251363200000",
+    "it": "msc-salmone-sockeye-251363200000"
+  },
+  "receipt_text": "MSC Wildlachs Sockeye",
+  "main_supplier": {
+    "name": "Ospelt Food AG",
+    "id": "0010000326"
+  },
+  "price": {
+    "valid_from": "2019-07-08T00:00:00+0200",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 6.8,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "100g"
+    },
+    "base": {
+      "price": 6.8,
+      "quantity": 100,
+      "unit": "g"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 14,
+    "average_all": 4.5
+  },
+  "data_source": "SAP-X4x",
+  "origins": {
+    "producing_country": "Hergestellt in der Schweiz",
+    "production_facility_id": "CH 301"
+  },
+  "ingredients": "<strong>Wildlachs</strong> * 97 %, Meersalz. \n*<strong>Wildlachs (Sockeye, Roter Lachs, Oncorhynchus nerka)</strong>, gefangen im Nordostpazifik mit Kiemennetzen und vergleichbaren Netzen.",
+  "package": {
+    "content": 100,
+    "content_unit_code": "g",
+    "content_unit": "Gramm",
+    "net_weight": 0.1,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogramm",
+    "precision": "exact",
+    "brutto_weight": 0.1,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 0.456,
+    "brutto_volume_unit_code": "cdm",
+    "height": 24,
+    "length": 1,
+    "width": 19,
+    "unit_dimension": "cm",
+    "price_comparison_content": 100,
+    "size": "100g"
+  },
+  "package_information": {
+    "tu": {
+      "brutto_weight": 0.5,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0,
+      "height": 0,
+      "length": 0,
+      "width": 0,
+      "number_of_base_units": 5
+    },
+    "cu": {
+      "brutto_weight": 0.1,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0.456,
+      "brutto_volume_unit_code": "cdm",
+      "height": 24,
+      "length": 1,
+      "width": 19,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    }
+  },
+  "related_products": {
+    "purchase_recommendations": {
+      "product_ids": [
+        "251363200100",
+        "251363400000",
+        "251363770000",
+        "251367100000",
+        "251364100000"
+      ]
+    }
+  },
+  "declarations": {
+    "food": {
+      "features": [
+        {
+          "label_code": "GDSN_M281_NetContent",
+          "label": "Nettofüllmenge Wert",
+          "values": [
+            {
+              "value_code": "NUMERIC_100",
+              "value": "100",
+              "numeric_value": 100
+            }
+          ],
+          "category_code": "GDSN",
+          "top_fact": false,
+          "unit_code": "g"
+        }
+      ]
+    }
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "recipe_ingredient_ids": [
+    "60838",
+    "9933700",
+    "15168"
+  ],
+  "views": [
+    "all",
+    "browse"
+  ]
+}

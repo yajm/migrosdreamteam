@@ -1,0 +1,85 @@
+{
+  "name": "Mentos Gum Sweet Mint",
+  "regulated_description": "Kaugummi mit Minzgeschmack",
+  "image": {
+    "original": "https://image.migros.ch/original/66cd8498797218a3c934cae92ed13666a57f6313/mentos-gum-sweet-mint.jpg"
+  },
+  "price": {
+    "item": {
+      "price": 4.95
+    }
+  },
+  "nutrition_facts": {
+    "standard": {
+      "nutrients": {
+        "nutrients": [
+          {
+            "code": "PIM_NUT_ENERGIE",
+            "name": "Energie",
+            "pictogram_name": "Energie",
+            "category": "BIG9",
+            "quantity": 712,
+            "nutrition_operator": "=",
+            "quantity_unit": "kJ",
+            "quantity_alternate": 171,
+            "quantity_alternate_unit": "kcal"
+          },
+          {
+            "code": "PIM_NUT_FETT",
+            "name": "Fett",
+            "pictogram_name": "Fett",
+            "category": "BIG9",
+            "quantity": 0,
+            "nutrition_operator": "=",
+            "quantity_unit": "g"
+          },
+          {
+            "code": "PIM_NUT_FETT_GES",
+            "name": "davon gesättigte Fettsäuren",
+            "pictogram_name": "gesättigte Fettsäuren",
+            "category": "BIG9",
+            "quantity": 0,
+            "nutrition_operator": "=",
+            "quantity_unit": "g"
+          },
+          {
+            "code": "PIM_NUT_KOHLENHY",
+            "name": "Kohlenhydrate",
+            "category": "BIG9",
+            "quantity": 69,
+            "nutrition_operator": "=",
+            "quantity_unit": "g"
+          },
+          {
+            "code": "PIM_NUT_ZUCKER",
+            "name": "davon Zucker",
+            "pictogram_name": "Zuckerarten",
+            "category": "BIG9",
+            "quantity": 0,
+            "nutrition_operator": "=",
+            "quantity_unit": "g"
+          },
+          {
+            "code": "PIM_NUT_PROTEINE",
+            "name": "Eiweiss",
+            "category": "BIG9",
+            "quantity": 0,
+            "nutrition_operator": "=",
+            "quantity_unit": "g"
+          },
+          {
+            "code": "PIM_NUT_KOCHSALZ",
+            "name": "Salz",
+            "pictogram_name": "Salz",
+            "category": "BIG9",
+            "quantity": 0.04,
+            "nutrition_operator": "=",
+            "quantity_unit": "g"
+          }
+        ],
+        "base_quantity": 100,
+        "base_unit": "g"
+      }
+    }
+  }
+}

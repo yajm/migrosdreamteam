@@ -1,0 +1,676 @@
+{
+  "id": "101310600000",
+  "language": "de",
+  "name": "Alnatura Riegel Cocos Zartbitter",
+  "names": {
+    "name": "Alnatura Riegel Cocos Zartbitter"
+  },
+  "slug": "alnatura-riegel-cocos-zartbitter",
+  "boss_number": "010110014605",
+  "description": {
+    "text": "Bio Zartbitterschokolade mit Kokosf&uuml;llung. In diesem Riegel werden saftig-exotische Kokosraspel von feinherber Schokolade umh&uuml;llt. Ein Genuss f&uuml;r viele Gelegenheiten. Alle Zutaten f&uuml;r den Alnatura Cocos-Riegel Zartbitter stammen aus Bio-Anbau.",
+    "source": "PIM"
+  },
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "source-qim-origins",
+    "source-qim-distributor",
+    "validity-range-not-set",
+    "source-qim-allergens",
+    "source-qim-fooddeclaration",
+    "source-qim-nutritionfacts",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "42143956",
+    "7613312096505"
+  ],
+  "brand": {
+    "id": "D06",
+    "name": "Alnatura",
+    "slug": "alnatura",
+    "links": {
+      "homepage": {
+        "url": "https://alnatura.migros.ch/de.html",
+        "name": "Homepage",
+        "type": "info",
+        "purchasable": false
+      }
+    },
+    "image": {
+      "original": "https://image.migros.ch/original/2c0deb7a67525727ed8213ce2b42bc8a6eb35567/alnatura.jpg",
+      "stack": "https://image.migros.ch/{stack}/2c0deb7a67525727ed8213ce2b42bc8a6eb35567/alnatura.jpg"
+    }
+  },
+  "categories": [
+    {
+      "code": "BeSS_010108",
+      "name": "Süssigkeiten",
+      "slug": "supermarkt/lebensmittel/suessigkeiten",
+      "visible": true,
+      "title": "Süssigkeiten aus Ihrer Migros: für Naschkatzen und Schleckmäuler",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/a9c80f4e896b5ebdd3b7ebbee11f956c8ff157cf/suessigkeiten.jpg",
+        "stack": "https://image.migros.ch/{stack}/a9c80f4e896b5ebdd3b7ebbee11f956c8ff157cf/suessigkeiten.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "ALNA_CAT_SchokoladeundGetreideriegel_SchokoladeBiscuitsundsuesseSnacks",
+        "name": "Schokolade- und Getreideriegel",
+        "slug": "alnatura/schokolade-biscuits-und-suesse-snacks/schokolade-und-getreideriegel",
+        "visible": true,
+        "parent_code": "ALNA_CAT_SchokoladeBiscuitsundsuesseSnacks",
+        "level": 3
+      },
+      {
+        "code": "ALNA_CAT_SchokoladeBiscuitsundsuesseSnacks",
+        "name": "Schokolade, Biscuits und süsse Snacks",
+        "slug": "alnatura/schokolade-biscuits-und-suesse-snacks",
+        "visible": true,
+        "parent_code": "BeSS_97",
+        "level": 2
+      },
+      {
+        "code": "BeSS_97",
+        "name": "Alnatura",
+        "slug": "alnatura",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ],
+    [
+      {
+        "code": "AMIG_CAT_Riegel_RiegelSchokoladensnacks_SchokoladenSuessigkeiten",
+        "name": "Riegel",
+        "slug": "amigos/schokoladen-suessigkeiten/riegel-schokoladensnacks/riegel",
+        "visible": true,
+        "parent_code": "AMIG_CAT_RiegelSchokoladensnacks_SchokoladenSuessigkeiten",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_RiegelSchokoladensnacks_SchokoladenSuessigkeiten",
+        "name": "Riegel & Schokoladensnacks",
+        "slug": "amigos/schokoladen-suessigkeiten/riegel-schokoladensnacks",
+        "visible": true,
+        "parent_code": "AMIG_CAT_SchokoladenSuessigkeiten",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_SchokoladenSuessigkeiten",
+        "name": "Schokoladen & Süssigkeiten",
+        "slug": "amigos/schokoladen-suessigkeiten",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "nutrition_facts": {
+    "standard": {
+      "nutrients": [
+        {
+          "code": "PIM_NUT_ENERGIE",
+          "name": "Energie",
+          "pictogram_name": "Energie",
+          "category": "BIG9",
+          "quantity": 2261,
+          "nutrition_operator": "~",
+          "quantity_unit": "kJ",
+          "quantity_alternate": 545,
+          "quantity_alternate_unit": "kcal"
+        },
+        {
+          "code": "PIM_NUT_FETT",
+          "name": "Fett",
+          "pictogram_name": "Fett",
+          "category": "BIG9",
+          "quantity": 39,
+          "nutrition_operator": "~",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_FETT_GES",
+          "name": "davon gesättigte Fettsäuren",
+          "pictogram_name": "gesättigte Fettsäuren",
+          "category": "BIG9",
+          "quantity": 29,
+          "nutrition_operator": "~",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_KOHLENHY",
+          "name": "Kohlenhydrate",
+          "category": "BIG9",
+          "quantity": 39,
+          "nutrition_operator": "~",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_ZUCKER",
+          "name": "davon Zucker",
+          "pictogram_name": "Zuckerarten",
+          "category": "BIG9",
+          "quantity": 36,
+          "nutrition_operator": "~",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_GES_BALL",
+          "name": "Ballaststoffe",
+          "category": "BIG9",
+          "quantity": 9.4,
+          "nutrition_operator": "~",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_PROTEINE",
+          "name": "Eiweiss",
+          "category": "BIG9",
+          "quantity": 4.7,
+          "nutrition_operator": "~",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_KOCHSALZ",
+          "name": "Salz",
+          "pictogram_name": "Salz",
+          "category": "BIG9",
+          "quantity": 0.08,
+          "nutrition_operator": "~",
+          "quantity_unit": "g"
+        }
+      ],
+      "base_quantity": 100,
+      "base_unit": "g",
+      "preparation_state": "UNPREPARED"
+    }
+  },
+  "features": [
+    {
+      "label_code": "MISO_produktionsanspruch",
+      "label": "Produktionsverfahren",
+      "values": [
+        {
+          "value_code": "MISO_produktionsanspruch_bioproduktion",
+          "value": "Bio-Produktion"
+        },
+        {
+          "value_code": "MISO_produktionsanspruch_ohnelecithinzusatz",
+          "value": "Ohne Lecithinzusatz"
+        }
+      ],
+      "category_code": "MISO_CLA_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_kunststoffverpackung",
+          "value": "Kunststoff-Verpackung"
+        }
+      ],
+      "category_code": "MISO_CLA_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_artvonbonbonsanderensuesswaren",
+      "label": "Art von Bonbons/anderen Süsswaren",
+      "values": [
+        {
+          "value_code": "MISO_artvonbonbonsanderensuesswaren_schokoladenriegel",
+          "value": "Schokoladenriegel"
+        }
+      ],
+      "category_code": "MISO_CLA_Suesswaren_SuesswarenSuessungsmittel_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_formdersuesswaren",
+      "label": "Form der Süsswaren",
+      "values": [
+        {
+          "value_code": "MISO_formdersuesswaren_riegel",
+          "value": "Riegel"
+        }
+      ],
+      "category_code": "MISO_CLA_Suesswaren_SuesswarenSuessungsmittel_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_artvonschokolade",
+      "label": "Art von Schokolade",
+      "values": [
+        {
+          "value_code": "MISO_artvonschokolade_zartbitter",
+          "value": "Zartbitter"
+        }
+      ],
+      "category_code": "MISO_CLA_Suesswaren_SuesswarenSuessungsmittel_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_gefuellt",
+      "label": "Gefüllt",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MISO_CLA_Suesswaren_SuesswarenSuessungsmittel_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    }
+  ],
+  "allergens": [
+    {
+      "code": "ALLG_SESAM",
+      "name": "Sesamsamen und Sesamsamenderivate",
+      "contamination_code": "KANN_ENTHALTEN",
+      "contamination": "kann enthalten"
+    },
+    {
+      "code": "ALLG_MACADAM",
+      "name": "Macadamianuss und Macadamianusserzeugnisse",
+      "contamination_code": "KANN_ENTHALTEN",
+      "contamination": "kann enthalten"
+    },
+    {
+      "code": "ALLG_MANDELN",
+      "name": "Mandeln und Mandelerzeugnisse",
+      "contamination_code": "KANN_ENTHALTEN",
+      "contamination": "kann enthalten"
+    },
+    {
+      "code": "ALLG_NUSS",
+      "name": "Nüsse und Nussderivate. (Kann Mandeln, Haselnüsse, Walnüsse, Cashewnüsse etc. einschließen)",
+      "contamination_code": "KANN_ENTHALTEN",
+      "contamination": "kann enthalten"
+    },
+    {
+      "code": "ALLG_PECAN",
+      "name": "Pecannuss und Pecannusserzeugnisse",
+      "contamination_code": "KANN_ENTHALTEN",
+      "contamination": "kann enthalten"
+    },
+    {
+      "code": "ALLG_BAUMNUS",
+      "name": "Walnuss und Walnusserzeugnisse",
+      "contamination_code": "KANN_ENTHALTEN",
+      "contamination": "kann enthalten"
+    },
+    {
+      "code": "ALLG_SOJA",
+      "name": "Sojabohne und Sojabohnenderivate",
+      "contamination_code": "KANN_ENTHALTEN",
+      "contamination": "kann enthalten"
+    },
+    {
+      "code": "ALLG_PISTAZI",
+      "name": "Pistazie und Pistazienerzeugnisse",
+      "contamination_code": "KANN_ENTHALTEN",
+      "contamination": "kann enthalten"
+    },
+    {
+      "code": "ALLG_MILCH",
+      "name": "Milch und Milchderivate",
+      "contamination_code": "VORHANDEN",
+      "contamination": "vorhanden"
+    },
+    {
+      "code": "ALLG_PARANUS",
+      "name": "Paranuss und Paranusserzeugnisse",
+      "contamination_code": "KANN_ENTHALTEN",
+      "contamination": "kann enthalten"
+    },
+    {
+      "code": "ALLG_GLUTEN",
+      "name": "Glutenhaltige Cerealien und ihre Derivate",
+      "contamination_code": "KANN_ENTHALTEN",
+      "contamination": "kann enthalten"
+    },
+    {
+      "code": "ALLG_CASHEW",
+      "name": "Kaschunuss und Kaschunusserzeugnisse",
+      "contamination_code": "KANN_ENTHALTEN",
+      "contamination": "kann enthalten"
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/8c833f7775ed13e646628903ef1dddc4a3bd52f9/alnatura-riegel-cocos-zartbitter.jpg",
+    "stack": "https://image.migros.ch/{stack}/8c833f7775ed13e646628903ef1dddc4a3bd52f9/alnatura-riegel-cocos-zartbitter.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/ba584912ac21b74f630e2c94e2c1031c29eb29c3/alnatura-riegel-cocos-zartbitter.png",
+    "stack": "https://image.migros.ch/{stack}/ba584912ac21b74f630e2c94e2c1031c29eb29c3/alnatura-riegel-cocos-zartbitter.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "M",
+          "value": "Kolonial Standard"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "11121",
+          "value": "ALNATURA CHOCO SNACKS"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUSTOMS_POSITION",
+      "values": [
+        {
+          "value_code": "1806.3111"
+        }
+      ],
+      "category_code": "MAPI_CUSTOMS_POSITION",
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "regulated_description": "Bio Zartbitterschokolade mit Kokosfüllung",
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/101310600000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/alnatura-riegel-cocos-zartbitter",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/101310600000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/alnatura-riegel-cocos-zartbitter",
+      "type": "info",
+      "purchasable": false
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/3290214",
+      "app_url": "leshop:///catalog/article/detail?ean=42143956",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/alnatura-riegel-cocos-zartbitter",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "regional_availability": {
+    "gmaa": {
+      "probability": 86
+    },
+    "gmbs": {
+      "probability": 89
+    },
+    "gmge": {
+      "probability": 85
+    },
+    "gmlu": {
+      "probability": 61
+    },
+    "gmnf": {
+      "probability": 94
+    },
+    "gmos": {
+      "probability": 84
+    },
+    "gmti": {
+      "probability": 16
+    },
+    "gmvd": {
+      "probability": 74
+    },
+    "gmvs": {
+      "probability": 51
+    },
+    "gmzh": {
+      "probability": 81
+    }
+  },
+  "updated_at": "2020-09-16T05:40:38+0200",
+  "base_unit": "CU",
+  "slugs": {
+    "de": "alnatura-riegel-cocos-zartbitter",
+    "fr": "alnatura-barre-noix-coco-chocolat-noir",
+    "it": "alnatura-barrette-cocco-cioccolato"
+  },
+  "receipt_text": "Alnatura Riegel Cocos",
+  "main_supplier": {
+    "name": "Alnatura Produktions-",
+    "id": "0010030436",
+    "supplier_product_id": "130440"
+  },
+  "price": {
+    "valid_from": "2018-01-29T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 1.15,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "40g"
+    },
+    "base": {
+      "price": 2.88,
+      "quantity": 100,
+      "unit": "g"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 4,
+    "average_all": 5
+  },
+  "data_source": "SAP-X11",
+  "origins": {},
+  "distributor": {
+    "name": "Alnatura GmbH",
+    "address": "Mahatma-Gandhi-Straße 7, 64295 Darmstadt"
+  },
+  "ingredients": "Kokosraspel* 37%, Zartbitterschokolade* 25% (Kakaomasse*,Rohrohrzucker*, Kakaobutter*), Glukose-Fruktose-Sirup*,Vollmilchschokolade* 11% (Rohrohrzucker*, Kakaobutter*,VOLLMILCHPULVER*, Kakaomasse*), Rohrohrzucker*, Glukosesirup* *ausbiologischer Landwirtschaft. Kann Spuren von Gluten, Soja, Mandel, Nüssen und Sesam enthalten.",
+  "package": {
+    "content": 40,
+    "content_unit_code": "g",
+    "content_unit": "Gramm",
+    "net_weight": 0.04,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogramm",
+    "brutto_weight": 0.044,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 0.076,
+    "brutto_volume_unit_code": "cdm",
+    "height": 3.2,
+    "length": 2.3,
+    "width": 10.3,
+    "unit_dimension": "cm",
+    "price_comparison_content": 100,
+    "size": "40g"
+  },
+  "package_information": {
+    "tu": {
+      "brutto_weight": 0.8,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 2.127,
+      "brutto_volume_unit_code": "cdm",
+      "height": 6.3,
+      "length": 21.5,
+      "width": 15.7,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 18
+    },
+    "cu": {
+      "brutto_weight": 0.044,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0.076,
+      "brutto_volume_unit_code": "cdm",
+      "height": 3.2,
+      "length": 2.3,
+      "width": 10.3,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "lu": {
+      "brutto_weight": 233,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0.595,
+      "brutto_volume_unit_code": "m3",
+      "height": 62,
+      "length": 120,
+      "width": 80,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 4680
+    }
+  },
+  "declarations": {
+    "food": {
+      "features": [
+        {
+          "label_code": "GDSN_M281_NetContent",
+          "label": "Nettofüllmenge Wert",
+          "values": [
+            {
+              "value_code": "NUMERIC_40",
+              "value": "40",
+              "numeric_value": 40
+            }
+          ],
+          "category_code": "GDSN",
+          "top_fact": false,
+          "unit_code": "g"
+        },
+        {
+          "label_code": "GDSN_M362_ConsumerStorageInstructions",
+          "label": "Aufbewahrungshinweise für den Konsumenten",
+          "values": [
+            {
+              "value": "Trocken lagern, vor Wärme schützen."
+            }
+          ],
+          "category_code": "GDSN",
+          "top_fact": false
+        },
+        {
+          "label_code": "GDSN_M236_IsVariableUnit",
+          "label": "Mengenvariabler Artikel",
+          "values": [
+            {
+              "value_code": "BOOLEAN_FALSE",
+              "value": "false",
+              "boolean_value": false
+            }
+          ],
+          "category_code": "GDSN",
+          "top_fact": false
+        },
+        {
+          "label_code": "MAPI_CERTIFICATION_BODY",
+          "label": "Zertifizierungsstellen für Bio und/oder Berg/Alp inkl. Zertifizierungsnummer",
+          "values": [
+            {
+              "value": "DE-ÖKO-001"
+            }
+          ],
+          "category_code": "GDSN",
+          "top_fact": false
+        },
+        {
+          "label_code": "GDSN_M278_NetWeight",
+          "label": "Nettogewicht",
+          "values": [
+            {
+              "value_code": "NUMERIC_40",
+              "value": "40",
+              "numeric_value": 40
+            }
+          ],
+          "category_code": "GDSN",
+          "top_fact": false,
+          "unit_code": "g",
+          "unit": "Gramm",
+          "unit_symbol": "g"
+        }
+      ]
+    }
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "recipe_ingredient_ids": [
+    "10000"
+  ],
+  "views": [
+    "all",
+    "browse"
+  ]
+}

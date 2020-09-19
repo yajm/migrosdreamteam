@@ -1,0 +1,696 @@
+{
+  "id": "104410300000",
+  "language": "de",
+  "name": "Bio Mister Rice Basmati",
+  "names": {
+    "name": "Bio Mister Rice Basmati"
+  },
+  "slug": "bio-mister-rice-basmati-104410300000",
+  "boss_number": "011011261025",
+  "description": {
+    "text": "Basmati, Langkornreis Duftreis. Basmati-Reis mit seinem typischen Geschmack findet haupts&auml;chlich in der Indischen und orientalischen Spezialit&auml;tenk&uuml;che Anwendung. Grunds&auml;tzlich nicht gekocht, sondern ged&auml;mpft damit er zu den traditionellen Gerichten besonders gut passt. Das leicht parf&uuml;mierte Aroma macht ihn zu einer idealen Beilage f&uuml;r Curries oder Fischgerichte.\n<p>Basmati K&ouml;rner sind besonders lang und fragil und haben einen authentischen Eigengeschmack, weshalb man diese Sorte auch als Parf&uuml;mreis bezeichnet. Das feine Aroma entsteht dank den nat&uuml;rlichen Eigenschaften der Pflanze und den besonderen B&ouml;den im Norden Indiens.</p>",
+    "source": "PIM"
+  },
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "validity-range-not-set",
+    "leshop-discounted",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7617027854498"
+  ],
+  "brand": {
+    "id": "F09",
+    "name": "Mister Rice",
+    "slug": "mister-rice"
+  },
+  "labels": [
+    {
+      "id": "L02",
+      "name": "Migros Bio",
+      "slug": "migros-bio",
+      "links": {
+        "homepage": {
+          "url": "https://bio.migros.ch/de.html",
+          "name": "Homepage",
+          "type": "info",
+          "purchasable": false
+        }
+      },
+      "image": {
+        "original": "https://image.migros.ch/original/f32d1804b8db5760147310b8d6458eb36757b486/migros-bio.jpg",
+        "stack": "https://image.migros.ch/{stack}/f32d1804b8db5760147310b8d6458eb36757b486/migros-bio.jpg"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_01011403",
+      "name": "Reis",
+      "slug": "supermarkt/lebensmittel/pasta-zutaten-konserven/reis",
+      "visible": true,
+      "parent_code": "BeSS_010114",
+      "image": {
+        "original": "https://image.migros.ch/original/4f0b38829db056ed29b56dbc219f0010d9b6140a/reis.jpg",
+        "stack": "https://image.migros.ch/{stack}/4f0b38829db056ed29b56dbc219f0010d9b6140a/reis.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010114",
+      "name": "Pasta, Zutaten & Konserven",
+      "slug": "supermarkt/lebensmittel/pasta-zutaten-konserven",
+      "visible": true,
+      "title": "Pasta aus Ihrer Migros: alles rund um Teigwaren",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/6d0964bbb34b8e041ba4d74fc0c90b149907f46a/pasta-zutaten-konserven.jpg",
+        "stack": "https://image.migros.ch/{stack}/6d0964bbb34b8e041ba4d74fc0c90b149907f46a/pasta-zutaten-konserven.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_Reis_TeigwarenReisGetreide_Grundnahrungsmittel",
+        "name": "Reis",
+        "slug": "amigos/grundnahrungsmittel/teigwaren-reis-getreide/reis",
+        "visible": true,
+        "parent_code": "AMIG_CAT_TeigwarenReisGetreide_Grundnahrungsmittel",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_TeigwarenReisGetreide_Grundnahrungsmittel",
+        "name": "Teigwaren, Reis & Getreide",
+        "slug": "amigos/grundnahrungsmittel/teigwaren-reis-getreide",
+        "visible": true,
+        "parent_code": "AMIG_CAT_Grundnahrungsmittel",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_Grundnahrungsmittel",
+        "name": "Grundnahrungsmittel",
+        "slug": "amigos/grundnahrungsmittel",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "nutrition_facts": {
+    "standard": {
+      "nutrients": [
+        {
+          "code": "PIM_NUT_ENERGIE",
+          "name": "Energie",
+          "pictogram_name": "Energie",
+          "category": "BIG9",
+          "quantity": 1511,
+          "rda_percent": 18,
+          "rda_percent_operator": "=",
+          "quantity_unit": "kJ",
+          "quantity_alternate": 356,
+          "quantity_alternate_unit": "kcal"
+        },
+        {
+          "code": "PIM_NUT_FETT",
+          "name": "Fett",
+          "pictogram_name": "Fett",
+          "category": "BIG9",
+          "quantity": 1,
+          "rda_percent": 1,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_FETT_GES",
+          "name": "davon gesättigte Fettsäuren",
+          "pictogram_name": "gesättigte Fettsäuren",
+          "category": "BIG9",
+          "quantity": 0.5,
+          "rda_percent": 3,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_KOHLENHY",
+          "name": "Kohlenhydrate",
+          "category": "BIG9",
+          "quantity": 78,
+          "rda_percent": 30,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_ZUCKER",
+          "name": "davon Zucker",
+          "pictogram_name": "Zuckerarten",
+          "category": "BIG9",
+          "quantity": 0.5,
+          "rda_percent": 1,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_GES_BALL",
+          "name": "Ballaststoffe",
+          "category": "BIG9",
+          "quantity": 1.5,
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_PROTEINE",
+          "name": "Eiweiss",
+          "category": "BIG9",
+          "quantity": 8,
+          "rda_percent": 16,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_KOCHSALZ",
+          "name": "Salz",
+          "pictogram_name": "Salz",
+          "category": "BIG9",
+          "quantity": 0,
+          "rda_percent": 0,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        }
+      ],
+      "base_description": "enthalten",
+      "base_quantity": 100,
+      "base_unit": "g"
+    },
+    "portion": {
+      "nutrients": [
+        {
+          "code": "PIM_NUT_ENERGIE",
+          "name": "Energie",
+          "pictogram_name": "Energie",
+          "category": "BIG9",
+          "quantity": 952,
+          "rda_percent": 11,
+          "rda_percent_operator": "=",
+          "quantity_unit": "kJ",
+          "quantity_alternate": 224,
+          "quantity_alternate_unit": "kcal"
+        },
+        {
+          "code": "PIM_NUT_FETT",
+          "name": "Fett",
+          "pictogram_name": "Fett",
+          "category": "BIG9",
+          "quantity": 0.6,
+          "rda_percent": 1,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_FETT_GES",
+          "name": "davon gesättigte Fettsäuren",
+          "pictogram_name": "gesättigte Fettsäuren",
+          "category": "BIG9",
+          "quantity": 0.5,
+          "rda_percent": 2,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_KOHLENHY",
+          "name": "Kohlenhydrate",
+          "category": "BIG9",
+          "quantity": 49,
+          "rda_percent": 19,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_ZUCKER",
+          "name": "davon Zucker",
+          "pictogram_name": "Zuckerarten",
+          "category": "BIG9",
+          "quantity": 0.5,
+          "rda_percent": 0.5,
+          "rda_percent_operator": "<",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_GES_BALL",
+          "name": "Ballaststoffe",
+          "category": "BIG9",
+          "quantity": 0.9,
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_PROTEINE",
+          "name": "Eiweiss",
+          "category": "BIG9",
+          "quantity": 5,
+          "rda_percent": 10,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_KOCHSALZ",
+          "name": "Salz",
+          "pictogram_name": "Salz",
+          "category": "BIG9",
+          "quantity": 0,
+          "rda_percent": 0,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        }
+      ],
+      "base_description": "1/2 Beutel",
+      "base_quantity": 63,
+      "base_unit": "g"
+    }
+  },
+  "features": [
+    {
+      "label_code": "MISO_produktionsanspruch",
+      "label": "Produktionsverfahren",
+      "values": [
+        {
+          "value_code": "MISO_produktionsanspruch_bioproduktion",
+          "value": "Bio-Produktion"
+        }
+      ],
+      "category_code": "MISO_CLA_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_anzahlentnehmbarereinzelportionen",
+      "label": "Anzahl entnehmbarer Einzeleinheiten",
+      "values": [
+        {
+          "value_code": "NUMERIC_4.0",
+          "value": "4.0",
+          "numeric_value": 4
+        }
+      ],
+      "category_code": "MISO_CLA_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_schachtel",
+          "value": "Schachtel"
+        }
+      ],
+      "category_code": "MISO_CLA_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zubereitungsverfahren",
+      "label": "Hinweise für die Zubereitung",
+      "values": [
+        {
+          "value_code": "MISO_zubereitungsverfahren_kochen",
+          "value": "Kochen"
+        }
+      ],
+      "category_code": "MISO_CLA_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_getreideart",
+      "label": "Getreideart",
+      "values": [
+        {
+          "value_code": "MISO_getreideart_reis",
+          "value": "Reis"
+        }
+      ],
+      "category_code": "MISO_CLA_GetreideMehl_GetreideHuelsenfruchtprodukte_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_koernergroesselaenge",
+      "label": "Körner Grösse/Länge",
+      "values": [
+        {
+          "value_code": "MISO_koernergroesselaenge_mittel",
+          "value": "Mittel"
+        }
+      ],
+      "category_code": "MISO_CLA_GetreideMehl_GetreideHuelsenfruchtprodukte_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    }
+  ],
+  "general_information": [
+    {
+      "label": "Obligatorische Zusatzangaben",
+      "value": "Bio-Zertifizierung: CH-Bio-006, bio.inspecta AG"
+    },
+    {
+      "label": "Aufbewarungs- und Verpackungshinweise",
+      "value": "-"
+    },
+    {
+      "label": "Haltbarkeit",
+      "value": "Mindestens haltbar bis Ende: [+ Angabe Losnummer]"
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/e358c1ce535637965032592c9cae5c2ee71a52c3/bio-mister-rice-basmati.jpg",
+    "stack": "https://image.migros.ch/{stack}/e358c1ce535637965032592c9cae5c2ee71a52c3/bio-mister-rice-basmati.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/c29470ecf8cbf76f4af86779b60deaefdc05bb13/bio-mister-rice-basmati.png",
+    "stack": "https://image.migros.ch/{stack}/c29470ecf8cbf76f4af86779b60deaefdc05bb13/bio-mister-rice-basmati.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_sortierung",
+      "label": "Sortierung aMigos",
+      "values": [
+        {
+          "value_code": "NUMERIC_220",
+          "value": "220",
+          "numeric_value": 220
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "M",
+          "value": "Kolonial Standard"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "10129",
+          "value": "REIS"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "regulated_description": "Bio Basmatireis",
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/104410300000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/bio-mister-rice-basmati-104410300000",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/104410300000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/bio-mister-rice-basmati-104410300000",
+      "type": "info",
+      "purchasable": false
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/121318",
+      "app_url": "leshop:///catalog/article/detail?ean=7617027854498",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/bio-mister-rice-basmati-104410300000",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "regional_availability": {
+    "gmaa": {
+      "probability": 78
+    },
+    "gmbs": {
+      "probability": 78
+    },
+    "gmge": {
+      "probability": 82
+    },
+    "gmlu": {
+      "probability": 82
+    },
+    "gmnf": {
+      "probability": 63
+    },
+    "gmos": {
+      "probability": 87
+    },
+    "gmti": {
+      "probability": 91
+    },
+    "gmvd": {
+      "probability": 66
+    },
+    "gmvs": {
+      "probability": 77
+    },
+    "gmzh": {
+      "probability": 79
+    }
+  },
+  "updated_at": "2020-09-16T06:50:59+0200",
+  "base_unit": "CU",
+  "slugs": {
+    "de": "bio-mister-rice-basmati-104410300000",
+    "fr": "bio-mister-rice-basmati-104410300000",
+    "it": "bio-mister-rice-basmati-104410300000"
+  },
+  "receipt_text": "Bio Mister Rice Basmat",
+  "main_supplier": {
+    "name": "RISERIA TAVERNE SA",
+    "id": "0004230000",
+    "supplier_product_id": "104410300000"
+  },
+  "price": {
+    "valid_from": "2020-09-15T00:00:00+0200",
+    "valid_to": "2020-09-21T23:59:59+0200",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 3.85,
+      "original_price": 4.8,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "500g"
+    },
+    "discount": {
+      "id": "1447729",
+      "region": "national",
+      "start_date": "2020-09-15T00:00:00+0200",
+      "end_date": "2020-09-21T23:59:59+0200",
+      "publication_date": "2020-09-13T00:00:00+0200",
+      "discount_amount": "20%",
+      "discount_regions": [
+        "national"
+      ],
+      "reference_product_id": "104403600000",
+      "discount_type": "aktion",
+      "discount_type_id": "001",
+      "discount_type_label": "SA Sonderangebot",
+      "organisation": "02",
+      "cooperative": "mgb",
+      "image": {
+        "tags": [
+          "list-image"
+        ],
+        "original": "https://image.migros.ch/original/5c7a3dbd16c5a5b9b4504f78f1d66c551c84c971/alle-bio-trockenreise-1-kg.jpg",
+        "source": "PriceRepository",
+        "stack": "https://image.migros.ch/{stack}/5c7a3dbd16c5a5b9b4504f78f1d66c551c84c971/alle-bio-trockenreise-1-kg.jpg"
+      },
+      "image_transparent": {
+        "original": "https://image.migros.ch/original/5c7a3dbd16c5a5b9b4504f78f1d66c551c84c971/alle-bio-trockenreise-1-kg.png",
+        "source": "PriceRepository",
+        "stack": "https://image.migros.ch/{stack}/5c7a3dbd16c5a5b9b4504f78f1d66c551c84c971/alle-bio-trockenreise-1-kg.png"
+      },
+      "logo": {
+        "original": "https://image.migros.ch/original/e7b8cb912e7f9b50b3acd25b298934738bd1bde2.png",
+        "source": "PriceRepository",
+        "stack": "https://image.migros.ch/{stack}/e7b8cb912e7f9b50b3acd25b298934738bd1bde2.png"
+      },
+      "badge": {
+        "original": "https://image.migros.ch/original/0633530dd39bda4f1496c8c8aa5ac1d66f227594.png",
+        "stack": "https://image.migros.ch/{stack}/0633530dd39bda4f1496c8c8aa5ac1d66f227594.png"
+      },
+      "location_planning_type": "01",
+      "reduction_type_id": "01",
+      "special_advertisement": false,
+      "advertisement_type_id": "2",
+      "description": "Alle Bio Trockenreise, 1 kg",
+      "discount_hint": "(ohne Alnatura), z.B. Mister Rice Jasmin, <strong>3.– </strong>statt 3.80, Angebot gilt nur vom 15.9. bis 21.9.2020, solange Vorrat.",
+      "high_performer": false,
+      "collective_discount": true,
+      "instead_of": "statt",
+      "price": 3.85,
+      "original_price": 4.8,
+      "disclaimer": "Gültigkeit siehe Angebots-Detailseite.\r\nBei allen Angeboten sind M-Budget und bereits reduzierte Artikel ausgenommen.\r\nBei Aktionen können bei der Verrechnung auf dem Kassabon Rundungsdifferenzen zu Gunsten des Kunden entstehen.",
+      "source": "PriceRepository",
+      "boss_number": "011011261015",
+      "discount_role_id": "2000000002",
+      "discount_role_label": "M: Wochenangebot Typ I",
+      "last_imported": "2020-09-07T15:15:04+0200"
+    },
+    "discount_hint": "Angebot gilt nur vom 15.9. bis 21.9.2020, solange Vorrat."
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 7,
+    "average_all": 3.857142857143
+  },
+  "data_source": "SAP-X11",
+  "origins": {
+    "producing_country": "Raffiné et emballé en Suisse.\nProvenance: Inde."
+  },
+  "ingredients": "Basmati Reis *. \n* Aus ausländischer Bio-Produktion.",
+  "package": {
+    "content": 500,
+    "content_unit_code": "g",
+    "content_unit": "Gramm",
+    "net_weight": 0.5,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogramm",
+    "brutto_weight": 0.54,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 1.237,
+    "brutto_volume_unit_code": "cdm",
+    "height": 17.9,
+    "length": 5.4,
+    "width": 12.8,
+    "unit_dimension": "cm",
+    "price_comparison_content": 100,
+    "size": "500g"
+  },
+  "package_information": {
+    "tu": {
+      "brutto_weight": 5.27,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 15.96,
+      "brutto_volume_unit_code": "cdm",
+      "height": 13.3,
+      "length": 40,
+      "width": 30,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 8
+    },
+    "cu": {
+      "brutto_weight": 0.54,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 1.237,
+      "brutto_volume_unit_code": "cdm",
+      "height": 17.9,
+      "length": 5.4,
+      "width": 12.8,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "lu": {
+      "brutto_weight": 453,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 1344,
+      "brutto_volume_unit_code": "cdm",
+      "height": 140,
+      "length": 120,
+      "width": 80,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 640
+    }
+  },
+  "related_products": {
+    "purchase_recommendations": {
+      "product_ids": [
+        "104410400000",
+        "104440000000",
+        "104424800000",
+        "104410600000",
+        "104410500000"
+      ]
+    }
+  },
+  "reindex_date": "2020-09-20T00:00:00+0200",
+  "recipe_ingredient_ids": [
+    "18000837"
+  ],
+  "views": [
+    "all",
+    "browse"
+  ]
+}

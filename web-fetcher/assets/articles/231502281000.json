@@ -1,0 +1,500 @@
+{
+  "id": "231502281000",
+  "language": "de",
+  "name": "Beretta Hinterschinken",
+  "names": {
+    "name": "Beretta Hinterschinken"
+  },
+  "slug": "beretta-hinterschinken",
+  "boss_number": "040114501525",
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "80"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "2141956000008",
+    "7617027147910"
+  ],
+  "brand": {
+    "id": "452",
+    "name": "Beretta",
+    "slug": "beretta"
+  },
+  "categories": [
+    {
+      "code": "BeSS_0101061308",
+      "name": "Kochschinken gekühlt",
+      "slug": "supermarkt/lebensmittel/fleisch/trockenfleisch-schinken/kochschinken-gekuehlt",
+      "visible": true,
+      "title": "Kochschinken in Ihrer Migros kaufen",
+      "parent_code": "BeSS_01010613",
+      "image": {
+        "original": "https://image.migros.ch/original/b73a0f55aa8074d7c59788a1b7b1578c07508861/kochschinken-gekuehlt.jpg",
+        "stack": "https://image.migros.ch/{stack}/b73a0f55aa8074d7c59788a1b7b1578c07508861/kochschinken-gekuehlt.jpg"
+      },
+      "level": 5
+    },
+    {
+      "code": "BeSS_01010613",
+      "name": "Trockenfleisch & Schinken",
+      "slug": "supermarkt/lebensmittel/fleisch/trockenfleisch-schinken",
+      "visible": true,
+      "title": "Trockenfleisch und Schinken jetzt in Ihrer Migros",
+      "parent_code": "BeSS_010106",
+      "image": {
+        "original": "https://image.migros.ch/original/20d017308e4c5a07b3162ee45e5d83f4098c80d1/trockenfleisch-schinken.jpg",
+        "stack": "https://image.migros.ch/{stack}/20d017308e4c5a07b3162ee45e5d83f4098c80d1/trockenfleisch-schinken.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010106",
+      "name": "Fleisch",
+      "slug": "supermarkt/lebensmittel/fleisch",
+      "visible": true,
+      "title": "Fleisch ausgezeichneter Qualität aus Ihrer Migros: einfach gut",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/03d32c0880d7a9ea6e58971966032e65ac442b58/fleisch.jpg",
+        "stack": "https://image.migros.ch/{stack}/03d32c0880d7a9ea6e58971966032e65ac442b58/fleisch.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "nutrition_facts": {
+    "standard": {
+      "nutrients": [
+        {
+          "code": "PIM_NUT_ENERGIE",
+          "name": "Energie",
+          "pictogram_name": "Energie",
+          "category": "BIG9",
+          "quantity": 428,
+          "rda_percent": 5,
+          "rda_percent_operator": "=",
+          "quantity_unit": "kJ",
+          "quantity_alternate": 101,
+          "quantity_alternate_unit": "kcal"
+        },
+        {
+          "code": "PIM_NUT_FETT",
+          "name": "Fett",
+          "pictogram_name": "Fett",
+          "category": "BIG9",
+          "quantity": 2,
+          "rda_percent": 3,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_FETT_GES",
+          "name": "davon gesättigte Fettsäuren",
+          "pictogram_name": "gesättigte Fettsäuren",
+          "category": "BIG9",
+          "quantity": 0.6,
+          "rda_percent": 3,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_KOHLENHY",
+          "name": "Kohlenhydrate",
+          "category": "BIG9",
+          "quantity": 1,
+          "rda_percent": 0.5,
+          "rda_percent_operator": "<",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_ZUCKER",
+          "name": "davon Zucker",
+          "pictogram_name": "Zuckerarten",
+          "category": "BIG9",
+          "quantity": 0.5,
+          "rda_percent": 0.5,
+          "rda_percent_operator": "<",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_GES_BALL",
+          "name": "Ballaststoffe",
+          "category": "BIG9",
+          "quantity": 0,
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_PROTEINE",
+          "name": "Eiweiss",
+          "category": "BIG9",
+          "quantity": 20,
+          "rda_percent": 40,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_KOCHSALZ",
+          "name": "Salz",
+          "pictogram_name": "Salz",
+          "category": "BIG9",
+          "quantity": 2.1,
+          "rda_percent": 35,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        }
+      ],
+      "base_quantity": 100,
+      "base_unit": "g"
+    }
+  },
+  "general_information": [
+    {
+      "label": "Obligatorische Zusatzangaben",
+      "value": "Marque d'identification du site de conditionnement : CH 324"
+    },
+    {
+      "label": "Aufbewarungs- und Verpackungshinweise",
+      "value": "Unter Schutzatmosphäre verpackt. Gekühlt aufbewahren! *"
+    },
+    {
+      "label": "Haltbarkeit",
+      "value": "Verkaufen bis:               Verbrauchen bis:"
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/8c7433b65675db338ab72728810ac295bd649b2f/beretta-hinterschinken.jpg",
+    "stack": "https://image.migros.ch/{stack}/8c7433b65675db338ab72728810ac295bd649b2f/beretta-hinterschinken.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/312b79f8aca8f7d9bafb01d2fc76676e2f9adca2/beretta-hinterschinken.png",
+    "stack": "https://image.migros.ch/{stack}/312b79f8aca8f7d9bafb01d2fc76676e2f9adca2/beretta-hinterschinken.png"
+  },
+  "additional_images": [
+    {
+      "original": "https://image.migros.ch/original/ef05c54c9f0a4b00294aa9b491793eb75588608e.jpg",
+      "stack": "https://image.migros.ch/{stack}/ef05c54c9f0a4b00294aa9b491793eb75588608e.jpg"
+    }
+  ],
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_minimal-gewicht",
+      "label": "Minimal-Gewicht",
+      "values": [
+        {
+          "value_code": "NUMERIC_130.0",
+          "value": "130.0 g",
+          "numeric_value": 130
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false,
+      "unit_code": "g",
+      "unit": "Gramm",
+      "unit_symbol": "g"
+    },
+    {
+      "label_code": "MISO_aMigos_maximal-gewicht",
+      "label": "Maximal-Gewicht",
+      "values": [
+        {
+          "value_code": "NUMERIC_140.0",
+          "value": "140.0 g",
+          "numeric_value": 140
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false,
+      "unit_code": "g",
+      "unit": "Gramm",
+      "unit_symbol": "g"
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZFRP",
+          "value": "Frische Beschaffung"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "6",
+          "value": "Fleisch-Fisch-Geflüg"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "71224",
+          "value": "SCHINKENPRODUKTE"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "regulated_description": "Hinterschinken gekocht",
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/231502281000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/beretta-hinterschinken",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/231502281000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/beretta-hinterschinken",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "regional_availability": {
+    "gmaa": {
+      "probability": 44
+    },
+    "gmbs": {
+      "probability": 20
+    },
+    "gmge": {
+      "probability": 0
+    },
+    "gmlu": {
+      "probability": 57
+    },
+    "gmnf": {
+      "probability": 0
+    },
+    "gmos": {
+      "probability": 16
+    },
+    "gmti": {
+      "probability": 72
+    },
+    "gmvd": {
+      "probability": 77
+    },
+    "gmvs": {
+      "probability": 31
+    },
+    "gmzh": {
+      "probability": 43
+    }
+  },
+  "updated_at": "2020-09-16T05:51:11+0200",
+  "base_unit": "KG",
+  "slugs": {
+    "de": "beretta-hinterschinken",
+    "fr": "beretta-jambon-cuit-derriere",
+    "it": "beretta-prosciutto-cotto-fine"
+  },
+  "receipt_text": "Hinterschinken",
+  "main_supplier": {
+    "name": "Rapelli SA",
+    "id": "0010000341"
+  },
+  "price": {
+    "valid_from": "2020-09-13T00:00:00+0200",
+    "valid_to": "2020-10-11T23:59:59+0200",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 3.95,
+      "original_price": 4.5,
+      "quantity": 100,
+      "unit": "g",
+      "varying_quantity": true,
+      "display_quantity": "100 g"
+    },
+    "estimated_piece_weight": 135,
+    "discount": {
+      "id": "1606332",
+      "region": "national",
+      "start_date": "2020-09-13T00:00:00+0200",
+      "end_date": "2020-10-11T23:59:59+0200",
+      "publication_date": "2020-09-11T00:00:00+0200",
+      "discount_regions": [
+        "national",
+        "gmaa",
+        "gmbs",
+        "gmge",
+        "gmlu",
+        "gmnf",
+        "gmos",
+        "gmti",
+        "gmvs",
+        "gmzh"
+      ],
+      "reference_product_id": "231502281000",
+      "discount_type": "aktion",
+      "discount_type_id": "007",
+      "discount_type_label": "SORT Sortimentsangebot ohne Preisreduktion",
+      "organisation": "03",
+      "cooperative": "mgb",
+      "image": {
+        "tags": [
+          "list-image"
+        ],
+        "original": "https://image.migros.ch/original/a14977479a14a0c8433640e2bfff72d259c03ec5/beretta-hinterschinken.jpg",
+        "source": "PriceRepository",
+        "stack": "https://image.migros.ch/{stack}/a14977479a14a0c8433640e2bfff72d259c03ec5/beretta-hinterschinken.jpg"
+      },
+      "image_transparent": {
+        "original": "https://image.migros.ch/original/a14977479a14a0c8433640e2bfff72d259c03ec5/beretta-hinterschinken.png",
+        "source": "PriceRepository",
+        "stack": "https://image.migros.ch/{stack}/a14977479a14a0c8433640e2bfff72d259c03ec5/beretta-hinterschinken.png"
+      },
+      "badge": {
+        "original": "https://image.migros.ch/original/d3e3845b280bcbefeb61f7439ab786a085ff0cd4.png",
+        "stack": "https://image.migros.ch/{stack}/d3e3845b280bcbefeb61f7439ab786a085ff0cd4.png"
+      },
+      "location_planning_type": "01",
+      "reduction_type_id": "08",
+      "special_advertisement": false,
+      "description": "Beretta Hinterschinken",
+      "discount_hint": "Schweiz, in Selbstbedienung, per 100 g Angebot gilt nur vom 14.9. bis 11.10.2020, solange Vorrat.",
+      "high_performer": false,
+      "collective_discount": false,
+      "instead_of": "bisher",
+      "price": 3.95,
+      "original_price": 4.5,
+      "disclaimer": "Gültigkeit siehe Angebots-Detailseite.\r\nBei allen Angeboten sind M-Budget und bereits reduzierte Artikel ausgenommen.\r\nBei Aktionen können bei der Verrechnung auf dem Kassabon Rundungsdifferenzen zu Gunsten des Kunden entstehen.",
+      "source": "PriceRepository",
+      "boss_number": "040114501525",
+      "discount_role_id": "1000000008",
+      "discount_role_label": "Sortimentskompetenz (SORT)",
+      "last_imported": "2020-09-15T18:30:31+0200"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 15,
+    "average_all": 4.933333333333
+  },
+  "data_source": "SAP-X4x",
+  "origins": {
+    "producing_country": "Hergestellt in Italien aus Schweizer Fleisch [ abgepackt in der Schweiz]*"
+  },
+  "ingredients": "Schweinefleisch, Nitritpökelsalz (Kochsalz, Konservierungsstoff: E 250), natürliche Aromen, Traubenzucker, Säureregulator: E 325, Antioxidationsmittel: E 301.",
+  "package": {
+    "content": 1000,
+    "content_unit_code": "g",
+    "content_unit": "Gramm",
+    "net_weight": 1,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogramm",
+    "brutto_weight": 1,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 717.478,
+    "brutto_volume_unit_code": "ccm",
+    "height": 24,
+    "length": 1.5,
+    "width": 19,
+    "unit_dimension": "cm",
+    "price_comparison_content": 100
+  },
+  "package_information": {
+    "tu": {
+      "brutto_weight": 1,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 31.92,
+      "brutto_volume_unit_code": "cdm",
+      "height": 13.3,
+      "length": 60,
+      "width": 40,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "kg": {
+      "brutto_weight": 1,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 717.478,
+      "brutto_volume_unit_code": "ccm",
+      "height": 24,
+      "length": 1.5,
+      "width": 19,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    }
+  },
+  "related_products": {
+    "purchase_recommendations": {
+      "product_ids": [
+        "231509481000",
+        "231502691500",
+        "231502581000",
+        "233001581000",
+        "231502691000"
+      ]
+    }
+  },
+  "reindex_date": "2020-10-11T23:59:59+0200",
+  "recipe_ingredient_ids": [
+    "15494",
+    "15496",
+    "18766",
+    "15321"
+  ],
+  "views": [
+    "all",
+    "browse"
+  ]
+}

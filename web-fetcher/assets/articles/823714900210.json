@@ -1,0 +1,545 @@
+{
+  "id": "823714900210",
+  "language": "de",
+  "name": "Camano Herren Sneakers 3er Pack",
+  "names": {
+    "name": "Camano Herren Sneakers 3er Pack",
+    "short_name": "Herren Sneakers 3er Pack"
+  },
+  "slug": "camano-herren-sneakers-3er-pack-weiss-gr-2",
+  "boss_number": "110720195010",
+  "description": {
+    "text": "superfeine Sneakersocke aus hochwertiger Baumwolle",
+    "source": "PEX"
+  },
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03"
+  },
+  "tags": [
+    "source-pex",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": true,
+  "base_product_id": "823714900000",
+  "gtins": [
+    "4052171327598",
+    "4036329330142"
+  ],
+  "brand": {
+    "id": "K35",
+    "name": "Camano",
+    "slug": "camano"
+  },
+  "categories": [
+    {
+      "code": "BeSS_0106010902",
+      "name": "Slipper & Sneaker",
+      "slug": "supermarkt/bekleidung-accessoires/herren/strumpfwaren/slipper-sneaker",
+      "visible": true,
+      "parent_code": "BeSS_01060109",
+      "level": 5
+    },
+    {
+      "code": "BeSS_01060109",
+      "name": "Strumpfwaren",
+      "slug": "supermarkt/bekleidung-accessoires/herren/strumpfwaren",
+      "visible": true,
+      "title": "Socken für Männer bei der Migros",
+      "parent_code": "BeSS_010601",
+      "image": {
+        "original": "https://image.migros.ch/original/19a5a43ed92349e35225078f0fbbe9bfd3ea2fbb/strumpfwaren.jpg",
+        "stack": "https://image.migros.ch/{stack}/19a5a43ed92349e35225078f0fbbe9bfd3ea2fbb/strumpfwaren.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010601",
+      "name": "Herren",
+      "slug": "supermarkt/bekleidung-accessoires/herren",
+      "visible": true,
+      "title": "Herrenmode für Jedermann günstig in Ihrer Migros kaufen",
+      "parent_code": "BeSS_0106",
+      "image": {
+        "original": "https://image.migros.ch/original/6ec86ebc82dd46b7c0814c466e10e7c9c70637f4/herren.jpg",
+        "stack": "https://image.migros.ch/{stack}/6ec86ebc82dd46b7c0814c466e10e7c9c70637f4/herren.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0106",
+      "name": "Bekleidung & Accessoires",
+      "slug": "supermarkt/bekleidung-accessoires",
+      "visible": true,
+      "title": "Kleider und Accessoires: Unser Supermarkt zieht alle an",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/afd5685b67370e2faef13438d6ffc0a15afd5d2d/bekleidung-accessoires.jpg",
+        "stack": "https://image.migros.ch/{stack}/afd5685b67370e2faef13438d6ffc0a15afd5d2d/bekleidung-accessoires.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "features": [
+    {
+      "label_code": "miso_multipack",
+      "label": "Multipack",
+      "values": [
+        {
+          "value_code": "MISO_multipack_3er_pack",
+          "value": "3er Pack"
+        }
+      ],
+      "category_code": "MISO_CLA_Bekleidung_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "miso_bekleidung_groessen",
+      "label": "Grössen",
+      "values": [
+        {
+          "value_code": "MISO_bekleidung_groesse_Gr1_groesse_39_42",
+          "value": "Gr. 1 = Grösse 39-42"
+        },
+        {
+          "value_code": "MISO_bekleidung_groesse_Gr2_groesse_43_46",
+          "value": "Gr. 2 = Grösse 43-46"
+        }
+      ],
+      "category_code": "MISO_CLA_Herren_Bekleidung_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "miso_material",
+      "label": "Material",
+      "values": [
+        {
+          "value_code": "MISO_material_baumwolle",
+          "value": "Baumwolle: 80 %",
+          "numeric_value": 80
+        },
+        {
+          "value_code": "MISO_material_polyamid",
+          "value": "Polyamid: 17 %",
+          "numeric_value": 17
+        },
+        {
+          "value_code": "MISO_material_elasthan",
+          "value": "Elasthan: 3 %",
+          "numeric_value": 3
+        }
+      ],
+      "category_code": "MISO_CLA_Herren_Bekleidung_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "miso_artikelart",
+      "label": "Artikelart",
+      "values": [
+        {
+          "value_code": "MISO_artikelart_sneakers",
+          "value": "Sneakers"
+        }
+      ],
+      "category_code": "MISO_CLA_HerrenSocken_Herren_Bekleidung_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "miso_bekleidung_look",
+      "label": "Look",
+      "values": [
+        {
+          "value_code": "MISO_look_uni",
+          "value": "uni"
+        }
+      ],
+      "category_code": "MISO_CLA_HerrenSocken_Herren_Bekleidung_Alle",
+      "top_fact": false
+    }
+  ],
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    }
+  },
+  "attributes": {
+    "color": {
+      "code": "FB24-10",
+      "name": "Farbe",
+      "value": "weiss"
+    },
+    "size": {
+      "code": "GB48-002",
+      "name": "Grösse",
+      "value": "Gr. 2"
+    }
+  },
+  "care_labels": [
+    {
+      "id": "W_40S",
+      "name": "40° Schonwaschgang",
+      "image": {
+        "original": "https://image.migros.ch/original/b9d5ff8240a9edb0f15c28077326a27e1b83f997/40-schonwaschgang.jpg",
+        "stack": "https://image.migros.ch/{stack}/b9d5ff8240a9edb0f15c28077326a27e1b83f997/40-schonwaschgang.jpg"
+      }
+    },
+    {
+      "id": "CL_NICHT",
+      "name": "nicht bleichen",
+      "image": {
+        "original": "https://image.migros.ch/original/759f5552f381d0c55e3a86bae8497f6395000c3b/nicht-bleichen.jpg",
+        "stack": "https://image.migros.ch/{stack}/759f5552f381d0c55e3a86bae8497f6395000c3b/nicht-bleichen.jpg"
+      }
+    },
+    {
+      "id": "T_1P",
+      "name": "niedrige Temperatur",
+      "image": {
+        "original": "https://image.migros.ch/original/74c47529448c1ce77d4572b62550ee195098defa/niedrige-temperatur.jpg",
+        "stack": "https://image.migros.ch/{stack}/74c47529448c1ce77d4572b62550ee195098defa/niedrige-temperatur.jpg"
+      }
+    },
+    {
+      "id": "B_NICHT",
+      "name": "nicht bügeln",
+      "image": {
+        "original": "https://image.migros.ch/original/f55c03fcfd0f7ee9da936e7ba2932d196ea392bd/nicht-buegeln.jpg",
+        "stack": "https://image.migros.ch/{stack}/f55c03fcfd0f7ee9da936e7ba2932d196ea392bd/nicht-buegeln.jpg"
+      }
+    },
+    {
+      "id": "CR_NICHT",
+      "name": "nicht professionell reinigen",
+      "image": {
+        "original": "https://image.migros.ch/original/43f6cddfa5ff099c3d08a9fb3bd043fce733875c/nicht-professionell-reinigen.jpg",
+        "stack": "https://image.migros.ch/{stack}/43f6cddfa5ff099c3d08a9fb3bd043fce733875c/nicht-professionell-reinigen.jpg"
+      }
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/d02cf806e261c664ae4c108fc04a75468fce494a/camano-herren-sneakers-3er-pack.jpg",
+    "stack": "https://image.migros.ch/{stack}/d02cf806e261c664ae4c108fc04a75468fce494a/camano-herren-sneakers-3er-pack.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/0961a7674bc0f782321e2fe65035437f0a366877/camano-herren-sneakers-3er-pack.png",
+    "stack": "https://image.migros.ch/{stack}/0961a7674bc0f782321e2fe65035437f0a366877/camano-herren-sneakers-3er-pack.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_DEFAULT_LOGISTIC_TYPE",
+      "values": [
+        {
+          "value_code": "55",
+          "value": "Versandart Paket"
+        }
+      ],
+      "category_code": "MAPI_DEFAULT_LOGISTIC_TYPE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Normalposition"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "BEKL"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRESENTATION",
+      "values": [
+        {
+          "value_code": "H",
+          "value": "hängend"
+        }
+      ],
+      "category_code": "MAPI_PRESENTATION",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_RISK_CLASS",
+      "values": [
+        {
+          "value_code": "2",
+          "value": "2 (medium)"
+        }
+      ],
+      "category_code": "MAPI_RISK_CLASS",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_QUALITY_CHECK",
+      "values": [
+        {
+          "value_code": "00",
+          "value": "Keine Prüfung"
+        }
+      ],
+      "category_code": "MAPI_QUALITY_CHECK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_KUBE_TUKA",
+      "values": [
+        {
+          "value_code": "BLANK",
+          "value": "KUBE und TUKA nicht zugelassen"
+        }
+      ],
+      "category_code": "MAPI_KUBE_TUKA",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "BEKL",
+          "value": "Bekleidung \"test\" Handelsware"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "B",
+          "value": "Bekleidung"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "59148",
+          "value": "SOCKEN CAMANO"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 1,
+    "percentage": 7.7
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/823714900210",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/camano-herren-sneakers-3er-pack-weiss-gr-2",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/823714900210",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/camano-herren-sneakers-3er-pack-weiss-gr-2",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "regional_availability": {
+    "gmaa": {
+      "probability": 4
+    },
+    "gmbs": {
+      "probability": 2
+    },
+    "gmge": {
+      "probability": 0
+    },
+    "gmlu": {
+      "probability": 2
+    },
+    "gmnf": {
+      "probability": 0
+    },
+    "gmos": {
+      "probability": 4
+    },
+    "gmti": {
+      "probability": 6
+    },
+    "gmvd": {
+      "probability": 3
+    },
+    "gmvs": {
+      "probability": 3
+    },
+    "gmzh": {
+      "probability": 4
+    }
+  },
+  "updated_at": "2020-09-15T06:39:09+0200",
+  "base_unit": "CU",
+  "slugs": {
+    "de": "camano-herren-sneakers-3er-pack-weiss-gr-2",
+    "fr": "camano-sneakers-pour-hommes-3-prs-blanc-gr-2",
+    "it": "camano-sneakers-da-uomo-3-paia-bianco-gr-2"
+  },
+  "receipt_text": "Herren Sneakers Camano",
+  "price": {
+    "valid_from": "2019-03-18T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 8.9,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "3 Paar"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "galaxus_relevant": false,
+  "data_source": "SAP-X12",
+  "origins": {
+    "producing_country": "Türkei"
+  },
+  "package": {
+    "size": "3 Paar"
+  },
+  "package_information": {
+    "cu": {
+      "number_of_base_units": 1
+    },
+    "tuv": {
+      "brutto_weight": 0.24,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 2.247,
+      "brutto_volume_unit_code": "cdm",
+      "height": 2247,
+      "length": 1,
+      "width": 1,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 3
+    },
+    "tue": {
+      "number_of_base_units": 3
+    },
+    "lu": {
+      "number_of_base_units": 2268
+    },
+    "lge": {
+      "number_of_base_units": 252
+    },
+    "kar": {
+      "brutto_volume": 0.048,
+      "brutto_volume_unit_code": "m3",
+      "height": 20,
+      "length": 60,
+      "width": 40,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 63
+    }
+  },
+  "quantity_on_stock": 27,
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "views": [
+    "all",
+    "browse"
+  ]
+}

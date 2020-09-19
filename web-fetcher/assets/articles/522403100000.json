@@ -1,0 +1,345 @@
+{
+  "id": "522403100000",
+  "language": "de",
+  "name": "Sponser Protein 50 Choco Riegel",
+  "names": {
+    "name": "Sponser Protein 50 Choco Riegel"
+  },
+  "slug": "sponser-protein-50-choco-riegel",
+  "boss_number": "090322231505",
+  "description": {
+    "text": "<p>Eiweiss dient dem Aufbau und Erhalt der Muskelmasse. Der Protein 50 ist ein Multiproteinriegel basierend auf f&uuml;nf Proteinkomponenten. Ersetzt dank seinem hohen Eiweissanteil von 50% pro Riegel einen Protein-Shake und ist daher bestens geeignet f&uuml;r die Ausser-Haus-Verpflegung. Mit Vitaminen, welche beispielsweise zu einem normalen Protein- und Glycogenstoffwechsel beitragen (B6), oder zur normalen Synthese und Stoffwechsel von Steroidhormonen (Pantothens&auml;ure). Chrom tr&auml;gt zur Aufrechterhaltung eines normalen Blutzuckerspiegels bei.</p>",
+    "source": "PIM"
+  },
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03"
+  },
+  "tags": [
+    "source-pim",
+    "near-non-food",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7611174440627"
+  ],
+  "brand": {
+    "id": "224",
+    "name": "Sponser",
+    "slug": "sponser",
+    "image": {
+      "original": "https://image.migros.ch/original/e41b0291fa108e608d3ce350b0abc36286341068/sponser.jpg",
+      "stack": "https://image.migros.ch/{stack}/e41b0291fa108e608d3ce350b0abc36286341068/sponser.jpg"
+    }
+  },
+  "categories": [
+    {
+      "code": "BeSS_011203",
+      "name": "Diät & Sportnahrung",
+      "slug": "supermarkt/gesundheit/diaet-sportnahrung",
+      "visible": true,
+      "parent_code": "BeSS_0112",
+      "level": 3
+    },
+    {
+      "code": "BeSS_0112",
+      "name": "Gesundheit",
+      "slug": "supermarkt/gesundheit",
+      "visible": true,
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/832762761a56d78835c380db87e2aa4ecd7a4eed/gesundheit.jpg",
+        "stack": "https://image.migros.ch/{stack}/832762761a56d78835c380db87e2aa4ecd7a4eed/gesundheit.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "features": [
+    {
+      "label_code": "MISO_produkttyp",
+      "label": "Produkttyp",
+      "values": [
+        {
+          "value_code": "MISO_produkttyp_sportnahrung",
+          "value": "Sportnahrung"
+        }
+      ],
+      "category_code": "MISO_CLA_DiaetSportnahrung_Gesundheit_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_beduerfnis_nutzen",
+      "label": "Bedürfnis / Nutzen",
+      "values": [
+        {
+          "value_code": "MISO_beduerfnis_nutzen_proteine",
+          "value": "Proteine"
+        }
+      ],
+      "category_code": "MISO_CLA_DiaetSportnahrung_Gesundheit_Alle",
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/fa241214074e4cace24fd5f03ff638b7ec5f4de6/sponser-protein-50-choco-riegel.jpg",
+    "stack": "https://image.migros.ch/{stack}/fa241214074e4cace24fd5f03ff638b7ec5f4de6/sponser-protein-50-choco-riegel.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/441b7c1b40b917a25434c7974a9e38e9aa943498/sponser-protein-50-choco-riegel.png",
+    "stack": "https://image.migros.ch/{stack}/441b7c1b40b917a25434c7974a9e38e9aa943498/sponser-protein-50-choco-riegel.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZHKS",
+          "value": "HKS Standardartikel"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_QUALITY_CHECK",
+      "values": [
+        {
+          "value_code": "00",
+          "value": "Keine Prüfung"
+        }
+      ],
+      "category_code": "MAPI_QUALITY_CHECK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_RISK_CLASS",
+      "values": [
+        {
+          "value_code": "1",
+          "value": "1 (high)"
+        }
+      ],
+      "category_code": "MAPI_RISK_CLASS",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "H",
+          "value": "HKS Standard"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "50387",
+          "value": "SPORT"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUSTOMS_POSITION",
+      "values": [
+        {
+          "value_code": "1806.3290"
+        }
+      ],
+      "category_code": "MAPI_CUSTOMS_POSITION",
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/522403100000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/sponser-protein-50-choco-riegel",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/522403100000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/sponser-protein-50-choco-riegel",
+      "type": "info",
+      "purchasable": false
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/4688412",
+      "app_url": "leshop:///catalog/article/detail?ean=7611174440627",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/sponser-protein-50-choco-riegel",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "regional_availability": {
+    "gmaa": {
+      "probability": 77
+    },
+    "gmbs": {
+      "probability": 70
+    },
+    "gmge": {
+      "probability": 85
+    },
+    "gmlu": {
+      "probability": 68
+    },
+    "gmnf": {
+      "probability": 80
+    },
+    "gmos": {
+      "probability": 82
+    },
+    "gmti": {
+      "probability": 97
+    },
+    "gmvd": {
+      "probability": 77
+    },
+    "gmvs": {
+      "probability": 72
+    },
+    "gmzh": {
+      "probability": 85
+    }
+  },
+  "updated_at": "2020-09-16T06:41:21+0200",
+  "base_unit": "CU",
+  "slugs": {
+    "de": "sponser-protein-50-choco-riegel",
+    "fr": "sponser-protein-50-choco-bar",
+    "it": "sponser-protein-50-choco-bar"
+  },
+  "receipt_text": "Sponser Protein Choco",
+  "main_supplier": {
+    "name": "Sponser Sport Food AG",
+    "id": "0010000392",
+    "supplier_product_id": "61065"
+  },
+  "price": {
+    "valid_from": "2018-11-23T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 2.8,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "50g"
+    },
+    "base": {
+      "price": 0.56,
+      "quantity": 10,
+      "unit": "g"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 2,
+    "average_all": 5
+  },
+  "data_source": "SAP-X11",
+  "package": {
+    "content": 50,
+    "content_unit_code": "g",
+    "content_unit": "Gramm",
+    "net_weight": 0.05,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogramm",
+    "brutto_weight": 0.053,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 0.064,
+    "brutto_volume_unit_code": "cdm",
+    "height": 4,
+    "length": 1,
+    "width": 16,
+    "unit_dimension": "cm",
+    "price_comparison_content": 10,
+    "size": "50g"
+  },
+  "package_information": {
+    "tu": {
+      "brutto_weight": 1.325,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 2.475,
+      "brutto_volume_unit_code": "cdm",
+      "height": 7.5,
+      "length": 22,
+      "width": 16,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 25
+    },
+    "cu": {
+      "brutto_weight": 0.053,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0.064,
+      "brutto_volume_unit_code": "cdm",
+      "height": 4,
+      "length": 1,
+      "width": 16,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "lu": {
+      "brutto_weight": 496.9,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 1382.4,
+      "brutto_volume_unit_code": "cdm",
+      "height": 144,
+      "length": 120,
+      "width": 80,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 9375
+    },
+    "lge": {
+      "brutto_weight": 0,
+      "brutto_volume": 0,
+      "height": 0,
+      "length": 0,
+      "width": 0,
+      "number_of_base_units": 625
+    },
+    "kar": {
+      "brutto_weight": 0,
+      "brutto_volume": 0,
+      "height": 0,
+      "length": 0,
+      "width": 0,
+      "number_of_base_units": 1
+    }
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "views": [
+    "all",
+    "browse"
+  ]
+}

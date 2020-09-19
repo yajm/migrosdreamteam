@@ -1,0 +1,93 @@
+{
+  "name": "Bon Chef Rotwein-Sauce",
+  "regulated_description": "Sauce mit Rotweinextrakt, getrocknet",
+  "image": {
+    "original": "https://image.migros.ch/original/7bd6a0b0e109475310402cb0a17b61275a37ae7c/bon-chef-rotwein-sauce.jpg"
+  },
+  "price": {
+    "item": {
+      "price": 1.9
+    }
+  },
+  "nutrition_facts": {
+    "standard": {
+      "nutrients": {
+        "nutrients": [
+          {
+            "code": "PIM_NUT_ENERGIE",
+            "name": "Energie",
+            "pictogram_name": "Energie",
+            "category": "BIG9",
+            "quantity": 179,
+            "nutrition_operator": "=",
+            "quantity_unit": "kJ",
+            "quantity_alternate": 42,
+            "quantity_alternate_unit": "kcal"
+          },
+          {
+            "code": "PIM_NUT_FETT",
+            "name": "Fett",
+            "pictogram_name": "Fett",
+            "category": "BIG9",
+            "quantity": 0.5,
+            "nutrition_operator": "<",
+            "quantity_unit": "g"
+          },
+          {
+            "code": "PIM_NUT_FETT_GES",
+            "name": "davon gesättigte Fettsäuren",
+            "pictogram_name": "gesättigte Fettsäuren",
+            "category": "BIG9",
+            "quantity": 0.1,
+            "nutrition_operator": "<",
+            "quantity_unit": "g"
+          },
+          {
+            "code": "PIM_NUT_KOHLENHY",
+            "name": "Kohlenhydrate",
+            "category": "BIG9",
+            "quantity": 8.6,
+            "nutrition_operator": "=",
+            "quantity_unit": "g"
+          },
+          {
+            "code": "PIM_NUT_ZUCKER",
+            "name": "davon Zucker",
+            "pictogram_name": "Zuckerarten",
+            "category": "BIG9",
+            "quantity": 1.4,
+            "nutrition_operator": "=",
+            "quantity_unit": "g"
+          },
+          {
+            "code": "PIM_NUT_GES_BALL",
+            "name": "Ballaststoffe",
+            "category": "BIG9",
+            "quantity": 0.5,
+            "nutrition_operator": "<",
+            "quantity_unit": "g"
+          },
+          {
+            "code": "PIM_NUT_PROTEINE",
+            "name": "Eiweiss",
+            "category": "BIG9",
+            "quantity": 1,
+            "nutrition_operator": "=",
+            "quantity_unit": "g"
+          },
+          {
+            "code": "PIM_NUT_KOCHSALZ",
+            "name": "Salz",
+            "pictogram_name": "Salz",
+            "category": "BIG9",
+            "quantity": 1.6,
+            "nutrition_operator": "=",
+            "quantity_unit": "g"
+          }
+        ],
+        "base_quantity": 100,
+        "base_unit": "ml"
+      }
+    }
+  }
+}

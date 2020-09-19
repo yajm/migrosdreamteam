@@ -1,0 +1,454 @@
+{
+  "id": "274502502400",
+  "language": "de",
+  "name": "Karotten",
+  "names": {
+    "name": "Karotten"
+  },
+  "slug": "karotten",
+  "boss_number": "050115221005",
+  "description": {
+    "text": "<p>Karotte</p><p>Das Rüebli ist unser liebstes Gemüse. Rund acht Kilogramm knabbern wir pro Kopf und Jahr. Rüebli sollten mit etwas Fett gegessen werden.</p>",
+    "source": "PIM"
+  },
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "80"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7610632995594"
+  ],
+  "brand": {
+    "id": "S10",
+    "name": "Fresca",
+    "slug": "fresca-S10",
+    "image": {
+      "original": "https://image.migros.ch/original/d169433eae86571fe4796efc52300f787084eaa4/fresca-S10.jpg",
+      "stack": "https://image.migros.ch/{stack}/d169433eae86571fe4796efc52300f787084eaa4/fresca-S10.jpg"
+    }
+  },
+  "categories": [
+    {
+      "code": "BeSS_0101190205",
+      "name": "Lagergemüse",
+      "slug": "supermarkt/lebensmittel/fruechte-gemuese/gemuese/lagergemuese",
+      "visible": true,
+      "title": "Für den Winter: Kartoffeln und Lagergemüse von der Migros",
+      "parent_code": "BeSS_01011902",
+      "level": 5
+    },
+    {
+      "code": "BeSS_01011902",
+      "name": "Gemüse",
+      "slug": "supermarkt/lebensmittel/fruechte-gemuese/gemuese",
+      "visible": true,
+      "title": "Mit Gem&uuml;se von der Migros jeden Tag gesund essen",
+      "parent_code": "BeSS_010119",
+      "level": 4
+    },
+    {
+      "code": "BeSS_010119",
+      "name": "Früchte & Gemüse",
+      "slug": "supermarkt/lebensmittel/fruechte-gemuese",
+      "visible": true,
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/f839060a505bba25c0f37585edb558c003c50479/fruechte-gemuese.jpg",
+        "stack": "https://image.migros.ch/{stack}/f839060a505bba25c0f37585edb558c003c50479/fruechte-gemuese.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_Frischgemuese_Gemuese_FruechteGemuese",
+        "name": "Frischgemüse",
+        "slug": "amigos/fruechte-gemuese/gemuese/frischgemuese",
+        "visible": true,
+        "parent_code": "AMIG_CAT_Gemuese_FruechteGemuese",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_Gemuese_FruechteGemuese",
+        "name": "Gemüse",
+        "slug": "amigos/fruechte-gemuese/gemuese",
+        "visible": true,
+        "parent_code": "AMIG_CAT_FruechteGemuese",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_FruechteGemuese",
+        "name": "Früchte & Gemüse",
+        "slug": "amigos/fruechte-gemuese",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "features": [
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_beutel",
+          "value": "Beutel"
+        }
+      ],
+      "category_code": "MISO_CLA_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_saison",
+      "label": "Saison",
+      "values": [
+        {
+          "value_code": "MISO_saison_juniapril",
+          "value": "Juni - April"
+        }
+      ],
+      "category_code": "MISO_CLA_Gemuese_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/ee1be833a5f069550961d511af7839064d6701fa/karotten.jpg",
+    "stack": "https://image.migros.ch/{stack}/ee1be833a5f069550961d511af7839064d6701fa/karotten.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/3479f66f72d47ff48bd9320d9292b8c2ac62d5e6/karotten.png",
+    "stack": "https://image.migros.ch/{stack}/3479f66f72d47ff48bd9320d9292b8c2ac62d5e6/karotten.png"
+  },
+  "additional_images": [
+    {
+      "original": "https://image.migros.ch/original/8afaa8561d26f9e038f09f03bb45db3996b06ff9.jpg",
+      "stack": "https://image.migros.ch/{stack}/8afaa8561d26f9e038f09f03bb45db3996b06ff9.jpg"
+    }
+  ],
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_sortierung",
+      "label": "Sortierung aMigos",
+      "values": [
+        {
+          "value_code": "NUMERIC_115",
+          "value": "115",
+          "numeric_value": 115
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_verkaufseinheit",
+      "label": "Verkaufseinheit",
+      "values": [
+        {
+          "value_code": "NUMERIC_1.0",
+          "value": "1.0 Sack",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false,
+      "unit_code": "Sack",
+      "unit": "Sack",
+      "unit_symbol": "Sack"
+    },
+    {
+      "label_code": "MISO_aMigos_gewicht",
+      "label": "Gewicht aMigos!",
+      "values": [
+        {
+          "value_code": "NUMERIC_1.0",
+          "value": "1.0 kg",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false,
+      "unit_code": "kg",
+      "unit": "Kilogramm",
+      "unit_symbol": "kg"
+    },
+    {
+      "label_code": "MISO_aMigos_volumen",
+      "label": "Volumen aMigos!",
+      "values": [
+        {
+          "value_code": "NUMERIC_1.6",
+          "value": "1.6 l",
+          "numeric_value": 1.6
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false,
+      "unit_code": "l",
+      "unit": "Liter",
+      "unit_symbol": "l"
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZFRP",
+          "value": "Frische Beschaffung"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "2",
+          "value": "Früchte und Gemüse"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "71365",
+          "value": "KAROTTEN"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/274502502400",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/karotten",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/274502502400",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/karotten",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "regional_availability": {
+    "gmaa": {
+      "probability": 97
+    },
+    "gmbs": {
+      "probability": 78
+    },
+    "gmge": {
+      "probability": 59
+    },
+    "gmlu": {
+      "probability": 86
+    },
+    "gmnf": {
+      "probability": 94
+    },
+    "gmos": {
+      "probability": 98
+    },
+    "gmti": {
+      "probability": 100
+    },
+    "gmvd": {
+      "probability": 91
+    },
+    "gmvs": {
+      "probability": 95
+    },
+    "gmzh": {
+      "probability": 91
+    }
+  },
+  "updated_at": "2020-09-16T05:54:16+0200",
+  "base_unit": "CU",
+  "slugs": {
+    "de": "karotten",
+    "fr": "carottes",
+    "it": "carote"
+  },
+  "receipt_text": "Karotten",
+  "main_supplier": {
+    "name": "Buonvicini AG",
+    "id": "0010001825"
+  },
+  "price": {
+    "valid_from": "2020-09-01T00:00:00+0200",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "source": "PriceRepository",
+    "no_price_hint": "Aktueller Tagespreis"
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 43,
+    "average_all": 3.619047619048
+  },
+  "data_source": "SAP-X4x",
+  "package": {
+    "content": 1000,
+    "content_unit_code": "g",
+    "content_unit": "Gramm",
+    "net_weight": 1,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogramm",
+    "brutto_weight": 1,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 4250.125,
+    "brutto_volume_unit_code": "ccm",
+    "height": 28.1,
+    "length": 5.5,
+    "width": 27.5,
+    "unit_dimension": "cm",
+    "price_comparison_content": 100,
+    "size": "1kg"
+  },
+  "package_information": {
+    "tu": {
+      "brutto_weight": 1,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0,
+      "height": 0,
+      "length": 0,
+      "width": 0,
+      "number_of_base_units": 1
+    },
+    "cu": {
+      "brutto_weight": 1,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 4250.125,
+      "brutto_volume_unit_code": "ccm",
+      "height": 28.1,
+      "length": 5.5,
+      "width": 27.5,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    }
+  },
+  "related_products": {
+    "purchase_recommendations": {
+      "product_ids": [
+        "271708513200",
+        "275704701000",
+        "274800501000",
+        "271500513200",
+        "271102509200"
+      ]
+    }
+  },
+  "reindex_date": "2020-09-20T23:59:59+0200",
+  "recipe_ingredient_ids": [
+    "16171",
+    "18914",
+    "18915",
+    "18916",
+    "59194",
+    "61217",
+    "61918",
+    "63007",
+    "366038",
+    "2771133",
+    "18924",
+    "18925",
+    "18926",
+    "18927",
+    "18937",
+    "18938",
+    "18939",
+    "18940",
+    "18941",
+    "60587",
+    "66690",
+    "73954",
+    "75026",
+    "86169",
+    "86454",
+    "155882",
+    "373807",
+    "539010",
+    "573006",
+    "816012",
+    "3708998",
+    "6319609",
+    "73529",
+    "18969",
+    "60822",
+    "86007",
+    "19054",
+    "19056",
+    "85875",
+    "736589",
+    "17610025"
+  ],
+  "views": [
+    "all",
+    "browse"
+  ]
+}

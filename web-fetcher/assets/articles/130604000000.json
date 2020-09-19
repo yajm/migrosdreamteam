@@ -1,0 +1,784 @@
+{
+  "id": "130604000000",
+  "language": "de",
+  "name": "Anna's Best Pesto Rosso",
+  "names": {
+    "name": "Anna's Best Pesto Rosso"
+  },
+  "slug": "annas-best-pesto-rosso",
+  "boss_number": "020630163005",
+  "description": {
+    "text": "Anna's Best Pesto Rosso",
+    "source": "PIM"
+  },
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "80"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7613269260424",
+    "27004074"
+  ],
+  "brand": {
+    "id": "007",
+    "name": "Anna's Best",
+    "slug": "annas-best",
+    "links": {
+      "homepage": {
+        "url": "https://annasbest.migros.ch/de.html",
+        "name": "Homepage",
+        "type": "info",
+        "purchasable": false
+      }
+    },
+    "image": {
+      "original": "https://image.migros.ch/original/184dd9291cf7fb67f0772e72d682c71c5fb76261/annas-best.jpg",
+      "stack": "https://image.migros.ch/{stack}/184dd9291cf7fb67f0772e72d682c71c5fb76261/annas-best.jpg"
+    }
+  },
+  "categories": [
+    {
+      "code": "BeSS_0101130208",
+      "name": "Saucen",
+      "slug": "supermarkt/lebensmittel/fertiggerichte-menues-snacks/fertige-pizzen-menues-snacks/saucen",
+      "visible": true,
+      "title": "Saucen in Ihrer Migros kaufen",
+      "parent_code": "BeSS_01011302",
+      "image": {
+        "original": "https://image.migros.ch/original/951dd0050375781c0c2b908f08043656be442346/saucen.jpg",
+        "stack": "https://image.migros.ch/{stack}/951dd0050375781c0c2b908f08043656be442346/saucen.jpg"
+      },
+      "level": 5
+    },
+    {
+      "code": "BeSS_01011302",
+      "name": "Fertige Pizzen, Menüs & Snacks",
+      "slug": "supermarkt/lebensmittel/fertiggerichte-menues-snacks/fertige-pizzen-menues-snacks",
+      "visible": true,
+      "title": "Feine Fertiggerichte aus Ihrer Migros!",
+      "parent_code": "BeSS_010113",
+      "image": {
+        "original": "https://image.migros.ch/original/0014f54049f00019a8782aedb21ad671bd28a8e8/fertige-pizzen-menues-snacks.jpg",
+        "stack": "https://image.migros.ch/{stack}/0014f54049f00019a8782aedb21ad671bd28a8e8/fertige-pizzen-menues-snacks.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010113",
+      "name": "Fertiggerichte, Menüs & Snacks",
+      "slug": "supermarkt/lebensmittel/fertiggerichte-menues-snacks",
+      "visible": true,
+      "title": "Fertige Pizzen, Menüs und Snacks &ndash; schnell und lecker von der Migros",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/6770b6c8fbbd2689aece359ffeda93b90c58dd09/fertiggerichte-menues-snacks.jpg",
+        "stack": "https://image.migros.ch/{stack}/6770b6c8fbbd2689aece359ffeda93b90c58dd09/fertiggerichte-menues-snacks.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_Pastasaucen_PastasaucenwarmeSaucen_Grundnahrungsmittel",
+        "name": "Pastasaucen",
+        "slug": "amigos/grundnahrungsmittel/pastasaucen-warme-saucen/pastasaucen",
+        "visible": true,
+        "parent_code": "AMIG_CAT_PastasaucenwarmeSaucen_Grundnahrungsmittel",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_PastasaucenwarmeSaucen_Grundnahrungsmittel",
+        "name": "Pastasaucen & warme Saucen",
+        "slug": "amigos/grundnahrungsmittel/pastasaucen-warme-saucen",
+        "visible": true,
+        "parent_code": "AMIG_CAT_Grundnahrungsmittel",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_Grundnahrungsmittel",
+        "name": "Grundnahrungsmittel",
+        "slug": "amigos/grundnahrungsmittel",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "nutrition_facts": {
+    "standard": {
+      "nutrients": [
+        {
+          "code": "PIM_NUT_ENERGIE",
+          "name": "Energie",
+          "pictogram_name": "Energie",
+          "category": "BIG9",
+          "quantity": 2204,
+          "rda_percent_operator": "=",
+          "quantity_unit": "kJ",
+          "quantity_alternate": 534,
+          "quantity_alternate_unit": "kcal"
+        },
+        {
+          "code": "PIM_NUT_GES_FETT",
+          "name": "Fett",
+          "pictogram_name": "Fett",
+          "category": "BIG9",
+          "quantity": 52,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_GESFETTS",
+          "name": "davon gesättigte Fettsäuren",
+          "pictogram_name": "gesättigte Fettsäuren",
+          "category": "BIG9",
+          "quantity": 7.8,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_GES_KOHL",
+          "name": "Kohlenhydrate",
+          "category": "BIG9",
+          "quantity": 9.3,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_GES_ZUCK",
+          "name": "davon Zucker",
+          "pictogram_name": "Zuckerarten",
+          "category": "BIG9",
+          "quantity": 5.7,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_GES_BALL",
+          "name": "Ballaststoffe",
+          "category": "BIG9",
+          "quantity": 3.6,
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_GES_EIW",
+          "name": "Eiweiss",
+          "category": "BIG9",
+          "quantity": 5.5,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_KOCHSALZ",
+          "name": "Salz",
+          "pictogram_name": "Salz",
+          "category": "BIG9",
+          "quantity": 1.5,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_NATRIUM",
+          "name": "Natrium",
+          "category": "BIG9",
+          "quantity": 0.6,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        }
+      ],
+      "base_description": "enthalten",
+      "base_quantity": 100,
+      "base_unit": "ml"
+    },
+    "portion": {
+      "nutrients": [
+        {
+          "code": "PIM_NUT_ENERGIE",
+          "name": "Energie",
+          "pictogram_name": "Energie",
+          "category": "BIG9",
+          "quantity": 661,
+          "rda_percent": 8,
+          "rda_percent_operator": "=",
+          "quantity_unit": "kJ",
+          "quantity_alternate": 160,
+          "quantity_alternate_unit": "kcal"
+        },
+        {
+          "code": "PIM_NUT_GES_FETT",
+          "name": "Fett",
+          "pictogram_name": "Fett",
+          "category": "BIG9",
+          "quantity": 16,
+          "rda_percent": 23,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_GESFETTS",
+          "name": "davon gesättigte Fettsäuren",
+          "pictogram_name": "gesättigte Fettsäuren",
+          "category": "BIG9",
+          "quantity": 2.3,
+          "rda_percent": 12,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_GES_KOHL",
+          "name": "Kohlenhydrate",
+          "category": "BIG9",
+          "quantity": 2.8,
+          "rda_percent": 1,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_GES_ZUCK",
+          "name": "davon Zucker",
+          "pictogram_name": "Zuckerarten",
+          "category": "BIG9",
+          "quantity": 1.7,
+          "rda_percent": 2,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_GES_BALL",
+          "name": "Ballaststoffe",
+          "category": "BIG9",
+          "quantity": 1.1,
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_GES_EIW",
+          "name": "Eiweiss",
+          "category": "BIG9",
+          "quantity": 1.7,
+          "rda_percent": 3,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_KOCHSALZ",
+          "name": "Salz",
+          "pictogram_name": "Salz",
+          "category": "BIG9",
+          "quantity": 0.45,
+          "rda_percent": 8,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_NATRIUM",
+          "name": "Natrium",
+          "category": "BIG9",
+          "quantity": 0.18,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        }
+      ],
+      "base_description": "2 Esslöffel",
+      "base_quantity": 30,
+      "base_unit": "ml"
+    }
+  },
+  "features": [
+    {
+      "label_code": "MISO_mussgekuehltwerden",
+      "label": "Muss gekühlt werden",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MISO_CLA_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_kunststoffverpackungmitkarton",
+          "value": "Kunststoff-Verpackung mit Karton"
+        }
+      ],
+      "category_code": "MISO_CLA_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zubereitungsverfahren",
+      "label": "Hinweise für die Zubereitung",
+      "values": [
+        {
+          "value_code": "MISO_zubereitungsverfahren_zumerwaermen",
+          "value": "zum Erwärmen"
+        }
+      ],
+      "category_code": "MISO_CLA_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_lebensmittel_AB_pikto_portion",
+      "label": "Portion",
+      "values": [
+        {
+          "image": {
+            "original": "https://image.migros.ch/original/f80874175bf09a27e90e8d90cc5a5c7a0998ca6a/portion-fuer-1-person.jpg",
+            "code": "MISO_lebensmittel_AB_pikto_portion_1",
+            "description": "Portion für 1 Person",
+            "stack": "https://image.migros.ch/{stack}/f80874175bf09a27e90e8d90cc5a5c7a0998ca6a/portion-fuer-1-person.jpg"
+          },
+          "value_code": "MISO_lebensmittel_AB_pikto_portion_1",
+          "value": "Portion für 1 Person"
+        }
+      ],
+      "category_code": "MISO_CLA_Annasbest_Lebensmittel_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_lebensmittel_AB_pikto_zubereitung",
+      "label": "Zubereitung",
+      "values": [
+        {
+          "image": {
+            "original": "https://image.migros.ch/original/b6d5f10c07b9abdd2bcb396bbdb2b2a9be476d44/im-kochtopf-zubereiten-kochen.jpg",
+            "code": "MISO_lebensmittel_AB_pikto_zubereitung_pfanne",
+            "description": "Im Kochtopf zubereiten / Kochen",
+            "stack": "https://image.migros.ch/{stack}/b6d5f10c07b9abdd2bcb396bbdb2b2a9be476d44/im-kochtopf-zubereiten-kochen.jpg"
+          },
+          "value_code": "MISO_lebensmittel_AB_pikto_zubereitung_pfanne",
+          "value": "Im Kochtopf zubereiten / Kochen"
+        },
+        {
+          "image": {
+            "original": "https://image.migros.ch/original/3bfabd90e30fd51ce30e22f8c48306d1ba8a0164/in-der-mikrowelle-zubereiten.jpg",
+            "code": "MISO_lebensmittel_AB_pikto_zubereitung_mikrowelle",
+            "description": "In der Mikrowelle zubereiten",
+            "stack": "https://image.migros.ch/{stack}/3bfabd90e30fd51ce30e22f8c48306d1ba8a0164/in-der-mikrowelle-zubereiten.jpg"
+          },
+          "value_code": "MISO_lebensmittel_AB_pikto_zubereitung_mikrowelle",
+          "value": "In der Mikrowelle zubereiten"
+        },
+        {
+          "image": {
+            "original": "https://image.migros.ch/original/2e49269ac205ea53a304f22de7e8a96fe272c1cb/in-der-pfanne-braten-braten.jpg",
+            "code": "MISO_lebensmittel_AB_pikto_zubereitung_braten",
+            "description": "In der Pfanne braten / Braten",
+            "stack": "https://image.migros.ch/{stack}/2e49269ac205ea53a304f22de7e8a96fe272c1cb/in-der-pfanne-braten-braten.jpg"
+          },
+          "value_code": "MISO_lebensmittel_AB_pikto_zubereitung_braten",
+          "value": "In der Pfanne braten / Braten"
+        }
+      ],
+      "category_code": "MISO_CLA_Annasbest_Lebensmittel_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_artvonsaucedip",
+      "label": "Art von Sauce/Dip",
+      "values": [
+        {
+          "value_code": "MISO_artvonsaucedip_pesto",
+          "value": "Pesto"
+        }
+      ],
+      "category_code": "MISO_CLA_SaucenAufstricheDipsWuerzsaucen_GewuerzeKonservierungsstoffeExtrakte_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_hinzugefuegtezutaten",
+      "label": "Hinzugefügte Zutaten",
+      "values": [
+        {
+          "value_code": "MISO_hinzugefuegtezutaten_tomatenflockengetrocknet",
+          "value": "Tomatenflocken getrocknet"
+        }
+      ],
+      "category_code": "MISO_CLA_SaucenAufstricheDipsWuerzsaucen_GewuerzeKonservierungsstoffeExtrakte_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_saucensortezumkochen",
+      "label": "Saucensorte - zum Kochen",
+      "values": [
+        {
+          "value_code": "MISO_saucensortezumkochen_pestorosso",
+          "value": "Pesto Rosso"
+        }
+      ],
+      "category_code": "MISO_CLA_SaucenAufstricheDipsWuerzsaucen_GewuerzeKonservierungsstoffeExtrakte_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_vorgeseheneverwendungdersauce",
+      "label": "Vorgesehene Verwendung der Sauce",
+      "values": [
+        {
+          "value_code": "MISO_vorgeseheneverwendungdersauce_nudelgerichte",
+          "value": "Nudelgerichte"
+        }
+      ],
+      "category_code": "MISO_CLA_SaucenAufstricheDipsWuerzsaucen_GewuerzeKonservierungsstoffeExtrakte_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    }
+  ],
+  "allergens": [
+    {
+      "code": "ALLG_ERDNUSS",
+      "name": "Erdnüsse",
+      "contamination_code": "KANN_ENTHALTEN",
+      "contamination": "kann enthalten"
+    },
+    {
+      "code": "ALLG_SOJA",
+      "name": "Sojabohnen",
+      "contamination_code": "KANN_ENTHALTEN",
+      "contamination": "kann enthalten"
+    },
+    {
+      "code": "ALLG_MILCH",
+      "name": "Milch",
+      "contamination_code": "VORHANDEN",
+      "contamination": "vorhanden"
+    },
+    {
+      "code": "ALLG_NUSS",
+      "name": "Nüsse",
+      "contamination_code": "VORHANDEN",
+      "contamination": "vorhanden"
+    }
+  ],
+  "general_information": [
+    {
+      "label": "Behandlungshinweise",
+      "value": "pasteurisiert."
+    },
+    {
+      "label": "Ernährungsinformationen",
+      "value": "Ohne Konservierungsstoffe."
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/d1b061bd1a667a1967b711e1911a04f7005cbc80/annas-best-pesto-rosso.jpg",
+    "stack": "https://image.migros.ch/{stack}/d1b061bd1a667a1967b711e1911a04f7005cbc80/annas-best-pesto-rosso.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/f49cbfcce3e2469b10bf52a9628b155ee5c463be/annas-best-pesto-rosso.png",
+    "stack": "https://image.migros.ch/{stack}/f49cbfcce3e2469b10bf52a9628b155ee5c463be/annas-best-pesto-rosso.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_sortierung",
+      "label": "Sortierung aMigos",
+      "values": [
+        {
+          "value_code": "NUMERIC_150",
+          "value": "150",
+          "numeric_value": 150
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_volumen",
+      "label": "Volumen aMigos!",
+      "values": [
+        {
+          "value_code": "NUMERIC_0.6105",
+          "value": "0.6105 l",
+          "numeric_value": 0.6105
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false,
+      "unit_code": "l",
+      "unit": "Liter",
+      "unit_symbol": "l"
+    },
+    {
+      "label_code": "MISO_lebensmittel_AB_kategorien",
+      "label": "Kategorien",
+      "values": [
+        {
+          "value_code": "MISO_lebensmittel_AB_kategorien_saucen",
+          "value": "Saucen"
+        }
+      ],
+      "category_code": "MISO_CLA_Annasbest_Lebensmittel_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_lebensmittel_AB_genusstyp",
+      "label": "Genusstypen",
+      "values": [
+        {
+          "value_code": "MISO_lebensmittel_AB_genusstyp_warm-geniessen",
+          "value": "Warm geniessen"
+        },
+        {
+          "value_code": "MISO_lebensmittel_AB_genusstyp_zu-hause",
+          "value": "Zu Hause"
+        }
+      ],
+      "category_code": "MISO_CLA_Annasbest_Lebensmittel_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZFRP",
+          "value": "Frische Beschaffung"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "7",
+          "value": "Convenience"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "71154",
+          "value": "SAUCEN"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "regulated_description": "Pesto mit getrockneten Tomaten",
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/130604000000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/annas-best-pesto-rosso",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/130604000000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/annas-best-pesto-rosso",
+      "type": "info",
+      "purchasable": false
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/50826",
+      "app_url": "leshop:///catalog/article/detail?ean=7613269260424",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/annas-best-pesto-rosso",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "regional_availability": {
+    "gmaa": {
+      "probability": 77
+    },
+    "gmbs": {
+      "probability": 80
+    },
+    "gmge": {
+      "probability": 79
+    },
+    "gmlu": {
+      "probability": 64
+    },
+    "gmnf": {
+      "probability": 78
+    },
+    "gmos": {
+      "probability": 76
+    },
+    "gmti": {
+      "probability": 97
+    },
+    "gmvd": {
+      "probability": 68
+    },
+    "gmvs": {
+      "probability": 56
+    },
+    "gmzh": {
+      "probability": 89
+    }
+  },
+  "updated_at": "2020-09-16T05:44:13+0200",
+  "base_unit": "CU",
+  "slugs": {
+    "de": "annas-best-pesto-rosso",
+    "fr": "annas-best-pesto-rosso",
+    "it": "annas-best-pesto-rosso"
+  },
+  "receipt_text": "Pesto Rosso",
+  "main_supplier": {
+    "name": "BISCHOFSZELL",
+    "id": "0003800000",
+    "supplier_product_id": "130604000000"
+  },
+  "price": {
+    "valid_from": "2019-04-09T00:00:00+0200",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 2.95,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "150ml"
+    },
+    "base": {
+      "price": 1.97,
+      "quantity": 100,
+      "unit": "ml"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 10,
+    "average_all": 4.375
+  },
+  "data_source": "SAP-X4x",
+  "origins": {
+    "producing_country": "Hergestellt in der Schweiz."
+  },
+  "ingredients": "Olivenöl 25%, Sonnenblumenöl, Wasser, Tomatenflocken getrocknet 10%, <strong>Parmigiano Reggiano</strong> 8%, Tomatenkonzentrat, Basilikum, Pinienkerne 3%, <strong>Cashew-Kerne</strong>, Knoblauch, Kochsalz, Gewürzzubereitung, Gewürzextrakte, Gewürze.",
+  "package": {
+    "content": 150,
+    "content_unit_code": "ml",
+    "content_unit": "Mililiter",
+    "net_weight": 0.15,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogramm",
+    "precision": "exact",
+    "brutto_weight": 0.15,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 610.5,
+    "brutto_volume_unit_code": "ccm",
+    "height": 18.5,
+    "length": 3,
+    "width": 11,
+    "unit_dimension": "cm",
+    "price_comparison_content": 100,
+    "size": "150ml"
+  },
+  "package_information": {
+    "tu": {
+      "brutto_weight": 0.75,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 31.92,
+      "brutto_volume_unit_code": "cdm",
+      "height": 13.3,
+      "length": 60,
+      "width": 40,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 5
+    },
+    "cu": {
+      "brutto_weight": 0.15,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 610.5,
+      "brutto_volume_unit_code": "ccm",
+      "height": 18.5,
+      "length": 3,
+      "width": 11,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    }
+  },
+  "related_products": {
+    "purchase_recommendations": {
+      "product_ids": [
+        "130606400000",
+        "130605400000",
+        "130605800000",
+        "130605500000",
+        "130607600000"
+      ]
+    }
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "recipe_ingredient_ids": [
+    "15052",
+    "18675732"
+  ],
+  "views": [
+    "all",
+    "browse"
+  ]
+}

@@ -1,0 +1,546 @@
+{
+  "id": "720680800000",
+  "language": "de",
+  "name": "Papeteria Radiergummi weiss 2stk",
+  "names": {
+    "name": "Papeteria Radiergummi weiss 2stk",
+    "short_name": "Radiergummi weiss 2stk"
+  },
+  "slug": "papeteria-radiergummi-weiss-2stk",
+  "boss_number": "150626951510",
+  "description": {
+    "text": "Weisser Radierer geeignet f&uuml;r Bleistifte und Farbstifte.",
+    "source": "PEX"
+  },
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03"
+  },
+  "tags": [
+    "source-pex",
+    "near-non-food",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7613295596863"
+  ],
+  "brand": {
+    "id": "N48",
+    "name": "Papeteria",
+    "slug": "papeteria",
+    "image": {
+      "original": "https://image.migros.ch/original/f2835c02ff1b7b72978b9a8dbb516bb0c6ed7fa5/papeteria.jpg",
+      "stack": "https://image.migros.ch/{stack}/f2835c02ff1b7b72978b9a8dbb516bb0c6ed7fa5/papeteria.jpg"
+    }
+  },
+  "categories": [
+    {
+      "code": "BeSS_01051403",
+      "name": "Korrigieren",
+      "slug": "supermarkt/papeterie-bueromaterial/schreiben-notieren/korrigieren",
+      "visible": true,
+      "parent_code": "BeSS_010514",
+      "level": 4
+    },
+    {
+      "code": "BeSS_010514",
+      "name": "Schreiben & Notieren",
+      "slug": "supermarkt/papeterie-bueromaterial/schreiben-notieren",
+      "visible": true,
+      "parent_code": "BeSS_0105",
+      "level": 3
+    },
+    {
+      "code": "BeSS_0105",
+      "name": "Papeterie & Büromaterial",
+      "slug": "supermarkt/papeterie-bueromaterial",
+      "visible": true,
+      "title": "Papeterie und Büromaterialien sind immer in Ihrer Migros zu finden",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/6b764b62482953963a5ab3263b9bd3a69cbf436a/papeterie-bueromaterial.jpg",
+        "stack": "https://image.migros.ch/{stack}/6b764b62482953963a5ab3263b9bd3a69cbf436a/papeterie-bueromaterial.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_SchreibenZeichnen_Bueromaterial_HaushaltReinigung",
+        "name": "Schreiben & Zeichnen",
+        "slug": "amigos/haushalt-reinigung/bueromaterial/schreiben-zeichnen",
+        "visible": true,
+        "parent_code": "AMIG_CAT_Bueromaterial_HaushaltReinigung",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_Bueromaterial_HaushaltReinigung",
+        "name": "Büromaterial",
+        "slug": "amigos/haushalt-reinigung/bueromaterial",
+        "visible": true,
+        "parent_code": "AMIG_CAT_HaushaltReinigung",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_HaushaltReinigung",
+        "name": "Haushalt & Reinigung",
+        "slug": "amigos/haushalt-reinigung",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "features": [
+    {
+      "label_code": "miso_anzahl",
+      "label": "Anzahl",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2 Stk.",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MISO_CLA_Bueromaterial_Papeterie_Haushalt_Alle",
+      "top_fact": false,
+      "unit_code": "Stk.",
+      "unit": "Stück",
+      "unit_symbol": "Stk."
+    },
+    {
+      "label_code": "miso_masse_groesse",
+      "label": "Masse / Grösse",
+      "values": [
+        {
+          "value": "58 mm x 19 mm x 11 mm"
+        }
+      ],
+      "category_code": "MISO_CLA_Bueromaterial_Papeterie_Haushalt_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "miso_material",
+      "label": "Material",
+      "values": [
+        {
+          "value": "Gummi"
+        }
+      ],
+      "category_code": "MISO_CLA_Bueromaterial_Papeterie_Haushalt_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "miso_farbe",
+      "label": "Farbe",
+      "values": [
+        {
+          "value_code": "MISO_farbe_weiss",
+          "value": "weiss"
+        }
+      ],
+      "category_code": "MISO_CLA_Bueromaterial_Papeterie_Haushalt_Alle",
+      "top_fact": false
+    }
+  ],
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    }
+  },
+  "image": {
+    "original": "https://image.migros.ch/original/27d73558707515f336e78dccec032ed867a1526d/papeteria-radiergummi-weiss-2stk.jpg",
+    "stack": "https://image.migros.ch/{stack}/27d73558707515f336e78dccec032ed867a1526d/papeteria-radiergummi-weiss-2stk.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/7ca8d31d699f8177ac5b2629df04d3e0b96af537/papeteria-radiergummi-weiss-2stk.png",
+    "stack": "https://image.migros.ch/{stack}/7ca8d31d699f8177ac5b2629df04d3e0b96af537/papeteria-radiergummi-weiss-2stk.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_sortierung",
+      "label": "Sortierung aMigos",
+      "values": [
+        {
+          "value_code": "NUMERIC_320",
+          "value": "320",
+          "numeric_value": 320
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_DEFAULT_LOGISTIC_TYPE",
+      "values": [
+        {
+          "value_code": "55",
+          "value": "Versandart Paket"
+        }
+      ],
+      "category_code": "MAPI_DEFAULT_LOGISTIC_TYPE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Normalposition"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "HART"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUSTOMS_POSITION",
+      "values": [
+        {
+          "value_code": "NUMERIC_40169200000",
+          "value": "40169200000",
+          "numeric_value": 40169200000
+        }
+      ],
+      "category_code": "MAPI_CUSTOMS_POSITION",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_RISK_CLASS",
+      "values": [
+        {
+          "value_code": "3",
+          "value": "3 (low)"
+        }
+      ],
+      "category_code": "MAPI_RISK_CLASS",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_KUBE_TUKA",
+      "values": [
+        {
+          "value_code": "BLANK",
+          "value": "KUBE und TUKA nicht zugelassen"
+        }
+      ],
+      "category_code": "MAPI_KUBE_TUKA",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HART",
+          "value": "Hartwaren  Handelsware"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "H",
+          "value": "Hartwaren"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "57898",
+          "value": "KORRIGIEREN"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 1,
+    "percentage": 7.7
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/720680800000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/papeteria-radiergummi-weiss-2stk",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/720680800000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/papeteria-radiergummi-weiss-2stk",
+      "type": "info",
+      "purchasable": false
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/5004905",
+      "app_url": "leshop:///catalog/article/detail?ean=7613295596863",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/papeteria-radiergummi-weiss-2stk",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "regional_availability": {
+    "gmaa": {
+      "probability": 99
+    },
+    "gmbs": {
+      "probability": 98
+    },
+    "gmge": {
+      "probability": 90
+    },
+    "gmlu": {
+      "probability": 95
+    },
+    "gmnf": {
+      "probability": 94
+    },
+    "gmos": {
+      "probability": 100
+    },
+    "gmti": {
+      "probability": 97
+    },
+    "gmvd": {
+      "probability": 97
+    },
+    "gmvs": {
+      "probability": 79
+    },
+    "gmzh": {
+      "probability": 93
+    }
+  },
+  "updated_at": "2020-09-16T06:48:33+0200",
+  "base_unit": "CU",
+  "slugs": {
+    "de": "papeteria-radiergummi-weiss-2stk",
+    "fr": "papeteria-gommes-blanc-2p",
+    "it": "papeteria-gomme-bianco-2p"
+  },
+  "receipt_text": "Radierer 2Stk.",
+  "main_supplier": {
+    "name": "A. Marchon SA",
+    "id": "0010011162",
+    "supplier_product_id": "340415"
+  },
+  "price": {
+    "valid_from": "2019-09-01T00:00:00+0200",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 1.95,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "1 Stück"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "galaxus_relevant": true,
+  "ratings": {
+    "count_all": 3,
+    "average_all": 5
+  },
+  "data_source": "SAP-X12",
+  "origins": {
+    "producing_country": "Frankreich"
+  },
+  "package": {
+    "content": 1,
+    "content_unit_code": "cu",
+    "net_weight": 0.047,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogramm",
+    "brutto_weight": 0.05,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 142.8,
+    "brutto_volume_unit_code": "ccm",
+    "height": 13.8,
+    "length": 1.3,
+    "width": 6.5,
+    "unit_dimension": "cm"
+  },
+  "package_information": {
+    "cu": {
+      "brutto_weight": 0.05,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 142.8,
+      "brutto_volume_unit_code": "ccm",
+      "height": 13.8,
+      "length": 1.3,
+      "width": 6.5,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "tuv": {
+      "brutto_weight": 0.503,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 1.071,
+      "brutto_volume_unit_code": "cdm",
+      "height": 9,
+      "length": 17,
+      "width": 7,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 10
+    },
+    "tue": {
+      "brutto_weight": 0.6,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0.001,
+      "brutto_volume_unit_code": "ccm",
+      "height": 6.5,
+      "length": 16.5,
+      "width": 8.5,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 10
+    },
+    "lu": {
+      "number_of_base_units": 360
+    }
+  },
+  "related_products": {
+    "reference_recommendations": {
+      "product_ids": [
+        "721285700000",
+        "720139600000",
+        "721270400000",
+        "721275000000",
+        "720432100000"
+      ]
+    }
+  },
+  "quantity_on_stock": 7660,
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "views": [
+    "all",
+    "browse"
+  ]
+}

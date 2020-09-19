@@ -1,0 +1,573 @@
+{
+  "id": "704540700000",
+  "language": "de",
+  "name": "Tangan N°46 Allzweck-Boxen 2L",
+  "names": {
+    "name": "Tangan N°46 Allzweck-Boxen 2L",
+    "short_name": "N°46 Allzweck-Boxen 2L"
+  },
+  "slug": "tangan-n46-allzweck-boxen-2l",
+  "boss_number": "150432230505",
+  "description": {
+    "text": "Die Boxen sind geeignet zum Backen und Aufw&auml;rmen im Backofen. ACHTUNG: Nicht empfohlen zur Verwendung mit stark s&auml;ure- und salzhaltigen Produkten. Schalen inkl. Kartondeckel zum Beschriften (Deckel nicht im Backofen stellen).",
+    "source": "PEX"
+  },
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03"
+  },
+  "tags": [
+    "source-pex",
+    "near-non-food",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7613296701709",
+    "7613047532859",
+    "7617028195514"
+  ],
+  "brand": {
+    "id": "MJI",
+    "name": "Tangan",
+    "slug": "tangan"
+  },
+  "categories": [
+    {
+      "code": "BeSS_0104",
+      "name": "Haushalt & Reinigung",
+      "slug": "supermarkt/haushalt-reinigung",
+      "visible": true,
+      "title": "Reinigung mit der Migros – Reiniger für Haushalt und Garten",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/e5da3225980543e0c7ddcc443069f331d94e8439/haushalt-reinigung.png",
+        "stack": "https://image.migros.ch/{stack}/e5da3225980543e0c7ddcc443069f331d94e8439/haushalt-reinigung.png"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_KuechenfolienBackpapier_Kueche_HaushaltReinigung",
+        "name": "Küchenfolien & Backpapier",
+        "slug": "amigos/haushalt-reinigung/kueche/kuechenfolien-backpapier",
+        "visible": true,
+        "parent_code": "AMIG_CAT_Kueche_HaushaltReinigung",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_Kueche_HaushaltReinigung",
+        "name": "Küche",
+        "slug": "amigos/haushalt-reinigung/kueche",
+        "visible": true,
+        "parent_code": "AMIG_CAT_HaushaltReinigung",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_HaushaltReinigung",
+        "name": "Haushalt & Reinigung",
+        "slug": "amigos/haushalt-reinigung",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "features": [
+    {
+      "label_code": "miso_anwendungsbereich",
+      "label": "Anwendungsbereich",
+      "values": [
+        {
+          "value_code": "MISO_backen",
+          "value": "Backen"
+        },
+        {
+          "value_code": "MISO_braten",
+          "value": "Braten"
+        },
+        {
+          "value_code": "MISO_tiefkuehlen",
+          "value": "Tiefkühlen"
+        }
+      ],
+      "category_code": "MISO_CLA_FolienBeutel_Verbrauch_Haushalt_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "miso_anzahl",
+      "label": "Anzahl",
+      "values": [
+        {
+          "value_code": "NUMERIC_5",
+          "value": "5 Stk.",
+          "numeric_value": 5
+        }
+      ],
+      "category_code": "MISO_CLA_FolienBeutel_Verbrauch_Haushalt_Alle",
+      "top_fact": false,
+      "unit_code": "Stk.",
+      "unit": "Stück",
+      "unit_symbol": "Stk."
+    },
+    {
+      "label_code": "miso_masse_groesse",
+      "label": "Masse / Grösse",
+      "values": [
+        {
+          "value": "26 x 19cm"
+        }
+      ],
+      "category_code": "MISO_CLA_FolienBeutel_Verbrauch_Haushalt_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "miso_volumen",
+      "label": "Volumen",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2 l",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MISO_CLA_FolienBeutel_Verbrauch_Haushalt_Alle",
+      "top_fact": false,
+      "unit_code": "l",
+      "unit": "Liter",
+      "unit_symbol": "l"
+    },
+    {
+      "label_code": "miso_material",
+      "label": "Material",
+      "values": [
+        {
+          "value_code": "MISO_material_aluminium",
+          "value": "Aluminium"
+        }
+      ],
+      "category_code": "MISO_CLA_FolienBeutel_Verbrauch_Haushalt_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "miso_hinweis",
+      "label": "Hinweis",
+      "values": [
+        {
+          "value": "Deckel nicht im Backofen verwenden"
+        }
+      ],
+      "category_code": "MISO_CLA_FolienBeutel_Verbrauch_Haushalt_Alle",
+      "top_fact": false
+    }
+  ],
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    }
+  },
+  "image": {
+    "original": "https://image.migros.ch/original/90f2817b970d804d667338f43264c028cc9fb640/tangan-n46-allzweck-boxen-2l.jpg",
+    "stack": "https://image.migros.ch/{stack}/90f2817b970d804d667338f43264c028cc9fb640/tangan-n46-allzweck-boxen-2l.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/22072be499bb6477f0b593293d78727bf4b16f17/tangan-n46-allzweck-boxen-2l.png",
+    "stack": "https://image.migros.ch/{stack}/22072be499bb6477f0b593293d78727bf4b16f17/tangan-n46-allzweck-boxen-2l.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_sortierung",
+      "label": "Sortierung aMigos",
+      "values": [
+        {
+          "value_code": "NUMERIC_190",
+          "value": "190",
+          "numeric_value": 190
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_DEFAULT_LOGISTIC_TYPE",
+      "values": [
+        {
+          "value_code": "55",
+          "value": "Versandart Paket"
+        }
+      ],
+      "category_code": "MAPI_DEFAULT_LOGISTIC_TYPE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Normalposition"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "HART"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUSTOMS_POSITION",
+      "values": [
+        {
+          "value_code": "NUMERIC_76129000000",
+          "value": "76129000000",
+          "numeric_value": 76129000000
+        }
+      ],
+      "category_code": "MAPI_CUSTOMS_POSITION",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_RISK_CLASS",
+      "values": [
+        {
+          "value_code": "2",
+          "value": "2 (medium)"
+        }
+      ],
+      "category_code": "MAPI_RISK_CLASS",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_QUALITY_CHECK",
+      "values": [
+        {
+          "value_code": "02",
+          "value": "FRI (Final Random  Inspection)"
+        }
+      ],
+      "category_code": "MAPI_QUALITY_CHECK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_KUBE_TUKA",
+      "values": [
+        {
+          "value_code": "BLANK",
+          "value": "KUBE und TUKA nicht zugelassen"
+        }
+      ],
+      "category_code": "MAPI_KUBE_TUKA",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HART",
+          "value": "Hartwaren  Handelsware"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "H",
+          "value": "Hartwaren"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "60514",
+          "value": "ALUMINIUM"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 1,
+    "percentage": 7.7
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/704540700000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/tangan-n46-allzweck-boxen-2l",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/704540700000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/tangan-n46-allzweck-boxen-2l",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "regional_availability": {
+    "gmaa": {
+      "probability": 62
+    },
+    "gmbs": {
+      "probability": 69
+    },
+    "gmge": {
+      "probability": 67
+    },
+    "gmlu": {
+      "probability": 52
+    },
+    "gmnf": {
+      "probability": 59
+    },
+    "gmos": {
+      "probability": 59
+    },
+    "gmti": {
+      "probability": 75
+    },
+    "gmvd": {
+      "probability": 55
+    },
+    "gmvs": {
+      "probability": 56
+    },
+    "gmzh": {
+      "probability": 61
+    }
+  },
+  "updated_at": "2020-09-16T06:43:12+0200",
+  "base_unit": "CU",
+  "slugs": {
+    "de": "tangan-n46-allzweck-boxen-2l",
+    "fr": "tangan-n46-boites-multi-usage",
+    "it": "tangan-n46-contenitori-universali"
+  },
+  "receipt_text": "Tangan Allzweck-Boxen",
+  "main_supplier": {
+    "name": "Times Packing Solution Inc.",
+    "id": "0010033661"
+  },
+  "price": {
+    "valid_from": "2018-01-30T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 4.95,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "5 Stk."
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "galaxus_relevant": true,
+  "ratings": {
+    "count_all": 3,
+    "average_all": 3.666666666667
+  },
+  "data_source": "SAP-X12",
+  "origins": {
+    "producing_country": "China"
+  },
+  "package": {
+    "content": 1,
+    "content_unit_code": "cu",
+    "net_weight": 0.094,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogramm",
+    "brutto_weight": 0.24,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 0.033,
+    "brutto_volume_unit_code": "hl",
+    "height": 7.5,
+    "length": 18,
+    "width": 27.5,
+    "unit_dimension": "cm",
+    "size": "5 Stk."
+  },
+  "package_information": {
+    "cu": {
+      "brutto_weight": 0.24,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0.033,
+      "brutto_volume_unit_code": "hl",
+      "height": 7.5,
+      "length": 18,
+      "width": 27.5,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "tuv": {
+      "brutto_weight": 2.22,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 17.82,
+      "brutto_volume_unit_code": "cdm",
+      "height": 30,
+      "length": 27,
+      "width": 22,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 10
+    },
+    "tue": {
+      "brutto_weight": 1.415,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0.001,
+      "brutto_volume_unit_code": "ccm",
+      "height": 26,
+      "length": 27,
+      "width": 20,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 10
+    },
+    "lu": {
+      "number_of_base_units": 600
+    },
+    "moq": {
+      "number_of_base_units": 20000
+    }
+  },
+  "related_products": {
+    "reference_recommendations": {
+      "product_ids": [
+        "704540900000",
+        "723384700000",
+        "704540500000",
+        "704540400000",
+        "705465900000"
+      ]
+    }
+  },
+  "quantity_on_stock": 16250,
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "recipe_ingredient_ids": [
+    "10000"
+  ],
+  "views": [
+    "all",
+    "browse"
+  ]
+}

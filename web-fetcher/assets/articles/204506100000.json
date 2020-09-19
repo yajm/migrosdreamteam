@@ -1,0 +1,783 @@
+{
+  "id": "204506100000",
+  "language": "de",
+  "name": "Energy Drink Erdbeer",
+  "names": {
+    "name": "Energy Drink Erdbeer"
+  },
+  "slug": "energy-drink-erdbeer",
+  "boss_number": "030213201620",
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "80"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "source-qim-origins",
+    "validity-range-not-set",
+    "source-qim-allergens",
+    "source-qim-fooddeclaration",
+    "source-qim-nutritionfacts",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7610900117871",
+    "7613269384397"
+  ],
+  "brand": {
+    "id": "K92",
+    "name": "Energy Drink",
+    "slug": "energy-drink"
+  },
+  "labels": [
+    {
+      "id": "L53",
+      "name": "Swissness",
+      "slug": "swissness",
+      "image": {
+        "original": "https://image.migros.ch/original/d771bba2f6b08ba42970ea0243c6f8c5a8832f15/swissness.jpg",
+        "stack": "https://image.migros.ch/{stack}/d771bba2f6b08ba42970ea0243c6f8c5a8832f15/swissness.jpg"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_0101040705",
+      "name": "Milchgetränke",
+      "slug": "supermarkt/lebensmittel/milchprodukte-eier/milch-milchgetraenke/milchgetraenke",
+      "visible": true,
+      "title": "Milchdrinks in Ihrer Migros kaufen",
+      "parent_code": "BeSS_01010407",
+      "image": {
+        "original": "https://image.migros.ch/original/1f1123a14cab1cf57da70923df7048d8f218eb5f/milchgetraenke.jpg",
+        "stack": "https://image.migros.ch/{stack}/1f1123a14cab1cf57da70923df7048d8f218eb5f/milchgetraenke.jpg"
+      },
+      "level": 5
+    },
+    {
+      "code": "BeSS_01010407",
+      "name": "Milch & Milchgetränke",
+      "slug": "supermarkt/lebensmittel/milchprodukte-eier/milch-milchgetraenke",
+      "visible": true,
+      "title": "Milchdrinks in Ihrer Migros kaufen",
+      "parent_code": "BeSS_010104",
+      "image": {
+        "original": "https://image.migros.ch/original/bdd298d8e023a8ba56ad01a0c1c075c5047e0582/milch-milchgetraenke.jpg",
+        "stack": "https://image.migros.ch/{stack}/bdd298d8e023a8ba56ad01a0c1c075c5047e0582/milch-milchgetraenke.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010104",
+      "name": "Milchprodukte & Eier",
+      "slug": "supermarkt/lebensmittel/milchprodukte-eier",
+      "visible": true,
+      "title": "Milchprodukte und Eier –",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/6b1ea6c2d41c3ccb21bf05c8dc342f7f55d83deb/milchprodukte-eier.jpg",
+        "stack": "https://image.migros.ch/{stack}/6b1ea6c2d41c3ccb21bf05c8dc342f7f55d83deb/milchprodukte-eier.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_Milchdrinks_MilchMilchdrink_MilchprodukteEier",
+        "name": "Milchdrinks",
+        "slug": "amigos/milchprodukte-eier/milch-milchdrink/milchdrinks",
+        "visible": true,
+        "parent_code": "AMIG_CAT_MilchMilchdrink_MilchprodukteEier",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_MilchMilchdrink_MilchprodukteEier",
+        "name": "Milch & Milchdrink",
+        "slug": "amigos/milchprodukte-eier/milch-milchdrink",
+        "visible": true,
+        "parent_code": "AMIG_CAT_MilchprodukteEier",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_MilchprodukteEier",
+        "name": "Milchprodukte & Eier",
+        "slug": "amigos/milchprodukte-eier",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "nutrition_facts": {
+    "standard": {
+      "nutrients": [
+        {
+          "code": "PIM_NUT_ENERGIE",
+          "name": "Energie",
+          "pictogram_name": "Energie",
+          "category": "BIG9",
+          "quantity": 323,
+          "nutrition_operator": "=",
+          "quantity_unit": "kJ",
+          "quantity_alternate": 76,
+          "quantity_alternate_unit": "kcal"
+        },
+        {
+          "code": "PIM_NUT_FETT",
+          "name": "Fett",
+          "pictogram_name": "Fett",
+          "category": "BIG9",
+          "quantity": 1.6,
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_FETT_GES",
+          "name": "davon gesättigte Fettsäuren",
+          "pictogram_name": "gesättigte Fettsäuren",
+          "category": "BIG9",
+          "quantity": 0.9,
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_KOHLENHY",
+          "name": "Kohlenhydrate",
+          "category": "BIG9",
+          "quantity": 12,
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_ZUCKER",
+          "name": "davon Zucker",
+          "pictogram_name": "Zuckerarten",
+          "category": "BIG9",
+          "quantity": 10,
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_GES_BALL",
+          "name": "Ballaststoffe",
+          "category": "BIG9",
+          "quantity": 0.5,
+          "nutrition_operator": "<",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_PROTEINE",
+          "name": "Eiweiss",
+          "category": "BIG9",
+          "quantity": 3.3,
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_KOCHSALZ",
+          "name": "Salz",
+          "pictogram_name": "Salz",
+          "category": "BIG9",
+          "quantity": 0.21,
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_VIT_D",
+          "name": "Vitamin D",
+          "category": "VITAMINE",
+          "quantity": 0.75,
+          "rda_percent": 15,
+          "rda_percent_operator": "=",
+          "nutrition_operator": "=",
+          "quantity_unit": "µg"
+        },
+        {
+          "code": "PIM_NUT_VIT_E",
+          "name": "Vitamin E",
+          "category": "VITAMINE",
+          "quantity": 1.8,
+          "rda_percent": 15,
+          "rda_percent_operator": "=",
+          "nutrition_operator": "=",
+          "quantity_unit": "mg"
+        },
+        {
+          "code": "PIM_NUT_VIT_B1",
+          "name": "Vitamin B1 (Thiamin)",
+          "category": "VITAMINE",
+          "quantity": 0.17,
+          "rda_percent": 15,
+          "rda_percent_operator": "=",
+          "nutrition_operator": "=",
+          "quantity_unit": "mg"
+        },
+        {
+          "code": "PIM_NUT_VIT_B2",
+          "name": "Vitamin B2 (Riboflavin)",
+          "category": "VITAMINE",
+          "quantity": 0.21,
+          "rda_percent": 15,
+          "rda_percent_operator": "=",
+          "nutrition_operator": "=",
+          "quantity_unit": "mg"
+        },
+        {
+          "code": "PIM_NUT_VIT_B6",
+          "name": "Vitamin B6",
+          "category": "VITAMINE",
+          "quantity": 0.21,
+          "rda_percent": 15,
+          "rda_percent_operator": "=",
+          "nutrition_operator": "=",
+          "quantity_unit": "mg"
+        },
+        {
+          "code": "PIM_NUT_CALCIUM",
+          "name": "Calcium",
+          "category": "MINERALSTOFFE_SPURENELEMENTE",
+          "quantity": 120,
+          "rda_percent": 15,
+          "rda_percent_operator": "=",
+          "nutrition_operator": "=",
+          "quantity_unit": "mg"
+        }
+      ],
+      "base_quantity": 100,
+      "base_unit": "ml"
+    },
+    "portion": {
+      "nutrients": [
+        {
+          "code": "PIM_NUT_ENERGIE",
+          "name": "Energie",
+          "pictogram_name": "Energie",
+          "category": "BIG9",
+          "quantity": 1074,
+          "rda_percent": 13,
+          "rda_percent_operator": "=",
+          "nutrition_operator": "=",
+          "quantity_unit": "kJ",
+          "quantity_alternate": 254,
+          "quantity_alternate_unit": "kcal"
+        },
+        {
+          "code": "PIM_NUT_FETT",
+          "name": "Fett",
+          "pictogram_name": "Fett",
+          "category": "BIG9",
+          "quantity": 5.3,
+          "rda_percent": 8,
+          "rda_percent_operator": "=",
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_FETT_GES",
+          "name": "davon gesättigte Fettsäuren",
+          "pictogram_name": "gesättigte Fettsäuren",
+          "category": "BIG9",
+          "quantity": 3,
+          "rda_percent": 15,
+          "rda_percent_operator": "=",
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_KOHLENHY",
+          "name": "Kohlenhydrate",
+          "category": "BIG9",
+          "quantity": 40,
+          "rda_percent": 15,
+          "rda_percent_operator": "=",
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_ZUCKER",
+          "name": "davon Zucker",
+          "pictogram_name": "Zuckerarten",
+          "category": "BIG9",
+          "quantity": 33,
+          "rda_percent": 37,
+          "rda_percent_operator": "=",
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_GES_BALL",
+          "name": "Ballaststoffe",
+          "category": "BIG9",
+          "quantity": 1.3,
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_PROTEINE",
+          "name": "Eiweiss",
+          "category": "BIG9",
+          "quantity": 11,
+          "rda_percent": 22,
+          "rda_percent_operator": "=",
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_KOCHSALZ",
+          "name": "Salz",
+          "pictogram_name": "Salz",
+          "category": "BIG9",
+          "quantity": 0.69,
+          "rda_percent": 12,
+          "rda_percent_operator": "=",
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_VIT_D",
+          "name": "Vitamin D",
+          "category": "VITAMINE",
+          "quantity": 2.5,
+          "rda_percent": 50,
+          "rda_percent_operator": "=",
+          "nutrition_operator": "=",
+          "quantity_unit": "µg"
+        },
+        {
+          "code": "PIM_NUT_VIT_E",
+          "name": "Vitamin E",
+          "category": "VITAMINE",
+          "quantity": 5.9,
+          "rda_percent": 50,
+          "rda_percent_operator": "=",
+          "nutrition_operator": "=",
+          "quantity_unit": "mg"
+        },
+        {
+          "code": "PIM_NUT_VIT_B1",
+          "name": "Vitamin B1 (Thiamin)",
+          "category": "VITAMINE",
+          "quantity": 0.56,
+          "rda_percent": 50,
+          "rda_percent_operator": "=",
+          "nutrition_operator": "=",
+          "quantity_unit": "mg"
+        },
+        {
+          "code": "PIM_NUT_VIT_B2",
+          "name": "Vitamin B2 (Riboflavin)",
+          "category": "VITAMINE",
+          "quantity": 0.69,
+          "rda_percent": 50,
+          "rda_percent_operator": "=",
+          "nutrition_operator": "=",
+          "quantity_unit": "mg"
+        },
+        {
+          "code": "PIM_NUT_VIT_B6",
+          "name": "Vitamin B6",
+          "category": "VITAMINE",
+          "quantity": 0.69,
+          "rda_percent": 50,
+          "rda_percent_operator": "=",
+          "nutrition_operator": "=",
+          "quantity_unit": "mg"
+        },
+        {
+          "code": "PIM_NUT_CALCIUM",
+          "name": "Calcium",
+          "category": "MINERALSTOFFE_SPURENELEMENTE",
+          "quantity": 396,
+          "rda_percent": 50,
+          "rda_percent_operator": "=",
+          "nutrition_operator": "=",
+          "quantity_unit": "mg"
+        }
+      ],
+      "base_description": "1 Packung",
+      "base_quantity": 330,
+      "base_unit": "ml",
+      "package_type": "Packung",
+      "portions_per_package": "1",
+      "portions_per_package_precision": "="
+    }
+  },
+  "features": [
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_tetrapak",
+          "value": "TetraPak"
+        }
+      ],
+      "category_code": "MISO_CLA_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_naehrwertanspruch",
+      "label": "Nährwertanspruch",
+      "values": [
+        {
+          "value_code": "MISO_naehrwertanspruch_fettarm",
+          "value": "Fettarm"
+        }
+      ],
+      "category_code": "MISO_CLA_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zubereitungsverfahren",
+      "label": "Hinweise für die Zubereitung",
+      "values": [
+        {
+          "value_code": "MISO_zubereitungsverfahren_verzehrfertig",
+          "value": "Verzehrfertig"
+        }
+      ],
+      "category_code": "MISO_CLA_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_artvonerfrischungsgetraenk",
+      "label": "Art von Erfrischungsgetränk",
+      "values": [
+        {
+          "value_code": "MISO_artvonerfrischungsgetraenk_milchgetraenk",
+          "value": "Milchgetränk"
+        }
+      ],
+      "category_code": "MISO_CLA_AlkoholfreieGetraenketrinkfertig_Getraenke_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    }
+  ],
+  "allergens": [
+    {
+      "code": "ALLG_MILCH",
+      "name": "Milch und daraus gewonnene Erzeugnisse (einschliesslich Laktose)",
+      "contamination_code": "VORHANDEN",
+      "contamination": "vorhanden"
+    },
+    {
+      "code": "ALLG_EIER",
+      "name": "Eier und daraus gewonnene Erzeugnisse",
+      "contamination_code": "VORHANDEN",
+      "contamination": "vorhanden"
+    }
+  ],
+  "general_information": [
+    {
+      "label": "Produktionshinweis",
+      "value": "Pasteurisiert"
+    },
+    {
+      "label": "Kühlhinweis / Aufbewahrungshinweis",
+      "value": "Gekühlt aufbewahren bei max. +5 °C."
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/141f664d44e8c944be58ee0fefe730de84b3589d/energy-drink-erdbeer.jpg",
+    "stack": "https://image.migros.ch/{stack}/141f664d44e8c944be58ee0fefe730de84b3589d/energy-drink-erdbeer.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/a1faa00bc0fe88809ff29b7564bbfcd5ab6b04a0/energy-drink-erdbeer.png",
+    "stack": "https://image.migros.ch/{stack}/a1faa00bc0fe88809ff29b7564bbfcd5ab6b04a0/energy-drink-erdbeer.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_sortierung",
+      "label": "Sortierung aMigos",
+      "values": [
+        {
+          "value_code": "NUMERIC_310",
+          "value": "310",
+          "numeric_value": 310
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_volumen",
+      "label": "Volumen aMigos!",
+      "values": [
+        {
+          "value_code": "NUMERIC_0.472567",
+          "value": "0.472567 l",
+          "numeric_value": 0.472567
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false,
+      "unit_code": "l",
+      "unit": "Liter",
+      "unit_symbol": "l"
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZFRP",
+          "value": "Frische Beschaffung"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "1",
+          "value": "Molki"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "70445",
+          "value": "MILCHMISCHGETRAENKE UEBR."
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "regulated_description": "Milchgetränk mit Erdbeersaft aus Konzentrat, mit 1.5% Fett im Milchanteil, mit Vitaminen",
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/204506100000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/energy-drink-erdbeer",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/204506100000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/energy-drink-erdbeer",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "regional_availability": {
+    "gmaa": {
+      "probability": 34
+    },
+    "gmbs": {
+      "probability": 76
+    },
+    "gmge": {
+      "probability": 62
+    },
+    "gmlu": {
+      "probability": 32
+    },
+    "gmnf": {
+      "probability": 0
+    },
+    "gmos": {
+      "probability": 28
+    },
+    "gmti": {
+      "probability": 0
+    },
+    "gmvd": {
+      "probability": 49
+    },
+    "gmvs": {
+      "probability": 38
+    },
+    "gmzh": {
+      "probability": 47
+    }
+  },
+  "updated_at": "2020-09-16T05:47:46+0200",
+  "base_unit": "CU",
+  "slugs": {
+    "de": "energy-drink-erdbeer",
+    "fr": "energy-drink-fraise",
+    "it": "energy-drink-fragola"
+  },
+  "receipt_text": "Energy Drink fraise",
+  "main_supplier": {
+    "name": "Emmi Schweiz AG",
+    "id": "0010002698"
+  },
+  "price": {
+    "valid_from": "2020-07-06T00:00:00+0200",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 1.6,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "330ml"
+    },
+    "base": {
+      "price": 0.48,
+      "quantity": 100,
+      "unit": "ml"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 8,
+    "average_all": 4
+  },
+  "data_source": "SAP-X4x",
+  "origins": {
+    "producing_country": "Hergestellt in der Schweiz",
+    "production_facility_id": "CH 2410"
+  },
+  "ingredients": "<strong>Milch</strong> teilentrahmt, Erdbeersaft aus Konzentrat 8 %, Zucker, <strong>Vollei</strong> (aus Bodenhaltung), Glucose, Maltodextrin, Inulin (Nahrungsfasern pflanzlich), Stabilisator: Natriumphosphate, Randensaftkonzentrat färbend, Aromen, <strong>Milch</strong>mineralstoffkonzentrat, Verdickungsmittel: Carrageen, <strong>Milch</strong>protein (enthält <strong>Milchzucker</strong>), Vitamine (Thiaminhydrochlorid [Vitamin B1], Riboflavin [Vitamin B2], Pyridoxinhydrochlorid [Vitamin B6], Vitamin D3 [Vitamin D], D-alpha-Tocopherol [Vitamin E ]).",
+  "package": {
+    "content": 330,
+    "content_unit_code": "ml",
+    "content_unit": "Mililiter",
+    "net_weight": 0.33,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogramm",
+    "brutto_weight": 0.33,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 472.567,
+    "brutto_volume_unit_code": "ccm",
+    "height": 12.7,
+    "length": 6.1,
+    "width": 6.1,
+    "unit_dimension": "cm",
+    "price_comparison_content": 100,
+    "size": "330ml"
+  },
+  "package_information": {
+    "tu": {
+      "brutto_weight": 6.6,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 15.96,
+      "brutto_volume_unit_code": "cdm",
+      "height": 13.3,
+      "length": 40,
+      "width": 30,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 20
+    },
+    "cu": {
+      "brutto_weight": 0.33,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 472.567,
+      "brutto_volume_unit_code": "ccm",
+      "height": 12.7,
+      "length": 6.1,
+      "width": 6.1,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "lu": {
+      "brutto_weight": 0,
+      "brutto_volume": 0,
+      "height": 0,
+      "length": 0,
+      "width": 0,
+      "number_of_base_units": 1600
+    }
+  },
+  "related_products": {
+    "purchase_recommendations": {
+      "product_ids": [
+        "204506300000",
+        "204555600000",
+        "204554200000",
+        "204541300000",
+        "204520200000"
+      ]
+    }
+  },
+  "declarations": {
+    "food": {
+      "features": [
+        {
+          "label_code": "GDSN_M281_NetContent",
+          "label": "Nettofüllmenge Wert",
+          "values": [
+            {
+              "value_code": "NUMERIC_330",
+              "value": "330",
+              "numeric_value": 330
+            }
+          ],
+          "category_code": "GDSN",
+          "top_fact": false,
+          "unit_code": "ml"
+        }
+      ]
+    }
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "recipe_ingredient_ids": [
+    "10000"
+  ],
+  "views": [
+    "all",
+    "browse"
+  ]
+}

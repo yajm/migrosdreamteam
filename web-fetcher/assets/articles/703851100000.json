@@ -1,0 +1,654 @@
+{
+  "id": "703851100000",
+  "language": "de",
+  "name": "Cucina & Tavola Spritzschutzdeckel",
+  "names": {
+    "name": "Cucina & Tavola Spritzschutzdeckel",
+    "short_name": "Spritzschutzdeckel"
+  },
+  "slug": "cucina-tavola-spritzschutzdeckel-703851100000",
+  "boss_number": "150423084520",
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03"
+  },
+  "tags": [
+    "source-pex",
+    "near-non-food",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "8002522064296"
+  ],
+  "brand": {
+    "id": "NF1",
+    "name": "Cucina & Tavola",
+    "slug": "cucina-tavola",
+    "image": {
+      "original": "https://image.migros.ch/original/ec18c12011ab778b7756486a090e13866fc1eaf1/cucina-tavola.jpg",
+      "stack": "https://image.migros.ch/{stack}/ec18c12011ab778b7756486a090e13866fc1eaf1/cucina-tavola.jpg"
+    }
+  },
+  "categories": [
+    {
+      "code": "BeSS_01040910",
+      "name": "Kochgeschirr",
+      "slug": "supermarkt/haushalt-reinigung/kueche/kochgeschirr",
+      "visible": true,
+      "title": "Es geht heiss her: Pfannen und Töpfe bei der Migros",
+      "parent_code": "BeSS_010409",
+      "image": {
+        "original": "https://image.migros.ch/original/6fc86f7979452ef175917b4d70b41fc7d9fb9f86/kochgeschirr.jpg",
+        "stack": "https://image.migros.ch/{stack}/6fc86f7979452ef175917b4d70b41fc7d9fb9f86/kochgeschirr.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010409",
+      "name": "Küche",
+      "slug": "supermarkt/haushalt-reinigung/kueche",
+      "visible": true,
+      "title": "Artikel für die Küche aus Ihrer Migros – gut & günstig!",
+      "parent_code": "BeSS_0104",
+      "image": {
+        "original": "https://image.migros.ch/original/90120e4cc3d5d74e017d4b91bbdcb1da29eb70a6/kueche.jpg",
+        "stack": "https://image.migros.ch/{stack}/90120e4cc3d5d74e017d4b91bbdcb1da29eb70a6/kueche.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0104",
+      "name": "Haushalt & Reinigung",
+      "slug": "supermarkt/haushalt-reinigung",
+      "visible": true,
+      "title": "Reinigung mit der Migros – Reiniger für Haushalt und Garten",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/e5da3225980543e0c7ddcc443069f331d94e8439/haushalt-reinigung.png",
+        "stack": "https://image.migros.ch/{stack}/e5da3225980543e0c7ddcc443069f331d94e8439/haushalt-reinigung.png"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "MIC_SHOP_CAT_MigrosSupermarkt_Essen_AccessoiresTextilien",
+        "name": "Migros Supermarkt",
+        "slug": "micasa/accessoires-textilien/essen/migros-supermarkt",
+        "visible": false,
+        "parent_code": "MIC_SHOP_CAT_Essen_AccessoiresTextilien",
+        "level": 4
+      },
+      {
+        "code": "MIC_SHOP_CAT_Essen_AccessoiresTextilien",
+        "name": "Essen",
+        "slug": "micasa/accessoires-textilien/essen",
+        "visible": true,
+        "parent_code": "MIC_SHOP_CAT_AccessoiresTextilien",
+        "level": 3
+      },
+      {
+        "code": "MIC_SHOP_CAT_AccessoiresTextilien",
+        "name": "Accessoires & Textilien",
+        "slug": "micasa/accessoires-textilien",
+        "visible": true,
+        "parent_code": "BeSS_02",
+        "level": 2
+      },
+      {
+        "code": "BeSS_02",
+        "name": "Micasa",
+        "slug": "micasa",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ],
+    [
+      {
+        "code": "MIC_SHOP_CAT_KuechenhelferZubehoer_Kochen_Essen_AccessoiresTextilien",
+        "name": "Küchenhelfer & Zubehör",
+        "slug": "micasa/accessoires-textilien/essen/kochen/kuechenhelfer-zubehoer",
+        "visible": true,
+        "parent_code": "MIC_SHOP_CAT_Kochen_Essen_AccessoiresTextilien",
+        "level": 5
+      },
+      {
+        "code": "MIC_SHOP_CAT_Kochen_Essen_AccessoiresTextilien",
+        "name": "Kochen",
+        "slug": "micasa/accessoires-textilien/essen/kochen",
+        "visible": true,
+        "parent_code": "MIC_SHOP_CAT_Essen_AccessoiresTextilien",
+        "level": 4
+      },
+      {
+        "code": "MIC_SHOP_CAT_Essen_AccessoiresTextilien",
+        "name": "Essen",
+        "slug": "micasa/accessoires-textilien/essen",
+        "visible": true,
+        "parent_code": "MIC_SHOP_CAT_AccessoiresTextilien",
+        "level": 3
+      },
+      {
+        "code": "MIC_SHOP_CAT_AccessoiresTextilien",
+        "name": "Accessoires & Textilien",
+        "slug": "micasa/accessoires-textilien",
+        "visible": true,
+        "parent_code": "BeSS_02",
+        "level": 2
+      },
+      {
+        "code": "BeSS_02",
+        "name": "Micasa",
+        "slug": "micasa",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "features": [
+    {
+      "label_code": "mic_durchmesser",
+      "label": "Durchmesser",
+      "values": [
+        {
+          "value_code": "NUMERIC_29",
+          "value": "29 cm",
+          "numeric_value": 29
+        }
+      ],
+      "category_code": "MIC_CLA_Alle",
+      "top_fact": false,
+      "unit_code": "cm",
+      "unit": "Zentimeter",
+      "unit_symbol": "cm"
+    },
+    {
+      "label_code": "mic_farbewohnshop_farben",
+      "label": "Farben",
+      "values": [
+        {
+          "value_code": "MIC_FarbeWohnshop_Schwarz_Silber",
+          "value": "Schwarz / Silber"
+        }
+      ],
+      "category_code": "MIC_CLA_Accessoires_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "mic_materialwohnshop_material",
+      "label": "Material",
+      "values": [
+        {
+          "value_code": "MIC_MaterialWohnshop_Nylon",
+          "value": "Nylon"
+        }
+      ],
+      "category_code": "MIC_CLA_Accessoires_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "mic_fuer_lebensmittel_geeignet",
+      "label": "Für Lebensmittel geeignet",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MIC_CLA_GedeckterTischKueche_Accessoires_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "mic_spuelmaschinenfest",
+      "label": "Spülmaschinengeeignet",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MIC_CLA_GedeckterTischKueche_Accessoires_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "mic_mikrowellengeeignet",
+      "label": "Mikrowellengeeignet",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "Nein",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MIC_CLA_GedeckterTischKueche_Accessoires_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "mic_backofenfest",
+      "label": "Backofenfest",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "Nein",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MIC_CLA_GedeckterTischKueche_Accessoires_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "mic_antihaftbeschichtet",
+      "label": "Antihaftbeschichtet",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MIC_CLA_Kueche_GedeckterTischKueche_Accessoires_Alle",
+      "top_fact": false
+    }
+  ],
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": true,
+      "reservable": true,
+      "stock_request": true,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": true,
+      "reservable": true,
+      "stock_request": true,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": true,
+      "reservable": true,
+      "stock_request": true,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": true,
+      "reservable": true,
+      "stock_request": true,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": true,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": true,
+      "reservable": true,
+      "stock_request": true,
+      "visible": true,
+      "exclude_cross_channel": []
+    }
+  },
+  "image": {
+    "original": "https://image.migros.ch/original/d858ab67c8ca6f95eaac98e910011ea20df676cb/cucina-tavola-spritzschutzdeckel.jpg",
+    "stack": "https://image.migros.ch/{stack}/d858ab67c8ca6f95eaac98e910011ea20df676cb/cucina-tavola-spritzschutzdeckel.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/0591fd73ba62f466d53ad7d55fd361d2711d6336/cucina-tavola-spritzschutzdeckel.png",
+    "stack": "https://image.migros.ch/{stack}/0591fd73ba62f466d53ad7d55fd361d2711d6336/cucina-tavola-spritzschutzdeckel.png"
+  },
+  "additional_images": [
+    {
+      "original": "https://image.migros.ch/original/79942a0b2c960d9a910a6eae8c86858860bd7e7a.jpg",
+      "stack": "https://image.migros.ch/{stack}/79942a0b2c960d9a910a6eae8c86858860bd7e7a.jpg"
+    }
+  ],
+  "internal_features": [
+    {
+      "label_code": "MAPI_DEFAULT_LOGISTIC_TYPE",
+      "values": [
+        {
+          "value_code": "55",
+          "value": "Versandart Paket"
+        }
+      ],
+      "category_code": "MAPI_DEFAULT_LOGISTIC_TYPE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Normalposition"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "HART"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUSTOMS_POSITION",
+      "values": [
+        {
+          "value_code": "NUMERIC_00076151910",
+          "value": "00076151910",
+          "numeric_value": 76151910
+        }
+      ],
+      "category_code": "MAPI_CUSTOMS_POSITION",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_RISK_CLASS",
+      "values": [
+        {
+          "value_code": "2",
+          "value": "2 (medium)"
+        }
+      ],
+      "category_code": "MAPI_RISK_CLASS",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_QUALITY_CHECK",
+      "values": [
+        {
+          "value_code": "00",
+          "value": "Keine Prüfung"
+        }
+      ],
+      "category_code": "MAPI_QUALITY_CHECK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_KUBE_TUKA",
+      "values": [
+        {
+          "value_code": "BLANK",
+          "value": "KUBE und TUKA nicht zugelassen"
+        }
+      ],
+      "category_code": "MAPI_KUBE_TUKA",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HART",
+          "value": "Hartwaren  Handelsware"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "H",
+          "value": "Hartwaren"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "57921",
+          "value": "PFANNENDECKEL"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 1,
+    "percentage": 7.7
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/703851100000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/cucina-tavola-spritzschutzdeckel-703851100000",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/703851100000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/cucina-tavola-spritzschutzdeckel-703851100000",
+      "type": "info",
+      "purchasable": false
+    },
+    "micasa": {
+      "url": "https://www.micasa.ch/de/p/703851100000/cucina-tavola-spritzschutzdeckel",
+      "name": "Micasa",
+      "canonical": "https://produkte.migros.ch/cucina-tavola-spritzschutzdeckel-703851100000",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "regional_availability": {
+    "gmaa": {
+      "probability": 47
+    },
+    "gmbs": {
+      "probability": 52
+    },
+    "gmge": {
+      "probability": 49
+    },
+    "gmlu": {
+      "probability": 37
+    },
+    "gmnf": {
+      "probability": 37
+    },
+    "gmos": {
+      "probability": 47
+    },
+    "gmti": {
+      "probability": 47
+    },
+    "gmvd": {
+      "probability": 45
+    },
+    "gmvs": {
+      "probability": 56
+    },
+    "gmzh": {
+      "probability": 49
+    }
+  },
+  "updated_at": "2020-09-15T18:17:43+0200",
+  "online_shop_relevant": true,
+  "services": {
+    "logistics": [
+      {
+        "code": "MIC_LOGISTIK_FILIALLIEFERUNG_POSTPAKET_GRATIS"
+      },
+      {
+        "code": "MIC_LOGISTIK_POSTPAKET_4_9"
+      }
+    ]
+  },
+  "base_unit": "CU",
+  "slugs": {
+    "de": "cucina-tavola-spritzschutzdeckel-703851100000",
+    "fr": "cucina-tavola-couvercle-contre-les-eclaboussures-703851100000",
+    "it": "cucina-tavola-coperchio-paraspruzzi-703851100000"
+  },
+  "receipt_text": "Spritzschutzdeckel",
+  "main_supplier": {
+    "name": "Metaltex SA",
+    "id": "0010005200",
+    "supplier_product_id": "20.64.29"
+  },
+  "price": {
+    "valid_from": "2018-11-20T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 4.95,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "1 Stück"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "colors": [
+    {
+      "label": "Schwarz / Silber",
+      "hex": "#000000",
+      "group": "Schwarz",
+      "group_hex": "#000000"
+    }
+  ],
+  "galaxus_relevant": true,
+  "ratings": {
+    "count_all": 3,
+    "average_all": 3.666666666667
+  },
+  "data_source": "SAP-X12",
+  "origins": {
+    "producing_country": "Italien"
+  },
+  "package": {
+    "content": 1,
+    "content_unit_code": "cu",
+    "net_weight": 0.125,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogramm",
+    "brutto_weight": 0.14,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 1.015,
+    "brutto_volume_unit_code": "cdm",
+    "height": 1.3,
+    "length": 35,
+    "width": 29,
+    "unit_dimension": "cm"
+  },
+  "package_information": {
+    "cu": {
+      "brutto_weight": 0.14,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 1.015,
+      "brutto_volume_unit_code": "cdm",
+      "height": 1.3,
+      "length": 35,
+      "width": 29,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "tuv": {
+      "brutto_weight": 1.8,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 10.656,
+      "brutto_volume_unit_code": "cdm",
+      "height": 9,
+      "length": 37,
+      "width": 32,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 12
+    },
+    "tue": {
+      "brutto_weight": 1.8,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 9.176,
+      "brutto_volume_unit_code": "cdm",
+      "height": 8,
+      "length": 37,
+      "width": 31,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 12
+    },
+    "lu": {
+      "number_of_base_units": 1656
+    },
+    "moq": {
+      "number_of_base_units": 1656
+    }
+  },
+  "quantity_on_stock": 2426,
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "recipe_ingredient_ids": [
+    "10000"
+  ],
+  "views": [
+    "all",
+    "browse"
+  ]
+}

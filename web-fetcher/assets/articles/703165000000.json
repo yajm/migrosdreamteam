@@ -1,0 +1,760 @@
+{
+  "id": "703165000000",
+  "language": "de",
+  "name": "Cucina & Tavola Küchenschere",
+  "names": {
+    "name": "Cucina & Tavola Küchenschere",
+    "short_name": "Küchenschere"
+  },
+  "slug": "cucina-tavola-kuechenschere-703165000000",
+  "boss_number": "150423102020",
+  "description": {
+    "text": "Anwendung: Schneidet Papier, Schnur, Stoff und Karton.",
+    "source": "PEX"
+  },
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03"
+  },
+  "tags": [
+    "source-pex",
+    "near-non-food",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7613247323387"
+  ],
+  "brand": {
+    "id": "NF1",
+    "name": "Cucina & Tavola",
+    "slug": "cucina-tavola",
+    "image": {
+      "original": "https://image.migros.ch/original/ec18c12011ab778b7756486a090e13866fc1eaf1/cucina-tavola.jpg",
+      "stack": "https://image.migros.ch/{stack}/ec18c12011ab778b7756486a090e13866fc1eaf1/cucina-tavola.jpg"
+    }
+  },
+  "categories": [
+    {
+      "code": "BeSS_01040914",
+      "name": "Schneiden",
+      "slug": "supermarkt/haushalt-reinigung/kueche/schneiden",
+      "visible": true,
+      "parent_code": "BeSS_010409",
+      "image": {
+        "original": "https://image.migros.ch/original/b8a5804c94a33c70f1b0605eb89e90820745bcde/schneiden.jpg",
+        "stack": "https://image.migros.ch/{stack}/b8a5804c94a33c70f1b0605eb89e90820745bcde/schneiden.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010409",
+      "name": "Küche",
+      "slug": "supermarkt/haushalt-reinigung/kueche",
+      "visible": true,
+      "title": "Artikel für die Küche aus Ihrer Migros – gut & günstig!",
+      "parent_code": "BeSS_0104",
+      "image": {
+        "original": "https://image.migros.ch/original/90120e4cc3d5d74e017d4b91bbdcb1da29eb70a6/kueche.jpg",
+        "stack": "https://image.migros.ch/{stack}/90120e4cc3d5d74e017d4b91bbdcb1da29eb70a6/kueche.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0104",
+      "name": "Haushalt & Reinigung",
+      "slug": "supermarkt/haushalt-reinigung",
+      "visible": true,
+      "title": "Reinigung mit der Migros – Reiniger für Haushalt und Garten",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/e5da3225980543e0c7ddcc443069f331d94e8439/haushalt-reinigung.png",
+        "stack": "https://image.migros.ch/{stack}/e5da3225980543e0c7ddcc443069f331d94e8439/haushalt-reinigung.png"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_SchneidenRuesten_Kueche_HaushaltReinigung",
+        "name": "Schneiden & Rüsten",
+        "slug": "amigos/haushalt-reinigung/kueche/schneiden-ruesten",
+        "visible": true,
+        "parent_code": "AMIG_CAT_Kueche_HaushaltReinigung",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_Kueche_HaushaltReinigung",
+        "name": "Küche",
+        "slug": "amigos/haushalt-reinigung/kueche",
+        "visible": true,
+        "parent_code": "AMIG_CAT_HaushaltReinigung",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_HaushaltReinigung",
+        "name": "Haushalt & Reinigung",
+        "slug": "amigos/haushalt-reinigung",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ],
+    [
+      {
+        "code": "MIC_SHOP_CAT_Schneiden_Kochen_Essen_AccessoiresTextilien",
+        "name": "Schneiden",
+        "slug": "micasa/accessoires-textilien/essen/kochen/schneiden",
+        "visible": true,
+        "parent_code": "MIC_SHOP_CAT_Kochen_Essen_AccessoiresTextilien",
+        "level": 5
+      },
+      {
+        "code": "MIC_SHOP_CAT_Kochen_Essen_AccessoiresTextilien",
+        "name": "Kochen",
+        "slug": "micasa/accessoires-textilien/essen/kochen",
+        "visible": true,
+        "parent_code": "MIC_SHOP_CAT_Essen_AccessoiresTextilien",
+        "level": 4
+      },
+      {
+        "code": "MIC_SHOP_CAT_Essen_AccessoiresTextilien",
+        "name": "Essen",
+        "slug": "micasa/accessoires-textilien/essen",
+        "visible": true,
+        "parent_code": "MIC_SHOP_CAT_AccessoiresTextilien",
+        "level": 3
+      },
+      {
+        "code": "MIC_SHOP_CAT_AccessoiresTextilien",
+        "name": "Accessoires & Textilien",
+        "slug": "micasa/accessoires-textilien",
+        "visible": true,
+        "parent_code": "BeSS_02",
+        "level": 2
+      },
+      {
+        "code": "BeSS_02",
+        "name": "Micasa",
+        "slug": "micasa",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ],
+    [
+      {
+        "code": "MIC_SHOP_CAT_MigrosSupermarkt_Essen_AccessoiresTextilien",
+        "name": "Migros Supermarkt",
+        "slug": "micasa/accessoires-textilien/essen/migros-supermarkt",
+        "visible": false,
+        "parent_code": "MIC_SHOP_CAT_Essen_AccessoiresTextilien",
+        "level": 4
+      },
+      {
+        "code": "MIC_SHOP_CAT_Essen_AccessoiresTextilien",
+        "name": "Essen",
+        "slug": "micasa/accessoires-textilien/essen",
+        "visible": true,
+        "parent_code": "MIC_SHOP_CAT_AccessoiresTextilien",
+        "level": 3
+      },
+      {
+        "code": "MIC_SHOP_CAT_AccessoiresTextilien",
+        "name": "Accessoires & Textilien",
+        "slug": "micasa/accessoires-textilien",
+        "visible": true,
+        "parent_code": "BeSS_02",
+        "level": 2
+      },
+      {
+        "code": "BeSS_02",
+        "name": "Micasa",
+        "slug": "micasa",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ],
+    [
+      {
+        "code": "MIC_SHOP_CAT_KuechenhelferZubehoer_Kochen_Essen_AccessoiresTextilien",
+        "name": "Küchenhelfer & Zubehör",
+        "slug": "micasa/accessoires-textilien/essen/kochen/kuechenhelfer-zubehoer",
+        "visible": true,
+        "parent_code": "MIC_SHOP_CAT_Kochen_Essen_AccessoiresTextilien",
+        "level": 5
+      },
+      {
+        "code": "MIC_SHOP_CAT_Kochen_Essen_AccessoiresTextilien",
+        "name": "Kochen",
+        "slug": "micasa/accessoires-textilien/essen/kochen",
+        "visible": true,
+        "parent_code": "MIC_SHOP_CAT_Essen_AccessoiresTextilien",
+        "level": 4
+      },
+      {
+        "code": "MIC_SHOP_CAT_Essen_AccessoiresTextilien",
+        "name": "Essen",
+        "slug": "micasa/accessoires-textilien/essen",
+        "visible": true,
+        "parent_code": "MIC_SHOP_CAT_AccessoiresTextilien",
+        "level": 3
+      },
+      {
+        "code": "MIC_SHOP_CAT_AccessoiresTextilien",
+        "name": "Accessoires & Textilien",
+        "slug": "micasa/accessoires-textilien",
+        "visible": true,
+        "parent_code": "BeSS_02",
+        "level": 2
+      },
+      {
+        "code": "BeSS_02",
+        "name": "Micasa",
+        "slug": "micasa",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "features": [
+    {
+      "label_code": "mic_farbewohnshop_farben",
+      "label": "Farben",
+      "values": [
+        {
+          "value_code": "MIC_FarbeWohnshop_Rot",
+          "value": "Rot"
+        },
+        {
+          "value_code": "MIC_FarbeWohnshop_Schwarz",
+          "value": "Schwarz"
+        }
+      ],
+      "category_code": "MIC_CLA_Accessoires_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "mic_materialwohnshop_material",
+      "label": "Material",
+      "values": [
+        {
+          "value_code": "MIC_MaterialWohnshop_Kunststoff",
+          "value": "Kunststoff"
+        },
+        {
+          "value_code": "MIC_MaterialWohnshop_Stahl",
+          "value": "Stahl"
+        }
+      ],
+      "category_code": "MIC_CLA_Accessoires_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "mic_laenge",
+      "label": "Länge",
+      "values": [
+        {
+          "value_code": "NUMERIC_18.5",
+          "value": "18.5 cm",
+          "numeric_value": 18.5
+        }
+      ],
+      "category_code": "MIC_CLA_GedeckterTischKueche_Accessoires_Alle",
+      "top_fact": false,
+      "unit_code": "cm",
+      "unit": "Zentimeter",
+      "unit_symbol": "cm"
+    },
+    {
+      "label_code": "mic_fuer_lebensmittel_geeignet",
+      "label": "Für Lebensmittel geeignet",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MIC_CLA_GedeckterTischKueche_Accessoires_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "mic_spuelmaschinenfest",
+      "label": "Spülmaschinengeeignet",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "Nein",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MIC_CLA_GedeckterTischKueche_Accessoires_Alle",
+      "top_fact": false
+    }
+  ],
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": true,
+      "reservable": true,
+      "stock_request": true,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": true,
+      "reservable": true,
+      "stock_request": true,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": true,
+      "reservable": true,
+      "stock_request": true,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": true,
+      "reservable": true,
+      "stock_request": true,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": true,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": true,
+      "reservable": true,
+      "stock_request": true,
+      "visible": true,
+      "exclude_cross_channel": []
+    }
+  },
+  "image": {
+    "original": "https://image.migros.ch/original/5bf203690a7ddc943da7e12eaec7d827a85f07cf/cucina-tavola-kuechenschere.jpg",
+    "stack": "https://image.migros.ch/{stack}/5bf203690a7ddc943da7e12eaec7d827a85f07cf/cucina-tavola-kuechenschere.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/1e73c0b490bfc9721217267a616a1797a4154bac/cucina-tavola-kuechenschere.png",
+    "stack": "https://image.migros.ch/{stack}/1e73c0b490bfc9721217267a616a1797a4154bac/cucina-tavola-kuechenschere.png"
+  },
+  "additional_images": [
+    {
+      "original": "https://image.migros.ch/original/088538a1cf8ed295e3f91667c69f11b2bd2ec814.jpg",
+      "stack": "https://image.migros.ch/{stack}/088538a1cf8ed295e3f91667c69f11b2bd2ec814.jpg"
+    }
+  ],
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_sortierung",
+      "label": "Sortierung aMigos",
+      "values": [
+        {
+          "value_code": "NUMERIC_150",
+          "value": "150",
+          "numeric_value": 150
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_gewicht",
+      "label": "Gewicht aMigos!",
+      "values": [
+        {
+          "value_code": "NUMERIC_0.075",
+          "value": "0.075 kg",
+          "numeric_value": 0.075
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false,
+      "unit_code": "kg",
+      "unit": "Kilogramm",
+      "unit_symbol": "kg"
+    },
+    {
+      "label_code": "MISO_aMigos_volumen",
+      "label": "Volumen aMigos!",
+      "values": [
+        {
+          "value_code": "NUMERIC_0.15",
+          "value": "0.15 l",
+          "numeric_value": 0.15
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false,
+      "unit_code": "l",
+      "unit": "Liter",
+      "unit_symbol": "l"
+    },
+    {
+      "label_code": "MAPI_DEFAULT_LOGISTIC_TYPE",
+      "values": [
+        {
+          "value_code": "55",
+          "value": "Versandart Paket"
+        }
+      ],
+      "category_code": "MAPI_DEFAULT_LOGISTIC_TYPE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Normalposition"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "HART"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_RISK_CLASS",
+      "values": [
+        {
+          "value_code": "2",
+          "value": "2 (medium)"
+        }
+      ],
+      "category_code": "MAPI_RISK_CLASS",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_QUALITY_CHECK",
+      "values": [
+        {
+          "value_code": "02",
+          "value": "FRI (Final Random  Inspection)"
+        }
+      ],
+      "category_code": "MAPI_QUALITY_CHECK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_KUBE_TUKA",
+      "values": [
+        {
+          "value_code": "BLANK",
+          "value": "KUBE und TUKA nicht zugelassen"
+        }
+      ],
+      "category_code": "MAPI_KUBE_TUKA",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HART",
+          "value": "Hartwaren  Handelsware"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "H",
+          "value": "Hartwaren"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "50922",
+          "value": "SCHNEIDEN"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 1,
+    "percentage": 7.7
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/703165000000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/cucina-tavola-kuechenschere-703165000000",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/703165000000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/cucina-tavola-kuechenschere-703165000000",
+      "type": "info",
+      "purchasable": false
+    },
+    "micasa": {
+      "url": "https://www.micasa.ch/de/p/703165000000/cucina-tavola-kuechenschere",
+      "name": "Micasa",
+      "canonical": "https://produkte.migros.ch/cucina-tavola-kuechenschere-703165000000",
+      "type": "shop",
+      "purchasable": true
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/4988169",
+      "app_url": "leshop:///catalog/article/detail?ean=7613247323387",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/cucina-tavola-kuechenschere-703165000000",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "regional_availability": {
+    "gmaa": {
+      "probability": 99
+    },
+    "gmbs": {
+      "probability": 96
+    },
+    "gmge": {
+      "probability": 77
+    },
+    "gmlu": {
+      "probability": 97
+    },
+    "gmnf": {
+      "probability": 96
+    },
+    "gmos": {
+      "probability": 100
+    },
+    "gmti": {
+      "probability": 94
+    },
+    "gmvd": {
+      "probability": 92
+    },
+    "gmvs": {
+      "probability": 79
+    },
+    "gmzh": {
+      "probability": 92
+    }
+  },
+  "updated_at": "2020-09-16T06:08:01+0200",
+  "online_shop_relevant": true,
+  "services": {
+    "logistics": [
+      {
+        "code": "MIC_LOGISTIK_FILIALLIEFERUNG_POSTPAKET_GRATIS"
+      },
+      {
+        "code": "MIC_LOGISTIK_POSTPAKET_4_9"
+      }
+    ]
+  },
+  "base_unit": "CU",
+  "slugs": {
+    "de": "cucina-tavola-kuechenschere-703165000000",
+    "fr": "cucina-tavola-ciseaux-de-cuisine-703165000000",
+    "it": "cucina-tavola-forbici-da-cucina-703165000000"
+  },
+  "receipt_text": "Küchenschere",
+  "main_supplier": {
+    "name": "Yangjiang Jiahong Economic",
+    "id": "0010014697",
+    "supplier_product_id": "L090820"
+  },
+  "price": {
+    "valid_from": "2018-06-18T00:00:00+0200",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 4.95,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "18.5.cm"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "colors": [
+    {
+      "label": "Schwarz",
+      "hex": "#000000",
+      "group": "Schwarz",
+      "group_hex": "#000000"
+    },
+    {
+      "label": "Rot",
+      "hex": "#FF0000",
+      "group": "Rot",
+      "group_hex": "#FF0000"
+    }
+  ],
+  "galaxus_relevant": true,
+  "ratings": {
+    "count_all": 1,
+    "average_all": 5
+  },
+  "data_source": "SAP-X12",
+  "origins": {
+    "producing_country": "China"
+  },
+  "package": {
+    "content": 1,
+    "content_unit_code": "cu",
+    "brutto_weight": 0.08,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 0.414,
+    "brutto_volume_unit_code": "cdm",
+    "height": 23,
+    "length": 2,
+    "width": 9,
+    "unit_dimension": "cm",
+    "size": "18.5.cm"
+  },
+  "package_information": {
+    "cu": {
+      "brutto_weight": 0.08,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0.414,
+      "brutto_volume_unit_code": "cdm",
+      "height": 23,
+      "length": 2,
+      "width": 9,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "tuv": {
+      "brutto_weight": 0.48,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 1.104,
+      "brutto_volume_unit_code": "cdm",
+      "height": 6,
+      "length": 23,
+      "width": 8,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 6
+    },
+    "tue": {
+      "number_of_base_units": 6
+    },
+    "lu": {
+      "number_of_base_units": 3240
+    },
+    "moq": {
+      "number_of_base_units": 10800
+    }
+  },
+  "related_products": {
+    "reference_recommendations": {
+      "product_ids": [
+        "703112700000",
+        "703108700000",
+        "703112100000"
+      ]
+    }
+  },
+  "quantity_on_stock": 26935,
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "recipe_ingredient_ids": [
+    "10000"
+  ],
+  "views": [
+    "all",
+    "browse"
+  ]
+}

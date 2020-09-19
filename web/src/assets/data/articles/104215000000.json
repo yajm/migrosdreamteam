@@ -1,0 +1,99 @@
+{
+  "name": "Aha! Farmer Crunchy Corn Flakes",
+  "regulated_description": "Getreidestängel mit Cornflakes",
+  "image": {
+    "original": "https://image.migros.ch/original/90b8a16a1ac07ac0750f399eda3010a1638f6894/aha-farmer-crunchy-corn-flakes.jpg"
+  },
+  "price": {
+    "item": {
+      "price": 3.6
+    }
+  },
+  "nutrition_facts": {
+    "standard": {
+      "nutrients": {
+        "nutrients": [
+          {
+            "code": "PIM_NUT_ENERGIE",
+            "name": "Energie",
+            "pictogram_name": "Energie",
+            "category": "BIG9",
+            "quantity": 1800,
+            "rda_percent": 21,
+            "rda_percent_operator": "=",
+            "quantity_unit": "kJ",
+            "quantity_alternate": 426,
+            "quantity_alternate_unit": "kcal"
+          },
+          {
+            "code": "PIM_NUT_FETT",
+            "name": "Fett",
+            "pictogram_name": "Fett",
+            "category": "BIG9",
+            "quantity": 12,
+            "rda_percent": 17,
+            "rda_percent_operator": "=",
+            "quantity_unit": "g"
+          },
+          {
+            "code": "PIM_NUT_FETT_GES",
+            "name": "davon gesättigte Fettsäuren",
+            "pictogram_name": "gesättigte Fettsäuren",
+            "category": "BIG9",
+            "quantity": 9,
+            "rda_percent": 45,
+            "rda_percent_operator": "=",
+            "quantity_unit": "g"
+          },
+          {
+            "code": "PIM_NUT_KOHLENHY",
+            "name": "Kohlenhydrate",
+            "category": "BIG9",
+            "quantity": 74,
+            "rda_percent": 28,
+            "rda_percent_operator": "=",
+            "quantity_unit": "g"
+          },
+          {
+            "code": "PIM_NUT_ZUCKER",
+            "name": "davon Zucker",
+            "pictogram_name": "Zuckerarten",
+            "category": "BIG9",
+            "quantity": 32,
+            "rda_percent": 36,
+            "rda_percent_operator": "=",
+            "quantity_unit": "g"
+          },
+          {
+            "code": "PIM_NUT_GES_BALL",
+            "name": "Ballaststoffe",
+            "category": "BIG9",
+            "quantity": 2,
+            "quantity_unit": "g"
+          },
+          {
+            "code": "PIM_NUT_PROTEINE",
+            "name": "Eiweiss",
+            "category": "BIG9",
+            "quantity": 5,
+            "rda_percent": 10,
+            "rda_percent_operator": "=",
+            "quantity_unit": "g"
+          },
+          {
+            "code": "PIM_NUT_KOCHSALZ",
+            "name": "Salz",
+            "pictogram_name": "Salz",
+            "category": "BIG9",
+            "quantity": 1.3,
+            "rda_percent": 22,
+            "rda_percent_operator": "=",
+            "quantity_unit": "g"
+          }
+        ],
+        "base_quantity": 100,
+        "base_unit": "g"
+      }
+    }
+  }
+}

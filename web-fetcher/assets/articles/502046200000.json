@@ -1,0 +1,656 @@
+{
+  "id": "502046200000",
+  "language": "de",
+  "name": "M-Plus Essigreiniger Refill",
+  "names": {
+    "name": "M-Plus Essigreiniger Refill",
+    "short_name": "Essigreiniger Refill"
+  },
+  "slug": "m-plus-essigreiniger-refill",
+  "boss_number": "150126803705",
+  "description": {
+    "text": "Wie wirkt Apfelessig? Als bew&auml;hrter Naturwirkstoff wandelt Essig Kalk in leicht l&ouml;sliche Salze um und beseitigt m&uuml;helos unangenehme Ger&uuml;che.",
+    "source": "PEX"
+  },
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03"
+  },
+  "tags": [
+    "source-pex",
+    "near-non-food",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7630028661629",
+    "7630028661636"
+  ],
+  "brand": {
+    "id": "127",
+    "name": "M-Plus",
+    "slug": "m-plus"
+  },
+  "categories": [
+    {
+      "code": "BeSS_0104010608",
+      "name": "Kalkentferner",
+      "slug": "supermarkt/haushalt-reinigung/waschen-reinigen-pflege/reinigungsmittel/kalkentferner",
+      "visible": true,
+      "parent_code": "BeSS_01040106",
+      "image": {
+        "original": "https://image.migros.ch/original/d6a427324309be663cbcfa8d18190d0434701ddb/kalkentferner.jpg",
+        "stack": "https://image.migros.ch/{stack}/d6a427324309be663cbcfa8d18190d0434701ddb/kalkentferner.jpg"
+      },
+      "level": 5
+    },
+    {
+      "code": "BeSS_01040106",
+      "name": "Reinigungsmittel",
+      "slug": "supermarkt/haushalt-reinigung/waschen-reinigen-pflege/reinigungsmittel",
+      "visible": true,
+      "title": "Putzmittel bei der Migros: Und alles glänzt!",
+      "parent_code": "BeSS_010401",
+      "image": {
+        "original": "https://image.migros.ch/original/4a6e2ed6ea91c788040edfec8e65462f3deee722/reinigungsmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/4a6e2ed6ea91c788040edfec8e65462f3deee722/reinigungsmittel.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010401",
+      "name": "Waschen, Reinigen & Pflege",
+      "slug": "supermarkt/haushalt-reinigung/waschen-reinigen-pflege",
+      "visible": true,
+      "parent_code": "BeSS_0104",
+      "image": {
+        "original": "https://image.migros.ch/original/4187e91a67904fcbbbb5b901717fabe280e0ad24/waschen-reinigen-pflege.jpg",
+        "stack": "https://image.migros.ch/{stack}/4187e91a67904fcbbbb5b901717fabe280e0ad24/waschen-reinigen-pflege.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0104",
+      "name": "Haushalt & Reinigung",
+      "slug": "supermarkt/haushalt-reinigung",
+      "visible": true,
+      "title": "Reinigung mit der Migros – Reiniger für Haushalt und Garten",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/e5da3225980543e0c7ddcc443069f331d94e8439/haushalt-reinigung.png",
+        "stack": "https://image.migros.ch/{stack}/e5da3225980543e0c7ddcc443069f331d94e8439/haushalt-reinigung.png"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_AllzweckGlasreiniger_ReinigenPutzen_HaushaltReinigung",
+        "name": "Allzweck & Glasreiniger",
+        "slug": "amigos/haushalt-reinigung/reinigen-putzen/allzweck-glasreiniger",
+        "visible": true,
+        "parent_code": "AMIG_CAT_ReinigenPutzen_HaushaltReinigung",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_ReinigenPutzen_HaushaltReinigung",
+        "name": "Reinigen & Putzen",
+        "slug": "amigos/haushalt-reinigung/reinigen-putzen",
+        "visible": true,
+        "parent_code": "AMIG_CAT_HaushaltReinigung",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_HaushaltReinigung",
+        "name": "Haushalt & Reinigung",
+        "slug": "amigos/haushalt-reinigung",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "features": [
+    {
+      "label_code": "miso_spezielle_eigenschaften",
+      "label": "Spezielle Eigenschaften",
+      "values": [
+        {
+          "value": "100% biologisch abbaubar"
+        }
+      ],
+      "category_code": "MISO_CLA_WaschenPapierReinigen_Haushalt_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "miso_oeko_hinweis",
+      "label": "Öko Hinweis",
+      "values": [
+        {
+          "value_code": "MISO_biologisch_gut_abbaubar_OECD_test_302B_ergaenzt_mit_CO2_analytik",
+          "value": "Biologisch gut abbaubar (OECD-Test 302B, ergänzt mit CO2-Analytik)"
+        },
+        {
+          "value_code": "MISO_mit_natuerlichen_nachwachsenden_rohstoffen",
+          "value": "Mit natürlichen, nachwachsenden Rohstoffen"
+        },
+        {
+          "value_code": "MISO_recycling",
+          "value": "Recycling"
+        }
+      ],
+      "category_code": "MISO_CLA_WaschenPapierReinigen_Haushalt_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "miso_gefahrenhinweise",
+      "label": "Gefahrenhinweise",
+      "values": [
+        {
+          "value": "Darf nicht in die Hände von Kindern gelangen"
+        }
+      ],
+      "category_code": "MISO_CLA_WaschenPapierReinigen_Haushalt_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "miso_anwendbarkeit_beschaffenheit_form",
+      "label": "Form",
+      "values": [
+        {
+          "value_code": "MISO_fluessig",
+          "value": "flüssig"
+        }
+      ],
+      "category_code": "MISO_CLA_Reinigungsmittel_WaschenPapierReinigen_Haushalt_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "miso_geeignet_fuer",
+      "label": "Geeignet für",
+      "values": [
+        {
+          "value_code": "MISO_bad",
+          "value": "Bad"
+        }
+      ],
+      "category_code": "MISO_CLA_Reinigungsmittel_WaschenPapierReinigen_Haushalt_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "miso_nicht_geeignet_fuer",
+      "label": "Nicht geeignet für",
+      "values": [
+        {
+          "value_code": "MISO_siehe_anleitung",
+          "value": "Siehe Anleitung!"
+        }
+      ],
+      "category_code": "MISO_CLA_Reinigungsmittel_WaschenPapierReinigen_Haushalt_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "CHEMICALS_WARNING",
+      "label": "Warnhinweis",
+      "values": [
+        {
+          "value": "Vor Gebrauch stets Kennzeichnung und Produktinformationen lesen."
+        }
+      ],
+      "category_code": "CHEMICALS_WARNING",
+      "top_fact": false
+    }
+  ],
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    }
+  },
+  "image": {
+    "original": "https://image.migros.ch/original/3dc2f53a82f7a3a8c989d6602c1ca28b1474f912/m-plus-essigreiniger-refill.jpg",
+    "stack": "https://image.migros.ch/{stack}/3dc2f53a82f7a3a8c989d6602c1ca28b1474f912/m-plus-essigreiniger-refill.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/05c96e83763c1004f0cc57cc49e88fa40cec4722/m-plus-essigreiniger-refill.png",
+    "stack": "https://image.migros.ch/{stack}/05c96e83763c1004f0cc57cc49e88fa40cec4722/m-plus-essigreiniger-refill.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_sortierung",
+      "label": "Sortierung aMigos",
+      "values": [
+        {
+          "value_code": "NUMERIC_260",
+          "value": "260",
+          "numeric_value": 260
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_volumen",
+      "label": "Volumen aMigos!",
+      "values": [
+        {
+          "value_code": "NUMERIC_1.5",
+          "value": "1.5 l",
+          "numeric_value": 1.5
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false,
+      "unit_code": "l",
+      "unit": "Liter",
+      "unit_symbol": "l"
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Normalposition"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "ZHKS"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_RISK_CLASS",
+      "values": [
+        {
+          "value_code": "2",
+          "value": "2 (medium)"
+        }
+      ],
+      "category_code": "MAPI_RISK_CLASS",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_QUALITY_CHECK",
+      "values": [
+        {
+          "value_code": "00",
+          "value": "Keine Prüfung"
+        }
+      ],
+      "category_code": "MAPI_QUALITY_CHECK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZHKS",
+          "value": "HKS Standardartikel"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "H",
+          "value": "HKS Standard"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "50314",
+          "value": "KALK"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_LIFECYCLE",
+      "values": [
+        {
+          "value_code": "D",
+          "value": "Detailhandelsartikel"
+        }
+      ],
+      "category_code": "MAPI_LIFECYCLE",
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 1,
+    "percentage": 7.7
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/502046200000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/m-plus-essigreiniger-refill",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/502046200000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/m-plus-essigreiniger-refill",
+      "type": "info",
+      "purchasable": false
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/109014",
+      "app_url": "leshop:///catalog/article/detail?ean=7630028661629",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/m-plus-essigreiniger-refill",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "regional_availability": {
+    "gmaa": {
+      "probability": 97
+    },
+    "gmbs": {
+      "probability": 96
+    },
+    "gmge": {
+      "probability": 92
+    },
+    "gmlu": {
+      "probability": 95
+    },
+    "gmnf": {
+      "probability": 96
+    },
+    "gmos": {
+      "probability": 99
+    },
+    "gmti": {
+      "probability": 100
+    },
+    "gmvd": {
+      "probability": 95
+    },
+    "gmvs": {
+      "probability": 90
+    },
+    "gmzh": {
+      "probability": 92
+    }
+  },
+  "updated_at": "2020-09-16T06:01:13+0200",
+  "base_unit": "CU",
+  "slugs": {
+    "de": "m-plus-essigreiniger-refill",
+    "fr": "m-plus-recharge-detergent-vinaigre",
+    "it": "m-plus-detergente-aceto"
+  },
+  "receipt_text": "Migros Plus Essigreini",
+  "main_supplier": {
+    "name": "MIFA AG FRENKENDORF",
+    "id": "0003030000",
+    "supplier_product_id": "7000928"
+  },
+  "price": {
+    "valid_from": "2018-01-01T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 2.95,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "1l"
+    },
+    "base": {
+      "price": 0.3,
+      "quantity": 100,
+      "unit": "ml"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "galaxus_relevant": true,
+  "ratings": {
+    "count_all": 9,
+    "average_all": 4
+  },
+  "data_source": "SAP-X11",
+  "chemicals_declaration": {
+    "release_date": "2017-07-05T10:39:23+0200",
+    "supplier_id": "0003030000",
+    "supplier_description": "MIFA AG FRENKENDORF",
+    "hazard_statements": [
+      {
+        "code": "H319",
+        "label": "Verursacht schwere Augenreizung."
+      }
+    ],
+    "precautionary_statements": [
+      {
+        "code": "P102",
+        "label": "Darf nicht in die Hände von Kindern gelangen."
+      },
+      {
+        "code": "P280",
+        "label": "Schutzhandschuhe / Schutzkleidung / Augenschutz / Gesichtsschutz tragen."
+      },
+      {
+        "code": "P305_351_338",
+        "label": "BEI KONTAKT MIT DEN AUGEN: Einige Minuten lang behutsam mit Wasser ausspülen. Eventuell vorhandene Kontaktlinsen nach Möglichkeit entfernen. Weiter spülen."
+      },
+      {
+        "code": "P337_313",
+        "label": "Bei anhaltender Augenreizung: Ärztlichen Rat einholen/ärztliche Hilfe hinzuziehen."
+      }
+    ],
+    "signal_word": {
+      "code": "SW02",
+      "label": "Achtung"
+    },
+    "cpid_number": "264618-92 (MIFA)",
+    "poison_cabinet": false,
+    "hazard_pictograms": [
+      {
+        "original": "https://image.migros.ch/original/09b3c0810d45b7f83a5ad48c5bc38d4d0227615b/GHS07.jpg",
+        "code": "GHS07",
+        "description": "Dickes Ausrufezeichen",
+        "stack": "https://image.migros.ch/{stack}/09b3c0810d45b7f83a5ad48c5bc38d4d0227615b/GHS07.jpg"
+      }
+    ],
+    "cleaning_agents": [
+      {
+        "concentration": {
+          "code": "RMK05",
+          "label": "weniger als 5 %"
+        },
+        "group": {
+          "code": "RMS04",
+          "label": "nichtionische Tenside"
+        }
+      }
+    ],
+    "extra_cleaning_agents": [
+      {
+        "group": {
+          "code": "RMW04",
+          "label": "Duftstoffe"
+        }
+      }
+    ]
+  },
+  "package": {
+    "content": 1000,
+    "content_unit_code": "ml",
+    "content_unit": "Mililiter",
+    "net_weight": 1,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogramm",
+    "brutto_weight": 1.028,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 4.104,
+    "brutto_volume_unit_code": "cdm",
+    "height": 28.5,
+    "length": 9,
+    "width": 16,
+    "unit_dimension": "cm",
+    "price_comparison_content": 100,
+    "size": "1l"
+  },
+  "package_information": {
+    "tu": {
+      "brutto_weight": 12.68,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 28.8,
+      "brutto_volume_unit_code": "cdm",
+      "height": 30,
+      "length": 40,
+      "width": 24,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 12
+    },
+    "cu": {
+      "brutto_weight": 1.028,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 4.104,
+      "brutto_volume_unit_code": "cdm",
+      "height": 28.5,
+      "length": 9,
+      "width": 16,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "lu": {
+      "brutto_weight": 616.8,
+      "brutto_weight_unit_code": "kg",
+      "height": 170,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 600
+    }
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "views": [
+    "all",
+    "browse"
+  ]
+}

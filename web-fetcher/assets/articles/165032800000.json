@@ -1,0 +1,639 @@
+{
+  "id": "165032800000",
+  "language": "de",
+  "name": "Bio Pelican Lachsfilets",
+  "names": {
+    "name": "Bio Pelican Lachsfilets"
+  },
+  "slug": "bio-pelican-lachsfilets",
+  "boss_number": "010510552605",
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "source-qim-allergens",
+    "source-qim-fooddeclaration",
+    "source-qim-nutritionfacts",
+    "source-qim-origins",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7613312272640"
+  ],
+  "brand": {
+    "id": "440",
+    "name": "Pelican",
+    "slug": "pelican"
+  },
+  "labels": [
+    {
+      "id": "L02",
+      "name": "Migros Bio",
+      "slug": "migros-bio",
+      "links": {
+        "homepage": {
+          "url": "https://bio.migros.ch/de.html",
+          "name": "Homepage",
+          "type": "info",
+          "purchasable": false
+        }
+      },
+      "image": {
+        "original": "https://image.migros.ch/original/f32d1804b8db5760147310b8d6458eb36757b486/migros-bio.jpg",
+        "stack": "https://image.migros.ch/{stack}/f32d1804b8db5760147310b8d6458eb36757b486/migros-bio.jpg"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_0101150403",
+      "name": "Bio Fisch",
+      "slug": "supermarkt/lebensmittel/tiefkuehlprodukte/fisch-meeresfruechte/bio-fisch",
+      "visible": true,
+      "parent_code": "BeSS_01011504",
+      "level": 5
+    },
+    {
+      "code": "BeSS_01011504",
+      "name": "Fisch & Meeresfrüchte",
+      "slug": "supermarkt/lebensmittel/tiefkuehlprodukte/fisch-meeresfruechte",
+      "visible": true,
+      "title": "Lecker und empfehlenswert &ndash; Tiefkühlfisch von der Migros",
+      "parent_code": "BeSS_010115",
+      "level": 4
+    },
+    {
+      "code": "BeSS_010115",
+      "name": "Tiefkühlprodukte",
+      "slug": "supermarkt/lebensmittel/tiefkuehlprodukte",
+      "visible": true,
+      "title": "Tiefkühlprodukte aus Ihrer Migros: schnell etwas Feines auf Ihren Tisch",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/b8e389701dd44ecdd5fbc95db5eed9b0a8c4a03d/tiefkuehlprodukte.jpg",
+        "stack": "https://image.migros.ch/{stack}/b8e389701dd44ecdd5fbc95db5eed9b0a8c4a03d/tiefkuehlprodukte.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_Lachs_FischMeeresfruechte_FleischFisch",
+        "name": "Lachs",
+        "slug": "amigos/fleisch-fisch/fisch-meeresfruechte/lachs",
+        "visible": true,
+        "parent_code": "AMIG_CAT_FischMeeresfruechte_FleischFisch",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_FischMeeresfruechte_FleischFisch",
+        "name": "Fisch & Meeresfrüchte",
+        "slug": "amigos/fleisch-fisch/fisch-meeresfruechte",
+        "visible": true,
+        "parent_code": "AMIG_CAT_FleischFisch",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_FleischFisch",
+        "name": "Fleisch & Fisch",
+        "slug": "amigos/fleisch-fisch",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "nutrition_facts": {
+    "standard": {
+      "nutrients": [
+        {
+          "code": "PIM_NUT_ENERGIE",
+          "name": "Energie",
+          "pictogram_name": "Energie",
+          "category": "BIG9",
+          "quantity": 962,
+          "nutrition_operator": "=",
+          "quantity_unit": "kJ",
+          "quantity_alternate": 231,
+          "quantity_alternate_unit": "kcal"
+        },
+        {
+          "code": "PIM_NUT_FETT",
+          "name": "Fett",
+          "pictogram_name": "Fett",
+          "category": "BIG9",
+          "quantity": 17,
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_FETT_GES",
+          "name": "davon gesättigte Fettsäuren",
+          "pictogram_name": "gesättigte Fettsäuren",
+          "category": "BIG9",
+          "quantity": 4.4,
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_KOHLENHY",
+          "name": "Kohlenhydrate",
+          "category": "BIG9",
+          "quantity": 0,
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_ZUCKER",
+          "name": "davon Zucker",
+          "pictogram_name": "Zuckerarten",
+          "category": "BIG9",
+          "quantity": 0,
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_GES_BALL",
+          "name": "Ballaststoffe",
+          "category": "BIG9",
+          "quantity": 0,
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_PROTEINE",
+          "name": "Eiweiss",
+          "category": "BIG9",
+          "quantity": 20,
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_KOCHSALZ",
+          "name": "Salz",
+          "pictogram_name": "Salz",
+          "category": "BIG9",
+          "quantity": 0.14,
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        }
+      ],
+      "base_quantity": 100,
+      "base_unit": "g"
+    },
+    "portion": {
+      "nutrients": [
+        {
+          "code": "PIM_NUT_ENERGIE",
+          "name": "Energie",
+          "pictogram_name": "Energie",
+          "category": "BIG9",
+          "quantity": 1202,
+          "rda_percent": 14,
+          "rda_percent_operator": "=",
+          "nutrition_operator": "=",
+          "quantity_unit": "kJ",
+          "quantity_alternate": 289,
+          "quantity_alternate_unit": "kcal"
+        },
+        {
+          "code": "PIM_NUT_FETT",
+          "name": "Fett",
+          "pictogram_name": "Fett",
+          "category": "BIG9",
+          "quantity": 21,
+          "rda_percent": 30,
+          "rda_percent_operator": "=",
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_FETT_GES",
+          "name": "davon gesättigte Fettsäuren",
+          "pictogram_name": "gesättigte Fettsäuren",
+          "category": "BIG9",
+          "quantity": 5.5,
+          "rda_percent": 28,
+          "rda_percent_operator": "=",
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_KOHLENHY",
+          "name": "Kohlenhydrate",
+          "category": "BIG9",
+          "quantity": 0,
+          "rda_percent": 0,
+          "rda_percent_operator": "=",
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_ZUCKER",
+          "name": "davon Zucker",
+          "pictogram_name": "Zuckerarten",
+          "category": "BIG9",
+          "quantity": 0,
+          "rda_percent": 0,
+          "rda_percent_operator": "=",
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_GES_BALL",
+          "name": "Ballaststoffe",
+          "category": "BIG9",
+          "quantity": 0,
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_PROTEINE",
+          "name": "Eiweiss",
+          "category": "BIG9",
+          "quantity": 25,
+          "rda_percent": 50,
+          "rda_percent_operator": "=",
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_KOCHSALZ",
+          "name": "Salz",
+          "pictogram_name": "Salz",
+          "category": "BIG9",
+          "quantity": 0.18,
+          "rda_percent": 3,
+          "rda_percent_operator": "=",
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        }
+      ],
+      "base_description": "1/2 Packung",
+      "base_quantity": 125,
+      "base_unit": "g",
+      "package_type": "Packung",
+      "portions_per_package": "2",
+      "portions_per_package_precision": "="
+    }
+  },
+  "additional_nutrition_facts": {
+    "standard": {
+      "nutrients": [
+        {
+          "code": "PIM_NUT_OMEGA_3",
+          "name": "Omega-3-Fettsäuren",
+          "category": "SONSTIGE",
+          "quantity": 3.4,
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        }
+      ],
+      "base_quantity": 100,
+      "base_unit": "g"
+    },
+    "portion": {
+      "nutrients": [
+        {
+          "code": "PIM_NUT_OMEGA_3",
+          "name": "Omega-3-Fettsäuren",
+          "category": "SONSTIGE",
+          "quantity": 4.2,
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        }
+      ],
+      "base_description": "1/2 Packung",
+      "base_quantity": 125,
+      "base_unit": "g"
+    }
+  },
+  "allergens": [
+    {
+      "code": "ALLG_FISCH",
+      "name": "Fische und daraus gewonnene Erzeugnisse",
+      "contamination_code": "VORHANDEN",
+      "contamination": "vorhanden"
+    }
+  ],
+  "general_information": [
+    {
+      "label": "Warnhinweis und weitere obligatorische Angaben",
+      "value": "Grätenfrei: Die Gräten wurden mit grösster Sorgfalt entfernt. In Ausnahmefällen kann es aber trotzdem vorkommen, dass noch Gräten enthalten sind. Dieses Produkt ist nur gut durchgekocht/gebraten zu konsumieren."
+    },
+    {
+      "label": "Zubereitungshinweis",
+      "value": "Pfanne: Öl/Butter in der Pfanne erhitzen und die aufgetauten Filets 3-4 Minuten pro Seite braten.\nBackofen: Die aufgetauten Filets 9-10 Minuten im vorgeheizten Ofen bei 180°C backen."
+    },
+    {
+      "label": "Kühlhinweis / Aufbewahrungshinweis",
+      "value": "Tiefgekühlt: Nur im Tiefkühlabteil bei max. -18 °C lagerfähig. Einmal aufgetaut, nicht wieder einfrieren und sofort konsumieren."
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/4089b6e04be69e61e636830e5b8b02444048b7dd/bio-pelican-lachsfilets.jpg",
+    "stack": "https://image.migros.ch/{stack}/4089b6e04be69e61e636830e5b8b02444048b7dd/bio-pelican-lachsfilets.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/692a20050062aafb568dc398b9a38c0e649ed81a/bio-pelican-lachsfilets.png",
+    "stack": "https://image.migros.ch/{stack}/692a20050062aafb568dc398b9a38c0e649ed81a/bio-pelican-lachsfilets.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "M",
+          "value": "Kolonial Standard"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "30154",
+          "value": "TK BIO FISCH"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "regulated_description": "Atlantischer Lachs (Salmo salar)-Filets, zum Gekochtessen",
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/165032800000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/bio-pelican-lachsfilets",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/165032800000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/bio-pelican-lachsfilets",
+      "type": "info",
+      "purchasable": false
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/5072366",
+      "app_url": "leshop:///catalog/article/detail?ean=7613312272640",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/bio-pelican-lachsfilets",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "regional_availability": {
+    "gmaa": {
+      "probability": 26
+    },
+    "gmbs": {
+      "probability": 48
+    },
+    "gmge": {
+      "probability": 33
+    },
+    "gmlu": {
+      "probability": 32
+    },
+    "gmnf": {
+      "probability": 45
+    },
+    "gmos": {
+      "probability": 53
+    },
+    "gmti": {
+      "probability": 59
+    },
+    "gmvd": {
+      "probability": 38
+    },
+    "gmvs": {
+      "probability": 38
+    },
+    "gmzh": {
+      "probability": 45
+    }
+  },
+  "updated_at": "2020-09-16T05:52:41+0200",
+  "base_unit": "CU",
+  "slugs": {
+    "de": "bio-pelican-lachsfilets",
+    "fr": "bio-pelican-filets-de-saumon",
+    "it": "bio-pelican-filetti-di-salmone"
+  },
+  "receipt_text": "Bio Lachsfilets 250g",
+  "main_supplier": {
+    "name": "Sea Fresh Retail BV",
+    "id": "0010044821"
+  },
+  "price": {
+    "valid_from": "2019-10-01T00:00:00+0200",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 9.95,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "250g"
+    },
+    "base": {
+      "price": 3.98,
+      "quantity": 100,
+      "unit": "g"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 2,
+    "average_all": 5
+  },
+  "data_source": "SAP-X11",
+  "origins": {
+    "producing_country": "Herkunft: Norwegen (Zucht), abgepackt in den Niederlanden",
+    "production_facility_id": "NL\n6083\nEG"
+  },
+  "ingredients": "<strong>Atlantischer Lachs (Salmo salar)</strong> *. \n* Aus ausländischer Bio-Produktion.",
+  "package": {
+    "content": 250,
+    "content_unit_code": "g",
+    "content_unit": "Gramm",
+    "net_weight": 0.25,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogramm",
+    "brutto_weight": 0.295,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 1.153,
+    "brutto_volume_unit_code": "cdm",
+    "height": 13.1,
+    "length": 4.4,
+    "width": 20,
+    "unit_dimension": "cm",
+    "price_comparison_content": 100,
+    "size": "250g"
+  },
+  "package_information": {
+    "tu": {
+      "brutto_weight": 2.45,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 9.761,
+      "brutto_volume_unit_code": "cdm",
+      "height": 14.2,
+      "length": 34.2,
+      "width": 20.1,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 8
+    },
+    "cu": {
+      "brutto_weight": 0.295,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 1.153,
+      "brutto_volume_unit_code": "cdm",
+      "height": 13.1,
+      "length": 4.4,
+      "width": 20,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "lu": {
+      "brutto_weight": 348.4,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0,
+      "height": 0,
+      "length": 120,
+      "width": 80,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1056
+    }
+  },
+  "declarations": {
+    "food": {
+      "nutri_score": {
+        "value": "B",
+        "image": {
+          "original": "https://image.migros.ch/original/7f370ce3ac48b324e845b75dfc9d151a16c76481.png",
+          "stack": "https://image.migros.ch/{stack}/7f370ce3ac48b324e845b75dfc9d151a16c76481.png"
+        }
+      },
+      "features": [
+        {
+          "label_code": "GDSN_M281_NetContent",
+          "label": "Nettofüllmenge Wert",
+          "values": [
+            {
+              "value_code": "NUMERIC_250",
+              "value": "250",
+              "numeric_value": 250
+            }
+          ],
+          "category_code": "GDSN",
+          "top_fact": false,
+          "unit_code": "g"
+        },
+        {
+          "label_code": "MAPI_CERTIFICATION_BODY",
+          "label": "Zertifizierungsstellen für Bio und/oder Berg/Alp inkl. Zertifizierungsnummer",
+          "values": [
+            {
+              "value": "NL-BIO-01"
+            }
+          ],
+          "category_code": "GDSN",
+          "top_fact": false
+        },
+        {
+          "label_code": "QIM_ZubereitungshinweisDeklaration",
+          "label": "Zubereitungshinweis",
+          "values": [
+            {
+              "value": "Pfanne: Öl/Butter in der Pfanne erhitzen und die aufgetauten Filets 3-4 Minuten pro Seite braten.\nBackofen: Die aufgetauten Filets 9-10 Minuten im vorgeheizten Ofen bei 180°C backen."
+            }
+          ],
+          "category_code": "GDSN",
+          "top_fact": false
+        }
+      ]
+    }
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "recipe_ingredient_ids": [
+    "10000"
+  ],
+  "views": [
+    "all",
+    "browse"
+  ]
+}

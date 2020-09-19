@@ -1,0 +1,594 @@
+{
+  "id": "212515200000",
+  "language": "de",
+  "name": "Caprice des Dieux",
+  "names": {
+    "name": "Caprice des Dieux"
+  },
+  "slug": "caprice-des-dieux-212515200000",
+  "boss_number": "030413501520",
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "80"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "source-qim-origins",
+    "source-qim-distributor",
+    "validity-range-not-set",
+    "source-qim-allergens",
+    "source-qim-fooddeclaration",
+    "source-qim-nutritionfacts",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "3161710000135",
+    "3161710000067"
+  ],
+  "brand": {
+    "id": "K51",
+    "name": "Caprice des Dieux",
+    "slug": "caprice-des-dieux"
+  },
+  "categories": [
+    {
+      "code": "BeSS_0101040102",
+      "name": "Weichkäse",
+      "slug": "supermarkt/lebensmittel/milchprodukte-eier/kaese/weichkaese",
+      "visible": true,
+      "title": "Weichkäse in Ihrer Migros kaufen",
+      "parent_code": "BeSS_01010401",
+      "image": {
+        "original": "https://image.migros.ch/original/feb813aeaa1b578eaa2ecf75ec24f44c1418b754/weichkaese.jpg",
+        "stack": "https://image.migros.ch/{stack}/feb813aeaa1b578eaa2ecf75ec24f44c1418b754/weichkaese.jpg"
+      },
+      "level": 5
+    },
+    {
+      "code": "BeSS_01010401",
+      "name": "Käse",
+      "slug": "supermarkt/lebensmittel/milchprodukte-eier/kaese",
+      "visible": true,
+      "title": "Käse von Ihrer Migros &ndash; macht Appetit auf mehr",
+      "parent_code": "BeSS_010104",
+      "image": {
+        "original": "https://image.migros.ch/original/4fbf646a3ebce5b0f570ef4c8f4f9e8d708bb65f/kaese.jpg",
+        "stack": "https://image.migros.ch/{stack}/4fbf646a3ebce5b0f570ef4c8f4f9e8d708bb65f/kaese.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010104",
+      "name": "Milchprodukte & Eier",
+      "slug": "supermarkt/lebensmittel/milchprodukte-eier",
+      "visible": true,
+      "title": "Milchprodukte und Eier –",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/6b1ea6c2d41c3ccb21bf05c8dc342f7f55d83deb/milchprodukte-eier.jpg",
+        "stack": "https://image.migros.ch/{stack}/6b1ea6c2d41c3ccb21bf05c8dc342f7f55d83deb/milchprodukte-eier.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_Weich_Kaese_MilchprodukteEier",
+        "name": "Weich",
+        "slug": "amigos/milchprodukte-eier/kaese/weich",
+        "visible": true,
+        "parent_code": "AMIG_CAT_Kaese_MilchprodukteEier",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_Kaese_MilchprodukteEier",
+        "name": "Käse",
+        "slug": "amigos/milchprodukte-eier/kaese",
+        "visible": true,
+        "parent_code": "AMIG_CAT_MilchprodukteEier",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_MilchprodukteEier",
+        "name": "Milchprodukte & Eier",
+        "slug": "amigos/milchprodukte-eier",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "nutrition_facts": {
+    "standard": {
+      "nutrients": [
+        {
+          "code": "PIM_NUT_ENERGIE",
+          "name": "Energie",
+          "pictogram_name": "Energie",
+          "category": "BIG9",
+          "quantity": 1379,
+          "nutrition_operator": "=",
+          "quantity_unit": "kJ",
+          "quantity_alternate": 333,
+          "quantity_alternate_unit": "kcal"
+        },
+        {
+          "code": "PIM_NUT_FETT",
+          "name": "Fett",
+          "pictogram_name": "Fett",
+          "category": "BIG9",
+          "quantity": 30,
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_FETT_GES",
+          "name": "davon gesättigte Fettsäuren",
+          "pictogram_name": "gesättigte Fettsäuren",
+          "category": "BIG9",
+          "quantity": 21,
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_KOHLENHY",
+          "name": "Kohlenhydrate",
+          "category": "BIG9",
+          "quantity": 0.8,
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_ZUCKER",
+          "name": "davon Zucker",
+          "pictogram_name": "Zuckerarten",
+          "category": "BIG9",
+          "quantity": 0.5,
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_PROTEINE",
+          "name": "Eiweiss",
+          "category": "BIG9",
+          "quantity": 15,
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_KOCHSALZ",
+          "name": "Salz",
+          "pictogram_name": "Salz",
+          "category": "BIG9",
+          "quantity": 1.4,
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_CALCIUM",
+          "name": "Calcium",
+          "category": "MINERALSTOFFE_SPURENELEMENTE",
+          "quantity": 350,
+          "nutrition_operator": "=",
+          "quantity_unit": "mg"
+        }
+      ],
+      "base_quantity": 100,
+      "base_unit": "g",
+      "serving_size_description": "125 g"
+    }
+  },
+  "features": [
+    {
+      "label_code": "MISO_mussgekuehltwerden",
+      "label": "Muss gekühlt werden",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MISO_CLA_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_karton",
+          "value": "Karton"
+        }
+      ],
+      "category_code": "MISO_CLA_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_festigkeit",
+      "label": "Festigkeit",
+      "values": [
+        {
+          "value_code": "MISO_festigkeit_weich",
+          "value": "weich"
+        }
+      ],
+      "category_code": "MISO_CLA_Kaese_MilchButterRahmKaeseEierErsatzprodukte_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_formbeschaffenheitdeskaeses",
+      "label": "Form/Beschaffenheit des Käses",
+      "values": [
+        {
+          "value_code": "MISO_formbeschaffenheitdeskaeses_weichkaese",
+          "value": "Weichkäse"
+        }
+      ],
+      "category_code": "MISO_CLA_Kaese_MilchButterRahmKaeseEierErsatzprodukte_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_kaesesorte",
+      "label": "Käsesorte",
+      "values": [
+        {
+          "value_code": "MISO_kaesesorte_capricedesdieux",
+          "value": "Caprice des Dieux"
+        }
+      ],
+      "category_code": "MISO_CLA_Kaese_MilchButterRahmKaeseEierErsatzprodukte_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_milchartrohstoff",
+      "label": "Milchart/Rohstoff",
+      "values": [
+        {
+          "value_code": "MISO_milchartrohstoff_kuh",
+          "value": "Kuh"
+        }
+      ],
+      "category_code": "MISO_CLA_Kaese_MilchButterRahmKaeseEierErsatzprodukte_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_milchbehandlungsart",
+      "label": "Milchbehandlungsart",
+      "values": [
+        {
+          "value_code": "MISO_milchbehandlungsart_pastmilch",
+          "value": "Pastmilch"
+        }
+      ],
+      "category_code": "MISO_CLA_Kaese_MilchButterRahmKaeseEierErsatzprodukte_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    }
+  ],
+  "allergens": [
+    {
+      "code": "ALLG_MILCH",
+      "name": "Milch und Milchderivate",
+      "contamination_code": "VORHANDEN",
+      "contamination": "vorhanden"
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/97e6cc14085cf961bfe6b4f6d52188c344dd5670/caprice-des-dieux.jpg",
+    "stack": "https://image.migros.ch/{stack}/97e6cc14085cf961bfe6b4f6d52188c344dd5670/caprice-des-dieux.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/ab5664930883029bc71161c77fc1c3c99ee6c1ff/caprice-des-dieux.png",
+    "stack": "https://image.migros.ch/{stack}/ab5664930883029bc71161c77fc1c3c99ee6c1ff/caprice-des-dieux.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_sortierung",
+      "label": "Sortierung aMigos",
+      "values": [
+        {
+          "value_code": "NUMERIC_345",
+          "value": "345",
+          "numeric_value": 345
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_volumen",
+      "label": "Volumen aMigos!",
+      "values": [
+        {
+          "value_code": "NUMERIC_0.2646",
+          "value": "0.2646 l",
+          "numeric_value": 0.2646
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false,
+      "unit_code": "l",
+      "unit": "Liter",
+      "unit_symbol": "l"
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZFRP",
+          "value": "Frische Beschaffung"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "1",
+          "value": "Molki"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "70042",
+          "value": "WEICHKAESE"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUSTOMS_POSITION",
+      "values": [
+        {
+          "value_code": "0406.9019"
+        }
+      ],
+      "category_code": "MAPI_CUSTOMS_POSITION",
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "regulated_description": "Französischer Rahm-Weichkäse aus pasteurisierter Milch.",
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/212515200000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/caprice-des-dieux-212515200000",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/212515200000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/caprice-des-dieux-212515200000",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "regional_availability": {
+    "gmaa": {
+      "probability": 97
+    },
+    "gmbs": {
+      "probability": 81
+    },
+    "gmge": {
+      "probability": 79
+    },
+    "gmlu": {
+      "probability": 91
+    },
+    "gmnf": {
+      "probability": 92
+    },
+    "gmos": {
+      "probability": 96
+    },
+    "gmti": {
+      "probability": 97
+    },
+    "gmvd": {
+      "probability": 83
+    },
+    "gmvs": {
+      "probability": 79
+    },
+    "gmzh": {
+      "probability": 93
+    }
+  },
+  "updated_at": "2020-09-16T05:51:34+0200",
+  "base_unit": "CU",
+  "slugs": {
+    "de": "caprice-des-dieux-212515200000",
+    "fr": "caprice-des-dieux-212515200000",
+    "it": "caprice-des-dieux-212515200000"
+  },
+  "receipt_text": "Caprice des Dieux",
+  "main_supplier": {
+    "name": "ESTAVAYER LAIT S.A.",
+    "id": "0003020000"
+  },
+  "price": {
+    "valid_from": "2018-01-29T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 2.85,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "125g"
+    },
+    "base": {
+      "price": 2.28,
+      "quantity": 100,
+      "unit": "g"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 5,
+    "average_all": 4.8
+  },
+  "data_source": "SAP-X4x",
+  "origins": {
+    "production_facility_id": "FR 52 247 001 CE"
+  },
+  "distributor": {
+    "name": "B.G.",
+    "address": "52150 Illoud"
+  },
+  "ingredients": "Pasteurisierte KUHMILCH und RAHM aus Frankreich, Speisesalz, Käsereikulturen.",
+  "package": {
+    "content": 125,
+    "content_unit_code": "g",
+    "content_unit": "Gramm",
+    "net_weight": 0.125,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogramm",
+    "brutto_weight": 0.125,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 264.6,
+    "brutto_volume_unit_code": "ccm",
+    "height": 6,
+    "length": 4.2,
+    "width": 10.5,
+    "unit_dimension": "cm",
+    "price_comparison_content": 100,
+    "size": "125g"
+  },
+  "package_information": {
+    "tu": {
+      "brutto_weight": 1,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 63.84,
+      "brutto_volume_unit_code": "cdm",
+      "height": 26.6,
+      "length": 60,
+      "width": 40,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 8
+    },
+    "cu": {
+      "brutto_weight": 0.125,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 264.6,
+      "brutto_volume_unit_code": "ccm",
+      "height": 6,
+      "length": 4.2,
+      "width": 10.5,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "lu": {
+      "brutto_weight": 0,
+      "brutto_volume": 0,
+      "height": 0,
+      "length": 0,
+      "width": 0,
+      "number_of_base_units": 2880
+    }
+  },
+  "related_products": {
+    "purchase_recommendations": {
+      "product_ids": [
+        "212515300000",
+        "212555700000",
+        "212515900000",
+        "212521500000",
+        "212521800000"
+      ]
+    }
+  },
+  "declarations": {
+    "food": {
+      "features": [
+        {
+          "label_code": "GDSN_M362_ConsumerStorageInstructions",
+          "label": "Aufbewahrungshinweise für den Konsumenten",
+          "values": [
+            {
+              "value": "Gekühlt lagern zwischen + 2 ° C und + 6 ° C."
+            }
+          ],
+          "category_code": "GDSN",
+          "top_fact": false
+        }
+      ]
+    }
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "recipe_ingredient_ids": [
+    "16863",
+    "17032",
+    "71698",
+    "888963",
+    "86453"
+  ],
+  "views": [
+    "all",
+    "browse"
+  ]
+}

@@ -1,0 +1,530 @@
+{
+  "id": "706264800000",
+  "language": "de",
+  "name": "Miobrill Abwaschbürste Spezial",
+  "names": {
+    "name": "Miobrill Abwaschbürste Spezial",
+    "short_name": "Abwaschbürste Spezial"
+  },
+  "slug": "miobrill-abwaschbuerste-spezial-706264800000",
+  "boss_number": "150223303510",
+  "description": {
+    "text": "-Spezialbesatz f&uuml;r runde Gef&auml;sse",
+    "source": "PEX"
+  },
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03"
+  },
+  "tags": [
+    "source-pex",
+    "near-non-food",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7613432331029"
+  ],
+  "brand": {
+    "id": "MGF",
+    "name": "Miobrill",
+    "slug": "miobrill"
+  },
+  "categories": [
+    {
+      "code": "BeSS_0104200302",
+      "name": "Abwaschbürsten",
+      "slug": "supermarkt/haushalt-reinigung/reinigungsutensilien/abwasch/abwaschbuersten",
+      "visible": true,
+      "parent_code": "BeSS_01042003",
+      "level": 5
+    },
+    {
+      "code": "BeSS_01042003",
+      "name": "Abwasch",
+      "slug": "supermarkt/haushalt-reinigung/reinigungsutensilien/abwasch",
+      "visible": true,
+      "parent_code": "BeSS_010420",
+      "level": 4
+    },
+    {
+      "code": "BeSS_010420",
+      "name": "Reinigungsutensilien",
+      "slug": "supermarkt/haushalt-reinigung/reinigungsutensilien",
+      "visible": true,
+      "parent_code": "BeSS_0104",
+      "level": 3
+    },
+    {
+      "code": "BeSS_0104",
+      "name": "Haushalt & Reinigung",
+      "slug": "supermarkt/haushalt-reinigung",
+      "visible": true,
+      "title": "Reinigung mit der Migros – Reiniger für Haushalt und Garten",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/e5da3225980543e0c7ddcc443069f331d94e8439/haushalt-reinigung.png",
+        "stack": "https://image.migros.ch/{stack}/e5da3225980543e0c7ddcc443069f331d94e8439/haushalt-reinigung.png"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "features": [
+    {
+      "label_code": "miso_farbe",
+      "label": "Farbe",
+      "values": [
+        {
+          "value_code": "MISO_farbe_gruen",
+          "value": "grün"
+        },
+        {
+          "value_code": "MISO_farbe_weiss",
+          "value": "weiss"
+        }
+      ],
+      "category_code": "MISO_CLA_Reinigungshilfen_Verbrauch_Haushalt_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "miso_material",
+      "label": "Material",
+      "values": [
+        {
+          "value_code": "MISO_material_nylon",
+          "value": "Nylon"
+        },
+        {
+          "value_code": "MISO_material_polypropylen",
+          "value": "Polypropylen"
+        }
+      ],
+      "category_code": "MISO_CLA_Reinigungshilfen_Verbrauch_Haushalt_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "miso_anzahl",
+      "label": "Anzahl",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1 Stk.",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MISO_CLA_Reinigungshilfen_Verbrauch_Haushalt_Alle",
+      "top_fact": false,
+      "unit_code": "Stk.",
+      "unit": "Stück",
+      "unit_symbol": "Stk."
+    },
+    {
+      "label_code": "miso_hinweis",
+      "label": "Hinweis",
+      "values": [
+        {
+          "value_code": "MISO_hitzebestaendig",
+          "value": "Hitzebeständig"
+        }
+      ],
+      "category_code": "MISO_CLA_Reinigungshilfen_Verbrauch_Haushalt_Alle",
+      "top_fact": false
+    }
+  ],
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    }
+  },
+  "image": {
+    "original": "https://image.migros.ch/original/ded14f24e55012a2571d17361e6bef788a8cb339/miobrill-abwaschbuerste-spezial.jpg",
+    "stack": "https://image.migros.ch/{stack}/ded14f24e55012a2571d17361e6bef788a8cb339/miobrill-abwaschbuerste-spezial.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/89a47bee9895690e13d0cac56b6b0f3af7044cb2/miobrill-abwaschbuerste-spezial.png",
+    "stack": "https://image.migros.ch/{stack}/89a47bee9895690e13d0cac56b6b0f3af7044cb2/miobrill-abwaschbuerste-spezial.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "miso_marke",
+      "label": "Marke",
+      "values": [
+        {
+          "value_code": "MISO_marke_Miobrill",
+          "value": "Miobrill"
+        }
+      ],
+      "category_code": "MISO_CLA_Reinigungshilfen_Verbrauch_Haushalt_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_DEFAULT_LOGISTIC_TYPE",
+      "values": [
+        {
+          "value_code": "55",
+          "value": "Versandart Paket"
+        }
+      ],
+      "category_code": "MAPI_DEFAULT_LOGISTIC_TYPE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Normalposition"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "HART"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUSTOMS_POSITION",
+      "values": [
+        {
+          "value_code": "NUMERIC_96039090000",
+          "value": "96039090000",
+          "numeric_value": 96039090000
+        }
+      ],
+      "category_code": "MAPI_CUSTOMS_POSITION",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRESENTATION",
+      "values": [
+        {
+          "value_code": "H",
+          "value": "hängend"
+        }
+      ],
+      "category_code": "MAPI_PRESENTATION",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_RISK_CLASS",
+      "values": [
+        {
+          "value_code": "3",
+          "value": "3 (low)"
+        }
+      ],
+      "category_code": "MAPI_RISK_CLASS",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_KUBE_TUKA",
+      "values": [
+        {
+          "value_code": "BLANK",
+          "value": "KUBE und TUKA nicht zugelassen"
+        }
+      ],
+      "category_code": "MAPI_KUBE_TUKA",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HART",
+          "value": "Hartwaren  Handelsware"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "H",
+          "value": "Hartwaren"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "50782",
+          "value": "ABWASCHBUERSTEN"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 1,
+    "percentage": 7.7
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/706264800000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/miobrill-abwaschbuerste-spezial-706264800000",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/706264800000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/miobrill-abwaschbuerste-spezial-706264800000",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "regional_availability": {
+    "gmaa": {
+      "probability": 36
+    },
+    "gmbs": {
+      "probability": 50
+    },
+    "gmge": {
+      "probability": 41
+    },
+    "gmlu": {
+      "probability": 33
+    },
+    "gmnf": {
+      "probability": 49
+    },
+    "gmos": {
+      "probability": 37
+    },
+    "gmti": {
+      "probability": 59
+    },
+    "gmvd": {
+      "probability": 28
+    },
+    "gmvs": {
+      "probability": 36
+    },
+    "gmzh": {
+      "probability": 43
+    }
+  },
+  "updated_at": "2020-09-16T06:43:45+0200",
+  "base_unit": "CU",
+  "slugs": {
+    "de": "miobrill-abwaschbuerste-spezial-706264800000",
+    "fr": "miobrill-brosse-speciale-a-vaisselle-706264800000",
+    "it": "miobrill-spazzola-speciale-per-stoviglie-706264800000"
+  },
+  "receipt_text": "Miobrill Abwaschbürste",
+  "new_product": {
+    "from": "2018-12-11T15:15:24+0100",
+    "to": "2018-12-25T15:15:24+0100"
+  },
+  "main_supplier": {
+    "name": "Edi Baur AG",
+    "id": "0010001390",
+    "supplier_product_id": "7062.194 NEU"
+  },
+  "price": {
+    "valid_from": "2018-12-11T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 3,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "1 Stück"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "colors": [
+    {
+      "label": "grün",
+      "hex": "#008000",
+      "group": "Grün",
+      "group_hex": "#008000"
+    }
+  ],
+  "galaxus_relevant": true,
+  "ratings": {
+    "count_all": 3,
+    "average_all": 2.333333333333
+  },
+  "data_source": "SAP-X12",
+  "origins": {
+    "producing_country": "China"
+  },
+  "package": {
+    "content": 1,
+    "content_unit_code": "cu",
+    "net_weight": 0.064,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogramm",
+    "brutto_weight": 0.066,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 1.418,
+    "brutto_volume_unit_code": "cdm",
+    "height": 8,
+    "length": 27,
+    "width": 9,
+    "unit_dimension": "cm"
+  },
+  "package_information": {
+    "cu": {
+      "brutto_weight": 0.066,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 1.418,
+      "brutto_volume_unit_code": "cdm",
+      "height": 8,
+      "length": 27,
+      "width": 9,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "tuv": {
+      "brutto_weight": 0.8,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 7.938,
+      "brutto_volume_unit_code": "cdm",
+      "height": 14,
+      "length": 27,
+      "width": 21,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 10
+    },
+    "tue": {
+      "brutto_weight": 6.2,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0.001,
+      "brutto_volume_unit_code": "ccm",
+      "height": 13.5,
+      "length": 21,
+      "width": 28,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 10
+    },
+    "lu": {
+      "number_of_base_units": 1080
+    }
+  },
+  "related_products": {
+    "reference_recommendations": {
+      "product_ids": [
+        "501021300000",
+        "501021000000",
+        "501002000000",
+        "501021200000",
+        "501021100000"
+      ]
+    }
+  },
+  "warranty_months": 24,
+  "quantity_on_stock": 2690,
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "recipe_ingredient_ids": [
+    "10000"
+  ],
+  "views": [
+    "all",
+    "browse"
+  ]
+}

@@ -1,0 +1,603 @@
+{
+  "id": "232300107000",
+  "language": "de",
+  "name": "Citterio Salami milano",
+  "names": {
+    "name": "Citterio Salami milano"
+  },
+  "slug": "citterio-salami-milano",
+  "boss_number": "040114510545",
+  "description": {
+    "text": "Feink&ouml;rniger Salami. Salami-Spezialit&auml;t aus Italien nach traditionellem Rezept hergestellt",
+    "source": "PIM"
+  },
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "80"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "2114630000007",
+    "7617027551250"
+  ],
+  "brand": {
+    "id": "453",
+    "name": "Citterio",
+    "slug": "citterio"
+  },
+  "categories": [
+    {
+      "code": "BeSS_0101061403",
+      "name": "Salami und Rohwurst am Stk.",
+      "slug": "supermarkt/lebensmittel/fleisch/salami-speck/salami-und-rohwurst-am-stk",
+      "visible": true,
+      "parent_code": "BeSS_01010614",
+      "image": {
+        "original": "https://image.migros.ch/original/18a9b2d4dfb5fb4c773de33359f812dd322ff31c/salami-und-rohwurst-am-stk.jpg",
+        "stack": "https://image.migros.ch/{stack}/18a9b2d4dfb5fb4c773de33359f812dd322ff31c/salami-und-rohwurst-am-stk.jpg"
+      },
+      "level": 5
+    },
+    {
+      "code": "BeSS_01010614",
+      "name": "Salami & Speck",
+      "slug": "supermarkt/lebensmittel/fleisch/salami-speck",
+      "visible": true,
+      "title": "Schmackhafte Salami und Speck in Ihrer Migros-Filiale",
+      "parent_code": "BeSS_010106",
+      "image": {
+        "original": "https://image.migros.ch/original/aa9f6cdab5a203c9d83a5f855477bec14d9a0af0/salami-speck.jpg",
+        "stack": "https://image.migros.ch/{stack}/aa9f6cdab5a203c9d83a5f855477bec14d9a0af0/salami-speck.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010106",
+      "name": "Fleisch",
+      "slug": "supermarkt/lebensmittel/fleisch",
+      "visible": true,
+      "title": "Fleisch ausgezeichneter Qualität aus Ihrer Migros: einfach gut",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/03d32c0880d7a9ea6e58971966032e65ac442b58/fleisch.jpg",
+        "stack": "https://image.migros.ch/{stack}/03d32c0880d7a9ea6e58971966032e65ac442b58/fleisch.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_SpeckSalami_CharcuterieWurstwaren_FleischFisch",
+        "name": "Speck & Salami",
+        "slug": "amigos/fleisch-fisch/charcuterie-wurstwaren/speck-salami",
+        "visible": true,
+        "parent_code": "AMIG_CAT_CharcuterieWurstwaren_FleischFisch",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_CharcuterieWurstwaren_FleischFisch",
+        "name": "Charcuterie & Wurstwaren",
+        "slug": "amigos/fleisch-fisch/charcuterie-wurstwaren",
+        "visible": true,
+        "parent_code": "AMIG_CAT_FleischFisch",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_FleischFisch",
+        "name": "Fleisch & Fisch",
+        "slug": "amigos/fleisch-fisch",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "nutrition_facts": {
+    "standard": {
+      "nutrients": [
+        {
+          "code": "PIM_NUT_ENERGIE",
+          "name": "Energie",
+          "pictogram_name": "Energie",
+          "category": "BIG9",
+          "quantity": 1635,
+          "rda_percent": 20,
+          "rda_percent_operator": "=",
+          "quantity_unit": "kJ",
+          "quantity_alternate": 394,
+          "quantity_alternate_unit": "kcal"
+        },
+        {
+          "code": "PIM_NUT_FETT",
+          "name": "Fett",
+          "pictogram_name": "Fett",
+          "category": "BIG9",
+          "quantity": 32,
+          "rda_percent": 46,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_FETT_GES",
+          "name": "davon gesättigte Fettsäuren",
+          "pictogram_name": "gesättigte Fettsäuren",
+          "category": "BIG9",
+          "quantity": 13,
+          "rda_percent": 65,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_KOHLENHY",
+          "name": "Kohlenhydrate",
+          "category": "BIG9",
+          "quantity": 0.5,
+          "rda_percent": 0.5,
+          "rda_percent_operator": "<",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_ZUCKER",
+          "name": "davon Zucker",
+          "pictogram_name": "Zuckerarten",
+          "category": "BIG9",
+          "quantity": 0.5,
+          "rda_percent": 1,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_GES_BALL",
+          "name": "Ballaststoffe",
+          "category": "BIG9",
+          "quantity": 0.5,
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_PROTEINE",
+          "name": "Eiweiss",
+          "category": "BIG9",
+          "quantity": 26,
+          "rda_percent": 52,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_KOCHSALZ",
+          "name": "Salz",
+          "pictogram_name": "Salz",
+          "category": "BIG9",
+          "quantity": 4.3,
+          "rda_percent": 72,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        }
+      ],
+      "base_quantity": 100,
+      "base_unit": "g"
+    }
+  },
+  "features": [
+    {
+      "label_code": "MISO_mussgekuehltwerden",
+      "label": "Muss gekühlt werden",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "Nein",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MISO_CLA_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zubereitungsverfahren",
+      "label": "Hinweise für die Zubereitung",
+      "values": [
+        {
+          "value_code": "MISO_zubereitungsverfahren_verzehrfertig",
+          "value": "Verzehrfertig"
+        },
+        {
+          "value_code": "MISO_zubereitungsverfahren_zumrohessen",
+          "value": "Zum Rohessen"
+        }
+      ],
+      "category_code": "MISO_CLA_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_fleischform",
+      "label": "Fleischform bearbeitet",
+      "values": [
+        {
+          "value_code": "MISO_fleischform_amstueck",
+          "value": "Am Stück"
+        }
+      ],
+      "category_code": "MISO_CLA_FleischGefluegelsonstigeTiere_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_tierartodergattung",
+      "label": "Tierart oder Gattung",
+      "values": [
+        {
+          "value_code": "MISO_tierartodergattung_schwein",
+          "value": "Schwein"
+        }
+      ],
+      "category_code": "MISO_CLA_FleischGefluegelsonstigeTiere_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_verpackungsform",
+      "label": "Verpackungsform",
+      "values": [
+        {
+          "value_code": "MISO_verpackungsform_offen",
+          "value": "offen"
+        }
+      ],
+      "category_code": "MISO_CLA_FleischGefluegelsonstigeTiere_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_herstellungsverfahrenvonfleisch",
+      "label": "Herstellungsverfahren von Fleisch",
+      "values": [
+        {
+          "value_code": "MISO_herstellungsverfahrenvonfleisch_getrocknet",
+          "value": "getrocknet"
+        }
+      ],
+      "category_code": "MISO_CLA_FleischGefluegelsonstigeTiere_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_haltbarmachung",
+      "label": "Haltbarmachung",
+      "values": [
+        {
+          "value_code": "MISO_haltbarmachung_gesalzen",
+          "value": "gesalzen"
+        }
+      ],
+      "category_code": "MISO_CLA_WuersteFleischGefluegelsonstigeTierebearbeitetverarbeitet_FleischGefluegelsonstigeTiere_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_fleischstueck",
+      "label": "Fleischstück",
+      "values": [
+        {
+          "value_code": "MISO_fleischstueck_wurstfleisch",
+          "value": "Wurstfleisch"
+        }
+      ],
+      "category_code": "MISO_CLA_WuersteFleischGefluegelsonstigeTierebearbeitetverarbeitet_FleischGefluegelsonstigeTiere_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    }
+  ],
+  "general_information": [
+    {
+      "label": "Obligatorische Zusatzangaben",
+      "value": "Identitätskennzeichen des Abpackbetriebes"
+    },
+    {
+      "label": "Aufbewarungs- und Verpackungshinweise",
+      "value": "Ohne Kühlung haltbar! Dieses Produkt kann Gewichtsschwund aufweisen. [falls nötig]"
+    },
+    {
+      "label": "Haltbarkeit",
+      "value": "Verkaufen bis:                  Mindestens haltbar bis:"
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/eed4803fb2fb2d7a16c4dc8567158f69662da9a1/citterio-salami-milano.jpg",
+    "stack": "https://image.migros.ch/{stack}/eed4803fb2fb2d7a16c4dc8567158f69662da9a1/citterio-salami-milano.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/2ded7da7b21e22c4b9d37aa89166ed680e6131d8/citterio-salami-milano.png",
+    "stack": "https://image.migros.ch/{stack}/2ded7da7b21e22c4b9d37aa89166ed680e6131d8/citterio-salami-milano.png"
+  },
+  "additional_images": [
+    {
+      "original": "https://image.migros.ch/original/aa2658b97efbd30e5098b4c9f5b22981b329c39d.jpg",
+      "stack": "https://image.migros.ch/{stack}/aa2658b97efbd30e5098b4c9f5b22981b329c39d.jpg"
+    }
+  ],
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_sortierung",
+      "label": "Sortierung aMigos",
+      "values": [
+        {
+          "value_code": "NUMERIC_160",
+          "value": "160",
+          "numeric_value": 160
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_minimal-gewicht",
+      "label": "Minimal-Gewicht",
+      "values": [
+        {
+          "value_code": "NUMERIC_400.0",
+          "value": "400.0 g",
+          "numeric_value": 400
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false,
+      "unit_code": "g",
+      "unit": "Gramm",
+      "unit_symbol": "g"
+    },
+    {
+      "label_code": "MISO_aMigos_maximal-gewicht",
+      "label": "Maximal-Gewicht",
+      "values": [
+        {
+          "value_code": "NUMERIC_500.0",
+          "value": "500.0 g",
+          "numeric_value": 500
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false,
+      "unit_code": "g",
+      "unit": "Gramm",
+      "unit_symbol": "g"
+    },
+    {
+      "label_code": "MISO_aMigos_verkaufseinheit",
+      "label": "Verkaufseinheit",
+      "values": [
+        {
+          "value_code": "NUMERIC_1.0",
+          "value": "1.0 Stk.",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false,
+      "unit_code": "Stk.",
+      "unit": "Stück",
+      "unit_symbol": "Stk."
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZFRP",
+          "value": "Frische Beschaffung"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "6",
+          "value": "Fleisch-Fisch-Geflüg"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "71232",
+          "value": "ROHWURST STUECKWARE"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "regulated_description": "Salami Milano",
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/232300107000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/citterio-salami-milano",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/232300107000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/citterio-salami-milano",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "regional_availability": {
+    "gmaa": {
+      "probability": 50
+    },
+    "gmbs": {
+      "probability": 28
+    },
+    "gmge": {
+      "probability": 28
+    },
+    "gmlu": {
+      "probability": 35
+    },
+    "gmnf": {
+      "probability": 16
+    },
+    "gmos": {
+      "probability": 49
+    },
+    "gmti": {
+      "probability": 0
+    },
+    "gmvd": {
+      "probability": 25
+    },
+    "gmvs": {
+      "probability": 49
+    },
+    "gmzh": {
+      "probability": 43
+    }
+  },
+  "updated_at": "2020-09-16T05:51:39+0200",
+  "base_unit": "KG",
+  "slugs": {
+    "de": "citterio-salami-milano",
+    "fr": "citterio-salami-milano",
+    "it": "citterio-salame-milano"
+  },
+  "receipt_text": "Citterio Salami milano",
+  "main_supplier": {
+    "name": "Rapelli SA",
+    "id": "0010000341"
+  },
+  "price": {
+    "valid_from": "2020-05-25T00:00:00+0200",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "source": "PriceRepository",
+    "no_price_hint": "Aktueller Tagespreis"
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 8,
+    "average_all": 4.857142857143
+  },
+  "data_source": "SAP-X4x",
+  "origins": {
+    "producing_country": "Hergestellt in Italien mit italienischem Fleisch"
+  },
+  "ingredients": "Schweinefleisch, Speck, Nitritpökelsalz (Kochsalz, Konservierungsstoff: E 250), Zucker, Gewürze, Konservierungsstoff: E 252. \nHülle nicht zum Verzehr geeignet.",
+  "package": {
+    "content": 1000,
+    "content_unit_code": "g",
+    "content_unit": "Gramm",
+    "net_weight": 1,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogramm",
+    "brutto_weight": 1,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 773.76,
+    "brutto_volume_unit_code": "ccm",
+    "height": 18.5,
+    "length": 8,
+    "width": 8,
+    "unit_dimension": "cm",
+    "price_comparison_content": 100
+  },
+  "package_information": {
+    "tu": {
+      "brutto_weight": 1,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 31.92,
+      "brutto_volume_unit_code": "cdm",
+      "height": 13.3,
+      "length": 60,
+      "width": 40,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "kg": {
+      "brutto_weight": 1,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 773.76,
+      "brutto_volume_unit_code": "ccm",
+      "height": 18.5,
+      "length": 8,
+      "width": 8,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    }
+  },
+  "related_products": {
+    "purchase_recommendations": {
+      "product_ids": [
+        "232303204000",
+        "232317010000",
+        "232330010000",
+        "232360051000",
+        "232362906000"
+      ]
+    }
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "recipe_ingredient_ids": [
+    "15484",
+    "18754",
+    "18755"
+  ],
+  "views": [
+    "all",
+    "browse"
+  ]
+}

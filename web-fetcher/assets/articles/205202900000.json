@@ -1,0 +1,668 @@
+{
+  "id": "205202900000",
+  "language": "de",
+  "name": "Bifidus Joghurt 0% Vanille",
+  "names": {
+    "name": "Bifidus Joghurt 0% Vanille"
+  },
+  "slug": "bifidus-joghurt-0-vanille",
+  "boss_number": "030213300705",
+  "description": {
+    "text": "Vanille\n<br />0% Kristallzucker",
+    "source": "PIM"
+  },
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "80"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7613404064986"
+  ],
+  "brand": {
+    "id": "B51",
+    "name": "Bifidus",
+    "slug": "bifidus",
+    "image": {
+      "original": "https://image.migros.ch/original/05f74919d37f53e96f5851e84aebcdea894b560b/bifidus.jpg",
+      "stack": "https://image.migros.ch/{stack}/05f74919d37f53e96f5851e84aebcdea894b560b/bifidus.jpg"
+    }
+  },
+  "categories": [
+    {
+      "code": "BeSS_01010402",
+      "name": "Joghurt & Joghurtdrinks",
+      "slug": "supermarkt/lebensmittel/milchprodukte-eier/joghurt-joghurtdrinks",
+      "visible": true,
+      "title": "&ndash; Joghurt von der Migros",
+      "parent_code": "BeSS_010104",
+      "image": {
+        "original": "https://image.migros.ch/original/58ddac3516297c38a4558b77164c0e4c91b1bc58/joghurt-joghurtdrinks.jpg",
+        "stack": "https://image.migros.ch/{stack}/58ddac3516297c38a4558b77164c0e4c91b1bc58/joghurt-joghurtdrinks.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010104",
+      "name": "Milchprodukte & Eier",
+      "slug": "supermarkt/lebensmittel/milchprodukte-eier",
+      "visible": true,
+      "title": "Milchprodukte und Eier –",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/6b1ea6c2d41c3ccb21bf05c8dc342f7f55d83deb/milchprodukte-eier.jpg",
+        "stack": "https://image.migros.ch/{stack}/6b1ea6c2d41c3ccb21bf05c8dc342f7f55d83deb/milchprodukte-eier.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_Joghurts_JoghurtsQuark_MilchprodukteEier",
+        "name": "Joghurts",
+        "slug": "amigos/milchprodukte-eier/joghurts-quark/joghurts",
+        "visible": true,
+        "parent_code": "AMIG_CAT_JoghurtsQuark_MilchprodukteEier",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_JoghurtsQuark_MilchprodukteEier",
+        "name": "Joghurts & Quark",
+        "slug": "amigos/milchprodukte-eier/joghurts-quark",
+        "visible": true,
+        "parent_code": "AMIG_CAT_MilchprodukteEier",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_MilchprodukteEier",
+        "name": "Milchprodukte & Eier",
+        "slug": "amigos/milchprodukte-eier",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "nutrition_facts": {
+    "standard": {
+      "nutrients": [
+        {
+          "code": "PIM_NUT_ENERGIE",
+          "name": "Energie",
+          "pictogram_name": "Energie",
+          "category": "BIG9",
+          "quantity": 320,
+          "rda_percent_operator": "=",
+          "quantity_unit": "kJ",
+          "quantity_alternate": 76,
+          "quantity_alternate_unit": "kcal"
+        },
+        {
+          "code": "PIM_NUT_GES_FETT",
+          "name": "Fett",
+          "pictogram_name": "Fett",
+          "category": "BIG9",
+          "quantity": 3.3,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_GESFETTS",
+          "name": "davon gesättigte Fettsäuren",
+          "pictogram_name": "gesättigte Fettsäuren",
+          "category": "BIG9",
+          "quantity": 1.9,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_GES_KOHL",
+          "name": "Kohlenhydrate",
+          "category": "BIG9",
+          "quantity": 6,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_GES_ZUCK",
+          "name": "davon Zucker",
+          "pictogram_name": "Zuckerarten",
+          "category": "BIG9",
+          "quantity": 4.5,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_GES_BALL",
+          "name": "Ballaststoffe",
+          "category": "BIG9",
+          "quantity": 2,
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_GES_EIW",
+          "name": "Eiweiss",
+          "category": "BIG9",
+          "quantity": 4.5,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_KOCHSALZ",
+          "name": "Salz",
+          "pictogram_name": "Salz",
+          "category": "BIG9",
+          "quantity": 0.1,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        }
+      ],
+      "base_quantity": 100,
+      "base_unit": "g"
+    },
+    "portion": {
+      "nutrients": [
+        {
+          "code": "PIM_NUT_ENERGIE",
+          "name": "Energie",
+          "pictogram_name": "Energie",
+          "category": "BIG9",
+          "quantity": 470,
+          "rda_percent": 6,
+          "rda_percent_operator": "=",
+          "quantity_unit": "kJ",
+          "quantity_alternate": 114,
+          "quantity_alternate_unit": "kcal"
+        },
+        {
+          "code": "PIM_NUT_GES_FETT",
+          "name": "Fett",
+          "pictogram_name": "Fett",
+          "category": "BIG9",
+          "quantity": 5,
+          "rda_percent": 7,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_GESFETTS",
+          "name": "davon gesättigte Fettsäuren",
+          "pictogram_name": "gesättigte Fettsäuren",
+          "category": "BIG9",
+          "quantity": 2.9,
+          "rda_percent": 15,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_GES_KOHL",
+          "name": "Kohlenhydrate",
+          "category": "BIG9",
+          "quantity": 9,
+          "rda_percent": 3,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_GES_ZUCK",
+          "name": "davon Zucker",
+          "pictogram_name": "Zuckerarten",
+          "category": "BIG9",
+          "quantity": 7,
+          "rda_percent": 8,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_GES_BALL",
+          "name": "Ballaststoffe",
+          "category": "BIG9",
+          "quantity": 3,
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_GES_EIW",
+          "name": "Eiweiss",
+          "category": "BIG9",
+          "quantity": 7,
+          "rda_percent": 14,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_KOCHSALZ",
+          "name": "Salz",
+          "pictogram_name": "Salz",
+          "category": "BIG9",
+          "quantity": 0.2,
+          "rda_percent": 3,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        }
+      ],
+      "base_description": "1 Becher",
+      "base_quantity": 150,
+      "base_unit": "g"
+    }
+  },
+  "features": [
+    {
+      "label_code": "MISO_mussgekuehltwerden",
+      "label": "Muss gekühlt werden",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MISO_CLA_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_produktionsanspruch",
+      "label": "Produktionsverfahren",
+      "values": [
+        {
+          "value_code": "MISO_produktionsanspruch_mitsuessungsmitteln",
+          "value": "Mit Süssungsmitteln"
+        },
+        {
+          "value_code": "MISO_produktionsanspruch_ohnekristallzucker",
+          "value": "ohne Kristallzucker"
+        }
+      ],
+      "category_code": "MISO_CLA_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_becher",
+          "value": "Becher"
+        }
+      ],
+      "category_code": "MISO_CLA_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_fuerdiabetikergeeignet",
+      "label": "Für Diabetiker geeignet",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MISO_CLA_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_artvonjoghurt",
+      "label": "Art von Joghurt",
+      "values": [
+        {
+          "value_code": "MISO_artvonjoghurt_bifidusjoghurt",
+          "value": "Bifidus-Joghurt"
+        }
+      ],
+      "category_code": "MISO_CLA_Joghurt_MilchButterRahmKaeseEierErsatzprodukte_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_probiotisch",
+      "label": "Probiotisch",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MISO_CLA_Joghurt_MilchButterRahmKaeseEierErsatzprodukte_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aromatisiert",
+      "label": "Aromatisiert",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MISO_CLA_Joghurt_MilchButterRahmKaeseEierErsatzprodukte_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_geschmack",
+      "label": "Geschmack",
+      "values": [
+        {
+          "value_code": "MISO_geschmack_vanille",
+          "value": "Vanille"
+        }
+      ],
+      "category_code": "MISO_CLA_Joghurt_MilchButterRahmKaeseEierErsatzprodukte_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_milchartrohstoff",
+      "label": "Milchart/Rohstoff",
+      "values": [
+        {
+          "value_code": "MISO_milchartrohstoff_milch",
+          "value": "Milch"
+        },
+        {
+          "value_code": "MISO_milchartrohstoff_rahm",
+          "value": "Rahm"
+        }
+      ],
+      "category_code": "MISO_CLA_Joghurt_MilchButterRahmKaeseEierErsatzprodukte_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zuckerzugesetzt",
+      "label": "Zucker zugesetzt",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "Nein",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MISO_CLA_Joghurt_MilchButterRahmKaeseEierErsatzprodukte_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    }
+  ],
+  "allergens": [
+    {
+      "code": "ALLG_MILCH",
+      "name": "Milch",
+      "contamination_code": "VORHANDEN",
+      "contamination": "vorhanden"
+    }
+  ],
+  "general_information": [
+    {
+      "label": "Auslobung",
+      "value": "*Bifidobacterium lactis HN019 leistet einen Beitrag zu einer normalen Verdauung, indem die Darmpassagezeit verkürzt wird.\r\nOhne Kristallzucker*\r\n*enthält von Natur aus Zuckerarten"
+    },
+    {
+      "label": "Produkteinformation",
+      "value": "Unterstützt die Verdauung*\r\n\r\nEine abwechslungsreiche und ausgewogene Ernährung und eine gesunde Lebensweise sind wichtig für unsere Gesundheit."
+    },
+    {
+      "label": "Produkteinformation",
+      "value": "Milchherkunft: Schweiz"
+    },
+    {
+      "label": "Behandlungshinweise",
+      "value": "Aus pasteurisierter Milch"
+    },
+    {
+      "label": "Haltbarkeitshinweise",
+      "value": "Bei max. +5°C aufbewahren."
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/2517d860fcedec34381dcebf4f7e5aeb056b51ff/bifidus-joghurt-0-vanille.jpg",
+    "stack": "https://image.migros.ch/{stack}/2517d860fcedec34381dcebf4f7e5aeb056b51ff/bifidus-joghurt-0-vanille.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/988da87534e5659be2b049958f4ceca5e72aafd2/bifidus-joghurt-0-vanille.png",
+    "stack": "https://image.migros.ch/{stack}/988da87534e5659be2b049958f4ceca5e72aafd2/bifidus-joghurt-0-vanille.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZFRP",
+          "value": "Frische Beschaffung"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "1",
+          "value": "Molki"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "70447",
+          "value": "JOGHURT GESUNDHEIT"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "regulated_description": "Joghurt mild mit Vanilleextrakt, pflanzlichen Nahrungsfasern und Süssungsmittel. 3,5% Fett im Milchanteil",
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/205202900000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/bifidus-joghurt-0-vanille",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/205202900000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/bifidus-joghurt-0-vanille",
+      "type": "info",
+      "purchasable": false
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/4945565",
+      "app_url": "leshop:///catalog/article/detail?ean=7613404064986",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/bifidus-joghurt-0-vanille",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "regional_availability": {
+    "gmaa": {
+      "probability": 69
+    },
+    "gmbs": {
+      "probability": 65
+    },
+    "gmge": {
+      "probability": 64
+    },
+    "gmlu": {
+      "probability": 57
+    },
+    "gmnf": {
+      "probability": 73
+    },
+    "gmos": {
+      "probability": 64
+    },
+    "gmti": {
+      "probability": 62
+    },
+    "gmvd": {
+      "probability": 52
+    },
+    "gmvs": {
+      "probability": 44
+    },
+    "gmzh": {
+      "probability": 73
+    }
+  },
+  "updated_at": "2020-09-16T05:48:49+0200",
+  "base_unit": "CU",
+  "slugs": {
+    "de": "bifidus-joghurt-0-vanille",
+    "fr": "bifidus-yogourt-0-vanille",
+    "it": "bifidus-yogurt-0-vaniglia"
+  },
+  "receipt_text": "Bifidus 0% Vanille",
+  "main_supplier": {
+    "name": "ESTAVAYER LAIT S.A.",
+    "id": "0003020000"
+  },
+  "price": {
+    "valid_from": "2018-07-26T00:00:00+0200",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 0.85,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "150g"
+    },
+    "base": {
+      "price": 0.57,
+      "quantity": 100,
+      "unit": "g"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 11,
+    "average_all": 3.545454545455
+  },
+  "data_source": "SAP-X4x",
+  "origins": {
+    "producing_country": "Elaboré en Suisse"
+  },
+  "ingredients": "<strong>Joghurt mild</strong> (<strong>Milch</strong> (CH), <strong>Milchproteine</strong>), Nahrungsfasern (Oligofructose, Inulin) 2.6%, Bourbon Vanilleextrakt 0.6%, modifizierte Maisstärke, Aroma, Konzentrat aus Saflor und Zitrone, Karottenkonzentrat, Süssungsmittel: Aspartam*, Zitronensaftkonzentrat, extrahierte Vanillesamen. * Enthält eine Phenylalaninquelle.",
+  "package": {
+    "content": 150,
+    "content_unit_code": "g",
+    "content_unit": "Gramm",
+    "net_weight": 0.15,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogramm",
+    "brutto_weight": 0.15,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 0.378,
+    "brutto_volume_unit_code": "cdm",
+    "height": 7.5,
+    "length": 7.1,
+    "width": 7.1,
+    "unit_dimension": "cm",
+    "price_comparison_content": 100,
+    "size": "150g"
+  },
+  "package_information": {
+    "tu": {
+      "brutto_weight": 3,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 12,
+      "brutto_volume_unit_code": "cdm",
+      "height": 10,
+      "length": 40,
+      "width": 30,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 20
+    },
+    "cu": {
+      "brutto_weight": 0.15,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0.378,
+      "brutto_volume_unit_code": "cdm",
+      "height": 7.5,
+      "length": 7.1,
+      "width": 7.1,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "lu": {
+      "brutto_weight": 0,
+      "brutto_volume": 0,
+      "height": 0,
+      "length": 0,
+      "width": 0,
+      "number_of_base_units": 2400
+    }
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "recipe_ingredient_ids": [
+    "10000"
+  ],
+  "views": [
+    "all",
+    "browse"
+  ]
+}

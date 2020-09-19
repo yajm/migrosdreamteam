@@ -1,0 +1,691 @@
+{
+  "id": "156055100000",
+  "language": "de",
+  "name": "Condy Max Havelaar Maiskölbchen",
+  "names": {
+    "name": "Condy Max Havelaar Maiskölbchen"
+  },
+  "slug": "condy-max-havelaar-maiskoelbchen",
+  "boss_number": "011018300520",
+  "description": {
+    "text": "Maisk&ouml;lbchen in Essig",
+    "source": "PIM"
+  },
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "source-qim-origins",
+    "validity-range-not-set",
+    "source-qim-fooddeclaration",
+    "source-qim-nutritionfacts",
+    "leshop-discounted",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7610200340207"
+  ],
+  "brand": {
+    "id": "034",
+    "name": "Condy",
+    "slug": "condy"
+  },
+  "labels": [
+    {
+      "id": "L04",
+      "name": "Fairtrade Max Havelaar",
+      "slug": "fairtrade-max-havelaar",
+      "links": {
+        "homepage": {
+          "url": "https://www.maxhavelaar.ch",
+          "name": "Homepage",
+          "type": "info",
+          "purchasable": false
+        }
+      },
+      "image": {
+        "original": "https://image.migros.ch/original/f3f929f7d307eaefdb78d50c6b493c51b105c9b4/fairtrade-max-havelaar.jpg",
+        "stack": "https://image.migros.ch/{stack}/f3f929f7d307eaefdb78d50c6b493c51b105c9b4/fairtrade-max-havelaar.jpg"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_01011417",
+      "name": "Gemüse & Essiggemüse",
+      "slug": "supermarkt/lebensmittel/pasta-zutaten-konserven/gemuese-essiggemuese",
+      "visible": true,
+      "title": "Essiggemüse &ndash; leckere Appetitanreger aus Ihrer Migros",
+      "parent_code": "BeSS_010114",
+      "image": {
+        "original": "https://image.migros.ch/original/a321b22968595fa47744b2ff96144cf7405383e3/gemuese-essiggemuese.jpg",
+        "stack": "https://image.migros.ch/{stack}/a321b22968595fa47744b2ff96144cf7405383e3/gemuese-essiggemuese.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010114",
+      "name": "Pasta, Zutaten & Konserven",
+      "slug": "supermarkt/lebensmittel/pasta-zutaten-konserven",
+      "visible": true,
+      "title": "Pasta aus Ihrer Migros: alles rund um Teigwaren",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/6d0964bbb34b8e041ba4d74fc0c90b149907f46a/pasta-zutaten-konserven.jpg",
+        "stack": "https://image.migros.ch/{stack}/6d0964bbb34b8e041ba4d74fc0c90b149907f46a/pasta-zutaten-konserven.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_Gemuese_KonservenEingemachtes_Grundnahrungsmittel",
+        "name": "Gemüse",
+        "slug": "amigos/grundnahrungsmittel/konserven-eingemachtes/gemuese",
+        "visible": true,
+        "parent_code": "AMIG_CAT_KonservenEingemachtes_Grundnahrungsmittel",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_KonservenEingemachtes_Grundnahrungsmittel",
+        "name": "Konserven & Eingemachtes",
+        "slug": "amigos/grundnahrungsmittel/konserven-eingemachtes",
+        "visible": true,
+        "parent_code": "AMIG_CAT_Grundnahrungsmittel",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_Grundnahrungsmittel",
+        "name": "Grundnahrungsmittel",
+        "slug": "amigos/grundnahrungsmittel",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "nutrition_facts": {
+    "standard": {
+      "nutrients": [
+        {
+          "code": "PIM_NUT_ENERGIE",
+          "name": "Energie",
+          "pictogram_name": "Energie",
+          "category": "BIG9",
+          "quantity": 218,
+          "nutrition_operator": "=",
+          "quantity_unit": "kJ",
+          "quantity_alternate": 52,
+          "quantity_alternate_unit": "kcal"
+        },
+        {
+          "code": "PIM_NUT_FETT",
+          "name": "Fett",
+          "pictogram_name": "Fett",
+          "category": "BIG9",
+          "quantity": 0.5,
+          "nutrition_operator": "<",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_FETT_GES",
+          "name": "davon gesättigte Fettsäuren",
+          "pictogram_name": "gesättigte Fettsäuren",
+          "category": "BIG9",
+          "quantity": 0.1,
+          "nutrition_operator": "<",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_KOHLENHY",
+          "name": "Kohlenhydrate",
+          "category": "BIG9",
+          "quantity": 10,
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_ZUCKER",
+          "name": "davon Zucker",
+          "pictogram_name": "Zuckerarten",
+          "category": "BIG9",
+          "quantity": 4.2,
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_GES_BALL",
+          "name": "Ballaststoffe",
+          "category": "BIG9",
+          "quantity": 1.9,
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_PROTEINE",
+          "name": "Eiweiss",
+          "category": "BIG9",
+          "quantity": 1.7,
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_KOCHSALZ",
+          "name": "Salz",
+          "pictogram_name": "Salz",
+          "category": "BIG9",
+          "quantity": 1.5,
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        }
+      ],
+      "base_quantity": 100,
+      "base_unit": "g"
+    },
+    "portion": {
+      "nutrients": [
+        {
+          "code": "PIM_NUT_ENERGIE",
+          "name": "Energie",
+          "pictogram_name": "Energie",
+          "category": "BIG9",
+          "quantity": 65,
+          "rda_percent": 1,
+          "rda_percent_operator": "=",
+          "nutrition_operator": "=",
+          "quantity_unit": "kJ",
+          "quantity_alternate": 15,
+          "quantity_alternate_unit": "kcal"
+        },
+        {
+          "code": "PIM_NUT_FETT",
+          "name": "Fett",
+          "pictogram_name": "Fett",
+          "category": "BIG9",
+          "quantity": 0.5,
+          "rda_percent": 0.5,
+          "rda_percent_operator": "<",
+          "nutrition_operator": "<",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_FETT_GES",
+          "name": "davon gesättigte Fettsäuren",
+          "pictogram_name": "gesättigte Fettsäuren",
+          "category": "BIG9",
+          "quantity": 0.1,
+          "rda_percent": 0.5,
+          "rda_percent_operator": "<",
+          "nutrition_operator": "<",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_KOHLENHY",
+          "name": "Kohlenhydrate",
+          "category": "BIG9",
+          "quantity": 3,
+          "rda_percent": 1,
+          "rda_percent_operator": "=",
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_ZUCKER",
+          "name": "davon Zucker",
+          "pictogram_name": "Zuckerarten",
+          "category": "BIG9",
+          "quantity": 1.3,
+          "rda_percent": 1,
+          "rda_percent_operator": "=",
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_GES_BALL",
+          "name": "Ballaststoffe",
+          "category": "BIG9",
+          "quantity": 0.6,
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_PROTEINE",
+          "name": "Eiweiss",
+          "category": "BIG9",
+          "quantity": 0.5,
+          "rda_percent": 1,
+          "rda_percent_operator": "=",
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_KOCHSALZ",
+          "name": "Salz",
+          "pictogram_name": "Salz",
+          "category": "BIG9",
+          "quantity": 0.45,
+          "rda_percent": 8,
+          "rda_percent_operator": "=",
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        }
+      ],
+      "base_description": "1 Portion",
+      "base_quantity": 30,
+      "base_quantity_description": "abgetropft",
+      "base_unit": "g",
+      "package_type": "Glas",
+      "portions_per_package": "6",
+      "portions_per_package_precision": "≈"
+    }
+  },
+  "features": [
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_glas",
+          "value": "Glas"
+        }
+      ],
+      "category_code": "MISO_CLA_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_artvoneingelegtemgemuesesauerkonserven",
+      "label": "Art von eingelegtem Gemüse/Sauerkonserven",
+      "values": [
+        {
+          "value_code": "MISO_artvoneingelegtemgemuesesauerkonserven_maiskoelbchen",
+          "value": "Maiskölbchen"
+        }
+      ],
+      "category_code": "MISO_CLA_EingelegtesGemueseRelishesChutneysOliven_GewuerzeKonservierungsstoffeExtrakte_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_konservierungsaufbewahrungsstoff",
+      "label": "Konservierungs-/Aufbewahrungsstoff",
+      "values": [
+        {
+          "value_code": "MISO_konservierungsaufbewahrungsstoff_essig",
+          "value": "Essig"
+        }
+      ],
+      "category_code": "MISO_CLA_EingelegtesGemueseRelishesChutneysOliven_GewuerzeKonservierungsstoffeExtrakte_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    }
+  ],
+  "general_information": [
+    {
+      "label": "Produktionshinweis",
+      "value": "Pasteurisiert"
+    },
+    {
+      "label": "Kühlhinweis / Aufbewahrungshinweis",
+      "value": "Ohne Kühlung haltbar. Nach dem Öffnen im Kühlschrank aufbewahren und rasch konsumieren."
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/ef49f36ef0cd47062765485ba2bc4ec585b76ef0/condy-max-havelaar-maiskoelbchen.jpg",
+    "stack": "https://image.migros.ch/{stack}/ef49f36ef0cd47062765485ba2bc4ec585b76ef0/condy-max-havelaar-maiskoelbchen.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/2589d22fba521c1075a98db220d199b6648fb4bd/condy-max-havelaar-maiskoelbchen.png",
+    "stack": "https://image.migros.ch/{stack}/2589d22fba521c1075a98db220d199b6648fb4bd/condy-max-havelaar-maiskoelbchen.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_sortierung",
+      "label": "Sortierung aMigos",
+      "values": [
+        {
+          "value_code": "NUMERIC_860",
+          "value": "860",
+          "numeric_value": 860
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "M",
+          "value": "Kolonial Standard"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "10151",
+          "value": "ESSIGGEMUESE"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "regulated_description": "Maiskölbchen in Essig",
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/156055100000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/condy-max-havelaar-maiskoelbchen",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/156055100000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/condy-max-havelaar-maiskoelbchen",
+      "type": "info",
+      "purchasable": false
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/229890",
+      "app_url": "leshop:///catalog/article/detail?ean=7610200340207",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/condy-max-havelaar-maiskoelbchen",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "regional_availability": {
+    "gmaa": {
+      "probability": 99
+    },
+    "gmbs": {
+      "probability": 100
+    },
+    "gmge": {
+      "probability": 92
+    },
+    "gmlu": {
+      "probability": 98
+    },
+    "gmnf": {
+      "probability": 98
+    },
+    "gmos": {
+      "probability": 100
+    },
+    "gmti": {
+      "probability": 100
+    },
+    "gmvd": {
+      "probability": 98
+    },
+    "gmvs": {
+      "probability": 87
+    },
+    "gmzh": {
+      "probability": 90
+    }
+  },
+  "updated_at": "2020-09-16T06:51:46+0200",
+  "base_unit": "CU",
+  "slugs": {
+    "de": "condy-max-havelaar-maiskoelbchen",
+    "fr": "condy-max-havelaar-epis-de-mais",
+    "it": "condy-max-havelaar-pannocch-granoturco"
+  },
+  "receipt_text": "Condy MH Maiskölbchen",
+  "main_supplier": {
+    "name": "Global Green Company Ltd.",
+    "id": "0010030442"
+  },
+  "price": {
+    "valid_from": "2020-09-15T00:00:00+0200",
+    "valid_to": "2020-09-21T23:59:59+0200",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 2.1,
+      "original_price": 2.6,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "190g"
+    },
+    "discount": {
+      "id": "1448463",
+      "region": "national",
+      "start_date": "2020-09-15T00:00:00+0200",
+      "end_date": "2020-09-21T23:59:59+0200",
+      "publication_date": "2020-09-13T00:00:00+0200",
+      "discount_amount": "20%",
+      "discount_regions": [
+        "national"
+      ],
+      "reference_product_id": "156010000000",
+      "discount_type": "aktion",
+      "discount_type_id": "001",
+      "discount_type_label": "SA Sonderangebot",
+      "organisation": "02",
+      "cooperative": "mgb",
+      "image": {
+        "tags": [
+          "list-image"
+        ],
+        "original": "https://image.migros.ch/original/0e546bc5b909f12566faa00298c60e0da6ff21ac/gesamtes-condy-essiggemuese-und-antipasti-sortiment.jpg",
+        "source": "PriceRepository",
+        "stack": "https://image.migros.ch/{stack}/0e546bc5b909f12566faa00298c60e0da6ff21ac/gesamtes-condy-essiggemuese-und-antipasti-sortiment.jpg"
+      },
+      "image_transparent": {
+        "original": "https://image.migros.ch/original/0e546bc5b909f12566faa00298c60e0da6ff21ac/gesamtes-condy-essiggemuese-und-antipasti-sortiment.png",
+        "source": "PriceRepository",
+        "stack": "https://image.migros.ch/{stack}/0e546bc5b909f12566faa00298c60e0da6ff21ac/gesamtes-condy-essiggemuese-und-antipasti-sortiment.png"
+      },
+      "badge": {
+        "original": "https://image.migros.ch/original/0633530dd39bda4f1496c8c8aa5ac1d66f227594.png",
+        "stack": "https://image.migros.ch/{stack}/0633530dd39bda4f1496c8c8aa5ac1d66f227594.png"
+      },
+      "location_planning_type": "01",
+      "reduction_type_id": "01",
+      "special_advertisement": false,
+      "advertisement_type_id": "2",
+      "description": "Gesamtes Condy-Essiggemüse und -Antipasti-Sortiment",
+      "discount_hint": "z.B. Gewürzgurken, 270 g, <strong>1.50 </strong>statt 1.90, Angebot gilt nur vom 15.9. bis 21.9.2020, solange Vorrat.",
+      "high_performer": false,
+      "collective_discount": true,
+      "instead_of": "statt",
+      "price": 2.1,
+      "original_price": 2.6,
+      "disclaimer": "Gültigkeit siehe Angebots-Detailseite.\r\nBei allen Angeboten sind M-Budget und bereits reduzierte Artikel ausgenommen.\r\nBei Aktionen können bei der Verrechnung auf dem Kassabon Rundungsdifferenzen zu Gunsten des Kunden entstehen.",
+      "source": "PriceRepository",
+      "boss_number": "011018300505",
+      "discount_role_id": "2000000002",
+      "discount_role_label": "M: Wochenangebot Typ I",
+      "last_imported": "2020-09-07T15:15:08+0200"
+    },
+    "discount_hint": "Angebot gilt nur vom 15.9. bis 21.9.2020, solange Vorrat."
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 30,
+    "average_all": 3.653846153846
+  },
+  "data_source": "SAP-X11",
+  "origins": {
+    "producing_country": "Indisches Produkt"
+  },
+  "ingredients": "Mais 54 %, Wasser, Alkoholessig, Zucker, Kochsalz, Geschmacksverstärker: Mononatriumglutamat, Kurkumaextrakt färbend.",
+  "package": {
+    "content": 190,
+    "content_unit_code": "g",
+    "content_unit": "Gramm",
+    "net_weight": 0.34,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogramm",
+    "brutto_weight": 0.598,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 0.681,
+    "brutto_volume_unit_code": "cdm",
+    "height": 11.2,
+    "length": 7.8,
+    "width": 7.8,
+    "unit_dimension": "cm",
+    "price_comparison_content": 100,
+    "size": "190g"
+  },
+  "package_information": {
+    "tu": {
+      "brutto_weight": 7.103,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 9.048,
+      "brutto_volume_unit_code": "cdm",
+      "height": 11.6,
+      "length": 32.5,
+      "width": 24,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 12
+    },
+    "cu": {
+      "brutto_weight": 0.598,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0.681,
+      "brutto_volume_unit_code": "cdm",
+      "height": 11.2,
+      "length": 7.8,
+      "width": 7.8,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "lu": {
+      "brutto_weight": 962.596,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 1824,
+      "brutto_volume_unit_code": "cdm",
+      "height": 116,
+      "length": 120,
+      "width": 80,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1584
+    }
+  },
+  "related_products": {
+    "purchase_recommendations": {
+      "product_ids": [
+        "156030100000",
+        "156010000000",
+        "156055800000",
+        "156055500000"
+      ]
+    }
+  },
+  "declarations": {
+    "food": {
+      "features": [
+        {
+          "label_code": "GDSN_M280_DrainedWeight",
+          "label": "Abtropfgewicht",
+          "values": [
+            {
+              "value": "190 g"
+            }
+          ],
+          "category_code": "GDSN",
+          "top_fact": false,
+          "unit_code": "g",
+          "unit": "Gramm",
+          "unit_symbol": "g"
+        },
+        {
+          "label_code": "GDSN_M281_NetContent",
+          "label": "Nettofüllmenge Wert",
+          "values": [
+            {
+              "value_code": "NUMERIC_340",
+              "value": "340",
+              "numeric_value": 340
+            }
+          ],
+          "category_code": "GDSN",
+          "top_fact": false,
+          "unit_code": "g"
+        }
+      ]
+    }
+  },
+  "reindex_date": "2020-09-21T23:59:59+0200",
+  "recipe_ingredient_ids": [
+    "16195"
+  ],
+  "views": [
+    "all",
+    "browse"
+  ]
+}

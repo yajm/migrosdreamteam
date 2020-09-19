@@ -1,0 +1,521 @@
+{
+  "id": "106255500000",
+  "language": "de",
+  "name": "Curry mild gemahlen",
+  "names": {
+    "name": "Curry mild gemahlen"
+  },
+  "slug": "curry-mild-gemahlen-106255500000",
+  "boss_number": "011011362005",
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7617014134206",
+    "7613312017791"
+  ],
+  "categories": [
+    {
+      "code": "BeSS_01011421",
+      "name": "Gewürze & Kräuter",
+      "slug": "supermarkt/lebensmittel/pasta-zutaten-konserven/gewuerze-kraeuter",
+      "visible": true,
+      "title": "Bringen Aroma in die Küche: Gewürze aus der Migros",
+      "parent_code": "BeSS_010114",
+      "image": {
+        "original": "https://image.migros.ch/original/21eef66859e1592c1038e1a3455b367ba78b1694/gewuerze-kraeuter.jpg",
+        "stack": "https://image.migros.ch/{stack}/21eef66859e1592c1038e1a3455b367ba78b1694/gewuerze-kraeuter.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010114",
+      "name": "Pasta, Zutaten & Konserven",
+      "slug": "supermarkt/lebensmittel/pasta-zutaten-konserven",
+      "visible": true,
+      "title": "Pasta aus Ihrer Migros: alles rund um Teigwaren",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/6d0964bbb34b8e041ba4d74fc0c90b149907f46a/pasta-zutaten-konserven.jpg",
+        "stack": "https://image.migros.ch/{stack}/6d0964bbb34b8e041ba4d74fc0c90b149907f46a/pasta-zutaten-konserven.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_Gewuerze_Grundnahrungsmittel",
+        "name": "Gewürze",
+        "slug": "amigos/grundnahrungsmittel/gewuerze",
+        "visible": true,
+        "parent_code": "AMIG_CAT_Grundnahrungsmittel",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_Grundnahrungsmittel",
+        "name": "Grundnahrungsmittel",
+        "slug": "amigos/grundnahrungsmittel",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ],
+    [
+      {
+        "code": "AMIG_CAT_Gewuerze_Gewuerze_Grundnahrungsmittel",
+        "name": "Gewürze",
+        "slug": "amigos/grundnahrungsmittel/gewuerze/gewuerze",
+        "visible": true,
+        "parent_code": "AMIG_CAT_Gewuerze_Grundnahrungsmittel",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_Gewuerze_Grundnahrungsmittel",
+        "name": "Gewürze",
+        "slug": "amigos/grundnahrungsmittel/gewuerze",
+        "visible": true,
+        "parent_code": "AMIG_CAT_Grundnahrungsmittel",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_Grundnahrungsmittel",
+        "name": "Grundnahrungsmittel",
+        "slug": "amigos/grundnahrungsmittel",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "nutrition_facts": {
+    "standard": {
+      "nutrients": [
+        {
+          "code": "PIM_NUT_ENERGIE",
+          "name": "Energie",
+          "pictogram_name": "Energie",
+          "category": "BIG9",
+          "quantity": 1544,
+          "rda_percent_operator": "=",
+          "quantity_unit": "kJ",
+          "quantity_alternate": 369,
+          "quantity_alternate_unit": "kcal"
+        },
+        {
+          "code": "PIM_NUT_GES_FETT",
+          "name": "Fett",
+          "pictogram_name": "Fett",
+          "category": "BIG9",
+          "quantity": 13,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_GESFETTS",
+          "name": "davon gesättigte Fettsäuren",
+          "pictogram_name": "gesättigte Fettsäuren",
+          "category": "BIG9",
+          "quantity": 1.6,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_GES_KOHL",
+          "name": "Kohlenhydrate",
+          "category": "BIG9",
+          "quantity": 41,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_GES_ZUCK",
+          "name": "davon Zucker",
+          "pictogram_name": "Zuckerarten",
+          "category": "BIG9",
+          "quantity": 34,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_GES_BALL",
+          "name": "Ballaststoffe",
+          "category": "BIG9",
+          "quantity": 16,
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_GES_EIW",
+          "name": "Eiweiss",
+          "category": "BIG9",
+          "quantity": 14,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_KOCHSALZ",
+          "name": "Salz",
+          "pictogram_name": "Salz",
+          "category": "BIG9",
+          "quantity": 2.3,
+          "rda_percent_operator": "=",
+          "quantity_unit": "g"
+        }
+      ],
+      "base_quantity": 100,
+      "base_unit": "g"
+    }
+  },
+  "features": [
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_glas",
+          "value": "Glas"
+        }
+      ],
+      "category_code": "MISO_CLA_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zubereitungsverfahren",
+      "label": "Hinweise für die Zubereitung",
+      "values": [
+        {
+          "value_code": "MISO_zubereitungsverfahren_zumwuerzengeeignet",
+          "value": "Zum Würzen geeignet"
+        }
+      ],
+      "category_code": "MISO_CLA_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_artvonkraeuterngewuerzen",
+      "label": "Art von Kräutern/Gewürzen",
+      "values": [
+        {
+          "value_code": "MISO_artvonkraeuterngewuerzen_curry",
+          "value": "Curry"
+        }
+      ],
+      "category_code": "MISO_CLA_KraeuterGewuerzeExtrakte_GewuerzeKonservierungsstoffeExtrakte_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zustandsform",
+      "label": "Zustandsform",
+      "values": [
+        {
+          "value_code": "MISO_zustandsform_gemahlen",
+          "value": "gemahlen"
+        }
+      ],
+      "category_code": "MISO_CLA_KraeuterGewuerzeExtrakte_GewuerzeKonservierungsstoffeExtrakte_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    }
+  ],
+  "allergens": [
+    {
+      "code": "ALLG_SENF",
+      "name": "Senf",
+      "contamination_code": "VORHANDEN",
+      "contamination": "vorhanden"
+    }
+  ],
+  "general_information": [
+    {
+      "label": "Haltbarkeitshinweis",
+      "value": "DE: Trocken aufbewahren und vor Licht schützen."
+    },
+    {
+      "label": "Herstellungsland",
+      "value": "DE: Hergestellt in der Schweiz für Delica AG."
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/a01cbdf44f7dbdff9a2d76cc9ff4bbee6cc04365/curry-mild-gemahlen.jpg",
+    "stack": "https://image.migros.ch/{stack}/a01cbdf44f7dbdff9a2d76cc9ff4bbee6cc04365/curry-mild-gemahlen.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/2fc7a7a8dedf4d693f4f6a56f9068fd53b25a7bc/curry-mild-gemahlen.png",
+    "stack": "https://image.migros.ch/{stack}/2fc7a7a8dedf4d693f4f6a56f9068fd53b25a7bc/curry-mild-gemahlen.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_sortierung",
+      "label": "Sortierung aMigos",
+      "values": [
+        {
+          "value_code": "NUMERIC_420",
+          "value": "420",
+          "numeric_value": 420
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "M",
+          "value": "Kolonial Standard"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "10265",
+          "value": "GEWUERZMISCHUNGEN"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "regulated_description": "Curry",
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/106255500000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/curry-mild-gemahlen-106255500000",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/106255500000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/curry-mild-gemahlen-106255500000",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "regional_availability": {
+    "gmaa": {
+      "probability": 82
+    },
+    "gmbs": {
+      "probability": 87
+    },
+    "gmge": {
+      "probability": 62
+    },
+    "gmlu": {
+      "probability": 77
+    },
+    "gmnf": {
+      "probability": 78
+    },
+    "gmos": {
+      "probability": 81
+    },
+    "gmti": {
+      "probability": 62
+    },
+    "gmvd": {
+      "probability": 55
+    },
+    "gmvs": {
+      "probability": 64
+    },
+    "gmzh": {
+      "probability": 76
+    }
+  },
+  "updated_at": "2020-09-16T05:40:02+0200",
+  "base_unit": "CU",
+  "slugs": {
+    "de": "curry-mild-gemahlen-106255500000",
+    "fr": "curry-doux-moulu-106255500000",
+    "it": "curry-dolce-macinato-106255500000"
+  },
+  "receipt_text": "Curry mild 90g",
+  "main_supplier": {
+    "name": "DELICA AG",
+    "id": "0004090000",
+    "supplier_product_id": "106255500000"
+  },
+  "price": {
+    "valid_from": "2019-09-25T00:00:00+0200",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 1.55,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "90g"
+    },
+    "base": {
+      "price": 0.17,
+      "quantity": 10,
+      "unit": "g"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 4,
+    "average_all": 4.75
+  },
+  "data_source": "SAP-X11",
+  "origins": {
+    "producing_country": "DE: Hergestellt in der Schweiz für Delica AG."
+  },
+  "ingredients": "Koriander, Kurkuma, Weisser <strong>Senf</strong>, Bockshornklee, Kreuzkümmel, Ingwer, Pfeffer schwarz, Zwiebeln, Knoblauch, Verdickungsmittel: Guarkernmehl, Kochsalz jodiert, Lorbeerblätter, Paprika, Cayennepfeffer, Muskatnuss.",
+  "package": {
+    "content": 90,
+    "content_unit_code": "g",
+    "content_unit": "Gramm",
+    "net_weight": 0.09,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogramm",
+    "brutto_weight": 0.259,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 0.432,
+    "brutto_volume_unit_code": "cdm",
+    "height": 12.4,
+    "length": 5.9,
+    "width": 5.9,
+    "unit_dimension": "cm",
+    "price_comparison_content": 10,
+    "size": "90g"
+  },
+  "package_information": {
+    "tu": {
+      "brutto_weight": 3.22,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 5.992,
+      "brutto_volume_unit_code": "cdm",
+      "height": 12.8,
+      "length": 24.9,
+      "width": 18.8,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 12
+    },
+    "cu": {
+      "brutto_weight": 0.259,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0.432,
+      "brutto_volume_unit_code": "cdm",
+      "height": 12.4,
+      "length": 5.9,
+      "width": 5.9,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "lu": {
+      "brutto_weight": 555.1,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 1105.92,
+      "brutto_volume_unit_code": "cdm",
+      "height": 115.2,
+      "length": 120,
+      "width": 80,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 2052
+    }
+  },
+  "related_products": {
+    "purchase_recommendations": {
+      "product_ids": [
+        "106255600000",
+        "106266100000",
+        "106266300000",
+        "106266400000",
+        "106256800000"
+      ]
+    }
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "recipe_ingredient_ids": [
+    "16524"
+  ],
+  "views": [
+    "all",
+    "browse"
+  ]
+}

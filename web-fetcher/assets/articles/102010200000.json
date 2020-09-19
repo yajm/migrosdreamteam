@@ -1,0 +1,553 @@
+{
+  "id": "102010200000",
+  "language": "de",
+  "name": "Max Havelaar Rohrzucker grob",
+  "names": {
+    "name": "Max Havelaar Rohrzucker grob"
+  },
+  "slug": "max-havelaar-rohrzucker-grob",
+  "boss_number": "010410460515",
+  "description": {
+    "text": "Rohzucker aus Zuckerrohr, grob",
+    "source": "PIM"
+  },
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "source-qim-origins",
+    "validity-range-not-set",
+    "source-qim-fooddeclaration",
+    "source-qim-nutritionfacts",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7610200010117"
+  ],
+  "labels": [
+    {
+      "id": "L04",
+      "name": "Fairtrade Max Havelaar",
+      "slug": "fairtrade-max-havelaar",
+      "links": {
+        "homepage": {
+          "url": "https://www.maxhavelaar.ch",
+          "name": "Homepage",
+          "type": "info",
+          "purchasable": false
+        }
+      },
+      "image": {
+        "original": "https://image.migros.ch/original/f3f929f7d307eaefdb78d50c6b493c51b105c9b4/fairtrade-max-havelaar.jpg",
+        "stack": "https://image.migros.ch/{stack}/f3f929f7d307eaefdb78d50c6b493c51b105c9b4/fairtrade-max-havelaar.jpg"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_0101030904",
+      "name": "Zucker & Süssstoffe",
+      "slug": "supermarkt/lebensmittel/baeckerei-confiserie-backen/backzutaten/zucker-suessstoffe",
+      "visible": true,
+      "parent_code": "BeSS_01010309",
+      "image": {
+        "original": "https://image.migros.ch/original/ba549e55f17a1dc4243343a114ec6989dafee047/zucker-suessstoffe.jpg",
+        "stack": "https://image.migros.ch/{stack}/ba549e55f17a1dc4243343a114ec6989dafee047/zucker-suessstoffe.jpg"
+      },
+      "level": 5
+    },
+    {
+      "code": "BeSS_01010309",
+      "name": "Backzutaten",
+      "slug": "supermarkt/lebensmittel/baeckerei-confiserie-backen/backzutaten",
+      "visible": true,
+      "title": "Backzutaten von der Migros &ndash; Feines für den Ofen",
+      "parent_code": "BeSS_010103",
+      "image": {
+        "original": "https://image.migros.ch/original/7f4777fff65971e62d70347f2563db0eba17376b/backzutaten.jpg",
+        "stack": "https://image.migros.ch/{stack}/7f4777fff65971e62d70347f2563db0eba17376b/backzutaten.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010103",
+      "name": "Bäckerei, Confiserie & Backen",
+      "slug": "supermarkt/lebensmittel/baeckerei-confiserie-backen",
+      "visible": true,
+      "title": "Backen macht Freude! Alle Zutaten finden Sie in Ihrer Migros",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/04b41cd6f4daedf3061a2a37617d48e992760b35/baeckerei-confiserie-backen.jpg",
+        "stack": "https://image.migros.ch/{stack}/04b41cd6f4daedf3061a2a37617d48e992760b35/baeckerei-confiserie-backen.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_ZuckerSuessstoffe_Backzutaten_BroteBacken",
+        "name": "Zucker & Süssstoffe",
+        "slug": "amigos/brote-backen/backzutaten/zucker-suessstoffe",
+        "visible": true,
+        "parent_code": "AMIG_CAT_Backzutaten_BroteBacken",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_Backzutaten_BroteBacken",
+        "name": "Backzutaten",
+        "slug": "amigos/brote-backen/backzutaten",
+        "visible": true,
+        "parent_code": "AMIG_CAT_BroteBacken",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_BroteBacken",
+        "name": "Brote & Backen",
+        "slug": "amigos/brote-backen",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "nutrition_facts": {
+    "standard": {
+      "nutrients": [
+        {
+          "code": "PIM_NUT_ENERGIE",
+          "name": "Energie",
+          "pictogram_name": "Energie",
+          "category": "BIG9",
+          "quantity": 1683,
+          "nutrition_operator": "=",
+          "quantity_unit": "kJ",
+          "quantity_alternate": 396,
+          "quantity_alternate_unit": "kcal"
+        },
+        {
+          "code": "PIM_NUT_FETT",
+          "name": "Fett",
+          "pictogram_name": "Fett",
+          "category": "BIG9",
+          "quantity": 0,
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_FETT_GES",
+          "name": "davon gesättigte Fettsäuren",
+          "pictogram_name": "gesättigte Fettsäuren",
+          "category": "BIG9",
+          "quantity": 0,
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_KOHLENHY",
+          "name": "Kohlenhydrate",
+          "category": "BIG9",
+          "quantity": 99,
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_ZUCKER",
+          "name": "davon Zucker",
+          "pictogram_name": "Zuckerarten",
+          "category": "BIG9",
+          "quantity": 99,
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_GES_BALL",
+          "name": "Ballaststoffe",
+          "category": "BIG9",
+          "quantity": 0,
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_PROTEINE",
+          "name": "Eiweiss",
+          "category": "BIG9",
+          "quantity": 0,
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_KOCHSALZ",
+          "name": "Salz",
+          "pictogram_name": "Salz",
+          "category": "BIG9",
+          "quantity": 0,
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        }
+      ],
+      "base_quantity": 100,
+      "base_unit": "g"
+    }
+  },
+  "features": [
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_papierbeutel",
+          "value": "Papierbeutel"
+        }
+      ],
+      "category_code": "MISO_CLA_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_artvonzucker",
+      "label": "Art von Zucker",
+      "values": [
+        {
+          "value_code": "MISO_artvonzucker_rohrzucker",
+          "value": "Rohrzucker"
+        }
+      ],
+      "category_code": "MISO_CLA_ZuckerZuckerersatzprodukte_SuesswarenSuessungsmittel_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_formbeschaffenheitvonzucker",
+      "label": "Form/Beschaffenheit von Zucker",
+      "values": [
+        {
+          "value_code": "MISO_formbeschaffenheitvonzucker_kandis",
+          "value": "Kandis"
+        }
+      ],
+      "category_code": "MISO_CLA_ZuckerZuckerersatzprodukte_SuesswarenSuessungsmittel_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_unraffiniert",
+      "label": "Unraffiniert",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MISO_CLA_ZuckerZuckerersatzprodukte_SuesswarenSuessungsmittel_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    }
+  ],
+  "general_information": [
+    {
+      "label": "Kühlhinweis / Aufbewahrungshinweis",
+      "value": "Trocken und bei Raumtemperatur aufbewahren."
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/816bb9533f947d7c65a4c0fde18c7849f33cf527/max-havelaar-rohrzucker-grob.jpg",
+    "stack": "https://image.migros.ch/{stack}/816bb9533f947d7c65a4c0fde18c7849f33cf527/max-havelaar-rohrzucker-grob.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/8f473d3b9f7d1e39a16b94c8f879b6dec6bf10ee/max-havelaar-rohrzucker-grob.png",
+    "stack": "https://image.migros.ch/{stack}/8f473d3b9f7d1e39a16b94c8f879b6dec6bf10ee/max-havelaar-rohrzucker-grob.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_sortierung",
+      "label": "Sortierung aMigos",
+      "values": [
+        {
+          "value_code": "NUMERIC_110",
+          "value": "110",
+          "numeric_value": 110
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "M",
+          "value": "Kolonial Standard"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "10066",
+          "value": "ZUCKER"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "regulated_description": "Rohrohrzucker",
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/102010200000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/max-havelaar-rohrzucker-grob",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/102010200000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/max-havelaar-rohrzucker-grob",
+      "type": "info",
+      "purchasable": false
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/51574",
+      "app_url": "leshop:///catalog/article/detail?ean=7610200010117",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/max-havelaar-rohrzucker-grob",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "regional_availability": {
+    "gmaa": {
+      "probability": 99
+    },
+    "gmbs": {
+      "probability": 100
+    },
+    "gmge": {
+      "probability": 92
+    },
+    "gmlu": {
+      "probability": 98
+    },
+    "gmnf": {
+      "probability": 98
+    },
+    "gmos": {
+      "probability": 100
+    },
+    "gmti": {
+      "probability": 100
+    },
+    "gmvd": {
+      "probability": 100
+    },
+    "gmvs": {
+      "probability": 100
+    },
+    "gmzh": {
+      "probability": 94
+    }
+  },
+  "updated_at": "2020-09-16T05:41:07+0200",
+  "base_unit": "CU",
+  "slugs": {
+    "de": "max-havelaar-rohrzucker-grob",
+    "fr": "max-havelaar-sucre-de-canne-brut-gros",
+    "it": "max-havelaar-zucch-canna-greggio"
+  },
+  "receipt_text": "Max Hav Rohzucker grob",
+  "main_supplier": {
+    "name": "Zuckermuehle Rupperswil AG",
+    "id": "0010000484",
+    "supplier_product_id": "40131"
+  },
+  "price": {
+    "valid_from": "2018-01-29T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 2.1,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "1kg"
+    },
+    "base": {
+      "price": 0.21,
+      "quantity": 100,
+      "unit": "g"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 18,
+    "average_all": 4.1875
+  },
+  "data_source": "SAP-X11",
+  "origins": {
+    "producing_country": "Hergestellt in Mauritius\nAbgepackt in der Schweiz"
+  },
+  "package": {
+    "content": 1000,
+    "content_unit_code": "g",
+    "content_unit": "Gramm",
+    "net_weight": 1,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogramm",
+    "brutto_weight": 1.015,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 1.166,
+    "brutto_volume_unit_code": "cdm",
+    "height": 15.9,
+    "length": 7.8,
+    "width": 9.4,
+    "unit_dimension": "cm",
+    "price_comparison_content": 100,
+    "size": "1kg"
+  },
+  "package_information": {
+    "tu": {
+      "brutto_weight": 10.36,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 12.671,
+      "brutto_volume_unit_code": "cdm",
+      "height": 17.1,
+      "length": 39,
+      "width": 19,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 10
+    },
+    "cu": {
+      "brutto_weight": 1.015,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 1.166,
+      "brutto_volume_unit_code": "cdm",
+      "height": 15.9,
+      "length": 7.8,
+      "width": 9.4,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "lu": {
+      "brutto_weight": 639.8,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 804.48,
+      "brutto_volume_unit_code": "cdm",
+      "height": 85.5,
+      "length": 120,
+      "width": 80,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 600
+    }
+  },
+  "related_products": {
+    "purchase_recommendations": {
+      "product_ids": [
+        "102010300000",
+        "102010400000",
+        "102015000000",
+        "102089400000",
+        "102037000000"
+      ]
+    }
+  },
+  "declarations": {
+    "food": {
+      "features": [
+        {
+          "label_code": "GDSN_M281_NetContent",
+          "label": "Nettofüllmenge Wert",
+          "values": [
+            {
+              "value_code": "NUMERIC_1000",
+              "value": "1000",
+              "numeric_value": 1000
+            }
+          ],
+          "category_code": "GDSN",
+          "top_fact": false,
+          "unit_code": "g"
+        }
+      ]
+    }
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "recipe_ingredient_ids": [
+    "17274",
+    "17275",
+    "682102",
+    "17253",
+    "19107287"
+  ],
+  "views": [
+    "all",
+    "browse"
+  ]
+}

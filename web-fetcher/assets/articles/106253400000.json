@@ -1,0 +1,429 @@
+{
+  "id": "106253400000",
+  "language": "de",
+  "name": "Pfeffer schwarz körnig",
+  "names": {
+    "name": "Pfeffer schwarz körnig"
+  },
+  "slug": "pfeffer-schwarz-koernig",
+  "boss_number": "011011361505",
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7617014134022",
+    "7613312017395"
+  ],
+  "categories": [
+    {
+      "code": "BeSS_01011421",
+      "name": "Gewürze & Kräuter",
+      "slug": "supermarkt/lebensmittel/pasta-zutaten-konserven/gewuerze-kraeuter",
+      "visible": true,
+      "title": "Bringen Aroma in die Küche: Gewürze aus der Migros",
+      "parent_code": "BeSS_010114",
+      "image": {
+        "original": "https://image.migros.ch/original/21eef66859e1592c1038e1a3455b367ba78b1694/gewuerze-kraeuter.jpg",
+        "stack": "https://image.migros.ch/{stack}/21eef66859e1592c1038e1a3455b367ba78b1694/gewuerze-kraeuter.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010114",
+      "name": "Pasta, Zutaten & Konserven",
+      "slug": "supermarkt/lebensmittel/pasta-zutaten-konserven",
+      "visible": true,
+      "title": "Pasta aus Ihrer Migros: alles rund um Teigwaren",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/6d0964bbb34b8e041ba4d74fc0c90b149907f46a/pasta-zutaten-konserven.jpg",
+        "stack": "https://image.migros.ch/{stack}/6d0964bbb34b8e041ba4d74fc0c90b149907f46a/pasta-zutaten-konserven.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_SalzPfeffer_Gewuerze_Grundnahrungsmittel",
+        "name": "Salz & Pfeffer",
+        "slug": "amigos/grundnahrungsmittel/gewuerze/salz-pfeffer",
+        "visible": true,
+        "parent_code": "AMIG_CAT_Gewuerze_Grundnahrungsmittel",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_Gewuerze_Grundnahrungsmittel",
+        "name": "Gewürze",
+        "slug": "amigos/grundnahrungsmittel/gewuerze",
+        "visible": true,
+        "parent_code": "AMIG_CAT_Grundnahrungsmittel",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_Grundnahrungsmittel",
+        "name": "Grundnahrungsmittel",
+        "slug": "amigos/grundnahrungsmittel",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "features": [
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_glas",
+          "value": "Glas"
+        }
+      ],
+      "category_code": "MISO_CLA_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zubereitungsverfahren",
+      "label": "Hinweise für die Zubereitung",
+      "values": [
+        {
+          "value_code": "MISO_zubereitungsverfahren_zumwuerzengeeignet",
+          "value": "Zum Würzen geeignet"
+        }
+      ],
+      "category_code": "MISO_CLA_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_formbeschaffenheitvonkraeuterngewuerzen",
+      "label": "Form/Beschaffenheit von Kräutern/Gewürzen",
+      "values": [
+        {
+          "value_code": "MISO_formbeschaffenheitvonkraeuterngewuerzen_koernig",
+          "value": "Körnig"
+        }
+      ],
+      "category_code": "MISO_CLA_KraeuterGewuerzeExtrakte_GewuerzeKonservierungsstoffeExtrakte_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_artvonkraeuterngewuerzen",
+      "label": "Art von Kräutern/Gewürzen",
+      "values": [
+        {
+          "value_code": "MISO_artvonkraeuterngewuerzen_pfeffer",
+          "value": "Pfeffer"
+        }
+      ],
+      "category_code": "MISO_CLA_KraeuterGewuerzeExtrakte_GewuerzeKonservierungsstoffeExtrakte_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zustandsform",
+      "label": "Zustandsform",
+      "values": [
+        {
+          "value_code": "MISO_zustandsform_gekoernt",
+          "value": "Gekörnt"
+        }
+      ],
+      "category_code": "MISO_CLA_KraeuterGewuerzeExtrakte_GewuerzeKonservierungsstoffeExtrakte_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    }
+  ],
+  "general_information": [
+    {
+      "label": "Haltbarkeitshinweis",
+      "value": "DE: Trocken aufbewahren und vor Licht schützen."
+    },
+    {
+      "label": "Herstellungsland",
+      "value": "DE: Hergestellt in der Schweiz für Delica AG."
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/95c9ea808c1efe81012055416b25a8a4e6308abf/pfeffer-schwarz-koernig.jpg",
+    "stack": "https://image.migros.ch/{stack}/95c9ea808c1efe81012055416b25a8a4e6308abf/pfeffer-schwarz-koernig.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/14b0af13356bea795bb4edac14c1a8dc6572f3c9/pfeffer-schwarz-koernig.png",
+    "stack": "https://image.migros.ch/{stack}/14b0af13356bea795bb4edac14c1a8dc6572f3c9/pfeffer-schwarz-koernig.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_sortierung",
+      "label": "Sortierung aMigos",
+      "values": [
+        {
+          "value_code": "NUMERIC_240",
+          "value": "240",
+          "numeric_value": 240
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "M",
+          "value": "Kolonial Standard"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "10264",
+          "value": "MONOGEWUERZE"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "regulated_description": "Pfeffer schwarz, körnig",
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/106253400000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/pfeffer-schwarz-koernig",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/106253400000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/pfeffer-schwarz-koernig",
+      "type": "info",
+      "purchasable": false
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/218304",
+      "app_url": "leshop:///catalog/article/detail?ean=7617014134022",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/pfeffer-schwarz-koernig",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "regional_availability": {
+    "gmaa": {
+      "probability": 99
+    },
+    "gmbs": {
+      "probability": 100
+    },
+    "gmge": {
+      "probability": 90
+    },
+    "gmlu": {
+      "probability": 97
+    },
+    "gmnf": {
+      "probability": 96
+    },
+    "gmos": {
+      "probability": 100
+    },
+    "gmti": {
+      "probability": 100
+    },
+    "gmvd": {
+      "probability": 95
+    },
+    "gmvs": {
+      "probability": 97
+    },
+    "gmzh": {
+      "probability": 95
+    }
+  },
+  "updated_at": "2020-09-16T05:40:00+0200",
+  "base_unit": "CU",
+  "slugs": {
+    "de": "pfeffer-schwarz-koernig",
+    "fr": "poivre-noir-granule",
+    "it": "pepe-nero-granulato"
+  },
+  "receipt_text": "Pfeffer schwarz körnig",
+  "main_supplier": {
+    "name": "DELICA AG",
+    "id": "0004090000",
+    "supplier_product_id": "106253400000"
+  },
+  "price": {
+    "valid_from": "2019-11-28T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 1,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "32g"
+    },
+    "base": {
+      "price": 0.31,
+      "quantity": 10,
+      "unit": "g"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 8,
+    "average_all": 4.833333333333
+  },
+  "data_source": "SAP-X11",
+  "origins": {
+    "producing_country": "DE: Hergestellt in der Schweiz für Delica AG."
+  },
+  "ingredients": "Pfeffer schwarz.",
+  "package": {
+    "content": 32,
+    "content_unit_code": "g",
+    "content_unit": "Gramm",
+    "net_weight": 0.032,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogramm",
+    "brutto_weight": 0.126,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 0.195,
+    "brutto_volume_unit_code": "cdm",
+    "height": 10.3,
+    "length": 4.4,
+    "width": 4.3,
+    "unit_dimension": "cm",
+    "price_comparison_content": 10,
+    "size": "32g"
+  },
+  "package_information": {
+    "tu": {
+      "brutto_weight": 1.974,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 3.393,
+      "brutto_volume_unit_code": "cdm",
+      "height": 10.8,
+      "length": 22.6,
+      "width": 13.9,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 15
+    },
+    "cu": {
+      "brutto_weight": 0.126,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0.195,
+      "brutto_volume_unit_code": "cdm",
+      "height": 10.3,
+      "length": 4.4,
+      "width": 4.3,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "lu": {
+      "brutto_weight": 654.706,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 1140.48,
+      "brutto_volume_unit_code": "cdm",
+      "height": 118.8,
+      "length": 120,
+      "width": 80,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 4785
+    }
+  },
+  "related_products": {
+    "purchase_recommendations": {
+      "product_ids": [
+        "106253600000",
+        "106253700000",
+        "106253900000",
+        "106254300000",
+        "106255200000"
+      ]
+    }
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "recipe_ingredient_ids": [
+    "10000"
+  ],
+  "views": [
+    "all",
+    "browse"
+  ]
+}

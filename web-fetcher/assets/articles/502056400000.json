@@ -1,0 +1,540 @@
+{
+  "id": "502056400000",
+  "language": "de",
+  "name": "M-Classic Cremereiniger Orange",
+  "names": {
+    "name": "M-Classic Cremereiniger Orange",
+    "short_name": "Cremereiniger Orange"
+  },
+  "slug": "m-classic-cremereiniger-orange-502056400000",
+  "boss_number": "150126803205",
+  "description": {
+    "text": "mit Orangenduft. Reinigt kraftvoll und schonend.",
+    "source": "PEX"
+  },
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03"
+  },
+  "tags": [
+    "source-pex",
+    "near-non-food",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7630028621180",
+    "7630028621197"
+  ],
+  "brand": {
+    "id": "068",
+    "name": "M-Classic",
+    "slug": "m-classic",
+    "links": {
+      "homepage": {
+        "url": "https://m-classic.migros.ch/de.html",
+        "name": "Homepage",
+        "type": "info",
+        "purchasable": false
+      }
+    },
+    "image": {
+      "original": "https://image.migros.ch/original/72c18633f911e026e081ac11d872cff2d8dc8abb/m-classic.jpg",
+      "stack": "https://image.migros.ch/{stack}/72c18633f911e026e081ac11d872cff2d8dc8abb/m-classic.jpg"
+    }
+  },
+  "categories": [
+    {
+      "code": "BeSS_0104010605",
+      "name": "Scheuermittel",
+      "slug": "supermarkt/haushalt-reinigung/waschen-reinigen-pflege/reinigungsmittel/scheuermittel",
+      "visible": true,
+      "parent_code": "BeSS_01040106",
+      "level": 5
+    },
+    {
+      "code": "BeSS_01040106",
+      "name": "Reinigungsmittel",
+      "slug": "supermarkt/haushalt-reinigung/waschen-reinigen-pflege/reinigungsmittel",
+      "visible": true,
+      "title": "Putzmittel bei der Migros: Und alles glänzt!",
+      "parent_code": "BeSS_010401",
+      "image": {
+        "original": "https://image.migros.ch/original/4a6e2ed6ea91c788040edfec8e65462f3deee722/reinigungsmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/4a6e2ed6ea91c788040edfec8e65462f3deee722/reinigungsmittel.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010401",
+      "name": "Waschen, Reinigen & Pflege",
+      "slug": "supermarkt/haushalt-reinigung/waschen-reinigen-pflege",
+      "visible": true,
+      "parent_code": "BeSS_0104",
+      "image": {
+        "original": "https://image.migros.ch/original/4187e91a67904fcbbbb5b901717fabe280e0ad24/waschen-reinigen-pflege.jpg",
+        "stack": "https://image.migros.ch/{stack}/4187e91a67904fcbbbb5b901717fabe280e0ad24/waschen-reinigen-pflege.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0104",
+      "name": "Haushalt & Reinigung",
+      "slug": "supermarkt/haushalt-reinigung",
+      "visible": true,
+      "title": "Reinigung mit der Migros – Reiniger für Haushalt und Garten",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/e5da3225980543e0c7ddcc443069f331d94e8439/haushalt-reinigung.png",
+        "stack": "https://image.migros.ch/{stack}/e5da3225980543e0c7ddcc443069f331d94e8439/haushalt-reinigung.png"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "features": [
+    {
+      "label_code": "miso_oeko_hinweis",
+      "label": "Öko Hinweis",
+      "values": [
+        {
+          "value_code": "MISO_biologisch_gut_abbaubar_OECD_test_302B_ergaenzt_mit_CO2_analytik",
+          "value": "Biologisch gut abbaubar (OECD-Test 302B, ergänzt mit CO2-Analytik)"
+        }
+      ],
+      "category_code": "MISO_CLA_WaschenPapierReinigen_Haushalt_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "miso_gefahrenhinweise",
+      "label": "Gefahrenhinweise",
+      "values": [
+        {
+          "value": "Darf nicht in die Hände von Kindern gelangen"
+        }
+      ],
+      "category_code": "MISO_CLA_WaschenPapierReinigen_Haushalt_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "miso_anwendbarkeit_beschaffenheit_form",
+      "label": "Form",
+      "values": [
+        {
+          "value_code": "MISO_creme",
+          "value": "Cremen"
+        }
+      ],
+      "category_code": "MISO_CLA_Reinigungsmittel_WaschenPapierReinigen_Haushalt_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "miso_geeignet_fuer",
+      "label": "Geeignet für",
+      "values": [
+        {
+          "value_code": "MISO_backofen",
+          "value": "Backofen"
+        },
+        {
+          "value_code": "MISO_bad",
+          "value": "Bad"
+        },
+        {
+          "value_code": "MISO_chromstahl",
+          "value": "Chromstahl"
+        },
+        {
+          "value_code": "MISO_dusch_und_badewannen",
+          "value": "Dusch und Badewannen"
+        },
+        {
+          "value_code": "MISO_edelstahl",
+          "value": "Edelstahl"
+        },
+        {
+          "value_code": "MISO_grill",
+          "value": "Grill"
+        },
+        {
+          "value_code": "MISO_kratzfeste_oberflaechen",
+          "value": "Kratzfeste Oberflächen"
+        },
+        {
+          "value_code": "MISO_kueche\t",
+          "value": "Küche"
+        },
+        {
+          "value_code": "MISO_lavabo",
+          "value": "Lavabo"
+        },
+        {
+          "value_code": "MISO_marmor",
+          "value": "Marmor"
+        },
+        {
+          "value_code": "MISO_wc",
+          "value": "WC"
+        }
+      ],
+      "category_code": "MISO_CLA_Reinigungsmittel_WaschenPapierReinigen_Haushalt_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "miso_nicht_geeignet_fuer",
+      "label": "Nicht geeignet für",
+      "values": [
+        {
+          "value_code": "MISO_kratzempfindliche_oberflaechen",
+          "value": "Kratzempfindliche Oberflächen"
+        }
+      ],
+      "category_code": "MISO_CLA_Reinigungsmittel_WaschenPapierReinigen_Haushalt_Alle",
+      "top_fact": false
+    }
+  ],
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    }
+  },
+  "image": {
+    "original": "https://image.migros.ch/original/43a721960b9f29a3dce12b1b2e89e7fb7ff8dae3/m-classic-cremereiniger-orange.jpg",
+    "stack": "https://image.migros.ch/{stack}/43a721960b9f29a3dce12b1b2e89e7fb7ff8dae3/m-classic-cremereiniger-orange.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/b6e9b022e18312f477562c0a7637dde56af22b5c/m-classic-cremereiniger-orange.png",
+    "stack": "https://image.migros.ch/{stack}/b6e9b022e18312f477562c0a7637dde56af22b5c/m-classic-cremereiniger-orange.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Normalposition"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "ZHKS"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_RISK_CLASS",
+      "values": [
+        {
+          "value_code": "2",
+          "value": "2 (medium)"
+        }
+      ],
+      "category_code": "MAPI_RISK_CLASS",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_QUALITY_CHECK",
+      "values": [
+        {
+          "value_code": "00",
+          "value": "Keine Prüfung"
+        }
+      ],
+      "category_code": "MAPI_QUALITY_CHECK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZHKS",
+          "value": "HKS Standardartikel"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "H",
+          "value": "HKS Standard"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "50311",
+          "value": "SCHEUERMITTEL"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_LIFECYCLE",
+      "values": [
+        {
+          "value_code": "D",
+          "value": "Detailhandelsartikel"
+        }
+      ],
+      "category_code": "MAPI_LIFECYCLE",
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 1,
+    "percentage": 7.7
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/502056400000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/m-classic-cremereiniger-orange-502056400000",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/502056400000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/m-classic-cremereiniger-orange-502056400000",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "regional_availability": {
+    "gmaa": {
+      "probability": 75
+    },
+    "gmbs": {
+      "probability": 78
+    },
+    "gmge": {
+      "probability": 72
+    },
+    "gmlu": {
+      "probability": 68
+    },
+    "gmnf": {
+      "probability": 80
+    },
+    "gmos": {
+      "probability": 74
+    },
+    "gmti": {
+      "probability": 84
+    },
+    "gmvd": {
+      "probability": 74
+    },
+    "gmvs": {
+      "probability": 74
+    },
+    "gmzh": {
+      "probability": 74
+    }
+  },
+  "updated_at": "2020-09-16T06:01:14+0200",
+  "base_unit": "CU",
+  "slugs": {
+    "de": "m-classic-cremereiniger-orange-502056400000",
+    "fr": "m-classic-creme-detergente",
+    "it": "m-classic-crema-detergente"
+  },
+  "receipt_text": "M-Classic Crèmereinig.",
+  "new_product": {
+    "from": "2019-06-12T11:10:10+0200",
+    "to": "2019-06-26T11:10:10+0200"
+  },
+  "main_supplier": {
+    "name": "MIFA AG FRENKENDORF",
+    "id": "0003030000",
+    "supplier_product_id": "335193"
+  },
+  "price": {
+    "valid_from": "2019-06-13T00:00:00+0200",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 2,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "750ml"
+    },
+    "base": {
+      "price": 0.27,
+      "quantity": 100,
+      "unit": "ml"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "galaxus_relevant": true,
+  "ratings": {
+    "count_all": 1,
+    "average_all": 4
+  },
+  "data_source": "SAP-X11",
+  "package": {
+    "content": 750,
+    "content_unit_code": "ml",
+    "content_unit": "Mililiter",
+    "net_weight": 0.75,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogramm",
+    "brutto_weight": 1.187,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 1.295,
+    "brutto_volume_unit_code": "cdm",
+    "height": 27.3,
+    "length": 9.3,
+    "width": 5.1,
+    "unit_dimension": "cm",
+    "price_comparison_content": 100,
+    "size": "750ml"
+  },
+  "package_information": {
+    "tu": {
+      "brutto_weight": 12.049,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 15.096,
+      "brutto_volume_unit_code": "cdm",
+      "height": 28.7,
+      "length": 26.7,
+      "width": 19.7,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 10
+    },
+    "cu": {
+      "brutto_weight": 1.187,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 1.295,
+      "brutto_volume_unit_code": "cdm",
+      "height": 27.3,
+      "length": 9.3,
+      "width": 5.1,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "lu": {
+      "brutto_weight": 675.64,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 9705.6,
+      "brutto_volume_unit_code": "cdm",
+      "height": 101.1,
+      "length": 120,
+      "width": 800,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 540
+    },
+    "lge": {
+      "number_of_base_units": 1
+    },
+    "kar": {
+      "number_of_base_units": 1
+    }
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "views": [
+    "all",
+    "browse"
+  ]
+}

@@ -1,0 +1,320 @@
+{
+  "id": "130723000000",
+  "language": "de",
+  "name": "Andros Mojito",
+  "names": {
+    "name": "Andros Mojito"
+  },
+  "slug": "andros-mojito",
+  "boss_number": "020530326505",
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "80"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "3608580844471",
+    "3608580920847"
+  ],
+  "brand": {
+    "id": "450",
+    "name": "Andros",
+    "slug": "andros"
+  },
+  "categories": [
+    {
+      "code": "BeSS_0101130212",
+      "name": "Säfte",
+      "slug": "supermarkt/lebensmittel/fertiggerichte-menues-snacks/fertige-pizzen-menues-snacks/saefte",
+      "visible": true,
+      "title": "Fruchtsäfte in Ihrer Migros kaufen",
+      "parent_code": "BeSS_01011302",
+      "image": {
+        "original": "https://image.migros.ch/original/ea8c9f9903476e17a5ce841f8a56a6ae0c92775a/saefte.jpg",
+        "stack": "https://image.migros.ch/{stack}/ea8c9f9903476e17a5ce841f8a56a6ae0c92775a/saefte.jpg"
+      },
+      "level": 5
+    },
+    {
+      "code": "BeSS_01011302",
+      "name": "Fertige Pizzen, Menüs & Snacks",
+      "slug": "supermarkt/lebensmittel/fertiggerichte-menues-snacks/fertige-pizzen-menues-snacks",
+      "visible": true,
+      "title": "Feine Fertiggerichte aus Ihrer Migros!",
+      "parent_code": "BeSS_010113",
+      "image": {
+        "original": "https://image.migros.ch/original/0014f54049f00019a8782aedb21ad671bd28a8e8/fertige-pizzen-menues-snacks.jpg",
+        "stack": "https://image.migros.ch/{stack}/0014f54049f00019a8782aedb21ad671bd28a8e8/fertige-pizzen-menues-snacks.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010113",
+      "name": "Fertiggerichte, Menüs & Snacks",
+      "slug": "supermarkt/lebensmittel/fertiggerichte-menues-snacks",
+      "visible": true,
+      "title": "Fertige Pizzen, Menüs und Snacks &ndash; schnell und lecker von der Migros",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/6770b6c8fbbd2689aece359ffeda93b90c58dd09/fertiggerichte-menues-snacks.jpg",
+        "stack": "https://image.migros.ch/{stack}/6770b6c8fbbd2689aece359ffeda93b90c58dd09/fertiggerichte-menues-snacks.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_DiverseSaefte_Saefte_Getraenke",
+        "name": "Diverse Säfte",
+        "slug": "amigos/getraenke/saefte/diverse-saefte",
+        "visible": true,
+        "parent_code": "AMIG_CAT_Saefte_Getraenke",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_Saefte_Getraenke",
+        "name": "Säfte",
+        "slug": "amigos/getraenke/saefte",
+        "visible": true,
+        "parent_code": "AMIG_CAT_Getraenke",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_Getraenke",
+        "name": "Getränke",
+        "slug": "amigos/getraenke",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/adc59887dd222e2694b0615c315d58a1f5e18096/andros-mojito.jpg",
+    "stack": "https://image.migros.ch/{stack}/adc59887dd222e2694b0615c315d58a1f5e18096/andros-mojito.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/f36856e615b4f0c88a788a8bb3a7ef1becebc173/andros-mojito.png",
+    "stack": "https://image.migros.ch/{stack}/f36856e615b4f0c88a788a8bb3a7ef1becebc173/andros-mojito.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZFRP",
+          "value": "Frische Beschaffung"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "7",
+          "value": "Convenience"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "70207",
+          "value": "SAEFTE KLEIN"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/130723000000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/andros-mojito",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/130723000000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/andros-mojito",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "regional_availability": {
+    "gmaa": {
+      "probability": 0
+    },
+    "gmbs": {
+      "probability": 0
+    },
+    "gmge": {
+      "probability": 72
+    },
+    "gmlu": {
+      "probability": 73
+    },
+    "gmnf": {
+      "probability": 67
+    },
+    "gmos": {
+      "probability": 0
+    },
+    "gmti": {
+      "probability": 37
+    },
+    "gmvd": {
+      "probability": 78
+    },
+    "gmvs": {
+      "probability": 49
+    },
+    "gmzh": {
+      "probability": 0
+    }
+  },
+  "updated_at": "2020-09-16T05:44:32+0200",
+  "base_unit": "CU",
+  "slugs": {
+    "de": "andros-mojito",
+    "fr": "andros-mojito",
+    "it": "andros-mojito"
+  },
+  "receipt_text": "Andros Mojito",
+  "main_supplier": {
+    "name": "BISCHOFSZELL",
+    "id": "0003800000"
+  },
+  "price": {
+    "valid_from": "2018-01-30T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 1.9,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "33cl"
+    },
+    "base": {
+      "price": 0.58,
+      "quantity": 100,
+      "unit": "ml"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "data_source": "SAP-X4x",
+  "package": {
+    "content": 330,
+    "content_unit_code": "ml",
+    "content_unit": "Mililiter",
+    "net_weight": 0.33,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogramm",
+    "brutto_weight": 0.335,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 0.782,
+    "brutto_volume_unit_code": "cdm",
+    "height": 18.5,
+    "length": 6.5,
+    "width": 6.5,
+    "unit_dimension": "cm",
+    "price_comparison_content": 100,
+    "size": "33cl"
+  },
+  "package_information": {
+    "tu": {
+      "brutto_weight": 2.01,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0,
+      "height": 0,
+      "length": 0,
+      "width": 0,
+      "number_of_base_units": 6
+    },
+    "cu": {
+      "brutto_weight": 0.335,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0.782,
+      "brutto_volume_unit_code": "cdm",
+      "height": 18.5,
+      "length": 6.5,
+      "width": 6.5,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    }
+  },
+  "reindex_date": "2020-09-22T00:00:00+0200",
+  "recipe_ingredient_ids": [
+    "10000"
+  ],
+  "views": [
+    "all",
+    "browse"
+  ]
+}

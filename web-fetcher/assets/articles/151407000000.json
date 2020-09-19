@@ -1,0 +1,601 @@
+{
+  "id": "151407000000",
+  "language": "de",
+  "name": "Lilibiggs Honey",
+  "names": {
+    "name": "Lilibiggs Honey"
+  },
+  "slug": "lilibiggs-honey",
+  "boss_number": "010310405610",
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "source-qim-fooddeclaration",
+    "source-qim-nutritionfacts",
+    "source-qim-origins",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7617027052665"
+  ],
+  "labels": [
+    {
+      "id": "L24",
+      "name": "Lilibiggs",
+      "slug": "lilibiggs",
+      "links": {
+        "homepage": {
+          "url": "http://www.lilibiggs.ch/?language=de",
+          "name": "Homepage",
+          "type": "info",
+          "purchasable": false
+        }
+      },
+      "image": {
+        "original": "https://image.migros.ch/original/a68b4be17cd06e9f0f86c4a9918596456aadca48/lilibiggs.jpg",
+        "stack": "https://image.migros.ch/{stack}/a68b4be17cd06e9f0f86c4a9918596456aadca48/lilibiggs.jpg"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_01011104",
+      "name": "Honig",
+      "slug": "supermarkt/lebensmittel/fruehstueck/honig",
+      "visible": true,
+      "parent_code": "BeSS_010111",
+      "image": {
+        "original": "https://image.migros.ch/original/cf93a88b225b284afedafefffd6f34fd1515c9fc/honig.jpg",
+        "stack": "https://image.migros.ch/{stack}/cf93a88b225b284afedafefffd6f34fd1515c9fc/honig.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010111",
+      "name": "Frühstück",
+      "slug": "supermarkt/lebensmittel/fruehstueck",
+      "visible": true,
+      "title": "Frühstück: Mit Produkten aus Ihrer Migros einfach in den Tag starten",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/58a87c73cd077c5c9efb268051c16d5b373f5c29/fruehstueck.jpg",
+        "stack": "https://image.migros.ch/{stack}/58a87c73cd077c5c9efb268051c16d5b373f5c29/fruehstueck.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_HonigSchokolade_Brotaufstriche_MueesliCerealienBrotaufstriche",
+        "name": "Honig & Schokolade",
+        "slug": "amigos/mueesli-cerealien-brotaufstriche/brotaufstriche/honig-schokolade",
+        "visible": true,
+        "parent_code": "AMIG_CAT_Brotaufstriche_MueesliCerealienBrotaufstriche",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_Brotaufstriche_MueesliCerealienBrotaufstriche",
+        "name": "Brotaufstriche",
+        "slug": "amigos/mueesli-cerealien-brotaufstriche/brotaufstriche",
+        "visible": true,
+        "parent_code": "AMIG_CAT_MueesliCerealienBrotaufstriche",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_MueesliCerealienBrotaufstriche",
+        "name": "Müesli, Cerealien & Brotaufstriche",
+        "slug": "amigos/mueesli-cerealien-brotaufstriche",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "nutrition_facts": {
+    "standard": {
+      "nutrients": [
+        {
+          "code": "PIM_NUT_ENERGIE",
+          "name": "Energie",
+          "pictogram_name": "Energie",
+          "category": "BIG9",
+          "quantity": 1401,
+          "nutrition_operator": "=",
+          "quantity_unit": "kJ",
+          "quantity_alternate": 330,
+          "quantity_alternate_unit": "kcal"
+        },
+        {
+          "code": "PIM_NUT_FETT",
+          "name": "Fett",
+          "pictogram_name": "Fett",
+          "category": "BIG9",
+          "quantity": 0,
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_FETT_GES",
+          "name": "davon gesättigte Fettsäuren",
+          "pictogram_name": "gesättigte Fettsäuren",
+          "category": "BIG9",
+          "quantity": 0,
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_KOHLENHY",
+          "name": "Kohlenhydrate",
+          "category": "BIG9",
+          "quantity": 82,
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_ZUCKER",
+          "name": "davon Zucker",
+          "pictogram_name": "Zuckerarten",
+          "category": "BIG9",
+          "quantity": 82,
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_GES_BALL",
+          "name": "Ballaststoffe",
+          "category": "BIG9",
+          "quantity": 0.5,
+          "nutrition_operator": "<",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_PROTEINE",
+          "name": "Eiweiss",
+          "category": "BIG9",
+          "quantity": 0.5,
+          "nutrition_operator": "<",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_KOCHSALZ",
+          "name": "Salz",
+          "pictogram_name": "Salz",
+          "category": "BIG9",
+          "quantity": 0.01,
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        }
+      ],
+      "base_quantity": 100,
+      "base_unit": "g"
+    },
+    "portion": {
+      "nutrients": [
+        {
+          "code": "PIM_NUT_ENERGIE",
+          "name": "Energie",
+          "pictogram_name": "Energie",
+          "category": "BIG9",
+          "quantity": 140,
+          "nutrition_operator": "=",
+          "quantity_unit": "kJ",
+          "quantity_alternate": 33,
+          "quantity_alternate_unit": "kcal"
+        },
+        {
+          "code": "PIM_NUT_FETT",
+          "name": "Fett",
+          "pictogram_name": "Fett",
+          "category": "BIG9",
+          "quantity": 0,
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_FETT_GES",
+          "name": "davon gesättigte Fettsäuren",
+          "pictogram_name": "gesättigte Fettsäuren",
+          "category": "BIG9",
+          "quantity": 0,
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_KOHLENHY",
+          "name": "Kohlenhydrate",
+          "category": "BIG9",
+          "quantity": 8.2,
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_ZUCKER",
+          "name": "davon Zucker",
+          "pictogram_name": "Zuckerarten",
+          "category": "BIG9",
+          "quantity": 8.2,
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_GES_BALL",
+          "name": "Ballaststoffe",
+          "category": "BIG9",
+          "quantity": 0.5,
+          "nutrition_operator": "<",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_PROTEINE",
+          "name": "Eiweiss",
+          "category": "BIG9",
+          "quantity": 0.5,
+          "nutrition_operator": "<",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_KOCHSALZ",
+          "name": "Salz",
+          "pictogram_name": "Salz",
+          "category": "BIG9",
+          "quantity": 0.01,
+          "nutrition_operator": "<",
+          "quantity_unit": "g"
+        }
+      ],
+      "base_description": "2 Teelöffel",
+      "base_quantity": 10,
+      "base_unit": "g",
+      "package_type": "Flasche",
+      "portions_per_package": "25",
+      "portions_per_package_precision": "="
+    }
+  },
+  "features": [
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_tube",
+          "value": "Tube"
+        }
+      ],
+      "category_code": "MISO_CLA_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_artvonhonig",
+      "label": "Art von Honig",
+      "values": [
+        {
+          "value_code": "MISO_artvonhonig_blueten",
+          "value": "Blüten"
+        }
+      ],
+      "category_code": "MISO_CLA_SuesseAufstriche_BearbeiteteVerarbeiteteNahrungsmittel_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_honigkonsistenz",
+      "label": "Honig Konsistenz",
+      "values": [
+        {
+          "value_code": "MISO_honigkonsistenz_fluessigerhonig",
+          "value": "flüssiger Honig"
+        }
+      ],
+      "category_code": "MISO_CLA_SuesseAufstriche_BearbeiteteVerarbeiteteNahrungsmittel_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    }
+  ],
+  "general_information": [
+    {
+      "label": "Kühlhinweis / Aufbewahrungshinweis",
+      "value": "Bei Raumtemperatur aufbewahren."
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/b5b8849dc1157bebe0c444453e3a289b8859a165/lilibiggs-honey.jpg",
+    "stack": "https://image.migros.ch/{stack}/b5b8849dc1157bebe0c444453e3a289b8859a165/lilibiggs-honey.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/16d46a5f9de2e5839d3029dfa75d71e7c290d561/lilibiggs-honey.png",
+    "stack": "https://image.migros.ch/{stack}/16d46a5f9de2e5839d3029dfa75d71e7c290d561/lilibiggs-honey.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_sortierung",
+      "label": "Sortierung aMigos",
+      "values": [
+        {
+          "value_code": "NUMERIC_280",
+          "value": "280",
+          "numeric_value": 280
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "M",
+          "value": "Kolonial Standard"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "10344",
+          "value": "HONIG"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "regulated_description": "Blütenhonig",
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/151407000000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/lilibiggs-honey",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/151407000000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/lilibiggs-honey",
+      "type": "info",
+      "purchasable": false
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/60624",
+      "app_url": "leshop:///catalog/article/detail?ean=7617027052665",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/lilibiggs-honey",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "regional_availability": {
+    "gmaa": {
+      "probability": 70
+    },
+    "gmbs": {
+      "probability": 81
+    },
+    "gmge": {
+      "probability": 69
+    },
+    "gmlu": {
+      "probability": 57
+    },
+    "gmnf": {
+      "probability": 90
+    },
+    "gmos": {
+      "probability": 62
+    },
+    "gmti": {
+      "probability": 81
+    },
+    "gmvd": {
+      "probability": 71
+    },
+    "gmvs": {
+      "probability": 82
+    },
+    "gmzh": {
+      "probability": 85
+    }
+  },
+  "updated_at": "2020-09-16T04:48:24+0200",
+  "base_unit": "CU",
+  "slugs": {
+    "de": "lilibiggs-honey",
+    "fr": "lilibiggs-honey",
+    "it": "lilibiggs-honey"
+  },
+  "receipt_text": "Lilibiggs Honey",
+  "main_supplier": {
+    "name": "Narimpex AG",
+    "id": "0010000290",
+    "supplier_product_id": "H3020"
+  },
+  "price": {
+    "valid_from": "2018-01-01T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 3.6,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "250g"
+    },
+    "base": {
+      "price": 1.44,
+      "quantity": 100,
+      "unit": "g"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 10,
+    "average_all": 4
+  },
+  "data_source": "SAP-X11",
+  "origins": {
+    "producing_country": "Herkunft: Lateinamerika, Europa\nAbgepackt in der Schweiz"
+  },
+  "package": {
+    "content": 250,
+    "content_unit_code": "g",
+    "content_unit": "Gramm",
+    "net_weight": 0.25,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogramm",
+    "precision": "exact",
+    "brutto_weight": 0.282,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 0.385,
+    "brutto_volume_unit_code": "cdm",
+    "height": 13.4,
+    "length": 4.1,
+    "width": 7,
+    "unit_dimension": "cm",
+    "price_comparison_content": 100,
+    "size": "250g"
+  },
+  "package_information": {
+    "tu": {
+      "brutto_weight": 4.34,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 7.608,
+      "brutto_volume_unit_code": "cdm",
+      "height": 15.2,
+      "length": 25.8,
+      "width": 19.4,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 15
+    },
+    "cu": {
+      "brutto_weight": 0.282,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0.385,
+      "brutto_volume_unit_code": "cdm",
+      "height": 13.4,
+      "length": 4.1,
+      "width": 7,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "lu": {
+      "brutto_weight": 546.64,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 875.52,
+      "brutto_volume_unit_code": "cdm",
+      "height": 91.2,
+      "length": 120,
+      "width": 80,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1620
+    }
+  },
+  "related_products": {
+    "purchase_recommendations": {
+      "product_ids": [
+        "151498000000",
+        "151498100000",
+        "151432100000",
+        "151421000000",
+        "151433000000"
+      ]
+    }
+  },
+  "declarations": {
+    "food": {
+      "features": [
+        {
+          "label_code": "GDSN_M281_NetContent",
+          "label": "Nettofüllmenge Wert",
+          "values": [
+            {
+              "value_code": "NUMERIC_250",
+              "value": "250",
+              "numeric_value": 250
+            }
+          ],
+          "category_code": "GDSN",
+          "top_fact": false,
+          "unit_code": "g"
+        }
+      ]
+    }
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "recipe_ingredient_ids": [
+    "88342"
+  ],
+  "views": [
+    "all",
+    "browse"
+  ]
+}

@@ -2,7 +2,9 @@
   "name": "web-fetcher",
   "version": "1.0.0",
   "scripts": {
-    "start": "node -r ts-node/register src/index.ts"
+    "fetch:purchase": "node -r ts-node/register src/fetch-purchase.ts",
+    "fetch:products": "node -r ts-node/register src/fetch-products.ts",
+    "reduce:data": "node -r ts-node/register src/reduce-data.ts"
   },
   "devDependencies": {
     "@types/node": "^14.11.1",

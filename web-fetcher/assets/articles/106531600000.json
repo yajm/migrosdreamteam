@@ -1,0 +1,601 @@
+{
+  "id": "106531600000",
+  "language": "de",
+  "name": "Knorr Bratensauce fettarm",
+  "names": {
+    "name": "Knorr Bratensauce fettarm"
+  },
+  "slug": "knorr-bratensauce-fettarm",
+  "boss_number": "011111082110",
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "source-qim-origins",
+    "source-qim-distributor",
+    "validity-range-not-set",
+    "source-qim-allergens",
+    "source-qim-fooddeclaration",
+    "source-qim-nutritionfacts",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7611100442329"
+  ],
+  "brand": {
+    "id": "365",
+    "name": "Knorr",
+    "slug": "knorr"
+  },
+  "categories": [
+    {
+      "code": "BeSS_0101140903",
+      "name": "Saucen",
+      "slug": "supermarkt/lebensmittel/pasta-zutaten-konserven/suppen-saucen-bouillon/saucen",
+      "visible": true,
+      "title": "Saucen in Ihrer Migros kaufen",
+      "parent_code": "BeSS_01011409",
+      "image": {
+        "original": "https://image.migros.ch/original/217fa50552714c2c776c821a6173e77373630f5d/saucen.jpg",
+        "stack": "https://image.migros.ch/{stack}/217fa50552714c2c776c821a6173e77373630f5d/saucen.jpg"
+      },
+      "level": 5
+    },
+    {
+      "code": "BeSS_01011409",
+      "name": "Suppen, Saucen & Bouillon",
+      "slug": "supermarkt/lebensmittel/pasta-zutaten-konserven/suppen-saucen-bouillon",
+      "visible": true,
+      "title": "Bouillon in Ihrer Migros kaufen",
+      "parent_code": "BeSS_010114",
+      "image": {
+        "original": "https://image.migros.ch/original/5f7779de5b06c3e5051c0ccdb81a414859a26cf5/suppen-saucen-bouillon.jpg",
+        "stack": "https://image.migros.ch/{stack}/5f7779de5b06c3e5051c0ccdb81a414859a26cf5/suppen-saucen-bouillon.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010114",
+      "name": "Pasta, Zutaten & Konserven",
+      "slug": "supermarkt/lebensmittel/pasta-zutaten-konserven",
+      "visible": true,
+      "title": "Pasta aus Ihrer Migros: alles rund um Teigwaren",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/6d0964bbb34b8e041ba4d74fc0c90b149907f46a/pasta-zutaten-konserven.jpg",
+        "stack": "https://image.migros.ch/{stack}/6d0964bbb34b8e041ba4d74fc0c90b149907f46a/pasta-zutaten-konserven.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "nutrition_facts": {
+    "standard": {
+      "nutrients": [
+        {
+          "code": "PIM_NUT_ENERGIE",
+          "name": "Energie",
+          "pictogram_name": "Energie",
+          "category": "BIG9",
+          "quantity": 110,
+          "nutrition_operator": "~",
+          "quantity_unit": "kJ",
+          "quantity_alternate": 26,
+          "quantity_alternate_unit": "kcal"
+        },
+        {
+          "code": "PIM_NUT_FETT",
+          "name": "Fett",
+          "pictogram_name": "Fett",
+          "category": "BIG9",
+          "quantity": 0.5,
+          "nutrition_operator": "<",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_FETT_GES",
+          "name": "davon gesättigte Fettsäuren",
+          "pictogram_name": "gesättigte Fettsäuren",
+          "category": "BIG9",
+          "quantity": 0.1,
+          "nutrition_operator": "<",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_KOHLENHY",
+          "name": "Kohlenhydrate",
+          "category": "BIG9",
+          "quantity": 5.1,
+          "nutrition_operator": "~",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_ZUCKER",
+          "name": "davon Zucker",
+          "pictogram_name": "Zuckerarten",
+          "category": "BIG9",
+          "quantity": 2.2,
+          "nutrition_operator": "~",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_GES_BALL",
+          "name": "Ballaststoffe",
+          "category": "BIG9",
+          "quantity": 0.5,
+          "nutrition_operator": "<",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_PROTEINE",
+          "name": "Eiweiss",
+          "category": "BIG9",
+          "quantity": 0.7,
+          "nutrition_operator": "~",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_KOCHSALZ",
+          "name": "Salz",
+          "pictogram_name": "Salz",
+          "category": "BIG9",
+          "quantity": 1.2,
+          "nutrition_operator": "~",
+          "quantity_unit": "g"
+        }
+      ],
+      "base_quantity": 100,
+      "base_unit": "ml",
+      "preparation_state": "PREPARED"
+    }
+  },
+  "features": [
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_plastikdose",
+          "value": "Plastikdose"
+        }
+      ],
+      "category_code": "MISO_CLA_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zubereitungsverfahren",
+      "label": "Hinweise für die Zubereitung",
+      "values": [
+        {
+          "value_code": "MISO_zubereitungsverfahren_kochen",
+          "value": "Kochen"
+        }
+      ],
+      "category_code": "MISO_CLA_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_gewuerzegeeignetfuer",
+      "label": "Gewürze geeignet für",
+      "values": [
+        {
+          "value_code": "MISO_gewuerzegeeignetfuer_fleisch",
+          "value": "Fleisch"
+        }
+      ],
+      "category_code": "MISO_CLA_GewuerzeKonservierungsstoffeExtrakte_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_artvonsaucedip",
+      "label": "Art von Sauce/Dip",
+      "values": [
+        {
+          "value_code": "MISO_artvonsaucedip_bratensauce",
+          "value": "Bratensauce"
+        }
+      ],
+      "category_code": "MISO_CLA_SaucenAufstricheDipsWuerzsaucen_GewuerzeKonservierungsstoffeExtrakte_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_hinzugefuegtezutaten",
+      "label": "Hinzugefügte Zutaten",
+      "values": [
+        {
+          "value_code": "MISO_hinzugefuegtezutaten_gewuerze",
+          "value": "Gewürze"
+        },
+        {
+          "value_code": "MISO_hinzugefuegtezutaten_rindfleisch",
+          "value": "Rindfleisch"
+        },
+        {
+          "value_code": "MISO_hinzugefuegtezutaten_weisswein",
+          "value": "Weisswein"
+        }
+      ],
+      "category_code": "MISO_CLA_SaucenAufstricheDipsWuerzsaucen_GewuerzeKonservierungsstoffeExtrakte_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_vorgeseheneverwendungdersauce",
+      "label": "Vorgesehene Verwendung der Sauce",
+      "values": [
+        {
+          "value_code": "MISO_vorgeseheneverwendungdersauce_fleischgerichte",
+          "value": "Fleischgerichte"
+        }
+      ],
+      "category_code": "MISO_CLA_SaucenAufstricheDipsWuerzsaucen_GewuerzeKonservierungsstoffeExtrakte_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_eignungfuerverzehrsituation",
+      "label": "Eignung für Verzehrsituation",
+      "values": [
+        {
+          "value_code": "MISO_eignungfuerverzehrsituation_zumkochengeeignet",
+          "value": "zum Kochen geeignet"
+        }
+      ],
+      "category_code": "MISO_CLA_SaucenAufstricheDipsWuerzsaucen_GewuerzeKonservierungsstoffeExtrakte_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    }
+  ],
+  "allergens": [
+    {
+      "code": "ALLG_MILCH",
+      "name": "Milch und Milchderivate",
+      "contamination_code": "VORHANDEN",
+      "contamination": "vorhanden"
+    },
+    {
+      "code": "ALLG_SELLERI",
+      "name": "Sellerie und Selleriederivate",
+      "contamination_code": "KANN_ENTHALTEN",
+      "contamination": "kann enthalten"
+    },
+    {
+      "code": "ALLG_EIER",
+      "name": "Eier und Eiderivate",
+      "contamination_code": "KANN_ENTHALTEN",
+      "contamination": "kann enthalten"
+    },
+    {
+      "code": "UW",
+      "name": "Weizen und Weizenderivate",
+      "contamination_code": "VORHANDEN",
+      "contamination": "vorhanden"
+    },
+    {
+      "code": "ALLG_GLUTEN",
+      "name": "Glutenhaltige Cerealien und ihre Derivate",
+      "contamination_code": "VORHANDEN",
+      "contamination": "vorhanden"
+    },
+    {
+      "code": "ALLG_SENF",
+      "name": "Senf- und Senfderivate",
+      "contamination_code": "KANN_ENTHALTEN",
+      "contamination": "kann enthalten"
+    },
+    {
+      "code": "ALLG_SOJA",
+      "name": "Sojabohne und Sojabohnenderivate",
+      "contamination_code": "KANN_ENTHALTEN",
+      "contamination": "kann enthalten"
+    },
+    {
+      "code": "ML",
+      "name": "Laktose",
+      "contamination_code": "VORHANDEN",
+      "contamination": "vorhanden"
+    }
+  ],
+  "general_information": [
+    {
+      "label": "Zubereitungshinweis",
+      "value": "Gewünschte Menge in heisses Wasser oder Fond einstreuen. Kurz aufkochen lassen - Fertig. Dosieren Sie frei nach Ihrem Geschmack. Richtmass: 2 Kaffeelöffel = ca. 7,9 g Pulver = 1 dl Wasser = ca.1 dl Sauce."
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/32c11b7875b398a74edbdf17b3631383f35e3cae/knorr-bratensauce-fettarm.jpg",
+    "stack": "https://image.migros.ch/{stack}/32c11b7875b398a74edbdf17b3631383f35e3cae/knorr-bratensauce-fettarm.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/ad1a6e51c73f0fb06d700481ddba892437ab8c1b/knorr-bratensauce-fettarm.png",
+    "stack": "https://image.migros.ch/{stack}/ad1a6e51c73f0fb06d700481ddba892437ab8c1b/knorr-bratensauce-fettarm.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "M",
+          "value": "Kolonial Standard"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "11114",
+          "value": "BRATENSAUCEN"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "regulated_description": "Bratensauce mit Rindfleisch",
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/106531600000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/knorr-bratensauce-fettarm",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/106531600000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/knorr-bratensauce-fettarm",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "regional_availability": {
+    "gmaa": {
+      "probability": 6
+    },
+    "gmbs": {
+      "probability": 11
+    },
+    "gmge": {
+      "probability": 3
+    },
+    "gmlu": {
+      "probability": 14
+    },
+    "gmnf": {
+      "probability": 8
+    },
+    "gmos": {
+      "probability": 16
+    },
+    "gmti": {
+      "probability": 12
+    },
+    "gmvd": {
+      "probability": 9
+    },
+    "gmvs": {
+      "probability": 18
+    },
+    "gmzh": {
+      "probability": 11
+    }
+  },
+  "updated_at": "2020-09-16T05:40:12+0200",
+  "base_unit": "CU",
+  "slugs": {
+    "de": "knorr-bratensauce-fettarm",
+    "fr": "knorr-sauce-roti-pauvre-en-graisse",
+    "it": "knorr-salsa-darrosto-povera-di-grassi"
+  },
+  "receipt_text": "Knorr Bratensa.fettarm",
+  "main_supplier": {
+    "name": "Unilever Schweiz GmbH / Food",
+    "id": "0010000805"
+  },
+  "price": {
+    "valid_from": "2018-01-29T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 8.5,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "230g"
+    },
+    "base": {
+      "price": 3.7,
+      "quantity": 100,
+      "unit": "g"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 1,
+    "average_all": 5
+  },
+  "data_source": "SAP-X11",
+  "origins": {},
+  "distributor": {
+    "name": "Unilever Schweiz",
+    "address": "Bahnhofstrasse 19, 8240 Thayngen"
+  },
+  "ingredients": "MILCHZUCKER, WEIZENMEHL, jodiertes Speisesalz, modifizierte Stärke, Stärke, Tomatenpulver, Geschmacksverstärker (Mononatriu mglutamat, Dinatriumguanylat, Dinatriuminosinat), Zwiebelpulver, Aromen, 3% Rindfleischpulver, Verdickungsmittel (Guarkernmehl), Farbstoff (Ammoniak-Zuckerkulör), Sonnenblumenöl, Gewürze, Kalium Mineralsalz, Knoblauch, Randenpulver, Thymian, Rosmarin, Weissweinext rakt. Kann Spuren von Ei, Sellerie, Soja und Senf enthalten.",
+  "package": {
+    "content": 230,
+    "content_unit_code": "g",
+    "content_unit": "Gramm",
+    "net_weight": 0.23,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogramm",
+    "brutto_weight": 0.257,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 0.648,
+    "brutto_volume_unit_code": "cdm",
+    "height": 10.7,
+    "length": 7.3,
+    "width": 8.3,
+    "unit_dimension": "cm",
+    "price_comparison_content": 100,
+    "size": "230g"
+  },
+  "package_information": {
+    "tu": {
+      "brutto_weight": 1.61,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 4.045,
+      "brutto_volume_unit_code": "cdm",
+      "height": 11.2,
+      "length": 21.5,
+      "width": 16.8,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 6
+    },
+    "cu": {
+      "brutto_weight": 0.257,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0.648,
+      "brutto_volume_unit_code": "cdm",
+      "height": 10.7,
+      "length": 7.3,
+      "width": 8.3,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "lu": {
+      "brutto_weight": 487.528,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 1.29,
+      "brutto_volume_unit_code": "m3",
+      "height": 134.4,
+      "length": 120,
+      "width": 80,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1728
+    }
+  },
+  "declarations": {
+    "food": {
+      "features": [
+        {
+          "label_code": "GDSN_M281_NetContent",
+          "label": "Nettofüllmenge Wert",
+          "values": [
+            {
+              "value_code": "NUMERIC_230",
+              "value": "230",
+              "numeric_value": 230
+            }
+          ],
+          "category_code": "GDSN",
+          "top_fact": false,
+          "unit_code": "g"
+        },
+        {
+          "label_code": "GDSN_M362_ConsumerStorageInstructions",
+          "label": "Aufbewahrungshinweise für den Konsumenten",
+          "values": [
+            {
+              "value": "Dose immer gut schliessen. Kühl und trocken lagern."
+            }
+          ],
+          "category_code": "GDSN",
+          "top_fact": false
+        },
+        {
+          "label_code": "GDSN_M236_IsVariableUnit",
+          "label": "Mengenvariabler Artikel",
+          "values": [
+            {
+              "value_code": "BOOLEAN_FALSE",
+              "value": "false",
+              "boolean_value": false
+            }
+          ],
+          "category_code": "GDSN",
+          "top_fact": false
+        },
+        {
+          "label_code": "GDSN_M278_NetWeight",
+          "label": "Nettogewicht",
+          "values": [
+            {
+              "value_code": "NUMERIC_230",
+              "value": "230",
+              "numeric_value": 230
+            }
+          ],
+          "category_code": "GDSN",
+          "top_fact": false,
+          "unit_code": "g",
+          "unit": "Gramm",
+          "unit_symbol": "g"
+        },
+        {
+          "label_code": "QIM_ZubereitungshinweisDeklaration",
+          "label": "Zubereitungshinweis",
+          "values": [
+            {
+              "value": "Gewünschte Menge in heisses Wasser oder Fond einstreuen. Kurz aufkochen lassen - Fertig. Dosieren Sie frei nach Ihrem Geschmack. Richtmass: 2 Kaffeelöffel = ca. 7,9 g Pulver = 1 dl Wasser = ca.1 dl Sauce."
+            }
+          ],
+          "category_code": "GDSN",
+          "top_fact": false
+        }
+      ]
+    }
+  },
+  "reindex_date": "2020-09-20T00:00:00+0200",
+  "recipe_ingredient_ids": [
+    "10000"
+  ],
+  "views": [
+    "all",
+    "browse"
+  ]
+}

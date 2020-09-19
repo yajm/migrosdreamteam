@@ -1,0 +1,659 @@
+{
+  "id": "502008300000",
+  "language": "de",
+  "name": "Potz Calc Entkalker",
+  "names": {
+    "name": "Potz Calc Entkalker",
+    "short_name": "Calc Entkalker"
+  },
+  "slug": "potz-calc-entkalker",
+  "boss_number": "150126803705",
+  "description": {
+    "text": "Sofort-Entkalker. Extrastark mit Korrosionsschutz.",
+    "source": "PEX"
+  },
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03"
+  },
+  "tags": [
+    "source-pex",
+    "near-non-food",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7630028662602",
+    "7630028662619"
+  ],
+  "brand": {
+    "id": "151",
+    "name": "Potz",
+    "slug": "potz"
+  },
+  "categories": [
+    {
+      "code": "BeSS_0104010608",
+      "name": "Kalkentferner",
+      "slug": "supermarkt/haushalt-reinigung/waschen-reinigen-pflege/reinigungsmittel/kalkentferner",
+      "visible": true,
+      "parent_code": "BeSS_01040106",
+      "image": {
+        "original": "https://image.migros.ch/original/d6a427324309be663cbcfa8d18190d0434701ddb/kalkentferner.jpg",
+        "stack": "https://image.migros.ch/{stack}/d6a427324309be663cbcfa8d18190d0434701ddb/kalkentferner.jpg"
+      },
+      "level": 5
+    },
+    {
+      "code": "BeSS_01040106",
+      "name": "Reinigungsmittel",
+      "slug": "supermarkt/haushalt-reinigung/waschen-reinigen-pflege/reinigungsmittel",
+      "visible": true,
+      "title": "Putzmittel bei der Migros: Und alles glänzt!",
+      "parent_code": "BeSS_010401",
+      "image": {
+        "original": "https://image.migros.ch/original/4a6e2ed6ea91c788040edfec8e65462f3deee722/reinigungsmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/4a6e2ed6ea91c788040edfec8e65462f3deee722/reinigungsmittel.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010401",
+      "name": "Waschen, Reinigen & Pflege",
+      "slug": "supermarkt/haushalt-reinigung/waschen-reinigen-pflege",
+      "visible": true,
+      "parent_code": "BeSS_0104",
+      "image": {
+        "original": "https://image.migros.ch/original/4187e91a67904fcbbbb5b901717fabe280e0ad24/waschen-reinigen-pflege.jpg",
+        "stack": "https://image.migros.ch/{stack}/4187e91a67904fcbbbb5b901717fabe280e0ad24/waschen-reinigen-pflege.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0104",
+      "name": "Haushalt & Reinigung",
+      "slug": "supermarkt/haushalt-reinigung",
+      "visible": true,
+      "title": "Reinigung mit der Migros – Reiniger für Haushalt und Garten",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/e5da3225980543e0c7ddcc443069f331d94e8439/haushalt-reinigung.png",
+        "stack": "https://image.migros.ch/{stack}/e5da3225980543e0c7ddcc443069f331d94e8439/haushalt-reinigung.png"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_WCBad_ReinigenPutzen_HaushaltReinigung",
+        "name": "WC & Bad",
+        "slug": "amigos/haushalt-reinigung/reinigen-putzen/wc-bad",
+        "visible": true,
+        "parent_code": "AMIG_CAT_ReinigenPutzen_HaushaltReinigung",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_ReinigenPutzen_HaushaltReinigung",
+        "name": "Reinigen & Putzen",
+        "slug": "amigos/haushalt-reinigung/reinigen-putzen",
+        "visible": true,
+        "parent_code": "AMIG_CAT_HaushaltReinigung",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_HaushaltReinigung",
+        "name": "Haushalt & Reinigung",
+        "slug": "amigos/haushalt-reinigung",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "features": [
+    {
+      "label_code": "miso_gefahrenhinweise",
+      "label": "Gefahrenhinweise",
+      "values": [
+        {
+          "value": "Darf nicht in die Hände von Kindern gelangen."
+        }
+      ],
+      "category_code": "MISO_CLA_WaschenPapierReinigen_Haushalt_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "miso_anwendbarkeit_beschaffenheit_form",
+      "label": "Form",
+      "values": [
+        {
+          "value_code": "MISO_fluessig",
+          "value": "flüssig"
+        }
+      ],
+      "category_code": "MISO_CLA_Reinigungsmittel_WaschenPapierReinigen_Haushalt_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "miso_geeignet_fuer",
+      "label": "Geeignet für",
+      "values": [
+        {
+          "value_code": "MISO_entkalkung_von_geraeten_und_oberflaechen",
+          "value": "Entkalkung von Geräten und Oberflächen"
+        },
+        {
+          "value_code": "MISO_espresso_und_kaffeemaschinen",
+          "value": "Espresso und Kaffeemaschinen"
+        }
+      ],
+      "category_code": "MISO_CLA_Reinigungsmittel_WaschenPapierReinigen_Haushalt_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "miso_nicht_geeignet_fuer",
+      "label": "Nicht geeignet für",
+      "values": [
+        {
+          "value_code": "MISO_email",
+          "value": "Email"
+        },
+        {
+          "value_code": "MISO_marmor_und_andere_saeureempfindliche_materialien ",
+          "value": "Marmor und andere säureempfindliche Materialien"
+        }
+      ],
+      "category_code": "MISO_CLA_Reinigungsmittel_WaschenPapierReinigen_Haushalt_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "CHEMICALS_WARNING",
+      "label": "Warnhinweis",
+      "values": [
+        {
+          "value": "Vor Gebrauch stets Kennzeichnung und Produktinformationen lesen."
+        }
+      ],
+      "category_code": "CHEMICALS_WARNING",
+      "top_fact": false
+    }
+  ],
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    }
+  },
+  "image": {
+    "original": "https://image.migros.ch/original/979c8471e815d1ed8a4b147bed0180e6a127dee4/potz-calc-entkalker.jpg",
+    "stack": "https://image.migros.ch/{stack}/979c8471e815d1ed8a4b147bed0180e6a127dee4/potz-calc-entkalker.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/289c558efdceb609b72670a495968d4c3856ed98/potz-calc-entkalker.png",
+    "stack": "https://image.migros.ch/{stack}/289c558efdceb609b72670a495968d4c3856ed98/potz-calc-entkalker.png"
+  },
+  "additional_images": [
+    {
+      "original": "https://image.migros.ch/original/a5ae775a7ac47e876413bfe521bb3d1a3ee5f9eb.jpg",
+      "stack": "https://image.migros.ch/{stack}/a5ae775a7ac47e876413bfe521bb3d1a3ee5f9eb.jpg"
+    }
+  ],
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_sortierung",
+      "label": "Sortierung aMigos",
+      "values": [
+        {
+          "value_code": "NUMERIC_250",
+          "value": "250",
+          "numeric_value": 250
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Normalposition"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "ZHKS"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUSTOMS_POSITION",
+      "values": [
+        {
+          "value_code": "NUMERIC_3402.2000",
+          "value": "3402.2000",
+          "numeric_value": 3402.2
+        }
+      ],
+      "category_code": "MAPI_CUSTOMS_POSITION",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_RISK_CLASS",
+      "values": [
+        {
+          "value_code": "1",
+          "value": "1 (high)"
+        }
+      ],
+      "category_code": "MAPI_RISK_CLASS",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_QUALITY_CHECK",
+      "values": [
+        {
+          "value_code": "00",
+          "value": "Keine Prüfung"
+        }
+      ],
+      "category_code": "MAPI_QUALITY_CHECK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZHKS",
+          "value": "HKS Standardartikel"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "H",
+          "value": "HKS Standard"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "50314",
+          "value": "KALK"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_LIFECYCLE",
+      "values": [
+        {
+          "value_code": "D",
+          "value": "Detailhandelsartikel"
+        }
+      ],
+      "category_code": "MAPI_LIFECYCLE",
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 1,
+    "percentage": 7.7
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/502008300000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/potz-calc-entkalker",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/502008300000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/potz-calc-entkalker",
+      "type": "info",
+      "purchasable": false
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/67462",
+      "app_url": "leshop:///catalog/article/detail?ean=7630028662602",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/potz-calc-entkalker",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "regional_availability": {
+    "gmaa": {
+      "probability": 97
+    },
+    "gmbs": {
+      "probability": 98
+    },
+    "gmge": {
+      "probability": 87
+    },
+    "gmlu": {
+      "probability": 97
+    },
+    "gmnf": {
+      "probability": 98
+    },
+    "gmos": {
+      "probability": 100
+    },
+    "gmti": {
+      "probability": 100
+    },
+    "gmvd": {
+      "probability": 97
+    },
+    "gmvs": {
+      "probability": 77
+    },
+    "gmzh": {
+      "probability": 90
+    }
+  },
+  "updated_at": "2020-09-16T06:01:05+0200",
+  "base_unit": "CU",
+  "slugs": {
+    "de": "potz-calc-entkalker",
+    "fr": "potz-calc-detartrant",
+    "it": "potz-calc-decalcificante"
+  },
+  "receipt_text": "Potz Calc",
+  "main_supplier": {
+    "name": "MIFA AG FRENKENDORF",
+    "id": "0003030000",
+    "supplier_product_id": "7001008"
+  },
+  "price": {
+    "valid_from": "2018-01-01T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 5.5,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "1l"
+    },
+    "base": {
+      "price": 0.55,
+      "quantity": 100,
+      "unit": "ml"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "galaxus_relevant": true,
+  "ratings": {
+    "count_all": 10,
+    "average_all": 4.1
+  },
+  "data_source": "SAP-X11",
+  "chemicals_declaration": {
+    "release_date": "2016-06-08T10:24:46+0200",
+    "supplier_id": "0003030000",
+    "supplier_description": "MIFA AG FRENKENDORF",
+    "hazard_statements": [
+      {
+        "code": "H319",
+        "label": "Verursacht schwere Augenreizung."
+      },
+      {
+        "code": "H315",
+        "label": "Verursacht Hautreizungen."
+      },
+      {
+        "code": "H290",
+        "label": "Kann gegenüber Metallen korrosiv sein."
+      }
+    ],
+    "precautionary_statements": [
+      {
+        "code": "P102",
+        "label": "Darf nicht in die Hände von Kindern gelangen."
+      },
+      {
+        "code": "P280",
+        "label": "Schutzhandschuhe / Schutzkleidung / Augenschutz / Gesichtsschutz tragen."
+      },
+      {
+        "code": "P305_351_338",
+        "label": "BEI KONTAKT MIT DEN AUGEN: Einige Minuten lang behutsam mit Wasser ausspülen. Eventuell vorhandene Kontaktlinsen nach Möglichkeit entfernen. Weiter spülen."
+      },
+      {
+        "code": "P337_313",
+        "label": "Bei anhaltender Augenreizung: Ärztlichen Rat einholen/ärztliche Hilfe hinzuziehen."
+      },
+      {
+        "code": "P234",
+        "label": "Nur im Originalbehälter aufbewahren."
+      },
+      {
+        "code": "P101",
+        "label": "Ist ärztlicher Rat erforderlich, Verpackung oder Kennzeichnungsetikett bereithalten."
+      }
+    ],
+    "storage_class": {
+      "code": "LK8B",
+      "label": "8B Nicht brennbare ätzende Stoffe"
+    },
+    "tunnel_restriction": {
+      "code": "TK_E",
+      "label": "E"
+    },
+    "transport_category": {
+      "code": "BK3",
+      "label": "3"
+    },
+    "hazard_classes": [
+      {
+        "code": "GK12",
+        "label": "Klasse 8 Ätzende Stoffe"
+      }
+    ],
+    "un_number": {
+      "code": "UN3264",
+      "label": "UN 3264"
+    },
+    "signal_word": {
+      "code": "SW02",
+      "label": "Achtung"
+    },
+    "cpid_number": "196207-73 (MIFA)",
+    "poison_cabinet": false,
+    "packaging_exceeds_limited_quantity": false,
+    "chemical_quantity_limit": 20000,
+    "hazard_pictograms": [
+      {
+        "original": "https://image.migros.ch/original/b9b6d67492a097fcc99d628551e84904ab689e51/GHS05.jpg",
+        "code": "GHS05",
+        "description": "Ätzwirkung",
+        "stack": "https://image.migros.ch/{stack}/b9b6d67492a097fcc99d628551e84904ab689e51/GHS05.jpg"
+      }
+    ]
+  },
+  "package": {
+    "content": 1000,
+    "content_unit_code": "ml",
+    "content_unit": "Mililiter",
+    "net_weight": 1,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogramm",
+    "brutto_weight": 1.131,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 2.068,
+    "brutto_volume_unit_code": "cdm",
+    "height": 27.8,
+    "length": 6.2,
+    "width": 12,
+    "unit_dimension": "cm",
+    "price_comparison_content": 100,
+    "size": "1l"
+  },
+  "package_information": {
+    "tu": {
+      "brutto_weight": 10.6,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 21.46,
+      "brutto_volume_unit_code": "cdm",
+      "height": 20,
+      "length": 37,
+      "width": 29,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 9
+    },
+    "cu": {
+      "brutto_weight": 1.131,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 2.068,
+      "brutto_volume_unit_code": "cdm",
+      "height": 27.8,
+      "length": 6.2,
+      "width": 12,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "lu": {
+      "brutto_weight": 610.74,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 1545.6,
+      "brutto_volume_unit_code": "cdm",
+      "height": 160,
+      "length": 120,
+      "width": 80,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 540
+    }
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "views": [
+    "all",
+    "browse"
+  ]
+}

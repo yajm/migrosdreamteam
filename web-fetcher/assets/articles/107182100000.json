@@ -1,0 +1,2533 @@
+{
+  "id": "107182100000",
+  "language": "de",
+  "name": "Delizio Lungo Crema 48 Kapseln",
+  "names": {
+    "name": "Delizio Lungo Crema 48 Kapseln"
+  },
+  "slug": "delizio-lungo-crema-48-kapseln",
+  "boss_number": "010310303605",
+  "description": {
+    "text": "Vollmundiger Lungo mit dezent-frischer S&auml;ure, nussigem Aroma und leichten Noten von Milchschokolade und Kirsche. R&ouml;stkaffee, gemahlen, in Kapseln. Exklusiv fu&uml;r das Delizio System.",
+    "source": "PIM"
+  },
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7617014129882",
+    "7617014142560"
+  ],
+  "brand": {
+    "id": "603",
+    "name": "Delizio",
+    "slug": "delizio",
+    "image": {
+      "original": "https://image.migros.ch/original/f87e04a40a76daf824573bab55f9bf58e65ee249/delizio.jpg",
+      "stack": "https://image.migros.ch/{stack}/f87e04a40a76daf824573bab55f9bf58e65ee249/delizio.jpg"
+    }
+  },
+  "labels": [
+    {
+      "id": "L34",
+      "name": "UTZ",
+      "slug": "utz",
+      "links": {
+        "homepage": {
+          "url": "https://utz.org/",
+          "name": "Homepage",
+          "type": "info",
+          "purchasable": false
+        }
+      },
+      "image": {
+        "original": "https://image.migros.ch/original/64192d97b7770d351f5bbe89a57c9f614e529150/utz.jpg",
+        "stack": "https://image.migros.ch/{stack}/64192d97b7770d351f5bbe89a57c9f614e529150/utz.jpg"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_0101100102",
+      "name": "Kaffeekapseln",
+      "slug": "supermarkt/lebensmittel/getraenke-heiss-kalt/kaffee/kaffeekapseln",
+      "visible": true,
+      "title": "Kaffeekapseln in Ihrer Migros kaufen",
+      "parent_code": "BeSS_01011001",
+      "image": {
+        "original": "https://image.migros.ch/original/aa27c81fb04432f42ad3adf318d527e35435f309/kaffeekapseln.jpg",
+        "stack": "https://image.migros.ch/{stack}/aa27c81fb04432f42ad3adf318d527e35435f309/kaffeekapseln.jpg"
+      },
+      "level": 5
+    },
+    {
+      "code": "BeSS_01011001",
+      "name": "Kaffee",
+      "slug": "supermarkt/lebensmittel/getraenke-heiss-kalt/kaffee",
+      "visible": true,
+      "title": "Das schwarze Gold der Geniesser: Kaffee bei der Migros",
+      "parent_code": "BeSS_010110",
+      "image": {
+        "original": "https://image.migros.ch/original/be9ca8bc37911ac3d695139eadc7cb2446fd5974/kaffee.jpg",
+        "stack": "https://image.migros.ch/{stack}/be9ca8bc37911ac3d695139eadc7cb2446fd5974/kaffee.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010110",
+      "name": "Getränke heiss & kalt",
+      "slug": "supermarkt/lebensmittel/getraenke-heiss-kalt",
+      "visible": true,
+      "title": "Getränke aus der Migros löschen auch Ihren Durst",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/d04d95fbc2e1b4ada4783d2976d37a962a0318a1/getraenke-heiss-kalt.jpg",
+        "stack": "https://image.migros.ch/{stack}/d04d95fbc2e1b4ada4783d2976d37a962a0318a1/getraenke-heiss-kalt.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_Kapseln_Kaffee_Getraenke",
+        "name": "Kapseln",
+        "slug": "amigos/getraenke/kaffee/kapseln",
+        "visible": true,
+        "parent_code": "AMIG_CAT_Kaffee_Getraenke",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_Kaffee_Getraenke",
+        "name": "Kaffee",
+        "slug": "amigos/getraenke/kaffee",
+        "visible": true,
+        "parent_code": "AMIG_CAT_Getraenke",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_Getraenke",
+        "name": "Getränke",
+        "slug": "amigos/getraenke",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "features": [
+    {
+      "label_code": "MISO_zubereitungsverfahren",
+      "label": "Hinweise für die Zubereitung",
+      "values": [
+        {
+          "value_code": "MISO_zubereitungsverfahren_deliziokapselsystem",
+          "value": "Delizio Kapselsystem"
+        }
+      ],
+      "category_code": "MISO_CLA_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_verwendung",
+      "label": "Verwendung",
+      "values": [
+        {
+          "value_code": "MISO_verwendung_kapselmaschine",
+          "value": "Kapselmaschine"
+        }
+      ],
+      "category_code": "MISO_CLA_KaffeeTeeErsatzprodukte_Getraenke_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_kapselsystem",
+      "label": "Kapselsystem",
+      "values": [
+        {
+          "value_code": "MISO_kapselsystem_DelizioKompatibel",
+          "value": "Delizio kompatibel"
+        }
+      ],
+      "category_code": "MISO_CLA_KaffeeTeeErsatzprodukte_Getraenke_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_botanischesorte",
+      "label": "Botanische Sorte",
+      "values": [
+        {
+          "value_code": "MISO_botanischesorte_arabica",
+          "value": "Arabica"
+        }
+      ],
+      "category_code": "MISO_CLA_KaffeeTeeErsatzprodukte_Getraenke_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_entkoffeiniert",
+      "label": "Entkoffeiniert",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "Nein",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MISO_CLA_KaffeeTeeErsatzprodukte_Getraenke_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_formbeschaffenheitdeskaffees",
+      "label": "Form/Beschaffenheit des Kaffees",
+      "values": [
+        {
+          "value_code": "MISO_formbeschaffenheitdeskaffees_gemahlen",
+          "value": "Gemahlen"
+        }
+      ],
+      "category_code": "MISO_CLA_KaffeeTeeErsatzprodukte_Getraenke_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_herkunftdeskaffees",
+      "label": "Herkunft des Kaffees",
+      "values": [
+        {
+          "value_code": "MISO_Herkunftsland_Afrika",
+          "value": "Afrika"
+        },
+        {
+          "value_code": "MISO_Herkunftsland_Asien",
+          "value": "Asien"
+        },
+        {
+          "value_code": "MISO_herkunftdeskaffees_zentralsuedamerika",
+          "value": "Zentral- Südamerika"
+        }
+      ],
+      "category_code": "MISO_CLA_KaffeeTeeErsatzprodukte_Getraenke_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_kaffeeroestung",
+      "label": "Kaffeeröstung",
+      "values": [
+        {
+          "value_code": "MISO_kaffeeroestung_mittlereroestung",
+          "value": "mittlere Röstung"
+        }
+      ],
+      "category_code": "MISO_CLA_KaffeeTeeErsatzprodukte_Getraenke_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zubereitungdeskaffees",
+      "label": "Zubereitung des Kaffees",
+      "values": [
+        {
+          "value_code": "MISO_zubereitungdeskaffees_kapsel",
+          "value": "Kapsel"
+        }
+      ],
+      "category_code": "MISO_CLA_KaffeeTeeErsatzprodukte_Getraenke_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_sortedeskaffees",
+      "label": "Sorte des Kaffees",
+      "values": [
+        {
+          "value_code": "MISO_sortedeskaffees_roestkaffee",
+          "value": "Röstkaffee"
+        }
+      ],
+      "category_code": "MISO_CLA_KaffeeTeeErsatzprodukte_Getraenke_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_anzahlpadskapselnbeutel",
+      "label": "Anzahl Pads/Kapseln/Beutel",
+      "values": [
+        {
+          "value_code": "NUMERIC_48.0",
+          "value": "48.0",
+          "numeric_value": 48
+        }
+      ],
+      "category_code": "MISO_CLA_KaffeeTeeErsatzprodukte_Getraenke_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_staerke15",
+      "label": "Stärke (1-5)",
+      "values": [
+        {
+          "value_code": "NUMERIC_3.0",
+          "value": "3.0",
+          "numeric_value": 3
+        }
+      ],
+      "category_code": "MISO_CLA_KaffeeTeeErsatzprodukte_Getraenke_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_geeignetfuerkapselsystem",
+      "label": "Geeignet für Kapselsystem",
+      "values": [
+        {
+          "value_code": "MISO_geeignetfuerkapselsystem_delizio",
+          "value": "Delizio"
+        }
+      ],
+      "category_code": "MISO_CLA_KaffeeTeeErsatzprodukte_Getraenke_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_Aroma",
+      "label": "Aroma",
+      "values": [
+        {
+          "value_code": "MISO_aroma_lulo",
+          "value": "Lulo"
+        },
+        {
+          "value_code": "MISO_aroma_suessholz",
+          "value": "Süssholz"
+        },
+        {
+          "value_code": "MISO_aroma_nussig",
+          "value": "nussig"
+        }
+      ],
+      "category_code": "MISO_CLA_KaffeeTeeErsatzprodukte_Getraenke_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_tassengroesse",
+      "label": "Tassengrösse",
+      "values": [
+        {
+          "value_code": "MISO_tassengroesse_lungo_120ml",
+          "value": "Lungo (120ml)"
+        }
+      ],
+      "category_code": "MISO_CLA_KaffeeTeeErsatzprodukte_Getraenke_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_koerper",
+      "label": "Körper (1 - 5)",
+      "values": [
+        {
+          "value_code": "MISO_koerper_3",
+          "value": "3"
+        }
+      ],
+      "category_code": "MISO_CLA_Kaffee_Getraenke_heiss_kalt_Lebensmittel_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_koffein",
+      "label": "Koffein",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MISO_CLA_Kaffee_Getraenke_heiss_kalt_Lebensmittel_Alle",
+      "top_fact": false
+    }
+  ],
+  "general_information": [
+    {
+      "label": "Auslobung",
+      "value": "Stärkegrad 3 / 5"
+    },
+    {
+      "label": "Produkteinformation",
+      "value": "Unter Schutzatmosphäre verpackt."
+    },
+    {
+      "label": "Haltbarkeitshinweis",
+      "value": "Vor Wärme schützen."
+    },
+    {
+      "label": "Herstellungsland",
+      "value": "Hergestellt in der Schweiz durch Delica AG. \r\n100% edle Arabicas aus Mittel- und Südamerika, Afrika und Asien."
+    }
+  ],
+  "utz_declarations": [
+    {
+      "members": [
+        "CF39059293",
+        "CF7346674",
+        "CF90920587",
+        "CF30762594"
+      ],
+      "lot_number": "0000000085",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=CF39059293,CF7346674,CF90920587,CF30762594&lang=de"
+    },
+    {
+      "members": [
+        "CF12267266",
+        "CF30762594",
+        "CF49365427",
+        "CF46183085",
+        "CF5705064"
+      ],
+      "lot_number": "0000000086",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=CF12267266,CF30762594,CF49365427,CF46183085,CF5705064&lang=de"
+    },
+    {
+      "members": [
+        "CF31153814",
+        "CF17228719",
+        "CF97877310",
+        "CF83189081",
+        "CF95745922",
+        "CF77316676"
+      ],
+      "lot_number": "0000000087",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=CF31153814,CF17228719,CF97877310,CF83189081,CF95745922,CF77316676&lang=de"
+    },
+    {
+      "members": [
+        "CF21830766",
+        "CF16447606",
+        "CF71678995",
+        "CF10810894",
+        "CF45129114",
+        "CF10444229"
+      ],
+      "lot_number": "0000000088",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=CF21830766,CF16447606,CF71678995,CF10810894,CF45129114,CF10444229&lang=de"
+    },
+    {
+      "members": [
+        "CF73417363",
+        "CF7403405",
+        "CF26258014",
+        "CF35993815",
+        "CF4972290",
+        "CF77351565",
+        "CF92411123",
+        "CF38803485"
+      ],
+      "lot_number": "0000000089",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=CF73417363,CF7403405,CF26258014,CF35993815,CF4972290,CF77351565,CF92411123,CF38803485&lang=de"
+    },
+    {
+      "members": [
+        "CF84834526",
+        "CF38484963",
+        "CF78397513",
+        "CF77351565",
+        "CF31841592",
+        "CF35993815",
+        "CF91944075",
+        "CF72609080",
+        "CF31448318"
+      ],
+      "lot_number": "0000000090",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=CF84834526,CF38484963,CF78397513,CF77351565,CF31841592,CF35993815,CF91944075,CF72609080,CF31448318&lang=de"
+    },
+    {
+      "members": [
+        "34592",
+        "CF78397513",
+        "CF78397513",
+        "CF58926576",
+        "CF84464758",
+        "CF59391443"
+      ],
+      "lot_number": "0000000091",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=34592,CF78397513,CF78397513,CF58926576,CF84464758,CF59391443&lang=de"
+    },
+    {
+      "members": [
+        "CF35235917",
+        "38782",
+        "CF58926576",
+        "CF99536965",
+        "38788",
+        "34592"
+      ],
+      "lot_number": "0000000092",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=CF35235917,38782,CF58926576,CF99536965,38788,34592&lang=de"
+    },
+    {
+      "members": [
+        "87859",
+        "95062",
+        "CF3353025",
+        "87891"
+      ],
+      "lot_number": "0000000093",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=87859,95062,CF3353025,87891&lang=de"
+    },
+    {
+      "members": [
+        "CF7346674",
+        "CF16326493",
+        "CF39059293",
+        "CF45298208",
+        "CF70679356",
+        "CF23105707"
+      ],
+      "lot_number": "0000000773",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=CF7346674,CF16326493,CF39059293,CF45298208,CF70679356,CF23105707&lang=de"
+    },
+    {
+      "members": [
+        "CF7346674",
+        "CF39059293",
+        "CF23105707",
+        "CF70679356",
+        "CF90920587",
+        "CF45298208"
+      ],
+      "lot_number": "0000000774",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=CF7346674,CF39059293,CF23105707,CF70679356,CF90920587,CF45298208&lang=de"
+    },
+    {
+      "members": [
+        "CF7346674",
+        "CF39059293",
+        "CF64605281",
+        "CF90920587"
+      ],
+      "lot_number": "0000000775",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=CF7346674,CF39059293,CF64605281,CF90920587&lang=de"
+    },
+    {
+      "members": [
+        "CF30762594",
+        "CF90920587",
+        "CF7346674",
+        "CF39059293"
+      ],
+      "lot_number": "0000000776",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=CF30762594,CF90920587,CF7346674,CF39059293&lang=de"
+    },
+    {
+      "members": [
+        "CF4113243",
+        "CF90920587",
+        "CF64605281",
+        "CF30762594",
+        "CF39059293",
+        "CF7346674"
+      ],
+      "lot_number": "0000000777",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=CF4113243,CF90920587,CF64605281,CF30762594,CF39059293,CF7346674&lang=de"
+    },
+    {
+      "members": [
+        "CF64605281",
+        "CF90920587",
+        "CF7346674",
+        "CF39059293",
+        "CF2435239",
+        "CF30762594"
+      ],
+      "lot_number": "0000000778",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=CF64605281,CF90920587,CF7346674,CF39059293,CF2435239,CF30762594&lang=de"
+    },
+    {
+      "members": [
+        "CF90920587",
+        "CF64605281",
+        "CF30762594",
+        "CF2435239",
+        "CF39059293",
+        "CF7346674"
+      ],
+      "lot_number": "0000000779",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=CF90920587,CF64605281,CF30762594,CF2435239,CF39059293,CF7346674&lang=de"
+    },
+    {
+      "members": [
+        "CF20089149",
+        "CF94875699",
+        "CF39059293",
+        "CF30762594",
+        "CF12267266",
+        "CF90920587"
+      ],
+      "lot_number": "0000000781",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=CF20089149,CF94875699,CF39059293,CF30762594,CF12267266,CF90920587&lang=de"
+    },
+    {
+      "members": [
+        "CF30762594",
+        "CF39059293",
+        "CF94875699",
+        "CF20089149",
+        "CF90920587"
+      ],
+      "lot_number": "0000000782",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=CF30762594,CF39059293,CF94875699,CF20089149,CF90920587&lang=de"
+    },
+    {
+      "members": [
+        "CF90920587",
+        "CF64605281",
+        "CF2435239",
+        "CF30762594",
+        "CF2145959",
+        "CF94890008",
+        "CF20089149",
+        "CF94875699",
+        "CF39059293"
+      ],
+      "lot_number": "0000000783",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=CF90920587,CF64605281,CF2435239,CF30762594,CF2145959,CF94890008,CF20089149,CF94875699,CF39059293&lang=de"
+    },
+    {
+      "members": [
+        "CF2435239",
+        "CF30762594",
+        "CF2145959",
+        "CF64605281",
+        "CF90920587",
+        "CF39059293",
+        "CF94890008",
+        "CF20089149",
+        "CF94875699"
+      ],
+      "lot_number": "0000000784",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=CF2435239,CF30762594,CF2145959,CF64605281,CF90920587,CF39059293,CF94890008,CF20089149,CF94875699&lang=de"
+    },
+    {
+      "members": [
+        "CF20089149",
+        "CF94890008",
+        "CF94875699",
+        "CF90920587",
+        "CF64605281",
+        "CF2145959",
+        "CF30762594",
+        "CF2435239",
+        "CF39059293"
+      ],
+      "lot_number": "0000000785",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=CF20089149,CF94890008,CF94875699,CF90920587,CF64605281,CF2145959,CF30762594,CF2435239,CF39059293&lang=de"
+    },
+    {
+      "members": [
+        "CF90920587",
+        "CF64605281",
+        "CF2145959",
+        "CF30762594",
+        "CF39059293",
+        "CF94875699",
+        "CF20089149"
+      ],
+      "lot_number": "0000000786",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=CF90920587,CF64605281,CF2145959,CF30762594,CF39059293,CF94875699,CF20089149&lang=de"
+    },
+    {
+      "members": [
+        "CF30762594",
+        "CF39059293",
+        "CF94875699",
+        "CF20089149",
+        "CF2145959",
+        "CF64605281",
+        "CF12267266",
+        "CF90920587"
+      ],
+      "lot_number": "0000000787",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=CF30762594,CF39059293,CF94875699,CF20089149,CF2145959,CF64605281,CF12267266,CF90920587&lang=de"
+    },
+    {
+      "members": [
+        "CF12267266",
+        "CF64605281",
+        "CF2145959",
+        "CF30762594",
+        "CF39059293",
+        "CF94875699",
+        "CF20089149"
+      ],
+      "lot_number": "0000000788",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=CF12267266,CF64605281,CF2145959,CF30762594,CF39059293,CF94875699,CF20089149&lang=de"
+    },
+    {
+      "members": [
+        "CF39059293",
+        "CF30762594",
+        "CF2145959",
+        "CF64605281",
+        "CF12267266",
+        "CF94875699",
+        "CF20089149"
+      ],
+      "lot_number": "0000000789",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=CF39059293,CF30762594,CF2145959,CF64605281,CF12267266,CF94875699,CF20089149&lang=de"
+    },
+    {
+      "members": [
+        "CF12267266",
+        "CF30762594",
+        "CF5705064",
+        "CF20089149",
+        "CF94875699",
+        "CF39059293"
+      ],
+      "lot_number": "0000000790",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=CF12267266,CF30762594,CF5705064,CF20089149,CF94875699,CF39059293&lang=de"
+    },
+    {
+      "members": [
+        "CF5705064",
+        "CF46183085",
+        "CF12267266",
+        "CF64605281",
+        "CF2145959",
+        "CF30762594",
+        "CF49365427"
+      ],
+      "lot_number": "0000000791",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=CF5705064,CF46183085,CF12267266,CF64605281,CF2145959,CF30762594,CF49365427&lang=de"
+    },
+    {
+      "members": [
+        "CF12267266",
+        "CF64605281",
+        "CF2145959",
+        "CF30762594",
+        "CF49365427",
+        "CF46183085",
+        "CF5705064",
+        "CF40690147"
+      ],
+      "lot_number": "0000000792",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=CF12267266,CF64605281,CF2145959,CF30762594,CF49365427,CF46183085,CF5705064,CF40690147&lang=de"
+    },
+    {
+      "members": [
+        "CF12267266",
+        "CF64605281",
+        "CF30762594",
+        "CF49365427",
+        "CF46183085",
+        "CF5705064",
+        "CF40690147"
+      ],
+      "lot_number": "0000000793",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=CF12267266,CF64605281,CF30762594,CF49365427,CF46183085,CF5705064,CF40690147&lang=de"
+    },
+    {
+      "members": [
+        "CF12267266",
+        "CF30762594",
+        "CF49365427",
+        "CF46183085",
+        "CF40690147"
+      ],
+      "lot_number": "0000000794",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=CF12267266,CF30762594,CF49365427,CF46183085,CF40690147&lang=de"
+    },
+    {
+      "members": [
+        "CF86036817",
+        "CF50987932",
+        "CF49365427",
+        "CF46183085",
+        "CF31153814",
+        "CF17228719",
+        "CF40158736"
+      ],
+      "lot_number": "0000000795",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=CF86036817,CF50987932,CF49365427,CF46183085,CF31153814,CF17228719,CF40158736&lang=de"
+    },
+    {
+      "members": [
+        "CF31153814",
+        "CF46183085",
+        "CF49365427",
+        "CF50987932",
+        "CF17228719",
+        "CF40158736",
+        "CF86036817"
+      ],
+      "lot_number": "0000000796",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=CF31153814,CF46183085,CF49365427,CF50987932,CF17228719,CF40158736,CF86036817&lang=de"
+    },
+    {
+      "members": [
+        "CF38208983",
+        "CF40158736",
+        "CF17228719",
+        "CF31153814",
+        "CF46183085",
+        "CF77316676",
+        "CF49365427",
+        "CF50987932",
+        "CF86036817",
+        "CF55019915"
+      ],
+      "lot_number": "0000000797",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=CF38208983,CF40158736,CF17228719,CF31153814,CF46183085,CF77316676,CF49365427,CF50987932,CF86036817,CF55019915&lang=de"
+    },
+    {
+      "members": [
+        "CF31153814",
+        "CF77316676",
+        "CF49365427",
+        "CF40158736",
+        "CF50987932",
+        "CF38208983",
+        "CF55019915",
+        "CF86036817"
+      ],
+      "lot_number": "0000000798",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=CF31153814,CF77316676,CF49365427,CF40158736,CF50987932,CF38208983,CF55019915,CF86036817&lang=de"
+    },
+    {
+      "members": [
+        "CF31153814",
+        "CF40158736",
+        "CF86036817",
+        "CF50987932",
+        "CF77316676"
+      ],
+      "lot_number": "0000000800",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=CF31153814,CF40158736,CF86036817,CF50987932,CF77316676&lang=de"
+    },
+    {
+      "members": [
+        "CF86036817",
+        "CF50987932",
+        "CF95745922",
+        "CF77316676",
+        "CF31153814",
+        "CF17228719",
+        "CF40158736"
+      ],
+      "lot_number": "0000000801",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=CF86036817,CF50987932,CF95745922,CF77316676,CF31153814,CF17228719,CF40158736&lang=de"
+    },
+    {
+      "members": [
+        "CF77316676",
+        "CF17228719",
+        "CF95745922",
+        "CF86036817",
+        "CF31153814"
+      ],
+      "lot_number": "0000000802",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=CF77316676,CF17228719,CF95745922,CF86036817,CF31153814&lang=de"
+    },
+    {
+      "members": [
+        "CF86036817",
+        "CF95745922",
+        "CF77316676",
+        "CF31153814",
+        "CF17228719"
+      ],
+      "lot_number": "0000000803",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=CF86036817,CF95745922,CF77316676,CF31153814,CF17228719&lang=de"
+    },
+    {
+      "members": [
+        "CF77316676",
+        "CF95745922",
+        "CF42200822",
+        "CF83189081",
+        "CF31153814",
+        "CF17228719",
+        "CF97877310"
+      ],
+      "lot_number": "0000000805",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=CF77316676,CF95745922,CF42200822,CF83189081,CF31153814,CF17228719,CF97877310&lang=de"
+    },
+    {
+      "members": [
+        "CF17228719",
+        "CF31153814",
+        "CF77316676",
+        "CF42200822",
+        "CF95745922"
+      ],
+      "lot_number": "0000000806",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=CF17228719,CF31153814,CF77316676,CF42200822,CF95745922&lang=de"
+    },
+    {
+      "members": [
+        "CF10810894",
+        "CF67017917",
+        "CF87398300",
+        "CF90615530",
+        "CF83189081",
+        "CF89633031",
+        "CF86046805",
+        "CF86261775",
+        "CF7524316"
+      ],
+      "lot_number": "0000000807",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=CF10810894,CF67017917,CF87398300,CF90615530,CF83189081,CF89633031,CF86046805,CF86261775,CF7524316&lang=de"
+    },
+    {
+      "members": [
+        "CF89633031",
+        "CF83189081",
+        "CF90615530",
+        "CF16849223",
+        "CF67017917",
+        "CF7524316",
+        "CF86261775",
+        "CF86046805",
+        "CF87398300"
+      ],
+      "lot_number": "0000000808",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=CF89633031,CF83189081,CF90615530,CF16849223,CF67017917,CF7524316,CF86261775,CF86046805,CF87398300&lang=de"
+    },
+    {
+      "members": [
+        "CF89633031",
+        "CF86261775",
+        "CF90615530",
+        "CF86046805",
+        "CF87398300",
+        "CF7524316",
+        "CF67017917"
+      ],
+      "lot_number": "0000000809",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=CF89633031,CF86261775,CF90615530,CF86046805,CF87398300,CF7524316,CF67017917&lang=de"
+    },
+    {
+      "members": [
+        "CF89633031",
+        "CF83189081",
+        "CF90615530",
+        "CF16849223",
+        "CF67017917",
+        "CF7524316",
+        "CF86261775",
+        "CF86046805",
+        "CF87398300"
+      ],
+      "lot_number": "0000000810",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=CF89633031,CF83189081,CF90615530,CF16849223,CF67017917,CF7524316,CF86261775,CF86046805,CF87398300&lang=de"
+    },
+    {
+      "members": [
+        "CF87398300",
+        "CF86046805",
+        "CF86261775",
+        "CF7524316",
+        "CF67017917",
+        "CF16849223",
+        "CF90615530",
+        "CF83189081",
+        "CF89633031"
+      ],
+      "lot_number": "0000000811",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=CF87398300,CF86046805,CF86261775,CF7524316,CF67017917,CF16849223,CF90615530,CF83189081,CF89633031&lang=de"
+    },
+    {
+      "members": [
+        "CF87398300",
+        "CF16972919",
+        "CF38484963",
+        "CF86261775",
+        "CF50765808",
+        "CF7524316",
+        "CF89633031",
+        "CF76794616",
+        "CF67017917",
+        "CF90615530"
+      ],
+      "lot_number": "0000000812",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=CF87398300,CF16972919,CF38484963,CF86261775,CF50765808,CF7524316,CF89633031,CF76794616,CF67017917,CF90615530&lang=de"
+    },
+    {
+      "members": [
+        "CF93132747",
+        "CF38966573",
+        "CF38484963",
+        "CF89633031",
+        "CF90615530",
+        "CF67017917",
+        "CF7524316"
+      ],
+      "lot_number": "0000000813",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=CF93132747,CF38966573,CF38484963,CF89633031,CF90615530,CF67017917,CF7524316&lang=de"
+    },
+    {
+      "members": [
+        "CF86922685",
+        "CF38966573",
+        "CF38484963",
+        "CF93132747",
+        "CF7524316",
+        "CF67017917",
+        "CF83382159",
+        "CF90615530",
+        "CF89633031"
+      ],
+      "lot_number": "0000000814",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=CF86922685,CF38966573,CF38484963,CF93132747,CF7524316,CF67017917,CF83382159,CF90615530,CF89633031&lang=de"
+    },
+    {
+      "members": [
+        "CF72310610",
+        "CF67017917",
+        "CF7524316",
+        "CF63269113",
+        "CF93132747",
+        "CF41558793",
+        "CF83382159",
+        "CF90615530",
+        "CF76794616",
+        "CF86922685",
+        "CF89633031"
+      ],
+      "lot_number": "0000000815",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=CF72310610,CF67017917,CF7524316,CF63269113,CF93132747,CF41558793,CF83382159,CF90615530,CF76794616,CF86922685,CF89633031&lang=de"
+    },
+    {
+      "members": [
+        "CF63269113",
+        "CF93132747",
+        "CF86922685",
+        "CF72310610",
+        "CF41558793",
+        "CF76794616",
+        "CF89633031"
+      ],
+      "lot_number": "0000000816",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=CF63269113,CF93132747,CF86922685,CF72310610,CF41558793,CF76794616,CF89633031&lang=de"
+    },
+    {
+      "members": [
+        "CF89633031",
+        "CF76794616",
+        "CF72310610",
+        "CF93132747",
+        "CF86922685",
+        "CF63269113"
+      ],
+      "lot_number": "0000000817",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=CF89633031,CF76794616,CF72310610,CF93132747,CF86922685,CF63269113&lang=de"
+    },
+    {
+      "members": [
+        "CF86922685",
+        "CF76794616",
+        "CF89633031",
+        "CF93132747",
+        "CF63269113",
+        "CF98452824",
+        "CF72310610"
+      ],
+      "lot_number": "0000000818",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=CF86922685,CF76794616,CF89633031,CF93132747,CF63269113,CF98452824,CF72310610&lang=de"
+    },
+    {
+      "members": [
+        "CF41963940",
+        "CF98452824",
+        "CF93132747",
+        "CF86922685",
+        "CF89633031",
+        "CF72310610",
+        "CF63269113"
+      ],
+      "lot_number": "0000000819",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=CF41963940,CF98452824,CF93132747,CF86922685,CF89633031,CF72310610,CF63269113&lang=de"
+    },
+    {
+      "members": [
+        "CF46524669",
+        "CF86922685",
+        "CF41963940",
+        "CF63269113",
+        "CF72310610",
+        "CF98452824",
+        "CF89633031"
+      ],
+      "lot_number": "0000000820",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=CF46524669,CF86922685,CF41963940,CF63269113,CF72310610,CF98452824,CF89633031&lang=de"
+    },
+    {
+      "members": [
+        "CF86922685",
+        "CF46524669",
+        "CF89633031",
+        "CF98452824",
+        "CF72310610",
+        "CF63269113",
+        "CF41963940",
+        "CF16972919"
+      ],
+      "lot_number": "0000000821",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=CF86922685,CF46524669,CF89633031,CF98452824,CF72310610,CF63269113,CF41963940,CF16972919&lang=de"
+    },
+    {
+      "members": [
+        "CF63269113",
+        "CF41963940",
+        "CF16972919",
+        "CF98452824",
+        "CF96682198",
+        "CF16513970",
+        "CF72310610",
+        "CF58378217",
+        "CF89633031"
+      ],
+      "lot_number": "0000000822",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=CF63269113,CF41963940,CF16972919,CF98452824,CF96682198,CF16513970,CF72310610,CF58378217,CF89633031&lang=de"
+    },
+    {
+      "members": [
+        "CF89633031",
+        "CF98452824",
+        "CF16513970",
+        "CF72310610",
+        "CF58378217",
+        "CF63269113",
+        "CF41963940",
+        "CF16972919",
+        "CF96682198"
+      ],
+      "lot_number": "0000000823",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=CF89633031,CF98452824,CF16513970,CF72310610,CF58378217,CF63269113,CF41963940,CF16972919,CF96682198&lang=de"
+    },
+    {
+      "members": [
+        "CF75021255",
+        "CF72310610",
+        "CF41963940",
+        "CF16972919",
+        "CF96682198",
+        "CF16513970",
+        "CF58378217",
+        "CF63269113",
+        "CF98452824",
+        "CF89633031"
+      ],
+      "lot_number": "0000000824",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=CF75021255,CF72310610,CF41963940,CF16972919,CF96682198,CF16513970,CF58378217,CF63269113,CF98452824,CF89633031&lang=de"
+    },
+    {
+      "members": [
+        "CF89633031",
+        "CF16513970",
+        "CF72310610",
+        "CF16972919",
+        "CF41963940",
+        "CF75021255"
+      ],
+      "lot_number": "0000000825",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=CF89633031,CF16513970,CF72310610,CF16972919,CF41963940,CF75021255&lang=de"
+    },
+    {
+      "members": [
+        "CF89633031",
+        "CF16513970",
+        "CF72310610",
+        "CF75021255",
+        "CF16447606",
+        "CF16972919",
+        "CF38966573"
+      ],
+      "lot_number": "0000000826",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=CF89633031,CF16513970,CF72310610,CF75021255,CF16447606,CF16972919,CF38966573&lang=de"
+    },
+    {
+      "members": [
+        "CF16513970",
+        "CF89633031",
+        "CF72310610",
+        "CF75021255",
+        "CF41963940",
+        "CF16447606",
+        "CF16972919",
+        "CF38966573"
+      ],
+      "lot_number": "0000000827",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=CF16513970,CF89633031,CF72310610,CF75021255,CF41963940,CF16447606,CF16972919,CF38966573&lang=de"
+    },
+    {
+      "members": [
+        "CF38966573",
+        "CF16447606",
+        "CF75021255",
+        "CF72310610",
+        "CF16513970",
+        "CF10444229"
+      ],
+      "lot_number": "0000000828",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=CF38966573,CF16447606,CF75021255,CF72310610,CF16513970,CF10444229&lang=de"
+    },
+    {
+      "members": [
+        "CF98452824",
+        "CF38966573",
+        "CF41963940",
+        "CF75021255",
+        "CF72310610",
+        "CF16513970",
+        "CF89633031",
+        "CF10444229"
+      ],
+      "lot_number": "0000000829",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=CF98452824,CF38966573,CF41963940,CF75021255,CF72310610,CF16513970,CF89633031,CF10444229&lang=de"
+    },
+    {
+      "members": [
+        "CF10444229",
+        "CF72310610",
+        "CF16513970",
+        "CF75021255",
+        "CF41963940",
+        "CF38966573"
+      ],
+      "lot_number": "0000000830",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=CF10444229,CF72310610,CF16513970,CF75021255,CF41963940,CF38966573&lang=de"
+    },
+    {
+      "members": [
+        "CF72310610",
+        "CF16513970",
+        "CF98452824",
+        "CF89633031",
+        "CF10444229",
+        "CF75021255",
+        "CF38966573",
+        "CF41963940"
+      ],
+      "lot_number": "0000000831",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=CF72310610,CF16513970,CF98452824,CF89633031,CF10444229,CF75021255,CF38966573,CF41963940&lang=de"
+    },
+    {
+      "members": [
+        "CF10444229",
+        "CF16513970",
+        "CF98803503",
+        "CF10810894",
+        "CF98992129",
+        "CF65343665",
+        "CF41963940",
+        "CF38966573"
+      ],
+      "lot_number": "0000000832",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=CF10444229,CF16513970,CF98803503,CF10810894,CF98992129,CF65343665,CF41963940,CF38966573&lang=de"
+    },
+    {
+      "members": [
+        "CF98992129",
+        "CF10810894",
+        "CF98803503",
+        "CF16513970",
+        "CF10444229",
+        "CF38966573",
+        "CF41963940"
+      ],
+      "lot_number": "0000000833",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=CF98992129,CF10810894,CF98803503,CF16513970,CF10444229,CF38966573,CF41963940&lang=de"
+    },
+    {
+      "members": [
+        "CF41963940",
+        "CF38966573",
+        "CF46524669",
+        "CF10444229",
+        "CF16513970",
+        "CF98803503",
+        "CF10671680",
+        "CF10810894",
+        "CF98992129"
+      ],
+      "lot_number": "0000000834",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=CF41963940,CF38966573,CF46524669,CF10444229,CF16513970,CF98803503,CF10671680,CF10810894,CF98992129&lang=de"
+    },
+    {
+      "members": [
+        "CF26258014",
+        "CF10810894",
+        "CF10444229",
+        "CF66985238",
+        "CF46524669",
+        "CF98992129"
+      ],
+      "lot_number": "0000000835",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=CF26258014,CF10810894,CF10444229,CF66985238,CF46524669,CF98992129&lang=de"
+    },
+    {
+      "members": [
+        "CF26258014",
+        "CF10444229",
+        "CF46524669",
+        "CF66985238",
+        "CF98992129",
+        "CF10810894"
+      ],
+      "lot_number": "0000000836",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=CF26258014,CF10444229,CF46524669,CF66985238,CF98992129,CF10810894&lang=de"
+    },
+    {
+      "members": [
+        "CF26258014",
+        "CF10444229",
+        "CF46524669",
+        "CF66985238",
+        "CF10810894",
+        "CF98992129"
+      ],
+      "lot_number": "0000000837",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=CF26258014,CF10444229,CF46524669,CF66985238,CF10810894,CF98992129&lang=de"
+    },
+    {
+      "members": [
+        "CF66985238",
+        "CF98992129",
+        "CF10810894",
+        "CF26258014",
+        "CF10444229",
+        "CF46524669"
+      ],
+      "lot_number": "0000000838",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=CF66985238,CF98992129,CF10810894,CF26258014,CF10444229,CF46524669&lang=de"
+    },
+    {
+      "members": [
+        "CF10444229",
+        "CF21830766",
+        "CF16447606",
+        "CF71678995",
+        "CF10810894",
+        "CF45129114"
+      ],
+      "lot_number": "0000000839",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=CF10444229,CF21830766,CF16447606,CF71678995,CF10810894,CF45129114&lang=de"
+    },
+    {
+      "members": [
+        "CF10444229",
+        "CF45129114",
+        "CF10810894",
+        "CF67017917",
+        "CF71678995",
+        "CF16447606",
+        "CF16447606",
+        "CF21830766"
+      ],
+      "lot_number": "0000000840",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=CF10444229,CF45129114,CF10810894,CF67017917,CF71678995,CF16447606,CF16447606,CF21830766&lang=de"
+    },
+    {
+      "members": [
+        "CF21830766",
+        "CF67017917",
+        "CF71678995",
+        "CF16447606",
+        "CF45129114",
+        "CF10444229"
+      ],
+      "lot_number": "0000000841",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=CF21830766,CF67017917,CF71678995,CF16447606,CF45129114,CF10444229&lang=de"
+    },
+    {
+      "members": [
+        "CF10444229",
+        "CF21830766",
+        "CF16447606",
+        "CF16447606",
+        "CF45129114",
+        "CF10810894",
+        "CF67017917",
+        "CF71678995"
+      ],
+      "lot_number": "0000000842",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=CF10444229,CF21830766,CF16447606,CF16447606,CF45129114,CF10810894,CF67017917,CF71678995&lang=de"
+    },
+    {
+      "members": [
+        "CF98803503",
+        "CF67017917",
+        "CF69959193",
+        "CF85321243",
+        "CF16447606",
+        "CF16447606",
+        "CF71678995",
+        "CF66182389",
+        "CF38803485",
+        "CF10444229",
+        "CF45129114",
+        "CF21830766",
+        "CF7439855"
+      ],
+      "lot_number": "0000000843",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=CF98803503,CF67017917,CF69959193,CF85321243,CF16447606,CF16447606,CF71678995,CF66182389,CF38803485,CF10444229,CF45129114,CF21830766,CF7439855&lang=de"
+    },
+    {
+      "members": [
+        "CF66182389",
+        "CF71678995",
+        "CF16447606",
+        "CF21830766",
+        "CF67017917",
+        "CF69959193",
+        "CF10444229",
+        "CF98803503",
+        "CF45129114"
+      ],
+      "lot_number": "0000000844",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=CF66182389,CF71678995,CF16447606,CF21830766,CF67017917,CF69959193,CF10444229,CF98803503,CF45129114&lang=de"
+    },
+    {
+      "members": [
+        "CF7439855",
+        "CF16447606",
+        "CF71678995",
+        "CF38803485",
+        "CF10444229",
+        "CF85321243",
+        "CF45129114"
+      ],
+      "lot_number": "0000000845",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=CF7439855,CF16447606,CF71678995,CF38803485,CF10444229,CF85321243,CF45129114&lang=de"
+    },
+    {
+      "members": [
+        "CF10444229",
+        "CF45129114",
+        "CF85321243",
+        "CF38803485",
+        "CF71678995",
+        "CF16447606",
+        "CF7439855"
+      ],
+      "lot_number": "0000000846",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=CF10444229,CF45129114,CF85321243,CF38803485,CF71678995,CF16447606,CF7439855&lang=de"
+    },
+    {
+      "members": [
+        "CF7439855",
+        "CF16447606",
+        "CF71678995",
+        "CF10444229",
+        "CF13247458",
+        "CF45129114",
+        "CF69959193",
+        "CF38803485",
+        "CF66182389"
+      ],
+      "lot_number": "0000000847",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=CF7439855,CF16447606,CF71678995,CF10444229,CF13247458,CF45129114,CF69959193,CF38803485,CF66182389&lang=de"
+    },
+    {
+      "members": [
+        "CF13247458",
+        "CF7439855",
+        "CF66182389",
+        "CF71678995",
+        "CF45129114",
+        "CF38803485",
+        "CF16447606",
+        "CF10444229",
+        "CF69959193",
+        "CF94206399"
+      ],
+      "lot_number": "0000000848",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=CF13247458,CF7439855,CF66182389,CF71678995,CF45129114,CF38803485,CF16447606,CF10444229,CF69959193,CF94206399&lang=de"
+    },
+    {
+      "members": [
+        "CF7439855",
+        "CF4972290",
+        "CF16447606",
+        "CF71678995",
+        "CF71890495",
+        "CF10444229",
+        "CF94206399",
+        "CF85321243",
+        "CF38803485"
+      ],
+      "lot_number": "0000000849",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=CF7439855,CF4972290,CF16447606,CF71678995,CF71890495,CF10444229,CF94206399,CF85321243,CF38803485&lang=de"
+    },
+    {
+      "members": [
+        "CF7403405",
+        "CF38803485",
+        "CF77351565",
+        "CF4972290",
+        "CF73417363"
+      ],
+      "lot_number": "0000000850",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=CF7403405,CF38803485,CF77351565,CF4972290,CF73417363&lang=de"
+    },
+    {
+      "members": [
+        "CF73417363",
+        "CF4972290",
+        "CF77351565",
+        "CF67017917",
+        "CF26258014"
+      ],
+      "lot_number": "0000000851",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=CF73417363,CF4972290,CF77351565,CF67017917,CF26258014&lang=de"
+    },
+    {
+      "members": [
+        "CF73417363",
+        "CF4972290",
+        "CF77351565",
+        "CF67017917",
+        "CF26258014"
+      ],
+      "lot_number": "0000000852",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=CF73417363,CF4972290,CF77351565,CF67017917,CF26258014&lang=de"
+    },
+    {
+      "members": [
+        "CF73417363",
+        "CF4972290",
+        "CF77351565",
+        "CF67017917",
+        "CF26258014"
+      ],
+      "lot_number": "0000000853",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=CF73417363,CF4972290,CF77351565,CF67017917,CF26258014&lang=de"
+    },
+    {
+      "members": [
+        "CF67017917",
+        "CF91944075",
+        "CF26258014",
+        "CF72609080",
+        "CF71890495",
+        "CF73417363",
+        "CF4972290",
+        "CF77351565"
+      ],
+      "lot_number": "0000000854",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=CF67017917,CF91944075,CF26258014,CF72609080,CF71890495,CF73417363,CF4972290,CF77351565&lang=de"
+    },
+    {
+      "members": [
+        "CF67017917",
+        "CF31841592",
+        "CF78425005",
+        "CF91944075",
+        "CF72609080",
+        "CF77351565",
+        "CF73417363",
+        "CF38484963",
+        "CF4972290"
+      ],
+      "lot_number": "0000000855",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=CF67017917,CF31841592,CF78425005,CF91944075,CF72609080,CF77351565,CF73417363,CF38484963,CF4972290&lang=de"
+    },
+    {
+      "members": [
+        "CF73417363",
+        "CF38484963",
+        "CF91944075",
+        "CF77351565",
+        "CF31841592"
+      ],
+      "lot_number": "0000000856",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=CF73417363,CF38484963,CF91944075,CF77351565,CF31841592&lang=de"
+    },
+    {
+      "members": [
+        "CF91944075",
+        "CF31841592",
+        "CF38803485",
+        "CF77351565",
+        "CF38484963",
+        "CF73417363"
+      ],
+      "lot_number": "0000000857",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=CF91944075,CF31841592,CF38803485,CF77351565,CF38484963,CF73417363&lang=de"
+    },
+    {
+      "members": [
+        "CF38803485",
+        "CF67017917",
+        "CF78425005",
+        "CF91944075",
+        "CF72609080",
+        "CF77351565",
+        "CF4972290",
+        "CF73417363"
+      ],
+      "lot_number": "0000000858",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=CF38803485,CF67017917,CF78425005,CF91944075,CF72609080,CF77351565,CF4972290,CF73417363&lang=de"
+    },
+    {
+      "members": [
+        "CF72609080",
+        "CF91944075",
+        "CF78425005",
+        "CF67017917",
+        "CF77351565",
+        "CF4972290",
+        "CF73417363"
+      ],
+      "lot_number": "0000000859",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=CF72609080,CF91944075,CF78425005,CF67017917,CF77351565,CF4972290,CF73417363&lang=de"
+    },
+    {
+      "members": [
+        "CF31448318",
+        "CF38484963",
+        "CF77351565",
+        "CF71890495",
+        "CF31841592",
+        "CF35993815",
+        "CF91944075",
+        "CF72609080"
+      ],
+      "lot_number": "0000000860",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=CF31448318,CF38484963,CF77351565,CF71890495,CF31841592,CF35993815,CF91944075,CF72609080&lang=de"
+    },
+    {
+      "members": [
+        "CF77351565",
+        "CF31841592",
+        "CF38484963",
+        "CF91944075",
+        "CF84834526"
+      ],
+      "lot_number": "0000000861",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=CF77351565,CF31841592,CF38484963,CF91944075,CF84834526&lang=de"
+    },
+    {
+      "members": [
+        "CF31448318",
+        "CF84834526",
+        "CF38484963",
+        "CF78397513",
+        "CF77351565",
+        "CF91944075",
+        "CF31841592"
+      ],
+      "lot_number": "0000000862",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=CF31448318,CF84834526,CF38484963,CF78397513,CF77351565,CF91944075,CF31841592&lang=de"
+    },
+    {
+      "members": [
+        "CF31841592",
+        "CF77351565",
+        "CF78397513",
+        "CF38484963",
+        "CF91944075",
+        "CF84834526",
+        "CF31448318"
+      ],
+      "lot_number": "0000000863",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=CF31841592,CF77351565,CF78397513,CF38484963,CF91944075,CF84834526,CF31448318&lang=de"
+    },
+    {
+      "members": [
+        "CF84834526",
+        "CF72609080",
+        "CF91944075",
+        "CF35993815",
+        "CF31841592",
+        "CF77351565",
+        "CF38484963",
+        "CF78397513"
+      ],
+      "lot_number": "0000000864",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=CF84834526,CF72609080,CF91944075,CF35993815,CF31841592,CF77351565,CF38484963,CF78397513&lang=de"
+    },
+    {
+      "members": [
+        "CF72609080",
+        "CF91944075",
+        "CF35993815",
+        "CF31841592",
+        "CF78397513",
+        "CF38484963",
+        "CF84834526"
+      ],
+      "lot_number": "0000000865",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=CF72609080,CF91944075,CF35993815,CF31841592,CF78397513,CF38484963,CF84834526&lang=de"
+    },
+    {
+      "members": [
+        "CF91944075",
+        "CF31841592",
+        "CF78397513",
+        "CF61827710",
+        "CF84834526"
+      ],
+      "lot_number": "0000000866",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=CF91944075,CF31841592,CF78397513,CF61827710,CF84834526&lang=de"
+    },
+    {
+      "members": [
+        "CF72609080",
+        "CF13247458",
+        "CF91944075",
+        "CF60413606",
+        "CF31841592",
+        "CF78397513",
+        "CF61827710",
+        "CF38484963",
+        "CF84834526"
+      ],
+      "lot_number": "0000000867",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=CF72609080,CF13247458,CF91944075,CF60413606,CF31841592,CF78397513,CF61827710,CF38484963,CF84834526&lang=de"
+    },
+    {
+      "members": [
+        "CF72609080",
+        "CF91944075",
+        "CF84834526",
+        "CF61827710",
+        "CF78397513",
+        "CF23393935",
+        "CF72310610",
+        "CF31841592",
+        "CF30460032"
+      ],
+      "lot_number": "0000000868",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=CF72609080,CF91944075,CF84834526,CF61827710,CF78397513,CF23393935,CF72310610,CF31841592,CF30460032&lang=de"
+    },
+    {
+      "members": [
+        "CF72310610",
+        "CF23393935",
+        "CF78397513",
+        "CF61827710",
+        "CF84834526",
+        "CF91944075"
+      ],
+      "lot_number": "0000000869",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=CF72310610,CF23393935,CF78397513,CF61827710,CF84834526,CF91944075&lang=de"
+    },
+    {
+      "members": [
+        "CF91944075",
+        "CF72310610",
+        "CF23393935",
+        "CF78397513",
+        "CF61827710",
+        "CF84834526"
+      ],
+      "lot_number": "0000000870",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=CF91944075,CF72310610,CF23393935,CF78397513,CF61827710,CF84834526&lang=de"
+    },
+    {
+      "members": [
+        "CF84834526",
+        "CF61827710",
+        "CF78397513",
+        "CF23393935",
+        "CF30460032",
+        "CF72609080",
+        "CF64879904",
+        "CF91944075"
+      ],
+      "lot_number": "0000000871",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=CF84834526,CF61827710,CF78397513,CF23393935,CF30460032,CF72609080,CF64879904,CF91944075&lang=de"
+    },
+    {
+      "members": [
+        "CF78397513",
+        "CF61827710",
+        "CF23393935",
+        "CF43498619",
+        "CF72609080",
+        "CF64879904",
+        "CF91944075",
+        "CF78425005",
+        "CF13171193"
+      ],
+      "lot_number": "0000000872",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=CF78397513,CF61827710,CF23393935,CF43498619,CF72609080,CF64879904,CF91944075,CF78425005,CF13171193&lang=de"
+    },
+    {
+      "members": [
+        "CF78397513",
+        "CF23393935",
+        "CF61827710",
+        "CF91944075",
+        "CF13171193"
+      ],
+      "lot_number": "0000000873",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=CF78397513,CF23393935,CF61827710,CF91944075,CF13171193&lang=de"
+    },
+    {
+      "members": [
+        "CF50765808",
+        "CF4171837",
+        "CF78397513",
+        "CF67281806",
+        "CF91944075"
+      ],
+      "lot_number": "0000000874",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=CF50765808,CF4171837,CF78397513,CF67281806,CF91944075&lang=de"
+    },
+    {
+      "members": [
+        "CF4171837",
+        "CF78397513",
+        "CF67281806",
+        "CF43498619",
+        "CF8978458",
+        "CF90083074"
+      ],
+      "lot_number": "0000000875",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=CF4171837,CF78397513,CF67281806,CF43498619,CF8978458,CF90083074&lang=de"
+    },
+    {
+      "members": [
+        "CF67281806",
+        "CF78397513",
+        "CF74001302"
+      ],
+      "lot_number": "0000000876",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=CF67281806,CF78397513,CF74001302&lang=de"
+    },
+    {
+      "members": [
+        "CF59391443",
+        "CF84464758",
+        "CF58926576",
+        "CF78397513",
+        "CF80397249",
+        "CF67281806",
+        "CF82152710",
+        "CF2552456",
+        "34592"
+      ],
+      "lot_number": "0000000877",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=CF59391443,CF84464758,CF58926576,CF78397513,CF80397249,CF67281806,CF82152710,CF2552456,34592&lang=de"
+    },
+    {
+      "members": [
+        "CF78397513",
+        "CF78397513",
+        "CF80397249",
+        "CF67281806",
+        "CF82152710",
+        "34592",
+        "CF2552456",
+        "CF58926576",
+        "CF84464758",
+        "CF59391443"
+      ],
+      "lot_number": "0000000878",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=CF78397513,CF78397513,CF80397249,CF67281806,CF82152710,34592,CF2552456,CF58926576,CF84464758,CF59391443&lang=de"
+    },
+    {
+      "members": [
+        "CF59391443",
+        "CF84464758",
+        "CF58926576",
+        "CF78397513",
+        "CF78397513",
+        "34592"
+      ],
+      "lot_number": "0000000879",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=CF59391443,CF84464758,CF58926576,CF78397513,CF78397513,34592&lang=de"
+    },
+    {
+      "members": [
+        "34592",
+        "CF67281806",
+        "CF78397513",
+        "CF78397513",
+        "CF58926576",
+        "CF84464758",
+        "CF59391443"
+      ],
+      "lot_number": "0000000880",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=34592,CF67281806,CF78397513,CF78397513,CF58926576,CF84464758,CF59391443&lang=de"
+    },
+    {
+      "members": [
+        "CF59391443",
+        "CF84464758",
+        "CF78397513",
+        "34592"
+      ],
+      "lot_number": "0000000881",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=CF59391443,CF84464758,CF78397513,34592&lang=de"
+    },
+    {
+      "members": [
+        "40037",
+        "CF5728653",
+        "CF35235917",
+        "CF74001302",
+        "CF99536965",
+        "CF70575497",
+        "38788",
+        "34592"
+      ],
+      "lot_number": "0000000882",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=40037,CF5728653,CF35235917,CF74001302,CF99536965,CF70575497,38788,34592&lang=de"
+    },
+    {
+      "members": [
+        "CF99536965",
+        "38788"
+      ],
+      "lot_number": "0000000883",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=CF99536965,38788&lang=de"
+    },
+    {
+      "members": [
+        "38788",
+        "CF35235917",
+        "38782",
+        "95062",
+        "CF5728653",
+        "CF49942259"
+      ],
+      "lot_number": "0000000884",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=38788,CF35235917,38782,95062,CF5728653,CF49942259&lang=de"
+    },
+    {
+      "members": [
+        "CF5728653",
+        "CF35235917",
+        "38782",
+        "38781",
+        "95062",
+        "CF49942259",
+        "38788",
+        "40037"
+      ],
+      "lot_number": "0000000885",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=CF5728653,CF35235917,38782,38781,95062,CF49942259,38788,40037&lang=de"
+    },
+    {
+      "members": [
+        "95062",
+        "38781",
+        "38782",
+        "CF35235917",
+        "CF5728653",
+        "40037",
+        "38788",
+        "CF49942259"
+      ],
+      "lot_number": "0000000886",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=95062,38781,38782,CF35235917,CF5728653,40037,38788,CF49942259&lang=de"
+    },
+    {
+      "members": [
+        "34592",
+        "CF42784329"
+      ],
+      "lot_number": "0000000887",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=34592,CF42784329&lang=de"
+    },
+    {
+      "members": [
+        "40030",
+        "40037",
+        "38788",
+        "CF42784329",
+        "38781",
+        "CF84464758"
+      ],
+      "lot_number": "0000000888",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=40030,40037,38788,CF42784329,38781,CF84464758&lang=de"
+    },
+    {
+      "members": [
+        "40037",
+        "40030",
+        "CF84464758",
+        "38781",
+        "CF42784329",
+        "38788"
+      ],
+      "lot_number": "0000000889",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=40037,40030,CF84464758,38781,CF42784329,38788&lang=de"
+    },
+    {
+      "members": [
+        "40030",
+        "40037",
+        "38781",
+        "CF36792212",
+        "60583",
+        "60589",
+        "60698"
+      ],
+      "lot_number": "0000000890",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=40030,40037,38781,CF36792212,60583,60589,60698&lang=de"
+    },
+    {
+      "members": [
+        "CF29521357",
+        "CF29521357",
+        "CF36792212",
+        "87875",
+        "38781",
+        "40037",
+        "40030"
+      ],
+      "lot_number": "0000000891",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=CF29521357,CF29521357,CF36792212,87875,38781,40037,40030&lang=de"
+    },
+    {
+      "members": [
+        "40037",
+        "38781",
+        "CF29521357",
+        "CF29521357"
+      ],
+      "lot_number": "0000000892",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=40037,38781,CF29521357,CF29521357&lang=de"
+    },
+    {
+      "members": [
+        "38782",
+        "38781",
+        "CF29521357"
+      ],
+      "lot_number": "0000000893",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=38782,38781,CF29521357&lang=de"
+    },
+    {
+      "members": [
+        "CF46751758",
+        "CF49280985",
+        "38781",
+        "38782",
+        "40030"
+      ],
+      "lot_number": "0000000894",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=CF46751758,CF49280985,38781,38782,40030&lang=de"
+    },
+    {
+      "members": [
+        "38785",
+        "87888",
+        "CF49280985",
+        "CF3353025",
+        "38781",
+        "40030",
+        "60580",
+        "CF84788488"
+      ],
+      "lot_number": "0000000895",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=38785,87888,CF49280985,CF3353025,38781,40030,60580,CF84788488&lang=de"
+    },
+    {
+      "members": [
+        "CF84788488",
+        "CF3353025",
+        "CF3353025"
+      ],
+      "lot_number": "0000000896",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=CF84788488,CF3353025,CF3353025&lang=de"
+    },
+    {
+      "members": [
+        "40033",
+        "40069",
+        "40042",
+        "87859"
+      ],
+      "lot_number": "0000000897",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=40033,40069,40042,87859&lang=de"
+    },
+    {
+      "members": [
+        "40042",
+        "87859",
+        "40033",
+        "40069"
+      ],
+      "lot_number": "0000000898",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=40042,87859,40033,40069&lang=de"
+    },
+    {
+      "members": [
+        "87859",
+        "CF3353025",
+        "87891"
+      ],
+      "lot_number": "0000000899",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=87859,CF3353025,87891&lang=de"
+    },
+    {
+      "members": [
+        "87891",
+        "87881",
+        "CF3353025",
+        "87859",
+        "87883"
+      ],
+      "lot_number": "0000000900",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=87891,87881,CF3353025,87859,87883&lang=de"
+    },
+    {
+      "members": [
+        "87891",
+        "87881",
+        "CF3353025",
+        "87859"
+      ],
+      "lot_number": "0000000901",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=87891,87881,CF3353025,87859&lang=de"
+    },
+    {
+      "members": [
+        "40042",
+        "CF72743339",
+        "87859"
+      ],
+      "lot_number": "0000000902",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=40042,CF72743339,87859&lang=de"
+    },
+    {
+      "members": [
+        "40042",
+        "CF72743339",
+        "95028",
+        "87859"
+      ],
+      "lot_number": "0000000903",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=40042,CF72743339,95028,87859&lang=de"
+    },
+    {
+      "members": [
+        "40042",
+        "CF72743339",
+        "95028",
+        "87859"
+      ],
+      "lot_number": "0000000904",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=40042,CF72743339,95028,87859&lang=de"
+    },
+    {
+      "members": [
+        "87859",
+        "CF58070761",
+        "40042",
+        "CF72743339",
+        "95028",
+        "95027",
+        "69565"
+      ],
+      "lot_number": "0000000905",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=87859,CF58070761,40042,CF72743339,95028,95027,69565&lang=de"
+    },
+    {
+      "members": [
+        "87859",
+        "95028",
+        "CF72743339",
+        "40042",
+        "95029"
+      ],
+      "lot_number": "0000000906",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=87859,95028,CF72743339,40042,95029&lang=de"
+    },
+    {
+      "members": [
+        "95029",
+        "CF72743339",
+        "87859",
+        "95028"
+      ],
+      "lot_number": "0000000907",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=95029,CF72743339,87859,95028&lang=de"
+    },
+    {
+      "members": [
+        "87868",
+        "95028",
+        "95110",
+        "105118"
+      ],
+      "lot_number": "0000000908",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=87868,95028,95110,105118&lang=de"
+    },
+    {
+      "members": [
+        "87868",
+        "95108",
+        "105118"
+      ],
+      "lot_number": "0000000909",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=87868,95108,105118&lang=de"
+    },
+    {
+      "members": [
+        "87868",
+        "95110"
+      ],
+      "lot_number": "0000000910",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=87868,95110&lang=de"
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/8375690b5b7f0812a9bf77d9f416a71de0aba5d7/delizio-lungo-crema-48-kapseln.jpg",
+    "stack": "https://image.migros.ch/{stack}/8375690b5b7f0812a9bf77d9f416a71de0aba5d7/delizio-lungo-crema-48-kapseln.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/5fda860f17762941aac7300958d4ed5467631058/delizio-lungo-crema-48-kapseln.png",
+    "stack": "https://image.migros.ch/{stack}/5fda860f17762941aac7300958d4ed5467631058/delizio-lungo-crema-48-kapseln.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_sortierung",
+      "label": "Sortierung aMigos",
+      "values": [
+        {
+          "value_code": "NUMERIC_420",
+          "value": "420",
+          "numeric_value": 420
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_intensitaet",
+      "label": "Intensität",
+      "values": [
+        {
+          "value_code": "MISO_intensitaet_ausgewogen",
+          "value": "Ausgewogen"
+        }
+      ],
+      "category_code": "MISO_CLA_KaffeeTeeErsatzprodukte_Getraenke_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_intensitaet",
+      "label": "Intensität",
+      "values": [
+        {
+          "value_code": "MISO_intensitaet_ausgewogen",
+          "value": "Ausgewogen"
+        }
+      ],
+      "category_code": "MISO_CLA_Kaffee_Getraenke_heiss_kalt_Lebensmittel_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_frucht",
+      "label": "Frucht",
+      "values": [
+        {
+          "value_code": "MISO_frucht_beeren",
+          "value": "Beeren"
+        }
+      ],
+      "category_code": "MISO_CLA_Kaffee_Getraenke_heiss_kalt_Lebensmittel_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_gewuerze",
+      "label": "Gewürze",
+      "values": [
+        {
+          "value_code": "MISO_gewuerze_nelke",
+          "value": "Nelke"
+        }
+      ],
+      "category_code": "MISO_CLA_Kaffee_Getraenke_heiss_kalt_Lebensmittel_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_nuesse",
+      "label": "Nüsse",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MISO_CLA_Kaffee_Getraenke_heiss_kalt_Lebensmittel_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_roestaromen",
+      "label": "Röstaromen",
+      "values": [
+        {
+          "value_code": "MISO_roestaromen_kakao",
+          "value": "Kakao"
+        }
+      ],
+      "category_code": "MISO_CLA_Kaffee_Getraenke_heiss_kalt_Lebensmittel_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "M",
+          "value": "Kolonial Standard"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "10383",
+          "value": "DELIZIO"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "regulated_description": "Röstkaffee, gemahlen, in Kapseln",
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/107182100000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/delizio-lungo-crema-48-kapseln",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/107182100000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/delizio-lungo-crema-48-kapseln",
+      "type": "info",
+      "purchasable": false
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/89767",
+      "app_url": "leshop:///catalog/article/detail?ean=7617014129882",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/delizio-lungo-crema-48-kapseln",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "regional_availability": {
+    "gmaa": {
+      "probability": 99
+    },
+    "gmbs": {
+      "probability": 100
+    },
+    "gmge": {
+      "probability": 90
+    },
+    "gmlu": {
+      "probability": 98
+    },
+    "gmnf": {
+      "probability": 98
+    },
+    "gmos": {
+      "probability": 100
+    },
+    "gmti": {
+      "probability": 100
+    },
+    "gmvd": {
+      "probability": 94
+    },
+    "gmvs": {
+      "probability": 100
+    },
+    "gmzh": {
+      "probability": 97
+    }
+  },
+  "updated_at": "2020-09-16T06:30:23+0200",
+  "base_unit": "CU",
+  "slugs": {
+    "de": "delizio-lungo-crema-48-kapseln",
+    "fr": "delizio-crema-48-capsules",
+    "it": "delizio-crema-48-capsule"
+  },
+  "receipt_text": "Delizio Crema 48Kap",
+  "main_supplier": {
+    "name": "DELICA AG",
+    "id": "0004090000",
+    "supplier_product_id": "2000082"
+  },
+  "price": {
+    "valid_from": "2018-01-01T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 19.8,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "288g"
+    },
+    "base": {
+      "price": 6.88,
+      "quantity": 100,
+      "unit": "g"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 49,
+    "average_all": 4.5
+  },
+  "data_source": "SAP-X11",
+  "origins": {
+    "producing_country": "Hergestellt in der Schweiz durch Delica AG."
+  },
+  "ingredients": "Röstkaffee.",
+  "package": {
+    "content": 288,
+    "content_unit_code": "g",
+    "content_unit": "Gramm",
+    "net_weight": 0.288,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogramm",
+    "brutto_weight": 0.4,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 2.372,
+    "brutto_volume_unit_code": "cdm",
+    "height": 17,
+    "length": 10.9,
+    "width": 12.8,
+    "unit_dimension": "cm",
+    "price_comparison_content": 100,
+    "size": "288g"
+  },
+  "package_information": {
+    "tu": {
+      "brutto_weight": 3.455,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 20.513,
+      "brutto_volume_unit_code": "cdm",
+      "height": 22.2,
+      "length": 35,
+      "width": 26.4,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 8
+    },
+    "cu": {
+      "brutto_weight": 0.4,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 2.372,
+      "brutto_volume_unit_code": "cdm",
+      "height": 17,
+      "length": 10.9,
+      "width": 12.8,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "lu": {
+      "brutto_weight": 241.279,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 1491.84,
+      "brutto_volume_unit_code": "cdm",
+      "height": 0,
+      "length": 120,
+      "width": 80,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 504
+    }
+  },
+  "related_products": {
+    "purchase_recommendations": {
+      "product_ids": [
+        "107182200000",
+        "107184700000",
+        "107183600000",
+        "107183800000",
+        "107182700000"
+      ]
+    }
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "recipe_ingredient_ids": [
+    "14706"
+  ],
+  "views": [
+    "all",
+    "browse"
+  ]
+}

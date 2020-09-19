@@ -1,0 +1,526 @@
+{
+  "id": "212431200000",
+  "language": "de",
+  "name": "Roquefort Société",
+  "names": {
+    "name": "Roquefort Société"
+  },
+  "slug": "roquefort-societe",
+  "boss_number": "030413503005",
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "80"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "source-qim-origins",
+    "source-qim-distributor",
+    "validity-range-not-set",
+    "source-qim-allergens",
+    "source-qim-fooddeclaration",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "3023260001362",
+    "3023260028314"
+  ],
+  "categories": [
+    {
+      "code": "BeSS_0101040105",
+      "name": "Spezialitäten Käse",
+      "slug": "supermarkt/lebensmittel/milchprodukte-eier/kaese/spezialitaeten-kaese",
+      "visible": true,
+      "title": "Der edle Norditaliener bei Ihrer Migros",
+      "parent_code": "BeSS_01010401",
+      "image": {
+        "original": "https://image.migros.ch/original/fbc00a96cd8a6d1f493b4a8052bcd68bbfd4dfb0/spezialitaeten-kaese.jpg",
+        "stack": "https://image.migros.ch/{stack}/fbc00a96cd8a6d1f493b4a8052bcd68bbfd4dfb0/spezialitaeten-kaese.jpg"
+      },
+      "level": 5
+    },
+    {
+      "code": "BeSS_01010401",
+      "name": "Käse",
+      "slug": "supermarkt/lebensmittel/milchprodukte-eier/kaese",
+      "visible": true,
+      "title": "Käse von Ihrer Migros &ndash; macht Appetit auf mehr",
+      "parent_code": "BeSS_010104",
+      "image": {
+        "original": "https://image.migros.ch/original/4fbf646a3ebce5b0f570ef4c8f4f9e8d708bb65f/kaese.jpg",
+        "stack": "https://image.migros.ch/{stack}/4fbf646a3ebce5b0f570ef4c8f4f9e8d708bb65f/kaese.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010104",
+      "name": "Milchprodukte & Eier",
+      "slug": "supermarkt/lebensmittel/milchprodukte-eier",
+      "visible": true,
+      "title": "Milchprodukte und Eier –",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/6b1ea6c2d41c3ccb21bf05c8dc342f7f55d83deb/milchprodukte-eier.jpg",
+        "stack": "https://image.migros.ch/{stack}/6b1ea6c2d41c3ccb21bf05c8dc342f7f55d83deb/milchprodukte-eier.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_HartHalbhart_Kaese_MilchprodukteEier",
+        "name": "Hart & Halbhart",
+        "slug": "amigos/milchprodukte-eier/kaese/hart-halbhart",
+        "visible": true,
+        "parent_code": "AMIG_CAT_Kaese_MilchprodukteEier",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_Kaese_MilchprodukteEier",
+        "name": "Käse",
+        "slug": "amigos/milchprodukte-eier/kaese",
+        "visible": true,
+        "parent_code": "AMIG_CAT_MilchprodukteEier",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_MilchprodukteEier",
+        "name": "Milchprodukte & Eier",
+        "slug": "amigos/milchprodukte-eier",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "features": [
+    {
+      "label_code": "MISO_mussgekuehltwerden",
+      "label": "Muss gekühlt werden",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MISO_CLA_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_kunststoffverpackung",
+          "value": "Kunststoff-Verpackung"
+        }
+      ],
+      "category_code": "MISO_CLA_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_fettgehalt",
+      "label": "Fettgehalt",
+      "values": [
+        {
+          "value_code": "MISO_fettgehalt_vollfett",
+          "value": "Vollfett"
+        }
+      ],
+      "category_code": "MISO_CLA_MilchButterRahmKaeseEierErsatzprodukte_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_festigkeit",
+      "label": "Festigkeit",
+      "values": [
+        {
+          "value_code": "MISO_festigkeit_halbhart",
+          "value": "halbhart"
+        }
+      ],
+      "category_code": "MISO_CLA_Kaese_MilchButterRahmKaeseEierErsatzprodukte_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_formbeschaffenheitdeskaeses",
+      "label": "Form/Beschaffenheit des Käses",
+      "values": [
+        {
+          "value_code": "MISO_formbeschaffenheitdeskaeses_halbhartkaese",
+          "value": "Halbhartkäse"
+        }
+      ],
+      "category_code": "MISO_CLA_Kaese_MilchButterRahmKaeseEierErsatzprodukte_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_kaesesorte",
+      "label": "Käsesorte",
+      "values": [
+        {
+          "value_code": "MISO_kaesesorte_roquefort",
+          "value": "Roquefort"
+        }
+      ],
+      "category_code": "MISO_CLA_Kaese_MilchButterRahmKaeseEierErsatzprodukte_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_milchartrohstoff",
+      "label": "Milchart/Rohstoff",
+      "values": [
+        {
+          "value_code": "MISO_milchartrohstoff_schaf",
+          "value": "Schaf"
+        }
+      ],
+      "category_code": "MISO_CLA_Kaese_MilchButterRahmKaeseEierErsatzprodukte_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_milchbehandlungsart",
+      "label": "Milchbehandlungsart",
+      "values": [
+        {
+          "value_code": "MISO_milchbehandlungsart_pastmilch",
+          "value": "Pastmilch"
+        }
+      ],
+      "category_code": "MISO_CLA_Kaese_MilchButterRahmKaeseEierErsatzprodukte_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    }
+  ],
+  "allergens": [
+    {
+      "code": "ALLG_MILCH",
+      "name": "Milch und Milchderivate",
+      "contamination_code": "VORHANDEN",
+      "contamination": "vorhanden"
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/dc6abb667875eba26c07815f38fc6a836e9c2265/roquefort-societe.jpg",
+    "stack": "https://image.migros.ch/{stack}/dc6abb667875eba26c07815f38fc6a836e9c2265/roquefort-societe.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/e28c67504bf74390a3e1a7a78c290852b1ec4839/roquefort-societe.png",
+    "stack": "https://image.migros.ch/{stack}/e28c67504bf74390a3e1a7a78c290852b1ec4839/roquefort-societe.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_sortierung",
+      "label": "Sortierung aMigos",
+      "values": [
+        {
+          "value_code": "NUMERIC_915",
+          "value": "915",
+          "numeric_value": 915
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_volumen",
+      "label": "Volumen aMigos!",
+      "values": [
+        {
+          "value_code": "NUMERIC_0.48762",
+          "value": "0.48762 l",
+          "numeric_value": 0.48762
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false,
+      "unit_code": "l",
+      "unit": "Liter",
+      "unit_symbol": "l"
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZFRP",
+          "value": "Frische Beschaffung"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "1",
+          "value": "Molki"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "70048",
+          "value": "SPEZIALITAETEN"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUSTOMS_POSITION",
+      "values": [
+        {
+          "value_code": "0406.4029"
+        }
+      ],
+      "category_code": "MAPI_CUSTOMS_POSITION",
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "regulated_description": "Französischer Weichkäse, vollfett, aus roher Schafmilch",
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/212431200000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/roquefort-societe",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/212431200000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/roquefort-societe",
+      "type": "info",
+      "purchasable": false
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/12547",
+      "app_url": "leshop:///catalog/article/detail?ean=3023260001362",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/roquefort-societe",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "regional_availability": {
+    "gmaa": {
+      "probability": 52
+    },
+    "gmbs": {
+      "probability": 78
+    },
+    "gmge": {
+      "probability": 87
+    },
+    "gmlu": {
+      "probability": 48
+    },
+    "gmnf": {
+      "probability": 86
+    },
+    "gmos": {
+      "probability": 93
+    },
+    "gmti": {
+      "probability": 56
+    },
+    "gmvd": {
+      "probability": 80
+    },
+    "gmvs": {
+      "probability": 67
+    },
+    "gmzh": {
+      "probability": 57
+    }
+  },
+  "updated_at": "2020-09-16T05:51:21+0200",
+  "base_unit": "CU",
+  "slugs": {
+    "de": "roquefort-societe",
+    "fr": "roquefort-societe",
+    "it": "roquefort-societe"
+  },
+  "receipt_text": "Roquefort Société",
+  "main_supplier": {
+    "name": "ESTAVAYER LAIT S.A.",
+    "id": "0003020000"
+  },
+  "price": {
+    "valid_from": "2018-02-13T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 3.7,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "100g"
+    },
+    "base": {
+      "price": 3.7,
+      "quantity": 100,
+      "unit": "g"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 4,
+    "average_all": 5
+  },
+  "data_source": "SAP-X4x",
+  "origins": {
+    "production_facility_id": "FR 12 203 018 CE"
+  },
+  "distributor": {
+    "name": "Lactalis Suisse SA / Baer SA",
+    "address": "Bahnhofstrasse 67, 6403  Küssnacht am Rigi"
+  },
+  "ingredients": "-",
+  "package": {
+    "content": 100,
+    "content_unit_code": "g",
+    "content_unit": "Gramm",
+    "net_weight": 0.1,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogramm",
+    "brutto_weight": 0.1,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 487.62,
+    "brutto_volume_unit_code": "ccm",
+    "height": 12.9,
+    "length": 2.8,
+    "width": 13.5,
+    "unit_dimension": "cm",
+    "price_comparison_content": 100,
+    "size": "100g"
+  },
+  "package_information": {
+    "tu": {
+      "brutto_weight": 1,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 63.84,
+      "brutto_volume_unit_code": "cdm",
+      "height": 26.6,
+      "length": 60,
+      "width": 40,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 10
+    },
+    "cu": {
+      "brutto_weight": 0.1,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 487.62,
+      "brutto_volume_unit_code": "ccm",
+      "height": 12.9,
+      "length": 2.8,
+      "width": 13.5,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "lu": {
+      "brutto_weight": 0,
+      "brutto_volume": 0,
+      "height": 0,
+      "length": 0,
+      "width": 0,
+      "number_of_base_units": 1920
+    }
+  },
+  "related_products": {
+    "purchase_recommendations": {
+      "product_ids": [
+        "212563400000",
+        "212570300000",
+        "212432400000",
+        "212584400000",
+        "212670100000"
+      ]
+    }
+  },
+  "declarations": {
+    "food": {
+      "features": [
+        {
+          "label_code": "GDSN_M362_ConsumerStorageInstructions",
+          "label": "Aufbewahrungshinweise für den Konsumenten",
+          "values": [
+            {
+              "value": "Bei max. 5 °C aufbewahren."
+            }
+          ],
+          "category_code": "GDSN",
+          "top_fact": false
+        }
+      ]
+    }
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "recipe_ingredient_ids": [
+    "16836",
+    "2278031",
+    "16991"
+  ],
+  "views": [
+    "all",
+    "browse"
+  ]
+}

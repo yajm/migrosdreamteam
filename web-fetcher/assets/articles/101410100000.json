@@ -1,0 +1,661 @@
+{
+  "id": "101410100000",
+  "language": "de",
+  "name": "Alnatura Erdnüsse geröstet & gesalzen",
+  "names": {
+    "name": "Alnatura Erdnüsse geröstet & gesalzen"
+  },
+  "slug": "alnatura-erdnuesse-geroestet-gesalzen",
+  "boss_number": "011610151505",
+  "description": {
+    "text": "<p>BIO Erdn&uuml;sse ger&ouml;stet und gesalzen</p>",
+    "source": "PIM"
+  },
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "source-qim-origins",
+    "source-qim-distributor",
+    "validity-range-not-set",
+    "source-qim-allergens",
+    "source-qim-fooddeclaration",
+    "source-qim-nutritionfacts",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "4104420057340",
+    "7613312095126"
+  ],
+  "brand": {
+    "id": "D06",
+    "name": "Alnatura",
+    "slug": "alnatura",
+    "links": {
+      "homepage": {
+        "url": "https://alnatura.migros.ch/de.html",
+        "name": "Homepage",
+        "type": "info",
+        "purchasable": false
+      }
+    },
+    "image": {
+      "original": "https://image.migros.ch/original/2c0deb7a67525727ed8213ce2b42bc8a6eb35567/alnatura.jpg",
+      "stack": "https://image.migros.ch/{stack}/2c0deb7a67525727ed8213ce2b42bc8a6eb35567/alnatura.jpg"
+    }
+  },
+  "labels": [
+    {
+      "id": "L55",
+      "name": "Veganblume",
+      "slug": "veganblume",
+      "image": {
+        "original": "https://image.migros.ch/original/3eaf56466dd201e7010a81e9bc118d140e93b71b/veganblume.jpg",
+        "stack": "https://image.migros.ch/{stack}/3eaf56466dd201e7010a81e9bc118d140e93b71b/veganblume.jpg"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_01010901",
+      "name": "Geröstete Nüsse",
+      "slug": "supermarkt/lebensmittel/chips-erdnuesse-aperitif/geroestete-nuesse",
+      "visible": true,
+      "parent_code": "BeSS_010109",
+      "image": {
+        "original": "https://image.migros.ch/original/53f4fe9384640c91c99da2079caa59165e3da613/geroestete-nuesse.jpg",
+        "stack": "https://image.migros.ch/{stack}/53f4fe9384640c91c99da2079caa59165e3da613/geroestete-nuesse.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010109",
+      "name": "Chips, Erdnüsse & Apéritif",
+      "slug": "supermarkt/lebensmittel/chips-erdnuesse-aperitif",
+      "visible": true,
+      "title": "Apéro Produkte – der perfekte Knabberspass aus Ihrer Migros",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/21ae01c49da971407bcb475b8d0f1525c8fbbdc6/chips-erdnuesse-aperitif.jpg",
+        "stack": "https://image.migros.ch/{stack}/21ae01c49da971407bcb475b8d0f1525c8fbbdc6/chips-erdnuesse-aperitif.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "ALNA_CAT_Apero_SalzigeSnacks",
+        "name": "Apéro",
+        "slug": "alnatura/salzige-snacks/apero",
+        "visible": true,
+        "parent_code": "ALNA_CAT_SalzigeSnacks",
+        "level": 3
+      },
+      {
+        "code": "ALNA_CAT_SalzigeSnacks",
+        "name": "Salzige Snacks",
+        "slug": "alnatura/salzige-snacks",
+        "visible": true,
+        "parent_code": "BeSS_97",
+        "level": 2
+      },
+      {
+        "code": "BeSS_97",
+        "name": "Alnatura",
+        "slug": "alnatura",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "nutrition_facts": {
+    "standard": {
+      "nutrients": [
+        {
+          "code": "PIM_NUT_ENERGIE",
+          "name": "Energie",
+          "pictogram_name": "Energie",
+          "category": "BIG9",
+          "quantity": 2479,
+          "nutrition_operator": "~",
+          "quantity_unit": "kJ",
+          "quantity_alternate": 599,
+          "quantity_alternate_unit": "kcal"
+        },
+        {
+          "code": "PIM_NUT_FETT",
+          "name": "Fett",
+          "pictogram_name": "Fett",
+          "category": "BIG9",
+          "quantity": 48,
+          "nutrition_operator": "~",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_FETT_GES",
+          "name": "davon gesättigte Fettsäuren",
+          "pictogram_name": "gesättigte Fettsäuren",
+          "category": "BIG9",
+          "quantity": 6.4,
+          "nutrition_operator": "~",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_KOHLENHY",
+          "name": "Kohlenhydrate",
+          "category": "BIG9",
+          "quantity": 7.2,
+          "nutrition_operator": "~",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_ZUCKER",
+          "name": "davon Zucker",
+          "pictogram_name": "Zuckerarten",
+          "category": "BIG9",
+          "quantity": 5.2,
+          "nutrition_operator": "~",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_GES_BALL",
+          "name": "Ballaststoffe",
+          "category": "BIG9",
+          "quantity": 11,
+          "nutrition_operator": "~",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_PROTEINE",
+          "name": "Eiweiss",
+          "category": "BIG9",
+          "quantity": 29,
+          "nutrition_operator": "~",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_KOCHSALZ",
+          "name": "Salz",
+          "pictogram_name": "Salz",
+          "category": "BIG9",
+          "quantity": 0.58,
+          "nutrition_operator": "~",
+          "quantity_unit": "g"
+        }
+      ],
+      "base_quantity": 100,
+      "base_unit": "g",
+      "preparation_state": "UNPREPARED"
+    }
+  },
+  "features": [
+    {
+      "label_code": "MISO_produktionsanspruch",
+      "label": "Produktionsverfahren",
+      "values": [
+        {
+          "value_code": "MISO_produktionsanspruch_bioproduktion",
+          "value": "Bio-Produktion"
+        }
+      ],
+      "category_code": "MISO_CLA_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_beutelsack",
+          "value": "Beutel/Sack"
+        }
+      ],
+      "category_code": "MISO_CLA_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zubereitungsverfahren",
+      "label": "Hinweise für die Zubereitung",
+      "values": [
+        {
+          "value_code": "MISO_zubereitungsverfahren_verzehrfertig",
+          "value": "Verzehrfertig"
+        }
+      ],
+      "category_code": "MISO_CLA_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_formbeschaffenheitvonnuessensamen",
+      "label": "Form/Beschaffenheit von Nüssen/Samen",
+      "values": [
+        {
+          "value_code": "MISO_formbeschaffenheitvonnuessensamen_vollstaendig",
+          "value": "vollständig"
+        }
+      ],
+      "category_code": "MISO_CLA_NuesseSamen_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_enthuelstgeschaelt",
+      "label": "Enthülst/geschält",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MISO_CLA_NuesseSamen_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_herstellungsverfahrenkochprozess",
+      "label": "Herstellungsverfahren/Kochprozess",
+      "values": [
+        {
+          "value_code": "MISO_herstellungsverfahrenkochprozess_geroestet",
+          "value": "Geröstet"
+        }
+      ],
+      "category_code": "MISO_CLA_NuesseSamen_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_VEGETARIANISM",
+      "label": "Vegetarismus",
+      "values": [
+        {
+          "value_code": "MAPI_VEGETARIANISM_vegan",
+          "value": "vegan"
+        }
+      ],
+      "category_code": "MAPI_VEGETARIANISM",
+      "top_fact": false
+    }
+  ],
+  "allergens": [
+    {
+      "code": "ALLG_ERDNUSS",
+      "name": "Erdnüsse und Erdnussderivate",
+      "contamination_code": "VORHANDEN",
+      "contamination": "vorhanden"
+    },
+    {
+      "code": "ALLG_PARANUS",
+      "name": "Paranuss und Paranusserzeugnisse",
+      "contamination_code": "KANN_ENTHALTEN",
+      "contamination": "kann enthalten"
+    },
+    {
+      "code": "ALLG_SOJA",
+      "name": "Sojabohne und Sojabohnenderivate",
+      "contamination_code": "KANN_ENTHALTEN",
+      "contamination": "kann enthalten"
+    },
+    {
+      "code": "ALLG_MACADAM",
+      "name": "Macadamianuss und Macadamianusserzeugnisse",
+      "contamination_code": "KANN_ENTHALTEN",
+      "contamination": "kann enthalten"
+    },
+    {
+      "code": "ALLG_NUSS",
+      "name": "Nüsse und Nussderivate. (Kann Mandeln, Haselnüsse, Walnüsse, Cashewnüsse etc. einschließen)",
+      "contamination_code": "KANN_ENTHALTEN",
+      "contamination": "kann enthalten"
+    },
+    {
+      "code": "ALLG_CASHEW",
+      "name": "Kaschunuss und Kaschunusserzeugnisse",
+      "contamination_code": "KANN_ENTHALTEN",
+      "contamination": "kann enthalten"
+    },
+    {
+      "code": "ALLG_MANDELN",
+      "name": "Mandeln und Mandelerzeugnisse",
+      "contamination_code": "KANN_ENTHALTEN",
+      "contamination": "kann enthalten"
+    },
+    {
+      "code": "ALLG_BAUMNUS",
+      "name": "Walnuss und Walnusserzeugnisse",
+      "contamination_code": "KANN_ENTHALTEN",
+      "contamination": "kann enthalten"
+    },
+    {
+      "code": "ALLG_PISTAZI",
+      "name": "Pistazie und Pistazienerzeugnisse",
+      "contamination_code": "KANN_ENTHALTEN",
+      "contamination": "kann enthalten"
+    },
+    {
+      "code": "ALLG_PECAN",
+      "name": "Pecannuss und Pecannusserzeugnisse",
+      "contamination_code": "KANN_ENTHALTEN",
+      "contamination": "kann enthalten"
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/08dc8191c44ad083b56087919ac8133bdba30d40/alnatura-erdnuesse-geroestet-gesalzen.jpg",
+    "stack": "https://image.migros.ch/{stack}/08dc8191c44ad083b56087919ac8133bdba30d40/alnatura-erdnuesse-geroestet-gesalzen.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/2b836ec9c61d338f621ab361b8bbeaf866328d33/alnatura-erdnuesse-geroestet-gesalzen.png",
+    "stack": "https://image.migros.ch/{stack}/2b836ec9c61d338f621ab361b8bbeaf866328d33/alnatura-erdnuesse-geroestet-gesalzen.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "M",
+          "value": "Kolonial Standard"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "11610",
+          "value": "ALNATURA NUESSE GEROESTET"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUSTOMS_POSITION",
+      "values": [
+        {
+          "value_code": "2008.1190"
+        }
+      ],
+      "category_code": "MAPI_CUSTOMS_POSITION",
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "regulated_description": "Bio Erdnüsse, geröstet und gesalzen",
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/101410100000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/alnatura-erdnuesse-geroestet-gesalzen",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/101410100000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/alnatura-erdnuesse-geroestet-gesalzen",
+      "type": "info",
+      "purchasable": false
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/3290275",
+      "app_url": "leshop:///catalog/article/detail?ean=4104420057340",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/alnatura-erdnuesse-geroestet-gesalzen",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "regional_availability": {
+    "gmaa": {
+      "probability": 13
+    },
+    "gmbs": {
+      "probability": 39
+    },
+    "gmge": {
+      "probability": 31
+    },
+    "gmlu": {
+      "probability": 15
+    },
+    "gmnf": {
+      "probability": 16
+    },
+    "gmos": {
+      "probability": 11
+    },
+    "gmti": {
+      "probability": 12
+    },
+    "gmvd": {
+      "probability": 25
+    },
+    "gmvs": {
+      "probability": 15
+    },
+    "gmzh": {
+      "probability": 33
+    }
+  },
+  "updated_at": "2020-09-16T05:40:45+0200",
+  "base_unit": "CU",
+  "slugs": {
+    "de": "alnatura-erdnuesse-geroestet-gesalzen",
+    "fr": "alnatura-cacahuetes-grilles-salees",
+    "it": "alnatura-arachidi-tostate-salate"
+  },
+  "receipt_text": "Alnatura Erdnüsse",
+  "main_supplier": {
+    "name": "Alnatura Produktions-",
+    "id": "0010030436",
+    "supplier_product_id": "140710"
+  },
+  "price": {
+    "valid_from": "2020-01-14T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 2.8,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "175g"
+    },
+    "base": {
+      "price": 1.6,
+      "quantity": 100,
+      "unit": "g"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 5,
+    "average_all": 1.8
+  },
+  "data_source": "SAP-X11",
+  "origins": {},
+  "distributor": {
+    "name": "Alnatura GmbH",
+    "address": "Mahatma-Gandhi-Straße 7, 64295 Darmstadt"
+  },
+  "ingredients": "ERDNÜSSE* 97%, Palmfett*, Meersalz 1,5% *aus biologischer Landwirtschaft. Kann Spuren von Soja, Mandel und anderen Nüssen enthalten.",
+  "package": {
+    "content": 175,
+    "content_unit_code": "g",
+    "content_unit": "Gramm",
+    "net_weight": 0.175,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogramm",
+    "brutto_weight": 0.185,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 0.866,
+    "brutto_volume_unit_code": "cdm",
+    "height": 17.5,
+    "length": 4.5,
+    "width": 11,
+    "unit_dimension": "cm",
+    "price_comparison_content": 100,
+    "size": "175g"
+  },
+  "package_information": {
+    "tu": {
+      "brutto_weight": 1.63,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 6.326,
+      "brutto_volume_unit_code": "cdm",
+      "height": 16.5,
+      "length": 21.3,
+      "width": 18,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 8
+    },
+    "cu": {
+      "brutto_weight": 0.185,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0.866,
+      "brutto_volume_unit_code": "cdm",
+      "height": 17.5,
+      "length": 4.5,
+      "width": 11,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "lu": {
+      "brutto_weight": 337.96,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 1.275,
+      "brutto_volume_unit_code": "m3",
+      "height": 132.8,
+      "length": 120,
+      "width": 80,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1536
+    }
+  },
+  "declarations": {
+    "food": {
+      "features": [
+        {
+          "label_code": "GDSN_M281_NetContent",
+          "label": "Nettofüllmenge Wert",
+          "values": [
+            {
+              "value_code": "NUMERIC_175",
+              "value": "175",
+              "numeric_value": 175
+            }
+          ],
+          "category_code": "GDSN",
+          "top_fact": false,
+          "unit_code": "g"
+        },
+        {
+          "label_code": "GDSN_M362_ConsumerStorageInstructions",
+          "label": "Aufbewahrungshinweise für den Konsumenten",
+          "values": [
+            {
+              "value": "Bitte trocken lagern und vor Wärme schützen."
+            }
+          ],
+          "category_code": "GDSN",
+          "top_fact": false
+        },
+        {
+          "label_code": "GDSN_M278_NetWeight",
+          "label": "Nettogewicht",
+          "values": [
+            {
+              "value_code": "NUMERIC_175",
+              "value": "175",
+              "numeric_value": 175
+            }
+          ],
+          "category_code": "GDSN",
+          "top_fact": false,
+          "unit_code": "g",
+          "unit": "Gramm",
+          "unit_symbol": "g"
+        },
+        {
+          "label_code": "MAPI_CERTIFICATION_BODY",
+          "label": "Zertifizierungsstellen für Bio und/oder Berg/Alp inkl. Zertifizierungsnummer",
+          "values": [
+            {
+              "value": "AT-BIO-301"
+            }
+          ],
+          "category_code": "GDSN",
+          "top_fact": false
+        },
+        {
+          "label_code": "GDSN_M236_IsVariableUnit",
+          "label": "Mengenvariabler Artikel",
+          "values": [
+            {
+              "value_code": "BOOLEAN_FALSE",
+              "value": "false",
+              "boolean_value": false
+            }
+          ],
+          "category_code": "GDSN",
+          "top_fact": false
+        }
+      ]
+    }
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "recipe_ingredient_ids": [
+    "17064"
+  ],
+  "views": [
+    "all",
+    "browse"
+  ]
+}

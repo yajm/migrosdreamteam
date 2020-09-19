@@ -1,0 +1,324 @@
+{
+  "id": "121013900000",
+  "language": "de",
+  "name": "Aus der Region Süssmost klar",
+  "names": {
+    "name": "Aus der Region Süssmost klar"
+  },
+  "slug": "aus-der-region-suessmost-klar",
+  "boss_number": "010710393105",
+  "description": {
+    "text": "<p><strong>Aus der Region - Ramseier Premium S&uuml;ssmost klar, 1,5l</strong></p><p>Apfelsaft aus der Region, Kohlens&auml;urehaltig, Pasteurisiert. Vegan!</p><p>100% nat&uuml;rlich, Obst aus der Region</p><p><strong>Region Zentralschweiz - bekannt f&uuml;r ihre Obstkulturen.\n<br /></strong>Jeden Herbst liefern &uuml;ber 5000 Landwirte ihre &Auml;pfel in die Mosterei Ramseier Suisse AG. Im &laquo;Zentralschweizer&raquo;-Apfelsaft ist garantiert nur qualitativ hochstehendes &Ouml;LN*-Mostobst aus der Region Zentralschweiz verarbeitet. Ein Produkt aus der Region f&uuml;r die Konsumenten in der Region. Prost!</p><p>*&ouml;kologischer Leistungsausweis\n<br />&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>",
+    "source": "PIM"
+  },
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "validity-range-not-set",
+    "filter-aus-der-region",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7610057012838"
+  ],
+  "labels": [
+    {
+      "id": "L28",
+      "name": "Aus der Region",
+      "slug": "aus-der-region",
+      "links": {
+        "homepage": {
+          "url": "https://aus-der-region.migros.ch/aus-der-region/de.html",
+          "name": "Homepage",
+          "type": "info",
+          "purchasable": false
+        }
+      },
+      "image": {
+        "original": "https://image.migros.ch/original/28068cd4d6e174c8ec75906797af89b64170c43f/aus-der-region.jpg",
+        "stack": "https://image.migros.ch/{stack}/28068cd4d6e174c8ec75906797af89b64170c43f/aus-der-region.jpg"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_01011007",
+      "name": "Fruchtsäfte & Gemüsesäfte",
+      "slug": "supermarkt/lebensmittel/getraenke-heiss-kalt/fruchtsaefte-gemuesesaefte",
+      "visible": true,
+      "title": "Fruchtsäfte in Ihrer Migros kaufen",
+      "parent_code": "BeSS_010110",
+      "image": {
+        "original": "https://image.migros.ch/original/00f501bbe0ba9efd6b668f7490cd907be904396d/fruchtsaefte-gemuesesaefte.jpg",
+        "stack": "https://image.migros.ch/{stack}/00f501bbe0ba9efd6b668f7490cd907be904396d/fruchtsaefte-gemuesesaefte.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010110",
+      "name": "Getränke heiss & kalt",
+      "slug": "supermarkt/lebensmittel/getraenke-heiss-kalt",
+      "visible": true,
+      "title": "Getränke aus der Migros löschen auch Ihren Durst",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/d04d95fbc2e1b4ada4783d2976d37a962a0318a1/getraenke-heiss-kalt.jpg",
+        "stack": "https://image.migros.ch/{stack}/d04d95fbc2e1b4ada4783d2976d37a962a0318a1/getraenke-heiss-kalt.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "features": [
+    {
+      "label_code": "MISO_produktionsanspruch",
+      "label": "Produktionsverfahren",
+      "values": [
+        {
+          "value_code": "MISO_produktionsanspruch_100natuerlichezutaten",
+          "value": "100% natürliche Zutaten"
+        },
+        {
+          "value_code": "MISO_produktionsanspruch_ausderregion",
+          "value": "Aus der Region"
+        }
+      ],
+      "category_code": "MISO_CLA_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_flasche",
+          "value": "Flasche"
+        }
+      ],
+      "category_code": "MISO_CLA_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_dietlight",
+      "label": "Diet/Light",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MISO_CLA_Getraenke_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_fuerbabynahrunggeeignet",
+      "label": "Für Babynahrung geeignet",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MISO_CLA_AlkoholfreieGetraenketrinkfertig_Getraenke_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/a5adbb3f4848fb67c0a737b0471c15e664de7cd6/aus-der-region-suessmost-klar.jpg",
+    "stack": "https://image.migros.ch/{stack}/a5adbb3f4848fb67c0a737b0471c15e664de7cd6/aus-der-region-suessmost-klar.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/24341402f05ec51d76bf270cf353917b3064eec8/aus-der-region-suessmost-klar.png",
+    "stack": "https://image.migros.ch/{stack}/24341402f05ec51d76bf270cf353917b3064eec8/aus-der-region-suessmost-klar.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "A",
+          "value": "Aufreissartikel"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "10735",
+          "value": "APFELSAEFTE"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/121013900000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/aus-der-region-suessmost-klar",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/121013900000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/aus-der-region-suessmost-klar",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "regional_availability": {
+    "gmaa": {
+      "probability": 0
+    },
+    "gmbs": {
+      "probability": 0
+    },
+    "gmge": {
+      "probability": 0
+    },
+    "gmlu": {
+      "probability": 67
+    },
+    "gmnf": {
+      "probability": 0
+    },
+    "gmos": {
+      "probability": 0
+    },
+    "gmti": {
+      "probability": 0
+    },
+    "gmvd": {
+      "probability": 0
+    },
+    "gmvs": {
+      "probability": 0
+    },
+    "gmzh": {
+      "probability": 0
+    }
+  },
+  "updated_at": "2020-09-16T05:43:32+0200",
+  "base_unit": "CU",
+  "slugs": {
+    "de": "aus-der-region-suessmost-klar",
+    "fr": "de-la-region-cidre-doux-claire",
+    "it": "dalla-regione-sidro-dolce-chiaro"
+  },
+  "receipt_text": "AdR Süssmost klar 1.5l",
+  "main_supplier": {
+    "name": "Ramseier Suisse AG",
+    "id": "0010013786"
+  },
+  "price": {
+    "valid_from": "2018-07-31T00:00:00+0200",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 3.05,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "1.5l"
+    },
+    "base": {
+      "price": 0.2,
+      "quantity": 100,
+      "unit": "ml"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "data_source": "SAP-X11",
+  "package": {
+    "content": 1500,
+    "content_unit_code": "ml",
+    "content_unit": "Mililiter",
+    "net_weight": 1.5,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogramm",
+    "brutto_weight": 1.62,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 2.532,
+    "brutto_volume_unit_code": "cdm",
+    "height": 32.7,
+    "length": 8.8,
+    "width": 8.8,
+    "unit_dimension": "cm",
+    "price_comparison_content": 100,
+    "size": "1.5l"
+  },
+  "package_information": {
+    "cu": {
+      "brutto_weight": 1.62,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 2.532,
+      "brutto_volume_unit_code": "cdm",
+      "height": 32.7,
+      "length": 8.8,
+      "width": 8.8,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    }
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "recipe_ingredient_ids": [
+    "14761"
+  ],
+  "views": [
+    "all",
+    "browse"
+  ]
+}

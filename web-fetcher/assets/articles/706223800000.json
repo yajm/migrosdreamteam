@@ -1,0 +1,566 @@
+{
+  "id": "706223800000",
+  "language": "de",
+  "name": "Miobrill Handwischer Kunststoff",
+  "names": {
+    "name": "Miobrill Handwischer Kunststoff",
+    "short_name": "Handwischer Kunststoff"
+  },
+  "slug": "miobrill-handwischer-kunststoff",
+  "boss_number": "150223303005",
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03"
+  },
+  "tags": [
+    "source-pex",
+    "near-non-food",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7613294792860"
+  ],
+  "brand": {
+    "id": "MGF",
+    "name": "Miobrill",
+    "slug": "miobrill"
+  },
+  "categories": [
+    {
+      "code": "BeSS_0104200603",
+      "name": "Kehren&Schrubben",
+      "slug": "supermarkt/haushalt-reinigung/reinigungsutensilien/bodenreinigung/kehrenschrubben",
+      "visible": true,
+      "parent_code": "BeSS_01042006",
+      "level": 5
+    },
+    {
+      "code": "BeSS_01042006",
+      "name": "Bodenreinigung",
+      "slug": "supermarkt/haushalt-reinigung/reinigungsutensilien/bodenreinigung",
+      "visible": true,
+      "parent_code": "BeSS_010420",
+      "level": 4
+    },
+    {
+      "code": "BeSS_010420",
+      "name": "Reinigungsutensilien",
+      "slug": "supermarkt/haushalt-reinigung/reinigungsutensilien",
+      "visible": true,
+      "parent_code": "BeSS_0104",
+      "level": 3
+    },
+    {
+      "code": "BeSS_0104",
+      "name": "Haushalt & Reinigung",
+      "slug": "supermarkt/haushalt-reinigung",
+      "visible": true,
+      "title": "Reinigung mit der Migros – Reiniger für Haushalt und Garten",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/e5da3225980543e0c7ddcc443069f331d94e8439/haushalt-reinigung.png",
+        "stack": "https://image.migros.ch/{stack}/e5da3225980543e0c7ddcc443069f331d94e8439/haushalt-reinigung.png"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_Bodenreinigung_ReinigenPutzen_HaushaltReinigung",
+        "name": "Bodenreinigung",
+        "slug": "amigos/haushalt-reinigung/reinigen-putzen/bodenreinigung",
+        "visible": true,
+        "parent_code": "AMIG_CAT_ReinigenPutzen_HaushaltReinigung",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_ReinigenPutzen_HaushaltReinigung",
+        "name": "Reinigen & Putzen",
+        "slug": "amigos/haushalt-reinigung/reinigen-putzen",
+        "visible": true,
+        "parent_code": "AMIG_CAT_HaushaltReinigung",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_HaushaltReinigung",
+        "name": "Haushalt & Reinigung",
+        "slug": "amigos/haushalt-reinigung",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "features": [
+    {
+      "label_code": "miso_farbe",
+      "label": "Farbe",
+      "values": [
+        {
+          "value_code": "MISO_farbe_schwarz",
+          "value": "schwarz"
+        },
+        {
+          "value_code": "MISO_farbe_rot",
+          "value": "rot"
+        }
+      ],
+      "category_code": "MISO_CLA_Reinigungshilfen_Verbrauch_Haushalt_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "miso_material",
+      "label": "Material",
+      "values": [
+        {
+          "value_code": "MISO_material_pferdehaar",
+          "value": "Pferdehaar"
+        },
+        {
+          "value_code": "MISO_material_polypropylen",
+          "value": "Polypropylen"
+        }
+      ],
+      "category_code": "MISO_CLA_Reinigungshilfen_Verbrauch_Haushalt_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "miso_anzahl",
+      "label": "Anzahl",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1 Stk.",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MISO_CLA_Reinigungshilfen_Verbrauch_Haushalt_Alle",
+      "top_fact": false,
+      "unit_code": "Stk.",
+      "unit": "Stück",
+      "unit_symbol": "Stk."
+    }
+  ],
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    }
+  },
+  "image": {
+    "original": "https://image.migros.ch/original/db4ef47b0ac5e73cf47b1cf30fa64a68d75670db/miobrill-handwischer-kunststoff.jpg",
+    "stack": "https://image.migros.ch/{stack}/db4ef47b0ac5e73cf47b1cf30fa64a68d75670db/miobrill-handwischer-kunststoff.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/b4a14eac94c9bb1cc4eefc2399ce6ac4b509db5e/miobrill-handwischer-kunststoff.png",
+    "stack": "https://image.migros.ch/{stack}/b4a14eac94c9bb1cc4eefc2399ce6ac4b509db5e/miobrill-handwischer-kunststoff.png"
+  },
+  "additional_images": [
+    {
+      "original": "https://image.migros.ch/original/860f6728ec143b25bf6aa51c143ec80826cdb00a.jpg",
+      "stack": "https://image.migros.ch/{stack}/860f6728ec143b25bf6aa51c143ec80826cdb00a.jpg"
+    },
+    {
+      "original": "https://image.migros.ch/original/c2ed64ede635d1be817da376f46c1ee530633ee1.jpg",
+      "stack": "https://image.migros.ch/{stack}/c2ed64ede635d1be817da376f46c1ee530633ee1.jpg"
+    }
+  ],
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_sortierung",
+      "label": "Sortierung aMigos",
+      "values": [
+        {
+          "value_code": "NUMERIC_330",
+          "value": "330",
+          "numeric_value": 330
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "miso_marke",
+      "label": "Marke",
+      "values": [
+        {
+          "value_code": "MISO_marke_Miobrill",
+          "value": "Miobrill"
+        }
+      ],
+      "category_code": "MISO_CLA_Reinigungshilfen_Verbrauch_Haushalt_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_DEFAULT_LOGISTIC_TYPE",
+      "values": [
+        {
+          "value_code": "55",
+          "value": "Versandart Paket"
+        }
+      ],
+      "category_code": "MAPI_DEFAULT_LOGISTIC_TYPE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Normalposition"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "HART"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUSTOMS_POSITION",
+      "values": [
+        {
+          "value_code": "NUMERIC_39269000000",
+          "value": "39269000000",
+          "numeric_value": 39269000000
+        }
+      ],
+      "category_code": "MAPI_CUSTOMS_POSITION",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRESENTATION",
+      "values": [
+        {
+          "value_code": "H",
+          "value": "hängend"
+        }
+      ],
+      "category_code": "MAPI_PRESENTATION",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_KUBE_TUKA",
+      "values": [
+        {
+          "value_code": "BLANK",
+          "value": "KUBE und TUKA nicht zugelassen"
+        }
+      ],
+      "category_code": "MAPI_KUBE_TUKA",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HART",
+          "value": "Hartwaren  Handelsware"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "H",
+          "value": "Hartwaren"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "57874",
+          "value": "REINIGUNGSZUBEHOER"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 1,
+    "percentage": 7.7
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/706223800000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/miobrill-handwischer-kunststoff",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/706223800000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/miobrill-handwischer-kunststoff",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "regional_availability": {
+    "gmaa": {
+      "probability": 79
+    },
+    "gmbs": {
+      "probability": 81
+    },
+    "gmge": {
+      "probability": 72
+    },
+    "gmlu": {
+      "probability": 74
+    },
+    "gmnf": {
+      "probability": 76
+    },
+    "gmos": {
+      "probability": 77
+    },
+    "gmti": {
+      "probability": 94
+    },
+    "gmvd": {
+      "probability": 82
+    },
+    "gmvs": {
+      "probability": 67
+    },
+    "gmzh": {
+      "probability": 75
+    }
+  },
+  "updated_at": "2020-09-16T06:11:30+0200",
+  "base_unit": "CU",
+  "slugs": {
+    "de": "miobrill-handwischer-kunststoff",
+    "fr": "miobrill-balai-a-main-en-plastique",
+    "it": "miobrill-scopino-di-plastica"
+  },
+  "receipt_text": "Handwischer PP",
+  "main_supplier": {
+    "name": "Edi Baur AG",
+    "id": "0010001390"
+  },
+  "price": {
+    "valid_from": "2020-08-31T00:00:00+0200",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 3.95,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "1 Stück"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "colors": [
+    {
+      "label": "schwarz",
+      "hex": "#000000",
+      "group": "Schwarz",
+      "group_hex": "#000000"
+    },
+    {
+      "label": "rot",
+      "hex": "#FF0000",
+      "group": "Rot",
+      "group_hex": "#FF0000"
+    }
+  ],
+  "galaxus_relevant": true,
+  "data_source": "SAP-X12",
+  "origins": {
+    "producing_country": "Schweiz"
+  },
+  "package": {
+    "content": 1,
+    "content_unit_code": "cu",
+    "net_weight": 0.112,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogramm",
+    "brutto_weight": 0.112,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 1.846,
+    "brutto_volume_unit_code": "cdm",
+    "height": 8,
+    "length": 27.5,
+    "width": 7.5,
+    "unit_dimension": "cm"
+  },
+  "package_information": {
+    "cu": {
+      "brutto_weight": 0.112,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 1.846,
+      "brutto_volume_unit_code": "cdm",
+      "height": 8,
+      "length": 27.5,
+      "width": 7.5,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "tuv": {
+      "brutto_weight": 0.7,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 4.743,
+      "brutto_volume_unit_code": "cdm",
+      "height": 9,
+      "length": 31,
+      "width": 17,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 4
+    },
+    "tue": {
+      "brutto_weight": 0.59,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 5.049,
+      "brutto_volume_unit_code": "cdm",
+      "height": 9,
+      "length": 31.5,
+      "width": 17.5,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 4
+    },
+    "lu": {
+      "number_of_base_units": 952
+    }
+  },
+  "related_products": {
+    "reference_recommendations": {
+      "product_ids": [
+        "706223900000"
+      ]
+    }
+  },
+  "quantity_on_stock": 2110,
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "recipe_ingredient_ids": [
+    "10000"
+  ],
+  "views": [
+    "all",
+    "browse"
+  ]
+}

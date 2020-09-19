@@ -1,0 +1,372 @@
+{
+  "id": "101134400000",
+  "language": "de",
+  "name": "Mentos Gum Sweet Mint",
+  "names": {
+    "name": "Mentos Gum Sweet Mint"
+  },
+  "slug": "mentos-gum-sweet-mint",
+  "boss_number": "010110290520",
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "source-qim-origins",
+    "source-qim-distributor",
+    "validity-range-not-set",
+    "source-qim-allergens",
+    "source-qim-fooddeclaration",
+    "source-qim-nutritionfacts",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "80728351"
+  ],
+  "brand": {
+    "id": "F78",
+    "name": "Mentos",
+    "slug": "mentos"
+  },
+  "categories": [
+    {
+      "code": "BeSS_01010818",
+      "name": "Bonbons & Kaugummi",
+      "slug": "supermarkt/lebensmittel/suessigkeiten/bonbons-kaugummi",
+      "visible": true,
+      "title": "Süss, bunt und lecker: Bonbons und Kaugummis bei Ihrer Migros",
+      "parent_code": "BeSS_010108",
+      "image": {
+        "original": "https://image.migros.ch/original/ad0254bc5ba2f1387119b73f9a1479f27e0d867e/bonbons-kaugummi.jpg",
+        "stack": "https://image.migros.ch/{stack}/ad0254bc5ba2f1387119b73f9a1479f27e0d867e/bonbons-kaugummi.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010108",
+      "name": "Süssigkeiten",
+      "slug": "supermarkt/lebensmittel/suessigkeiten",
+      "visible": true,
+      "title": "Süssigkeiten aus Ihrer Migros: für Naschkatzen und Schleckmäuler",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/a9c80f4e896b5ebdd3b7ebbee11f956c8ff157cf/suessigkeiten.jpg",
+        "stack": "https://image.migros.ch/{stack}/a9c80f4e896b5ebdd3b7ebbee11f956c8ff157cf/suessigkeiten.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "nutrition_facts": {
+    "standard": {
+      "nutrients": [
+        {
+          "code": "PIM_NUT_ENERGIE",
+          "name": "Energie",
+          "pictogram_name": "Energie",
+          "category": "BIG9",
+          "quantity": 712,
+          "nutrition_operator": "=",
+          "quantity_unit": "kJ",
+          "quantity_alternate": 171,
+          "quantity_alternate_unit": "kcal"
+        },
+        {
+          "code": "PIM_NUT_FETT",
+          "name": "Fett",
+          "pictogram_name": "Fett",
+          "category": "BIG9",
+          "quantity": 0,
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_FETT_GES",
+          "name": "davon gesättigte Fettsäuren",
+          "pictogram_name": "gesättigte Fettsäuren",
+          "category": "BIG9",
+          "quantity": 0,
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_KOHLENHY",
+          "name": "Kohlenhydrate",
+          "category": "BIG9",
+          "quantity": 69,
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_ZUCKER",
+          "name": "davon Zucker",
+          "pictogram_name": "Zuckerarten",
+          "category": "BIG9",
+          "quantity": 0,
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_PROTEINE",
+          "name": "Eiweiss",
+          "category": "BIG9",
+          "quantity": 0,
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_KOCHSALZ",
+          "name": "Salz",
+          "pictogram_name": "Salz",
+          "category": "BIG9",
+          "quantity": 0.04,
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        }
+      ],
+      "base_quantity": 100,
+      "base_unit": "g"
+    }
+  },
+  "allergens": [
+    {
+      "code": "ALLG_SOJA",
+      "name": "Sojabohne und Sojabohnenderivate",
+      "contamination_code": "VORHANDEN",
+      "contamination": "vorhanden"
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/66cd8498797218a3c934cae92ed13666a57f6313/mentos-gum-sweet-mint.jpg",
+    "stack": "https://image.migros.ch/{stack}/66cd8498797218a3c934cae92ed13666a57f6313/mentos-gum-sweet-mint.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/a6b9583e2af4067598b7a0203c7f17e5f8e28e97/mentos-gum-sweet-mint.png",
+    "stack": "https://image.migros.ch/{stack}/a6b9583e2af4067598b7a0203c7f17e5f8e28e97/mentos-gum-sweet-mint.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "M",
+          "value": "Kolonial Standard"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "10025",
+          "value": "SUESSIGKEITEN"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "regulated_description": "Kaugummi mit Minzgeschmack",
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/101134400000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/mentos-gum-sweet-mint",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/101134400000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/mentos-gum-sweet-mint",
+      "type": "info",
+      "purchasable": false
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/71950",
+      "app_url": "leshop:///catalog/article/detail?ean=80728351",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/mentos-gum-sweet-mint",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "regional_availability": {
+    "gmaa": {
+      "probability": 83
+    },
+    "gmbs": {
+      "probability": 78
+    },
+    "gmge": {
+      "probability": 82
+    },
+    "gmlu": {
+      "probability": 86
+    },
+    "gmnf": {
+      "probability": 96
+    },
+    "gmos": {
+      "probability": 97
+    },
+    "gmti": {
+      "probability": 100
+    },
+    "gmvd": {
+      "probability": 88
+    },
+    "gmvs": {
+      "probability": 74
+    },
+    "gmzh": {
+      "probability": 85
+    }
+  },
+  "updated_at": "2020-09-16T05:40:33+0200",
+  "base_unit": "CU",
+  "slugs": {
+    "de": "mentos-gum-sweet-mint",
+    "fr": "mentos-gum-sweet-mint",
+    "it": "mentos-gum-sweet-mint"
+  },
+  "receipt_text": "Mentos Gum Sweet Mint",
+  "main_supplier": {
+    "name": "Egli AG",
+    "id": "0010011547"
+  },
+  "price": {
+    "valid_from": "2018-11-27T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 4.95,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "75g"
+    },
+    "base": {
+      "price": 6.6,
+      "quantity": 100,
+      "unit": "g"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 1,
+    "average_all": 5
+  },
+  "data_source": "SAP-X11",
+  "origins": {},
+  "distributor": {
+    "name": "Egli AG"
+  },
+  "ingredients": "Süssungsmittel (Xylit (34%), Sorbit, Mannit, Maltitsirup, Aspartam, Acesulfam K, Sucralose), Kaumasse, Aromen, Stärke, Maltodextrin, Emulgatoren (SOJALECITHIN, Zuckerester von Speisefettsäuren), Stabilisator (Glycerin), Verdickungsmittel (Cellulosegummi, Gummi arabicum), Säureregulator (Natriumhydrogencarbonat), Überzugsmittel (Carnaubawachs), Antioxidationsmittel (E321).",
+  "package": {
+    "content": 75,
+    "content_unit_code": "g",
+    "content_unit": "Gramm",
+    "net_weight": 0.075,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogramm",
+    "brutto_weight": 0.095,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 0.2,
+    "brutto_volume_unit_code": "cdm",
+    "height": 8,
+    "length": 5,
+    "width": 5,
+    "unit_dimension": "cm",
+    "price_comparison_content": 100,
+    "size": "75g"
+  },
+  "package_information": {
+    "tu": {
+      "brutto_weight": 2.68,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 1.302,
+      "brutto_volume_unit_code": "cdm",
+      "height": 8,
+      "length": 15.5,
+      "width": 10.5,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 24
+    },
+    "cu": {
+      "brutto_weight": 0.095,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0.2,
+      "brutto_volume_unit_code": "cdm",
+      "height": 8,
+      "length": 5,
+      "width": 5,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "lu": {
+      "brutto_weight": 555.64,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0,
+      "height": 0,
+      "length": 120,
+      "width": 80,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 4752
+    }
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "recipe_ingredient_ids": [
+    "10000"
+  ],
+  "views": [
+    "all",
+    "browse"
+  ]
+}

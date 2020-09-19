@@ -1,0 +1,92 @@
+{
+  "name": "Tradition Sauce Francaise",
+  "regulated_description": "Salatsauce",
+  "image": {
+    "original": "https://image.migros.ch/original/3643682dbf250ff8c409a4d39231a0b0f9c828d0/tradition-sauce-francaise.jpg"
+  },
+  "price": {
+    "item": {
+      "price": 0.7
+    }
+  },
+  "nutrition_facts": {
+    "standard": {
+      "nutrients": {
+        "nutrients": [
+          {
+            "code": "PIM_NUT_ENERGIE",
+            "name": "Energie",
+            "pictogram_name": "Energie",
+            "category": "BIG9",
+            "quantity": 1630,
+            "rda_percent_operator": "=",
+            "quantity_unit": "kJ",
+            "quantity_alternate": 396,
+            "quantity_alternate_unit": "kcal"
+          },
+          {
+            "code": "PIM_NUT_GES_FETT",
+            "name": "Fett",
+            "pictogram_name": "Fett",
+            "category": "BIG9",
+            "quantity": 41,
+            "rda_percent_operator": "=",
+            "quantity_unit": "g"
+          },
+          {
+            "code": "PIM_NUT_GESFETTS",
+            "name": "davon gesättigte Fettsäuren",
+            "pictogram_name": "gesättigte Fettsäuren",
+            "category": "BIG9",
+            "quantity": 4.5,
+            "rda_percent_operator": "=",
+            "quantity_unit": "g"
+          },
+          {
+            "code": "PIM_NUT_GES_KOHL",
+            "name": "Kohlenhydrate",
+            "category": "BIG9",
+            "quantity": 3.5,
+            "rda_percent_operator": "=",
+            "quantity_unit": "g"
+          },
+          {
+            "code": "PIM_NUT_GES_ZUCK",
+            "name": "davon Zucker",
+            "pictogram_name": "Zuckerarten",
+            "category": "BIG9",
+            "quantity": 2.5,
+            "rda_percent_operator": "=",
+            "quantity_unit": "g"
+          },
+          {
+            "code": "PIM_NUT_GES_BALL",
+            "name": "Ballaststoffe",
+            "category": "BIG9",
+            "quantity": 0.5,
+            "quantity_unit": "g"
+          },
+          {
+            "code": "PIM_NUT_GES_EIW",
+            "name": "Eiweiss",
+            "category": "BIG9",
+            "quantity": 3,
+            "rda_percent_operator": "=",
+            "quantity_unit": "g"
+          },
+          {
+            "code": "PIM_NUT_KOCHSALZ",
+            "name": "Salz",
+            "pictogram_name": "Salz",
+            "category": "BIG9",
+            "quantity": 1.2,
+            "rda_percent_operator": "=",
+            "quantity_unit": "g"
+          }
+        ],
+        "base_quantity": 100,
+        "base_unit": "ml"
+      }
+    }
+  }
+}

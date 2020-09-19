@@ -1,0 +1,341 @@
+{
+  "id": "512925700000",
+  "language": "de",
+  "name": "Candida Zahnpasta Sensitive",
+  "names": {
+    "name": "Candida Zahnpasta Sensitive"
+  },
+  "slug": "candida-zahnpasta-sensitive-512925700000",
+  "boss_number": "090113420520",
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03"
+  },
+  "tags": [
+    "source-pim",
+    "near-non-food",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "76249532"
+  ],
+  "brand": {
+    "id": "026",
+    "name": "Candida",
+    "slug": "candida",
+    "links": {
+      "homepage": {
+        "url": "https://produkte.migros.ch/marken/candida",
+        "name": "Homepage",
+        "type": "info",
+        "purchasable": false
+      }
+    },
+    "image": {
+      "original": "https://image.migros.ch/original/cc947858aee28377918b6bf0ff16b031b803a5ab/candida.jpg",
+      "stack": "https://image.migros.ch/{stack}/cc947858aee28377918b6bf0ff16b031b803a5ab/candida.jpg"
+    }
+  },
+  "categories": [
+    {
+      "code": "BeSS_01110401",
+      "name": "Zahnpasta",
+      "slug": "supermarkt/beauty/mundpflege/zahnpasta",
+      "visible": true,
+      "parent_code": "BeSS_011104",
+      "level": 4
+    },
+    {
+      "code": "BeSS_011104",
+      "name": "Mundpflege",
+      "slug": "supermarkt/beauty/mundpflege",
+      "visible": true,
+      "parent_code": "BeSS_0111",
+      "level": 3
+    },
+    {
+      "code": "BeSS_0111",
+      "name": "Beauty",
+      "slug": "supermarkt/beauty",
+      "visible": true,
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/293925170bd129344f9259c67a15e903f881bef8/beauty.jpg",
+        "stack": "https://image.migros.ch/{stack}/293925170bd129344f9259c67a15e903f881bef8/beauty.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "features": [
+    {
+      "label_code": "MISO_geeignet_fuer",
+      "label": "Geeignet für",
+      "values": [
+        {
+          "value_code": "MISO_geeignet_fuer_kariesschutz",
+          "value": "Kariesschutz"
+        },
+        {
+          "value_code": "MISO_geeignet_fuer_sensiblezaehne",
+          "value": "Sensible Zähne"
+        }
+      ],
+      "category_code": "MISO_CLA_Zahnpasta_Mundpflege_Beauty_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zahnpasta_RDA",
+      "label": "RDA",
+      "values": [
+        {
+          "value_code": "MISO_rda_wert_RDA20",
+          "value": "RDA 20"
+        }
+      ],
+      "category_code": "MISO_CLA_Zahnpasta_Mundpflege_Beauty_Alle",
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/8362466758700e5b0cabf191993066f5d52e84d4/candida-zahnpasta-sensitive.jpg",
+    "stack": "https://image.migros.ch/{stack}/8362466758700e5b0cabf191993066f5d52e84d4/candida-zahnpasta-sensitive.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/07baa484fd4a639939cec7660b6bd95d97d7a5f2/candida-zahnpasta-sensitive.png",
+    "stack": "https://image.migros.ch/{stack}/07baa484fd4a639939cec7660b6bd95d97d7a5f2/candida-zahnpasta-sensitive.png"
+  },
+  "additional_images": [
+    {
+      "original": "https://image.migros.ch/original/883414916cd2287d0b4df6fc5ee89f848dbe5edf.jpg",
+      "stack": "https://image.migros.ch/{stack}/883414916cd2287d0b4df6fc5ee89f848dbe5edf.jpg"
+    }
+  ],
+  "internal_features": [
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZHKS",
+          "value": "HKS Standardartikel"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_QUALITY_CHECK",
+      "values": [
+        {
+          "value_code": "00",
+          "value": "Keine Prüfung"
+        }
+      ],
+      "category_code": "MAPI_QUALITY_CHECK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_RISK_CLASS",
+      "values": [
+        {
+          "value_code": "1",
+          "value": "1 (high)"
+        }
+      ],
+      "category_code": "MAPI_RISK_CLASS",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "H",
+          "value": "HKS Standard"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "50280",
+          "value": ""
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUSTOMS_POSITION",
+      "values": [
+        {
+          "value_code": "33061000000"
+        }
+      ],
+      "category_code": "MAPI_CUSTOMS_POSITION",
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 1,
+    "percentage": 7.7
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/512925700000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/candida-zahnpasta-sensitive-512925700000",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/512925700000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/candida-zahnpasta-sensitive-512925700000",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "regional_availability": {
+    "gmaa": {
+      "probability": 52
+    },
+    "gmbs": {
+      "probability": 52
+    },
+    "gmge": {
+      "probability": 62
+    },
+    "gmlu": {
+      "probability": 36
+    },
+    "gmnf": {
+      "probability": 59
+    },
+    "gmos": {
+      "probability": 34
+    },
+    "gmti": {
+      "probability": 47
+    },
+    "gmvd": {
+      "probability": 34
+    },
+    "gmvs": {
+      "probability": 28
+    },
+    "gmzh": {
+      "probability": 48
+    }
+  },
+  "updated_at": "2020-09-15T06:20:13+0200",
+  "base_unit": "CU",
+  "slugs": {
+    "de": "candida-zahnpasta-sensitive-512925700000",
+    "fr": "candida-dentifrice-sensitive-512925700000",
+    "it": "candida-dentifricio-sensitive-512925700000"
+  },
+  "receipt_text": "Candida Sensitive",
+  "main_supplier": {
+    "name": "MIBELLE AG COSMETICS",
+    "id": "0003810000",
+    "supplier_product_id": "326142"
+  },
+  "price": {
+    "valid_from": "2018-01-01T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 0.9,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "15ml"
+    },
+    "base": {
+      "price": 6,
+      "quantity": 100,
+      "unit": "ml"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 3,
+    "average_all": 2.666666666667
+  },
+  "data_source": "SAP-X11",
+  "package": {
+    "content": 15,
+    "content_unit_code": "ml",
+    "content_unit": "Mililiter",
+    "net_weight": 0.018,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogramm",
+    "brutto_weight": 0.023,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 0.057,
+    "brutto_volume_unit_code": "cdm",
+    "height": 10,
+    "length": 1.9,
+    "width": 3,
+    "unit_dimension": "cm",
+    "price_comparison_content": 100,
+    "size": "15ml"
+  },
+  "package_information": {
+    "tu": {
+      "brutto_weight": 0.94,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 3,
+      "brutto_volume_unit_code": "cdm",
+      "height": 10,
+      "length": 20,
+      "width": 15,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 40
+    },
+    "cu": {
+      "brutto_weight": 0.023,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0.057,
+      "brutto_volume_unit_code": "cdm",
+      "height": 10,
+      "length": 1.9,
+      "width": 3,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "lu": {
+      "brutto_weight": 0,
+      "brutto_volume": 0,
+      "height": 160,
+      "length": 0,
+      "width": 0,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 19200
+    }
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "views": [
+    "all",
+    "browse"
+  ]
+}

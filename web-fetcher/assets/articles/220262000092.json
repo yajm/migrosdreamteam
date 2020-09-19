@@ -1,0 +1,215 @@
+{
+  "id": "220262000092",
+  "language": "de",
+  "name": "Sélec Rindsfilet",
+  "names": {
+    "name": "Sélec Rindsfilet"
+  },
+  "slug": "selec-rindsfilet-220262000092",
+  "boss_number": "040512325010",
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "80"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "2185538000000",
+    "7617027752893"
+  ],
+  "brand": {
+    "id": "NB1",
+    "name": "Sélection",
+    "slug": "selection",
+    "links": {
+      "homepage": {
+        "url": "https://www.migros.ch/de/einkaufen/migros-marken/selection.html",
+        "name": "Homepage",
+        "type": "info",
+        "purchasable": false
+      }
+    },
+    "image": {
+      "original": "https://image.migros.ch/original/04f877657368f73f8ee8973aab7fd0cdfb8e2cd1/selection.jpg",
+      "stack": "https://image.migros.ch/{stack}/04f877657368f73f8ee8973aab7fd0cdfb8e2cd1/selection.jpg"
+    }
+  },
+  "image": {
+    "original": "https://image.migros.ch/original/5333abc7a412a8f1cf61ffe0523af68a3a8f330a/selec-rindsfilet.jpg",
+    "stack": "https://image.migros.ch/{stack}/5333abc7a412a8f1cf61ffe0523af68a3a8f330a/selec-rindsfilet.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/788644731ff0807d75900ec79dd0fb0651a3a34d/selec-rindsfilet.png",
+    "stack": "https://image.migros.ch/{stack}/788644731ff0807d75900ec79dd0fb0651a3a34d/selec-rindsfilet.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZFRP",
+          "value": "Frische Beschaffung"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "6",
+          "value": "Fleisch-Fisch-Geflüg"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "70237",
+          "value": "SPEZIALITAETEN"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/220262000092",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/selec-rindsfilet-220262000092",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/220262000092",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/selec-rindsfilet-220262000092",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "regional_availability": {
+    "gmaa": {
+      "probability": 0
+    },
+    "gmbs": {
+      "probability": 2
+    },
+    "gmge": {
+      "probability": 0
+    },
+    "gmlu": {
+      "probability": 14
+    },
+    "gmnf": {
+      "probability": 0
+    },
+    "gmos": {
+      "probability": 5
+    },
+    "gmti": {
+      "probability": 0
+    },
+    "gmvd": {
+      "probability": 0
+    },
+    "gmvs": {
+      "probability": 0
+    },
+    "gmzh": {
+      "probability": 21
+    }
+  },
+  "updated_at": "2020-09-16T05:50:59+0200",
+  "base_unit": "KG",
+  "slugs": {
+    "de": "selec-rindsfilet-220262000092",
+    "fr": "selec-filet-de-boeuf",
+    "it": "selec-filetto-manzo-220262000092"
+  },
+  "receipt_text": "Sélec Rindsfilet",
+  "main_supplier": {
+    "name": "MICARNA SA",
+    "id": "0003840000"
+  },
+  "price": {
+    "valid_from": "2018-02-01T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "source": "PriceRepository",
+    "no_price_hint": "Aktueller Tagespreis"
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "data_source": "SAP-X4x",
+  "package": {
+    "net_weight": 1,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogramm",
+    "brutto_weight": 1,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 0.001,
+    "brutto_volume_unit_code": "m3",
+    "height": 10,
+    "length": 10,
+    "width": 10,
+    "unit_dimension": "cm"
+  },
+  "package_information": {
+    "tu": {
+      "brutto_weight": 1,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 21.12,
+      "brutto_volume_unit_code": "cdm",
+      "height": 8.8,
+      "length": 60,
+      "width": 40,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "kg": {
+      "brutto_weight": 1,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0.001,
+      "brutto_volume_unit_code": "m3",
+      "height": 10,
+      "length": 10,
+      "width": 10,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    }
+  },
+  "related_products": {
+    "purchase_recommendations": {
+      "product_ids": [
+        "222250000092"
+      ]
+    }
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "recipe_ingredient_ids": [
+    "15451",
+    "15450"
+  ],
+  "views": [
+    "all",
+    "browse"
+  ]
+}

@@ -1,0 +1,1197 @@
+{
+  "id": "107107600000",
+  "language": "de",
+  "name": "Exquisito gemahlen 500g",
+  "names": {
+    "name": "Exquisito gemahlen 500g"
+  },
+  "slug": "exquisito-gemahlen-500g",
+  "boss_number": "010310302610",
+  "description": {
+    "text": "F&uuml;r den klassischen Exquisito werden 100% feinste UTZ-zertifizierte Arabica-Bohnen mit viel Liebe zum Detail verarbeitet. Die harmonisch-ausgewogene Kaffeemischung garantiert ihnen milden, vollendeten Kaffeegenuss.",
+    "source": "PIM"
+  },
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "22037282",
+    "7613269778721",
+    "7613312111956"
+  ],
+  "brand": {
+    "id": "050",
+    "name": "Exquisito",
+    "slug": "exquisito",
+    "image": {
+      "original": "https://image.migros.ch/original/d00eba84c8f71a1759a9369fbcd52c54922adbc9/exquisito.jpg",
+      "stack": "https://image.migros.ch/{stack}/d00eba84c8f71a1759a9369fbcd52c54922adbc9/exquisito.jpg"
+    }
+  },
+  "labels": [
+    {
+      "id": "L34",
+      "name": "UTZ",
+      "slug": "utz",
+      "links": {
+        "homepage": {
+          "url": "https://utz.org/",
+          "name": "Homepage",
+          "type": "info",
+          "purchasable": false
+        }
+      },
+      "image": {
+        "original": "https://image.migros.ch/original/64192d97b7770d351f5bbe89a57c9f614e529150/utz.jpg",
+        "stack": "https://image.migros.ch/{stack}/64192d97b7770d351f5bbe89a57c9f614e529150/utz.jpg"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_0101100104",
+      "name": "Kaffee gemahlen",
+      "slug": "supermarkt/lebensmittel/getraenke-heiss-kalt/kaffee/kaffee-gemahlen",
+      "visible": true,
+      "parent_code": "BeSS_01011001",
+      "level": 5
+    },
+    {
+      "code": "BeSS_01011001",
+      "name": "Kaffee",
+      "slug": "supermarkt/lebensmittel/getraenke-heiss-kalt/kaffee",
+      "visible": true,
+      "title": "Das schwarze Gold der Geniesser: Kaffee bei der Migros",
+      "parent_code": "BeSS_010110",
+      "image": {
+        "original": "https://image.migros.ch/original/be9ca8bc37911ac3d695139eadc7cb2446fd5974/kaffee.jpg",
+        "stack": "https://image.migros.ch/{stack}/be9ca8bc37911ac3d695139eadc7cb2446fd5974/kaffee.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010110",
+      "name": "Getränke heiss & kalt",
+      "slug": "supermarkt/lebensmittel/getraenke-heiss-kalt",
+      "visible": true,
+      "title": "Getränke aus der Migros löschen auch Ihren Durst",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/d04d95fbc2e1b4ada4783d2976d37a962a0318a1/getraenke-heiss-kalt.jpg",
+        "stack": "https://image.migros.ch/{stack}/d04d95fbc2e1b4ada4783d2976d37a962a0318a1/getraenke-heiss-kalt.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_PulverBohnen_Kaffee_Getraenke",
+        "name": "Pulver & Bohnen",
+        "slug": "amigos/getraenke/kaffee/pulver-bohnen",
+        "visible": true,
+        "parent_code": "AMIG_CAT_Kaffee_Getraenke",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_Kaffee_Getraenke",
+        "name": "Kaffee",
+        "slug": "amigos/getraenke/kaffee",
+        "visible": true,
+        "parent_code": "AMIG_CAT_Getraenke",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_Getraenke",
+        "name": "Getränke",
+        "slug": "amigos/getraenke",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "features": [
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_beutelsack",
+          "value": "Beutel/Sack"
+        }
+      ],
+      "category_code": "MISO_CLA_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zubereitungsverfahren",
+      "label": "Hinweise für die Zubereitung",
+      "values": [
+        {
+          "value_code": "MISO_zubereitungsverfahren_heisseswasserhinzugeben",
+          "value": "Heisses Wasser hinzugeben"
+        }
+      ],
+      "category_code": "MISO_CLA_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_botanischesorte",
+      "label": "Botanische Sorte",
+      "values": [
+        {
+          "value_code": "MISO_botanischesorte_arabica",
+          "value": "Arabica"
+        }
+      ],
+      "category_code": "MISO_CLA_KaffeeTeeErsatzprodukte_Getraenke_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_entkoffeiniert",
+      "label": "Entkoffeiniert",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "Nein",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MISO_CLA_KaffeeTeeErsatzprodukte_Getraenke_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_formbeschaffenheitdeskaffees",
+      "label": "Form/Beschaffenheit des Kaffees",
+      "values": [
+        {
+          "value_code": "MISO_formbeschaffenheitdeskaffees_gemahlen",
+          "value": "Gemahlen"
+        }
+      ],
+      "category_code": "MISO_CLA_KaffeeTeeErsatzprodukte_Getraenke_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_herkunftdeskaffees",
+      "label": "Herkunft des Kaffees",
+      "values": [
+        {
+          "value_code": "MISO_herkunftdeskaffees_zentralsuedamerika",
+          "value": "Zentral- Südamerika"
+        }
+      ],
+      "category_code": "MISO_CLA_KaffeeTeeErsatzprodukte_Getraenke_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_kaffeeroestung",
+      "label": "Kaffeeröstung",
+      "values": [
+        {
+          "value_code": "MISO_kaffeeroestung_hellgeroestet",
+          "value": "hell geröstet"
+        }
+      ],
+      "category_code": "MISO_CLA_KaffeeTeeErsatzprodukte_Getraenke_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zubereitungdeskaffees",
+      "label": "Zubereitung des Kaffees",
+      "values": [
+        {
+          "value_code": "MISO_zubereitungdeskaffees_gemahlen",
+          "value": "Gemahlen"
+        }
+      ],
+      "category_code": "MISO_CLA_KaffeeTeeErsatzprodukte_Getraenke_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_sortedeskaffees",
+      "label": "Sorte des Kaffees",
+      "values": [
+        {
+          "value_code": "MISO_sortedeskaffees_roestkaffee",
+          "value": "Röstkaffee"
+        }
+      ],
+      "category_code": "MISO_CLA_KaffeeTeeErsatzprodukte_Getraenke_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_wiederverschliessbar",
+      "label": "Wiederverschliessbar",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MISO_CLA_KaffeeTeeErsatzprodukte_Getraenke_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_staerke15",
+      "label": "Stärke (1-5)",
+      "values": [
+        {
+          "value_code": "NUMERIC_2.0",
+          "value": "2.0",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MISO_CLA_KaffeeTeeErsatzprodukte_Getraenke_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_saeure15",
+      "label": "Säure (1-5)",
+      "values": [
+        {
+          "value_code": "NUMERIC_4.0",
+          "value": "4.0",
+          "numeric_value": 4
+        }
+      ],
+      "category_code": "MISO_CLA_KaffeeTeeErsatzprodukte_Getraenke_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_geeignetfuerkapselsystem",
+      "label": "Geeignet für Kapselsystem",
+      "values": [
+        {
+          "value_code": "MISO_geeignetfuerkapselsystem_siebtraegerfiltermaschine",
+          "value": "Siebträger Filtermaschine"
+        }
+      ],
+      "category_code": "MISO_CLA_KaffeeTeeErsatzprodukte_Getraenke_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_Aroma",
+      "label": "Aroma",
+      "values": [
+        {
+          "value_code": "MISO_aroma_traubeninallenvarianten",
+          "value": "Trauben in allen Varianten"
+        }
+      ],
+      "category_code": "MISO_CLA_KaffeeTeeErsatzprodukte_Getraenke_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_tassengroesse",
+      "label": "Tassengrösse",
+      "values": [
+        {
+          "value_code": "MISO_tassengroesse_offen",
+          "value": "offen"
+        }
+      ],
+      "category_code": "MISO_CLA_KaffeeTeeErsatzprodukte_Getraenke_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_Aroma",
+      "label": "Aroma",
+      "values": [
+        {
+          "value": "Trauben in allen Varianten: reif,  getrocknet; Süssholz, floral, malzig, Trockenfrüchte"
+        }
+      ],
+      "category_code": "MISO_CLA_Kaffee_Getraenke_heiss_kalt_Lebensmittel_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_koerper",
+      "label": "Körper (1 - 5)",
+      "values": [
+        {
+          "value_code": "MISO_koerper_2",
+          "value": "2"
+        }
+      ],
+      "category_code": "MISO_CLA_Kaffee_Getraenke_heiss_kalt_Lebensmittel_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_saeure",
+      "label": "Säure (1 - 5)",
+      "values": [
+        {
+          "value_code": "MISO_saeure_4",
+          "value": "4"
+        }
+      ],
+      "category_code": "MISO_CLA_Kaffee_Getraenke_heiss_kalt_Lebensmittel_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_tassengroesse",
+      "label": "Tassengrösse",
+      "values": [
+        {
+          "value_code": "MISO_tassengroesse_lungo_120ml",
+          "value": "Lungo (120ml)"
+        }
+      ],
+      "category_code": "MISO_CLA_Kaffee_Getraenke_heiss_kalt_Lebensmittel_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_koffein",
+      "label": "Koffein",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MISO_CLA_Kaffee_Getraenke_heiss_kalt_Lebensmittel_Alle",
+      "top_fact": false
+    }
+  ],
+  "general_information": [
+    {
+      "label": "Auslobung",
+      "value": "Stärkegrad 2/5"
+    },
+    {
+      "label": "Produkteinformation",
+      "value": "DE: Unter Schutzatmosphäre verpackt."
+    },
+    {
+      "label": "Haltbarkeitshinweis",
+      "value": "DE: Kühl, trocken und vor Licht geschützt lagern. Packung nach dem Öffnen wieder gut verschliessen. Zum raschen Verbrauch bestimmt."
+    },
+    {
+      "label": "Herstellungsland",
+      "value": "DE: Hergestellt in der Schweiz durch Delica AG. \r\n100 % Arabica."
+    }
+  ],
+  "utz_declarations": [
+    {
+      "members": [
+        "CF55019915",
+        "CF86036817",
+        "CF3647385",
+        "CF17228719"
+      ],
+      "lot_number": "0000000675",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=CF55019915,CF86036817,CF3647385,CF17228719&lang=de"
+    },
+    {
+      "members": [
+        "CF17228719",
+        "CF31153814",
+        "CF55019915"
+      ],
+      "lot_number": "0000000676",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=CF17228719,CF31153814,CF55019915&lang=de"
+    },
+    {
+      "members": [
+        "CF83189081",
+        "CF86046805",
+        "CF4972290",
+        "CF31153814",
+        "CF55019915",
+        "CF35287717"
+      ],
+      "lot_number": "0000000677",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=CF83189081,CF86046805,CF4972290,CF31153814,CF55019915,CF35287717&lang=de"
+    },
+    {
+      "members": [
+        "CF35287717",
+        "CF55019915",
+        "CF31153814",
+        "CF4972290",
+        "CF86046805",
+        "CF97877310"
+      ],
+      "lot_number": "0000000678",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=CF35287717,CF55019915,CF31153814,CF4972290,CF86046805,CF97877310&lang=de"
+    },
+    {
+      "members": [
+        "CF76794616",
+        "CF89633031",
+        "CF83382159",
+        "CF72310610",
+        "CF93132747",
+        "CF86922685"
+      ],
+      "lot_number": "0000000679",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=CF76794616,CF89633031,CF83382159,CF72310610,CF93132747,CF86922685&lang=de"
+    },
+    {
+      "members": [
+        "CF97877310",
+        "CF94890008",
+        "CF40158736",
+        "CF17228719",
+        "CF31153814",
+        "CF77316676",
+        "CF95745922",
+        "CF50987932",
+        "CF83189081",
+        "CF35287717",
+        "CF55019915"
+      ],
+      "lot_number": "0000000680",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=CF97877310,CF94890008,CF40158736,CF17228719,CF31153814,CF77316676,CF95745922,CF50987932,CF83189081,CF35287717,CF55019915&lang=de"
+    },
+    {
+      "members": [
+        "CF38966573",
+        "CF86046805",
+        "CF41963940",
+        "CF86261775",
+        "CF10444229",
+        "CF89633031",
+        "CF35287717",
+        "CF98803503"
+      ],
+      "lot_number": "0000000681",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=CF38966573,CF86046805,CF41963940,CF86261775,CF10444229,CF89633031,CF35287717,CF98803503&lang=de"
+    },
+    {
+      "members": [
+        "CF95745922",
+        "CF72310610",
+        "CF77316676",
+        "CF31153814",
+        "CF93132747",
+        "CF41963940",
+        "CF17228719",
+        "CF40158736",
+        "CF16972919",
+        "CF97877310",
+        "CF86922685",
+        "CF94890008",
+        "CF50987932",
+        "CF83382159",
+        "CF55019915",
+        "CF35287717",
+        "CF83189081",
+        "CF98452824",
+        "CF89633031"
+      ],
+      "lot_number": "0000000682",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=CF95745922,CF72310610,CF77316676,CF31153814,CF93132747,CF41963940,CF17228719,CF40158736,CF16972919,CF97877310,CF86922685,CF94890008,CF50987932,CF83382159,CF55019915,CF35287717,CF83189081,CF98452824,CF89633031&lang=de"
+    },
+    {
+      "members": [
+        "CF86046805",
+        "CF40158736",
+        "CF17228719",
+        "CF50987932",
+        "CF95745922",
+        "CF41963940",
+        "CF86261775",
+        "CF31153814",
+        "CF77316676",
+        "CF16972919",
+        "CF38966573",
+        "CF97877310",
+        "CF94890008",
+        "CF41558793",
+        "CF89633031",
+        "CF10444229",
+        "CF98803503",
+        "CF83382159",
+        "CF55019915",
+        "CF83189081",
+        "CF16513970",
+        "CF3"
+      ],
+      "lot_number": "0000000683",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=CF86046805,CF40158736,CF17228719,CF50987932,CF95745922,CF41963940,CF86261775,CF31153814,CF77316676,CF16972919,CF38966573,CF97877310,CF94890008,CF41558793,CF89633031,CF10444229,CF98803503,CF83382159,CF55019915,CF83189081,CF16513970,CF3&lang=de"
+    },
+    {
+      "members": [
+        "CF98803503",
+        "CF83382159",
+        "CF55019915",
+        "CF35287717",
+        "CF83189081",
+        "CF50987932",
+        "CF72310610",
+        "CF98452824",
+        "CF89633031",
+        "CF10444229",
+        "CF95745922",
+        "CF77316676",
+        "CF31153814",
+        "CF93132747",
+        "CF41963940",
+        "CF17228719",
+        "CF40158736",
+        "CF16972919",
+        "CF38966573",
+        "CF97877310",
+        "CF86922685",
+        "CF9"
+      ],
+      "lot_number": "0000000684",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=CF98803503,CF83382159,CF55019915,CF35287717,CF83189081,CF50987932,CF72310610,CF98452824,CF89633031,CF10444229,CF95745922,CF77316676,CF31153814,CF93132747,CF41963940,CF17228719,CF40158736,CF16972919,CF38966573,CF97877310,CF86922685,CF9&lang=de"
+    },
+    {
+      "members": [
+        "CF38966573",
+        "CF16972919",
+        "CF63701403",
+        "CF41963940",
+        "CF63186350",
+        "CF98803503",
+        "CF83382159",
+        "CF67576899",
+        "CF70679356",
+        "CF89633031",
+        "CF10444229"
+      ],
+      "lot_number": "0000000685",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=CF38966573,CF16972919,CF63701403,CF41963940,CF63186350,CF98803503,CF83382159,CF67576899,CF70679356,CF89633031,CF10444229&lang=de"
+    },
+    {
+      "members": [
+        "CF46524669",
+        "CF66985238",
+        "CF41963940",
+        "CF98803503",
+        "CF10444229"
+      ],
+      "lot_number": "0000000686",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=CF46524669,CF66985238,CF41963940,CF98803503,CF10444229&lang=de"
+    },
+    {
+      "members": [
+        "CF10444229",
+        "CF26258014",
+        "CF98803503",
+        "CF78425005",
+        "CF10810894",
+        "CF77073369",
+        "CF98992129",
+        "CF66985238",
+        "CF46524669"
+      ],
+      "lot_number": "0000000687",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=CF10444229,CF26258014,CF98803503,CF78425005,CF10810894,CF77073369,CF98992129,CF66985238,CF46524669&lang=de"
+    },
+    {
+      "members": [
+        "CF10444229",
+        "CF98803503",
+        "CF66985238",
+        "CF46524669"
+      ],
+      "lot_number": "0000000688",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=CF10444229,CF98803503,CF66985238,CF46524669&lang=de"
+    },
+    {
+      "members": [
+        "CF45129114",
+        "CF85321243",
+        "CF30460032",
+        "CF69959193",
+        "CF38803485",
+        "CF71678995",
+        "CF16447606",
+        "CF7439855",
+        "CF10444229"
+      ],
+      "lot_number": "0000000689",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=CF45129114,CF85321243,CF30460032,CF69959193,CF38803485,CF71678995,CF16447606,CF7439855,CF10444229&lang=de"
+    },
+    {
+      "members": [
+        "CF85321243",
+        "CF7439855",
+        "CF4972290"
+      ],
+      "lot_number": "0000000690",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=CF85321243,CF7439855,CF4972290&lang=de"
+    },
+    {
+      "members": [
+        "CF4972290",
+        "CF35993815",
+        "CF85321243",
+        "CF7439855"
+      ],
+      "lot_number": "0000000691",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=CF4972290,CF35993815,CF85321243,CF7439855&lang=de"
+    },
+    {
+      "members": [
+        "CF35993815",
+        "CF7403405",
+        "CF92411123",
+        "CF4972290",
+        "CF73417363"
+      ],
+      "lot_number": "0000000692",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=CF35993815,CF7403405,CF92411123,CF4972290,CF73417363&lang=de"
+    },
+    {
+      "members": [
+        "CF72609080",
+        "CF8978458",
+        "CF13171193",
+        "CF61827710",
+        "CF78425005",
+        "CF99642345"
+      ],
+      "lot_number": "0000000693",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=CF72609080,CF8978458,CF13171193,CF61827710,CF78425005,CF99642345&lang=de"
+    },
+    {
+      "members": [
+        "CF59391443",
+        "CF84464758",
+        "CF58926576",
+        "CF98803503",
+        "CF82152710",
+        "CF92519679",
+        "CF90083074"
+      ],
+      "lot_number": "0000000694",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=CF59391443,CF84464758,CF58926576,CF98803503,CF82152710,CF92519679,CF90083074&lang=de"
+    },
+    {
+      "members": [
+        "CF98803503",
+        "CF92519679",
+        "CF99642345",
+        "CF82152710",
+        "CF84464758",
+        "CF59391443"
+      ],
+      "lot_number": "0000000695",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=CF98803503,CF92519679,CF99642345,CF82152710,CF84464758,CF59391443&lang=de"
+    },
+    {
+      "members": [
+        "38771",
+        "CF45129114",
+        "40037",
+        "CF35235917",
+        "CF84464758"
+      ],
+      "lot_number": "0000000696",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=38771,CF45129114,40037,CF35235917,CF84464758&lang=de"
+    },
+    {
+      "members": [
+        "CF58070761",
+        "CF82152710",
+        "CF79363593"
+      ],
+      "lot_number": "0000000697",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=CF58070761,CF82152710,CF79363593&lang=de"
+    },
+    {
+      "members": [
+        "CF17762097",
+        "CF82152710",
+        "CF35235917"
+      ],
+      "lot_number": "0000000698",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=CF17762097,CF82152710,CF35235917&lang=de"
+    },
+    {
+      "members": [
+        "CF47485670",
+        "CF17762097",
+        "CF82152710",
+        "38782",
+        "CF35235917",
+        "CF5728653"
+      ],
+      "lot_number": "0000000699",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=CF47485670,CF17762097,CF82152710,38782,CF35235917,CF5728653&lang=de"
+    },
+    {
+      "members": [
+        "CF47485670",
+        "38773"
+      ],
+      "lot_number": "0000000700",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=CF47485670,38773&lang=de"
+    },
+    {
+      "members": [
+        "60694",
+        "CF68173529",
+        "38788",
+        "34558",
+        "60653",
+        "60648",
+        "CF42784329",
+        "40037",
+        "38781",
+        "CF84464758"
+      ],
+      "lot_number": "0000000701",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=60694,CF68173529,38788,34558,60653,60648,CF42784329,40037,38781,CF84464758&lang=de"
+    },
+    {
+      "members": [
+        "60698",
+        "60589",
+        "38781",
+        "40037",
+        "40037",
+        "40030"
+      ],
+      "lot_number": "0000000702",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=60698,60589,38781,40037,40037,40030&lang=de"
+    },
+    {
+      "members": [
+        "60698",
+        "60589",
+        "38781",
+        "40037",
+        "40037",
+        "40030"
+      ],
+      "lot_number": "0000000703",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=60698,60589,38781,40037,40037,40030&lang=de"
+    },
+    {
+      "members": [
+        "40030",
+        "40037",
+        "38781",
+        "60698"
+      ],
+      "lot_number": "0000000704",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=40030,40037,38781,60698&lang=de"
+    },
+    {
+      "members": [
+        "38785",
+        "87875",
+        "87861",
+        "38782",
+        "40030"
+      ],
+      "lot_number": "0000000705",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=38785,87875,87861,38782,40030&lang=de"
+    },
+    {
+      "members": [
+        "87861",
+        "40069",
+        "38770"
+      ],
+      "lot_number": "0000000706",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=87861,40069,38770&lang=de"
+    },
+    {
+      "members": [
+        "40069",
+        "38770",
+        "87861"
+      ],
+      "lot_number": "0000000707",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=40069,38770,87861&lang=de"
+    },
+    {
+      "members": [
+        "38770",
+        "40069",
+        "87995",
+        "87862",
+        "87861"
+      ],
+      "lot_number": "0000000708",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=38770,40069,87995,87862,87861&lang=de"
+    },
+    {
+      "members": [
+        "40042",
+        "87861",
+        "87875",
+        "87862",
+        "87995",
+        "40069",
+        "38770"
+      ],
+      "lot_number": "0000000709",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=40042,87861,87875,87862,87995,40069,38770&lang=de"
+    },
+    {
+      "members": [
+        "40042",
+        "40069",
+        "87889",
+        "87862"
+      ],
+      "lot_number": "0000000710",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=40042,40069,87889,87862&lang=de"
+    },
+    {
+      "members": [
+        "87867",
+        "95056",
+        "95022",
+        "95024",
+        "CF58070761"
+      ],
+      "lot_number": "0000000711",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=87867,95056,95022,95024,CF58070761&lang=de"
+    },
+    {
+      "members": [
+        "95111",
+        "95110",
+        "87881",
+        "95121",
+        "95109"
+      ],
+      "lot_number": "0000000712",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=95111,95110,87881,95121,95109&lang=de"
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/634eb92beff300a3edebdac1fdb0169014f9b9d7/exquisito-gemahlen-500g.jpg",
+    "stack": "https://image.migros.ch/{stack}/634eb92beff300a3edebdac1fdb0169014f9b9d7/exquisito-gemahlen-500g.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/e3fc70733d221b762c2e663433681231a979ff0f/exquisito-gemahlen-500g.png",
+    "stack": "https://image.migros.ch/{stack}/e3fc70733d221b762c2e663433681231a979ff0f/exquisito-gemahlen-500g.png"
+  },
+  "additional_images": [
+    {
+      "original": "https://image.migros.ch/original/8bf24c13cc2a8259895393ed9c93111217072fc3.jpg",
+      "stack": "https://image.migros.ch/{stack}/8bf24c13cc2a8259895393ed9c93111217072fc3.jpg"
+    }
+  ],
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_sortierung",
+      "label": "Sortierung aMigos",
+      "values": [
+        {
+          "value_code": "NUMERIC_270",
+          "value": "270",
+          "numeric_value": 270
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_intensitaet",
+      "label": "Intensität",
+      "values": [
+        {
+          "value_code": "MISO_intensitaet_ausgewogen",
+          "value": "Ausgewogen"
+        }
+      ],
+      "category_code": "MISO_CLA_KaffeeTeeErsatzprodukte_Getraenke_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_intensitaet",
+      "label": "Intensität",
+      "values": [
+        {
+          "value_code": "MISO_intensitaet_mild",
+          "value": "Mild"
+        }
+      ],
+      "category_code": "MISO_CLA_Kaffee_Getraenke_heiss_kalt_Lebensmittel_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_frucht",
+      "label": "Frucht",
+      "values": [
+        {
+          "value_code": "MISO_frucht_zitrus",
+          "value": "Zitrus"
+        }
+      ],
+      "category_code": "MISO_CLA_Kaffee_Getraenke_heiss_kalt_Lebensmittel_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_gewuerze",
+      "label": "Gewürze",
+      "values": [
+        {
+          "value_code": "MISO_gewuerze_wacholderbeere",
+          "value": "Wacholderbeere"
+        }
+      ],
+      "category_code": "MISO_CLA_Kaffee_Getraenke_heiss_kalt_Lebensmittel_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "M",
+          "value": "Kolonial Standard"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "10382",
+          "value": "ROESTKAFFEE GEMAHLEN"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "regulated_description": "Röstkaffee, gemahlen",
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/107107600000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/exquisito-gemahlen-500g",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/107107600000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/exquisito-gemahlen-500g",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "regional_availability": {
+    "gmaa": {
+      "probability": 98
+    },
+    "gmbs": {
+      "probability": 98
+    },
+    "gmge": {
+      "probability": 85
+    },
+    "gmlu": {
+      "probability": 97
+    },
+    "gmnf": {
+      "probability": 96
+    },
+    "gmos": {
+      "probability": 100
+    },
+    "gmti": {
+      "probability": 100
+    },
+    "gmvd": {
+      "probability": 97
+    },
+    "gmvs": {
+      "probability": 82
+    },
+    "gmzh": {
+      "probability": 95
+    }
+  },
+  "updated_at": "2020-09-16T05:40:32+0200",
+  "base_unit": "CU",
+  "slugs": {
+    "de": "exquisito-gemahlen-500g",
+    "fr": "exquisito-moulu-500g",
+    "it": "exquisito-macinato-500g"
+  },
+  "receipt_text": "Exquisito Kaffee gemah",
+  "main_supplier": {
+    "name": "DELICA AG",
+    "id": "0004090000",
+    "supplier_product_id": "107107600000"
+  },
+  "price": {
+    "valid_from": "2018-01-01T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 7.7,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "500g"
+    },
+    "base": {
+      "price": 1.54,
+      "quantity": 100,
+      "unit": "g"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 15,
+    "average_all": 4.090909090909
+  },
+  "data_source": "SAP-X11",
+  "origins": {
+    "producing_country": "DE: Hergestellt in der Schweiz durch Delica AG."
+  },
+  "ingredients": "Röstkaffee.",
+  "package": {
+    "content": 500,
+    "content_unit_code": "g",
+    "content_unit": "Gramm",
+    "net_weight": 0.5,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogramm",
+    "brutto_weight": 0.514,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 1.611,
+    "brutto_volume_unit_code": "cdm",
+    "height": 17.7,
+    "length": 8.2,
+    "width": 11.1,
+    "unit_dimension": "cm",
+    "price_comparison_content": 100,
+    "size": "500g"
+  },
+  "package_information": {
+    "tu": {
+      "brutto_weight": 6.64,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 23.788,
+      "brutto_volume_unit_code": "cdm",
+      "height": 21.8,
+      "length": 44,
+      "width": 24.8,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 12
+    },
+    "cu": {
+      "brutto_weight": 0.514,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 1.611,
+      "brutto_volume_unit_code": "cdm",
+      "height": 17.7,
+      "length": 8.2,
+      "width": 11.1,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "lu": {
+      "brutto_weight": 350.36,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 1825.92,
+      "brutto_volume_unit_code": "cdm",
+      "height": 168,
+      "length": 120,
+      "width": 80,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 588
+    }
+  },
+  "related_products": {
+    "purchase_recommendations": {
+      "product_ids": [
+        "107144000000",
+        "107113600000",
+        "107110500000",
+        "107119500000",
+        "107114500000"
+      ]
+    }
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "recipe_ingredient_ids": [
+    "766560",
+    "14706"
+  ],
+  "views": [
+    "all",
+    "browse"
+  ]
+}

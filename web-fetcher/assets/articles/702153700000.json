@@ -1,0 +1,788 @@
+{
+  "id": "702153700000",
+  "language": "de",
+  "name": "Rotho Messbecher",
+  "names": {
+    "name": "Rotho Messbecher",
+    "short_name": "Messbecher"
+  },
+  "slug": "rotho-messbecher-transparent-05l",
+  "boss_number": "150423101505",
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03"
+  },
+  "tags": [
+    "source-pex",
+    "near-non-food",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": true,
+  "base_product_id": "400900000237PIMSAM",
+  "gtins": [
+    "7613064223143"
+  ],
+  "brand": {
+    "id": "MID",
+    "name": "Rotho",
+    "slug": "rotho-MID",
+    "image": {
+      "original": "https://image.migros.ch/original/43e47f56636d038aee3c96bc84ed5378f4ddab73/rotho-MID.jpg",
+      "stack": "https://image.migros.ch/{stack}/43e47f56636d038aee3c96bc84ed5378f4ddab73/rotho-MID.jpg"
+    }
+  },
+  "categories": [
+    {
+      "code": "BeSS_01040913",
+      "name": "Küchenhelfer",
+      "slug": "supermarkt/haushalt-reinigung/kueche/kuechenhelfer",
+      "visible": true,
+      "parent_code": "BeSS_010409",
+      "image": {
+        "original": "https://image.migros.ch/original/56256124a866c079d9acf746ae2dc46f0ac2dd00/kuechenhelfer.jpg",
+        "stack": "https://image.migros.ch/{stack}/56256124a866c079d9acf746ae2dc46f0ac2dd00/kuechenhelfer.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010409",
+      "name": "Küche",
+      "slug": "supermarkt/haushalt-reinigung/kueche",
+      "visible": true,
+      "title": "Artikel für die Küche aus Ihrer Migros – gut & günstig!",
+      "parent_code": "BeSS_0104",
+      "image": {
+        "original": "https://image.migros.ch/original/90120e4cc3d5d74e017d4b91bbdcb1da29eb70a6/kueche.jpg",
+        "stack": "https://image.migros.ch/{stack}/90120e4cc3d5d74e017d4b91bbdcb1da29eb70a6/kueche.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0104",
+      "name": "Haushalt & Reinigung",
+      "slug": "supermarkt/haushalt-reinigung",
+      "visible": true,
+      "title": "Reinigung mit der Migros – Reiniger für Haushalt und Garten",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/e5da3225980543e0c7ddcc443069f331d94e8439/haushalt-reinigung.png",
+        "stack": "https://image.migros.ch/{stack}/e5da3225980543e0c7ddcc443069f331d94e8439/haushalt-reinigung.png"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_SonstigeKuechenartikel_Kueche_HaushaltReinigung",
+        "name": "Sonstige Küchenartikel",
+        "slug": "amigos/haushalt-reinigung/kueche/sonstige-kuechenartikel",
+        "visible": true,
+        "parent_code": "AMIG_CAT_Kueche_HaushaltReinigung",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_Kueche_HaushaltReinigung",
+        "name": "Küche",
+        "slug": "amigos/haushalt-reinigung/kueche",
+        "visible": true,
+        "parent_code": "AMIG_CAT_HaushaltReinigung",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_HaushaltReinigung",
+        "name": "Haushalt & Reinigung",
+        "slug": "amigos/haushalt-reinigung",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ],
+    [
+      {
+        "code": "AMIG_CAT_Kochen_Kueche_HaushaltReinigung",
+        "name": "Kochen",
+        "slug": "amigos/haushalt-reinigung/kueche/kochen",
+        "visible": true,
+        "parent_code": "AMIG_CAT_Kueche_HaushaltReinigung",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_Kueche_HaushaltReinigung",
+        "name": "Küche",
+        "slug": "amigos/haushalt-reinigung/kueche",
+        "visible": true,
+        "parent_code": "AMIG_CAT_HaushaltReinigung",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_HaushaltReinigung",
+        "name": "Haushalt & Reinigung",
+        "slug": "amigos/haushalt-reinigung",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ],
+    [
+      {
+        "code": "AMIG_CAT_Backen_Kueche_HaushaltReinigung",
+        "name": "Backen",
+        "slug": "amigos/haushalt-reinigung/kueche/backen",
+        "visible": true,
+        "parent_code": "AMIG_CAT_Kueche_HaushaltReinigung",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_Kueche_HaushaltReinigung",
+        "name": "Küche",
+        "slug": "amigos/haushalt-reinigung/kueche",
+        "visible": true,
+        "parent_code": "AMIG_CAT_HaushaltReinigung",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_HaushaltReinigung",
+        "name": "Haushalt & Reinigung",
+        "slug": "amigos/haushalt-reinigung",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ],
+    [
+      {
+        "code": "MIC_SHOP_CAT_MigrosSupermarkt_Essen_AccessoiresTextilien",
+        "name": "Migros Supermarkt",
+        "slug": "micasa/accessoires-textilien/essen/migros-supermarkt",
+        "visible": false,
+        "parent_code": "MIC_SHOP_CAT_Essen_AccessoiresTextilien",
+        "level": 4
+      },
+      {
+        "code": "MIC_SHOP_CAT_Essen_AccessoiresTextilien",
+        "name": "Essen",
+        "slug": "micasa/accessoires-textilien/essen",
+        "visible": true,
+        "parent_code": "MIC_SHOP_CAT_AccessoiresTextilien",
+        "level": 3
+      },
+      {
+        "code": "MIC_SHOP_CAT_AccessoiresTextilien",
+        "name": "Accessoires & Textilien",
+        "slug": "micasa/accessoires-textilien",
+        "visible": true,
+        "parent_code": "BeSS_02",
+        "level": 2
+      },
+      {
+        "code": "BeSS_02",
+        "name": "Micasa",
+        "slug": "micasa",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ],
+    [
+      {
+        "code": "MIC_SHOP_CAT_KuechenhelferZubehoer_Kochen_Essen_AccessoiresTextilien",
+        "name": "Küchenhelfer & Zubehör",
+        "slug": "micasa/accessoires-textilien/essen/kochen/kuechenhelfer-zubehoer",
+        "visible": true,
+        "parent_code": "MIC_SHOP_CAT_Kochen_Essen_AccessoiresTextilien",
+        "level": 5
+      },
+      {
+        "code": "MIC_SHOP_CAT_Kochen_Essen_AccessoiresTextilien",
+        "name": "Kochen",
+        "slug": "micasa/accessoires-textilien/essen/kochen",
+        "visible": true,
+        "parent_code": "MIC_SHOP_CAT_Essen_AccessoiresTextilien",
+        "level": 4
+      },
+      {
+        "code": "MIC_SHOP_CAT_Essen_AccessoiresTextilien",
+        "name": "Essen",
+        "slug": "micasa/accessoires-textilien/essen",
+        "visible": true,
+        "parent_code": "MIC_SHOP_CAT_AccessoiresTextilien",
+        "level": 3
+      },
+      {
+        "code": "MIC_SHOP_CAT_AccessoiresTextilien",
+        "name": "Accessoires & Textilien",
+        "slug": "micasa/accessoires-textilien",
+        "visible": true,
+        "parent_code": "BeSS_02",
+        "level": 2
+      },
+      {
+        "code": "BeSS_02",
+        "name": "Micasa",
+        "slug": "micasa",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "features": [
+    {
+      "label_code": "mic_farbewohnshop_farben",
+      "label": "Farben",
+      "values": [
+        {
+          "value_code": "MIC_FarbeWohnshop_Transparent",
+          "value": "Transparent"
+        }
+      ],
+      "category_code": "MIC_CLA_Accessoires_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "mic_materialwohnshop_material",
+      "label": "Material",
+      "values": [
+        {
+          "value_code": "MIC_MaterialWohnshop_Polypropylen",
+          "value": "Polypropylen"
+        }
+      ],
+      "category_code": "MIC_CLA_Accessoires_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "mic_volumeninhaltgewicht",
+      "label": "Volumen (Inhalt, Gewicht)",
+      "values": [
+        {
+          "value": "0.5l"
+        }
+      ],
+      "category_code": "MIC_CLA_Accessoires_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "mic_spuelmaschinenfest",
+      "label": "Spülmaschinengeeignet",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MIC_CLA_GedeckterTischKueche_Accessoires_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "mic_mikrowellengeeignet",
+      "label": "Mikrowellengeeignet",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MIC_CLA_GedeckterTischKueche_Accessoires_Alle",
+      "top_fact": false
+    }
+  ],
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": true,
+      "reservable": true,
+      "stock_request": true,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": true,
+      "reservable": true,
+      "stock_request": true,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": true,
+      "reservable": true,
+      "stock_request": true,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": true,
+      "reservable": true,
+      "stock_request": true,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": true,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": true,
+      "reservable": true,
+      "stock_request": true,
+      "visible": true,
+      "exclude_cross_channel": []
+    }
+  },
+  "attributes": {
+    "MIC_FarbeWohnshop_farben|Accessoires_Alle": {
+      "code": "MIC_FarbeWohnshop_Transparent",
+      "name": "Farbe",
+      "value": "Transparent",
+      "hex_color": "#FFFFFF"
+    },
+    "MIC_volumeninhaltgewicht_Accessoires_Alle": {
+      "code": "MIC_volumeninhaltgewicht",
+      "name": "Volumen",
+      "value": "0.5l"
+    }
+  },
+  "image": {
+    "original": "https://image.migros.ch/original/7a70fb5fd5c9a9811c28c6d776ea5bd44025c54a/rotho-messbecher.jpg",
+    "stack": "https://image.migros.ch/{stack}/7a70fb5fd5c9a9811c28c6d776ea5bd44025c54a/rotho-messbecher.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/0bbf3f5c5ccbef447ef38c82b9e62cbb68efe88c/rotho-messbecher.png",
+    "stack": "https://image.migros.ch/{stack}/0bbf3f5c5ccbef447ef38c82b9e62cbb68efe88c/rotho-messbecher.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_sortierung",
+      "label": "Sortierung aMigos",
+      "values": [
+        {
+          "value_code": "NUMERIC_320",
+          "value": "320",
+          "numeric_value": 320
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_gewicht",
+      "label": "Gewicht aMigos!",
+      "values": [
+        {
+          "value_code": "NUMERIC_0.075",
+          "value": "0.075 kg",
+          "numeric_value": 0.075
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false,
+      "unit_code": "kg",
+      "unit": "Kilogramm",
+      "unit_symbol": "kg"
+    },
+    {
+      "label_code": "MISO_aMigos_volumen",
+      "label": "Volumen aMigos!",
+      "values": [
+        {
+          "value_code": "NUMERIC_1.5",
+          "value": "1.5 l",
+          "numeric_value": 1.5
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false,
+      "unit_code": "l",
+      "unit": "Liter",
+      "unit_symbol": "l"
+    },
+    {
+      "label_code": "MAPI_RETURNABLE",
+      "label": "Rückgabe",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "true",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MAPI_RETURNABLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_MAX_ORDER_QUANTITY",
+      "values": [
+        {
+          "value_code": "NUMERIC_99999",
+          "value": "99999",
+          "numeric_value": 99999
+        }
+      ],
+      "category_code": "MAPI_MAX_ORDER_QUANTITY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_EXCLUDE_FROM_COMPARISON_ENGINES",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "false",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_EXCLUDE_FROM_COMPARISON_ENGINES",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_DEFAULT_LOGISTIC_TYPE",
+      "values": [
+        {
+          "value_code": "55",
+          "value": "Versandart Paket"
+        }
+      ],
+      "category_code": "MAPI_DEFAULT_LOGISTIC_TYPE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Normalposition"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "HART"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_RISK_CLASS",
+      "values": [
+        {
+          "value_code": "2",
+          "value": "2 (medium)"
+        }
+      ],
+      "category_code": "MAPI_RISK_CLASS",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_KUBE_TUKA",
+      "values": [
+        {
+          "value_code": "BLANK",
+          "value": "KUBE und TUKA nicht zugelassen"
+        }
+      ],
+      "category_code": "MAPI_KUBE_TUKA",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HART",
+          "value": "Hartwaren  Handelsware"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "H",
+          "value": "Hartwaren"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "50921",
+          "value": "MESSEN"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 1,
+    "percentage": 7.7
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/702153700000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/rotho-messbecher-transparent-05l",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/702153700000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/rotho-messbecher-transparent-05l",
+      "type": "info",
+      "purchasable": false
+    },
+    "micasa": {
+      "url": "https://www.micasa.ch/de/p/702153700000/rotho-messbecher",
+      "name": "Micasa",
+      "canonical": "https://produkte.migros.ch/rotho-messbecher-transparent-05l",
+      "type": "shop",
+      "purchasable": true
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/102685",
+      "app_url": "leshop:///catalog/article/detail?ean=7613064223143",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/rotho-messbecher-transparent-05l",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "regional_availability": {
+    "gmaa": {
+      "probability": 80
+    },
+    "gmbs": {
+      "probability": 78
+    },
+    "gmge": {
+      "probability": 77
+    },
+    "gmlu": {
+      "probability": 68
+    },
+    "gmnf": {
+      "probability": 84
+    },
+    "gmos": {
+      "probability": 82
+    },
+    "gmti": {
+      "probability": 84
+    },
+    "gmvd": {
+      "probability": 85
+    },
+    "gmvs": {
+      "probability": 79
+    },
+    "gmzh": {
+      "probability": 76
+    }
+  },
+  "updated_at": "2020-09-16T06:10:46+0200",
+  "online_shop_relevant": true,
+  "services": {
+    "logistics": [
+      {
+        "code": "MIC_LOGISTIK_FILIALLIEFERUNG_POSTPAKET_GRATIS"
+      },
+      {
+        "code": "MIC_LOGISTIK_POSTPAKET_4_9"
+      }
+    ]
+  },
+  "base_unit": "CU",
+  "slugs": {
+    "de": "rotho-messbecher-transparent-05l",
+    "fr": "rotho-mesure-gradue-transparent-05l",
+    "it": "rotho-bicchiere-graduato-transparente-05l"
+  },
+  "receipt_text": "Messbecher 0.5L",
+  "main_supplier": {
+    "name": "Rotho Kunststoff AG",
+    "id": "0010006377",
+    "supplier_product_id": "1701506651M"
+  },
+  "price": {
+    "valid_from": "2018-01-30T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 3.95,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "0.5l"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "colors": [
+    {
+      "label": "Transparent",
+      "hex": "#FFFFFF",
+      "group": "Weiss",
+      "group_hex": "#FFFFFF"
+    }
+  ],
+  "galaxus_relevant": false,
+  "ratings": {
+    "count_all": 1,
+    "average_all": 4
+  },
+  "data_source": "SAP-X12",
+  "origins": {
+    "producing_country": "Schweiz"
+  },
+  "package": {
+    "brutto_volume": 1.737,
+    "brutto_volume_unit_code": "cdm",
+    "height": 13,
+    "length": 8.1,
+    "width": 16.5,
+    "unit_dimension": "cm",
+    "size": "0.5l"
+  },
+  "package_information": {
+    "cu": {
+      "brutto_volume": 1.737,
+      "brutto_volume_unit_code": "cdm",
+      "height": 13,
+      "length": 8.1,
+      "width": 16.5,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "tuv": {
+      "brutto_weight": 0.26,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0.035,
+      "brutto_volume_unit_code": "cdm",
+      "height": 35,
+      "length": 1,
+      "width": 1,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 8
+    },
+    "tue": {
+      "number_of_base_units": 8
+    },
+    "lu": {
+      "number_of_base_units": 680
+    }
+  },
+  "related_products": {
+    "reference_recommendations": {
+      "product_ids": [
+        "702153800000",
+        "702146000000",
+        "702152200000"
+      ]
+    }
+  },
+  "quantity_on_stock": 3031,
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "recipe_ingredient_ids": [
+    "10000"
+  ],
+  "views": [
+    "all",
+    "browse"
+  ]
+}

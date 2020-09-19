@@ -1,0 +1,916 @@
+{
+  "id": "703729300003",
+  "language": "de",
+  "name": "M-Topline STORE Vorratsglas 1.2L",
+  "names": {
+    "name": "M-Topline STORE Vorratsglas 1.2L",
+    "short_name": "STORE Vorratsglas 1.2L"
+  },
+  "slug": "m-topline-store-vorratsglas-12l-transparent-weiss-h-190-cm",
+  "boss_number": "150423071005",
+  "description": {
+    "text": "Bewahren Sie Ihre Lebensmittel ab sofort &uuml;bersichtlich in den eleganten Rotho Vorratsgl&auml;sern auf! Ob Mehl, Zucker, M&uuml;sli, Kaffeekapseln oder Nudeln - alles findet sinen Platz und wird durch den aromadichten Deckel frisch gehalten und verliert keine Aromastoffe. Das hochwertige Borosilikatglas ist &auml;ussert leicht und dabei dennoch sehr bruchresistent.",
+    "source": "PEX"
+  },
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03"
+  },
+  "tags": [
+    "source-pex",
+    "near-non-food",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": true,
+  "base_product_id": "703729300000",
+  "gtins": [
+    "7613347346033"
+  ],
+  "brand": {
+    "id": "MGR",
+    "name": "M-Topline",
+    "slug": "m-topline",
+    "image": {
+      "original": "https://image.migros.ch/original/cb62232a71bb41718bdfee84b5303234bc8d5ed6/m-topline.jpg",
+      "stack": "https://image.migros.ch/{stack}/cb62232a71bb41718bdfee84b5303234bc8d5ed6/m-topline.jpg"
+    }
+  },
+  "categories": [
+    {
+      "code": "BeSS_010418",
+      "name": "Topline",
+      "slug": "supermarkt/haushalt-reinigung/topline",
+      "visible": true,
+      "title": "Immer sch&ouml;n frisch: Dank Topline",
+      "parent_code": "BeSS_0104",
+      "level": 3
+    },
+    {
+      "code": "BeSS_0104",
+      "name": "Haushalt & Reinigung",
+      "slug": "supermarkt/haushalt-reinigung",
+      "visible": true,
+      "title": "Reinigung mit der Migros – Reiniger für Haushalt und Garten",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/e5da3225980543e0c7ddcc443069f331d94e8439/haushalt-reinigung.png",
+        "stack": "https://image.migros.ch/{stack}/e5da3225980543e0c7ddcc443069f331d94e8439/haushalt-reinigung.png"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "MIC_SHOP_CAT_Kuechenorganisation_Kuechenzubehoer_Essen_AccessoiresTextilien",
+        "name": "Küchenorganisation",
+        "slug": "micasa/accessoires-textilien/essen/kuechenzubehoer/kuechenorganisation",
+        "visible": true,
+        "parent_code": "MIC_SHOP_CAT_Kuechenzubehoer_Essen_AccessoiresTextilien",
+        "level": 5
+      },
+      {
+        "code": "MIC_SHOP_CAT_Kuechenzubehoer_Essen_AccessoiresTextilien",
+        "name": "Küchenzubehör",
+        "slug": "micasa/accessoires-textilien/essen/kuechenzubehoer",
+        "visible": true,
+        "parent_code": "MIC_SHOP_CAT_Essen_AccessoiresTextilien",
+        "level": 4
+      },
+      {
+        "code": "MIC_SHOP_CAT_Essen_AccessoiresTextilien",
+        "name": "Essen",
+        "slug": "micasa/accessoires-textilien/essen",
+        "visible": true,
+        "parent_code": "MIC_SHOP_CAT_AccessoiresTextilien",
+        "level": 3
+      },
+      {
+        "code": "MIC_SHOP_CAT_AccessoiresTextilien",
+        "name": "Accessoires & Textilien",
+        "slug": "micasa/accessoires-textilien",
+        "visible": true,
+        "parent_code": "BeSS_02",
+        "level": 2
+      },
+      {
+        "code": "BeSS_02",
+        "name": "Micasa",
+        "slug": "micasa",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ],
+    [
+      {
+        "code": "MIC_SHOP_CAT_Vorratsdosen_Kuechenzubehoer_Essen_AccessoiresTextilien",
+        "name": "Vorratsdosen",
+        "slug": "micasa/accessoires-textilien/essen/kuechenzubehoer/vorratsdosen",
+        "visible": true,
+        "parent_code": "MIC_SHOP_CAT_Kuechenzubehoer_Essen_AccessoiresTextilien",
+        "level": 5
+      },
+      {
+        "code": "MIC_SHOP_CAT_Kuechenzubehoer_Essen_AccessoiresTextilien",
+        "name": "Küchenzubehör",
+        "slug": "micasa/accessoires-textilien/essen/kuechenzubehoer",
+        "visible": true,
+        "parent_code": "MIC_SHOP_CAT_Essen_AccessoiresTextilien",
+        "level": 4
+      },
+      {
+        "code": "MIC_SHOP_CAT_Essen_AccessoiresTextilien",
+        "name": "Essen",
+        "slug": "micasa/accessoires-textilien/essen",
+        "visible": true,
+        "parent_code": "MIC_SHOP_CAT_AccessoiresTextilien",
+        "level": 3
+      },
+      {
+        "code": "MIC_SHOP_CAT_AccessoiresTextilien",
+        "name": "Accessoires & Textilien",
+        "slug": "micasa/accessoires-textilien",
+        "visible": true,
+        "parent_code": "BeSS_02",
+        "level": 2
+      },
+      {
+        "code": "BeSS_02",
+        "name": "Micasa",
+        "slug": "micasa",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "features": [
+    {
+      "label_code": "mic_hoehe",
+      "label": "Höhe",
+      "values": [
+        {
+          "value_code": "NUMERIC_19",
+          "value": "19 cm",
+          "numeric_value": 19
+        }
+      ],
+      "category_code": "MIC_CLA_Alle",
+      "top_fact": false,
+      "unit_code": "cm",
+      "unit": "Zentimeter",
+      "unit_symbol": "cm"
+    },
+    {
+      "label_code": "mic_durchmesser",
+      "label": "Durchmesser",
+      "values": [
+        {
+          "value_code": "NUMERIC_11",
+          "value": "11 cm",
+          "numeric_value": 11
+        }
+      ],
+      "category_code": "MIC_CLA_Alle",
+      "top_fact": false,
+      "unit_code": "cm",
+      "unit": "Zentimeter",
+      "unit_symbol": "cm"
+    },
+    {
+      "label_code": "mic_farbewohnshop_farben",
+      "label": "Farben",
+      "values": [
+        {
+          "value_code": "MIC_FarbeWohnshop_Transparent",
+          "value": "Transparent"
+        },
+        {
+          "value_code": "MIC_FarbeWohnshop_Weiss",
+          "value": "Weiss"
+        }
+      ],
+      "category_code": "MIC_CLA_Accessoires_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "mic_materialwohnshop_material",
+      "label": "Material",
+      "values": [
+        {
+          "value_code": "MIC_MaterialWohnshop_Borosilikat",
+          "value": "Borosilikat"
+        }
+      ],
+      "category_code": "MIC_CLA_Accessoires_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "mic_volumeninhaltgewicht",
+      "label": "Volumen (Inhalt, Gewicht)",
+      "values": [
+        {
+          "value": "1.2L"
+        }
+      ],
+      "category_code": "MIC_CLA_Accessoires_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "mic_fuer_lebensmittel_geeignet",
+      "label": "Für Lebensmittel geeignet",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MIC_CLA_GedeckterTischKueche_Accessoires_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "mic_spuelmaschinenfest",
+      "label": "Spülmaschinengeeignet",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MIC_CLA_GedeckterTischKueche_Accessoires_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "mic_maximaltemperatur",
+      "label": "Maximaltemperatur",
+      "values": [
+        {
+          "value_code": "NUMERIC_100",
+          "value": "100 °C",
+          "numeric_value": 100
+        }
+      ],
+      "category_code": "MIC_CLA_GedeckterTischKueche_Accessoires_Alle",
+      "top_fact": false,
+      "unit_code": "grad_celsius",
+      "unit": "Grad Celsius",
+      "unit_symbol": "°C"
+    },
+    {
+      "label_code": "miso_hoehe",
+      "label": "Höhe",
+      "values": [
+        {
+          "value_code": "NUMERIC_19",
+          "value": "19 cm",
+          "numeric_value": 19
+        }
+      ],
+      "category_code": "MISO_CLA_Kueche_Haushalt_Alle",
+      "top_fact": false,
+      "unit_code": "cm",
+      "unit": "Zentimeter",
+      "unit_symbol": "cm"
+    },
+    {
+      "label_code": "miso_durchmesser",
+      "label": "Durchmesser",
+      "values": [
+        {
+          "value_code": "NUMERIC_11",
+          "value": "11 cm",
+          "numeric_value": 11
+        }
+      ],
+      "category_code": "MISO_CLA_Kueche_Haushalt_Alle",
+      "top_fact": false,
+      "unit_code": "cm",
+      "unit": "Zentimeter",
+      "unit_symbol": "cm"
+    },
+    {
+      "label_code": "miso_volumen",
+      "label": "Volumen",
+      "values": [
+        {
+          "value_code": "NUMERIC_1.2",
+          "value": "1.2 l",
+          "numeric_value": 1.2
+        }
+      ],
+      "category_code": "MISO_CLA_Kueche_Haushalt_Alle",
+      "top_fact": false,
+      "unit_code": "l",
+      "unit": "Liter",
+      "unit_symbol": "l"
+    },
+    {
+      "label_code": "miso_material",
+      "label": "Material",
+      "values": [
+        {
+          "value_code": "MISO_material_glas",
+          "value": "Glas"
+        }
+      ],
+      "category_code": "MISO_CLA_Kueche_Haushalt_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "miso_farbe",
+      "label": "Farbe",
+      "values": [
+        {
+          "value_code": "MISO_farbe_weiss",
+          "value": "weiss"
+        },
+        {
+          "value_code": "MISO_farbe_transparent",
+          "value": "transparent"
+        }
+      ],
+      "category_code": "MISO_CLA_Kueche_Haushalt_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "miso_fuer_lebensmittel_geeignet",
+      "label": "Für Lebensmittel geeignet",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MISO_CLA_Kueche_Haushalt_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "miso_mikrowellentauglich",
+      "label": "Mikrowellentauglich",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MISO_CLA_Kueche_Haushalt_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "miso_spuelmaschinentauglich",
+      "label": "Spülmaschinentauglich",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MISO_CLA_Kueche_Haushalt_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "miso_maxtemperaturbestaendigkeit",
+      "label": "Max. Temperaturbeständigkeit",
+      "values": [
+        {
+          "value_code": "NUMERIC_100",
+          "value": "100 °C",
+          "numeric_value": 100
+        }
+      ],
+      "category_code": "MISO_CLA_Kueche_Haushalt_Alle",
+      "top_fact": false,
+      "unit_code": "grad_celsius",
+      "unit": "Grad Celsius",
+      "unit_symbol": "°C"
+    },
+    {
+      "label_code": "mic_tiefkuehlgeeignet",
+      "label": "Tiefkühlgeeignet",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MIC_CLA_Kueche_GedeckterTischKueche_Accessoires_Alle",
+      "top_fact": false
+    }
+  ],
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": true,
+      "reservable": true,
+      "stock_request": true,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": true,
+      "reservable": true,
+      "stock_request": true,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": true,
+      "reservable": true,
+      "stock_request": true,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": true,
+      "reservable": true,
+      "stock_request": true,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": true,
+      "reservable": true,
+      "stock_request": true,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": true,
+      "reservable": true,
+      "stock_request": true,
+      "visible": true,
+      "exclude_cross_channel": []
+    }
+  },
+  "attributes": {
+    "MIC_FarbeWohnshop_farben|Accessoires_Alle": {
+      "code": "MIC_FarbeWohnshop_Transparent",
+      "name": "Farbe",
+      "value": "Transparent, Weiss",
+      "hex_color": "#FFFFFF"
+    },
+    "MIC_breite/MIC_tiefe/MIC_hoehe|Alle": {
+      "code": "MIC_breite-MIC_tiefe-MIC_hoehe",
+      "name": "Grösse",
+      "value": "H: 19.0 cm"
+    }
+  },
+  "image": {
+    "original": "https://image.migros.ch/original/d44134db8702299abc843eaca8437d6070bd9e6d/m-topline-store-vorratsglas-12l.jpg",
+    "stack": "https://image.migros.ch/{stack}/d44134db8702299abc843eaca8437d6070bd9e6d/m-topline-store-vorratsglas-12l.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/57e3bb0f8896b34687354553116636b24899226a/m-topline-store-vorratsglas-12l.png",
+    "stack": "https://image.migros.ch/{stack}/57e3bb0f8896b34687354553116636b24899226a/m-topline-store-vorratsglas-12l.png"
+  },
+  "additional_images": [
+    {
+      "original": "https://image.migros.ch/original/ff786bde0843e9461a0209b0adf411438f57e173.jpg",
+      "stack": "https://image.migros.ch/{stack}/ff786bde0843e9461a0209b0adf411438f57e173.jpg"
+    }
+  ],
+  "internal_features": [
+    {
+      "label_code": "MAPI_RETURNABLE",
+      "label": "Rückgabe",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "true",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MAPI_RETURNABLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_MAX_ORDER_QUANTITY",
+      "values": [
+        {
+          "value_code": "NUMERIC_8888888",
+          "value": "8888888",
+          "numeric_value": 8888888
+        }
+      ],
+      "category_code": "MAPI_MAX_ORDER_QUANTITY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_EXCLUDE_FROM_COMPARISON_ENGINES",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "false",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_EXCLUDE_FROM_COMPARISON_ENGINES",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_DEFAULT_LOGISTIC_TYPE",
+      "values": [
+        {
+          "value_code": "55",
+          "value": "Versandart Paket"
+        }
+      ],
+      "category_code": "MAPI_DEFAULT_LOGISTIC_TYPE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Normalposition"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "HART"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUSTOMS_POSITION",
+      "values": [
+        {
+          "value_code": "NUMERIC_00039241000",
+          "value": "00039241000",
+          "numeric_value": 39241000
+        }
+      ],
+      "category_code": "MAPI_CUSTOMS_POSITION",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_RISK_CLASS",
+      "values": [
+        {
+          "value_code": "2",
+          "value": "2 (medium)"
+        }
+      ],
+      "category_code": "MAPI_RISK_CLASS",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_QUALITY_CHECK",
+      "values": [
+        {
+          "value_code": "00",
+          "value": "Keine Prüfung"
+        }
+      ],
+      "category_code": "MAPI_QUALITY_CHECK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_KUBE_TUKA",
+      "values": [
+        {
+          "value_code": "BLANK",
+          "value": "KUBE und TUKA nicht zugelassen"
+        }
+      ],
+      "category_code": "MAPI_KUBE_TUKA",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HART",
+          "value": "Hartwaren  Handelsware"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "H",
+          "value": "Hartwaren"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "50910",
+          "value": "BEVORRATEN"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 1,
+    "percentage": 7.7
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/703729300003",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/m-topline-store-vorratsglas-12l-transparent-weiss-h-190-cm",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/703729300003",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/m-topline-store-vorratsglas-12l-transparent-weiss-h-190-cm",
+      "type": "info",
+      "purchasable": false
+    },
+    "micasa": {
+      "url": "https://www.micasa.ch/de/p/703729300003/m-topline-store-vorratsglas-1-2l",
+      "name": "Micasa",
+      "canonical": "https://produkte.migros.ch/m-topline-store-vorratsglas-12l-transparent-weiss-h-190-cm",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "regional_availability": {
+    "gmaa": {
+      "probability": 43
+    },
+    "gmbs": {
+      "probability": 41
+    },
+    "gmge": {
+      "probability": 46
+    },
+    "gmlu": {
+      "probability": 28
+    },
+    "gmnf": {
+      "probability": 39
+    },
+    "gmos": {
+      "probability": 36
+    },
+    "gmti": {
+      "probability": 50
+    },
+    "gmvd": {
+      "probability": 31
+    },
+    "gmvs": {
+      "probability": 26
+    },
+    "gmzh": {
+      "probability": 42
+    }
+  },
+  "updated_at": "2020-09-16T06:08:36+0200",
+  "online_shop_relevant": true,
+  "services": {
+    "logistics": [
+      {
+        "code": "MIC_LOGISTIK_FILIALLIEFERUNG_POSTPAKET_GRATIS"
+      },
+      {
+        "code": "MIC_LOGISTIK_POSTPAKET_4_9"
+      }
+    ]
+  },
+  "base_unit": "CU",
+  "slugs": {
+    "de": "m-topline-store-vorratsglas-12l-transparent-weiss-h-190-cm",
+    "fr": "m-topline-store-recipients-a-provisions-en-verre-12l-transpa",
+    "it": "m-topline-store-contenitori-di-vetro-per-dispensa-12l-transp"
+  },
+  "receipt_text": "Vorratsglas 1.2L",
+  "new_product": {
+    "from": "2018-01-26T00:00:00+0100",
+    "to": "2018-02-09T00:00:00+0100"
+  },
+  "price": {
+    "valid_from": "2020-09-08T00:00:00+0200",
+    "valid_to": "2020-09-21T23:59:59+0200",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 6,
+      "original_price": 9.95,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "1.2l"
+    },
+    "discount": {
+      "id": "1451378",
+      "region": "national",
+      "start_date": "2020-09-08T00:00:00+0200",
+      "end_date": "2020-09-21T23:59:59+0200",
+      "publication_date": "2020-09-06T00:00:00+0200",
+      "discount_amount": "40%",
+      "discount_regions": [
+        "national"
+      ],
+      "reference_product_id": "702920300040",
+      "discount_type": "aktion",
+      "discount_type_id": "005",
+      "discount_type_label": "GRAB Angebot CHF beim Kauf ab X Stueck",
+      "organisation": "09",
+      "cooperative": "mgb",
+      "image": {
+        "tags": [
+          "list-image"
+        ],
+        "original": "https://image.migros.ch/original/1cc899e6340e00c569d69418db70ac1936e2f2b7/gesamtes-migros-topline-sistema-und-cucina-tavola-fresh-sort.jpg",
+        "source": "PriceRepository",
+        "stack": "https://image.migros.ch/{stack}/1cc899e6340e00c569d69418db70ac1936e2f2b7/gesamtes-migros-topline-sistema-und-cucina-tavola-fresh-sort.jpg"
+      },
+      "image_transparent": {
+        "original": "https://image.migros.ch/original/1cc899e6340e00c569d69418db70ac1936e2f2b7/gesamtes-migros-topline-sistema-und-cucina-tavola-fresh-sort.png",
+        "source": "PriceRepository",
+        "stack": "https://image.migros.ch/{stack}/1cc899e6340e00c569d69418db70ac1936e2f2b7/gesamtes-migros-topline-sistema-und-cucina-tavola-fresh-sort.png"
+      },
+      "badge": {
+        "original": "https://image.migros.ch/original/b8c16a614fa0d7be55216a40e71cc3bb84913b1e.png",
+        "stack": "https://image.migros.ch/{stack}/b8c16a614fa0d7be55216a40e71cc3bb84913b1e.png"
+      },
+      "location_planning_type": "01",
+      "reduction_type_id": "01",
+      "special_advertisement": false,
+      "description": "Gesamtes Migros Topline-, Sistema- und Cucina & Tavola-Fresh-Sortiment",
+      "discount_hint": "<strong>ab 2 </strong><strong>Stück, </strong><strong>40% günstiger, </strong>(ohne Hit-Produkte und Trinkflaschen), z.B. Migros Topline Tiefkühldosen 5 x 0.75 Liter, <strong>2.95 </strong>statt 4.90, Angebot gilt nur vom 8.9. bis 21.9.2020, solange Vorrat.",
+      "high_performer": true,
+      "collective_discount": true,
+      "instead_of": "statt",
+      "price": 6,
+      "original_price": 9.95,
+      "disclaimer": "Gültigkeit siehe Angebots-Detailseite.\r\nBei allen Angeboten sind M-Budget und bereits reduzierte Artikel ausgenommen.\r\nBei Aktionen können bei der Verrechnung auf dem Kassabon Rundungsdifferenzen zu Gunsten des Kunden entstehen.",
+      "source": "PriceRepository",
+      "boss_number": "150423070505",
+      "discount_role_id": "2000000001",
+      "discount_role_label": "High-Performer",
+      "last_imported": "2020-08-31T21:15:11+0200"
+    },
+    "discount_hint": "<strong>ab 2 </strong><strong>Stück, </strong>Angebot gilt nur vom 8.9. bis 21.9.2020, solange Vorrat."
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "colors": [
+    {
+      "label": "Transparent",
+      "hex": "#FFFFFF",
+      "group": "Weiss",
+      "group_hex": "#FFFFFF"
+    },
+    {
+      "label": "Weiss",
+      "hex": "#FFFFFF",
+      "group": "Weiss",
+      "group_hex": "#FFFFFF"
+    }
+  ],
+  "galaxus_relevant": true,
+  "ratings": {
+    "count_all": 1,
+    "average_all": 5
+  },
+  "data_source": "SAP-X12",
+  "origins": {
+    "producing_country": "Schweiz"
+  },
+  "package": {
+    "content": 1,
+    "content_unit_code": "cu",
+    "net_weight": 0.28,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogramm",
+    "brutto_weight": 0.403,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 0.002,
+    "brutto_volume_unit_code": "ccm",
+    "height": 0.19,
+    "length": 0.11,
+    "width": 0.11,
+    "unit_dimension": "cm",
+    "size": "1.2l"
+  },
+  "package_information": {
+    "cu": {
+      "brutto_weight": 0.403,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0.002,
+      "brutto_volume_unit_code": "ccm",
+      "height": 0.19,
+      "length": 0.11,
+      "width": 0.11,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "tuv": {
+      "brutto_weight": 0.62,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 5.52,
+      "brutto_volume_unit_code": "cdm",
+      "height": 20,
+      "length": 23,
+      "width": 12,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 2
+    },
+    "tue": {
+      "brutto_weight": 0.806,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0.003,
+      "brutto_volume_unit_code": "ccm",
+      "height": 0.12,
+      "length": 0.23,
+      "width": 0.12,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 2
+    },
+    "lu": {
+      "number_of_base_units": 1
+    }
+  },
+  "related_products": {
+    "reference_recommendations": {
+      "product_ids": [
+        "703729300002",
+        "703729300001"
+      ]
+    }
+  },
+  "warranty_months": 24,
+  "quantity_on_stock": 1893,
+  "reindex_date": "2020-09-21T23:59:59+0200",
+  "recipe_ingredient_ids": [
+    "10000"
+  ],
+  "views": [
+    "all",
+    "browse"
+  ]
+}

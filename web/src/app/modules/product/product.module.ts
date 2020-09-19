@@ -11,6 +11,7 @@ import { ProductCardModule } from '../product-card/product-card.module';
 import { ProductStateService } from './services/product-state.service';
 import { ProductDetailComponent } from './components/product-detail/product-detail.component';
 import { SwitcherModule } from '../switcher/switcher.module';
+import { ApiModule } from '../api/api.module';
 
 @NgModule({
   declarations: [ProductComponent, ProductDetailComponent],
@@ -23,6 +24,7 @@ import { SwitcherModule } from '../switcher/switcher.module';
     PageModule,
     SearchInputModule,
     ScrollableListModule,
+    ApiModule,
     ProductCardModule,
     SwitcherModule,
   ],

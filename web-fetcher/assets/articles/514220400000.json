@@ -1,0 +1,403 @@
+{
+  "id": "514220400000",
+  "language": "de",
+  "name": "Listerine Adv. White Mundspülung",
+  "names": {
+    "name": "Listerine Adv. White Mundspülung"
+  },
+  "slug": "listerine-adv-white-mundspuelung",
+  "boss_number": "090221701020",
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03"
+  },
+  "tags": [
+    "source-pim",
+    "near-non-food",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "3574661491882",
+    "3574661203591"
+  ],
+  "brand": {
+    "id": "A59",
+    "name": "Listerine",
+    "slug": "listerine"
+  },
+  "categories": [
+    {
+      "code": "BeSS_01110402",
+      "name": "Mundspülungen & Erfrischung",
+      "slug": "supermarkt/beauty/mundpflege/mundspuelungen-erfrischung",
+      "visible": true,
+      "parent_code": "BeSS_011104",
+      "level": 4
+    },
+    {
+      "code": "BeSS_011104",
+      "name": "Mundpflege",
+      "slug": "supermarkt/beauty/mundpflege",
+      "visible": true,
+      "parent_code": "BeSS_0111",
+      "level": 3
+    },
+    {
+      "code": "BeSS_0111",
+      "name": "Beauty",
+      "slug": "supermarkt/beauty",
+      "visible": true,
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/293925170bd129344f9259c67a15e903f881bef8/beauty.jpg",
+        "stack": "https://image.migros.ch/{stack}/293925170bd129344f9259c67a15e903f881bef8/beauty.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_Zahnhygiene_Zahnpflege_HygieneGesundheitBaby",
+        "name": "Zahnhygiene",
+        "slug": "amigos/hygiene-gesundheit-baby/zahnpflege/zahnhygiene",
+        "visible": true,
+        "parent_code": "AMIG_CAT_Zahnpflege_HygieneGesundheitBaby",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_Zahnpflege_HygieneGesundheitBaby",
+        "name": "Zahnpflege",
+        "slug": "amigos/hygiene-gesundheit-baby/zahnpflege",
+        "visible": true,
+        "parent_code": "AMIG_CAT_HygieneGesundheitBaby",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_HygieneGesundheitBaby",
+        "name": "Hygiene, Gesundheit & Baby",
+        "slug": "amigos/hygiene-gesundheit-baby",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "features": [
+    {
+      "label_code": "MISO_geeignet_fuer",
+      "label": "Geeignet für",
+      "values": [
+        {
+          "value_code": "MISO_geeignet_fuer_kariesschutz",
+          "value": "Kariesschutz"
+        },
+        {
+          "value_code": "MISO_geeignet_fuer_zahnverfaerbungenwhitening",
+          "value": "Zahnverfärbungen (Whitening)"
+        }
+      ],
+      "category_code": "MISO_CLA_MundspuelungenErfrischung_Mundpflege_Beauty_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_produkttyp",
+      "label": "Produkttyp",
+      "values": [
+        {
+          "value_code": "MISO_produkttyp_mundspuelungen",
+          "value": "Mundspülungen"
+        }
+      ],
+      "category_code": "MISO_CLA_MundspuelungenErfrischung_Mundpflege_Beauty_Alle",
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/82366e0474fbd02ae06d2712ea7463aade5bdaa9/listerine-adv-white-mundspuelung.jpg",
+    "stack": "https://image.migros.ch/{stack}/82366e0474fbd02ae06d2712ea7463aade5bdaa9/listerine-adv-white-mundspuelung.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/0b9900d8c98018c0ab93f323cb40250b9b8efe86/listerine-adv-white-mundspuelung.png",
+    "stack": "https://image.migros.ch/{stack}/0b9900d8c98018c0ab93f323cb40250b9b8efe86/listerine-adv-white-mundspuelung.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_sortierung",
+      "label": "Sortierung aMigos",
+      "values": [
+        {
+          "value_code": "NUMERIC_400",
+          "value": "400",
+          "numeric_value": 400
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZHKS",
+          "value": "HKS Standardartikel"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_QUALITY_CHECK",
+      "values": [
+        {
+          "value_code": "00",
+          "value": "Keine Prüfung"
+        }
+      ],
+      "category_code": "MAPI_QUALITY_CHECK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_RISK_CLASS",
+      "values": [
+        {
+          "value_code": "1",
+          "value": "1 (high)"
+        }
+      ],
+      "category_code": "MAPI_RISK_CLASS",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "H",
+          "value": "HKS Standard"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "50049",
+          "value": "MUNDSPUELUNGEN"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUSTOMS_POSITION",
+      "values": [
+        {
+          "value_code": "33069000"
+        }
+      ],
+      "category_code": "MAPI_CUSTOMS_POSITION",
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 1,
+    "percentage": 7.7
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/514220400000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/listerine-adv-white-mundspuelung",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/514220400000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/listerine-adv-white-mundspuelung",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "regional_availability": {
+    "gmaa": {
+      "probability": 84
+    },
+    "gmbs": {
+      "probability": 89
+    },
+    "gmge": {
+      "probability": 85
+    },
+    "gmlu": {
+      "probability": 89
+    },
+    "gmnf": {
+      "probability": 88
+    },
+    "gmos": {
+      "probability": 91
+    },
+    "gmti": {
+      "probability": 100
+    },
+    "gmvd": {
+      "probability": 88
+    },
+    "gmvs": {
+      "probability": 64
+    },
+    "gmzh": {
+      "probability": 85
+    }
+  },
+  "updated_at": "2020-09-16T06:02:27+0200",
+  "base_unit": "CU",
+  "slugs": {
+    "de": "listerine-adv-white-mundspuelung",
+    "fr": "listerine-adv-white-eau-dentaire",
+    "it": "listerine-adv-white-dental-fluid"
+  },
+  "receipt_text": "Listerine Advan. White",
+  "main_supplier": {
+    "name": "Johnson & Johnson Consumer H",
+    "id": "0010004306",
+    "supplier_product_id": "9907600"
+  },
+  "price": {
+    "valid_from": "2018-01-29T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 5.9,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "500ml"
+    },
+    "base": {
+      "price": 1.18,
+      "quantity": 100,
+      "unit": "ml"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 1,
+    "average_all": 5
+  },
+  "data_source": "SAP-X11",
+  "package": {
+    "content": 500,
+    "content_unit_code": "ml",
+    "content_unit": "Mililiter",
+    "net_weight": 0.508,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogramm",
+    "brutto_weight": 0.555,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 1.024,
+    "brutto_volume_unit_code": "cdm",
+    "height": 22,
+    "length": 4.9,
+    "width": 9.5,
+    "unit_dimension": "cm",
+    "price_comparison_content": 100,
+    "size": "500ml"
+  },
+  "package_information": {
+    "tu": {
+      "brutto_weight": 3.54,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 7.296,
+      "brutto_volume_unit_code": "cdm",
+      "height": 24,
+      "length": 19,
+      "width": 16,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 6
+    },
+    "cu": {
+      "brutto_weight": 0.555,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 1.024,
+      "brutto_volume_unit_code": "cdm",
+      "height": 22,
+      "length": 4.9,
+      "width": 9.5,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "lu": {
+      "brutto_weight": 342,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 1073.28,
+      "brutto_volume_unit_code": "cdm",
+      "height": 110,
+      "length": 120,
+      "width": 80,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 672
+    },
+    "lge": {
+      "brutto_weight": 0,
+      "brutto_volume": 0,
+      "height": 0,
+      "length": 0,
+      "width": 0,
+      "number_of_base_units": 1
+    },
+    "kar": {
+      "brutto_weight": 0,
+      "brutto_volume": 0,
+      "height": 0,
+      "length": 0,
+      "width": 0,
+      "number_of_base_units": 1
+    }
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "views": [
+    "all",
+    "browse"
+  ]
+}

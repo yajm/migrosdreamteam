@@ -1,0 +1,996 @@
+{
+  "id": "491976680000",
+  "language": "de",
+  "name": "Isostar Energy Energieriegel",
+  "names": {
+    "name": "Isostar Energy Energieriegel",
+    "short_name": "Energy"
+  },
+  "slug": "isostar-energy-energieriegel-chocolate",
+  "product_type": "Energieriegel",
+  "boss_number": "341611481015",
+  "description": {
+    "text": "Energiereiche Ergänzungsnahrung für Sport und Freizeit.",
+    "source": "PEX"
+  },
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03"
+  },
+  "tags": [
+    "source-pex",
+    "migipedia",
+    "source-qim-origins",
+    "source-qim-distributor",
+    "validity-range-not-set",
+    "source-qim-allergens",
+    "source-qim-fooddeclaration",
+    "source-qim-nutritionfacts",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": true,
+  "base_product_id": "491976600000",
+  "gtins": [
+    "3175681141049",
+    "3175681141056"
+  ],
+  "brand": {
+    "id": "MMN",
+    "name": "Isostar",
+    "slug": "isostar",
+    "image": {
+      "original": "https://image.migros.ch/original/208adcccd53c1f29851ec009aedcadddf50cf24c/isostar.jpg",
+      "stack": "https://image.migros.ch/{stack}/208adcccd53c1f29851ec009aedcadddf50cf24c/isostar.jpg"
+    }
+  },
+  "categories": [
+    {
+      "code": "SPO_SHOP_CAT_Sportnahrung_Ausruestung",
+      "name": "Sportnahrung",
+      "slug": "sportxx/ausruestung/sportnahrung",
+      "visible": true,
+      "parent_code": "SPO_SHOP_CAT_Ausruestung",
+      "level": 3
+    },
+    {
+      "code": "SPO_SHOP_CAT_Ausruestung",
+      "name": "Ausrüstung",
+      "slug": "sportxx/ausruestung",
+      "visible": true,
+      "parent_code": "BeSS_03",
+      "level": 2
+    },
+    {
+      "code": "BeSS_03",
+      "name": "SportXX",
+      "slug": "sportxx",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_Nahrungsergaenzung_Hausapotheke_HygieneGesundheitBaby",
+        "name": "Nahrungsergänzung",
+        "slug": "amigos/hygiene-gesundheit-baby/hausapotheke/nahrungsergaenzung",
+        "visible": true,
+        "parent_code": "AMIG_CAT_Hausapotheke_HygieneGesundheitBaby",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_Hausapotheke_HygieneGesundheitBaby",
+        "name": "Hausapotheke",
+        "slug": "amigos/hygiene-gesundheit-baby/hausapotheke",
+        "visible": true,
+        "parent_code": "AMIG_CAT_HygieneGesundheitBaby",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_HygieneGesundheitBaby",
+        "name": "Hygiene, Gesundheit & Baby",
+        "slug": "amigos/hygiene-gesundheit-baby",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ],
+    [
+      {
+        "code": "BeSS_011203",
+        "name": "Diät & Sportnahrung",
+        "slug": "supermarkt/gesundheit/diaet-sportnahrung",
+        "visible": true,
+        "parent_code": "BeSS_0112",
+        "level": 3
+      },
+      {
+        "code": "BeSS_0112",
+        "name": "Gesundheit",
+        "slug": "supermarkt/gesundheit",
+        "visible": true,
+        "parent_code": "BeSS_01",
+        "image": {
+          "original": "https://image.migros.ch/original/832762761a56d78835c380db87e2aa4ecd7a4eed/gesundheit.jpg",
+          "stack": "https://image.migros.ch/{stack}/832762761a56d78835c380db87e2aa4ecd7a4eed/gesundheit.jpg"
+        },
+        "level": 2
+      },
+      {
+        "code": "BeSS_01",
+        "name": "Supermarkt",
+        "slug": "supermarkt",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "nutrition_facts": {
+    "standard": {
+      "nutrients": [
+        {
+          "code": "PIM_NUT_ENERGIE",
+          "name": "Energie",
+          "pictogram_name": "Energie",
+          "category": "BIG9",
+          "quantity": 1742,
+          "nutrition_operator": "=",
+          "quantity_unit": "kJ",
+          "quantity_alternate": 414,
+          "quantity_alternate_unit": "kcal"
+        },
+        {
+          "code": "PIM_NUT_FETT",
+          "name": "Fett",
+          "pictogram_name": "Fett",
+          "category": "BIG9",
+          "quantity": 12,
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_FETT_GES",
+          "name": "davon gesättigte Fettsäuren",
+          "pictogram_name": "gesättigte Fettsäuren",
+          "category": "BIG9",
+          "quantity": 6,
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_KOHLENHY",
+          "name": "Kohlenhydrate",
+          "category": "BIG9",
+          "quantity": 70,
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_ZUCKER",
+          "name": "davon Zucker",
+          "pictogram_name": "Zuckerarten",
+          "category": "BIG9",
+          "quantity": 32,
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_PROTEINE",
+          "name": "Eiweiss",
+          "category": "BIG9",
+          "quantity": 6.2,
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_KOCHSALZ",
+          "name": "Salz",
+          "pictogram_name": "Salz",
+          "category": "BIG9",
+          "quantity": 0.58,
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_VIT_E",
+          "name": "Vitamin E",
+          "category": "VITAMINE",
+          "quantity": 7,
+          "rda_percent": 58,
+          "nutrition_operator": "=",
+          "quantity_unit": "mg"
+        },
+        {
+          "code": "PIM_NUT_VIT_C",
+          "name": "Vitamin C",
+          "category": "VITAMINE",
+          "quantity": 102,
+          "nutrition_operator": "=",
+          "quantity_unit": "mg"
+        },
+        {
+          "code": "PIM_NUT_VIT_B1",
+          "name": "Vitamin B1 (Thiamin)",
+          "category": "VITAMINE",
+          "quantity": 0.94,
+          "rda_percent": 85,
+          "nutrition_operator": "=",
+          "quantity_unit": "mg"
+        },
+        {
+          "code": "PIM_NUT_VIT_B2",
+          "name": "Vitamin B2 (Riboflavin)",
+          "category": "VITAMINE",
+          "quantity": 1.1,
+          "rda_percent": 79,
+          "nutrition_operator": "=",
+          "quantity_unit": "mg"
+        },
+        {
+          "code": "PIM_NUT_VIT_B6",
+          "name": "Vitamin B6",
+          "category": "VITAMINE",
+          "quantity": 1.1,
+          "rda_percent": 79,
+          "nutrition_operator": "=",
+          "quantity_unit": "mg"
+        }
+      ],
+      "base_quantity": 100,
+      "base_unit": "g"
+    },
+    "portion": {
+      "nutrients": [
+        {
+          "code": "PIM_NUT_ENERGIE",
+          "name": "Energie",
+          "pictogram_name": "Energie",
+          "category": "BIG9",
+          "quantity": 619,
+          "nutrition_operator": "=",
+          "quantity_unit": "kJ",
+          "quantity_alternate": 147,
+          "quantity_alternate_unit": "kcal"
+        },
+        {
+          "code": "PIM_NUT_FETT",
+          "name": "Fett",
+          "pictogram_name": "Fett",
+          "category": "BIG9",
+          "quantity": 4.2,
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_FETT_GES",
+          "name": "davon gesättigte Fettsäuren",
+          "pictogram_name": "gesättigte Fettsäuren",
+          "category": "BIG9",
+          "quantity": 2.1,
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_KOHLENHY",
+          "name": "Kohlenhydrate",
+          "category": "BIG9",
+          "quantity": 25,
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_ZUCKER",
+          "name": "davon Zucker",
+          "pictogram_name": "Zuckerarten",
+          "category": "BIG9",
+          "quantity": 11,
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_PROTEINE",
+          "name": "Eiweiss",
+          "category": "BIG9",
+          "quantity": 2.2,
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_KOCHSALZ",
+          "name": "Salz",
+          "pictogram_name": "Salz",
+          "category": "BIG9",
+          "quantity": 0.58,
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_VIT_B1",
+          "name": "Vitamin B1 (Thiamin)",
+          "category": "VITAMINE",
+          "quantity": 0.33,
+          "rda_percent": 30,
+          "nutrition_operator": "=",
+          "quantity_unit": "mg"
+        },
+        {
+          "code": "PIM_NUT_VIT_B2",
+          "name": "Vitamin B2 (Riboflavin)",
+          "category": "VITAMINE",
+          "quantity": 0.39,
+          "rda_percent": 28,
+          "nutrition_operator": "=",
+          "quantity_unit": "mg"
+        }
+      ],
+      "portions_per_package": "1"
+    }
+  },
+  "features": [
+    {
+      "label_code": "miso_produkttyp",
+      "label": "Produkttyp",
+      "values": [
+        {
+          "value_code": "MISO_produkttyp_sportnahrung",
+          "value": "Sportnahrung"
+        }
+      ],
+      "category_code": "MISO_CLA_DiaetSportnahrung_Gesundheit_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "miso_beduerfnis_nutzen",
+      "label": "Bedürfnis / Nutzen",
+      "values": [
+        {
+          "value_code": "MISO_beduerfnis_nutzen_energieausdauer",
+          "value": "Energie & Ausdauer"
+        }
+      ],
+      "category_code": "MISO_CLA_DiaetSportnahrung_Gesundheit_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "spo_gewicht",
+      "label": "Gewicht",
+      "values": [
+        {
+          "value_code": "NUMERIC_40",
+          "value": "40 g",
+          "numeric_value": 40
+        }
+      ],
+      "category_code": "SPO_CLA_Sportnahrung_Alle",
+      "top_fact": false,
+      "unit_code": "g",
+      "unit": "Gramm",
+      "unit_symbol": "g"
+    },
+    {
+      "label_code": "spo_anwendung_anwendung",
+      "label": "Anwendung",
+      "values": [
+        {
+          "value_code": "SPO_Anwendung_Ausdauersport",
+          "value": "Ausdauersport"
+        },
+        {
+          "value_code": "SPO_Anwendung_Regeneration",
+          "value": "Regeneration"
+        }
+      ],
+      "category_code": "SPO_CLA_Sportnahrung_Alle",
+      "top_fact": true
+    },
+    {
+      "label_code": "spo_phase_phase",
+      "label": "Phase",
+      "values": [
+        {
+          "value_code": "SPO_Phase_vordemTraining",
+          "value": "vor dem Training"
+        },
+        {
+          "value_code": "SPO_Phase_waehrenddemTraining",
+          "value": "während dem Training"
+        }
+      ],
+      "category_code": "SPO_CLA_Sportnahrung_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "spo_form_form",
+      "label": "Form",
+      "values": [
+        {
+          "value_code": "SPO_Form_Riegel",
+          "value": "Riegel"
+        }
+      ],
+      "category_code": "SPO_CLA_Sportnahrung_Alle",
+      "top_fact": true
+    },
+    {
+      "label_code": "spo_geschmack",
+      "label": "Geschmack",
+      "values": [
+        {
+          "value": "Chocolate"
+        }
+      ],
+      "category_code": "SPO_CLA_Sportnahrung_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "spo_sportart_sportart",
+      "label": "Sportart",
+      "values": [
+        {
+          "value_code": "SPO_Sportart_Biking_BikingVelofahren",
+          "value": "Biking & Velofahren"
+        },
+        {
+          "value_code": "SPO_Sportart_Boxen",
+          "value": "Boxen"
+        },
+        {
+          "value_code": "SPO_Sportart_Fitness",
+          "value": "Fitness"
+        },
+        {
+          "value_code": "SPO_Sportart_Fussball",
+          "value": "Fussball"
+        },
+        {
+          "value_code": "SPO_Sportart_Kraftraining",
+          "value": "Krafttraining"
+        },
+        {
+          "value_code": "SPO_Sportart_Langlauf",
+          "value": "Langlauf"
+        },
+        {
+          "value_code": "SPO_Sportart_Running",
+          "value": "Running"
+        },
+        {
+          "value_code": "SPO_Sportart_Basketball",
+          "value": "Basketball"
+        }
+      ],
+      "category_code": "SPO_CLA_Alle",
+      "top_fact": false
+    }
+  ],
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": true,
+      "reservable": true,
+      "stock_request": true,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": true,
+      "reservable": true,
+      "stock_request": true,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": true,
+      "reservable": true,
+      "stock_request": true,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": true,
+      "reservable": true,
+      "stock_request": true,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": true,
+      "reservable": true,
+      "stock_request": true,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": true,
+      "reservable": true,
+      "stock_request": true,
+      "visible": true,
+      "exclude_cross_channel": []
+    }
+  },
+  "attributes": {
+    "typ_geschmack": {
+      "code": "491976600000-A001-80000",
+      "name": "Geschmack",
+      "value": "Chocolate"
+    }
+  },
+  "allergens": [
+    {
+      "code": "GO",
+      "name": "Hafer und Hafererzeugnisse",
+      "contamination_code": "VORHANDEN",
+      "contamination": "vorhanden"
+    },
+    {
+      "code": "ALLG_SOJA",
+      "name": "Sojabohne und Sojabohnenderivate",
+      "contamination_code": "VORHANDEN",
+      "contamination": "vorhanden"
+    },
+    {
+      "code": "ALLG_LUPINEN",
+      "name": "Lupine und Lupinenderivate",
+      "contamination_code": "KANN_ENTHALTEN",
+      "contamination": "kann enthalten"
+    },
+    {
+      "code": "ALLG_EIER",
+      "name": "Eier und Eiderivate",
+      "contamination_code": "KANN_ENTHALTEN",
+      "contamination": "kann enthalten"
+    },
+    {
+      "code": "UW",
+      "name": "Weizen und Weizenderivate",
+      "contamination_code": "VORHANDEN",
+      "contamination": "vorhanden"
+    },
+    {
+      "code": "ALLG_MILCH",
+      "name": "Milch und Milchderivate",
+      "contamination_code": "VORHANDEN",
+      "contamination": "vorhanden"
+    },
+    {
+      "code": "ALLG_SELLERI",
+      "name": "Sellerie und Selleriederivate",
+      "contamination_code": "KANN_ENTHALTEN",
+      "contamination": "kann enthalten"
+    },
+    {
+      "code": "ALLG_FISCH",
+      "name": "Fisch und Fischderivate",
+      "contamination_code": "KANN_ENTHALTEN",
+      "contamination": "kann enthalten"
+    },
+    {
+      "code": "ALLG_NUSS",
+      "name": "Nüsse und Nussderivate. (Kann Mandeln, Haselnüsse, Walnüsse, Cashewnüsse etc. einschließen)",
+      "contamination_code": "KANN_ENTHALTEN",
+      "contamination": "kann enthalten"
+    },
+    {
+      "code": "ALLG_GLUTEN",
+      "name": "Glutenhaltige Cerealien und ihre Derivate",
+      "contamination_code": "VORHANDEN",
+      "contamination": "vorhanden"
+    },
+    {
+      "code": "ALLG_SESAM",
+      "name": "Sesamsamen und Sesamsamenderivate",
+      "contamination_code": "KANN_ENTHALTEN",
+      "contamination": "kann enthalten"
+    }
+  ],
+  "general_information": [
+    {
+      "label": "Zubereitungshinweis",
+      "value": "Direkter Verzehr."
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/b8bbc757d07abf446bb3659e3072634a69fb8bee/isostar-energy-energieriegel.jpg",
+    "stack": "https://image.migros.ch/{stack}/b8bbc757d07abf446bb3659e3072634a69fb8bee/isostar-energy-energieriegel.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/9e9c73b2c3a432bd89fbd71c79a49e7ee3b949ab/isostar-energy-energieriegel.png",
+    "stack": "https://image.migros.ch/{stack}/9e9c73b2c3a432bd89fbd71c79a49e7ee3b949ab/isostar-energy-energieriegel.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_RETURNABLE",
+      "label": "Rückgabe",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "false",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_RETURNABLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_EXCLUDE_FROM_COMPARISON_ENGINES",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "false",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_EXCLUDE_FROM_COMPARISON_ENGINES",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_DEFAULT_LOGISTIC_TYPE",
+      "values": [
+        {
+          "value_code": "55",
+          "value": "Versandart Paket"
+        }
+      ],
+      "category_code": "MAPI_DEFAULT_LOGISTIC_TYPE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Normalposition"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "SPOR"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_RISK_CLASS",
+      "values": [
+        {
+          "value_code": "2",
+          "value": "2 (medium)"
+        }
+      ],
+      "category_code": "MAPI_RISK_CLASS",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_KUBE_TUKA",
+      "values": [
+        {
+          "value_code": "BLANK",
+          "value": "KUBE und TUKA nicht zugelassen"
+        }
+      ],
+      "category_code": "MAPI_KUBE_TUKA",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "SPOR",
+          "value": "Sport  Handelsware"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "S",
+          "value": "Sport"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "55537",
+          "value": "SPORTNAHRUNG"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "regulated_description": "Kohlenhydratreicher Riegel / Schokoladengeschmack",
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/491976680000",
+      "name": "migros.ch",
+      "canonical": "https://www.sportxx.ch/de/p/491976600000/isostar-energy",
+      "type": "info",
+      "purchasable": false
+    },
+    "sportxx": {
+      "url": "https://www.sportxx.ch/de/p/491976680000/isostar-energy?selectVariant=",
+      "name": "SportXX",
+      "canonical": "https://www.sportxx.ch/de/p/491976600000/isostar-energy",
+      "type": "shop",
+      "purchasable": true
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/491976680000",
+      "name": "Migipedia",
+      "canonical": "https://www.sportxx.ch/de/p/491976600000/isostar-energy",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "regional_availability": {
+    "gmaa": {
+      "probability": 7
+    },
+    "gmbs": {
+      "probability": 7
+    },
+    "gmge": {
+      "probability": 5
+    },
+    "gmlu": {
+      "probability": 8
+    },
+    "gmnf": {
+      "probability": 10
+    },
+    "gmos": {
+      "probability": 9
+    },
+    "gmti": {
+      "probability": 37
+    },
+    "gmvd": {
+      "probability": 6
+    },
+    "gmvs": {
+      "probability": 15
+    },
+    "gmzh": {
+      "probability": 14
+    }
+  },
+  "updated_at": "2020-09-16T06:03:14+0200",
+  "online_shop_relevant": true,
+  "services": {
+    "logistics": [
+      {
+        "code": "SPO_LOGISTIK_FILIALE_POSTPAKET_GRATIS"
+      },
+      {
+        "code": "SPO_LOGISTIK_POSTPAKET_4_9"
+      }
+    ]
+  },
+  "base_unit": "CU",
+  "slugs": {
+    "de": "isostar-energy-energieriegel-chocolate",
+    "fr": "isostar-energy-barre-energetique-chocolate",
+    "it": "isostar-energy-barretta-energetica-chocolate"
+  },
+  "receipt_text": "Isostar Energy",
+  "main_supplier": {
+    "name": "Wander AG",
+    "id": "0010011450",
+    "supplier_product_id": "2173326"
+  },
+  "price": {
+    "valid_from": "2018-01-30T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 1.9,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "30 gr."
+    },
+    "base": {
+      "price": 4.75,
+      "quantity": 100,
+      "unit": "g"
+    }
+  },
+  "retailer": {
+    "id": "sportxx",
+    "name": "SportXX"
+  },
+  "ratings": {
+    "count_all": 1,
+    "average_all": 4
+  },
+  "data_source": "SAP-X12",
+  "origins": {
+    "producing_country": "Schweiz"
+  },
+  "distributor": {
+    "name": "Wander AG",
+    "address": "Fabrikstrasse 10, CH-3176 Neuenegg"
+  },
+  "ingredients": "MILCHSCHOKOLADE-Kuvertüre 25% (Zucker, Kakaobutter, MAGERMILCHPULVER, MOLKE, Kakaomasse, MILCHFETT, Emulgator: SOJALECITHIN, natürliches Aroma), Glukosesirup, Getreideextrudat (Reismehl, WEIZENMEHL 5,7%, brauner Rohrzucker, WEIZENMALZ, WEIZENEIWEISS, Salz), HAFERFLOCKEN, Invertzuckersurip, Stabilisator: Glycerin, Rapsöl, Puffreis, fettarmes Kakaopulver, Meersalz, Aroma, Emulgator: Rapslecithin, Vitamine B1, B2, B6, C, Niacin, E (LAKTOSE, MILCHPROTEIN). #Kann enthalten: Nüsse, Eier, Sellerie, Lupine, Fisch, Sesam.",
+  "package": {
+    "content": 40,
+    "content_unit_code": "g",
+    "content_unit": "Gramm",
+    "brutto_volume": 0.18,
+    "brutto_volume_unit_code": "cdm",
+    "height": 4,
+    "length": 1.4,
+    "width": 16,
+    "unit_dimension": "cm",
+    "price_comparison_content": 100,
+    "size": "30 gr."
+  },
+  "package_information": {
+    "cu": {
+      "brutto_volume": 0.18,
+      "brutto_volume_unit_code": "cdm",
+      "height": 4,
+      "length": 1.4,
+      "width": 16,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "tuv": {
+      "brutto_weight": 1.28,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 4.446,
+      "brutto_volume_unit_code": "cdm",
+      "height": 19,
+      "length": 18,
+      "width": 13,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 30
+    },
+    "tue": {
+      "number_of_base_units": 30
+    },
+    "lu": {
+      "number_of_base_units": 1170
+    }
+  },
+  "warranty_months": 24,
+  "quantity_on_stock": 2485,
+  "declarations": {
+    "food": {
+      "features": [
+        {
+          "label_code": "GDSN_M362_ConsumerStorageInstructions",
+          "label": "Aufbewahrungshinweise für den Konsumenten",
+          "values": [
+            {
+              "value": "Vor Wärme geschützt und trocken lagern."
+            }
+          ],
+          "category_code": "GDSN",
+          "top_fact": false
+        },
+        {
+          "label_code": "GDSN_M363_ConsumerUsageInstructions",
+          "label": "Verwendungshinweise für den Konsumenten",
+          "values": [
+            {
+              "value": "Lebensmittel für eine intensive Muskelanstrengung, vor allem für Sportler."
+            }
+          ],
+          "category_code": "GDSN",
+          "top_fact": false
+        },
+        {
+          "label_code": "GDSN_M094_CompulsoryAdditiveLabelInformation",
+          "label": "Zusätzliche verpflichtende Kennzeichnung und Warnhinweise",
+          "values": [
+            {
+              "value": "EMULSIFIER STABILISER E422 E330 E322"
+            }
+          ],
+          "category_code": "GDSN",
+          "top_fact": false
+        },
+        {
+          "label_code": "GDSN_M094_CompulsoryAdditiveLabelInformation",
+          "label": "Zusätzliche verpflichtende Kennzeichnung und Warnhinweise",
+          "values": [
+            {
+              "value": "Empfohlen wird eine abwechslungsreiche und ausgewogene Ernährung sowie eine gesunde Lebensweise."
+            }
+          ],
+          "category_code": "GDSN",
+          "top_fact": false
+        },
+        {
+          "label_code": "QIM_ZubereitungshinweisDeklaration",
+          "label": "Zubereitungshinweis",
+          "values": [
+            {
+              "value": "Direkter Verzehr."
+            }
+          ],
+          "category_code": "GDSN",
+          "top_fact": false
+        }
+      ]
+    }
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "views": [
+    "all",
+    "browse"
+  ]
+}

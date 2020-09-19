@@ -1,0 +1,509 @@
+{
+  "id": "104222600000",
+  "language": "de",
+  "name": "Kellogg's Special K Protein Nuts",
+  "names": {
+    "name": "Kellogg's Special K Protein Nuts"
+  },
+  "slug": "kelloggs-special-k-protein-nuts",
+  "boss_number": "010310523605",
+  "description": {
+    "text": "<p><strong>KELLOGG'S SPECIAL PROTEIN NUTS</strong></p><p>Weizen- und Mehrkorngetreide-Flakes mit Cerealien-Knusperst&uuml;cken, K&uuml;rbiskernen und N&uuml;ssen sowie Vitaminen, Eisen und Zink.</p>",
+    "source": "PIM"
+  },
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "source-qim-distributor",
+    "validity-range-not-set",
+    "source-qim-allergens",
+    "source-qim-fooddeclaration",
+    "source-qim-nutritionfacts",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "5053827204620"
+  ],
+  "brand": {
+    "id": "216",
+    "name": "Kellogg's",
+    "slug": "kelloggs",
+    "image": {
+      "original": "https://image.migros.ch/original/dcdb16dc0aa0bc69d4352e89958529c7ef89b673/kelloggs.jpg",
+      "stack": "https://image.migros.ch/{stack}/dcdb16dc0aa0bc69d4352e89958529c7ef89b673/kelloggs.jpg"
+    }
+  },
+  "categories": [
+    {
+      "code": "BeSS_01011202",
+      "name": "Cerealien",
+      "slug": "supermarkt/lebensmittel/mueesli-cerealien/cerealien",
+      "visible": true,
+      "title": "Cerealien aus der Migros: Gut in den Tag starten",
+      "parent_code": "BeSS_010112",
+      "image": {
+        "original": "https://image.migros.ch/original/0ce52f6661cdb9fc2d373463dbf484792d36e6b8/cerealien.jpg",
+        "stack": "https://image.migros.ch/{stack}/0ce52f6661cdb9fc2d373463dbf484792d36e6b8/cerealien.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010112",
+      "name": "Müesli & Cerealien",
+      "slug": "supermarkt/lebensmittel/mueesli-cerealien",
+      "visible": true,
+      "title": "Cerealien von der Migros &ndash; für einen guten Start in den Tag",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/94adab320c7d6778bba96c16ad7b18a493850519/mueesli-cerealien.jpg",
+        "stack": "https://image.migros.ch/{stack}/94adab320c7d6778bba96c16ad7b18a493850519/mueesli-cerealien.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "nutrition_facts": {
+    "standard": {
+      "nutrients": [
+        {
+          "code": "PIM_NUT_ENERGIE",
+          "name": "Energie",
+          "pictogram_name": "Energie",
+          "category": "BIG9",
+          "quantity": 1651,
+          "nutrition_operator": "=",
+          "quantity_unit": "kJ",
+          "quantity_alternate": 392,
+          "quantity_alternate_unit": "kcal"
+        }
+      ],
+      "base_quantity": 100,
+      "base_unit": "g",
+      "serving_size_description": "1 ptn"
+    }
+  },
+  "features": [
+    {
+      "label_code": "MISO_produktionsanspruch",
+      "label": "Produktionsverfahren",
+      "values": [
+        {
+          "value_code": "MISO_produktionsanspruch_ohnezugabevonkuenstlichenfarbundaromastoffen",
+          "value": "Ohne Zugabe von künstlichen Farb- und Aromastoffen"
+        }
+      ],
+      "category_code": "MISO_CLA_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_schachtel",
+          "value": "Schachtel"
+        }
+      ],
+      "category_code": "MISO_CLA_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_naehrwertanspruch",
+      "label": "Nährwertanspruch",
+      "values": [
+        {
+          "value_code": "MISO_naehrwertanspruch_reichanballaststoffen",
+          "value": "Reich an Ballaststoffen"
+        },
+        {
+          "value_code": "MISO_naehrwertanspruch_reichanprotein",
+          "value": "Reich an Protein"
+        }
+      ],
+      "category_code": "MISO_CLA_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zubereitungsverfahren",
+      "label": "Hinweise für die Zubereitung",
+      "values": [
+        {
+          "value_code": "MISO_zubereitungsverfahren_mitmilchanruehren",
+          "value": "Mit Milch anrühren"
+        }
+      ],
+      "category_code": "MISO_CLA_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zusatzangaben",
+      "label": "Zusatzangaben",
+      "values": [
+        {
+          "value_code": "MISO_zusatzangaben_329",
+          "value": "Trocken aufbewahren. Für höchste Frische vor Licht und Wärme schützen."
+        }
+      ],
+      "category_code": "MISO_CLA_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_artvonbearbeitetemgetreideprodukt",
+      "label": "Art von bearbeitetem Getreideprodukt",
+      "values": [
+        {
+          "value_code": "MISO_artvonbearbeitetemgetreideprodukt_gerste",
+          "value": "Gerste"
+        },
+        {
+          "value_code": "MISO_artvonbearbeitetemgetreideprodukt_hafer",
+          "value": "Hafer"
+        },
+        {
+          "value_code": "MISO_artvonbearbeitetemgetreideprodukt_roggen",
+          "value": "Roggen"
+        },
+        {
+          "value_code": "MISO_artvonbearbeitetemgetreideprodukt_weizen",
+          "value": "Weizen"
+        }
+      ],
+      "category_code": "MISO_CLA_bearbeiteteGetreideprodukte_GetreideHuelsenfruchtprodukte_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_mitnuessen",
+      "label": "Mit Nüssen",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MISO_CLA_bearbeiteteGetreideprodukte_GetreideHuelsenfruchtprodukte_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_besonderezutaten",
+      "label": "Besondere Zutaten",
+      "values": [
+        {
+          "value_code": "MISO_besonderezutaten_kuerbiskerne",
+          "value": "Kürbiskerne"
+        },
+        {
+          "value_code": "MISO_besonderezutaten_leinsamen",
+          "value": "Leinsamen"
+        }
+      ],
+      "category_code": "MISO_CLA_bearbeiteteGetreideprodukte_GetreideHuelsenfruchtprodukte_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    }
+  ],
+  "allergens": [
+    {
+      "code": "NR",
+      "name": "Roggen und Roggenderivate",
+      "contamination_code": "VORHANDEN",
+      "contamination": "vorhanden"
+    },
+    {
+      "code": "ALLG_NUSS",
+      "name": "Nüsse und Nussderivate. (Kann Mandeln, Haselnüsse, Walnüsse, Cashewnüsse etc. einschließen)",
+      "contamination_code": "VORHANDEN",
+      "contamination": "vorhanden"
+    },
+    {
+      "code": "GB",
+      "name": "Gerste und Gerstenerzeugnisse",
+      "contamination_code": "VORHANDEN",
+      "contamination": "vorhanden"
+    },
+    {
+      "code": "GO",
+      "name": "Hafer und Hafererzeugnisse",
+      "contamination_code": "VORHANDEN",
+      "contamination": "vorhanden"
+    },
+    {
+      "code": "ALLG_GLUTEN",
+      "name": "Glutenhaltige Cerealien und ihre Derivate",
+      "contamination_code": "VORHANDEN",
+      "contamination": "vorhanden"
+    },
+    {
+      "code": "UW",
+      "name": "Weizen und Weizenderivate",
+      "contamination_code": "VORHANDEN",
+      "contamination": "vorhanden"
+    },
+    {
+      "code": "ALLG_MILCH",
+      "name": "Milch und Milchderivate",
+      "contamination_code": "VORHANDEN",
+      "contamination": "vorhanden"
+    },
+    {
+      "code": "ALLG_HASELNU",
+      "name": "Haselnuss und Haselnusserzeugnisse",
+      "contamination_code": "VORHANDEN",
+      "contamination": "vorhanden"
+    },
+    {
+      "code": "ALLG_SOJA",
+      "name": "Sojabohne und Sojabohnenderivate",
+      "contamination_code": "VORHANDEN",
+      "contamination": "vorhanden"
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/5e2f26036e7e7edfdaf92fb12f205999a9a498e2/kelloggs-special-k-protein-nuts.jpg",
+    "stack": "https://image.migros.ch/{stack}/5e2f26036e7e7edfdaf92fb12f205999a9a498e2/kelloggs-special-k-protein-nuts.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/a73791889573b4f841c548d98f95cda3a4cdda7f/kelloggs-special-k-protein-nuts.png",
+    "stack": "https://image.migros.ch/{stack}/a73791889573b4f841c548d98f95cda3a4cdda7f/kelloggs-special-k-protein-nuts.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "M",
+          "value": "Kolonial Standard"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "10319",
+          "value": "FITNESS/ERWACHSENE CEREAL"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "regulated_description": "Weizen- und Mehrkorngetreide-Flakes mit Cerealien-Knusperstücken, Kürbiskernen und Nüssen sowie Vitaminen, Eisen und Zink.",
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/104222600000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/kelloggs-special-k-protein-nuts",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/104222600000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/kelloggs-special-k-protein-nuts",
+      "type": "info",
+      "purchasable": false
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/4687699",
+      "app_url": "leshop:///catalog/article/detail?ean=5053827204620",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/kelloggs-special-k-protein-nuts",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "regional_availability": {
+    "gmaa": {
+      "probability": 47
+    },
+    "gmbs": {
+      "probability": 63
+    },
+    "gmge": {
+      "probability": 56
+    },
+    "gmlu": {
+      "probability": 56
+    },
+    "gmnf": {
+      "probability": 63
+    },
+    "gmos": {
+      "probability": 79
+    },
+    "gmti": {
+      "probability": 91
+    },
+    "gmvd": {
+      "probability": 60
+    },
+    "gmvs": {
+      "probability": 62
+    },
+    "gmzh": {
+      "probability": 68
+    }
+  },
+  "updated_at": "2020-09-16T05:41:42+0200",
+  "base_unit": "CU",
+  "slugs": {
+    "de": "kelloggs-special-k-protein-nuts",
+    "fr": "kelloggs-special-k-protein-nuts",
+    "it": "kelloggs-special-k-protein-nuts"
+  },
+  "receipt_text": "Kellogg's Spec. K Prot",
+  "main_supplier": {
+    "name": "Conaxess Trade Switzerland A",
+    "id": "0010000014",
+    "supplier_product_id": "20021300"
+  },
+  "price": {
+    "valid_from": "2019-01-25T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 5.2,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "330g"
+    },
+    "base": {
+      "price": 1.58,
+      "quantity": 100,
+      "unit": "g"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "data_source": "SAP-X11",
+  "distributor": {
+    "name": "KELLOGG (Schweiz) GmbH",
+    "address": "KELLOGG (Schweiz) GmbH, Industriestrasse 15a, 6300 Zug"
+  },
+  "ingredients": "Getreide(VOLLKORNWEIZEN{33%}, Reis{20%}, WEIZENKLEIE{5.5%}, WHOLEMEAL Flour{4.5%}, GERSTE{3.5%}, gemälztes GERSTENMEHL{1.5%}),  Cerealien-Knusperstücke mit Leinsamen und Sonnenblumenkernen(17.5%)(Getreide{VOLLKORNHAFERFLOCKEN[7%], ROGGEN[1.5%],WEIZENMEHL[1.5%]},  Zucker, Protein-Crisp {SOJAPROTEINISOLAT, Tapiokastärke, Calciumcarbonat, Salz}, Getreidepops{Reismehl, Maismehl, Zucker}, Sonnenblumenkerne, Leinsamen,  modifizierte Stärke, GERSTENMALZEXTRAKT, Sonnenblumenöl,  Emulgator{SOJALECITHINE}, natürliches Aroma, Natriumhydrogencarbonat, Ammoniumhydrogencarbonat, Antioxidationsmittel{stark tocopherolhaltige Extrakte}, MAGERMILCHPULVER), Zucker, Kürbiskerne(3.5%), NÜSSE(3.5%)(HASELNÜSSE, MANDELN), Glukosesirup, GERSTENMALZ, Salz, natürliches Aroma. Vitamine und Mineralstoffe: Vitamine (Niacin, Vit. B2, Vit. B1, Vit. B6, Folsäure, Vit. D, Vit. B12), Eisen und Zink.",
+  "package": {
+    "content": 330,
+    "content_unit_code": "g",
+    "content_unit": "Gramm",
+    "net_weight": 0.33,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogramm",
+    "brutto_weight": 0.37,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 2.129,
+    "brutto_volume_unit_code": "cdm",
+    "height": 24.1,
+    "length": 4.6,
+    "width": 19.2,
+    "unit_dimension": "cm",
+    "price_comparison_content": 100,
+    "size": "330g"
+  },
+  "package_information": {
+    "tu": {
+      "brutto_weight": 2.45,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 14.707,
+      "brutto_volume_unit_code": "cdm",
+      "height": 24.8,
+      "length": 29.8,
+      "width": 19.9,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 6
+    },
+    "cu": {
+      "brutto_weight": 0.37,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 2.129,
+      "brutto_volume_unit_code": "cdm",
+      "height": 24.1,
+      "length": 4.6,
+      "width": 19.2,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "lu": {
+      "brutto_weight": 181.8,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0,
+      "height": 0,
+      "length": 120,
+      "width": 80,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 384
+    }
+  },
+  "declarations": {
+    "food": {
+      "features": [
+        {
+          "label_code": "GDSN_M362_ConsumerStorageInstructions",
+          "label": "Aufbewahrungshinweise für den Konsumenten",
+          "values": [
+            {
+              "value": "Bitte trocken lagern."
+            }
+          ],
+          "category_code": "GDSN",
+          "top_fact": false
+        }
+      ]
+    }
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "recipe_ingredient_ids": [
+    "10000"
+  ],
+  "views": [
+    "all",
+    "browse"
+  ]
+}

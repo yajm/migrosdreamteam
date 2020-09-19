@@ -1,0 +1,790 @@
+{
+  "id": "107119500000",
+  "language": "de",
+  "name": "Exquisito Extra Mild gemahlen 250g",
+  "names": {
+    "name": "Exquisito Extra Mild gemahlen 250g"
+  },
+  "slug": "exquisito-extra-mild-gemahlen-250g",
+  "boss_number": "010310302605",
+  "description": {
+    "text": "Diese fein abgestimmte Kaffeemischung ist von Natur aus S&auml;urearm - bei vollem Koffeingehalt. Ein spezieller Kaffeegenuss f&uuml;r Liebhaber von extramilderm, reizarmem Kaffee.",
+    "source": "PIM"
+  },
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "source-qim-origins",
+    "validity-range-not-set",
+    "source-qim-fooddeclaration",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "76102226",
+    "7613269185635"
+  ],
+  "brand": {
+    "id": "050",
+    "name": "Exquisito",
+    "slug": "exquisito",
+    "image": {
+      "original": "https://image.migros.ch/original/d00eba84c8f71a1759a9369fbcd52c54922adbc9/exquisito.jpg",
+      "stack": "https://image.migros.ch/{stack}/d00eba84c8f71a1759a9369fbcd52c54922adbc9/exquisito.jpg"
+    }
+  },
+  "labels": [
+    {
+      "id": "L34",
+      "name": "UTZ",
+      "slug": "utz",
+      "links": {
+        "homepage": {
+          "url": "https://utz.org/",
+          "name": "Homepage",
+          "type": "info",
+          "purchasable": false
+        }
+      },
+      "image": {
+        "original": "https://image.migros.ch/original/64192d97b7770d351f5bbe89a57c9f614e529150/utz.jpg",
+        "stack": "https://image.migros.ch/{stack}/64192d97b7770d351f5bbe89a57c9f614e529150/utz.jpg"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_0101100104",
+      "name": "Kaffee gemahlen",
+      "slug": "supermarkt/lebensmittel/getraenke-heiss-kalt/kaffee/kaffee-gemahlen",
+      "visible": true,
+      "parent_code": "BeSS_01011001",
+      "level": 5
+    },
+    {
+      "code": "BeSS_01011001",
+      "name": "Kaffee",
+      "slug": "supermarkt/lebensmittel/getraenke-heiss-kalt/kaffee",
+      "visible": true,
+      "title": "Das schwarze Gold der Geniesser: Kaffee bei der Migros",
+      "parent_code": "BeSS_010110",
+      "image": {
+        "original": "https://image.migros.ch/original/be9ca8bc37911ac3d695139eadc7cb2446fd5974/kaffee.jpg",
+        "stack": "https://image.migros.ch/{stack}/be9ca8bc37911ac3d695139eadc7cb2446fd5974/kaffee.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010110",
+      "name": "Getränke heiss & kalt",
+      "slug": "supermarkt/lebensmittel/getraenke-heiss-kalt",
+      "visible": true,
+      "title": "Getränke aus der Migros löschen auch Ihren Durst",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/d04d95fbc2e1b4ada4783d2976d37a962a0318a1/getraenke-heiss-kalt.jpg",
+        "stack": "https://image.migros.ch/{stack}/d04d95fbc2e1b4ada4783d2976d37a962a0318a1/getraenke-heiss-kalt.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_PulverBohnen_Kaffee_Getraenke",
+        "name": "Pulver & Bohnen",
+        "slug": "amigos/getraenke/kaffee/pulver-bohnen",
+        "visible": true,
+        "parent_code": "AMIG_CAT_Kaffee_Getraenke",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_Kaffee_Getraenke",
+        "name": "Kaffee",
+        "slug": "amigos/getraenke/kaffee",
+        "visible": true,
+        "parent_code": "AMIG_CAT_Getraenke",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_Getraenke",
+        "name": "Getränke",
+        "slug": "amigos/getraenke",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "features": [
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_beutelsack",
+          "value": "Beutel/Sack"
+        }
+      ],
+      "category_code": "MISO_CLA_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zubereitungsverfahren",
+      "label": "Hinweise für die Zubereitung",
+      "values": [
+        {
+          "value_code": "MISO_zubereitungsverfahren_heisseswasserhinzugeben",
+          "value": "Heisses Wasser hinzugeben"
+        }
+      ],
+      "category_code": "MISO_CLA_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_botanischesorte",
+      "label": "Botanische Sorte",
+      "values": [
+        {
+          "value_code": "MISO_botanischesorte_arabica",
+          "value": "Arabica"
+        }
+      ],
+      "category_code": "MISO_CLA_KaffeeTeeErsatzprodukte_Getraenke_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_entkoffeiniert",
+      "label": "Entkoffeiniert",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "Nein",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MISO_CLA_KaffeeTeeErsatzprodukte_Getraenke_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_formbeschaffenheitdeskaffees",
+      "label": "Form/Beschaffenheit des Kaffees",
+      "values": [
+        {
+          "value_code": "MISO_formbeschaffenheitdeskaffees_gemahlen",
+          "value": "Gemahlen"
+        }
+      ],
+      "category_code": "MISO_CLA_KaffeeTeeErsatzprodukte_Getraenke_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_herkunftdeskaffees",
+      "label": "Herkunft des Kaffees",
+      "values": [
+        {
+          "value_code": "MISO_herkunftdeskaffees_zentralsuedamerika",
+          "value": "Zentral- Südamerika"
+        }
+      ],
+      "category_code": "MISO_CLA_KaffeeTeeErsatzprodukte_Getraenke_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_kaffeeroestung",
+      "label": "Kaffeeröstung",
+      "values": [
+        {
+          "value_code": "MISO_kaffeeroestung_hellgeroestet",
+          "value": "hell geröstet"
+        }
+      ],
+      "category_code": "MISO_CLA_KaffeeTeeErsatzprodukte_Getraenke_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zubereitungdeskaffees",
+      "label": "Zubereitung des Kaffees",
+      "values": [
+        {
+          "value_code": "MISO_zubereitungdeskaffees_gemahlen",
+          "value": "Gemahlen"
+        }
+      ],
+      "category_code": "MISO_CLA_KaffeeTeeErsatzprodukte_Getraenke_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_sortedeskaffees",
+      "label": "Sorte des Kaffees",
+      "values": [
+        {
+          "value_code": "MISO_sortedeskaffees_roestkaffee",
+          "value": "Röstkaffee"
+        }
+      ],
+      "category_code": "MISO_CLA_KaffeeTeeErsatzprodukte_Getraenke_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_staerke15",
+      "label": "Stärke (1-5)",
+      "values": [
+        {
+          "value_code": "NUMERIC_1.0",
+          "value": "1.0",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MISO_CLA_KaffeeTeeErsatzprodukte_Getraenke_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_saeure15",
+      "label": "Säure (1-5)",
+      "values": [
+        {
+          "value_code": "NUMERIC_2.0",
+          "value": "2.0",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MISO_CLA_KaffeeTeeErsatzprodukte_Getraenke_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_geeignetfuerkapselsystem",
+      "label": "Geeignet für Kapselsystem",
+      "values": [
+        {
+          "value_code": "MISO_geeignetfuerkapselsystem_siebtraegerfiltermaschine",
+          "value": "Siebträger Filtermaschine"
+        }
+      ],
+      "category_code": "MISO_CLA_KaffeeTeeErsatzprodukte_Getraenke_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_Aroma",
+      "label": "Aroma",
+      "values": [
+        {
+          "value_code": "MISO_aroma_malz",
+          "value": "Malz"
+        }
+      ],
+      "category_code": "MISO_CLA_KaffeeTeeErsatzprodukte_Getraenke_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_tassengroesse",
+      "label": "Tassengrösse",
+      "values": [
+        {
+          "value_code": "MISO_tassengroesse_lungo_120ml",
+          "value": "Lungo (120ml)"
+        }
+      ],
+      "category_code": "MISO_CLA_KaffeeTeeErsatzprodukte_Getraenke_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_Aroma",
+      "label": "Aroma",
+      "values": [
+        {
+          "value": "Malz, Toffee, fudge"
+        }
+      ],
+      "category_code": "MISO_CLA_Kaffee_Getraenke_heiss_kalt_Lebensmittel_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_koerper",
+      "label": "Körper (1 - 5)",
+      "values": [
+        {
+          "value_code": "MISO_koerper_2",
+          "value": "2"
+        }
+      ],
+      "category_code": "MISO_CLA_Kaffee_Getraenke_heiss_kalt_Lebensmittel_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_saeure",
+      "label": "Säure (1 - 5)",
+      "values": [
+        {
+          "value_code": "MISO_saeure_2",
+          "value": "2"
+        }
+      ],
+      "category_code": "MISO_CLA_Kaffee_Getraenke_heiss_kalt_Lebensmittel_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_tassengroesse",
+      "label": "Tassengrösse",
+      "values": [
+        {
+          "value_code": "MISO_tassengroesse_lungo_120ml",
+          "value": "Lungo (120ml)"
+        }
+      ],
+      "category_code": "MISO_CLA_Kaffee_Getraenke_heiss_kalt_Lebensmittel_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_koffein",
+      "label": "Koffein",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MISO_CLA_Kaffee_Getraenke_heiss_kalt_Lebensmittel_Alle",
+      "top_fact": false
+    }
+  ],
+  "general_information": [
+    {
+      "label": "Weitere Zusatzangaben",
+      "value": "Rainforest Alliance CertifiedTM.\n\nDE: Die Rainforest Alliance steht für Kaffeeanbau mit Rücksicht auf Mensch und Natur. [Besuchen Sie] www.ra.org\n\nFR: Rainforest Alliance s'engage pour la culture du café dans le respect de l'homme et de la nature. [Consultez] www.ra.org\n\nIT: La Rainforest Alliance garantisce che la coltivazione di caffè avvenga nel rispetto dell'uomo e della nature. [Visita il sito web] www.ra.org\n\n\nStärkegrad 1/5"
+    },
+    {
+      "label": "Produktionshinweis",
+      "value": "Unter Schutzatmosphäre verpackt."
+    }
+  ],
+  "utz_declarations": [
+    {
+      "members": [
+        "CF5366832"
+      ],
+      "lot_number": "0000000192",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=CF5366832&lang=de"
+    },
+    {
+      "members": [
+        "CF5366832"
+      ],
+      "lot_number": "0000000193",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=CF5366832&lang=de"
+    },
+    {
+      "members": [
+        "CF81966256",
+        "CF5366832"
+      ],
+      "lot_number": "0000000194",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=CF81966256,CF5366832&lang=de"
+    },
+    {
+      "members": [
+        "CF13247458",
+        "CF81966256"
+      ],
+      "lot_number": "0000000195",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=CF13247458,CF81966256&lang=de"
+    },
+    {
+      "members": [
+        "CF81966256",
+        "CF56227358"
+      ],
+      "lot_number": "0000000196",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=CF81966256,CF56227358&lang=de"
+    },
+    {
+      "members": [
+        "CF56227358"
+      ],
+      "lot_number": "0000000197",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=CF56227358&lang=de"
+    },
+    {
+      "members": [
+        "CF56227358",
+        "38796"
+      ],
+      "lot_number": "0000000198",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=CF56227358,38796&lang=de"
+    },
+    {
+      "members": [
+        "38796"
+      ],
+      "lot_number": "0000000199",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=38796&lang=de"
+    },
+    {
+      "members": [
+        "38796"
+      ],
+      "lot_number": "0000000200",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=38796&lang=de"
+    },
+    {
+      "members": [
+        "CF56227358",
+        "38796",
+        "87997"
+      ],
+      "lot_number": "0000000201",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=CF56227358,38796,87997&lang=de"
+    },
+    {
+      "members": [
+        "87997"
+      ],
+      "lot_number": "0000000202",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=87997&lang=de"
+    },
+    {
+      "members": [
+        "87997"
+      ],
+      "lot_number": "0000000203",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=87997&lang=de"
+    },
+    {
+      "members": [
+        "87997",
+        "87973"
+      ],
+      "lot_number": "0000000204",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=87997,87973&lang=de"
+    },
+    {
+      "members": [
+        "87973"
+      ],
+      "lot_number": "0000000205",
+      "url": "https://www.utzcertified.org/index.php?option=com_traceabilitymember&view=memberinfo&id=238&members=87973&lang=de"
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/aefafcac8eeb80ac3a289ad4fc3a4266e10f9c5b/exquisito-extra-mild-gemahlen-250g.jpg",
+    "stack": "https://image.migros.ch/{stack}/aefafcac8eeb80ac3a289ad4fc3a4266e10f9c5b/exquisito-extra-mild-gemahlen-250g.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/ac69f0a982b24b3b15a7a96d8aaabff01aba0810/exquisito-extra-mild-gemahlen-250g.png",
+    "stack": "https://image.migros.ch/{stack}/ac69f0a982b24b3b15a7a96d8aaabff01aba0810/exquisito-extra-mild-gemahlen-250g.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_sortierung",
+      "label": "Sortierung aMigos",
+      "values": [
+        {
+          "value_code": "NUMERIC_255",
+          "value": "255",
+          "numeric_value": 255
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_intensitaet",
+      "label": "Intensität",
+      "values": [
+        {
+          "value_code": "MISO_intensitaet_mild",
+          "value": "Mild"
+        }
+      ],
+      "category_code": "MISO_CLA_KaffeeTeeErsatzprodukte_Getraenke_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_intensitaet",
+      "label": "Intensität",
+      "values": [
+        {
+          "value_code": "MISO_intensitaet_mild",
+          "value": "Mild"
+        }
+      ],
+      "category_code": "MISO_CLA_Kaffee_Getraenke_heiss_kalt_Lebensmittel_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "M",
+          "value": "Kolonial Standard"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "10382",
+          "value": "ROESTKAFFEE GEMAHLEN"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "regulated_description": "Röstkaffee, gemahlen",
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/107119500000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/exquisito-extra-mild-gemahlen-250g",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/107119500000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/exquisito-extra-mild-gemahlen-250g",
+      "type": "info",
+      "purchasable": false
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/219458",
+      "app_url": "leshop:///catalog/article/detail?ean=76102226",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/exquisito-extra-mild-gemahlen-250g",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "regional_availability": {
+    "gmaa": {
+      "probability": 91
+    },
+    "gmbs": {
+      "probability": 96
+    },
+    "gmge": {
+      "probability": 31
+    },
+    "gmlu": {
+      "probability": 77
+    },
+    "gmnf": {
+      "probability": 12
+    },
+    "gmos": {
+      "probability": 98
+    },
+    "gmti": {
+      "probability": 81
+    },
+    "gmvd": {
+      "probability": 17
+    },
+    "gmvs": {
+      "probability": 33
+    },
+    "gmzh": {
+      "probability": 88
+    }
+  },
+  "updated_at": "2020-09-16T05:40:34+0200",
+  "base_unit": "CU",
+  "slugs": {
+    "de": "exquisito-extra-mild-gemahlen-250g",
+    "fr": "exquisito-extra-mild-moulu-250g",
+    "it": "exquisito-extra-mild-macinato-250g"
+  },
+  "receipt_text": "Exquisto Ex Mild gem.",
+  "main_supplier": {
+    "name": "DELICA AG",
+    "id": "0004090000",
+    "supplier_product_id": "107119500000"
+  },
+  "price": {
+    "valid_from": "2018-01-29T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 5.1,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "250g"
+    },
+    "base": {
+      "price": 2.04,
+      "quantity": 100,
+      "unit": "g"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 2,
+    "average_all": 5
+  },
+  "data_source": "SAP-X11",
+  "origins": {
+    "producing_country": "DE: Hergestellt in der Schweiz durch Delica AG., 100 % Arabica."
+  },
+  "ingredients": "Röstkaffee.",
+  "package": {
+    "content": 250,
+    "content_unit_code": "g",
+    "content_unit": "Gramm",
+    "net_weight": 0.25,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogramm",
+    "brutto_weight": 0.26,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 0.611,
+    "brutto_volume_unit_code": "cdm",
+    "height": 15.9,
+    "length": 4.8,
+    "width": 8,
+    "unit_dimension": "cm",
+    "price_comparison_content": 100,
+    "size": "250g"
+  },
+  "package_information": {
+    "tu": {
+      "brutto_weight": 3.938,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 13.813,
+      "brutto_volume_unit_code": "cdm",
+      "height": 17.8,
+      "length": 40,
+      "width": 19.4,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 14
+    },
+    "cu": {
+      "brutto_weight": 0.26,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0.611,
+      "brutto_volume_unit_code": "cdm",
+      "height": 15.9,
+      "length": 4.8,
+      "width": 8,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "lu": {
+      "brutto_weight": 355.792,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 1860.48,
+      "brutto_volume_unit_code": "cdm",
+      "height": 168,
+      "length": 120,
+      "width": 80,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1176
+    }
+  },
+  "related_products": {
+    "purchase_recommendations": {
+      "product_ids": [
+        "107144000000"
+      ]
+    }
+  },
+  "declarations": {
+    "food": {
+      "features": [
+        {
+          "label_code": "GDSN_M281_NetContent",
+          "label": "Nettofüllmenge Wert",
+          "values": [
+            {
+              "value_code": "NUMERIC_250",
+              "value": "250",
+              "numeric_value": 250
+            }
+          ],
+          "category_code": "GDSN",
+          "top_fact": false,
+          "unit_code": "g"
+        }
+      ]
+    }
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "recipe_ingredient_ids": [
+    "766560",
+    "14706"
+  ],
+  "views": [
+    "all",
+    "browse"
+  ]
+}

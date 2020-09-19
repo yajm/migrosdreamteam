@@ -1,0 +1,500 @@
+{
+  "id": "502017800000",
+  "language": "de",
+  "name": "M-Budget Glas- und Allzweck Reiniger",
+  "names": {
+    "name": "M-Budget Glas- und Allzweck Reiniger",
+    "short_name": "Glas- und Allzweck Reiniger"
+  },
+  "slug": "m-budget-glas-und-allzweck-reiniger",
+  "boss_number": "150126802505",
+  "description": {
+    "text": "Praktisch - Glasreiniger und Allzweckreiniger in einem!",
+    "source": "PEX"
+  },
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03"
+  },
+  "tags": [
+    "source-pex",
+    "near-non-food",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7630028621210",
+    "7630028621227"
+  ],
+  "brand": {
+    "id": "N26",
+    "name": "M-Budget",
+    "slug": "m-budget",
+    "links": {
+      "homepage": {
+        "url": "https://m-budget.migros.ch/de.html",
+        "name": "Homepage",
+        "type": "info",
+        "purchasable": false
+      }
+    },
+    "image": {
+      "original": "https://image.migros.ch/original/1d1a13e240a94a7e1fa8ef99f15ce5b896f3486b/m-budget.jpg",
+      "stack": "https://image.migros.ch/{stack}/1d1a13e240a94a7e1fa8ef99f15ce5b896f3486b/m-budget.jpg"
+    }
+  },
+  "categories": [
+    {
+      "code": "BeSS_0104010603",
+      "name": "Glas",
+      "slug": "supermarkt/haushalt-reinigung/waschen-reinigen-pflege/reinigungsmittel/glas",
+      "visible": true,
+      "parent_code": "BeSS_01040106",
+      "image": {
+        "original": "https://image.migros.ch/original/30e2fada768dc76027e49b430362142577021705/glas.jpg",
+        "stack": "https://image.migros.ch/{stack}/30e2fada768dc76027e49b430362142577021705/glas.jpg"
+      },
+      "level": 5
+    },
+    {
+      "code": "BeSS_01040106",
+      "name": "Reinigungsmittel",
+      "slug": "supermarkt/haushalt-reinigung/waschen-reinigen-pflege/reinigungsmittel",
+      "visible": true,
+      "title": "Putzmittel bei der Migros: Und alles glänzt!",
+      "parent_code": "BeSS_010401",
+      "image": {
+        "original": "https://image.migros.ch/original/4a6e2ed6ea91c788040edfec8e65462f3deee722/reinigungsmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/4a6e2ed6ea91c788040edfec8e65462f3deee722/reinigungsmittel.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010401",
+      "name": "Waschen, Reinigen & Pflege",
+      "slug": "supermarkt/haushalt-reinigung/waschen-reinigen-pflege",
+      "visible": true,
+      "parent_code": "BeSS_0104",
+      "image": {
+        "original": "https://image.migros.ch/original/4187e91a67904fcbbbb5b901717fabe280e0ad24/waschen-reinigen-pflege.jpg",
+        "stack": "https://image.migros.ch/{stack}/4187e91a67904fcbbbb5b901717fabe280e0ad24/waschen-reinigen-pflege.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0104",
+      "name": "Haushalt & Reinigung",
+      "slug": "supermarkt/haushalt-reinigung",
+      "visible": true,
+      "title": "Reinigung mit der Migros – Reiniger für Haushalt und Garten",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/e5da3225980543e0c7ddcc443069f331d94e8439/haushalt-reinigung.png",
+        "stack": "https://image.migros.ch/{stack}/e5da3225980543e0c7ddcc443069f331d94e8439/haushalt-reinigung.png"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "features": [
+    {
+      "label_code": "miso_gefahrenhinweise",
+      "label": "Gefahrenhinweise",
+      "values": [
+        {
+          "value": "Darf nicht in die Hände von Kindern gelangen"
+        }
+      ],
+      "category_code": "MISO_CLA_WaschenPapierReinigen_Haushalt_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "miso_anwendbarkeit_beschaffenheit_form",
+      "label": "Form",
+      "values": [
+        {
+          "value_code": "MISO_allzweckreiniger",
+          "value": "Allzweckreiniger"
+        },
+        {
+          "value_code": "MISO_glasreiniger",
+          "value": "Glasreiniger"
+        },
+        {
+          "value_code": "MISO_trigger",
+          "value": "Trigger"
+        }
+      ],
+      "category_code": "MISO_CLA_Reinigungsmittel_WaschenPapierReinigen_Haushalt_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "miso_geeignet_fuer",
+      "label": "Geeignet für",
+      "values": [
+        {
+          "value_code": "MISO_alle_abwaschbaren_oberflaechen",
+          "value": "Alle abwaschbaren Oberflächen"
+        },
+        {
+          "value_code": "MISO_glas_und_spiegel",
+          "value": "Glas und Spiegel"
+        }
+      ],
+      "category_code": "MISO_CLA_Reinigungsmittel_WaschenPapierReinigen_Haushalt_Alle",
+      "top_fact": false
+    }
+  ],
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    }
+  },
+  "image": {
+    "original": "https://image.migros.ch/original/be13cf81005f36b93ac622293d4a8f3f9dc955fb/m-budget-glas-und-allzweck-reiniger.jpg",
+    "stack": "https://image.migros.ch/{stack}/be13cf81005f36b93ac622293d4a8f3f9dc955fb/m-budget-glas-und-allzweck-reiniger.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/0a595213185c4257c3472d86ff342e50f34fd07e/m-budget-glas-und-allzweck-reiniger.png",
+    "stack": "https://image.migros.ch/{stack}/0a595213185c4257c3472d86ff342e50f34fd07e/m-budget-glas-und-allzweck-reiniger.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Normalposition"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "ZHKS"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_RISK_CLASS",
+      "values": [
+        {
+          "value_code": "2",
+          "value": "2 (medium)"
+        }
+      ],
+      "category_code": "MAPI_RISK_CLASS",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_QUALITY_CHECK",
+      "values": [
+        {
+          "value_code": "00",
+          "value": "Keine Prüfung"
+        }
+      ],
+      "category_code": "MAPI_QUALITY_CHECK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZHKS",
+          "value": "HKS Standardartikel"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "H",
+          "value": "HKS Standard"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "50309",
+          "value": "GLAS"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_3",
+          "value": "3",
+          "numeric_value": 3
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_LIFECYCLE",
+      "values": [
+        {
+          "value_code": "D",
+          "value": "Detailhandelsartikel"
+        }
+      ],
+      "category_code": "MAPI_LIFECYCLE",
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 1,
+    "percentage": 7.7
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/502017800000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/m-budget-glas-und-allzweck-reiniger",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/502017800000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/m-budget-glas-und-allzweck-reiniger",
+      "type": "info",
+      "purchasable": false
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/218221",
+      "app_url": "leshop:///catalog/article/detail?ean=7630028621210",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/m-budget-glas-und-allzweck-reiniger",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "regional_availability": {
+    "gmaa": {
+      "probability": 91
+    },
+    "gmbs": {
+      "probability": 89
+    },
+    "gmge": {
+      "probability": 82
+    },
+    "gmlu": {
+      "probability": 89
+    },
+    "gmnf": {
+      "probability": 86
+    },
+    "gmos": {
+      "probability": 96
+    },
+    "gmti": {
+      "probability": 91
+    },
+    "gmvd": {
+      "probability": 85
+    },
+    "gmvs": {
+      "probability": 92
+    },
+    "gmzh": {
+      "probability": 87
+    }
+  },
+  "updated_at": "2020-09-16T06:01:05+0200",
+  "base_unit": "CU",
+  "slugs": {
+    "de": "m-budget-glas-und-allzweck-reiniger",
+    "fr": "m-budget-nettoyant-pour-vitres-et-multi-usages",
+    "it": "m-budget-detergente-per-vetro-e-detergente-multiuso"
+  },
+  "receipt_text": "MBud Glasreiniger 750",
+  "new_product": {
+    "from": "2019-06-12T11:10:08+0200",
+    "to": "2019-06-26T11:10:08+0200"
+  },
+  "main_supplier": {
+    "name": "MIFA AG FRENKENDORF",
+    "id": "0003030000",
+    "supplier_product_id": "335195"
+  },
+  "price": {
+    "valid_from": "2019-06-12T00:00:00+0200",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 1.1,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "750ml"
+    },
+    "base": {
+      "price": 0.15,
+      "quantity": 100,
+      "unit": "ml"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "galaxus_relevant": false,
+  "ratings": {
+    "count_all": 7,
+    "average_all": 4.571428571429
+  },
+  "data_source": "SAP-X11",
+  "package": {
+    "content": 750,
+    "content_unit_code": "ml",
+    "content_unit": "Mililiter",
+    "net_weight": 0.748,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogramm",
+    "brutto_weight": 0.818,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 1.87,
+    "brutto_volume_unit_code": "cdm",
+    "height": 30.6,
+    "length": 6.5,
+    "width": 9.4,
+    "unit_dimension": "cm",
+    "price_comparison_content": 100,
+    "size": "750ml"
+  },
+  "package_information": {
+    "tu": {
+      "brutto_weight": 12.745,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 33.098,
+      "brutto_volume_unit_code": "cdm",
+      "height": 32.1,
+      "length": 29.8,
+      "width": 34.6,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 15
+    },
+    "cu": {
+      "brutto_weight": 0.818,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 1.87,
+      "brutto_volume_unit_code": "cdm",
+      "height": 30.6,
+      "length": 6.5,
+      "width": 9.4,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "lu": {
+      "brutto_weight": 522,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 1684.8,
+      "brutto_volume_unit_code": "cdm",
+      "height": 175.5,
+      "length": 120,
+      "width": 80,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 600
+    },
+    "lge": {
+      "number_of_base_units": 1
+    },
+    "kar": {
+      "number_of_base_units": 1
+    }
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "views": [
+    "all",
+    "browse"
+  ]
+}

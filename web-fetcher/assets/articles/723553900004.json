@@ -1,0 +1,561 @@
+{
+  "id": "723553900004",
+  "language": "de",
+  "name": "Migros Ambiance Raumduft Nachfüller",
+  "names": {
+    "name": "Migros Ambiance Raumduft Nachfüller",
+    "short_name": "Raumduft Nachfüller"
+  },
+  "slug": "migros-ambiance-raumduft-nachfueller-spicy-vanilla",
+  "boss_number": "150323383530",
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03"
+  },
+  "tags": [
+    "source-pex",
+    "near-non-food",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": true,
+  "base_product_id": "723553900000",
+  "gtins": [
+    "7613346995935"
+  ],
+  "brand": {
+    "id": "MDB",
+    "name": "Migros Ambiance",
+    "slug": "migros-ambiance"
+  },
+  "categories": [
+    {
+      "code": "BeSS_01040801",
+      "name": "Kerzen & Düfte / Kerzenhalter & Zubehör",
+      "slug": "supermarkt/haushalt-reinigung/party-dekoration/kerzen-duefte-kerzenhalter-zubehoer",
+      "visible": true,
+      "parent_code": "BeSS_010408",
+      "image": {
+        "original": "https://image.migros.ch/original/ec528d66da42e169adc7d99dff9ebb707ef796c7/kerzen-duefte-kerzenhalter-zubehoer.jpg",
+        "stack": "https://image.migros.ch/{stack}/ec528d66da42e169adc7d99dff9ebb707ef796c7/kerzen-duefte-kerzenhalter-zubehoer.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010408",
+      "name": "Party & Dekoration",
+      "slug": "supermarkt/haushalt-reinigung/party-dekoration",
+      "visible": true,
+      "title": "Dekorationen aus Ihrer Migros geben jeder Party ein schönes Ambiente.",
+      "parent_code": "BeSS_0104",
+      "image": {
+        "original": "https://image.migros.ch/original/d33776e1adf51d24f78164d864e6ff8b3067da23/party-dekoration.jpg",
+        "stack": "https://image.migros.ch/{stack}/d33776e1adf51d24f78164d864e6ff8b3067da23/party-dekoration.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0104",
+      "name": "Haushalt & Reinigung",
+      "slug": "supermarkt/haushalt-reinigung",
+      "visible": true,
+      "title": "Reinigung mit der Migros – Reiniger für Haushalt und Garten",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/e5da3225980543e0c7ddcc443069f331d94e8439/haushalt-reinigung.png",
+        "stack": "https://image.migros.ch/{stack}/e5da3225980543e0c7ddcc443069f331d94e8439/haushalt-reinigung.png"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_Lufterfrischer_Haushalt_HaushaltReinigung",
+        "name": "Lufterfrischer",
+        "slug": "amigos/haushalt-reinigung/haushalt/lufterfrischer",
+        "visible": true,
+        "parent_code": "AMIG_CAT_Haushalt_HaushaltReinigung",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_Haushalt_HaushaltReinigung",
+        "name": "Haushalt",
+        "slug": "amigos/haushalt-reinigung/haushalt",
+        "visible": true,
+        "parent_code": "AMIG_CAT_HaushaltReinigung",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_HaushaltReinigung",
+        "name": "Haushalt & Reinigung",
+        "slug": "amigos/haushalt-reinigung",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "features": [
+    {
+      "label_code": "miso_inhalt",
+      "label": "Inhalt",
+      "values": [
+        {
+          "value_code": "NUMERIC_100",
+          "value": "100 ml",
+          "numeric_value": 100
+        }
+      ],
+      "category_code": "MISO_CLA_Kerzen_HaushaltAcc_Haushalt_Alle",
+      "top_fact": false,
+      "unit_code": "ml",
+      "unit": "Mililiter",
+      "unit_symbol": "ml"
+    },
+    {
+      "label_code": "miso_duft",
+      "label": "Duft",
+      "values": [
+        {
+          "value_code": "MISO_spicy_vanilla",
+          "value": "Spicy Vanilla"
+        }
+      ],
+      "category_code": "MISO_CLA_Kerzen_HaushaltAcc_Haushalt_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "CHEMICALS_WARNING",
+      "label": "Warnhinweis",
+      "values": [
+        {
+          "value": "Vor Gebrauch stets Kennzeichnung und Produktinformationen lesen."
+        }
+      ],
+      "category_code": "CHEMICALS_WARNING",
+      "top_fact": false
+    }
+  ],
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    }
+  },
+  "attributes": {
+    "typ_duft": {
+      "code": "723553900000-A001-00004",
+      "name": "Duft",
+      "value": "SPICY VANILLA"
+    }
+  },
+  "image": {
+    "original": "https://image.migros.ch/original/f7ee6301a868a457012dd8e55f185fa1e11743b4/migros-ambiance-raumduft-nachfueller.jpg",
+    "stack": "https://image.migros.ch/{stack}/f7ee6301a868a457012dd8e55f185fa1e11743b4/migros-ambiance-raumduft-nachfueller.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/b5e7bb5f05cad275c209751e40f325d2bf7e246c/migros-ambiance-raumduft-nachfueller.png",
+    "stack": "https://image.migros.ch/{stack}/b5e7bb5f05cad275c209751e40f325d2bf7e246c/migros-ambiance-raumduft-nachfueller.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_RETURNABLE",
+      "label": "Rückgabe",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "true",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MAPI_RETURNABLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_MAX_ORDER_QUANTITY",
+      "values": [
+        {
+          "value_code": "NUMERIC_99999",
+          "value": "99999",
+          "numeric_value": 99999
+        }
+      ],
+      "category_code": "MAPI_MAX_ORDER_QUANTITY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_EXCLUDE_FROM_COMPARISON_ENGINES",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "false",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_EXCLUDE_FROM_COMPARISON_ENGINES",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_DEFAULT_LOGISTIC_TYPE",
+      "values": [
+        {
+          "value_code": "55",
+          "value": "Versandart Paket"
+        }
+      ],
+      "category_code": "MAPI_DEFAULT_LOGISTIC_TYPE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Normalposition"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "HART"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_RISK_CLASS",
+      "values": [
+        {
+          "value_code": "1",
+          "value": "1 (high)"
+        }
+      ],
+      "category_code": "MAPI_RISK_CLASS",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_KUBE_TUKA",
+      "values": [
+        {
+          "value_code": "BLANK",
+          "value": "KUBE und TUKA nicht zugelassen"
+        }
+      ],
+      "category_code": "MAPI_KUBE_TUKA",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HART",
+          "value": "Hartwaren  Handelsware"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "H",
+          "value": "Hartwaren"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "50846",
+          "value": "DUFT"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 1,
+    "percentage": 7.7
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/723553900004",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/migros-ambiance-raumduft-nachfueller-spicy-vanilla",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/723553900004",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/migros-ambiance-raumduft-nachfueller-spicy-vanilla",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "regional_availability": {
+    "gmaa": {
+      "probability": 69
+    },
+    "gmbs": {
+      "probability": 78
+    },
+    "gmge": {
+      "probability": 69
+    },
+    "gmlu": {
+      "probability": 70
+    },
+    "gmnf": {
+      "probability": 78
+    },
+    "gmos": {
+      "probability": 77
+    },
+    "gmti": {
+      "probability": 81
+    },
+    "gmvd": {
+      "probability": 75
+    },
+    "gmvs": {
+      "probability": 59
+    },
+    "gmzh": {
+      "probability": 75
+    }
+  },
+  "updated_at": "2020-09-16T06:44:35+0200",
+  "base_unit": "CU",
+  "slugs": {
+    "de": "migros-ambiance-raumduft-nachfueller-spicy-vanilla",
+    "fr": "migros-ambiance-parfume-espace-spicy-vanilla",
+    "it": "migros-ambiance-odore-ambiente-spicy-vanilla"
+  },
+  "receipt_text": "Raumduft Nachfüller",
+  "new_product": {
+    "from": "2017-10-25T00:00:00+0200",
+    "to": "2017-11-08T00:00:00+0100"
+  },
+  "price": {
+    "valid_from": "2018-01-30T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 5.95,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "100ml"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "galaxus_relevant": true,
+  "data_source": "SAP-X12",
+  "origins": {
+    "producing_country": "China"
+  },
+  "chemicals_declaration": {
+    "release_date": "2017-12-14T12:52:17+0100",
+    "supplier_id": "0010001347",
+    "hazard_statements": [
+      {
+        "code": "H319",
+        "label": "Verursacht schwere Augenreizung."
+      }
+    ],
+    "precautionary_statements": [
+      {
+        "code": "P101",
+        "label": "Ist ärztlicher Rat erforderlich, Verpackung oder Kennzeichnungsetikett bereithalten."
+      },
+      {
+        "code": "P102",
+        "label": "Darf nicht in die Hände von Kindern gelangen."
+      },
+      {
+        "code": "P305_351_338",
+        "label": "BEI KONTAKT MIT DEN AUGEN: Einige Minuten lang behutsam mit Wasser ausspülen. Eventuell vorhandene Kontaktlinsen nach Möglichkeit entfernen. Weiter spülen."
+      },
+      {
+        "code": "P501_E",
+        "label": "Inhalt/Behälter gemäss den örtlichen Vorschriften der Ensorgung zuführen"
+      }
+    ],
+    "eu_hazard_statements": [
+      {
+        "code": "EUH208",
+        "label": "Enthält Coumarin. Kann allergische Reaktionen hervorrufen."
+      }
+    ],
+    "signal_word": {
+      "code": "SW02",
+      "label": "Achtung"
+    },
+    "cpid_number": "589442",
+    "chem_voc_concentration": 90,
+    "poison_cabinet": false,
+    "hazard_pictograms": [
+      {
+        "original": "https://image.migros.ch/original/09b3c0810d45b7f83a5ad48c5bc38d4d0227615b/GHS07.jpg",
+        "code": "GHS07",
+        "description": "Dickes Ausrufezeichen",
+        "stack": "https://image.migros.ch/{stack}/09b3c0810d45b7f83a5ad48c5bc38d4d0227615b/GHS07.jpg"
+      }
+    ]
+  },
+  "package": {
+    "content": 100,
+    "content_unit_code": "ml",
+    "content_unit": "Mililiter",
+    "brutto_weight": 0.127,
+    "brutto_weight_unit_code": "kg",
+    "size": "100ml"
+  },
+  "package_information": {
+    "cu": {
+      "brutto_weight": 0.127,
+      "brutto_weight_unit_code": "kg",
+      "number_of_base_units": 1
+    },
+    "tuv": {
+      "brutto_weight": 0.76,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 1.82,
+      "brutto_volume_unit_code": "cdm",
+      "height": 14,
+      "length": 13,
+      "width": 10,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 6
+    },
+    "tue": {
+      "number_of_base_units": 6
+    },
+    "lu": {
+      "number_of_base_units": 4686
+    }
+  },
+  "warranty_months": 24,
+  "quantity_on_stock": 1193,
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "views": [
+    "all",
+    "browse"
+  ]
+}

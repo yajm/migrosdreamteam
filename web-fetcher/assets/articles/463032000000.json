@@ -1,0 +1,908 @@
+{
+  "id": "463032000000",
+  "language": "de",
+  "name": "Powerbar Protein Plus Low Sugar Brown Riegel",
+  "names": {
+    "name": "Powerbar Protein Plus Low Sugar Brown Riegel",
+    "short_name": "Protein Plus Low Sugar Brown"
+  },
+  "slug": "powerbar-protein-plus-low-sugar-brown-riegel",
+  "product_type": "Riegel",
+  "boss_number": "341611481015",
+  "description": {
+    "text": "Muskelaufbau und Muskelerhalt brauchen den notwendigen Baustein: Protein. Gib Deinem Körper darum nach dem Sport und auch zwischendurch eine Portion hochwertiges Protein. Das geht sehr lecker und angenehm locker: mit dem Protein Plus Low Sugar im handlichen Snack-Format. Wie der Name schon sagt: viel Protein, bis zu 11 Gramm pro Riegel. Und wenig Zucker: höchstens 1,6 Gramm pro Riegel.",
+    "source": "PEX"
+  },
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03"
+  },
+  "tags": [
+    "source-pex",
+    "migipedia",
+    "source-qim-origins",
+    "source-qim-distributor",
+    "validity-range-not-set",
+    "source-qim-allergens",
+    "source-qim-fooddeclaration",
+    "source-qim-nutritionfacts",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "4029679900042",
+    "4029679901124"
+  ],
+  "brand": {
+    "id": "N59",
+    "name": "Powerbar",
+    "slug": "powerbar",
+    "image": {
+      "original": "https://image.migros.ch/original/5ac7ecbc14e242147039d14029a57365375c9789/powerbar.jpg",
+      "stack": "https://image.migros.ch/{stack}/5ac7ecbc14e242147039d14029a57365375c9789/powerbar.jpg"
+    }
+  },
+  "categories": [
+    {
+      "code": "SPO_SHOP_CAT_Sportnahrung_Ausruestung",
+      "name": "Sportnahrung",
+      "slug": "sportxx/ausruestung/sportnahrung",
+      "visible": true,
+      "parent_code": "SPO_SHOP_CAT_Ausruestung",
+      "level": 3
+    },
+    {
+      "code": "SPO_SHOP_CAT_Ausruestung",
+      "name": "Ausrüstung",
+      "slug": "sportxx/ausruestung",
+      "visible": true,
+      "parent_code": "BeSS_03",
+      "level": 2
+    },
+    {
+      "code": "BeSS_03",
+      "name": "SportXX",
+      "slug": "sportxx",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "BeSS_011203",
+        "name": "Diät & Sportnahrung",
+        "slug": "supermarkt/gesundheit/diaet-sportnahrung",
+        "visible": true,
+        "parent_code": "BeSS_0112",
+        "level": 3
+      },
+      {
+        "code": "BeSS_0112",
+        "name": "Gesundheit",
+        "slug": "supermarkt/gesundheit",
+        "visible": true,
+        "parent_code": "BeSS_01",
+        "image": {
+          "original": "https://image.migros.ch/original/832762761a56d78835c380db87e2aa4ecd7a4eed/gesundheit.jpg",
+          "stack": "https://image.migros.ch/{stack}/832762761a56d78835c380db87e2aa4ecd7a4eed/gesundheit.jpg"
+        },
+        "level": 2
+      },
+      {
+        "code": "BeSS_01",
+        "name": "Supermarkt",
+        "slug": "supermarkt",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "nutrition_facts": {
+    "standard": {
+      "nutrients": [
+        {
+          "code": "PIM_NUT_ENERGIE",
+          "name": "Energie",
+          "pictogram_name": "Energie",
+          "category": "BIG9",
+          "quantity": 1279,
+          "nutrition_operator": "=",
+          "quantity_unit": "kJ",
+          "quantity_alternate": 307,
+          "quantity_alternate_unit": "kcal"
+        },
+        {
+          "code": "PIM_NUT_FETT",
+          "name": "Fett",
+          "pictogram_name": "Fett",
+          "category": "BIG9",
+          "quantity": 9.5,
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_FETT_GES",
+          "name": "davon gesättigte Fettsäuren",
+          "pictogram_name": "gesättigte Fettsäuren",
+          "category": "BIG9",
+          "quantity": 4.6,
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_KOHLENHY",
+          "name": "Kohlenhydrate",
+          "category": "BIG9",
+          "quantity": 29,
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_ZUCKER",
+          "name": "davon Zucker",
+          "pictogram_name": "Zuckerarten",
+          "category": "BIG9",
+          "quantity": 1.8,
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_MEHRWALK",
+          "name": "davon mehrwertige Alkohole",
+          "category": "SONSTIGE",
+          "quantity": 24,
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_GES_BALL",
+          "name": "Ballaststoffe",
+          "category": "BIG9",
+          "quantity": 17,
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_PROTEINE",
+          "name": "Eiweiss",
+          "category": "BIG9",
+          "quantity": 29,
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_KOCHSALZ",
+          "name": "Salz",
+          "pictogram_name": "Salz",
+          "category": "BIG9",
+          "quantity": 0.32,
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        }
+      ],
+      "base_quantity": 100,
+      "base_unit": "g"
+    },
+    "portion": {
+      "nutrients": [
+        {
+          "code": "PIM_NUT_ENERGIE",
+          "name": "Energie",
+          "pictogram_name": "Energie",
+          "category": "BIG9",
+          "quantity": 448,
+          "nutrition_operator": "=",
+          "quantity_unit": "kJ",
+          "quantity_alternate": 107,
+          "quantity_alternate_unit": "kcal"
+        },
+        {
+          "code": "PIM_NUT_FETT",
+          "name": "Fett",
+          "pictogram_name": "Fett",
+          "category": "BIG9",
+          "quantity": 3.3,
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_FETT_GES",
+          "name": "davon gesättigte Fettsäuren",
+          "pictogram_name": "gesättigte Fettsäuren",
+          "category": "BIG9",
+          "quantity": 1.6,
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_KOHLENHY",
+          "name": "Kohlenhydrate",
+          "category": "BIG9",
+          "quantity": 10,
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_ZUCKER",
+          "name": "davon Zucker",
+          "pictogram_name": "Zuckerarten",
+          "category": "BIG9",
+          "quantity": 0.6,
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_MEHRWALK",
+          "name": "davon mehrwertige Alkohole",
+          "category": "SONSTIGE",
+          "quantity": 8.5,
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_GES_BALL",
+          "name": "Ballaststoffe",
+          "category": "BIG9",
+          "quantity": 5.8,
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_PROTEINE",
+          "name": "Eiweiss",
+          "category": "BIG9",
+          "quantity": 10,
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_KOCHSALZ",
+          "name": "Salz",
+          "pictogram_name": "Salz",
+          "category": "BIG9",
+          "quantity": 0.11,
+          "nutrition_operator": "=",
+          "quantity_unit": "g"
+        }
+      ],
+      "portions_per_package": "1",
+      "serving_size_description": "35 g"
+    }
+  },
+  "features": [
+    {
+      "label_code": "miso_produkttyp",
+      "label": "Produkttyp",
+      "values": [
+        {
+          "value_code": "MISO_produkttyp_sportnahrung",
+          "value": "Sportnahrung"
+        }
+      ],
+      "category_code": "MISO_CLA_DiaetSportnahrung_Gesundheit_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "miso_beduerfnis_nutzen",
+      "label": "Bedürfnis / Nutzen",
+      "values": [
+        {
+          "value_code": "MISO_beduerfnis_nutzen_proteine",
+          "value": "Proteine"
+        }
+      ],
+      "category_code": "MISO_CLA_DiaetSportnahrung_Gesundheit_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "spo_zutaten",
+      "label": "Zutaten",
+      "values": [
+        {
+          "value": "Milcheiweiß (Calciumcaseinat, Molkeneiweißisolat), Polydextrose, Feuchthaltemittel (Sorbit, Glycerin), Milchschokoladenkuvertüre mit Süßungsmittel (18%) [Süßungsmittel (Maltit), Kakaobutter, Vollmilchpulver, Kakaomasse, Emulgator (Sojalecithine), Aroma], fettarmes Kakaopulver (5%), Sojaeiweiß, Rapsöl, Aroma, Emulgator (Sojalecithine). Kann enthalten: Erdnüsse, Haselnüsse, Mandeln, Gluten."
+        }
+      ],
+      "category_code": "SPO_CLA_Sportnahrung_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "spo_100g_preis_chf",
+      "label": "100g Preis CHF",
+      "values": [
+        {
+          "value_code": "NUMERIC_18",
+          "value": "18",
+          "numeric_value": 18
+        }
+      ],
+      "category_code": "SPO_CLA_Sportnahrung_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "spo_naehrwerte",
+      "label": "Nährwerte",
+      "values": [
+        {
+          "value": "Nährwertangaben pro 100 g pro Riegel (35 g) Energie kJ (kcal) 1279 (307) 448 (107) Fett 9,5 g 3,3 g davon gesättigte Fettsäuren 4,6 g 1,6 g Kohlenhydrate 29 g 10 g davon Zucker 1,8 g 0,6 g davon mehrwertige Alkohole 24 g 8,5 g Ballaststoffe 17 g 5,8 g Eiweiß 28 g 10 g Salz 0,32 g 0,11 g"
+        }
+      ],
+      "category_code": "SPO_CLA_Sportnahrung_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "spo_produktionsland",
+      "label": "Produktionsland",
+      "values": [
+        {
+          "value": "Deutschland"
+        }
+      ],
+      "category_code": "SPO_CLA_Sportnahrung_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "spo_einnahmeempfehlung",
+      "label": "Einnahmeempfehlung",
+      "values": [
+        {
+          "value": "1-2 Riegel/ Tag. Zusätzlich zu einer abwechslungsreichen und ausgewogenen Ernährung und einer gesunden Lebensweise. Kann bei übermäßigem Verzehr abführend wirken."
+        }
+      ],
+      "category_code": "SPO_CLA_Sportnahrung_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "spo_gewicht",
+      "label": "Gewicht",
+      "values": [
+        {
+          "value_code": "NUMERIC_35",
+          "value": "35 g",
+          "numeric_value": 35
+        }
+      ],
+      "category_code": "SPO_CLA_Sportnahrung_Alle",
+      "top_fact": false,
+      "unit_code": "g",
+      "unit": "Gramm",
+      "unit_symbol": "g"
+    },
+    {
+      "label_code": "spo_anwendung_anwendung",
+      "label": "Anwendung",
+      "values": [
+        {
+          "value_code": "SPO_Anwendung_Kraftaufbau",
+          "value": "Kraftaufbau"
+        },
+        {
+          "value_code": "SPO_Anwendung_Regeneration",
+          "value": "Regeneration"
+        },
+        {
+          "value_code": "SPO_Anwendung_WeightManagment",
+          "value": "WeightManagment"
+        }
+      ],
+      "category_code": "SPO_CLA_Sportnahrung_Alle",
+      "top_fact": true
+    },
+    {
+      "label_code": "spo_phase_phase",
+      "label": "Phase",
+      "values": [
+        {
+          "value_code": "SPO_Phase_nachdemTraining",
+          "value": "nach dem Training"
+        }
+      ],
+      "category_code": "SPO_CLA_Sportnahrung_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "spo_form_form",
+      "label": "Form",
+      "values": [
+        {
+          "value_code": "SPO_Form_Riegel",
+          "value": "Riegel"
+        }
+      ],
+      "category_code": "SPO_CLA_Sportnahrung_Alle",
+      "top_fact": true
+    },
+    {
+      "label_code": "spo_geschmack",
+      "label": "Geschmack",
+      "values": [
+        {
+          "value": "Chocolate Brownie"
+        }
+      ],
+      "category_code": "SPO_CLA_Sportnahrung_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "spo_sportart_sportart",
+      "label": "Sportart",
+      "values": [
+        {
+          "value_code": "SPO_Sportart_Allgemein",
+          "value": "Allgemein"
+        },
+        {
+          "value_code": "SPO_Sportart_Fitness",
+          "value": "Fitness"
+        }
+      ],
+      "category_code": "SPO_CLA_Alle",
+      "top_fact": false
+    }
+  ],
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": true,
+      "reservable": true,
+      "stock_request": true,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": true,
+      "reservable": true,
+      "stock_request": true,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": true,
+      "reservable": true,
+      "stock_request": true,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": true,
+      "reservable": true,
+      "stock_request": true,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": true,
+      "reservable": true,
+      "stock_request": true,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": true,
+      "reservable": true,
+      "stock_request": true,
+      "visible": true,
+      "exclude_cross_channel": []
+    }
+  },
+  "allergens": [
+    {
+      "code": "ALLG_CASHEW",
+      "name": "Kaschunuss und Kaschunusserzeugnisse",
+      "contamination_code": "KANN_ENTHALTEN",
+      "contamination": "kann enthalten"
+    },
+    {
+      "code": "ALLG_SOJA",
+      "name": "Sojabohne und Sojabohnenderivate",
+      "contamination_code": "VORHANDEN",
+      "contamination": "vorhanden"
+    },
+    {
+      "code": "ALLG_HASELNU",
+      "name": "Haselnuss und Haselnusserzeugnisse",
+      "contamination_code": "KANN_ENTHALTEN",
+      "contamination": "kann enthalten"
+    },
+    {
+      "code": "ALLG_GLUTEN",
+      "name": "Glutenhaltige Cerealien und ihre Derivate",
+      "contamination_code": "KANN_ENTHALTEN",
+      "contamination": "kann enthalten"
+    },
+    {
+      "code": "ALLG_MILCH",
+      "name": "Milch und Milchderivate",
+      "contamination_code": "VORHANDEN",
+      "contamination": "vorhanden"
+    },
+    {
+      "code": "ALLG_MANDELN",
+      "name": "Mandeln und Mandelerzeugnisse",
+      "contamination_code": "KANN_ENTHALTEN",
+      "contamination": "kann enthalten"
+    },
+    {
+      "code": "ALLG_EIER",
+      "name": "Eier und Eiderivate",
+      "contamination_code": "KANN_ENTHALTEN",
+      "contamination": "kann enthalten"
+    },
+    {
+      "code": "ALLG_ERDNUSS",
+      "name": "Erdnüsse und Erdnussderivate",
+      "contamination_code": "KANN_ENTHALTEN",
+      "contamination": "kann enthalten"
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/56564ffaf784e1b64976084a0434ffe5afbe2f76/powerbar-protein-plus-low-sugar-brown-riegel.jpg",
+    "stack": "https://image.migros.ch/{stack}/56564ffaf784e1b64976084a0434ffe5afbe2f76/powerbar-protein-plus-low-sugar-brown-riegel.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/f6c1a957973646d257da15add26434da0b84d625/powerbar-protein-plus-low-sugar-brown-riegel.png",
+    "stack": "https://image.migros.ch/{stack}/f6c1a957973646d257da15add26434da0b84d625/powerbar-protein-plus-low-sugar-brown-riegel.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_RETURNABLE",
+      "label": "Rückgabe",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "true",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MAPI_RETURNABLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_EXCLUDE_FROM_COMPARISON_ENGINES",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "false",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_EXCLUDE_FROM_COMPARISON_ENGINES",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_DEFAULT_LOGISTIC_TYPE",
+      "values": [
+        {
+          "value_code": "55",
+          "value": "Versandart Paket"
+        }
+      ],
+      "category_code": "MAPI_DEFAULT_LOGISTIC_TYPE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Normalposition"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "SPOR"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_RISK_CLASS",
+      "values": [
+        {
+          "value_code": "2",
+          "value": "2 (medium)"
+        }
+      ],
+      "category_code": "MAPI_RISK_CLASS",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_KUBE_TUKA",
+      "values": [
+        {
+          "value_code": "BLANK",
+          "value": "KUBE und TUKA nicht zugelassen"
+        }
+      ],
+      "category_code": "MAPI_KUBE_TUKA",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "SPOR",
+          "value": "Sport  Handelsware"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "S",
+          "value": "Sport"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "55537",
+          "value": "SPORTNAHRUNG"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "regulated_description": "Eiweißriegel für Sportler mit Milchschokoladenkuvertüre, mit Süßungsmittel. Schokoladen Geschmack",
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/463032000000",
+      "name": "migros.ch",
+      "canonical": "https://www.sportxx.ch/de/p/463032000000/powerbar-protein-plus-low-sugar-brown",
+      "type": "info",
+      "purchasable": false
+    },
+    "sportxx": {
+      "url": "https://www.sportxx.ch/de/p/463032000000/powerbar-protein-plus-low-sugar-brown",
+      "name": "SportXX",
+      "canonical": "https://www.sportxx.ch/de/p/463032000000/powerbar-protein-plus-low-sugar-brown",
+      "type": "shop",
+      "purchasable": true
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/463032000000",
+      "name": "Migipedia",
+      "canonical": "https://www.sportxx.ch/de/p/463032000000/powerbar-protein-plus-low-sugar-brown",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "regional_availability": {
+    "gmaa": {
+      "probability": 67
+    },
+    "gmbs": {
+      "probability": 24
+    },
+    "gmge": {
+      "probability": 72
+    },
+    "gmlu": {
+      "probability": 34
+    },
+    "gmnf": {
+      "probability": 47
+    },
+    "gmos": {
+      "probability": 72
+    },
+    "gmti": {
+      "probability": 59
+    },
+    "gmvd": {
+      "probability": 62
+    },
+    "gmvs": {
+      "probability": 41
+    },
+    "gmzh": {
+      "probability": 46
+    }
+  },
+  "updated_at": "2020-09-12T05:55:24+0200",
+  "online_shop_relevant": true,
+  "services": {
+    "logistics": [
+      {
+        "code": "SPO_LOGISTIK_FILIALE_POSTPAKET_GRATIS"
+      },
+      {
+        "code": "SPO_LOGISTIK_POSTPAKET_4_9"
+      }
+    ]
+  },
+  "base_unit": "CU",
+  "slugs": {
+    "de": "powerbar-protein-plus-low-sugar-brown-riegel",
+    "fr": "powerbar-protein-plus-low-sugar-brown-barre",
+    "it": "powerbar-protein-plus-low-sugar-brown-barretta"
+  },
+  "receipt_text": "Powerbar Protein Plus",
+  "short_description": "Low Sugar Riegel mit nur 0,6 g Zucker",
+  "new_product": {
+    "from": "2018-04-09T00:00:00+0200",
+    "to": "2018-05-21T00:00:00+0200"
+  },
+  "main_supplier": {
+    "name": "Active Nutrition Internation",
+    "id": "0010015089",
+    "supplier_product_id": "21508442"
+  },
+  "price": {
+    "valid_from": "2020-01-14T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 1.8,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "35g"
+    },
+    "base": {
+      "price": 18,
+      "quantity": 100,
+      "unit": "g"
+    }
+  },
+  "retailer": {
+    "id": "sportxx",
+    "name": "SportXX"
+  },
+  "ratings": {
+    "count_all": 4,
+    "average_all": 3
+  },
+  "data_source": "SAP-X12",
+  "origins": {},
+  "distributor": {
+    "name": "Active Nutrition International GmbH",
+    "address": "Zielstattstr. 42, 81379 München, Germany"
+  },
+  "ingredients": "MILCHeiweiß (CalciumCASEINAT, MOLKEneiweißisolat), Füllstoff (Polydextrose), Feuchthaltemittel (Sorbit, Glycerin), MILCHschokolade mit Süßungsmittel (18%) [Süßungsmittel (Maltit), Kakaobutter, VollMILCHpulver, Kakaomasse, BUTTERreinfett, Emulgator (Lecithine (SOJA)), natürliches Aroma], fettarmes Kakaopulver (5%), SOJAeiweiß, Rapsöl, Aroma, Emulgator (Lecithine (SOJA)).Kann enthalten: HASELNÜSSE, MANDELN, CASHEWNÜSSE, GLUTEN, EIER, ERDNÜSSE.",
+  "package": {
+    "content": 10,
+    "content_unit_code": "g",
+    "content_unit": "Gramm",
+    "brutto_volume": 77.76,
+    "brutto_volume_unit_code": "ccm",
+    "height": 1.2,
+    "length": 13.5,
+    "width": 4.8,
+    "unit_dimension": "cm",
+    "price_comparison_content": 100,
+    "size": "35g"
+  },
+  "package_information": {
+    "cu": {
+      "brutto_volume": 77.76,
+      "brutto_volume_unit_code": "ccm",
+      "height": 1.2,
+      "length": 13.5,
+      "width": 4.8,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "tuv": {
+      "brutto_weight": 1.2,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 2.94,
+      "brutto_volume_unit_code": "cdm",
+      "height": 7,
+      "length": 28,
+      "width": 15,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 30
+    },
+    "tue": {
+      "brutto_volume": 2.87,
+      "brutto_volume_unit_code": "cdm",
+      "height": 6.7,
+      "length": 28,
+      "width": 15.3,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 30
+    },
+    "lu": {
+      "number_of_base_units": 570
+    }
+  },
+  "quantity_on_stock": 13168,
+  "declarations": {
+    "food": {
+      "features": [
+        {
+          "label_code": "GDSN_M362_ConsumerStorageInstructions",
+          "label": "Aufbewahrungshinweise für den Konsumenten",
+          "values": [
+            {
+              "value": "Trocken lagern. Vor Wärme schützen."
+            }
+          ],
+          "category_code": "GDSN",
+          "top_fact": false
+        },
+        {
+          "label_code": "GDSN_M363_ConsumerUsageInstructions",
+          "label": "Verwendungshinweise für den Konsumenten",
+          "values": [
+            {
+              "value": "1-2 Riegel/Tag. Im Rahmen einer abwechslungsreichen und ausgewogenen Ernährung und einer gesunden Lebensweise."
+            }
+          ],
+          "category_code": "GDSN",
+          "top_fact": false
+        },
+        {
+          "label_code": "GDSN_M094_CompulsoryAdditiveLabelInformation",
+          "label": "Zusätzliche verpflichtende Kennzeichnung und Warnhinweise",
+          "values": [
+            {
+              "value": "CSW CLE"
+            }
+          ],
+          "category_code": "GDSN",
+          "top_fact": false
+        }
+      ]
+    }
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "views": [
+    "all",
+    "browse"
+  ]
+}

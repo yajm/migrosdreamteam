@@ -1,0 +1,153 @@
+{
+  "name": "Energy Drink Erdbeer",
+  "regulated_description": "Milchgetränk mit Erdbeersaft aus Konzentrat, mit 1.5% Fett im Milchanteil, mit Vitaminen",
+  "image": {
+    "original": "https://image.migros.ch/original/141f664d44e8c944be58ee0fefe730de84b3589d/energy-drink-erdbeer.jpg"
+  },
+  "price": {
+    "item": {
+      "price": 1.6
+    }
+  },
+  "nutrition_facts": {
+    "standard": {
+      "nutrients": {
+        "nutrients": [
+          {
+            "code": "PIM_NUT_ENERGIE",
+            "name": "Energie",
+            "pictogram_name": "Energie",
+            "category": "BIG9",
+            "quantity": 323,
+            "nutrition_operator": "=",
+            "quantity_unit": "kJ",
+            "quantity_alternate": 76,
+            "quantity_alternate_unit": "kcal"
+          },
+          {
+            "code": "PIM_NUT_FETT",
+            "name": "Fett",
+            "pictogram_name": "Fett",
+            "category": "BIG9",
+            "quantity": 1.6,
+            "nutrition_operator": "=",
+            "quantity_unit": "g"
+          },
+          {
+            "code": "PIM_NUT_FETT_GES",
+            "name": "davon gesättigte Fettsäuren",
+            "pictogram_name": "gesättigte Fettsäuren",
+            "category": "BIG9",
+            "quantity": 0.9,
+            "nutrition_operator": "=",
+            "quantity_unit": "g"
+          },
+          {
+            "code": "PIM_NUT_KOHLENHY",
+            "name": "Kohlenhydrate",
+            "category": "BIG9",
+            "quantity": 12,
+            "nutrition_operator": "=",
+            "quantity_unit": "g"
+          },
+          {
+            "code": "PIM_NUT_ZUCKER",
+            "name": "davon Zucker",
+            "pictogram_name": "Zuckerarten",
+            "category": "BIG9",
+            "quantity": 10,
+            "nutrition_operator": "=",
+            "quantity_unit": "g"
+          },
+          {
+            "code": "PIM_NUT_GES_BALL",
+            "name": "Ballaststoffe",
+            "category": "BIG9",
+            "quantity": 0.5,
+            "nutrition_operator": "<",
+            "quantity_unit": "g"
+          },
+          {
+            "code": "PIM_NUT_PROTEINE",
+            "name": "Eiweiss",
+            "category": "BIG9",
+            "quantity": 3.3,
+            "nutrition_operator": "=",
+            "quantity_unit": "g"
+          },
+          {
+            "code": "PIM_NUT_KOCHSALZ",
+            "name": "Salz",
+            "pictogram_name": "Salz",
+            "category": "BIG9",
+            "quantity": 0.21,
+            "nutrition_operator": "=",
+            "quantity_unit": "g"
+          },
+          {
+            "code": "PIM_NUT_VIT_D",
+            "name": "Vitamin D",
+            "category": "VITAMINE",
+            "quantity": 0.75,
+            "rda_percent": 15,
+            "rda_percent_operator": "=",
+            "nutrition_operator": "=",
+            "quantity_unit": "µg"
+          },
+          {
+            "code": "PIM_NUT_VIT_E",
+            "name": "Vitamin E",
+            "category": "VITAMINE",
+            "quantity": 1.8,
+            "rda_percent": 15,
+            "rda_percent_operator": "=",
+            "nutrition_operator": "=",
+            "quantity_unit": "mg"
+          },
+          {
+            "code": "PIM_NUT_VIT_B1",
+            "name": "Vitamin B1 (Thiamin)",
+            "category": "VITAMINE",
+            "quantity": 0.17,
+            "rda_percent": 15,
+            "rda_percent_operator": "=",
+            "nutrition_operator": "=",
+            "quantity_unit": "mg"
+          },
+          {
+            "code": "PIM_NUT_VIT_B2",
+            "name": "Vitamin B2 (Riboflavin)",
+            "category": "VITAMINE",
+            "quantity": 0.21,
+            "rda_percent": 15,
+            "rda_percent_operator": "=",
+            "nutrition_operator": "=",
+            "quantity_unit": "mg"
+          },
+          {
+            "code": "PIM_NUT_VIT_B6",
+            "name": "Vitamin B6",
+            "category": "VITAMINE",
+            "quantity": 0.21,
+            "rda_percent": 15,
+            "rda_percent_operator": "=",
+            "nutrition_operator": "=",
+            "quantity_unit": "mg"
+          },
+          {
+            "code": "PIM_NUT_CALCIUM",
+            "name": "Calcium",
+            "category": "MINERALSTOFFE_SPURENELEMENTE",
+            "quantity": 120,
+            "rda_percent": 15,
+            "rda_percent_operator": "=",
+            "nutrition_operator": "=",
+            "quantity_unit": "mg"
+          }
+        ],
+        "base_quantity": 100,
+        "base_unit": "ml"
+      }
+    }
+  }
+}

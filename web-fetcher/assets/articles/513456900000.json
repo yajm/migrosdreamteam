@@ -1,0 +1,438 @@
+{
+  "id": "513456900000",
+  "language": "de",
+  "name": "Sun Look Ultra Sensitive Face Cream SF50 IRA",
+  "names": {
+    "name": "Sun Look Ultra Sensitive Face Cream SF50 IRA"
+  },
+  "slug": "sun-look-ultra-sensitive-face-cream-sf50-ira",
+  "boss_number": "090121620515",
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03"
+  },
+  "tags": [
+    "source-pim",
+    "near-non-food",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "76249754"
+  ],
+  "brand": {
+    "id": "177",
+    "name": "Sun Look",
+    "slug": "sun-look",
+    "links": {
+      "homepage": {
+        "url": "https://produkte.migros.ch/marken/sun-look",
+        "name": "Homepage",
+        "type": "info",
+        "purchasable": false
+      }
+    },
+    "image": {
+      "original": "https://image.migros.ch/original/745b468d0d4555702fc68948573e07392745400b/sun-look.jpg",
+      "stack": "https://image.migros.ch/{stack}/745b468d0d4555702fc68948573e07392745400b/sun-look.jpg"
+    }
+  },
+  "labels": [
+    {
+      "id": "L15",
+      "name": "aha!",
+      "slug": "aha",
+      "links": {
+        "homepage": {
+          "url": "https://www.migros-impuls.ch/de/ernaehrung/ernaehrungsformen/allergien-intoleranzen/aha",
+          "name": "Homepage",
+          "type": "info",
+          "purchasable": false
+        }
+      },
+      "image": {
+        "original": "https://image.migros.ch/original/ddc0ba54b162f407e050f09ed5f0c948ed31e289/aha.jpg",
+        "stack": "https://image.migros.ch/{stack}/ddc0ba54b162f407e050f09ed5f0c948ed31e289/aha.jpg"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_01110501",
+      "name": "Sonnenschutz",
+      "slug": "supermarkt/beauty/sonnenpflege/sonnenschutz",
+      "visible": true,
+      "parent_code": "BeSS_011105",
+      "level": 4
+    },
+    {
+      "code": "BeSS_011105",
+      "name": "Sonnenpflege",
+      "slug": "supermarkt/beauty/sonnenpflege",
+      "visible": true,
+      "parent_code": "BeSS_0111",
+      "level": 3
+    },
+    {
+      "code": "BeSS_0111",
+      "name": "Beauty",
+      "slug": "supermarkt/beauty",
+      "visible": true,
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/293925170bd129344f9259c67a15e903f881bef8/beauty.jpg",
+        "stack": "https://image.migros.ch/{stack}/293925170bd129344f9259c67a15e903f881bef8/beauty.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_SonnenInsektenschutz_Hausapotheke_HygieneGesundheitBaby",
+        "name": "Sonnen- & Insektenschutz",
+        "slug": "amigos/hygiene-gesundheit-baby/hausapotheke/sonnen-insektenschutz",
+        "visible": true,
+        "parent_code": "AMIG_CAT_Hausapotheke_HygieneGesundheitBaby",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_Hausapotheke_HygieneGesundheitBaby",
+        "name": "Hausapotheke",
+        "slug": "amigos/hygiene-gesundheit-baby/hausapotheke",
+        "visible": true,
+        "parent_code": "AMIG_CAT_HygieneGesundheitBaby",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_HygieneGesundheitBaby",
+        "name": "Hygiene, Gesundheit & Baby",
+        "slug": "amigos/hygiene-gesundheit-baby",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "features": [
+    {
+      "label_code": "MISO_geeignet_fuer",
+      "label": "Geeignet für",
+      "values": [
+        {
+          "value_code": "MISO_geeignet_fuer_sensiblehaut",
+          "value": "Sensible Haut"
+        }
+      ],
+      "category_code": "MISO_CLA_Sonnenschutz_Sonnenpflege_Beauty_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_beduerfnis_nutzen",
+      "label": "Bedürfnis / Nutzen",
+      "values": [
+        {
+          "value_code": "MISO_beduerfnis_nutzen_sehrhoherschutzspf50",
+          "value": "Sehr hoher Schutz (SPF 50+)"
+        }
+      ],
+      "category_code": "MISO_CLA_Sonnenschutz_Sonnenpflege_Beauty_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ALLERGENES_NEARFOOD",
+      "label": "Allergenauslobungen",
+      "values": [
+        {
+          "value_code": "MAPI_ALLERGENES_ohneParfume",
+          "value": "Ohne Parfum"
+        },
+        {
+          "value_code": "MAPI_ALLERGENES_ohneFarbstoffe",
+          "value": "Ohne Farbstoffe"
+        },
+        {
+          "value_code": "MAPI_ALLERGENES_ohneKonservierungsmittel",
+          "value": "Ohne Konservierungsmittel"
+        },
+        {
+          "value_code": "MAPI_ALLERGENES_ohneEmulgatoren",
+          "value": "Ohne Emulgatoren"
+        }
+      ],
+      "category_code": "MAPI_ALLERGENES_NEARFOOD",
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/775fd297763a70ee96b200e4508269a3074e2218/sun-look-ultra-sensitive-face-cream-sf50-ira.jpg",
+    "stack": "https://image.migros.ch/{stack}/775fd297763a70ee96b200e4508269a3074e2218/sun-look-ultra-sensitive-face-cream-sf50-ira.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/c8f39fbc3c7365af9c5fbfe1f42343f67ec2d3cc/sun-look-ultra-sensitive-face-cream-sf50-ira.png",
+    "stack": "https://image.migros.ch/{stack}/c8f39fbc3c7365af9c5fbfe1f42343f67ec2d3cc/sun-look-ultra-sensitive-face-cream-sf50-ira.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZHKS",
+          "value": "HKS Standardartikel"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_QUALITY_CHECK",
+      "values": [
+        {
+          "value_code": "00",
+          "value": "Keine Prüfung"
+        }
+      ],
+      "category_code": "MAPI_QUALITY_CHECK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_RISK_CLASS",
+      "values": [
+        {
+          "value_code": "1",
+          "value": "1 (high)"
+        }
+      ],
+      "category_code": "MAPI_RISK_CLASS",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "H",
+          "value": "HKS Standard"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "50003",
+          "value": "SUN LOOK"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 1,
+    "percentage": 7.7
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/513456900000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/sun-look-ultra-sensitive-face-cream-sf50-ira",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/513456900000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/sun-look-ultra-sensitive-face-cream-sf50-ira",
+      "type": "info",
+      "purchasable": false
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/4641349",
+      "app_url": "leshop:///catalog/article/detail?ean=76249754",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/sun-look-ultra-sensitive-face-cream-sf50-ira",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "regional_availability": {
+    "gmaa": {
+      "probability": 64
+    },
+    "gmbs": {
+      "probability": 59
+    },
+    "gmge": {
+      "probability": 69
+    },
+    "gmlu": {
+      "probability": 70
+    },
+    "gmnf": {
+      "probability": 71
+    },
+    "gmos": {
+      "probability": 69
+    },
+    "gmti": {
+      "probability": 81
+    },
+    "gmvd": {
+      "probability": 75
+    },
+    "gmvs": {
+      "probability": 74
+    },
+    "gmzh": {
+      "probability": 67
+    }
+  },
+  "updated_at": "2020-09-15T18:33:38+0200",
+  "base_unit": "CU",
+  "slugs": {
+    "de": "sun-look-ultra-sensitive-face-cream-sf50-ira",
+    "fr": "sun-look-ultra-sens-face-cream-sf50-ira",
+    "it": "sun-look-ultra-sens-face-cream-sf50-ira"
+  },
+  "receipt_text": "SL U.SE. FACE CR. SF50",
+  "main_supplier": {
+    "name": "MIBELLE AG COSMETICS",
+    "id": "0003810000",
+    "supplier_product_id": "334002"
+  },
+  "price": {
+    "valid_from": "2019-04-10T00:00:00+0200",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 9.2,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "50ml"
+    },
+    "base": {
+      "price": 18.4,
+      "quantity": 100,
+      "unit": "ml"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 2,
+    "average_all": 3
+  },
+  "data_source": "SAP-X11",
+  "package": {
+    "content": 50,
+    "content_unit_code": "ml",
+    "content_unit": "Mililiter",
+    "net_weight": 0.05,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogramm",
+    "brutto_weight": 0.07,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 211.75,
+    "brutto_volume_unit_code": "ccm",
+    "height": 11,
+    "length": 5.5,
+    "width": 3.5,
+    "unit_dimension": "cm",
+    "price_comparison_content": 100,
+    "size": "50ml"
+  },
+  "package_information": {
+    "tu": {
+      "brutto_weight": 0.63,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 3000,
+      "brutto_volume_unit_code": "ccm",
+      "height": 10,
+      "length": 20,
+      "width": 15,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 9
+    },
+    "cu": {
+      "brutto_weight": 0.07,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 211.75,
+      "brutto_volume_unit_code": "ccm",
+      "height": 11,
+      "length": 5.5,
+      "width": 3.5,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "lu": {
+      "brutto_weight": 322.56,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 1689600,
+      "brutto_volume_unit_code": "ccm",
+      "height": 176,
+      "length": 120,
+      "width": 80,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 4608
+    },
+    "lge": {
+      "brutto_weight": 0,
+      "brutto_volume": 0,
+      "height": 0,
+      "length": 0,
+      "width": 0,
+      "number_of_base_units": 1
+    },
+    "kar": {
+      "brutto_weight": 0,
+      "brutto_volume": 0,
+      "height": 0,
+      "length": 0,
+      "width": 0,
+      "number_of_base_units": 1
+    }
+  },
+  "reindex_date": "2020-09-20T00:00:00+0200",
+  "views": [
+    "all",
+    "browse"
+  ]
+}

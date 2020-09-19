@@ -1,0 +1,685 @@
+{
+  "id": "720564800000",
+  "language": "de",
+  "name": "Papeteria Sekundenkleber flüssig",
+  "names": {
+    "name": "Papeteria Sekundenkleber flüssig",
+    "short_name": "Sekundenkleber flüssig"
+  },
+  "slug": "papeteria-sekundenkleber-fluessig",
+  "boss_number": "150626951025",
+  "description": {
+    "text": "Der fl&uuml;ssige Sekundenkleber f&uuml;r eine feine Verteilung. Geeignet f&uuml;r Sofortreparaturen im Haushalt, der Werkstatt, am Auto, im Modellbau etc.\nEr klebt Holz, Leder, Metall, Gummi, Karton, Keramik, Porzellan und viele Kunststoffe. Nicht geeignet f&uuml;r PP, PE, Teflon und Styropor.",
+    "source": "PEX"
+  },
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03"
+  },
+  "tags": [
+    "source-pex",
+    "near-non-food",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7613296447928",
+    "7613205136219"
+  ],
+  "brand": {
+    "id": "N48",
+    "name": "Papeteria",
+    "slug": "papeteria",
+    "image": {
+      "original": "https://image.migros.ch/original/f2835c02ff1b7b72978b9a8dbb516bb0c6ed7fa5/papeteria.jpg",
+      "stack": "https://image.migros.ch/{stack}/f2835c02ff1b7b72978b9a8dbb516bb0c6ed7fa5/papeteria.jpg"
+    }
+  },
+  "categories": [
+    {
+      "code": "BeSS_01051501",
+      "name": "Kleben",
+      "slug": "supermarkt/papeterie-bueromaterial/buerozubehoer/kleben",
+      "visible": true,
+      "parent_code": "BeSS_010515",
+      "level": 4
+    },
+    {
+      "code": "BeSS_010515",
+      "name": "Bürozubehör",
+      "slug": "supermarkt/papeterie-bueromaterial/buerozubehoer",
+      "visible": true,
+      "parent_code": "BeSS_0105",
+      "level": 3
+    },
+    {
+      "code": "BeSS_0105",
+      "name": "Papeterie & Büromaterial",
+      "slug": "supermarkt/papeterie-bueromaterial",
+      "visible": true,
+      "title": "Papeterie und Büromaterialien sind immer in Ihrer Migros zu finden",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/6b764b62482953963a5ab3263b9bd3a69cbf436a/papeterie-bueromaterial.jpg",
+        "stack": "https://image.migros.ch/{stack}/6b764b62482953963a5ab3263b9bd3a69cbf436a/papeterie-bueromaterial.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_KlebenSchnueren_Bueromaterial_HaushaltReinigung",
+        "name": "Kleben & Schnüren",
+        "slug": "amigos/haushalt-reinigung/bueromaterial/kleben-schnueren",
+        "visible": true,
+        "parent_code": "AMIG_CAT_Bueromaterial_HaushaltReinigung",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_Bueromaterial_HaushaltReinigung",
+        "name": "Büromaterial",
+        "slug": "amigos/haushalt-reinigung/bueromaterial",
+        "visible": true,
+        "parent_code": "AMIG_CAT_HaushaltReinigung",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_HaushaltReinigung",
+        "name": "Haushalt & Reinigung",
+        "slug": "amigos/haushalt-reinigung",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "features": [
+    {
+      "label_code": "miso_anwendungsbereich",
+      "label": "Anwendungsbereich",
+      "values": [
+        {
+          "value_code": "MISO_material_filz",
+          "value": "Filz"
+        },
+        {
+          "value_code": "MISO_material_fliesen",
+          "value": "Fliesen"
+        },
+        {
+          "value_code": "MISO_material_gewebe",
+          "value": "Gewebe"
+        },
+        {
+          "value_code": "MISO_material_glas",
+          "value": "Glas"
+        },
+        {
+          "value_code": "MISO_material_gummi",
+          "value": "Gummi"
+        },
+        {
+          "value_code": "MISO_material_holz",
+          "value": "Holz"
+        },
+        {
+          "value_code": "MISO_material_karton",
+          "value": "Karton"
+        },
+        {
+          "value_code": "MISO_material_Keramik",
+          "value": "Keramik"
+        },
+        {
+          "value_code": "MISO_material_kork",
+          "value": "Kork"
+        },
+        {
+          "value_code": "MISO_material_kunststoff",
+          "value": "Kunststoff"
+        },
+        {
+          "value_code": "MISO_material_leder",
+          "value": "Leder"
+        },
+        {
+          "value_code": "MISO_material_metall",
+          "value": "Metall"
+        },
+        {
+          "value_code": "MISO_material_papier",
+          "value": "Papier"
+        },
+        {
+          "value_code": "MISO_material_stein",
+          "value": "Stein"
+        },
+        {
+          "value_code": "MISO_material_textilien",
+          "value": "Textilien"
+        },
+        {
+          "value_code": "MISO_material_ton",
+          "value": "Ton"
+        }
+      ],
+      "category_code": "MISO_CLA_Bueromaterial_Papeterie_Haushalt_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "miso_anzahl",
+      "label": "Anzahl",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1 Stk.",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MISO_CLA_Bueromaterial_Papeterie_Haushalt_Alle",
+      "top_fact": false,
+      "unit_code": "Stk.",
+      "unit": "Stück",
+      "unit_symbol": "Stk."
+    },
+    {
+      "label_code": "miso_inhalt",
+      "label": "Inhalt",
+      "values": [
+        {
+          "value_code": "NUMERIC_3",
+          "value": "3",
+          "numeric_value": 3
+        }
+      ],
+      "category_code": "MISO_CLA_Bueromaterial_Papeterie_Haushalt_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "CHEMICALS_WARNING",
+      "label": "Warnhinweis",
+      "values": [
+        {
+          "value": "Vor Gebrauch stets Kennzeichnung und Produktinformationen lesen."
+        }
+      ],
+      "category_code": "CHEMICALS_WARNING",
+      "top_fact": false
+    }
+  ],
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    }
+  },
+  "image": {
+    "original": "https://image.migros.ch/original/bc88a76d4d7c8426be30d640a51b708efbbdcee5/papeteria-sekundenkleber-fluessig.jpg",
+    "stack": "https://image.migros.ch/{stack}/bc88a76d4d7c8426be30d640a51b708efbbdcee5/papeteria-sekundenkleber-fluessig.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/d791dde24d41296ebc214a21e85dec1634a941aa/papeteria-sekundenkleber-fluessig.png",
+    "stack": "https://image.migros.ch/{stack}/d791dde24d41296ebc214a21e85dec1634a941aa/papeteria-sekundenkleber-fluessig.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_sortierung",
+      "label": "Sortierung aMigos",
+      "values": [
+        {
+          "value_code": "NUMERIC_440",
+          "value": "440",
+          "numeric_value": 440
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_DEFAULT_LOGISTIC_TYPE",
+      "values": [
+        {
+          "value_code": "55",
+          "value": "Versandart Paket"
+        }
+      ],
+      "category_code": "MAPI_DEFAULT_LOGISTIC_TYPE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Normalposition"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "HART"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUSTOMS_POSITION",
+      "values": [
+        {
+          "value_code": "NUMERIC_35061000090",
+          "value": "35061000090",
+          "numeric_value": 35061000090
+        }
+      ],
+      "category_code": "MAPI_CUSTOMS_POSITION",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_RISK_CLASS",
+      "values": [
+        {
+          "value_code": "1",
+          "value": "1 (high)"
+        }
+      ],
+      "category_code": "MAPI_RISK_CLASS",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_QUALITY_CHECK",
+      "values": [
+        {
+          "value_code": "00",
+          "value": "Keine Prüfung"
+        }
+      ],
+      "category_code": "MAPI_QUALITY_CHECK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_KUBE_TUKA",
+      "values": [
+        {
+          "value_code": "BLANK",
+          "value": "KUBE und TUKA nicht zugelassen"
+        }
+      ],
+      "category_code": "MAPI_KUBE_TUKA",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HART",
+          "value": "Hartwaren  Handelsware"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "H",
+          "value": "Hartwaren"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "57897",
+          "value": "LEIMEN / KLEBEN"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 1,
+    "percentage": 7.7
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/720564800000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/papeteria-sekundenkleber-fluessig",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/720564800000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/papeteria-sekundenkleber-fluessig",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "regional_availability": {
+    "gmaa": {
+      "probability": 69
+    },
+    "gmbs": {
+      "probability": 78
+    },
+    "gmge": {
+      "probability": 69
+    },
+    "gmlu": {
+      "probability": 65
+    },
+    "gmnf": {
+      "probability": 56
+    },
+    "gmos": {
+      "probability": 73
+    },
+    "gmti": {
+      "probability": 72
+    },
+    "gmvd": {
+      "probability": 77
+    },
+    "gmvs": {
+      "probability": 67
+    },
+    "gmzh": {
+      "probability": 70
+    }
+  },
+  "updated_at": "2020-09-15T21:21:41+0200",
+  "base_unit": "CU",
+  "slugs": {
+    "de": "papeteria-sekundenkleber-fluessig",
+    "fr": "papeteria-colle-instantanee-liquide",
+    "it": "papeteria-adesivo-liquido"
+  },
+  "receipt_text": "Sekunden-Kleber 3g",
+  "main_supplier": {
+    "name": "Neon Orient Inc.",
+    "id": "0010032389",
+    "supplier_product_id": "7205648"
+  },
+  "price": {
+    "valid_from": "2018-01-30T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 4.35,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "3g"
+    },
+    "base": {
+      "price": 145,
+      "quantity": 100,
+      "unit": "g"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "galaxus_relevant": true,
+  "ratings": {
+    "count_all": 5,
+    "average_all": 4
+  },
+  "data_source": "SAP-X12",
+  "origins": {
+    "producing_country": "China"
+  },
+  "chemicals_declaration": {
+    "release_date": "2014-12-04T14:07:58+0100",
+    "supplier_id": "0010032389",
+    "supplier_description": "Neon Orient Inc.",
+    "hazard_statements": [
+      {
+        "code": "H319",
+        "label": "Verursacht schwere Augenreizung."
+      },
+      {
+        "code": "H315",
+        "label": "Verursacht Hautreizungen."
+      },
+      {
+        "code": "H335",
+        "label": "Kann die Atemwege reizen."
+      }
+    ],
+    "precautionary_statements": [
+      {
+        "code": "P102",
+        "label": "Darf nicht in die Hände von Kindern gelangen."
+      },
+      {
+        "code": "P261",
+        "label": "Einatmen von Staub/Rauch/Gas/­Nebel/Dampf/Aerosol vermeiden."
+      },
+      {
+        "code": "P305_351_338",
+        "label": "BEI KONTAKT MIT DEN AUGEN: Einige Minuten lang behutsam mit Wasser ausspülen. Eventuell vorhandene Kontaktlinsen nach Möglichkeit entfernen. Weiter spülen."
+      }
+    ],
+    "eu_hazard_statements": [
+      {
+        "code": "EUH202",
+        "label": "Cyanacrylat. Gefahr. Klebt innerhalb von Sekunden Haut und Augenlider zusammen. Darf nicht in die Hände von Kindern gelangen."
+      }
+    ],
+    "preservability_months": 12,
+    "signal_word": {
+      "code": "SW02",
+      "label": "Achtung"
+    },
+    "cpid_number": "511404-38",
+    "poison_cabinet": false,
+    "hazard_pictograms": [
+      {
+        "original": "https://image.migros.ch/original/09b3c0810d45b7f83a5ad48c5bc38d4d0227615b/GHS07.jpg",
+        "code": "GHS07",
+        "description": "Dickes Ausrufezeichen",
+        "stack": "https://image.migros.ch/{stack}/09b3c0810d45b7f83a5ad48c5bc38d4d0227615b/GHS07.jpg"
+      }
+    ],
+    "declaration_required_ingredients": [
+      {
+        "name": "Ethyl 2-cyanoacrylate",
+        "cas_number": "7085-85-0"
+      }
+    ]
+  },
+  "package": {
+    "content": 3,
+    "content_unit_code": "g",
+    "content_unit": "Gramm",
+    "net_weight": 0.012,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogramm",
+    "brutto_weight": 0.013,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 1.618,
+    "brutto_volume_unit_code": "cdm",
+    "height": 1,
+    "length": 17,
+    "width": 6.8,
+    "unit_dimension": "cm",
+    "price_comparison_content": 100,
+    "size": "3g"
+  },
+  "package_information": {
+    "cu": {
+      "brutto_weight": 0.013,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 1.618,
+      "brutto_volume_unit_code": "cdm",
+      "height": 1,
+      "length": 17,
+      "width": 6.8,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "tuv": {
+      "brutto_weight": 0.2,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 1.584,
+      "brutto_volume_unit_code": "cdm",
+      "height": 18,
+      "length": 11,
+      "width": 8,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 12
+    },
+    "tue": {
+      "brutto_weight": 0.189,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 1.751,
+      "brutto_volume_unit_code": "cdm",
+      "height": 8.5,
+      "length": 10.7,
+      "width": 17.5,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 12
+    },
+    "lu": {
+      "height": 110,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 5040
+    },
+    "moq": {
+      "number_of_base_units": 20160
+    }
+  },
+  "related_products": {
+    "reference_recommendations": {
+      "product_ids": [
+        "720565100000",
+        "721515900000",
+        "720526100000",
+        "720564900000",
+        "720565000000"
+      ]
+    }
+  },
+  "quantity_on_stock": 14699,
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "views": [
+    "all",
+    "browse"
+  ]
+}

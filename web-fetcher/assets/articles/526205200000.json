@@ -1,0 +1,543 @@
+{
+  "id": "526205200000",
+  "language": "de",
+  "name": "Hakle Feuchttücher Sen.Sauberkeit",
+  "names": {
+    "name": "Hakle Feuchttücher Sen.Sauberkeit",
+    "short_name": "Feuchttücher Sen.Sauberkeit"
+  },
+  "slug": "hakle-feuchttuecher-sensauberkeit",
+  "boss_number": "150126813010",
+  "description": {
+    "text": "parf&uuml;mfrei & extra sanft",
+    "source": "PEX"
+  },
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03"
+  },
+  "tags": [
+    "source-pex",
+    "near-non-food",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "5029053026060",
+    "5029054051573",
+    "5029054053461"
+  ],
+  "brand": {
+    "id": "416",
+    "name": "Hakle",
+    "slug": "hakle"
+  },
+  "categories": [
+    {
+      "code": "BeSS_01040202",
+      "name": "Toilettenpapier",
+      "slug": "supermarkt/haushalt-reinigung/haushaltpapier-toilettenpapier/toilettenpapier",
+      "visible": true,
+      "title": "Eine saubere Sache: Toilettenpapier bei der Migros",
+      "parent_code": "BeSS_010402",
+      "image": {
+        "original": "https://image.migros.ch/original/7434ceb5f07ae350c2b0eceafa0ab5c7040277b6/toilettenpapier.jpg",
+        "stack": "https://image.migros.ch/{stack}/7434ceb5f07ae350c2b0eceafa0ab5c7040277b6/toilettenpapier.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010402",
+      "name": "Haushaltpapier & Toilettenpapier",
+      "slug": "supermarkt/haushalt-reinigung/haushaltpapier-toilettenpapier",
+      "visible": true,
+      "parent_code": "BeSS_0104",
+      "image": {
+        "original": "https://image.migros.ch/original/ab122c4f7f4efda2c2bf26b21b3e683288db089c/haushaltpapier-toilettenpapier.jpg",
+        "stack": "https://image.migros.ch/{stack}/ab122c4f7f4efda2c2bf26b21b3e683288db089c/haushaltpapier-toilettenpapier.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0104",
+      "name": "Haushalt & Reinigung",
+      "slug": "supermarkt/haushalt-reinigung",
+      "visible": true,
+      "title": "Reinigung mit der Migros – Reiniger für Haushalt und Garten",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/e5da3225980543e0c7ddcc443069f331d94e8439/haushalt-reinigung.png",
+        "stack": "https://image.migros.ch/{stack}/e5da3225980543e0c7ddcc443069f331d94e8439/haushalt-reinigung.png"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_Toilettenpapier_PapiertuecherHygieneartikel_HygieneGesundheitBaby",
+        "name": "Toilettenpapier",
+        "slug": "amigos/hygiene-gesundheit-baby/papiertuecher-hygieneartikel/toilettenpapier",
+        "visible": true,
+        "parent_code": "AMIG_CAT_PapiertuecherHygieneartikel_HygieneGesundheitBaby",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_PapiertuecherHygieneartikel_HygieneGesundheitBaby",
+        "name": "Papiertücher & Hygieneartikel",
+        "slug": "amigos/hygiene-gesundheit-baby/papiertuecher-hygieneartikel",
+        "visible": true,
+        "parent_code": "AMIG_CAT_HygieneGesundheitBaby",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_HygieneGesundheitBaby",
+        "name": "Hygiene, Gesundheit & Baby",
+        "slug": "amigos/hygiene-gesundheit-baby",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "features": [
+    {
+      "label_code": "miso_spezielle_eigenschaften",
+      "label": "Spezielle Eigenschaften",
+      "values": [
+        {
+          "value": "pH- Hautneutral, Parfüm- frei"
+        }
+      ],
+      "category_code": "MISO_CLA_WaschenPapierReinigen_Haushalt_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "miso_oeko_hinweis",
+      "label": "Öko Hinweis",
+      "values": [
+        {
+          "value_code": "MISO_papier_aus_nachhaltiger_forstwirtschaft_FSC",
+          "value": "Papier aus nachhaltiger Forstwirtschaft \"FSC\""
+        }
+      ],
+      "category_code": "MISO_CLA_WaschenPapierReinigen_Haushalt_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "miso_anzahl_blaetter_pro_rolle",
+      "label": "Anzahl Blätter / Rolle",
+      "values": [
+        {
+          "value_code": "NUMERIC_42",
+          "value": "42 Blatt",
+          "numeric_value": 42
+        }
+      ],
+      "category_code": "MISO_CLA_ToilettenHaushaltpapier_WaschenPapierReinigen_Haushalt_Alle",
+      "top_fact": false,
+      "unit_code": "blatt",
+      "unit": "Blatt",
+      "unit_symbol": "Blatt"
+    },
+    {
+      "label_code": "miso_produktmehrwert",
+      "label": "Produktmehrwert",
+      "values": [
+        {
+          "value_code": "MISO_hautvertraeglichkeit_dermatologisch_bestaetigt",
+          "value": "Hautverträglichkeit dermatologisch bestätigt"
+        }
+      ],
+      "category_code": "MISO_CLA_ToilettenHaushaltpapier_WaschenPapierReinigen_Haushalt_Alle",
+      "top_fact": false
+    }
+  ],
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    }
+  },
+  "image": {
+    "original": "https://image.migros.ch/original/3f4423d99d00c38c3647b3345907cda65a19191d/hakle-feuchttuecher-sensauberkeit.jpg",
+    "stack": "https://image.migros.ch/{stack}/3f4423d99d00c38c3647b3345907cda65a19191d/hakle-feuchttuecher-sensauberkeit.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/20838f9168f93b6508b04c04302aaad6cf7bcdae/hakle-feuchttuecher-sensauberkeit.png",
+    "stack": "https://image.migros.ch/{stack}/20838f9168f93b6508b04c04302aaad6cf7bcdae/hakle-feuchttuecher-sensauberkeit.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_sortierung",
+      "label": "Sortierung aMigos",
+      "values": [
+        {
+          "value_code": "NUMERIC_510",
+          "value": "510",
+          "numeric_value": 510
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Normalposition"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "ZHKS"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUSTOMS_POSITION",
+      "values": [
+        {
+          "value_code": "NUMERIC_34011100000",
+          "value": "34011100000",
+          "numeric_value": 34011100000
+        }
+      ],
+      "category_code": "MAPI_CUSTOMS_POSITION",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_RISK_CLASS",
+      "values": [
+        {
+          "value_code": "1",
+          "value": "1 (high)"
+        }
+      ],
+      "category_code": "MAPI_RISK_CLASS",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_QUALITY_CHECK",
+      "values": [
+        {
+          "value_code": "00",
+          "value": "Keine Prüfung"
+        }
+      ],
+      "category_code": "MAPI_QUALITY_CHECK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZHKS",
+          "value": "HKS Standardartikel"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "H",
+          "value": "HKS Standard"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "50318",
+          "value": "MARKE"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_LIFECYCLE",
+      "values": [
+        {
+          "value_code": "D",
+          "value": "Detailhandelsartikel"
+        }
+      ],
+      "category_code": "MAPI_LIFECYCLE",
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 1,
+    "percentage": 7.7
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/526205200000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/hakle-feuchttuecher-sensauberkeit",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/526205200000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/hakle-feuchttuecher-sensauberkeit",
+      "type": "info",
+      "purchasable": false
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/226054",
+      "app_url": "leshop:///catalog/article/detail?ean=5029053026060",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/hakle-feuchttuecher-sensauberkeit",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "regional_availability": {
+    "gmaa": {
+      "probability": 56
+    },
+    "gmbs": {
+      "probability": 59
+    },
+    "gmge": {
+      "probability": 54
+    },
+    "gmlu": {
+      "probability": 38
+    },
+    "gmnf": {
+      "probability": 61
+    },
+    "gmos": {
+      "probability": 59
+    },
+    "gmti": {
+      "probability": 50
+    },
+    "gmvd": {
+      "probability": 40
+    },
+    "gmvs": {
+      "probability": 49
+    },
+    "gmzh": {
+      "probability": 59
+    }
+  },
+  "updated_at": "2020-09-16T06:41:40+0200",
+  "base_unit": "CU",
+  "slugs": {
+    "de": "hakle-feuchttuecher-sensauberkeit",
+    "fr": "hakle-lingettes-impregnees-proprete-sensible",
+    "it": "hakle-salviettine-umidificate-delicate-per-la-pulizia"
+  },
+  "receipt_text": "Hakle feucht Sen.S.42",
+  "main_supplier": {
+    "name": "Kimberly-Clark GmbH",
+    "id": "0010007491",
+    "supplier_product_id": "4553178"
+  },
+  "price": {
+    "valid_from": "2019-02-01T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 3.2,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "42 Stk."
+    },
+    "base": {
+      "price": 0.08,
+      "quantity": 1,
+      "unit": "st"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "galaxus_relevant": false,
+  "ratings": {
+    "count_all": 3,
+    "average_all": 5
+  },
+  "data_source": "SAP-X11",
+  "package": {
+    "content": 42,
+    "content_unit_code": "st",
+    "content_unit": "Stück",
+    "net_weight": 0.51,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogramm",
+    "brutto_weight": 0.6,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 0.745,
+    "brutto_volume_unit_code": "cdm",
+    "height": 4.5,
+    "length": 18,
+    "width": 9.2,
+    "unit_dimension": "cm",
+    "price_comparison_content": 1,
+    "size": "42 Stk."
+  },
+  "package_information": {
+    "tu": {
+      "brutto_weight": 6.12,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 7.5,
+      "brutto_volume_unit_code": "cdm",
+      "height": 20,
+      "length": 25,
+      "width": 15,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 12
+    },
+    "cu": {
+      "brutto_weight": 0.6,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0.745,
+      "brutto_volume_unit_code": "cdm",
+      "height": 4.5,
+      "length": 18,
+      "width": 9.2,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "lu": {
+      "brutto_weight": 1151.08,
+      "brutto_weight_unit_code": "kg",
+      "height": 170,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 2208
+    },
+    "lge": {
+      "number_of_base_units": 8
+    }
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "views": [
+    "all",
+    "browse"
+  ]
+}

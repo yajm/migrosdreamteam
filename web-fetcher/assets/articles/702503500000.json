@@ -1,0 +1,700 @@
+{
+  "id": "702503500000",
+  "language": "de",
+  "name": "Cucina & Tavola Sicherheitsbrennpaste",
+  "names": {
+    "name": "Cucina & Tavola Sicherheitsbrennpaste",
+    "short_name": "Sicherheitsbrennpaste"
+  },
+  "slug": "cucina-tavola-sicherheitsbrennpaste",
+  "boss_number": "150423151505",
+  "description": {
+    "text": "F&uuml;r Fondue-Rechaud, 80g\n\nBrenner &ouml;ffnen (Drehverschluss)\nSicherheitsbrennpaste einlegen\nDeckelfolie abziehen\nBrenner schliessen und anz&uuml;nden. Regulieren mit Schieber\n(Text zum Warnpicto hinten weisser Teil neben Picto)\nLeicht entz&uuml;ndlich\n\nVon Z&uuml;ndquellen fernhalten – Nicht rauchen. Bei Ber&uuml;hrung mit den Augen sofort gr&uuml;ndlich mit Wasser absp&uuml;len und Arzt konsultieren. Darf nicht in die H&auml;nde von Kindern gelangen. Bei Verschlucken sofort &auml;rztlicher Rat einholen und Verpackung oder Etikett vorzeigen.",
+    "source": "PEX"
+  },
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03"
+  },
+  "tags": [
+    "source-pex",
+    "near-non-food",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7624500479598"
+  ],
+  "brand": {
+    "id": "NF1",
+    "name": "Cucina & Tavola",
+    "slug": "cucina-tavola",
+    "image": {
+      "original": "https://image.migros.ch/original/ec18c12011ab778b7756486a090e13866fc1eaf1/cucina-tavola.jpg",
+      "stack": "https://image.migros.ch/{stack}/ec18c12011ab778b7756486a090e13866fc1eaf1/cucina-tavola.jpg"
+    }
+  },
+  "categories": [
+    {
+      "code": "BeSS_01040903",
+      "name": "Table Cooking",
+      "slug": "supermarkt/haushalt-reinigung/kueche/table-cooking",
+      "visible": true,
+      "title": "Fondue, Raclette und Wok: Essen mit Spass",
+      "parent_code": "BeSS_010409",
+      "image": {
+        "original": "https://image.migros.ch/original/3d1d88512c73d73ef4df6451bf3a37fe63a2ebe6/table-cooking.jpg",
+        "stack": "https://image.migros.ch/{stack}/3d1d88512c73d73ef4df6451bf3a37fe63a2ebe6/table-cooking.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010409",
+      "name": "Küche",
+      "slug": "supermarkt/haushalt-reinigung/kueche",
+      "visible": true,
+      "title": "Artikel für die Küche aus Ihrer Migros – gut & günstig!",
+      "parent_code": "BeSS_0104",
+      "image": {
+        "original": "https://image.migros.ch/original/90120e4cc3d5d74e017d4b91bbdcb1da29eb70a6/kueche.jpg",
+        "stack": "https://image.migros.ch/{stack}/90120e4cc3d5d74e017d4b91bbdcb1da29eb70a6/kueche.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0104",
+      "name": "Haushalt & Reinigung",
+      "slug": "supermarkt/haushalt-reinigung",
+      "visible": true,
+      "title": "Reinigung mit der Migros – Reiniger für Haushalt und Garten",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/e5da3225980543e0c7ddcc443069f331d94e8439/haushalt-reinigung.png",
+        "stack": "https://image.migros.ch/{stack}/e5da3225980543e0c7ddcc443069f331d94e8439/haushalt-reinigung.png"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_KerzenAnzuendhilfen_LeuchtmittelKerzen_HaushaltReinigung",
+        "name": "Kerzen & Anzündhilfen",
+        "slug": "amigos/haushalt-reinigung/leuchtmittel-kerzen/kerzen-anzuendhilfen",
+        "visible": true,
+        "parent_code": "AMIG_CAT_LeuchtmittelKerzen_HaushaltReinigung",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_LeuchtmittelKerzen_HaushaltReinigung",
+        "name": "Leuchtmittel & Kerzen",
+        "slug": "amigos/haushalt-reinigung/leuchtmittel-kerzen",
+        "visible": true,
+        "parent_code": "AMIG_CAT_HaushaltReinigung",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_HaushaltReinigung",
+        "name": "Haushalt & Reinigung",
+        "slug": "amigos/haushalt-reinigung",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ],
+    [
+      {
+        "code": "AMIG_CAT_SonstigeKuechenartikel_Kueche_HaushaltReinigung",
+        "name": "Sonstige Küchenartikel",
+        "slug": "amigos/haushalt-reinigung/kueche/sonstige-kuechenartikel",
+        "visible": true,
+        "parent_code": "AMIG_CAT_Kueche_HaushaltReinigung",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_Kueche_HaushaltReinigung",
+        "name": "Küche",
+        "slug": "amigos/haushalt-reinigung/kueche",
+        "visible": true,
+        "parent_code": "AMIG_CAT_HaushaltReinigung",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_HaushaltReinigung",
+        "name": "Haushalt & Reinigung",
+        "slug": "amigos/haushalt-reinigung",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "features": [
+    {
+      "label_code": "miso_material",
+      "label": "Material",
+      "values": [
+        {
+          "value_code": "MISO_material_ethanol",
+          "value": "Ethanol"
+        }
+      ],
+      "category_code": "MISO_CLA_Kueche_Haushalt_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "miso_farbe",
+      "label": "Farbe",
+      "values": [
+        {
+          "value_code": "MISO_farbe_blau",
+          "value": "blau"
+        }
+      ],
+      "category_code": "MISO_CLA_Kueche_Haushalt_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "miso_fuer_lebensmittel_geeignet",
+      "label": "Für Lebensmittel geeignet",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "Nein",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MISO_CLA_Kueche_Haushalt_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "CHEMICALS_WARNING",
+      "label": "Warnhinweis",
+      "values": [
+        {
+          "value": "Vor Gebrauch stets Kennzeichnung und Produktinformationen lesen."
+        }
+      ],
+      "category_code": "CHEMICALS_WARNING",
+      "top_fact": false
+    }
+  ],
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    }
+  },
+  "image": {
+    "original": "https://image.migros.ch/original/43eddc5919b75a69d4ec7c82ef3251ef5cbd21a2/cucina-tavola-sicherheitsbrennpaste.jpg",
+    "stack": "https://image.migros.ch/{stack}/43eddc5919b75a69d4ec7c82ef3251ef5cbd21a2/cucina-tavola-sicherheitsbrennpaste.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/cfd5cf4b0a4d20190518b63da76456fc19737a6f/cucina-tavola-sicherheitsbrennpaste.png",
+    "stack": "https://image.migros.ch/{stack}/cfd5cf4b0a4d20190518b63da76456fc19737a6f/cucina-tavola-sicherheitsbrennpaste.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_nein",
+          "value": "Nein"
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_RETURNABLE",
+      "label": "Rückgabe",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "true",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MAPI_RETURNABLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_EXCLUDE_FROM_COMPARISON_ENGINES",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "false",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_EXCLUDE_FROM_COMPARISON_ENGINES",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_DEFAULT_LOGISTIC_TYPE",
+      "values": [
+        {
+          "value_code": "55",
+          "value": "Versandart Paket"
+        }
+      ],
+      "category_code": "MAPI_DEFAULT_LOGISTIC_TYPE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Normalposition"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "HART"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUSTOMS_POSITION",
+      "values": [
+        {
+          "value_code": "NUMERIC_36069090900",
+          "value": "36069090900",
+          "numeric_value": 36069090900
+        }
+      ],
+      "category_code": "MAPI_CUSTOMS_POSITION",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_RISK_CLASS",
+      "values": [
+        {
+          "value_code": "1",
+          "value": "1 (high)"
+        }
+      ],
+      "category_code": "MAPI_RISK_CLASS",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_QUALITY_CHECK",
+      "values": [
+        {
+          "value_code": "00",
+          "value": "Keine Prüfung"
+        }
+      ],
+      "category_code": "MAPI_QUALITY_CHECK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_KUBE_TUKA",
+      "values": [
+        {
+          "value_code": "BLANK",
+          "value": "KUBE und TUKA nicht zugelassen"
+        }
+      ],
+      "category_code": "MAPI_KUBE_TUKA",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HART",
+          "value": "Hartwaren  Handelsware"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "H",
+          "value": "Hartwaren"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "50931",
+          "value": "TABLE COOKING ZUBEHOER"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 1,
+    "percentage": 7.7
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/702503500000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/cucina-tavola-sicherheitsbrennpaste",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/702503500000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/cucina-tavola-sicherheitsbrennpaste",
+      "type": "info",
+      "purchasable": false
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/71510",
+      "app_url": "leshop:///catalog/article/detail?ean=7624500479598",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/cucina-tavola-sicherheitsbrennpaste",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "regional_availability": {
+    "gmaa": {
+      "probability": 96
+    },
+    "gmbs": {
+      "probability": 100
+    },
+    "gmge": {
+      "probability": 79
+    },
+    "gmlu": {
+      "probability": 97
+    },
+    "gmnf": {
+      "probability": 96
+    },
+    "gmos": {
+      "probability": 97
+    },
+    "gmti": {
+      "probability": 100
+    },
+    "gmvd": {
+      "probability": 95
+    },
+    "gmvs": {
+      "probability": 85
+    },
+    "gmzh": {
+      "probability": 93
+    }
+  },
+  "updated_at": "2020-09-16T06:10:53+0200",
+  "online_shop_relevant": true,
+  "base_unit": "CU",
+  "slugs": {
+    "de": "cucina-tavola-sicherheitsbrennpaste",
+    "fr": "cucina-tavola-gel-combustible-de-securite",
+    "it": "cucina-tavola-gel-combustibile-di-sicurezza"
+  },
+  "receipt_text": "Brennpaste 3er Set",
+  "main_supplier": {
+    "name": "Frike Chemicals AG",
+    "id": "0010008933"
+  },
+  "price": {
+    "valid_from": "2018-01-30T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 2.7,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "3 Stk."
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "colors": [
+    {
+      "label": "Blau",
+      "hex": "#0000FF",
+      "group": "Blau",
+      "group_hex": "#0000FF"
+    },
+    {
+      "label": "blau",
+      "hex": "#0000FF",
+      "group": "Blau",
+      "group_hex": "#0000FF"
+    }
+  ],
+  "galaxus_relevant": true,
+  "ratings": {
+    "count_all": 2,
+    "average_all": 3
+  },
+  "data_source": "SAP-X12",
+  "origins": {
+    "producing_country": "Schweiz"
+  },
+  "chemicals_declaration": {
+    "release_date": "2019-02-14T16:19:31+0100",
+    "supplier_id": "0010008933",
+    "supplier_description": "Frike Chemicals AG",
+    "hazard_statements": [
+      {
+        "code": "H225",
+        "label": "Flüssigkeit und Dampf leicht entzündbar."
+      }
+    ],
+    "precautionary_statements": [
+      {
+        "code": "P102",
+        "label": "Darf nicht in die Hände von Kindern gelangen."
+      },
+      {
+        "code": "P210",
+        "label": "Von Hitze, heissen Oberflächen, Funken, offenen Flammen sowie anderen Zündquellenarten fernhalten. Nicht rauchen."
+      },
+      {
+        "code": "P302_352",
+        "label": "BEI KONTAKT MIT DER HAUT: Mit viel Wasser und Seife waschen."
+      },
+      {
+        "code": "P370_378",
+        "label": "Bei Brand: … zum Löschen verwenden."
+      },
+      {
+        "code": "P501_B",
+        "label": "Inhalt/Behälter der kommunalen Sammelstelle zuführen"
+      }
+    ],
+    "storage_class": {
+      "code": "LK3A",
+      "label": "3 Entzündliche flüssige Stoffe (Flammpunkt bis 55 °C)"
+    },
+    "tunnel_restriction": {
+      "code": "TK_DE",
+      "label": "D/E"
+    },
+    "transport_category": {
+      "code": "BK2",
+      "label": "2"
+    },
+    "hazard_classes": [
+      {
+        "code": "GK03",
+        "label": "Klasse 3 Entzündbare flüssige Stoffe"
+      }
+    ],
+    "un_number": {
+      "code": "UN1170",
+      "label": "UN 1170"
+    },
+    "signal_word": {
+      "code": "SW01",
+      "label": "Gefahr"
+    },
+    "cpid_number": "336419-29 (MGB 20.03.2014)",
+    "chem_voc_concentration": 78.845,
+    "poison_cabinet": false,
+    "packaging_exceeds_limited_quantity": false,
+    "chemical_quantity_limit": 20000,
+    "hazard_pictograms": [
+      {
+        "original": "https://image.migros.ch/original/45c0793944b0697e7b8b20b514a368ecbeea0633/GHS02.jpg",
+        "code": "GHS02",
+        "description": "Flamme",
+        "stack": "https://image.migros.ch/{stack}/45c0793944b0697e7b8b20b514a368ecbeea0633/GHS02.jpg"
+      }
+    ]
+  },
+  "package": {
+    "content": 240,
+    "content_unit_code": "g",
+    "content_unit": "Gramm",
+    "net_weight": 0.361,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogramm",
+    "brutto_weight": 0.38,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 0.676,
+    "brutto_volume_unit_code": "cdm",
+    "height": 2.7,
+    "length": 27.2,
+    "width": 9.2,
+    "unit_dimension": "cm",
+    "size": "3 Stk."
+  },
+  "package_information": {
+    "cu": {
+      "brutto_weight": 0.38,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0.676,
+      "brutto_volume_unit_code": "cdm",
+      "height": 2.7,
+      "length": 27.2,
+      "width": 9.2,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "tuv": {
+      "brutto_weight": 1.8,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 5.32,
+      "brutto_volume_unit_code": "cdm",
+      "height": 10,
+      "length": 28,
+      "width": 19,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 6
+    },
+    "tue": {
+      "brutto_weight": 2.166,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0.001,
+      "brutto_volume_unit_code": "ccm",
+      "height": 0.1,
+      "length": 0.1,
+      "width": 0.1,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 6
+    },
+    "lu": {
+      "number_of_base_units": 1536
+    }
+  },
+  "related_products": {
+    "reference_recommendations": {
+      "product_ids": [
+        "702504600000",
+        "702504500000",
+        "702504300000"
+      ]
+    }
+  },
+  "quantity_on_stock": 7614,
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "recipe_ingredient_ids": [
+    "10000"
+  ],
+  "views": [
+    "all",
+    "browse"
+  ]
+}

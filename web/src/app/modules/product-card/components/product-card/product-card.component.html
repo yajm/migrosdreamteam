@@ -3,7 +3,10 @@
   <div class="pl-3 flex-grow">
     <div class="text-xl text-gray-700">{{productInfo?.name}}</div>
     <div class="text-base text-gray-500">{{productInfo?.regulated_description}}</div>
-    <div class="text-sm">500 kcal, 80g CO2, 5.50 CHF</div>
+    <div class="text-sm">
+      <span class="mr-2">20 kcal</span>
+      <span *ngIf="productInfo.price.item?.price">{{productInfo.price.item?.price | number: '1.2'}} CHF</span>
+    </div>
   </div>
   <app-score class="flex-shrink-0">2.9</app-score>
 </a>

@@ -1,0 +1,651 @@
+{
+  "id": "505121300000",
+  "language": "de",
+  "name": "Optimum Mücken- und Fliegenstopp",
+  "names": {
+    "name": "Optimum Mücken- und Fliegenstopp",
+    "short_name": "Mücken- und Fliegenstopp"
+  },
+  "slug": "optimum-muecken-und-fliegenstopp-505121300000",
+  "boss_number": "150126830505",
+  "description": {
+    "text": "Optimum M&uuml;cken- und Fliegenstopp Nachf&uuml;ll-Flasche Geruchslos mit Kindersicherung",
+    "source": "PEX"
+  },
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03"
+  },
+  "tags": [
+    "source-pex",
+    "near-non-food",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7613312060834",
+    "7613312060841"
+  ],
+  "brand": {
+    "id": "134",
+    "name": "Optimum",
+    "slug": "optimum"
+  },
+  "categories": [
+    {
+      "code": "BeSS_010403",
+      "name": "Insektizide",
+      "slug": "supermarkt/haushalt-reinigung/insektizide",
+      "visible": true,
+      "parent_code": "BeSS_0104",
+      "image": {
+        "original": "https://image.migros.ch/original/da2a51364e41c928bbbd2d014487984def0938cb/insektizide.jpg",
+        "stack": "https://image.migros.ch/{stack}/da2a51364e41c928bbbd2d014487984def0938cb/insektizide.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0104",
+      "name": "Haushalt & Reinigung",
+      "slug": "supermarkt/haushalt-reinigung",
+      "visible": true,
+      "title": "Reinigung mit der Migros – Reiniger für Haushalt und Garten",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/e5da3225980543e0c7ddcc443069f331d94e8439/haushalt-reinigung.png",
+        "stack": "https://image.migros.ch/{stack}/e5da3225980543e0c7ddcc443069f331d94e8439/haushalt-reinigung.png"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_InsektizideDuenger_Haushalt_HaushaltReinigung",
+        "name": "Insektizide & Dünger",
+        "slug": "amigos/haushalt-reinigung/haushalt/insektizide-duenger",
+        "visible": true,
+        "parent_code": "AMIG_CAT_Haushalt_HaushaltReinigung",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_Haushalt_HaushaltReinigung",
+        "name": "Haushalt",
+        "slug": "amigos/haushalt-reinigung/haushalt",
+        "visible": true,
+        "parent_code": "AMIG_CAT_HaushaltReinigung",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_HaushaltReinigung",
+        "name": "Haushalt & Reinigung",
+        "slug": "amigos/haushalt-reinigung",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "features": [
+    {
+      "label_code": "miso_spezielle_eigenschaften",
+      "label": "Spezielle Eigenschaften",
+      "values": [
+        {
+          "value": "Geruchslos, 50 Tage/Nächte à 8 Stunden wirksam"
+        }
+      ],
+      "category_code": "MISO_CLA_WaschenPapierReinigen_Haushalt_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "miso_gefahrenhinweise",
+      "label": "Gefahrenhinweise",
+      "values": [
+        {
+          "value": "Sehr giftig für Wasserorganismen mit langfristiger Wirkung. Darf nicht in die Hände von Kindern gelangen. Vor der Anwendung Lebens- und Futtermittel, Vogelkäfige und Aquarien entfernen oder dicht verschliessen. Dauerbelastung in nicht oder schlecht belüfteten Räumen vermeiden. Anwendung nur bei Insektenvorkommen. Nicht geeignet für Räume, in denen sich empfindliche Personen oder ältere Menschen oder Kleinkinder aufhalten. Freisetzung in die Umwelt vermeiden."
+        }
+      ],
+      "category_code": "MISO_CLA_WaschenPapierReinigen_Haushalt_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "miso_anwendbarkeit_beschaffenheit_form",
+      "label": "Form",
+      "values": [
+        {
+          "value_code": "MISO_refill",
+          "value": "Refill"
+        },
+        {
+          "value_code": "MISO_stecker",
+          "value": "Stecker"
+        }
+      ],
+      "category_code": "MISO_CLA_Insektizide_WaschenPapierReinigen_Haushalt_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "miso_inhalt",
+      "label": "Inhalt",
+      "values": [
+        {
+          "value": "35 ml"
+        }
+      ],
+      "category_code": "MISO_CLA_Insektizide_WaschenPapierReinigen_Haushalt_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "miso_zur_bekaempfung_von",
+      "label": "Zur Bekämpfung von",
+      "values": [
+        {
+          "value_code": "MISO_fliegen",
+          "value": "Fliegen"
+        },
+        {
+          "value_code": "MISO_muecken",
+          "value": "Mücken"
+        },
+        {
+          "value_code": "MISO_tiegermuecken",
+          "value": "Tiegermücken"
+        }
+      ],
+      "category_code": "MISO_CLA_Insektizide_WaschenPapierReinigen_Haushalt_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "miso_wirkung",
+      "label": "Wirkung",
+      "values": [
+        {
+          "value_code": "MISO_langzeitwirkung",
+          "value": "Langzeitwirkung"
+        },
+        {
+          "value_code": "MISO_sofortbekaempfung",
+          "value": "Sofortbekämpfung"
+        }
+      ],
+      "category_code": "MISO_CLA_Insektizide_WaschenPapierReinigen_Haushalt_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "CHEMICALS_WARNING",
+      "label": "Warnhinweis",
+      "values": [
+        {
+          "value": "Vor Gebrauch stets Kennzeichnung und Produktinformationen lesen."
+        }
+      ],
+      "category_code": "CHEMICALS_WARNING",
+      "top_fact": false
+    }
+  ],
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    }
+  },
+  "image": {
+    "original": "https://image.migros.ch/original/6222de76ee1f63f6045b81d6d4d57fe099471d1f/optimum-muecken-und-fliegenstopp.jpg",
+    "stack": "https://image.migros.ch/{stack}/6222de76ee1f63f6045b81d6d4d57fe099471d1f/optimum-muecken-und-fliegenstopp.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/296cc06de64ac4329ccb1e00553c5780cc836bc0/optimum-muecken-und-fliegenstopp.png",
+    "stack": "https://image.migros.ch/{stack}/296cc06de64ac4329ccb1e00553c5780cc836bc0/optimum-muecken-und-fliegenstopp.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_sortierung",
+      "label": "Sortierung aMigos",
+      "values": [
+        {
+          "value_code": "NUMERIC_210",
+          "value": "210",
+          "numeric_value": 210
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Normalposition"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "ZHKS"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUSTOMS_POSITION",
+      "values": [
+        {
+          "value_code": "NUMERIC_38089190",
+          "value": "38089190",
+          "numeric_value": 38089190
+        }
+      ],
+      "category_code": "MAPI_CUSTOMS_POSITION",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_RISK_CLASS",
+      "values": [
+        {
+          "value_code": "1",
+          "value": "1 (high)"
+        }
+      ],
+      "category_code": "MAPI_RISK_CLASS",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_QUALITY_CHECK",
+      "values": [
+        {
+          "value_code": "00",
+          "value": "Keine Prüfung"
+        }
+      ],
+      "category_code": "MAPI_QUALITY_CHECK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZHKS",
+          "value": "HKS Standardartikel"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "H",
+          "value": "HKS Standard"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "50217",
+          "value": ""
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_LIFECYCLE",
+      "values": [
+        {
+          "value_code": "D",
+          "value": "Detailhandelsartikel"
+        }
+      ],
+      "category_code": "MAPI_LIFECYCLE",
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 1,
+    "percentage": 7.7
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/505121300000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/optimum-muecken-und-fliegenstopp-505121300000",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/505121300000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/optimum-muecken-und-fliegenstopp-505121300000",
+      "type": "info",
+      "purchasable": false
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/217394",
+      "app_url": "leshop:///catalog/article/detail?ean=7613312060834",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/optimum-muecken-und-fliegenstopp-505121300000",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "regional_availability": {
+    "gmaa": {
+      "probability": 97
+    },
+    "gmbs": {
+      "probability": 89
+    },
+    "gmge": {
+      "probability": 90
+    },
+    "gmlu": {
+      "probability": 94
+    },
+    "gmnf": {
+      "probability": 96
+    },
+    "gmos": {
+      "probability": 99
+    },
+    "gmti": {
+      "probability": 100
+    },
+    "gmvd": {
+      "probability": 95
+    },
+    "gmvs": {
+      "probability": 82
+    },
+    "gmzh": {
+      "probability": 93
+    }
+  },
+  "updated_at": "2020-09-16T06:01:32+0200",
+  "base_unit": "CU",
+  "slugs": {
+    "de": "optimum-muecken-und-fliegenstopp-505121300000",
+    "fr": "optimum-antimous-tique-et-antimouche",
+    "it": "optimum-antizanzare-e-antimosche-505121300000"
+  },
+  "receipt_text": "Optimum Mü-/Flie.stopp",
+  "main_supplier": {
+    "name": "Reckhaus AG",
+    "id": "0010006167",
+    "supplier_product_id": "710"
+  },
+  "price": {
+    "valid_from": "2018-01-29T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 5.9,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "35ml"
+    },
+    "base": {
+      "price": 1.69,
+      "quantity": 10,
+      "unit": "ml"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 4,
+    "average_all": 4.75
+  },
+  "data_source": "SAP-X11",
+  "chemicals_declaration": {
+    "release_date": "2017-04-30T18:24:23+0200",
+    "supplier_id": "0010006167",
+    "supplier_description": "Reckhaus AG",
+    "hazard_statements": [
+      {
+        "code": "H410",
+        "label": "Sehr giftig für Wasserorganismen mit langfristiger Wirkung."
+      }
+    ],
+    "precautionary_statements": [
+      {
+        "code": "P102",
+        "label": "Darf nicht in die Hände von Kindern gelangen."
+      },
+      {
+        "code": "P262",
+        "label": "Nicht in die Augen, auf die Haut oder auf die Kleidung gelangen lassen."
+      },
+      {
+        "code": "P273",
+        "label": "Freisetzung in die Umwelt vermeiden."
+      },
+      {
+        "code": "P301_310",
+        "label": "BEI VERSCHLUCKEN: Sofort GIFTINFORMATIONSZENTRUM/Arzt/… anrufen."
+      },
+      {
+        "code": "P501_A",
+        "label": "Inhalt/Behälter der Problemabfallentsorgung zuführen"
+      }
+    ],
+    "storage_class": {
+      "code": "LK10",
+      "label": "10 Brennbare Flüssigkeiten soweit nicht LGK 3A bzw. LGK 3B"
+    },
+    "tunnel_restriction": {
+      "code": "TK_0",
+      "label": "keine Restriktion"
+    },
+    "transport_category": {
+      "code": "BK3",
+      "label": "3"
+    },
+    "hazard_classes": [
+      {
+        "code": "GK13",
+        "label": "Klasse 9 Verschiedene gefährliche Stoffe und Gegenstände."
+      }
+    ],
+    "un_number": {
+      "code": "UN3082",
+      "label": "UN 3082"
+    },
+    "signal_word": {
+      "code": "SW02",
+      "label": "Achtung"
+    },
+    "biozid_number_ch": "CHZN3997",
+    "poison_cabinet": false,
+    "packaging_exceeds_limited_quantity": false,
+    "chemical_quantity_limit": 2000,
+    "hazard_pictograms": [
+      {
+        "original": "https://image.migros.ch/original/aa931585f24cc872965b3cfd658bcee85015f0de/GHS09.jpg",
+        "code": "GHS09",
+        "description": "Umwelt",
+        "stack": "https://image.migros.ch/{stack}/aa931585f24cc872965b3cfd658bcee85015f0de/GHS09.jpg"
+      }
+    ],
+    "declaration_required_ingredients": [
+      {
+        "name": "Transfluthrin (1.75%)",
+        "cas_number": "118712-89-3"
+      },
+      {
+        "name": "Prallethrin (0.20%)",
+        "cas_number": "23031-36-9"
+      }
+    ]
+  },
+  "package": {
+    "content": 35,
+    "content_unit_code": "ml",
+    "content_unit": "Mililiter",
+    "net_weight": 0.055,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogramm",
+    "brutto_weight": 0.061,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 0.168,
+    "brutto_volume_unit_code": "cdm",
+    "height": 7.6,
+    "length": 4.7,
+    "width": 4.7,
+    "unit_dimension": "cm",
+    "price_comparison_content": 10,
+    "size": "35ml"
+  },
+  "package_information": {
+    "tu": {
+      "brutto_weight": 0.68,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 2.7,
+      "brutto_volume_unit_code": "cdm",
+      "height": 9,
+      "length": 20,
+      "width": 15,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 12
+    },
+    "cu": {
+      "brutto_weight": 0.061,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0.168,
+      "brutto_volume_unit_code": "cdm",
+      "height": 7.6,
+      "length": 4.7,
+      "width": 4.7,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "lu": {
+      "brutto_weight": 480.04,
+      "brutto_weight_unit_code": "kg",
+      "height": 180,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 6912
+    }
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "views": [
+    "all",
+    "browse"
+  ]
+}

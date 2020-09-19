@@ -1,0 +1,582 @@
+{
+  "id": "500151400000",
+  "language": "de",
+  "name": "Total Waschmittel Liquid",
+  "names": {
+    "name": "Total Waschmittel Liquid",
+    "short_name": "Waschmittel Liquid"
+  },
+  "slug": "total-waschmittel-liquid-500151400000",
+  "boss_number": "150126753005",
+  "description": {
+    "text": "F&uuml;r helle und weisse Textilien geeignet. Strahlend weisse W&auml;sche dank integriertem Weisskraftverst&auml;rker. Porentiefe Sauberkeit schon bei niedrigen Temperaturen. Frei von Mikroplastik.",
+    "source": "PEX"
+  },
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03"
+  },
+  "tags": [
+    "source-pex",
+    "near-non-food",
+    "migipedia",
+    "validity-range-not-set",
+    "leshop-discounted",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7630028621579",
+    "7630028621562"
+  ],
+  "brand": {
+    "id": "188",
+    "name": "Total",
+    "slug": "total",
+    "image": {
+      "original": "https://image.migros.ch/original/4cdcf1de6073d82c361b783f7f40dde5d8df352e/total.jpg",
+      "stack": "https://image.migros.ch/{stack}/4cdcf1de6073d82c361b783f7f40dde5d8df352e/total.jpg"
+    }
+  },
+  "categories": [
+    {
+      "code": "BeSS_0104010101",
+      "name": "Flüssigwaschmittel",
+      "slug": "supermarkt/haushalt-reinigung/waschen-reinigen-pflege/waschmittel/fluessigwaschmittel",
+      "visible": true,
+      "parent_code": "BeSS_01040101",
+      "image": {
+        "original": "https://image.migros.ch/original/8de0603f228616e0ab5d85e81b6cebde4317577d/fluessigwaschmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/8de0603f228616e0ab5d85e81b6cebde4317577d/fluessigwaschmittel.jpg"
+      },
+      "level": 5
+    },
+    {
+      "code": "BeSS_01040101",
+      "name": "Waschmittel",
+      "slug": "supermarkt/haushalt-reinigung/waschen-reinigen-pflege/waschmittel",
+      "visible": true,
+      "title": "Waschmittel bei der Migros: Porentief rein und duftig fein",
+      "parent_code": "BeSS_010401",
+      "image": {
+        "original": "https://image.migros.ch/original/0076911ffef80a8fbf18236ab7ad28fcb069512a/waschmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/0076911ffef80a8fbf18236ab7ad28fcb069512a/waschmittel.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010401",
+      "name": "Waschen, Reinigen & Pflege",
+      "slug": "supermarkt/haushalt-reinigung/waschen-reinigen-pflege",
+      "visible": true,
+      "parent_code": "BeSS_0104",
+      "image": {
+        "original": "https://image.migros.ch/original/4187e91a67904fcbbbb5b901717fabe280e0ad24/waschen-reinigen-pflege.jpg",
+        "stack": "https://image.migros.ch/{stack}/4187e91a67904fcbbbb5b901717fabe280e0ad24/waschen-reinigen-pflege.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0104",
+      "name": "Haushalt & Reinigung",
+      "slug": "supermarkt/haushalt-reinigung",
+      "visible": true,
+      "title": "Reinigung mit der Migros – Reiniger für Haushalt und Garten",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/e5da3225980543e0c7ddcc443069f331d94e8439/haushalt-reinigung.png",
+        "stack": "https://image.migros.ch/{stack}/e5da3225980543e0c7ddcc443069f331d94e8439/haushalt-reinigung.png"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_Fluessigwaschmittel_WaschenTextilpflege_HaushaltReinigung",
+        "name": "Flüssigwaschmittel",
+        "slug": "amigos/haushalt-reinigung/waschen-textilpflege/fluessigwaschmittel",
+        "visible": true,
+        "parent_code": "AMIG_CAT_WaschenTextilpflege_HaushaltReinigung",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_WaschenTextilpflege_HaushaltReinigung",
+        "name": "Waschen & Textilpflege",
+        "slug": "amigos/haushalt-reinigung/waschen-textilpflege",
+        "visible": true,
+        "parent_code": "AMIG_CAT_HaushaltReinigung",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_HaushaltReinigung",
+        "name": "Haushalt & Reinigung",
+        "slug": "amigos/haushalt-reinigung",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "features": [
+    {
+      "label_code": "miso_inhalt",
+      "label": "Inhalt",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2 l",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MISO_CLA_Waschmittel_WaschenPapierReinigen_Haushalt_Alle",
+      "top_fact": false,
+      "unit_code": "l",
+      "unit": "Liter",
+      "unit_symbol": "l"
+    }
+  ],
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    }
+  },
+  "image": {
+    "original": "https://image.migros.ch/original/9843f7f99a5a309014bb43858112c73e6a848808/total-waschmittel-liquid.jpg",
+    "stack": "https://image.migros.ch/{stack}/9843f7f99a5a309014bb43858112c73e6a848808/total-waschmittel-liquid.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/ee1e85384a7c503ad9f573b2822c8a0e965f5870/total-waschmittel-liquid.png",
+    "stack": "https://image.migros.ch/{stack}/ee1e85384a7c503ad9f573b2822c8a0e965f5870/total-waschmittel-liquid.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_RETURNABLE",
+      "label": "Rückgabe",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "true",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MAPI_RETURNABLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_EXCLUDE_FROM_COMPARISON_ENGINES",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "false",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_EXCLUDE_FROM_COMPARISON_ENGINES",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Normalposition"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "ZHKS"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_RISK_CLASS",
+      "values": [
+        {
+          "value_code": "2",
+          "value": "2 (medium)"
+        }
+      ],
+      "category_code": "MAPI_RISK_CLASS",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_QUALITY_CHECK",
+      "values": [
+        {
+          "value_code": "00",
+          "value": "Keine Prüfung"
+        }
+      ],
+      "category_code": "MAPI_QUALITY_CHECK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZHKS",
+          "value": "HKS Standardartikel"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "H",
+          "value": "HKS Standard"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "50298",
+          "value": "FLUESSIG"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_LIFECYCLE",
+      "values": [
+        {
+          "value_code": "D",
+          "value": "Detailhandelsartikel"
+        }
+      ],
+      "category_code": "MAPI_LIFECYCLE",
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 1,
+    "percentage": 7.7
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/500151400000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/total-waschmittel-liquid-500151400000",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/500151400000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/total-waschmittel-liquid-500151400000",
+      "type": "info",
+      "purchasable": false
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/222031",
+      "app_url": "leshop:///catalog/article/detail?ean=7630028621579",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/total-waschmittel-liquid-500151400000",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "regional_availability": {
+    "gmaa": {
+      "probability": 99
+    },
+    "gmbs": {
+      "probability": 100
+    },
+    "gmge": {
+      "probability": 92
+    },
+    "gmlu": {
+      "probability": 97
+    },
+    "gmnf": {
+      "probability": 96
+    },
+    "gmos": {
+      "probability": 100
+    },
+    "gmti": {
+      "probability": 100
+    },
+    "gmvd": {
+      "probability": 95
+    },
+    "gmvs": {
+      "probability": 100
+    },
+    "gmzh": {
+      "probability": 95
+    }
+  },
+  "updated_at": "2020-09-16T06:50:52+0200",
+  "base_unit": "CU",
+  "slugs": {
+    "de": "total-waschmittel-liquid-500151400000",
+    "fr": "total-produit-de-lessive-liquid",
+    "it": "total-detersivo-liquido"
+  },
+  "receipt_text": "Total Liquid 2l",
+  "new_product": {
+    "from": "2019-10-21T00:00:00+0200",
+    "to": "2019-11-04T00:00:00+0100"
+  },
+  "main_supplier": {
+    "name": "MIFA AG FRENKENDORF",
+    "id": "0003030000",
+    "supplier_product_id": "335255"
+  },
+  "price": {
+    "valid_from": "2020-09-15T00:00:00+0200",
+    "valid_to": "2020-09-28T23:59:59+0200",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 8.45,
+      "original_price": 16.9,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "2L"
+    },
+    "discount": {
+      "id": "1450211",
+      "region": "national",
+      "start_date": "2020-09-15T00:00:00+0200",
+      "end_date": "2020-09-28T23:59:59+0200",
+      "publication_date": "2020-09-13T00:00:00+0200",
+      "discount_amount": "50%",
+      "discount_regions": [
+        "national"
+      ],
+      "reference_product_id": "500148200000",
+      "discount_type": "aktion",
+      "discount_type_id": "005",
+      "discount_type_label": "GRAB Angebot CHF beim Kauf ab X Stueck",
+      "organisation": "09",
+      "cooperative": "mgb",
+      "image": {
+        "tags": [
+          "list-image"
+        ],
+        "original": "https://image.migros.ch/original/94b1323c21f0afcc029a7e1ee0608380e48335a2/alle-total-waschmittel.jpg",
+        "source": "PriceRepository",
+        "stack": "https://image.migros.ch/{stack}/94b1323c21f0afcc029a7e1ee0608380e48335a2/alle-total-waschmittel.jpg"
+      },
+      "image_transparent": {
+        "original": "https://image.migros.ch/original/94b1323c21f0afcc029a7e1ee0608380e48335a2/alle-total-waschmittel.png",
+        "source": "PriceRepository",
+        "stack": "https://image.migros.ch/{stack}/94b1323c21f0afcc029a7e1ee0608380e48335a2/alle-total-waschmittel.png"
+      },
+      "badge": {
+        "original": "https://image.migros.ch/original/76987fcbdc8b4c08ad561b35edf31a12360839a1.png",
+        "stack": "https://image.migros.ch/{stack}/76987fcbdc8b4c08ad561b35edf31a12360839a1.png"
+      },
+      "location_planning_type": "01",
+      "reduction_type_id": "01",
+      "special_advertisement": false,
+      "description": "Alle Total Waschmittel",
+      "discount_hint": "<strong>ab 2 </strong><strong>Stück, </strong><strong>50% günstiger, </strong>z.B. Color, 2.475 kg, <strong>7.95 </strong>statt 15.90, Angebot gilt nur vom 15.9. bis 28.9.2020, solange Vorrat.",
+      "high_performer": false,
+      "collective_discount": true,
+      "instead_of": "statt",
+      "price": 8.45,
+      "original_price": 16.9,
+      "disclaimer": "Gültigkeit siehe Angebots-Detailseite.\r\nBei allen Angeboten sind M-Budget und bereits reduzierte Artikel ausgenommen.\r\nBei Aktionen können bei der Verrechnung auf dem Kassabon Rundungsdifferenzen zu Gunsten des Kunden entstehen.",
+      "source": "PriceRepository",
+      "boss_number": "150126753505",
+      "discount_role_id": "2000000002",
+      "discount_role_label": "M: Wochenangebot Typ I",
+      "last_imported": "2020-09-07T21:15:02+0200"
+    },
+    "discount_hint": "<strong>ab 2 </strong><strong>Stück, </strong>Angebot gilt nur vom 15.9. bis 28.9.2020, solange Vorrat."
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "galaxus_relevant": true,
+  "ratings": {
+    "count_all": 1,
+    "average_all": 4
+  },
+  "data_source": "SAP-X11",
+  "package": {
+    "content": 2,
+    "content_unit_code": "l",
+    "content_unit": "Liter",
+    "net_weight": 2.16,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogramm",
+    "brutto_weight": 2.191,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 7.257,
+    "brutto_volume_unit_code": "cdm",
+    "height": 29.5,
+    "length": 12,
+    "width": 20.5,
+    "unit_dimension": "cm",
+    "price_comparison_content": 1,
+    "size": "2L"
+  },
+  "package_information": {
+    "tu": {
+      "brutto_weight": 13.556,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 28.416,
+      "brutto_volume_unit_code": "cdm",
+      "height": 29.6,
+      "length": 24,
+      "width": 40,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 6
+    },
+    "cu": {
+      "brutto_weight": 2.191,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 7.257,
+      "brutto_volume_unit_code": "cdm",
+      "height": 29.5,
+      "length": 12,
+      "width": 20.5,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "lu": {
+      "brutto_weight": 702.8,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 1564.8,
+      "brutto_volume_unit_code": "cdm",
+      "height": 163,
+      "length": 120,
+      "width": 80,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 300
+    },
+    "lge": {
+      "number_of_base_units": 1
+    },
+    "kar": {
+      "number_of_base_units": 1
+    }
+  },
+  "reindex_date": "2020-09-28T23:59:59+0200",
+  "views": [
+    "all",
+    "browse"
+  ]
+}

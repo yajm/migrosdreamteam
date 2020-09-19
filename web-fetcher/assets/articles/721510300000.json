@@ -1,0 +1,584 @@
+{
+  "id": "721510300000",
+  "language": "de",
+  "name": "BIC Tipp-Ex Soft Grip",
+  "names": {
+    "name": "BIC Tipp-Ex Soft Grip",
+    "short_name": "Tipp-Ex Soft Grip"
+  },
+  "slug": "bic-tipp-ex-soft-grip",
+  "boss_number": "150626951515",
+  "description": {
+    "text": "Komfortabler Korrekturroller f&uuml;r den t&auml;glichen Gebrauch. Gerade bei l&auml;ngeren handschriftlichen Textarbeiten lassen sich Fehler kaum vermeiden. Denn fr&uuml;her oder sp&auml;ter unterl&auml;uft uns allen ein Missgeschick. Mit dem Tipp-Ex Soft Grip Korrekturroller haben Sie die richtige L&ouml;sung parat, um jeden Fehler im Nu unsichtbar zu machen. Der Tipp-Ex Soft Grip setzt Masst&auml;be in Sachen Komfort: Der latexfreie Gummigriff erm&ouml;glicht eine bequeme Handhabung – sowohl f&uuml;r Links- als auch Rechtsh&auml;nder. Dank seinem 4.2 mm breiten und 10 m langen Korrekturband lassen Sie ihre Schreibfehler im Handumdrehen verschwinden.",
+    "source": "PEX"
+  },
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03"
+  },
+  "tags": [
+    "source-pex",
+    "near-non-food",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "3086123302235",
+    "3086129003389"
+  ],
+  "brand": {
+    "id": "352",
+    "name": "BIC",
+    "slug": "bic",
+    "image": {
+      "original": "https://image.migros.ch/original/56bac06b8cd90ac832a7b4c8c218e161245f811d/bic.jpg",
+      "stack": "https://image.migros.ch/{stack}/56bac06b8cd90ac832a7b4c8c218e161245f811d/bic.jpg"
+    }
+  },
+  "categories": [
+    {
+      "code": "BeSS_01051403",
+      "name": "Korrigieren",
+      "slug": "supermarkt/papeterie-bueromaterial/schreiben-notieren/korrigieren",
+      "visible": true,
+      "parent_code": "BeSS_010514",
+      "level": 4
+    },
+    {
+      "code": "BeSS_010514",
+      "name": "Schreiben & Notieren",
+      "slug": "supermarkt/papeterie-bueromaterial/schreiben-notieren",
+      "visible": true,
+      "parent_code": "BeSS_0105",
+      "level": 3
+    },
+    {
+      "code": "BeSS_0105",
+      "name": "Papeterie & Büromaterial",
+      "slug": "supermarkt/papeterie-bueromaterial",
+      "visible": true,
+      "title": "Papeterie und Büromaterialien sind immer in Ihrer Migros zu finden",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/6b764b62482953963a5ab3263b9bd3a69cbf436a/papeterie-bueromaterial.jpg",
+        "stack": "https://image.migros.ch/{stack}/6b764b62482953963a5ab3263b9bd3a69cbf436a/papeterie-bueromaterial.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_Buerozubehoer_Bueromaterial_HaushaltReinigung",
+        "name": "Bürozubehör",
+        "slug": "amigos/haushalt-reinigung/bueromaterial/buerozubehoer",
+        "visible": true,
+        "parent_code": "AMIG_CAT_Bueromaterial_HaushaltReinigung",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_Bueromaterial_HaushaltReinigung",
+        "name": "Büromaterial",
+        "slug": "amigos/haushalt-reinigung/bueromaterial",
+        "visible": true,
+        "parent_code": "AMIG_CAT_HaushaltReinigung",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_HaushaltReinigung",
+        "name": "Haushalt & Reinigung",
+        "slug": "amigos/haushalt-reinigung",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ],
+    [
+      {
+        "code": "AMIG_CAT_SchreibenZeichnen_Bueromaterial_HaushaltReinigung",
+        "name": "Schreiben & Zeichnen",
+        "slug": "amigos/haushalt-reinigung/bueromaterial/schreiben-zeichnen",
+        "visible": true,
+        "parent_code": "AMIG_CAT_Bueromaterial_HaushaltReinigung",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_Bueromaterial_HaushaltReinigung",
+        "name": "Büromaterial",
+        "slug": "amigos/haushalt-reinigung/bueromaterial",
+        "visible": true,
+        "parent_code": "AMIG_CAT_HaushaltReinigung",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_HaushaltReinigung",
+        "name": "Haushalt & Reinigung",
+        "slug": "amigos/haushalt-reinigung",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "features": [
+    {
+      "label_code": "miso_anzahl",
+      "label": "Anzahl",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1 Stk.",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MISO_CLA_Bueromaterial_Papeterie_Haushalt_Alle",
+      "top_fact": false,
+      "unit_code": "Stk.",
+      "unit": "Stück",
+      "unit_symbol": "Stk."
+    },
+    {
+      "label_code": "miso_masse_groesse",
+      "label": "Masse / Grösse",
+      "values": [
+        {
+          "value": "10 m x 4.2 mm"
+        }
+      ],
+      "category_code": "MISO_CLA_Bueromaterial_Papeterie_Haushalt_Alle",
+      "top_fact": false
+    }
+  ],
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    }
+  },
+  "image": {
+    "original": "https://image.migros.ch/original/6025115972d9d2246ac66b78c91acee5b989a2d6/bic-tipp-ex-soft-grip.jpg",
+    "stack": "https://image.migros.ch/{stack}/6025115972d9d2246ac66b78c91acee5b989a2d6/bic-tipp-ex-soft-grip.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/1a882ebf9fa2f422e1608860ed1b33eb105837b0/bic-tipp-ex-soft-grip.png",
+    "stack": "https://image.migros.ch/{stack}/1a882ebf9fa2f422e1608860ed1b33eb105837b0/bic-tipp-ex-soft-grip.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_sortierung",
+      "label": "Sortierung aMigos",
+      "values": [
+        {
+          "value_code": "NUMERIC_520",
+          "value": "520",
+          "numeric_value": 520
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_RETURNABLE",
+      "label": "Rückgabe",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "true",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MAPI_RETURNABLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_MAX_ORDER_QUANTITY",
+      "values": [
+        {
+          "value_code": "NUMERIC_99999",
+          "value": "99999",
+          "numeric_value": 99999
+        }
+      ],
+      "category_code": "MAPI_MAX_ORDER_QUANTITY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_EXCLUDE_FROM_COMPARISON_ENGINES",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "false",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_EXCLUDE_FROM_COMPARISON_ENGINES",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_DEFAULT_LOGISTIC_TYPE",
+      "values": [
+        {
+          "value_code": "55",
+          "value": "Versandart Paket"
+        }
+      ],
+      "category_code": "MAPI_DEFAULT_LOGISTIC_TYPE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Normalposition"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "HART"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_RISK_CLASS",
+      "values": [
+        {
+          "value_code": "2",
+          "value": "2 (medium)"
+        }
+      ],
+      "category_code": "MAPI_RISK_CLASS",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_KUBE_TUKA",
+      "values": [
+        {
+          "value_code": "BLANK",
+          "value": "KUBE und TUKA nicht zugelassen"
+        }
+      ],
+      "category_code": "MAPI_KUBE_TUKA",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HART",
+          "value": "Hartwaren  Handelsware"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "H",
+          "value": "Hartwaren"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "57898",
+          "value": "KORRIGIEREN"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 1,
+    "percentage": 7.7
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/721510300000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/bic-tipp-ex-soft-grip",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/721510300000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/bic-tipp-ex-soft-grip",
+      "type": "info",
+      "purchasable": false
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/3514450",
+      "app_url": "leshop:///catalog/article/detail?ean=3086123302235",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/bic-tipp-ex-soft-grip",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "regional_availability": {
+    "gmaa": {
+      "probability": 84
+    },
+    "gmbs": {
+      "probability": 83
+    },
+    "gmge": {
+      "probability": 82
+    },
+    "gmlu": {
+      "probability": 76
+    },
+    "gmnf": {
+      "probability": 88
+    },
+    "gmos": {
+      "probability": 90
+    },
+    "gmti": {
+      "probability": 91
+    },
+    "gmvd": {
+      "probability": 85
+    },
+    "gmvs": {
+      "probability": 67
+    },
+    "gmzh": {
+      "probability": 81
+    }
+  },
+  "updated_at": "2020-09-16T06:48:46+0200",
+  "base_unit": "CU",
+  "slugs": {
+    "de": "bic-tipp-ex-soft-grip",
+    "fr": "bic-tipp-ex-soft-grip",
+    "it": "bic-tipp-ex-soft-grip"
+  },
+  "receipt_text": "Tipp-Ex Compact Roller",
+  "main_supplier": {
+    "name": "Société BIC (Suisse) SA",
+    "id": "0010001511",
+    "supplier_product_id": "900.338"
+  },
+  "price": {
+    "valid_from": "2019-09-01T00:00:00+0200",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 4.6,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "10m"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "galaxus_relevant": false,
+  "data_source": "SAP-X12",
+  "origins": {
+    "producing_country": "Vietnam"
+  },
+  "package": {
+    "content": 1,
+    "content_unit_code": "cu",
+    "net_weight": 0.018,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogramm",
+    "brutto_weight": 0.025,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 0.41,
+    "brutto_volume_unit_code": "cdm",
+    "height": 19.7,
+    "length": 2.6,
+    "width": 8,
+    "unit_dimension": "cm",
+    "size": "10m"
+  },
+  "package_information": {
+    "cu": {
+      "brutto_weight": 0.025,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0.41,
+      "brutto_volume_unit_code": "cdm",
+      "height": 19.7,
+      "length": 2.6,
+      "width": 8,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "tuv": {
+      "brutto_weight": 0.34,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 4.032,
+      "brutto_volume_unit_code": "cdm",
+      "height": 12,
+      "length": 21,
+      "width": 16,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 10
+    },
+    "tue": {
+      "brutto_volume": 3.99,
+      "brutto_volume_unit_code": "cdm",
+      "height": 12.2,
+      "length": 21.1,
+      "width": 15.5,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 10
+    },
+    "lu": {
+      "number_of_base_units": 2240
+    },
+    "lge": {
+      "number_of_base_units": 280
+    },
+    "moq": {
+      "number_of_base_units": 280
+    }
+  },
+  "related_products": {
+    "reference_recommendations": {
+      "product_ids": [
+        "721501200000",
+        "720559900000",
+        "720559800000",
+        "720562000000",
+        "720652200000"
+      ]
+    }
+  },
+  "quantity_on_stock": 2430,
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "views": [
+    "all",
+    "browse"
+  ]
+}

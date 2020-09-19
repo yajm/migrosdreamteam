@@ -1,0 +1,555 @@
+{
+  "id": "103540000000",
+  "language": "de",
+  "name": "Ponti Crema Aceto Balsamico",
+  "names": {
+    "name": "Ponti Crema Aceto Balsamico"
+  },
+  "slug": "ponti-crema-aceto-balsamico",
+  "boss_number": "011011281520",
+  "description": {
+    "text": "Bringen Sie Originalit&auml;t und Geschmack in ihre K&uuml;che mit der Cr&eacute;me aus &bdquo;Aceto Balsamico di Modena IGP&ldquo; Ponti. Mit seinem typischen Aroma von gekochtem Traubenmost, dekorieren und verfeinern Sie ihre S&uuml;ss- und Salzspeisen.",
+    "source": "PIM"
+  },
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "validity-range-not-set",
+    "source-qim-allergens",
+    "source-qim-nutritionfacts",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "8001010076568",
+    "8001010079866"
+  ],
+  "brand": {
+    "id": "213",
+    "name": "Ponti",
+    "slug": "ponti"
+  },
+  "categories": [
+    {
+      "code": "BeSS_0101141003",
+      "name": "Essig & Balsamico",
+      "slug": "supermarkt/lebensmittel/pasta-zutaten-konserven/essig-oele/essig-balsamico",
+      "visible": true,
+      "title": "Essig und Balsamico in Ihrer Migros kaufen",
+      "parent_code": "BeSS_01011410",
+      "image": {
+        "original": "https://image.migros.ch/original/0cb21b1102655448589da28a5fa4dd5567100f2e/essig-balsamico.jpg",
+        "stack": "https://image.migros.ch/{stack}/0cb21b1102655448589da28a5fa4dd5567100f2e/essig-balsamico.jpg"
+      },
+      "level": 5
+    },
+    {
+      "code": "BeSS_01011410",
+      "name": "Essig & Öle",
+      "slug": "supermarkt/lebensmittel/pasta-zutaten-konserven/essig-oele",
+      "visible": true,
+      "title": "Essig und öl &ndash; das Beste zum Kochen aus Ihrer Migros",
+      "parent_code": "BeSS_010114",
+      "image": {
+        "original": "https://image.migros.ch/original/1ba9cadbce840aaa77db246b510e97af4f66c258/essig-oele.jpg",
+        "stack": "https://image.migros.ch/{stack}/1ba9cadbce840aaa77db246b510e97af4f66c258/essig-oele.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010114",
+      "name": "Pasta, Zutaten & Konserven",
+      "slug": "supermarkt/lebensmittel/pasta-zutaten-konserven",
+      "visible": true,
+      "title": "Pasta aus Ihrer Migros: alles rund um Teigwaren",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/6d0964bbb34b8e041ba4d74fc0c90b149907f46a/pasta-zutaten-konserven.jpg",
+        "stack": "https://image.migros.ch/{stack}/6d0964bbb34b8e041ba4d74fc0c90b149907f46a/pasta-zutaten-konserven.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_Essig_EssigOelSpeisefett_Grundnahrungsmittel",
+        "name": "Essig",
+        "slug": "amigos/grundnahrungsmittel/essig-oel-speisefett/essig",
+        "visible": true,
+        "parent_code": "AMIG_CAT_EssigOelSpeisefett_Grundnahrungsmittel",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_EssigOelSpeisefett_Grundnahrungsmittel",
+        "name": "Essig, Öl & Speisefett",
+        "slug": "amigos/grundnahrungsmittel/essig-oel-speisefett",
+        "visible": true,
+        "parent_code": "AMIG_CAT_Grundnahrungsmittel",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_Grundnahrungsmittel",
+        "name": "Grundnahrungsmittel",
+        "slug": "amigos/grundnahrungsmittel",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "nutrition_facts": {
+    "standard": {
+      "nutrients": [
+        {
+          "code": "PIM_NUT_ENERGIE",
+          "name": "Energie",
+          "pictogram_name": "Energie",
+          "category": "BIG9",
+          "quantity": 819,
+          "nutrition_operator": "~",
+          "quantity_unit": "kJ",
+          "quantity_alternate": 195,
+          "quantity_alternate_unit": "kcal"
+        },
+        {
+          "code": "PIM_NUT_FETT",
+          "name": "Fett",
+          "pictogram_name": "Fett",
+          "category": "BIG9",
+          "quantity": 0,
+          "nutrition_operator": "~",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_FETT_GES",
+          "name": "davon gesättigte Fettsäuren",
+          "pictogram_name": "gesättigte Fettsäuren",
+          "category": "BIG9",
+          "quantity": 0,
+          "nutrition_operator": "~",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_KOHLENHY",
+          "name": "Kohlenhydrate",
+          "category": "BIG9",
+          "quantity": 44,
+          "nutrition_operator": "~",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_ZUCKER",
+          "name": "davon Zucker",
+          "pictogram_name": "Zuckerarten",
+          "category": "BIG9",
+          "quantity": 41,
+          "nutrition_operator": "~",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_GES_BALL",
+          "name": "Ballaststoffe",
+          "category": "BIG9",
+          "quantity": 1.1,
+          "nutrition_operator": "~",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_PROTEINE",
+          "name": "Eiweiss",
+          "category": "BIG9",
+          "quantity": 0.9,
+          "nutrition_operator": "~",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_KOCHSALZ",
+          "name": "Salz",
+          "pictogram_name": "Salz",
+          "category": "BIG9",
+          "quantity": 0.14,
+          "nutrition_operator": "~",
+          "quantity_unit": "g"
+        }
+      ],
+      "base_quantity": 100,
+      "base_unit": "g",
+      "serving_size_description": "100 Gramm",
+      "preparation_state": "UNPREPARED"
+    }
+  },
+  "features": [
+    {
+      "label_code": "MISO_produktionsanspruch",
+      "label": "Produktionsverfahren",
+      "values": [
+        {
+          "value_code": "MISO_produktionsanspruch_freivonglutamat",
+          "value": "Frei von Glutamat"
+        }
+      ],
+      "category_code": "MISO_CLA_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_flasche",
+          "value": "Flasche"
+        }
+      ],
+      "category_code": "MISO_CLA_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zubereitungsverfahren",
+      "label": "Hinweise für die Zubereitung",
+      "values": [
+        {
+          "value_code": "MISO_zubereitungsverfahren_zummarinierengeeignet",
+          "value": "Zum Marinieren geeignet"
+        }
+      ],
+      "category_code": "MISO_CLA_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_gewuerzegeeignetfuer",
+      "label": "Gewürze geeignet für",
+      "values": [
+        {
+          "value_code": "MISO_gewuerzegeeignetfuer_fleischsalatundvielesmehr",
+          "value": "Fleisch, Salat und vieles mehr"
+        },
+        {
+          "value_code": "MISO_gewuerzegeeignetfuer_suessspeisen",
+          "value": "Süssspeisen"
+        }
+      ],
+      "category_code": "MISO_CLA_GewuerzeKonservierungsstoffeExtrakte_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_essigsorte",
+      "label": "Essigsorte",
+      "values": [
+        {
+          "value_code": "MISO_essigsorte_balsamicoessig",
+          "value": "Balsamico-Essig"
+        }
+      ],
+      "category_code": "MISO_CLA_EssigKochweine_GewuerzeKonservierungsstoffeExtrakte_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    }
+  ],
+  "allergens": [
+    {
+      "code": "ALLG_SULFIT",
+      "name": "Schwefeldioxid und Sulfite",
+      "contamination_code": "VORHANDEN",
+      "contamination": "vorhanden"
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/27890bd5b92256e270016022ef430298a2b75c26/ponti-crema-aceto-balsamico.jpg",
+    "stack": "https://image.migros.ch/{stack}/27890bd5b92256e270016022ef430298a2b75c26/ponti-crema-aceto-balsamico.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/eccf79d160a1741649625dd7e62a12c7ebe21e41/ponti-crema-aceto-balsamico.png",
+    "stack": "https://image.migros.ch/{stack}/eccf79d160a1741649625dd7e62a12c7ebe21e41/ponti-crema-aceto-balsamico.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_sortierung",
+      "label": "Sortierung aMigos",
+      "values": [
+        {
+          "value_code": "NUMERIC_360",
+          "value": "360",
+          "numeric_value": 360
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "M",
+          "value": "Kolonial Standard"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "10139",
+          "value": "ESSIG/BALSA/CONDIM.BIANCO"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/103540000000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/ponti-crema-aceto-balsamico",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/103540000000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/ponti-crema-aceto-balsamico",
+      "type": "info",
+      "purchasable": false
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/218340",
+      "app_url": "leshop:///catalog/article/detail?ean=8001010076568",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/ponti-crema-aceto-balsamico",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "regional_availability": {
+    "gmaa": {
+      "probability": 98
+    },
+    "gmbs": {
+      "probability": 96
+    },
+    "gmge": {
+      "probability": 87
+    },
+    "gmlu": {
+      "probability": 97
+    },
+    "gmnf": {
+      "probability": 98
+    },
+    "gmos": {
+      "probability": 100
+    },
+    "gmti": {
+      "probability": 94
+    },
+    "gmvd": {
+      "probability": 95
+    },
+    "gmvs": {
+      "probability": 92
+    },
+    "gmzh": {
+      "probability": 95
+    }
+  },
+  "updated_at": "2020-09-16T05:41:20+0200",
+  "base_unit": "CU",
+  "slugs": {
+    "de": "ponti-crema-aceto-balsamico",
+    "fr": "ponti-crema-aceto-balsamico",
+    "it": "ponti-crema-aceto-balsamico"
+  },
+  "receipt_text": "Crema Aceto Balsamico",
+  "main_supplier": {
+    "name": "Ponti S.p.A.",
+    "id": "0010000328",
+    "supplier_product_id": "2134"
+  },
+  "price": {
+    "valid_from": "2018-02-26T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 6.3,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "250g"
+    },
+    "base": {
+      "price": 2.52,
+      "quantity": 100,
+      "unit": "g"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 8,
+    "average_all": 4.75
+  },
+  "data_source": "SAP-X11",
+  "package": {
+    "content": 250,
+    "content_unit_code": "g",
+    "content_unit": "Gramm",
+    "net_weight": 0.25,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogramm",
+    "brutto_weight": 0.275,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 0.44,
+    "brutto_volume_unit_code": "cdm",
+    "height": 16.9,
+    "length": 5.1,
+    "width": 5.1,
+    "unit_dimension": "cm",
+    "price_comparison_content": 100,
+    "size": "250g"
+  },
+  "package_information": {
+    "tu": {
+      "brutto_weight": 1.72,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 3.208,
+      "brutto_volume_unit_code": "cdm",
+      "height": 17,
+      "length": 16.7,
+      "width": 11.3,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 6
+    },
+    "cu": {
+      "brutto_weight": 0.275,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0.44,
+      "brutto_volume_unit_code": "cdm",
+      "height": 16.9,
+      "length": 5.1,
+      "width": 5.1,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "lu": {
+      "brutto_weight": 498.55,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 1108.8,
+      "brutto_volume_unit_code": "cdm",
+      "height": 123.2,
+      "length": 120,
+      "width": 80,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1722
+    }
+  },
+  "declarations": {
+    "food": {
+      "features": [
+        {
+          "label_code": "GDSN_M281_NetContent",
+          "label": "Nettofüllmenge Wert",
+          "values": [
+            {
+              "value_code": "NUMERIC_250",
+              "value": "250",
+              "numeric_value": 250
+            }
+          ],
+          "category_code": "GDSN",
+          "top_fact": false,
+          "unit_code": "g"
+        },
+        {
+          "label_code": "GDSN_M236_IsVariableUnit",
+          "label": "Mengenvariabler Artikel",
+          "values": [
+            {
+              "value_code": "BOOLEAN_FALSE",
+              "value": "false",
+              "boolean_value": false
+            }
+          ],
+          "category_code": "GDSN",
+          "top_fact": false
+        }
+      ]
+    }
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "recipe_ingredient_ids": [
+    "17320",
+    "71688",
+    "61994"
+  ],
+  "views": [
+    "all",
+    "browse"
+  ]
+}
