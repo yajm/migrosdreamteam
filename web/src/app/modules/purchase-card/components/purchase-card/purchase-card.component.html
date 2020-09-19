@@ -1,8 +1,8 @@
 <a [routerLink]="['/purchase', purchase.einkaufID]" class="text-xl text-gray-700 px-3 py-5 flex items-center">
   <div class="flex-grow">
     <div class="text-sm">Purchase from Migros</div>
-    <div>{{purchase.profitKstNameDe}}</div>
-    <div class="text-base text-gray-600">on {{purchase.time | date}}</div>
+    <div>{{purchase.time | date: 'dd.MM.yyyy'}}</div>
+    <div class="text-base text-gray-600">on {{purchase.profitKstNameDe}}</div>
   </div>
   <app-score>8.4</app-score>
 </a>
