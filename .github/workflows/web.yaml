@@ -23,10 +23,5 @@ jobs:
         working-directory: web
       - run: npm run build --prod
         working-directory: web
-      - name: Deploy to foo-bar.surge.sh
-        uses: dswistowski/surge-sh-action@v1
-        with:
-          domain: 'migros-challenge.surge.sh'
-          project: 'web/dist/web'
-          login: ${{ secrets.surge_login }}
-          token: ${{ secrets.surge_token }}
+      - run: npm install -g surge
+      - run: surge web/dist/web migros-challenge.surge.sh --token ${{ secrets.surge_token }}
