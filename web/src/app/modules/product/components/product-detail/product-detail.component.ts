@@ -30,10 +30,14 @@ export class ProductDetailComponent implements OnInit {
     } else {
       this.backUrl = ['/product'];
     }
-    this.productState.getInfo(this.productId).then((productInfo) => {
+    this.productState.getInfo(this.productId).then(async (productInfo) => {
       this.productInfo = productInfo;
       this.loading = false;
+      this.products = await this.productState.getSimilarProducts(
+        productInfo.categoryCode,
+        0,
+        10
+      );
     });
-    this.products = await this.productState.getProducts(0, 10);
   }
 }

@@ -34,8 +34,9 @@ async function main() {
     const deepestCategory = getDeepestCategory(article);
     const reducedArticle = {
       data: {
+        id: article.id,
         name: article.name,
-        categorySlug: deepestCategory?.slug,
+        categoryCode: deepestCategory?.code,
         regulated_description: article.regulated_description,
         image: {
           original: article.image.original,
@@ -48,10 +49,10 @@ async function main() {
       file,
     };
     if (deepestCategory) {
-      if (!categorySlugs[deepestCategory.slug]) {
-        categorySlugs[deepestCategory.slug] = [];
+      if (!categorySlugs[deepestCategory.code]) {
+        categorySlugs[deepestCategory.code] = [];
       }
-      categorySlugs[deepestCategory.slug].push(reducedArticle);
+      categorySlugs[deepestCategory.code].push(reducedArticle);
     }
     reducedArticles.push(reducedArticle);
   }
@@ -84,6 +85,13 @@ async function main() {
       article.data.priceScore =
         1 - (article.data.price - priceMin) / priceRange;
     }
+  }
+
+  for (const categorySlug of Object.keys(categorySlugs)) {
+    writeJson(
+      path.join(targetDir, 'categories', categorySlug + '.json'),
+      categorySlugs[categorySlug].map((a) => a.data.id)
+    );
   }
 
   for (const reducedArticle of reducedArticles) {
