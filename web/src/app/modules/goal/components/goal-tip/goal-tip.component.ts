@@ -33,7 +33,7 @@ export class GoalTipComponent implements OnInit {
     this.scoreKey = this.route.snapshot.params.score;
     this.goal = await this.goalState.getGoal();
     this.best = this.goal[`${this.scoreKey}ScoreBest`];
-    this.worst = this.goal[`${this.scoreKey}ScoreWorst`];
+    this.worst = this.goal[`${this.scoreKey}ScoreWorst`].reverse();
     this.select('best');
   }
 }
