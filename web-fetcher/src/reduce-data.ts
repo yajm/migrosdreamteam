@@ -29,18 +29,10 @@ async function main() {
       image: {
         original: article.image.original,
       },
-      price: {
-        item: {
-          price: article.price.item ? article.price.item.price : null,
-        },
-      },
-      nutrition_facts: {
-        standard: {
-          nutrients: article.nutrition_facts
-            ? article.nutrition_facts.standard
-            : [],
-        },
-      },
+      price: article.price.item ? article.price.item.price : null,
+      kcal: article.nutrition_facts?.standard?.nutrients?.find(
+        (s) => s.code === 'PIM_NUT_ENERGIE'
+      )?.quantity_alternate,
     });
   }
 }
