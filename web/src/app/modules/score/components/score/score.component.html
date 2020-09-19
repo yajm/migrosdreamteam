@@ -1,1 +1,2 @@
-<ng-content></ng-content>
+<ng-container *ngIf="value !== null && value !== undefined">{{value * 10 | number: '1.1-1'}}</ng-container>
+<ng-container *ngIf="value === null || value === undefined">-</ng-container>

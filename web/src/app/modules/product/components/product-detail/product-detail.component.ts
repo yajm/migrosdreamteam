@@ -25,7 +25,7 @@ export class ProductDetailComponent implements OnInit {
     if (!this.productInfo) {
       return null;
     }
-    return this.productInfo[`${this.sort}Score`] * 10;
+    return this.productInfo[`${this.sort}Score`];
   }
 
   constructor(

@@ -27,7 +27,7 @@ export class ProductCardComponent implements OnInit {
   loading = true;
 
   get score(): number {
-    return this.product[`${this.scoreKey}Score`] * 10;
+    return this.product[`${this.scoreKey}Score`];
   }
 
   verifyClick(e: Event): void {

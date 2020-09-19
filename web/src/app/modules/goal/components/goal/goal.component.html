@@ -6,8 +6,8 @@
 
   <a [routerLink]="['/goal', 'co2']" class="w-full list-item">
     <div class="text-xl text-gray-700 px-3 pt-4 pb-2 flex items-center">
-      <app-score class="mr-2">
-        {{goal?.co2Score * 10 | number: '1.1-1'}}
+      <app-score [value]="goal?.co2Score" class="mr-2">
+
       </app-score>
       <div class="flex-grow">CO<sub>2</sub> Score</div>
 
@@ -23,8 +23,7 @@
 
   <a [routerLink]="['/goal', 'kcal']" class="w-full list-item">
     <div class="text-xl text-gray-700 px-3 pt-4 pb-2 flex items-center">
-      <app-score class="mr-2">
-        {{goal?.kcalScore * 10 | number: '1.1-1'}}
+      <app-score [value]="goal?.kcalScore" class="mr-2">
       </app-score>
       <div class="flex-grow">Kcal Score</div>
 
@@ -41,8 +40,7 @@
 
   <a [routerLink]="['/goal', 'price']" class="w-full list-item">
     <div class="text-xl text-gray-700 px-3 pt-4 pb-2 flex items-center">
-      <app-score class="mr-2">
-        {{goal?.priceScore * 10 | number: '1.1-1'}}
+      <app-score [value]="goal?.priceScore" class="mr-2">
       </app-score>
       <div class="flex-grow">Price Score</div>
 

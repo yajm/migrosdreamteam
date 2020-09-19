@@ -6,5 +6,6 @@ export interface Purchase {
   genossenschaftsCode: string;
   time: string;
   totalScore: number;
+  totalPrice: number;
   articleCount: number;
 }

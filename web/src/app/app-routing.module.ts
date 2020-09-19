@@ -24,11 +24,6 @@ const routes: Routes = [
     loadChildren: () =>
       import('./modules/goal/goal.module').then((m) => m.GoalModule),
   },
-  {
-    path: 'setting',
-    loadChildren: () =>
-      import('./modules/setting/setting.module').then((m) => m.SettingModule),
-  },
 ];
 
 @NgModule({

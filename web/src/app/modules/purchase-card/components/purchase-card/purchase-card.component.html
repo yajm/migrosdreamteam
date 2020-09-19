@@ -1,9 +1,9 @@
 <a [routerLink]="['/purchase', purchase.einkaufID]" class="text-xl text-gray-700 px-3 py-5 flex items-center">
-  <div class="flex-grow">
+  <div class="flex-grow flex flex-col items-start">
     <div class="text-sm">Purchase from Migros</div>
     <div>{{purchase.time | date: 'dd.MM.yyyy'}} - <span class="text-orange-600">{{purchase.articleCount}} articles</span></div>
-    <div class="text-base text-gray-600">{{purchase.profitKstNameDe}}</div>
+    <div class="text-sm bg-gray-400 rounded text-gray-600 px-2 mr-2">{{purchase.totalPrice | number: '1.2-2'}} CHF</div>
   </div>
-  <app-score>{{purchase.totalScore * 10 | number: '1.1-1'}}</app-score>
+  <app-score [value]="purchase.totalScore"></app-score>
 </a>
 

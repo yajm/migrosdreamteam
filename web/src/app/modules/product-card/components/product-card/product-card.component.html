@@ -10,7 +10,7 @@
           <span class="pill" *ngIf="product?.price && scoreKey==='price'">{{product.price | number: '1.2'}} CHF</span>
         </div>
       </div>
-      <app-score class="flex-shrink-0">{{score | number: '1.1-1'}}</app-score>
+      <app-score class="flex-shrink-0" [value]="score"></app-score>
     </div>
   </div>
 </a>

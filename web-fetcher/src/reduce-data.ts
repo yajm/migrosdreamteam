@@ -75,6 +75,7 @@ function reduceArticle(file: string, article: any): ReducedArticle {
 
 export interface PurchaseArticle {
   artikelID: string;
+  menge: number;
 }
 
 async function main() {
@@ -192,9 +193,20 @@ async function main() {
     const articles = purchaseArticles[purchase.einkaufID].map(
       (a) => articleMap[a.artikelID]
     );
+    const price = purchaseArticles[purchase.einkaufID].reduce(
+      (total, article) => {
+        const price = articleMap[article.artikelID].price;
+        if (price !== null && price !== undefined) {
+          return total + price * article.menge;
+        }
+        return total;
+      },
+      0
+    );
     const articlesWithScore = articles.filter(
       (a) => a.totalScore !== null && a.totalScore !== undefined
     );
+    purchase.totalPrice = price;
     purchase.totalScore =
       articlesWithScore.reduce(
         (value, article) => article.totalScore + value,

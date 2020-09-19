@@ -10,7 +10,7 @@
         <div class="text-xl text-gray-900">{{productInfo?.name}}</div>
         <div class="text-sm text-gray-500">{{productInfo?.regulated_description}}</div>
       </div>
-      <app-score class="flex-shrink-0">{{score | number: '1.1-1'}}</app-score>
+      <app-score class="flex-shrink-0" [value]="score"></app-score>
     </div>
 
     <app-switcher class="my-3" [(selected)]="sort"></app-switcher>
