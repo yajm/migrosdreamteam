@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/alternatives",
+      "handler": "alternatives.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/alternatives/count",
+      "handler": "alternatives.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/alternatives/:id",
+      "handler": "alternatives.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/alternatives",
+      "handler": "alternatives.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/alternatives/:id",
+      "handler": "alternatives.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/alternatives/:id",
+      "handler": "alternatives.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

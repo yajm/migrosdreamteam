@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "alternatives",
+  "info": {
+    "name": "Alternatives"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "EAN": {
+      "type": "biginteger"
+    },
+    "AlternativeEAN": {
+      "type": "biginteger"
+    },
+    "UpdateInfo": {
+      "type": "string"
+    }
+  }
+}

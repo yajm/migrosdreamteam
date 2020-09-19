@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "co2data",
+  "info": {
+    "name": "Co2data"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "EAN": {
+      "type": "biginteger"
+    },
+    "Co2": {
+      "type": "decimal"
+    },
+    "UpdateInfo": {
+      "type": "string"
+    }
+  }
+}
