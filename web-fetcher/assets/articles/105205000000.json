@@ -1,0 +1,311 @@
+{
+  "id": "105205000000",
+  "language": "de",
+  "name": "Sun Queen Aprikosen",
+  "slug": "sun-queen-aprikosen",
+  "boss_number": "010410241020",
+  "description": {
+    "text": "Aprokosen, getrocknet und entsteint",
+    "source": "PIM"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7610200010322"
+  ],
+  "brand": {
+    "id": "178",
+    "name": "Sun Queen",
+    "slug": "sun-queen",
+    "image": {
+      "original": "https://image.migros.ch/original/6035c048bc686d3e8e595bd52f53b7732470d741/sun-queen.jpg",
+      "stack": "https://image.migros.ch/{stack}/6035c048bc686d3e8e595bd52f53b7732470d741/sun-queen.jpg"
+    }
+  },
+  "categories": [
+    {
+      "code": "BeSS_0101030903",
+      "name": "Nüsse & Trockenfrüchte",
+      "slug": "supermarkt/lebensmittel/baeckerei-confiserie-backen/backzutaten/nuesse-trockenfruechte",
+      "visible": true,
+      "title": "Nüsse und Trockenfrüchte in der Migros kaufen",
+      "parent_code": "BeSS_01010309",
+      "image": {
+        "original": "https://image.migros.ch/original/d0db63260c4a2577e990dd7c4e5b2902db80742c/nuesse-trockenfruechte.jpg",
+        "stack": "https://image.migros.ch/{stack}/d0db63260c4a2577e990dd7c4e5b2902db80742c/nuesse-trockenfruechte.jpg"
+      },
+      "level": 5
+    },
+    {
+      "code": "BeSS_01010309",
+      "name": "Backzutaten",
+      "slug": "supermarkt/lebensmittel/baeckerei-confiserie-backen/backzutaten",
+      "visible": true,
+      "title": "Backzutaten von der Migros &ndash; Feines für den Ofen",
+      "parent_code": "BeSS_010103",
+      "image": {
+        "original": "https://image.migros.ch/original/7f4777fff65971e62d70347f2563db0eba17376b/backzutaten.jpg",
+        "stack": "https://image.migros.ch/{stack}/7f4777fff65971e62d70347f2563db0eba17376b/backzutaten.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010103",
+      "name": "Bäckerei, Confiserie & Backen",
+      "slug": "supermarkt/lebensmittel/baeckerei-confiserie-backen",
+      "visible": true,
+      "title": "Backen macht Freude! Alle Zutaten finden Sie in Ihrer Migros",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/04b41cd6f4daedf3061a2a37617d48e992760b35/baeckerei-confiserie-backen.jpg",
+        "stack": "https://image.migros.ch/{stack}/04b41cd6f4daedf3061a2a37617d48e992760b35/baeckerei-confiserie-backen.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_Trockenfruechte_FruechteGemuese",
+        "name": "Trockenfrüchte",
+        "slug": "amigos/fruechte-gemuese/trockenfruechte",
+        "visible": true,
+        "parent_code": "AMIG_CAT_FruechteGemuese",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_FruechteGemuese",
+        "name": "Früchte & Gemüse",
+        "slug": "amigos/fruechte-gemuese",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "features": [
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_wiederverschliessbarerzipbeutel",
+          "value": "Wiederverschliessbarer ZIP-Beutel"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_formbeschaffenheitvonobst",
+      "label": "Form/Beschaffenheit",
+      "values": [
+        {
+          "value_code": "MISO_formbeschaffenheitvonobst_stuecke",
+          "value": "Stücke"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_herstellungsverfahrenkochprozess",
+      "label": "Herstellungsverfahren/Kochprozess",
+      "values": [
+        {
+          "value_code": "MISO_herstellungsverfahrenkochprozess_getrocknet",
+          "value": "getrocknet"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_entkerntentsteint",
+      "label": "Entkernt/entsteint",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_wiederverschliessbar",
+      "label": "Wiederverschliessbar",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_geschmackvonobstfruechten",
+      "label": "Geschmack von Obst/Früchten",
+      "values": [
+        {
+          "value_code": "MISO_geschmackvonobstfruechten_aprikose",
+          "value": "Aprikose"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/def1c7cc1f1def0b1a26925b6e73b9aa806d54f9/sun-queen-aprikosen.jpg",
+    "stack": "https://image.migros.ch/{stack}/def1c7cc1f1def0b1a26925b6e73b9aa806d54f9/sun-queen-aprikosen.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/060d5cd713d720dcc2eee67473597f934995d24e/sun-queen-aprikosen.png",
+    "stack": "https://image.migros.ch/{stack}/060d5cd713d720dcc2eee67473597f934995d24e/sun-queen-aprikosen.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_sortierung",
+      "label": "Sortierung aMigos",
+      "values": [
+        {
+          "value_code": "NUMERIC_520",
+          "value": "520",
+          "numeric_value": 520
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "M",
+          "value": "Kolonial Standard"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "10064",
+          "value": "TROCKENFRUECHTE"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/105205000000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/sun-queen-aprikosen",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/105205000000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/sun-queen-aprikosen",
+      "type": "info",
+      "purchasable": false
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/51581",
+      "app_url": "leshop:///catalog/article/detail?ean=7610200010322",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/sun-queen-aprikosen",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "updated_at": "2020-09-16T05:42:00+0200",
+  "receipt_text": "Sun Queen Aprikosen",
+  "price": {
+    "valid_from": "2020-02-24T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 3.95,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "200g"
+    },
+    "base": {
+      "price": 1.98,
+      "quantity": 100,
+      "unit": "g"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 28,
+    "average_all": 3.894736842105
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

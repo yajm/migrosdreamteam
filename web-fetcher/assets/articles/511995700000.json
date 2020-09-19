@@ -1,0 +1,275 @@
+{
+  "id": "511995700000",
+  "language": "de",
+  "name": "Kneipp Shampoo Mandelblüte",
+  "slug": "kneipp-shampoo-mandelbluete",
+  "boss_number": "090321760530",
+  "tags": [
+    "source-pim",
+    "near-non-food",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "4008233111438"
+  ],
+  "brand": {
+    "id": "095",
+    "name": "Kneipp",
+    "slug": "kneipp",
+    "image": {
+      "original": "https://image.migros.ch/original/552acc53ef8eaf307ab5a17588e7a1841f6c73d8/kneipp.jpg",
+      "stack": "https://image.migros.ch/{stack}/552acc53ef8eaf307ab5a17588e7a1841f6c73d8/kneipp.jpg"
+    }
+  },
+  "categories": [
+    {
+      "code": "BeSS_01110101",
+      "name": "Haarpflege",
+      "slug": "supermarkt/beauty/haare/haarpflege",
+      "visible": true,
+      "parent_code": "BeSS_011101",
+      "level": 4
+    },
+    {
+      "code": "BeSS_011101",
+      "name": "Haare",
+      "slug": "supermarkt/beauty/haare",
+      "visible": true,
+      "parent_code": "BeSS_0111",
+      "level": 3
+    },
+    {
+      "code": "BeSS_0111",
+      "name": "Beauty",
+      "slug": "supermarkt/beauty",
+      "visible": true,
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/293925170bd129344f9259c67a15e903f881bef8/beauty.jpg",
+        "stack": "https://image.migros.ch/{stack}/293925170bd129344f9259c67a15e903f881bef8/beauty.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_ShampooPflege_Haarpflege_HygieneGesundheitBaby",
+        "name": "Shampoo & Pflege",
+        "slug": "amigos/hygiene-gesundheit-baby/haarpflege/shampoo-pflege",
+        "visible": true,
+        "parent_code": "AMIG_CAT_Haarpflege_HygieneGesundheitBaby",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_Haarpflege_HygieneGesundheitBaby",
+        "name": "Haarpflege",
+        "slug": "amigos/hygiene-gesundheit-baby/haarpflege",
+        "visible": true,
+        "parent_code": "AMIG_CAT_HygieneGesundheitBaby",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_HygieneGesundheitBaby",
+        "name": "Hygiene, Gesundheit & Baby",
+        "slug": "amigos/hygiene-gesundheit-baby",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "features": [
+    {
+      "label_code": "MISO_geeignet_fuer",
+      "label": "Geeignet für",
+      "values": [
+        {
+          "value_code": "MISO_geeignet_fuer_normaleshaar",
+          "value": "Normales Haar"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_produkttyp",
+      "label": "Produkttyp",
+      "values": [
+        {
+          "value_code": "MISO_produkttyp_shampoo",
+          "value": "Shampoo"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/d5f91c6cca15ac3c4c7e3ea2c090cd73c22ecf95/kneipp-shampoo-mandelbluete.jpg",
+    "stack": "https://image.migros.ch/{stack}/d5f91c6cca15ac3c4c7e3ea2c090cd73c22ecf95/kneipp-shampoo-mandelbluete.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/54d32a22ea8196ce44253853aba544f2d39295f8/kneipp-shampoo-mandelbluete.png",
+    "stack": "https://image.migros.ch/{stack}/54d32a22ea8196ce44253853aba544f2d39295f8/kneipp-shampoo-mandelbluete.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_sortierung",
+      "label": "Sortierung aMigos",
+      "values": [
+        {
+          "value_code": "NUMERIC_840",
+          "value": "840",
+          "numeric_value": 840
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZHKS",
+          "value": "HKS Standardartikel"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_QUALITY_CHECK",
+      "values": [
+        {
+          "value_code": "00",
+          "value": "Keine Prüfung"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_RISK_CLASS",
+      "values": [
+        {
+          "value_code": "2",
+          "value": "2 (medium)"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "H",
+          "value": "HKS Standard"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "50068",
+          "value": "KNEIPP"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUSTOMS_POSITION",
+      "values": [
+        {
+          "value_code": "33051000"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 1,
+    "percentage": 7.7
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/511995700000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/kneipp-shampoo-mandelbluete",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/511995700000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/kneipp-shampoo-mandelbluete",
+      "type": "info",
+      "purchasable": false
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/214289",
+      "app_url": "leshop:///catalog/article/detail?ean=4008233111438",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/kneipp-shampoo-mandelbluete",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "updated_at": "2020-09-15T06:55:58+0200",
+  "receipt_text": "KP Shampoo Mandelblue",
+  "price": {
+    "valid_from": "2018-01-01T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 7.9,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "200ml"
+    },
+    "base": {
+      "price": 3.95,
+      "quantity": 100,
+      "unit": "ml"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 7,
+    "average_all": 3.5
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

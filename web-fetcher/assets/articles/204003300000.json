@@ -1,0 +1,284 @@
+{
+  "id": "204003300000",
+  "language": "de",
+  "name": "Bio Milch Past Flasche",
+  "slug": "bio-milch-past-flasche",
+  "boss_number": "030213205505",
+  "description": {
+    "text": "<p><strong>Aus der Region - Bio&nbsp;Vollmilch Past</strong></p><p>Bio-Vollmilch mit mind. 3,8% Milchfett, pasteurisiert, homogenisiert</p><p>Bio-Zertifizierung: CH-BIO-006, bio.inspecta AG</p>",
+    "source": "PIM"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7610200315328"
+  ],
+  "labels": [
+    {
+      "id": "L53",
+      "name": "Swissness",
+      "slug": "swissness",
+      "image": {
+        "original": "https://image.migros.ch/original/d771bba2f6b08ba42970ea0243c6f8c5a8832f15/swissness.jpg",
+        "stack": "https://image.migros.ch/{stack}/d771bba2f6b08ba42970ea0243c6f8c5a8832f15/swissness.jpg"
+      }
+    },
+    {
+      "id": "L02",
+      "name": "Migros Bio",
+      "slug": "migros-bio",
+      "image": {
+        "original": "https://image.migros.ch/original/f32d1804b8db5760147310b8d6458eb36757b486/migros-bio.jpg",
+        "stack": "https://image.migros.ch/{stack}/f32d1804b8db5760147310b8d6458eb36757b486/migros-bio.jpg"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_0101040702",
+      "name": "Pasteurisierte Milch",
+      "slug": "supermarkt/lebensmittel/milchprodukte-eier/milch-milchgetraenke/pasteurisierte-milch",
+      "visible": true,
+      "parent_code": "BeSS_01010407",
+      "image": {
+        "original": "https://image.migros.ch/original/bd6e7034653b17d231ba17efac3a021fc49933bb/pasteurisierte-milch.jpg",
+        "stack": "https://image.migros.ch/{stack}/bd6e7034653b17d231ba17efac3a021fc49933bb/pasteurisierte-milch.jpg"
+      },
+      "level": 5
+    },
+    {
+      "code": "BeSS_01010407",
+      "name": "Milch & Milchgetränke",
+      "slug": "supermarkt/lebensmittel/milchprodukte-eier/milch-milchgetraenke",
+      "visible": true,
+      "title": "Milchdrinks in Ihrer Migros kaufen",
+      "parent_code": "BeSS_010104",
+      "image": {
+        "original": "https://image.migros.ch/original/bdd298d8e023a8ba56ad01a0c1c075c5047e0582/milch-milchgetraenke.jpg",
+        "stack": "https://image.migros.ch/{stack}/bdd298d8e023a8ba56ad01a0c1c075c5047e0582/milch-milchgetraenke.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010104",
+      "name": "Milchprodukte & Eier",
+      "slug": "supermarkt/lebensmittel/milchprodukte-eier",
+      "visible": true,
+      "title": "Milchprodukte und Eier –",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/6b1ea6c2d41c3ccb21bf05c8dc342f7f55d83deb/milchprodukte-eier.jpg",
+        "stack": "https://image.migros.ch/{stack}/6b1ea6c2d41c3ccb21bf05c8dc342f7f55d83deb/milchprodukte-eier.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "features": [
+    {
+      "label_code": "MISO_mussgekuehltwerden",
+      "label": "Muss gekühlt werden",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_produktionsanspruch",
+      "label": "Produktionsverfahren",
+      "values": [
+        {
+          "value_code": "MISO_produktionsanspruch_ausderregion",
+          "value": "Aus der Region"
+        },
+        {
+          "value_code": "MISO_produktionsanspruch_bioproduktionschweiz",
+          "value": "Bio-Produktion Schweiz"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_flasche",
+          "value": "Flasche"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zusatzangaben",
+      "label": "Zusatzangaben",
+      "values": [
+        {
+          "value_code": "MISO_zusatzangaben_31",
+          "value": "Gekühlt aufbewahren bei max. +5 Grad C."
+        },
+        {
+          "value_code": "MISO_zusatzangaben_310",
+          "value": "Vor Licht geschützt und kühl aufbewahren."
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_artvonmilch",
+      "label": "Art von Milch",
+      "values": [
+        {
+          "value_code": "MISO_artvonmilch_vollmilch",
+          "value": "Vollmilch"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_milchartrohstoff",
+      "label": "Milchart/Rohstoff",
+      "values": [
+        {
+          "value_code": "MISO_milchartrohstoff_kuh",
+          "value": "Kuh"
+        },
+        {
+          "value_code": "MISO_milchartrohstoff_vollmilch",
+          "value": "Vollmilch"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_thermischesverfahren",
+      "label": "Thermisches Verfahren",
+      "values": [
+        {
+          "value_code": "MISO_thermischesverfahren_pasteurisiert",
+          "value": "pasteurisiert"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_homogenisiert",
+      "label": "Homogenisiert",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/a03d6790630851f183508119489be562aa95c776/bio-milch-past-flasche.jpg",
+    "stack": "https://image.migros.ch/{stack}/a03d6790630851f183508119489be562aa95c776/bio-milch-past-flasche.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/b2cddbe02f0b01671444c59457e9516d9f2d6e46/bio-milch-past-flasche.png",
+    "stack": "https://image.migros.ch/{stack}/b2cddbe02f0b01671444c59457e9516d9f2d6e46/bio-milch-past-flasche.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZFRP",
+          "value": "Frische Beschaffung"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "1",
+          "value": "Molki"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "70119",
+          "value": "BIO"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/204003300000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/bio-milch-past-flasche",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/204003300000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/bio-milch-past-flasche",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "updated_at": "2020-09-16T05:47:07+0200",
+  "receipt_text": "Bio Milch Past",
+  "price": {
+    "valid_from": "2018-02-01T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "source": "PriceRepository",
+    "no_price_hint": "Aktueller Tagespreis"
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 20,
+    "average_all": 3.666666666667
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

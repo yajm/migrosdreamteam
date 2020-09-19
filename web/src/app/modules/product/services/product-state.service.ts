@@ -22,6 +22,10 @@ export class ProductStateService {
     return data.slice(skip, skip + take);
   }
 
+  async getSimilarProducts(category: string): Promise<ProductInfo[]> {
+    return await this.assetApi.getCategoryArticles(category);
+  }
+
   async getInfo(id: string): Promise<ProductInfo> {
     return this.assetApi.getProductInfo(id);
   }

@@ -1,0 +1,300 @@
+{
+  "id": "526210400000",
+  "language": "de",
+  "name": "M-Budget Toilettenpapier",
+  "slug": "m-budget-toilettenpapier",
+  "boss_number": "150126812005",
+  "description": {
+    "text": "Toilettenpapier 3-lagig, 100% Recycling. 18 Rollen entsprechen ca. 32 herk&ouml;mmlichen Rollen",
+    "source": "PEX"
+  },
+  "tags": [
+    "source-pex",
+    "near-non-food",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7613269331025",
+    "7613269331032"
+  ],
+  "brand": {
+    "id": "N26",
+    "name": "M-Budget",
+    "slug": "m-budget",
+    "links": {
+      "homepage": {
+        "url": "https://m-budget.migros.ch/de.html",
+        "name": "Homepage",
+        "type": "info",
+        "purchasable": false
+      }
+    },
+    "image": {
+      "original": "https://image.migros.ch/original/1d1a13e240a94a7e1fa8ef99f15ce5b896f3486b/m-budget.jpg",
+      "stack": "https://image.migros.ch/{stack}/1d1a13e240a94a7e1fa8ef99f15ce5b896f3486b/m-budget.jpg"
+    }
+  },
+  "categories": [
+    {
+      "code": "BeSS_01040202",
+      "name": "Toilettenpapier",
+      "slug": "supermarkt/haushalt-reinigung/haushaltpapier-toilettenpapier/toilettenpapier",
+      "visible": true,
+      "title": "Eine saubere Sache: Toilettenpapier bei der Migros",
+      "parent_code": "BeSS_010402",
+      "image": {
+        "original": "https://image.migros.ch/original/7434ceb5f07ae350c2b0eceafa0ab5c7040277b6/toilettenpapier.jpg",
+        "stack": "https://image.migros.ch/{stack}/7434ceb5f07ae350c2b0eceafa0ab5c7040277b6/toilettenpapier.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010402",
+      "name": "Haushaltpapier & Toilettenpapier",
+      "slug": "supermarkt/haushalt-reinigung/haushaltpapier-toilettenpapier",
+      "visible": true,
+      "parent_code": "BeSS_0104",
+      "image": {
+        "original": "https://image.migros.ch/original/ab122c4f7f4efda2c2bf26b21b3e683288db089c/haushaltpapier-toilettenpapier.jpg",
+        "stack": "https://image.migros.ch/{stack}/ab122c4f7f4efda2c2bf26b21b3e683288db089c/haushaltpapier-toilettenpapier.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0104",
+      "name": "Haushalt & Reinigung",
+      "slug": "supermarkt/haushalt-reinigung",
+      "visible": true,
+      "title": "Reinigung mit der Migros – Reiniger für Haushalt und Garten",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/e5da3225980543e0c7ddcc443069f331d94e8439/haushalt-reinigung.png",
+        "stack": "https://image.migros.ch/{stack}/e5da3225980543e0c7ddcc443069f331d94e8439/haushalt-reinigung.png"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "features": [
+    {
+      "label_code": "miso_oeko_hinweis",
+      "label": "Öko Hinweis",
+      "values": [
+        {
+          "value_code": "MISO_recycling",
+          "value": "Recycling"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "miso_anzahl_lagen",
+      "label": "Anzahl Lagen",
+      "values": [
+        {
+          "value_code": "NUMERIC_3",
+          "value": "3",
+          "numeric_value": 3
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "miso_anzahl_blaetter_pro_rolle",
+      "label": "Anzahl Blätter / Rolle",
+      "values": [
+        {
+          "value_code": "NUMERIC_380",
+          "value": "380 Blatt",
+          "numeric_value": 380
+        }
+      ],
+      "top_fact": false,
+      "unit_code": "blatt",
+      "unit": "Blatt",
+      "unit_symbol": "Blatt"
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/c7900be7feed700bede323fb777a2a1ef59d4669/m-budget-toilettenpapier.jpg",
+    "stack": "https://image.migros.ch/{stack}/c7900be7feed700bede323fb777a2a1ef59d4669/m-budget-toilettenpapier.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/e9cd8c00d6be2e65b61577f2580870418fb7c4f9/m-budget-toilettenpapier.png",
+    "stack": "https://image.migros.ch/{stack}/e9cd8c00d6be2e65b61577f2580870418fb7c4f9/m-budget-toilettenpapier.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Normalposition"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "ZHKS"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUSTOMS_POSITION",
+      "values": [
+        {
+          "value_code": "NUMERIC_48181010000",
+          "value": "48181010000",
+          "numeric_value": 48181010000
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_RISK_CLASS",
+      "values": [
+        {
+          "value_code": "2",
+          "value": "2 (medium)"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_QUALITY_CHECK",
+      "values": [
+        {
+          "value_code": "00",
+          "value": "Keine Prüfung"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZHKS",
+          "value": "HKS Standardartikel"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "H",
+          "value": "HKS Standard"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "50317",
+          "value": "EIGENMARKE"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_3",
+          "value": "3",
+          "numeric_value": 3
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_LIFECYCLE",
+      "values": [
+        {
+          "value_code": "D",
+          "value": "Detailhandelsartikel"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 1,
+    "percentage": 7.7
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/526210400000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/m-budget-toilettenpapier",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/526210400000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/m-budget-toilettenpapier",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "updated_at": "2020-09-16T06:41:40+0200",
+  "receipt_text": "MBUD Toilettenpapier",
+  "price": {
+    "valid_from": "2020-02-10T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 8.55,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "18x350 Blatt"
+    },
+    "base": {
+      "price": 0.48,
+      "quantity": 1,
+      "unit": "st"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 13,
+    "average_all": 2.692307692308
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

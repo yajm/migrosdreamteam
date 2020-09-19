@@ -1,0 +1,241 @@
+{
+  "id": "104200400000",
+  "language": "de",
+  "name": "M-Classic Riegel Orange",
+  "slug": "m-classic-riegel-orange",
+  "boss_number": "010318201015",
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "source-qim-allergens",
+    "source-qim-fooddeclaration",
+    "source-qim-nutritionfacts",
+    "source-qim-origins",
+    "not-active-in-pim",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7613312276181"
+  ],
+  "brand": {
+    "id": "068",
+    "name": "M-Classic",
+    "slug": "m-classic",
+    "links": {
+      "homepage": {
+        "url": "https://m-classic.migros.ch/de.html",
+        "name": "Homepage",
+        "type": "info",
+        "purchasable": false
+      }
+    },
+    "image": {
+      "original": "https://image.migros.ch/original/72c18633f911e026e081ac11d872cff2d8dc8abb/m-classic.jpg",
+      "stack": "https://image.migros.ch/{stack}/72c18633f911e026e081ac11d872cff2d8dc8abb/m-classic.jpg"
+    }
+  },
+  "categories": [
+    {
+      "code": "BeSS_01011203",
+      "name": "Getreidestängel",
+      "slug": "supermarkt/lebensmittel/mueesli-cerealien/getreidestaengel",
+      "visible": true,
+      "parent_code": "BeSS_010112",
+      "image": {
+        "original": "https://image.migros.ch/original/3b881f916213a24572e37aa906dc530045e6feae/getreidestaengel.jpg",
+        "stack": "https://image.migros.ch/{stack}/3b881f916213a24572e37aa906dc530045e6feae/getreidestaengel.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010112",
+      "name": "Müesli & Cerealien",
+      "slug": "supermarkt/lebensmittel/mueesli-cerealien",
+      "visible": true,
+      "title": "Cerealien von der Migros &ndash; für einen guten Start in den Tag",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/94adab320c7d6778bba96c16ad7b18a493850519/mueesli-cerealien.jpg",
+        "stack": "https://image.migros.ch/{stack}/94adab320c7d6778bba96c16ad7b18a493850519/mueesli-cerealien.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_Riegel_RiegelSchokoladensnacks_SchokoladenSuessigkeiten",
+        "name": "Riegel",
+        "slug": "amigos/schokoladen-suessigkeiten/riegel-schokoladensnacks/riegel",
+        "visible": true,
+        "parent_code": "AMIG_CAT_RiegelSchokoladensnacks_SchokoladenSuessigkeiten",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_RiegelSchokoladensnacks_SchokoladenSuessigkeiten",
+        "name": "Riegel & Schokoladensnacks",
+        "slug": "amigos/schokoladen-suessigkeiten/riegel-schokoladensnacks",
+        "visible": true,
+        "parent_code": "AMIG_CAT_SchokoladenSuessigkeiten",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_SchokoladenSuessigkeiten",
+        "name": "Schokoladen & Süssigkeiten",
+        "slug": "amigos/schokoladen-suessigkeiten",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/cd1ee0871af7ce10eb6490fa91d7a2f0892919ad/m-classic-riegel-orange.jpg",
+    "stack": "https://image.migros.ch/{stack}/cd1ee0871af7ce10eb6490fa91d7a2f0892919ad/m-classic-riegel-orange.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/ec87aee2d2873350bd349908980b801cbf52db2f/m-classic-riegel-orange.png",
+    "stack": "https://image.migros.ch/{stack}/ec87aee2d2873350bd349908980b801cbf52db2f/m-classic-riegel-orange.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "M",
+          "value": "Kolonial Standard"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "10027",
+          "value": "GETREIDERIEGEL"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUSTOMS_POSITION",
+      "values": [
+        {
+          "value_code": "1904.2000"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/104200400000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/m-classic-riegel-orange",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/104200400000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/m-classic-riegel-orange",
+      "type": "info",
+      "purchasable": false
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/5214412",
+      "app_url": "leshop:///catalog/article/detail?ean=7613312276181",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/m-classic-riegel-orange",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "updated_at": "2020-09-15T07:21:26+0200",
+  "receipt_text": "MClass Riegel Orange",
+  "price": {
+    "valid_from": "2019-08-16T00:00:00+0200",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 2.2,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "200g"
+    },
+    "base": {
+      "price": 1.1,
+      "quantity": 100,
+      "unit": "g"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 4,
+    "average_all": 3.75
+  },
+  "allergen_text": "Kann enthalten: Erdnüsse, Hartschalenobst (Nüsse).",
+  "reindex_date": "2999-01-20T00:00:00+0100"
+}

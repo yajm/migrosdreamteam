@@ -1,0 +1,354 @@
+{
+  "id": "111011900000",
+  "language": "de",
+  "name": "M-Budget Ruchbrot Terrasuisse",
+  "slug": "m-budget-ruchbrot-terrasuisse",
+  "boss_number": "020110561105",
+  "description": {
+    "text": "Ruchbrot",
+    "source": "PIM"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7616700027341"
+  ],
+  "brand": {
+    "id": "N26",
+    "name": "M-Budget",
+    "slug": "m-budget",
+    "links": {
+      "homepage": {
+        "url": "https://m-budget.migros.ch/de.html",
+        "name": "Homepage",
+        "type": "info",
+        "purchasable": false
+      }
+    },
+    "image": {
+      "original": "https://image.migros.ch/original/1d1a13e240a94a7e1fa8ef99f15ce5b896f3486b/m-budget.jpg",
+      "stack": "https://image.migros.ch/{stack}/1d1a13e240a94a7e1fa8ef99f15ce5b896f3486b/m-budget.jpg"
+    }
+  },
+  "labels": [
+    {
+      "id": "L14",
+      "name": "TerraSuisse",
+      "slug": "terrasuisse",
+      "image": {
+        "original": "https://image.migros.ch/original/1ffb197ef3d9b3099bc31eb47f8dfa585c93daa6/terrasuisse.jpg",
+        "stack": "https://image.migros.ch/{stack}/1ffb197ef3d9b3099bc31eb47f8dfa585c93daa6/terrasuisse.jpg"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_01010301",
+      "name": "Brote",
+      "slug": "supermarkt/lebensmittel/baeckerei-confiserie-backen/brote",
+      "visible": true,
+      "title": "Frisch gebackenes Brot in Ihrer Migros kaufen",
+      "parent_code": "BeSS_010103",
+      "image": {
+        "original": "https://image.migros.ch/original/a38db1095b74da69ec3fd0de85e5b29c59c210b9/brote.jpg",
+        "stack": "https://image.migros.ch/{stack}/a38db1095b74da69ec3fd0de85e5b29c59c210b9/brote.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010103",
+      "name": "Bäckerei, Confiserie & Backen",
+      "slug": "supermarkt/lebensmittel/baeckerei-confiserie-backen",
+      "visible": true,
+      "title": "Backen macht Freude! Alle Zutaten finden Sie in Ihrer Migros",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/04b41cd6f4daedf3061a2a37617d48e992760b35/baeckerei-confiserie-backen.jpg",
+        "stack": "https://image.migros.ch/{stack}/04b41cd6f4daedf3061a2a37617d48e992760b35/baeckerei-confiserie-backen.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_GrosseBrote_Brote_BroteBacken",
+        "name": "Grosse Brote",
+        "slug": "amigos/brote-backen/brote/grosse-brote",
+        "visible": true,
+        "parent_code": "AMIG_CAT_Brote_BroteBacken",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_Brote_BroteBacken",
+        "name": "Brote",
+        "slug": "amigos/brote-backen/brote",
+        "visible": true,
+        "parent_code": "AMIG_CAT_BroteBacken",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_BroteBacken",
+        "name": "Brote & Backen",
+        "slug": "amigos/brote-backen",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "features": [
+    {
+      "label_code": "MISO_produktionsanspruch",
+      "label": "Produktionsverfahren",
+      "values": [
+        {
+          "value_code": "MISO_produktionsanspruch_ipsuissebauernhof",
+          "value": "IP-SUISSE Bauernhof"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_brotbeutel",
+          "value": "Brotbeutel"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zubereitungsverfahren",
+      "label": "Hinweise für die Zubereitung",
+      "values": [
+        {
+          "value_code": "MISO_zubereitungsverfahren_verzehrfertig",
+          "value": "Verzehrfertig"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_artvonbrot",
+      "label": "Art von Brot",
+      "values": [
+        {
+          "value_code": "MISO_artvonbrot_ruchbrot",
+          "value": "Ruchbrot"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_getreideart",
+      "label": "Getreideart",
+      "values": [
+        {
+          "value_code": "MISO_getreideart_weizen",
+          "value": "Weizen"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_artvonprodukt",
+      "label": "Art von Produkt",
+      "values": [
+        {
+          "value_code": "MISO_artvonprodukt_frischbrot",
+          "value": "Frischbrot"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/9ddea61c59e34da470f57c8e5c3febf2644acc64/m-budget-ruchbrot-terrasuisse.jpg",
+    "stack": "https://image.migros.ch/{stack}/9ddea61c59e34da470f57c8e5c3febf2644acc64/m-budget-ruchbrot-terrasuisse.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/29eaa0346ebca287b58ee1729e57e193c203513d/m-budget-ruchbrot-terrasuisse.png",
+    "stack": "https://image.migros.ch/{stack}/29eaa0346ebca287b58ee1729e57e193c203513d/m-budget-ruchbrot-terrasuisse.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_sortierung",
+      "label": "Sortierung aMigos",
+      "values": [
+        {
+          "value_code": "NUMERIC_110",
+          "value": "110",
+          "numeric_value": 110
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_gewicht",
+      "label": "Gewicht aMigos!",
+      "values": [
+        {
+          "value_code": "NUMERIC_0.5",
+          "value": "0.5 kg",
+          "numeric_value": 0.5
+        }
+      ],
+      "top_fact": false,
+      "unit_code": "kg",
+      "unit": "Kilogramm",
+      "unit_symbol": "kg"
+    },
+    {
+      "label_code": "MISO_aMigos_volumen",
+      "label": "Volumen aMigos!",
+      "values": [
+        {
+          "value_code": "NUMERIC_3.06",
+          "value": "3.06 l",
+          "numeric_value": 3.06
+        }
+      ],
+      "top_fact": false,
+      "unit_code": "l",
+      "unit": "Liter",
+      "unit_symbol": "l"
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZFRP",
+          "value": "Frische Beschaffung"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "8",
+          "value": "Backwaren"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "70349",
+          "value": "RB DUNKEL / VOLLKORN"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/111011900000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/m-budget-ruchbrot-terrasuisse",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/111011900000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/m-budget-ruchbrot-terrasuisse",
+      "type": "info",
+      "purchasable": false
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/67712",
+      "app_url": "leshop:///catalog/article/detail?ean=7616700027341",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/m-budget-ruchbrot-terrasuisse",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "updated_at": "2020-09-16T05:42:17+0200",
+  "receipt_text": "MBud Ruchbrot",
+  "price": {
+    "valid_from": "2018-01-29T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 1.1,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "500g"
+    },
+    "base": {
+      "price": 0.22,
+      "quantity": 100,
+      "unit": "g"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 42,
+    "average_all": 3.888888888889
+  },
+  "allergen_text": "Kann Nüsse \r\n, Sesam \r\n, Soja \r\n, Eier \r\n und Milch enthalten.",
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

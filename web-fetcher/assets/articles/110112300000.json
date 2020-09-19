@@ -1,0 +1,294 @@
+{
+  "id": "110112300000",
+  "language": "de",
+  "name": "Blévita Sandwich Joghurt / Waldbeer",
+  "slug": "blevita-sandwich-joghurt-waldbeer",
+  "boss_number": "010210131005",
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7617400038903"
+  ],
+  "brand": {
+    "id": "018",
+    "name": "Blévita",
+    "slug": "blevita",
+    "image": {
+      "original": "https://image.migros.ch/original/2263b89f8405700b3b058af2220d0301a9f0e048/blevita.jpg",
+      "stack": "https://image.migros.ch/{stack}/2263b89f8405700b3b058af2220d0301a9f0e048/blevita.jpg"
+    }
+  },
+  "categories": [
+    {
+      "code": "BeSS_01010817",
+      "name": "Blévita",
+      "slug": "supermarkt/lebensmittel/suessigkeiten/blevita",
+      "visible": true,
+      "title": "Bl&eacute;vita-Süssigkeiten in Ihrer Migros kaufen",
+      "parent_code": "BeSS_010108",
+      "image": {
+        "original": "https://image.migros.ch/original/ba9aac27f1b582651ebf1cd96c4ecc895644d04f/blevita.jpg",
+        "stack": "https://image.migros.ch/{stack}/ba9aac27f1b582651ebf1cd96c4ecc895644d04f/blevita.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010108",
+      "name": "Süssigkeiten",
+      "slug": "supermarkt/lebensmittel/suessigkeiten",
+      "visible": true,
+      "title": "Süssigkeiten aus Ihrer Migros: für Naschkatzen und Schleckmäuler",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/a9c80f4e896b5ebdd3b7ebbee11f956c8ff157cf/suessigkeiten.jpg",
+        "stack": "https://image.migros.ch/{stack}/a9c80f4e896b5ebdd3b7ebbee11f956c8ff157cf/suessigkeiten.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "features": [
+    {
+      "label_code": "MISO_produktionsanspruch",
+      "label": "Produktionsverfahren",
+      "values": [
+        {
+          "value_code": "MISO_produktionsanspruch_ohnefarbstoffe",
+          "value": "Ohne Farbstoffe"
+        },
+        {
+          "value_code": "MISO_produktionsanspruch_freivonkonservierungsstoffen",
+          "value": "frei von Konservierungsstoffen"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_anzahlentnehmbarereinzelportionen",
+      "label": "Anzahl entnehmbarer Einzeleinheiten",
+      "values": [
+        {
+          "value_code": "NUMERIC_4.0",
+          "value": "4.0",
+          "numeric_value": 4
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_folienverpackung",
+          "value": "Folienverpackung"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zubereitungsverfahren",
+      "label": "Hinweise für die Zubereitung",
+      "values": [
+        {
+          "value_code": "MISO_zubereitungsverfahren_verzehrfertig",
+          "value": "Verzehrfertig"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_besonderezutaten",
+      "label": "Besondere Zutaten",
+      "values": [
+        {
+          "value_code": "MISO_besonderezutaten_waldbeeren",
+          "value": "Waldbeeren"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_artvonkeksgebaeck",
+      "label": "Art von Keks/Gebäck",
+      "values": [
+        {
+          "value_code": "MISO_artvonkeksgebaeck_dinkelgebaeck",
+          "value": "Dinkelgebäck"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_artvonummantelungfuellung",
+      "label": "Art von Ummantelung/Füllung",
+      "values": [
+        {
+          "value_code": "MISO_artvonummantelungfuellung_joghurt",
+          "value": "Joghurt"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_getreideart",
+      "label": "Getreideart",
+      "values": [
+        {
+          "value_code": "MISO_getreideart_dinkel",
+          "value": "Dinkel"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_herzhaftsuess",
+      "label": "Herzhaft/süss",
+      "values": [
+        {
+          "value_code": "MISO_herzhaftsuess_suess",
+          "value": "süss"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_fuellung",
+      "label": "Füllung",
+      "values": [
+        {
+          "value_code": "NUMERIC_30.0",
+          "value": "30.0 %",
+          "numeric_value": 30
+        }
+      ],
+      "top_fact": false,
+      "unit_code": "prozent",
+      "unit": "Prozent",
+      "unit_symbol": "%"
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/77985e3d26b4aad118a6178d685f2fbf99dc0058/blevita-sandwich-joghurt-waldbeer.jpg",
+    "stack": "https://image.migros.ch/{stack}/77985e3d26b4aad118a6178d685f2fbf99dc0058/blevita-sandwich-joghurt-waldbeer.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/2325d0f4c2f448c748868015b62747b37b06327a/blevita-sandwich-joghurt-waldbeer.png",
+    "stack": "https://image.migros.ch/{stack}/2325d0f4c2f448c748868015b62747b37b06327a/blevita-sandwich-joghurt-waldbeer.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "M",
+          "value": "Kolonial Standard"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "10254",
+          "value": "BLEVITA PORTIONEN"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/110112300000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/blevita-sandwich-joghurt-waldbeer",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/110112300000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/blevita-sandwich-joghurt-waldbeer",
+      "type": "info",
+      "purchasable": false
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/220032",
+      "app_url": "leshop:///catalog/article/detail?ean=7617400038903",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/blevita-sandwich-joghurt-waldbeer",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "updated_at": "2020-09-10T03:56:26+0200",
+  "receipt_text": "Blévita Joghurt/Waldb.",
+  "price": {
+    "valid_from": "2018-01-29T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 5.3,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "216g"
+    },
+    "base": {
+      "price": 2.45,
+      "quantity": 100,
+      "unit": "g"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 53,
+    "average_all": 4.172413793103
+  },
+  "allergen_text": "Kann Eier, Nüsse und Sesam enthalten.",
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

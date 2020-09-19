@@ -1,0 +1,209 @@
+{
+  "id": "151001300000",
+  "language": "de",
+  "name": "Favorit Konfitüre Sauerkirschen 65%",
+  "slug": "favorit-konfituere-sauerkirschen-65",
+  "boss_number": "010310401615",
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7613312242674"
+  ],
+  "brand": {
+    "id": "056",
+    "name": "Favorit",
+    "slug": "favorit"
+  },
+  "categories": [
+    {
+      "code": "BeSS_01011102",
+      "name": "Konfitüren",
+      "slug": "supermarkt/lebensmittel/fruehstueck/konfitueren",
+      "visible": true,
+      "title": "Voller Frucht und eine Wucht &ndash; Konfitüre von der Migros",
+      "parent_code": "BeSS_010111",
+      "image": {
+        "original": "https://image.migros.ch/original/a88331dfb9d288ec5d1dbd8ef376912b894dd8ee/konfitueren.jpg",
+        "stack": "https://image.migros.ch/{stack}/a88331dfb9d288ec5d1dbd8ef376912b894dd8ee/konfitueren.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010111",
+      "name": "Frühstück",
+      "slug": "supermarkt/lebensmittel/fruehstueck",
+      "visible": true,
+      "title": "Frühstück: Mit Produkten aus Ihrer Migros einfach in den Tag starten",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/58a87c73cd077c5c9efb268051c16d5b373f5c29/fruehstueck.jpg",
+        "stack": "https://image.migros.ch/{stack}/58a87c73cd077c5c9efb268051c16d5b373f5c29/fruehstueck.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/669d683b8da161007055085078718af4d1180565/favorit-konfituere-sauerkirschen-65.jpg",
+    "stack": "https://image.migros.ch/{stack}/669d683b8da161007055085078718af4d1180565/favorit-konfituere-sauerkirschen-65.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/fcc70536b8b194b5168d62fc74feb001deceb843/favorit-konfituere-sauerkirschen-65.png",
+    "stack": "https://image.migros.ch/{stack}/fcc70536b8b194b5168d62fc74feb001deceb843/favorit-konfituere-sauerkirschen-65.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "M",
+          "value": "Kolonial Standard"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "10339",
+          "value": "KONFITUERE PREMIUM"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/151001300000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/favorit-konfituere-sauerkirschen-65",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/151001300000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/favorit-konfituere-sauerkirschen-65",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "updated_at": "2020-09-16T05:46:37+0200",
+  "receipt_text": "Favorit Sauerkir. 65%",
+  "price": {
+    "valid_from": "2020-09-15T00:00:00+0200",
+    "valid_to": "2020-09-21T23:59:59+0200",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 2.3,
+      "original_price": 2.85,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "330g"
+    },
+    "discount": {
+      "id": "1445176",
+      "region": "national",
+      "start_date": "2020-09-15T00:00:00+0200",
+      "end_date": "2020-09-21T23:59:59+0200",
+      "publication_date": "2020-09-13T00:00:00+0200",
+      "discount_amount": "20%",
+      "discount_regions": [
+        "national"
+      ],
+      "reference_product_id": "151056000000",
+      "discount_type": "aktion",
+      "discount_type_id": "001",
+      "discount_type_label": "SA Sonderangebot",
+      "organisation": "02",
+      "cooperative": "mgb",
+      "image": {
+        "tags": [
+          "list-image"
+        ],
+        "original": "https://image.migros.ch/original/309651dfdbea10d45171284cefb59a85a5ba30b1/gesamtes-favorit-konfitueren-sortiment.jpg",
+        "source": "PriceRepository",
+        "stack": "https://image.migros.ch/{stack}/309651dfdbea10d45171284cefb59a85a5ba30b1/gesamtes-favorit-konfitueren-sortiment.jpg"
+      },
+      "image_transparent": {
+        "original": "https://image.migros.ch/original/309651dfdbea10d45171284cefb59a85a5ba30b1/gesamtes-favorit-konfitueren-sortiment.png",
+        "source": "PriceRepository",
+        "stack": "https://image.migros.ch/{stack}/309651dfdbea10d45171284cefb59a85a5ba30b1/gesamtes-favorit-konfitueren-sortiment.png"
+      },
+      "badge": {
+        "original": "https://image.migros.ch/original/0633530dd39bda4f1496c8c8aa5ac1d66f227594.png",
+        "stack": "https://image.migros.ch/{stack}/0633530dd39bda4f1496c8c8aa5ac1d66f227594.png"
+      },
+      "location_planning_type": "01",
+      "reduction_type_id": "01",
+      "special_advertisement": false,
+      "advertisement_type_id": "2",
+      "description": "Gesamtes Favorit Konfitüren-Sortiment",
+      "discount_hint": "z.B. Waldbeeren, 350 g, <strong>2.95 </strong>statt 3.70, Angebot gilt nur vom 15.9. bis 21.9.2020, solange Vorrat.",
+      "high_performer": false,
+      "collective_discount": true,
+      "instead_of": "statt",
+      "price": 2.3,
+      "original_price": 2.85,
+      "disclaimer": "Gültigkeit siehe Angebots-Detailseite.\r\nBei allen Angeboten sind M-Budget und bereits reduzierte Artikel ausgenommen.\r\nBei Aktionen können bei der Verrechnung auf dem Kassabon Rundungsdifferenzen zu Gunsten des Kunden entstehen.",
+      "source": "PriceRepository",
+      "boss_number": "010310401615",
+      "discount_role_id": "2000000002",
+      "discount_role_label": "M: Wochenangebot Typ I",
+      "last_imported": "2020-09-07T15:15:04+0200"
+    },
+    "discount_hint": "Angebot gilt nur vom 15.9. bis 21.9.2020, solange Vorrat."
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 1,
+    "average_all": 5
+  },
+  "reindex_date": "2020-09-21T23:59:59+0200"
+}

@@ -1,0 +1,253 @@
+{
+  "id": "113322700200",
+  "language": "de",
+  "name": "Fruchttorte",
+  "slug": "fruchttorte-113322700200",
+  "boss_number": "020212257205",
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7616700036671"
+  ],
+  "brand": {
+    "id": "X63",
+    "name": "Frisch & Handgemacht",
+    "slug": "frisch-handgemacht",
+    "image": {
+      "original": "https://image.migros.ch/original/0154a8a85c1c58958ca4db19377a389b68be1057/frisch-handgemacht.jpg",
+      "stack": "https://image.migros.ch/{stack}/0154a8a85c1c58958ca4db19377a389b68be1057/frisch-handgemacht.jpg"
+    }
+  },
+  "categories": [
+    {
+      "code": "BeSS_0101030802",
+      "name": "Konditorei gekühlt",
+      "slug": "supermarkt/lebensmittel/baeckerei-confiserie-backen/konditorei-patisserie/konditorei-gekuehlt",
+      "visible": true,
+      "parent_code": "BeSS_01010308",
+      "image": {
+        "original": "https://image.migros.ch/original/9baba6e3990d97f23d96493c1ac3a396112a595e/konditorei-gekuehlt.jpg",
+        "stack": "https://image.migros.ch/{stack}/9baba6e3990d97f23d96493c1ac3a396112a595e/konditorei-gekuehlt.jpg"
+      },
+      "level": 5
+    },
+    {
+      "code": "BeSS_01010308",
+      "name": "Konditorei & Patisserie",
+      "slug": "supermarkt/lebensmittel/baeckerei-confiserie-backen/konditorei-patisserie",
+      "visible": true,
+      "title": "Patisserie und Confiserie &ndash; Süssgebäck von der Migros",
+      "parent_code": "BeSS_010103",
+      "image": {
+        "original": "https://image.migros.ch/original/da2663e4ef52ff0252fe6fea37437cbe1151e3aa/konditorei-patisserie.jpg",
+        "stack": "https://image.migros.ch/{stack}/da2663e4ef52ff0252fe6fea37437cbe1151e3aa/konditorei-patisserie.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010103",
+      "name": "Bäckerei, Confiserie & Backen",
+      "slug": "supermarkt/lebensmittel/baeckerei-confiserie-backen",
+      "visible": true,
+      "title": "Backen macht Freude! Alle Zutaten finden Sie in Ihrer Migros",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/04b41cd6f4daedf3061a2a37617d48e992760b35/baeckerei-confiserie-backen.jpg",
+        "stack": "https://image.migros.ch/{stack}/04b41cd6f4daedf3061a2a37617d48e992760b35/baeckerei-confiserie-backen.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "features": [
+    {
+      "label_code": "MISO_mussgekuehltwerden",
+      "label": "Muss gekühlt werden",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_anzahlentnehmbarereinzelportionen",
+      "label": "Anzahl entnehmbarer Einzeleinheiten",
+      "values": [
+        {
+          "value_code": "NUMERIC_1.0",
+          "value": "1.0",
+          "numeric_value": 1
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zubereitungsverfahren",
+      "label": "Hinweise für die Zubereitung",
+      "values": [
+        {
+          "value_code": "MISO_zubereitungsverfahren_verzehrfertig",
+          "value": "Verzehrfertig"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_besonderezutaten",
+      "label": "Besondere Zutaten",
+      "values": [
+        {
+          "value_code": "MISO_besonderezutaten_fruechte",
+          "value": "Früchte"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_artvonkuchen",
+      "label": "Art von Kuchen",
+      "values": [
+        {
+          "value_code": "MISO_artvonkuchen_fruchttorte",
+          "value": "Fruchttorte"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_formdeskuchens",
+      "label": "Form des Kuchens",
+      "values": [
+        {
+          "value_code": "MISO_formdeskuchens_stueck",
+          "value": "Stück"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_verzehrbarkeit",
+      "label": "Hinweise zum Verzehr",
+      "values": [
+        {
+          "value_code": "MISO_verzehrbarkeit_fertigzumverzehr",
+          "value": "fertig zum Verzehr"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/f051b5081595f085a400ee1c15e9663590ddf765/fruchttorte.jpg",
+    "stack": "https://image.migros.ch/{stack}/f051b5081595f085a400ee1c15e9663590ddf765/fruchttorte.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/f795bf1a48b4732c9d0e558a7a1b4117c1aad818/fruchttorte.png",
+    "stack": "https://image.migros.ch/{stack}/f795bf1a48b4732c9d0e558a7a1b4117c1aad818/fruchttorte.png"
+  },
+  "additional_images": [
+    {
+      "original": "https://image.migros.ch/original/4fbda6c870695d219f4bfa08bb978d11c9b7b495.jpg",
+      "stack": "https://image.migros.ch/{stack}/4fbda6c870695d219f4bfa08bb978d11c9b7b495.jpg"
+    },
+    {
+      "original": "https://image.migros.ch/original/e39d3cbe34fc157675f4901669e0ac173fb466e1.jpg",
+      "stack": "https://image.migros.ch/{stack}/e39d3cbe34fc157675f4901669e0ac173fb466e1.jpg"
+    }
+  ],
+  "internal_features": [
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZFRP",
+          "value": "Frische Beschaffung"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "8",
+          "value": "Backwaren"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "70408",
+          "value": "HB TORTEN"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/113322700200",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/fruchttorte-113322700200",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/113322700200",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/fruchttorte-113322700200",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "updated_at": "2020-09-16T05:43:44+0200",
+  "receipt_text": "Fruchttorte",
+  "price": {
+    "valid_from": "2018-10-26T00:00:00+0200",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "source": "PriceRepository",
+    "no_price_hint": "Aktueller Tagespreis"
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "allergen_text": "Kann andere Nüsse \r\n, Sesam \r\n und Soja enthalten.",
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

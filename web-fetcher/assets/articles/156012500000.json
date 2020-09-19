@@ -1,0 +1,316 @@
+{
+  "id": "156012500000",
+  "language": "de",
+  "name": "Condy Gewürzgurken süss-sauer",
+  "slug": "condy-gewuerzgurken-suess-sauer",
+  "boss_number": "011018300505",
+  "description": {
+    "text": "Gew&uuml;rzgurken in s&uuml;ss-saurem Aufguss",
+    "source": "PIM"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "validity-range-not-set",
+    "leshop-discounted",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7617027853118"
+  ],
+  "brand": {
+    "id": "034",
+    "name": "Condy",
+    "slug": "condy"
+  },
+  "categories": [
+    {
+      "code": "BeSS_01011417",
+      "name": "Gemüse & Essiggemüse",
+      "slug": "supermarkt/lebensmittel/pasta-zutaten-konserven/gemuese-essiggemuese",
+      "visible": true,
+      "title": "Essiggemüse &ndash; leckere Appetitanreger aus Ihrer Migros",
+      "parent_code": "BeSS_010114",
+      "image": {
+        "original": "https://image.migros.ch/original/a321b22968595fa47744b2ff96144cf7405383e3/gemuese-essiggemuese.jpg",
+        "stack": "https://image.migros.ch/{stack}/a321b22968595fa47744b2ff96144cf7405383e3/gemuese-essiggemuese.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010114",
+      "name": "Pasta, Zutaten & Konserven",
+      "slug": "supermarkt/lebensmittel/pasta-zutaten-konserven",
+      "visible": true,
+      "title": "Pasta aus Ihrer Migros: alles rund um Teigwaren",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/6d0964bbb34b8e041ba4d74fc0c90b149907f46a/pasta-zutaten-konserven.jpg",
+        "stack": "https://image.migros.ch/{stack}/6d0964bbb34b8e041ba4d74fc0c90b149907f46a/pasta-zutaten-konserven.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_Gemuese_KonservenEingemachtes_Grundnahrungsmittel",
+        "name": "Gemüse",
+        "slug": "amigos/grundnahrungsmittel/konserven-eingemachtes/gemuese",
+        "visible": true,
+        "parent_code": "AMIG_CAT_KonservenEingemachtes_Grundnahrungsmittel",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_KonservenEingemachtes_Grundnahrungsmittel",
+        "name": "Konserven & Eingemachtes",
+        "slug": "amigos/grundnahrungsmittel/konserven-eingemachtes",
+        "visible": true,
+        "parent_code": "AMIG_CAT_Grundnahrungsmittel",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_Grundnahrungsmittel",
+        "name": "Grundnahrungsmittel",
+        "slug": "amigos/grundnahrungsmittel",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "features": [
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_glas",
+          "value": "Glas"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_artvoneingelegtemgemuesesauerkonserven",
+      "label": "Art von eingelegtem Gemüse/Sauerkonserven",
+      "values": [
+        {
+          "value_code": "MISO_artvoneingelegtemgemuesesauerkonserven_gurken",
+          "value": "Gurken"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_konservierungsaufbewahrungsstoff",
+      "label": "Konservierungs-/Aufbewahrungsstoff",
+      "values": [
+        {
+          "value_code": "MISO_konservierungsaufbewahrungsstoff_suesssaureraufguss",
+          "value": "süss-saurer Aufguss"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/66b1c85cc0d6a459d218f43c2f71c275a57312f9/condy-gewuerzgurken-suess-sauer.jpg",
+    "stack": "https://image.migros.ch/{stack}/66b1c85cc0d6a459d218f43c2f71c275a57312f9/condy-gewuerzgurken-suess-sauer.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/ab41a6c5d63338facbf11d9c9428bb6c5ee2043f/condy-gewuerzgurken-suess-sauer.png",
+    "stack": "https://image.migros.ch/{stack}/ab41a6c5d63338facbf11d9c9428bb6c5ee2043f/condy-gewuerzgurken-suess-sauer.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_sortierung",
+      "label": "Sortierung aMigos",
+      "values": [
+        {
+          "value_code": "NUMERIC_770",
+          "value": "770",
+          "numeric_value": 770
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "M",
+          "value": "Kolonial Standard"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "10151",
+          "value": "ESSIGGEMUESE"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/156012500000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/condy-gewuerzgurken-suess-sauer",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/156012500000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/condy-gewuerzgurken-suess-sauer",
+      "type": "info",
+      "purchasable": false
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/218287",
+      "app_url": "leshop:///catalog/article/detail?ean=7617027853118",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/condy-gewuerzgurken-suess-sauer",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "updated_at": "2020-09-16T06:51:44+0200",
+  "receipt_text": "Condy Gewürzgurken",
+  "price": {
+    "valid_from": "2020-09-15T00:00:00+0200",
+    "valid_to": "2020-09-21T23:59:59+0200",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 3.05,
+      "original_price": 3.8,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "420g"
+    },
+    "discount": {
+      "id": "1448463",
+      "region": "national",
+      "start_date": "2020-09-15T00:00:00+0200",
+      "end_date": "2020-09-21T23:59:59+0200",
+      "publication_date": "2020-09-13T00:00:00+0200",
+      "discount_amount": "20%",
+      "discount_regions": [
+        "national"
+      ],
+      "reference_product_id": "156010000000",
+      "discount_type": "aktion",
+      "discount_type_id": "001",
+      "discount_type_label": "SA Sonderangebot",
+      "organisation": "02",
+      "cooperative": "mgb",
+      "image": {
+        "tags": [
+          "list-image"
+        ],
+        "original": "https://image.migros.ch/original/0e546bc5b909f12566faa00298c60e0da6ff21ac/gesamtes-condy-essiggemuese-und-antipasti-sortiment.jpg",
+        "source": "PriceRepository",
+        "stack": "https://image.migros.ch/{stack}/0e546bc5b909f12566faa00298c60e0da6ff21ac/gesamtes-condy-essiggemuese-und-antipasti-sortiment.jpg"
+      },
+      "image_transparent": {
+        "original": "https://image.migros.ch/original/0e546bc5b909f12566faa00298c60e0da6ff21ac/gesamtes-condy-essiggemuese-und-antipasti-sortiment.png",
+        "source": "PriceRepository",
+        "stack": "https://image.migros.ch/{stack}/0e546bc5b909f12566faa00298c60e0da6ff21ac/gesamtes-condy-essiggemuese-und-antipasti-sortiment.png"
+      },
+      "badge": {
+        "original": "https://image.migros.ch/original/0633530dd39bda4f1496c8c8aa5ac1d66f227594.png",
+        "stack": "https://image.migros.ch/{stack}/0633530dd39bda4f1496c8c8aa5ac1d66f227594.png"
+      },
+      "location_planning_type": "01",
+      "reduction_type_id": "01",
+      "special_advertisement": false,
+      "advertisement_type_id": "2",
+      "description": "Gesamtes Condy-Essiggemüse und -Antipasti-Sortiment",
+      "discount_hint": "z.B. Gewürzgurken, 270 g, <strong>1.50 </strong>statt 1.90, Angebot gilt nur vom 15.9. bis 21.9.2020, solange Vorrat.",
+      "high_performer": false,
+      "collective_discount": true,
+      "instead_of": "statt",
+      "price": 3.05,
+      "original_price": 3.8,
+      "disclaimer": "Gültigkeit siehe Angebots-Detailseite.\r\nBei allen Angeboten sind M-Budget und bereits reduzierte Artikel ausgenommen.\r\nBei Aktionen können bei der Verrechnung auf dem Kassabon Rundungsdifferenzen zu Gunsten des Kunden entstehen.",
+      "source": "PriceRepository",
+      "boss_number": "011018300505",
+      "discount_role_id": "2000000002",
+      "discount_role_label": "M: Wochenangebot Typ I",
+      "last_imported": "2020-09-07T15:15:08+0200"
+    },
+    "discount_hint": "Angebot gilt nur vom 15.9. bis 21.9.2020, solange Vorrat."
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 12,
+    "average_all": 1.833333333333
+  },
+  "reindex_date": "2020-09-21T23:59:59+0200"
+}

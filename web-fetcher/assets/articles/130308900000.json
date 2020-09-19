@@ -1,0 +1,346 @@
+{
+  "id": "130308900000",
+  "language": "de",
+  "name": "Anna's Best Taboulé Oriental",
+  "slug": "annas-best-taboule-oriental",
+  "boss_number": "020530323515",
+  "description": {
+    "text": "Der exotisch gew&uuml;rzte Taboul&eacute;-Salat verspricht einen orientalischen Genuss. Der Salat ist vegan und frei von jeglichen Konservierungsmitteln.",
+    "source": "PIM"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "source-qim-origins",
+    "validity-range-not-set",
+    "source-qim-allergens",
+    "source-qim-fooddeclaration",
+    "source-qim-nutritionfacts",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7613404100523",
+    "7613269287506"
+  ],
+  "brand": {
+    "id": "007",
+    "name": "Anna's Best",
+    "slug": "annas-best",
+    "links": {
+      "homepage": {
+        "url": "https://annasbest.migros.ch/de.html",
+        "name": "Homepage",
+        "type": "info",
+        "purchasable": false
+      }
+    },
+    "image": {
+      "original": "https://image.migros.ch/original/184dd9291cf7fb67f0772e72d682c71c5fb76261/annas-best.jpg",
+      "stack": "https://image.migros.ch/{stack}/184dd9291cf7fb67f0772e72d682c71c5fb76261/annas-best.jpg"
+    }
+  },
+  "labels": [
+    {
+      "id": "L57",
+      "name": "V-vegan",
+      "slug": "v-vegan",
+      "image": {
+        "original": "https://image.migros.ch/original/9425b8ea6312342ddd2d0dc87e65567c88e1b757/v-vegan.jpg",
+        "stack": "https://image.migros.ch/{stack}/9425b8ea6312342ddd2d0dc87e65567c88e1b757/v-vegan.jpg"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_0101130219",
+      "name": "Fertigsalate",
+      "slug": "supermarkt/lebensmittel/fertiggerichte-menues-snacks/fertige-pizzen-menues-snacks/fertigsalate",
+      "visible": true,
+      "title": "Fertigsalate in Ihrer Migros kaufen",
+      "parent_code": "BeSS_01011302",
+      "image": {
+        "original": "https://image.migros.ch/original/341ccbb8d9660a61c4d4cf571bca7e96a949aecc/fertigsalate.jpg",
+        "stack": "https://image.migros.ch/{stack}/341ccbb8d9660a61c4d4cf571bca7e96a949aecc/fertigsalate.jpg"
+      },
+      "level": 5
+    },
+    {
+      "code": "BeSS_01011302",
+      "name": "Fertige Pizzen, Menüs & Snacks",
+      "slug": "supermarkt/lebensmittel/fertiggerichte-menues-snacks/fertige-pizzen-menues-snacks",
+      "visible": true,
+      "title": "Feine Fertiggerichte aus Ihrer Migros!",
+      "parent_code": "BeSS_010113",
+      "image": {
+        "original": "https://image.migros.ch/original/0014f54049f00019a8782aedb21ad671bd28a8e8/fertige-pizzen-menues-snacks.jpg",
+        "stack": "https://image.migros.ch/{stack}/0014f54049f00019a8782aedb21ad671bd28a8e8/fertige-pizzen-menues-snacks.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010113",
+      "name": "Fertiggerichte, Menüs & Snacks",
+      "slug": "supermarkt/lebensmittel/fertiggerichte-menues-snacks",
+      "visible": true,
+      "title": "Fertige Pizzen, Menüs und Snacks &ndash; schnell und lecker von der Migros",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/6770b6c8fbbd2689aece359ffeda93b90c58dd09/fertiggerichte-menues-snacks.jpg",
+        "stack": "https://image.migros.ch/{stack}/6770b6c8fbbd2689aece359ffeda93b90c58dd09/fertiggerichte-menues-snacks.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "features": [
+    {
+      "label_code": "MISO_mussgekuehltwerden",
+      "label": "Muss gekühlt werden",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_produktionsanspruch",
+      "label": "Produktionsverfahren",
+      "values": [
+        {
+          "value_code": "MISO_produktionsanspruch_freivonkonservierungsstoffen",
+          "value": "frei von Konservierungsstoffen"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_kunststoffbox",
+          "value": "Kunststoff-Box"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_lebensmittel_AB_pikto_besteck",
+      "label": "Besteck",
+      "values": [
+        {
+          "image": {
+            "original": "https://image.migros.ch/original/003a6b9c39213e0c9759dcbe12f15bf98b644d8b/besteck-gabel.jpg",
+            "code": "MISO_lebensmittel_AB_pikto_besteck_gabel",
+            "description": "Besteck Gabel",
+            "stack": "https://image.migros.ch/{stack}/003a6b9c39213e0c9759dcbe12f15bf98b644d8b/besteck-gabel.jpg"
+          },
+          "value_code": "MISO_lebensmittel_AB_pikto_besteck_gabel",
+          "value": "Besteck Gabel"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_lebensmittel_AB_pikto_portion",
+      "label": "Portion",
+      "values": [
+        {
+          "image": {
+            "original": "https://image.migros.ch/original/f80874175bf09a27e90e8d90cc5a5c7a0998ca6a/portion-fuer-1-person.jpg",
+            "code": "MISO_lebensmittel_AB_pikto_portion_1",
+            "description": "Portion für 1 Person",
+            "stack": "https://image.migros.ch/{stack}/f80874175bf09a27e90e8d90cc5a5c7a0998ca6a/portion-fuer-1-person.jpg"
+          },
+          "value_code": "MISO_lebensmittel_AB_pikto_portion_1",
+          "value": "Portion für 1 Person"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_lebensmittel_AB_VegiLine",
+      "label": "Vegi-Line",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_VEGETARIANISM",
+      "label": "Vegetarismus",
+      "values": [
+        {
+          "value_code": "MAPI_VEGETARIANISM_vegan",
+          "value": "vegan"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/277f9d160a0a2760710bee612dad852f375edbed/annas-best-taboule-oriental.jpg",
+    "stack": "https://image.migros.ch/{stack}/277f9d160a0a2760710bee612dad852f375edbed/annas-best-taboule-oriental.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/d69b8040e739c2cc67876e768e4c65a3dd301d2c/annas-best-taboule-oriental.png",
+    "stack": "https://image.migros.ch/{stack}/d69b8040e739c2cc67876e768e4c65a3dd301d2c/annas-best-taboule-oriental.png"
+  },
+  "additional_images": [
+    {
+      "original": "https://image.migros.ch/original/c8838f9ac36e781e8c4f5282602fd1b432e3403e.jpg",
+      "stack": "https://image.migros.ch/{stack}/c8838f9ac36e781e8c4f5282602fd1b432e3403e.jpg"
+    }
+  ],
+  "internal_features": [
+    {
+      "label_code": "MISO_lebensmittel_AB_kategorien",
+      "label": "Kategorien",
+      "values": [
+        {
+          "value_code": "MISO_lebensmittel_AB_kategorien_fertigsalate",
+          "value": "Fertigsalate"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_lebensmittel_AB_genusstyp",
+      "label": "Genusstypen",
+      "values": [
+        {
+          "value_code": "MISO_lebensmittel_AB_genusstyp_kalt-geniessen",
+          "value": "Kalt geniessen"
+        },
+        {
+          "value_code": "MISO_lebensmittel_AB_genusstyp_unterwegs",
+          "value": "Unterwegs"
+        },
+        {
+          "value_code": "MISO_lebensmittel_AB_genusstyp_vegan",
+          "value": "Vegan"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_lebensmittel_AB_kombos",
+      "label": "Kombos",
+      "values": [
+        {
+          "value_code": "MISO_lebensmittel_AB_kombos_23M",
+          "value": "23 (M)"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZFRP",
+          "value": "Frische Beschaffung"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "7",
+          "value": "Convenience"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "70203",
+          "value": "FERTIGSALAT KOHLENHYDRATE"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/130308900000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/annas-best-taboule-oriental",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/130308900000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/annas-best-taboule-oriental",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "updated_at": "2020-09-16T06:30:54+0200",
+  "receipt_text": "Taboulé Oriental",
+  "price": {
+    "valid_from": "2018-01-30T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 3.5,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "250g"
+    },
+    "base": {
+      "price": 1.4,
+      "quantity": 100,
+      "unit": "g"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 5,
+    "average_all": 2
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

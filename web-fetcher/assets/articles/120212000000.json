@@ -1,0 +1,215 @@
+{
+  "id": "120212000000",
+  "language": "de",
+  "name": "Fentimans Victorian Lemonade",
+  "slug": "fentimans-victorian-lemonade",
+  "boss_number": "010710500505",
+  "description": {
+    "text": "In ihrer erfrischenden Wirkung schl&auml;gt nichts eine echte Zitronenlimonade. Fentimans kombiniert in dieser traditionellen Rezeptur die fruchtige S&auml;ure frischer Zitronen (jede Flasche enth&auml;lt den Saft von eineinhalb Zitronen), die in der Limonade ausgepr&auml;gt zum Ausdruck kommt, mit Kr&auml;uterextrakten von Wacholderbeere, Ehrenpreis und fermentiertem Ingwerwurzelextrakt, die den Geschmack perfekt abrunden.",
+    "source": "PIM"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "5029396222341"
+  ],
+  "brand": {
+    "id": "T64",
+    "name": "Fentimans",
+    "slug": "fentimans"
+  },
+  "categories": [
+    {
+      "code": "BeSS_01011008",
+      "name": "Apéro-Getränke",
+      "slug": "supermarkt/lebensmittel/getraenke-heiss-kalt/apero-getraenke",
+      "visible": true,
+      "parent_code": "BeSS_010110",
+      "image": {
+        "original": "https://image.migros.ch/original/b1d1c5474055c73040b8a2518ff75cef51cf3d4c/apero-getraenke.jpg",
+        "stack": "https://image.migros.ch/{stack}/b1d1c5474055c73040b8a2518ff75cef51cf3d4c/apero-getraenke.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010110",
+      "name": "Getränke heiss & kalt",
+      "slug": "supermarkt/lebensmittel/getraenke-heiss-kalt",
+      "visible": true,
+      "title": "Getränke aus der Migros löschen auch Ihren Durst",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/d04d95fbc2e1b4ada4783d2976d37a962a0318a1/getraenke-heiss-kalt.jpg",
+        "stack": "https://image.migros.ch/{stack}/d04d95fbc2e1b4ada4783d2976d37a962a0318a1/getraenke-heiss-kalt.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "features": [
+    {
+      "label_code": "MISO_produktionsanspruch",
+      "label": "Produktionsverfahren",
+      "values": [
+        {
+          "value_code": "MISO_produktionsanspruch_mitnatuerlichenaromen",
+          "value": "Mit natürlichen Aromen"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_flasche",
+          "value": "Flasche"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_kohlensaeurehaltig",
+      "label": "Kohlensäurehaltig",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_artvonerfrischungsgetraenk",
+      "label": "Art von Erfrischungsgetränk",
+      "values": [
+        {
+          "value_code": "MISO_artvonerfrischungsgetraenk_limonade",
+          "value": "Limonade"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/1f88a067c439d4cfd5e160bdc20c54d53602b2eb/fentimans-victorian-lemonade.jpg",
+    "stack": "https://image.migros.ch/{stack}/1f88a067c439d4cfd5e160bdc20c54d53602b2eb/fentimans-victorian-lemonade.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/7f9361fc9ae11978fccfc4a00ae4a723bde2f334/fentimans-victorian-lemonade.png",
+    "stack": "https://image.migros.ch/{stack}/7f9361fc9ae11978fccfc4a00ae4a723bde2f334/fentimans-victorian-lemonade.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "M",
+          "value": "Kolonial Standard"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "10755",
+          "value": "TREND SORTIMENT"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/120212000000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/fentimans-victorian-lemonade",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/120212000000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/fentimans-victorian-lemonade",
+      "type": "info",
+      "purchasable": false
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/4979934",
+      "app_url": "leshop:///catalog/article/detail?ean=5029396222341",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/fentimans-victorian-lemonade",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "updated_at": "2020-09-16T05:42:41+0200",
+  "receipt_text": "Fentimans Victorian",
+  "price": {
+    "valid_from": "2018-02-06T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 2.9,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "275ml"
+    },
+    "base": {
+      "price": 1.05,
+      "quantity": 100,
+      "unit": "ml"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

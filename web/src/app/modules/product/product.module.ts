@@ -13,6 +13,7 @@ import { ProductDetailComponent } from './components/product-detail/product-deta
 import { SwitcherModule } from '../switcher/switcher.module';
 import { ApiModule } from '../api/api.module';
 import { InfiniteScrollModule } from 'ngx-infinite-scroll';
+import { LoaderModule } from '../loader/loader.module';
 
 @NgModule({
   declarations: [ProductComponent, ProductDetailComponent],
@@ -29,6 +30,7 @@ import { InfiniteScrollModule } from 'ngx-infinite-scroll';
     ProductCardModule,
     SwitcherModule,
     InfiniteScrollModule,
+    LoaderModule,
   ],
 })
 export class ProductModule {}

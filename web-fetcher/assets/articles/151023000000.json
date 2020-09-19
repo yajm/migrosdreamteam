@@ -1,0 +1,316 @@
+{
+  "id": "151023000000",
+  "language": "de",
+  "name": "Favorit Konfitüre Satin Aprikose",
+  "slug": "favorit-konfituere-satin-aprikose",
+  "boss_number": "010310401615",
+  "description": {
+    "text": "Aprikosenkonfit&uuml;re mit schweizer Aprikosen ohne Kerne &amp; St&uuml;cke",
+    "source": "PIM"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "validity-range-not-set",
+    "leshop-discounted",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7613312025246"
+  ],
+  "brand": {
+    "id": "056",
+    "name": "Favorit",
+    "slug": "favorit"
+  },
+  "categories": [
+    {
+      "code": "BeSS_01011102",
+      "name": "Konfitüren",
+      "slug": "supermarkt/lebensmittel/fruehstueck/konfitueren",
+      "visible": true,
+      "title": "Voller Frucht und eine Wucht &ndash; Konfitüre von der Migros",
+      "parent_code": "BeSS_010111",
+      "image": {
+        "original": "https://image.migros.ch/original/a88331dfb9d288ec5d1dbd8ef376912b894dd8ee/konfitueren.jpg",
+        "stack": "https://image.migros.ch/{stack}/a88331dfb9d288ec5d1dbd8ef376912b894dd8ee/konfitueren.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010111",
+      "name": "Frühstück",
+      "slug": "supermarkt/lebensmittel/fruehstueck",
+      "visible": true,
+      "title": "Frühstück: Mit Produkten aus Ihrer Migros einfach in den Tag starten",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/58a87c73cd077c5c9efb268051c16d5b373f5c29/fruehstueck.jpg",
+        "stack": "https://image.migros.ch/{stack}/58a87c73cd077c5c9efb268051c16d5b373f5c29/fruehstueck.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_Konfitueren_Brotaufstriche_MueesliCerealienBrotaufstriche",
+        "name": "Konfitüren",
+        "slug": "amigos/mueesli-cerealien-brotaufstriche/brotaufstriche/konfitueren",
+        "visible": true,
+        "parent_code": "AMIG_CAT_Brotaufstriche_MueesliCerealienBrotaufstriche",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_Brotaufstriche_MueesliCerealienBrotaufstriche",
+        "name": "Brotaufstriche",
+        "slug": "amigos/mueesli-cerealien-brotaufstriche/brotaufstriche",
+        "visible": true,
+        "parent_code": "AMIG_CAT_MueesliCerealienBrotaufstriche",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_MueesliCerealienBrotaufstriche",
+        "name": "Müesli, Cerealien & Brotaufstriche",
+        "slug": "amigos/mueesli-cerealien-brotaufstriche",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "features": [
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_glas",
+          "value": "Glas"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_artdermarmeladekonfituere",
+      "label": "Art der Marmelade/Konfitüre",
+      "values": [
+        {
+          "value_code": "MISO_artdermarmeladekonfituere_konfituere",
+          "value": "Konfitüre"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_hauptzutat",
+      "label": "Hauptzutat",
+      "values": [
+        {
+          "value_code": "MISO_hauptzutat_aprikosen",
+          "value": "Aprikosen"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/da88603538d79632c5a9ee98f7ab0e36cb4f93cd/favorit-konfituere-satin-aprikose.jpg",
+    "stack": "https://image.migros.ch/{stack}/da88603538d79632c5a9ee98f7ab0e36cb4f93cd/favorit-konfituere-satin-aprikose.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/07dc09871c35e9f1fd6bcc19dd047702f7b5d3dc/favorit-konfituere-satin-aprikose.png",
+    "stack": "https://image.migros.ch/{stack}/07dc09871c35e9f1fd6bcc19dd047702f7b5d3dc/favorit-konfituere-satin-aprikose.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_sortierung",
+      "label": "Sortierung aMigos",
+      "values": [
+        {
+          "value_code": "NUMERIC_450",
+          "value": "450",
+          "numeric_value": 450
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "M",
+          "value": "Kolonial Standard"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "10339",
+          "value": "KONFITUERE PREMIUM"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/151023000000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/favorit-konfituere-satin-aprikose",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/151023000000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/favorit-konfituere-satin-aprikose",
+      "type": "info",
+      "purchasable": false
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/4963803",
+      "app_url": "leshop:///catalog/article/detail?ean=7613312025246",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/favorit-konfituere-satin-aprikose",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "updated_at": "2020-09-16T06:51:40+0200",
+  "receipt_text": "Favorit Konf Abrikose",
+  "price": {
+    "valid_from": "2020-09-15T00:00:00+0200",
+    "valid_to": "2020-09-21T23:59:59+0200",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 2.5,
+      "original_price": 3.1,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "235g"
+    },
+    "discount": {
+      "id": "1445176",
+      "region": "national",
+      "start_date": "2020-09-15T00:00:00+0200",
+      "end_date": "2020-09-21T23:59:59+0200",
+      "publication_date": "2020-09-13T00:00:00+0200",
+      "discount_amount": "20%",
+      "discount_regions": [
+        "national"
+      ],
+      "reference_product_id": "151056000000",
+      "discount_type": "aktion",
+      "discount_type_id": "001",
+      "discount_type_label": "SA Sonderangebot",
+      "organisation": "02",
+      "cooperative": "mgb",
+      "image": {
+        "tags": [
+          "list-image"
+        ],
+        "original": "https://image.migros.ch/original/309651dfdbea10d45171284cefb59a85a5ba30b1/gesamtes-favorit-konfitueren-sortiment.jpg",
+        "source": "PriceRepository",
+        "stack": "https://image.migros.ch/{stack}/309651dfdbea10d45171284cefb59a85a5ba30b1/gesamtes-favorit-konfitueren-sortiment.jpg"
+      },
+      "image_transparent": {
+        "original": "https://image.migros.ch/original/309651dfdbea10d45171284cefb59a85a5ba30b1/gesamtes-favorit-konfitueren-sortiment.png",
+        "source": "PriceRepository",
+        "stack": "https://image.migros.ch/{stack}/309651dfdbea10d45171284cefb59a85a5ba30b1/gesamtes-favorit-konfitueren-sortiment.png"
+      },
+      "badge": {
+        "original": "https://image.migros.ch/original/0633530dd39bda4f1496c8c8aa5ac1d66f227594.png",
+        "stack": "https://image.migros.ch/{stack}/0633530dd39bda4f1496c8c8aa5ac1d66f227594.png"
+      },
+      "location_planning_type": "01",
+      "reduction_type_id": "01",
+      "special_advertisement": false,
+      "advertisement_type_id": "2",
+      "description": "Gesamtes Favorit Konfitüren-Sortiment",
+      "discount_hint": "z.B. Waldbeeren, 350 g, <strong>2.95 </strong>statt 3.70, Angebot gilt nur vom 15.9. bis 21.9.2020, solange Vorrat.",
+      "high_performer": false,
+      "collective_discount": true,
+      "instead_of": "statt",
+      "price": 2.5,
+      "original_price": 3.1,
+      "disclaimer": "Gültigkeit siehe Angebots-Detailseite.\r\nBei allen Angeboten sind M-Budget und bereits reduzierte Artikel ausgenommen.\r\nBei Aktionen können bei der Verrechnung auf dem Kassabon Rundungsdifferenzen zu Gunsten des Kunden entstehen.",
+      "source": "PriceRepository",
+      "boss_number": "010310401615",
+      "discount_role_id": "2000000002",
+      "discount_role_label": "M: Wochenangebot Typ I",
+      "last_imported": "2020-09-07T15:15:04+0200"
+    },
+    "discount_hint": "Angebot gilt nur vom 15.9. bis 21.9.2020, solange Vorrat."
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 2,
+    "average_all": 5
+  },
+  "reindex_date": "2020-09-21T23:59:59+0200"
+}

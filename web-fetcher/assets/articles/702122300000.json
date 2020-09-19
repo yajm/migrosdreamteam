@@ -1,0 +1,438 @@
+{
+  "id": "702122300000",
+  "language": "de",
+  "name": "Cucina & Tavola Flaschenverschlüsse",
+  "slug": "cucina-tavola-flaschenverschluesse",
+  "boss_number": "150423103530",
+  "tags": [
+    "source-pex",
+    "near-non-food",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7617020229477",
+    "8001899000203",
+    "8002522572159"
+  ],
+  "brand": {
+    "id": "NF1",
+    "name": "Cucina & Tavola",
+    "slug": "cucina-tavola",
+    "image": {
+      "original": "https://image.migros.ch/original/ec18c12011ab778b7756486a090e13866fc1eaf1/cucina-tavola.jpg",
+      "stack": "https://image.migros.ch/{stack}/ec18c12011ab778b7756486a090e13866fc1eaf1/cucina-tavola.jpg"
+    }
+  },
+  "categories": [
+    {
+      "code": "BeSS_01040913",
+      "name": "Küchenhelfer",
+      "slug": "supermarkt/haushalt-reinigung/kueche/kuechenhelfer",
+      "visible": true,
+      "parent_code": "BeSS_010409",
+      "image": {
+        "original": "https://image.migros.ch/original/56256124a866c079d9acf746ae2dc46f0ac2dd00/kuechenhelfer.jpg",
+        "stack": "https://image.migros.ch/{stack}/56256124a866c079d9acf746ae2dc46f0ac2dd00/kuechenhelfer.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010409",
+      "name": "Küche",
+      "slug": "supermarkt/haushalt-reinigung/kueche",
+      "visible": true,
+      "title": "Artikel für die Küche aus Ihrer Migros – gut & günstig!",
+      "parent_code": "BeSS_0104",
+      "image": {
+        "original": "https://image.migros.ch/original/90120e4cc3d5d74e017d4b91bbdcb1da29eb70a6/kueche.jpg",
+        "stack": "https://image.migros.ch/{stack}/90120e4cc3d5d74e017d4b91bbdcb1da29eb70a6/kueche.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0104",
+      "name": "Haushalt & Reinigung",
+      "slug": "supermarkt/haushalt-reinigung",
+      "visible": true,
+      "title": "Reinigung mit der Migros – Reiniger für Haushalt und Garten",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/e5da3225980543e0c7ddcc443069f331d94e8439/haushalt-reinigung.png",
+        "stack": "https://image.migros.ch/{stack}/e5da3225980543e0c7ddcc443069f331d94e8439/haushalt-reinigung.png"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "MIC_SHOP_CAT_Weinaccessoires_Essen_AccessoiresTextilien",
+        "name": "Weinaccessoires",
+        "slug": "micasa/accessoires-textilien/essen/weinaccessoires",
+        "visible": true,
+        "parent_code": "MIC_SHOP_CAT_Essen_AccessoiresTextilien",
+        "level": 4
+      },
+      {
+        "code": "MIC_SHOP_CAT_Essen_AccessoiresTextilien",
+        "name": "Essen",
+        "slug": "micasa/accessoires-textilien/essen",
+        "visible": true,
+        "parent_code": "MIC_SHOP_CAT_AccessoiresTextilien",
+        "level": 3
+      },
+      {
+        "code": "MIC_SHOP_CAT_AccessoiresTextilien",
+        "name": "Accessoires & Textilien",
+        "slug": "micasa/accessoires-textilien",
+        "visible": true,
+        "parent_code": "BeSS_02",
+        "level": 2
+      },
+      {
+        "code": "BeSS_02",
+        "name": "Micasa",
+        "slug": "micasa",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ],
+    [
+      {
+        "code": "MIC_SHOP_CAT_MigrosSupermarkt_Essen_AccessoiresTextilien",
+        "name": "Migros Supermarkt",
+        "slug": "micasa/accessoires-textilien/essen/migros-supermarkt",
+        "visible": false,
+        "parent_code": "MIC_SHOP_CAT_Essen_AccessoiresTextilien",
+        "level": 4
+      },
+      {
+        "code": "MIC_SHOP_CAT_Essen_AccessoiresTextilien",
+        "name": "Essen",
+        "slug": "micasa/accessoires-textilien/essen",
+        "visible": true,
+        "parent_code": "MIC_SHOP_CAT_AccessoiresTextilien",
+        "level": 3
+      },
+      {
+        "code": "MIC_SHOP_CAT_AccessoiresTextilien",
+        "name": "Accessoires & Textilien",
+        "slug": "micasa/accessoires-textilien",
+        "visible": true,
+        "parent_code": "BeSS_02",
+        "level": 2
+      },
+      {
+        "code": "BeSS_02",
+        "name": "Micasa",
+        "slug": "micasa",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ],
+    [
+      {
+        "code": "MIC_SHOP_CAT_KuechenhelferZubehoer_Kochen_Essen_AccessoiresTextilien",
+        "name": "Küchenhelfer & Zubehör",
+        "slug": "micasa/accessoires-textilien/essen/kochen/kuechenhelfer-zubehoer",
+        "visible": true,
+        "parent_code": "MIC_SHOP_CAT_Kochen_Essen_AccessoiresTextilien",
+        "level": 5
+      },
+      {
+        "code": "MIC_SHOP_CAT_Kochen_Essen_AccessoiresTextilien",
+        "name": "Kochen",
+        "slug": "micasa/accessoires-textilien/essen/kochen",
+        "visible": true,
+        "parent_code": "MIC_SHOP_CAT_Essen_AccessoiresTextilien",
+        "level": 4
+      },
+      {
+        "code": "MIC_SHOP_CAT_Essen_AccessoiresTextilien",
+        "name": "Essen",
+        "slug": "micasa/accessoires-textilien/essen",
+        "visible": true,
+        "parent_code": "MIC_SHOP_CAT_AccessoiresTextilien",
+        "level": 3
+      },
+      {
+        "code": "MIC_SHOP_CAT_AccessoiresTextilien",
+        "name": "Accessoires & Textilien",
+        "slug": "micasa/accessoires-textilien",
+        "visible": true,
+        "parent_code": "BeSS_02",
+        "level": 2
+      },
+      {
+        "code": "BeSS_02",
+        "name": "Micasa",
+        "slug": "micasa",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "features": [
+    {
+      "label_code": "mic_farbewohnshop_farben",
+      "label": "Farben",
+      "values": [
+        {
+          "value_code": "MIC_FarbeWohnshop_Rot",
+          "value": "Rot"
+        },
+        {
+          "value_code": "MIC_FarbeWohnshop_Schwarz",
+          "value": "Schwarz"
+        },
+        {
+          "value_code": "MIC_FarbeWohnshop_Silber",
+          "value": "Silber"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "mic_materialwohnshop_material",
+      "label": "Material",
+      "values": [
+        {
+          "value_code": "MIC_MaterialWohnshop_Kunststoff_Edelstahl",
+          "value": "Kunststoff / Edelstahl"
+        },
+        {
+          "value_code": "MIC_MaterialWohnshop_Silikon",
+          "value": "Silikon"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "mic_inhaltstueckteile",
+      "label": "Inhalt (Stück, Teile)",
+      "values": [
+        {
+          "value_code": "NUMERIC_3",
+          "value": "3 Stk.",
+          "numeric_value": 3
+        }
+      ],
+      "top_fact": false,
+      "unit_code": "st",
+      "unit": "Stück",
+      "unit_symbol": "Stk."
+    },
+    {
+      "label_code": "mic_fuer_lebensmittel_geeignet",
+      "label": "Für Lebensmittel geeignet",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "mic_spuelmaschinenfest",
+      "label": "Spülmaschinengeeignet",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "Nein",
+          "boolean_value": false
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/837fd76b0b2bed24fe05c05d19c7df652b5557f4/cucina-tavola-flaschenverschluesse.jpg",
+    "stack": "https://image.migros.ch/{stack}/837fd76b0b2bed24fe05c05d19c7df652b5557f4/cucina-tavola-flaschenverschluesse.jpg"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_DEFAULT_LOGISTIC_TYPE",
+      "values": [
+        {
+          "value_code": "55",
+          "value": "Versandart Paket"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Normalposition"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "HART"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUSTOMS_POSITION",
+      "values": [
+        {
+          "value_code": "NUMERIC_99999999999",
+          "value": "99999999999",
+          "numeric_value": 99999999999
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_RISK_CLASS",
+      "values": [
+        {
+          "value_code": "2",
+          "value": "2 (medium)"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_KUBE_TUKA",
+      "values": [
+        {
+          "value_code": "BLANK",
+          "value": "KUBE und TUKA nicht zugelassen"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HART",
+          "value": "Hartwaren  Handelsware"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "H",
+          "value": "Hartwaren"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "50925",
+          "value": "ZUBEHOER"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 1,
+    "percentage": 7.7
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/702122300000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/cucina-tavola-flaschenverschluesse",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/702122300000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/cucina-tavola-flaschenverschluesse",
+      "type": "info",
+      "purchasable": false
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/223361",
+      "app_url": "leshop:///catalog/article/detail?ean=7617020229477",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/cucina-tavola-flaschenverschluesse",
+      "type": "shop",
+      "purchasable": true
+    },
+    "micasa": {
+      "url": "https://www.micasa.ch/de/p/702122300000/cucina-tavola-flaschenverschluesse",
+      "name": "Micasa",
+      "canonical": "https://produkte.migros.ch/cucina-tavola-flaschenverschluesse",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "updated_at": "2020-09-16T06:42:35+0200",
+  "receipt_text": "Flaschenverschlüsse",
+  "price": {
+    "valid_from": "2018-06-18T00:00:00+0200",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 3.95,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "3 Stk."
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

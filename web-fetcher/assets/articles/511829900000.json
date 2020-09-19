@@ -1,0 +1,181 @@
+{
+  "id": "511829900000",
+  "language": "de",
+  "name": "Luvos Heilerde Reizdarm",
+  "slug": "luvos-heilerde-reizdarm",
+  "boss_number": "090322230530",
+  "description": {
+    "text": "Heilerde magenfein\r\nGranulat zum Einnehmen. Zur unterst&uuml;tzenden Behandlung der funktionellen Magen-Darm Erkrankungen Reizmagen.\r\nReizdarm mit Beschwerden wie Durchfall und Bl&auml;hungen sowie Aufstossen, Sodbrennen, Magendruck und V&ouml;llegef&uuml;hl.",
+    "source": "PIM"
+  },
+  "tags": [
+    "source-pim",
+    "near-non-food",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7611278904117",
+    "7611278904209"
+  ],
+  "brand": {
+    "id": "J47",
+    "name": "Luvos",
+    "slug": "luvos"
+  },
+  "categories": [
+    {
+      "code": "BeSS_011201",
+      "name": "Hausapotheke",
+      "slug": "supermarkt/gesundheit/hausapotheke",
+      "visible": true,
+      "parent_code": "BeSS_0112",
+      "level": 3
+    },
+    {
+      "code": "BeSS_0112",
+      "name": "Gesundheit",
+      "slug": "supermarkt/gesundheit",
+      "visible": true,
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/832762761a56d78835c380db87e2aa4ecd7a4eed/gesundheit.jpg",
+        "stack": "https://image.migros.ch/{stack}/832762761a56d78835c380db87e2aa4ecd7a4eed/gesundheit.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "features": [
+    {
+      "label_code": "MISO_geeignet_fuer",
+      "label": "Geeignet für",
+      "values": [
+        {
+          "value_code": "MISO_geeignet_fuer_verdauung",
+          "value": "Verdauung"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/299fdcd997e7725e772cb0d373c22d4b0499269f/luvos-heilerde-reizdarm.jpg",
+    "stack": "https://image.migros.ch/{stack}/299fdcd997e7725e772cb0d373c22d4b0499269f/luvos-heilerde-reizdarm.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/086a99c7c6cb77457f0494d0add5575aa68b9752/luvos-heilerde-reizdarm.png",
+    "stack": "https://image.migros.ch/{stack}/086a99c7c6cb77457f0494d0add5575aa68b9752/luvos-heilerde-reizdarm.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZHKS",
+          "value": "HKS Standardartikel"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_QUALITY_CHECK",
+      "values": [
+        {
+          "value_code": "03",
+          "value": "FRL (Final Random Labtest)"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_RISK_CLASS",
+      "values": [
+        {
+          "value_code": "1",
+          "value": "1 (high)"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "H",
+          "value": "HKS Standard"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "50385",
+          "value": "SELBSTMEDIKATION"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/511829900000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/luvos-heilerde-reizdarm",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/511829900000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/luvos-heilerde-reizdarm",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "updated_at": "2020-09-15T06:55:49+0200",
+  "receipt_text": "Luvos Reizdarm",
+  "price": {
+    "valid_from": "2018-01-29T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 15.5,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "30Stk."
+    },
+    "base": {
+      "price": 5.17,
+      "quantity": 10,
+      "unit": "st"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 3,
+    "average_all": 4
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

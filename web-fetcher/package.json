@@ -4,6 +4,7 @@
   "scripts": {
     "fetch:purchase": "node -r ts-node/register src/fetch-purchase.ts",
     "fetch:products": "node -r ts-node/register src/fetch-products.ts",
+    "fetch:relevant-products": "node -r ts-node/register src/fetch-relevant-products.ts",
     "reduce:data": "node -r ts-node/register src/reduce-data.ts"
   },
   "devDependencies": {

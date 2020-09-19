@@ -1,0 +1,256 @@
+{
+  "id": "120306000000",
+  "language": "de",
+  "name": "Perrier",
+  "slug": "perrier-120306000000",
+  "boss_number": "010710410605",
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "source-qim-origins",
+    "source-qim-distributor",
+    "validity-range-not-set",
+    "source-qim-fooddeclaration",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "3179732371423",
+    "7613035870604"
+  ],
+  "brand": {
+    "id": "B95",
+    "name": "Perrier",
+    "slug": "perrier"
+  },
+  "categories": [
+    {
+      "code": "BeSS_01011003",
+      "name": "Mineralwasser",
+      "slug": "supermarkt/lebensmittel/getraenke-heiss-kalt/mineralwasser",
+      "visible": true,
+      "title": "Prickelnd oder still? Mineralwasser bei der Migros.",
+      "parent_code": "BeSS_010110",
+      "image": {
+        "original": "https://image.migros.ch/original/12bd975bcb43071aa066ae16ec61f5b147a3166a/mineralwasser.jpg",
+        "stack": "https://image.migros.ch/{stack}/12bd975bcb43071aa066ae16ec61f5b147a3166a/mineralwasser.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010110",
+      "name": "Getränke heiss & kalt",
+      "slug": "supermarkt/lebensmittel/getraenke-heiss-kalt",
+      "visible": true,
+      "title": "Getränke aus der Migros löschen auch Ihren Durst",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/d04d95fbc2e1b4ada4783d2976d37a962a0318a1/getraenke-heiss-kalt.jpg",
+        "stack": "https://image.migros.ch/{stack}/d04d95fbc2e1b4ada4783d2976d37a962a0318a1/getraenke-heiss-kalt.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "features": [
+    {
+      "label_code": "MISO_kohlensaeurehaltig",
+      "label": "Kohlensäurehaltig",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_artvonwasser",
+      "label": "Art von Wasser",
+      "values": [
+        {
+          "value_code": "MISO_artvonwasser_mineralwasser",
+          "value": "Mineralwasser"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_karbonisierungsgehalt",
+      "label": "Karbonisierungsgehalt",
+      "values": [
+        {
+          "value_code": "MISO_karbonisierungsgehalt_natuerlich",
+          "value": "natürlich"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_kohlensaeuregehalt",
+      "label": "Kohlensäuregehalt",
+      "values": [
+        {
+          "value_code": "MISO_kohlensaeuregehalt_classic",
+          "value": "Classic"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/1f069ccf51cc2bbd64d44f0d2fd8958f01a3dd11/perrier.jpg",
+    "stack": "https://image.migros.ch/{stack}/1f069ccf51cc2bbd64d44f0d2fd8958f01a3dd11/perrier.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/066b8cd983ed803ff02bc1c677a376494951c1a7/perrier.png",
+    "stack": "https://image.migros.ch/{stack}/066b8cd983ed803ff02bc1c677a376494951c1a7/perrier.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "M",
+          "value": "Kolonial Standard"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "10740",
+          "value": "MW SOFORTKONSUM"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/120306000000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/perrier-120306000000",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/120306000000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/perrier-120306000000",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "updated_at": "2020-09-16T05:43:01+0200",
+  "receipt_text": "Perrier 6x50cl",
+  "price": {
+    "valid_from": "2020-09-15T00:00:00+0200",
+    "valid_to": "2020-09-21T23:59:59+0200",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 3.95,
+      "original_price": 6,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "6 x 500ml"
+    },
+    "discount": {
+      "id": "1503427",
+      "region": "national",
+      "start_date": "2020-09-15T00:00:00+0200",
+      "end_date": "2020-09-21T23:59:59+0200",
+      "publication_date": "2020-09-13T00:00:00+0200",
+      "discount_amount": "33%",
+      "discount_regions": [
+        "national"
+      ],
+      "reference_product_id": "120852100000",
+      "discount_type": "aktion",
+      "discount_type_id": "001",
+      "discount_type_label": "SA Sonderangebot",
+      "organisation": "02",
+      "cooperative": "mgb",
+      "image": {
+        "tags": [
+          "list-image"
+        ],
+        "original": "https://image.migros.ch/original/8afc74abfc659653ec43c8a4f1dfc14d4b4257db/gesamtes-contrex-und-perrier-sortiment.jpg",
+        "source": "PriceRepository",
+        "stack": "https://image.migros.ch/{stack}/8afc74abfc659653ec43c8a4f1dfc14d4b4257db/gesamtes-contrex-und-perrier-sortiment.jpg"
+      },
+      "image_transparent": {
+        "original": "https://image.migros.ch/original/8afc74abfc659653ec43c8a4f1dfc14d4b4257db/gesamtes-contrex-und-perrier-sortiment.png",
+        "source": "PriceRepository",
+        "stack": "https://image.migros.ch/{stack}/8afc74abfc659653ec43c8a4f1dfc14d4b4257db/gesamtes-contrex-und-perrier-sortiment.png"
+      },
+      "badge": {
+        "original": "https://image.migros.ch/original/f2c58115c01dd668e53f9ddcd8e20751220deec5.png",
+        "stack": "https://image.migros.ch/{stack}/f2c58115c01dd668e53f9ddcd8e20751220deec5.png"
+      },
+      "location_planning_type": "01",
+      "reduction_type_id": "01",
+      "special_advertisement": false,
+      "advertisement_type_id": "2",
+      "description": "Gesamtes Contrex- und Perrier-Sortiment",
+      "discount_hint": "z.B. Contrex, 6 x 1.5 Liter, <strong>4.80 </strong>statt 7.20, Angebot gilt nur vom 15.9. bis 21.9.2020, solange Vorrat.",
+      "high_performer": false,
+      "collective_discount": true,
+      "instead_of": "statt",
+      "price": 3.95,
+      "original_price": 6,
+      "disclaimer": "Gültigkeit siehe Angebots-Detailseite.\r\nBei allen Angeboten sind M-Budget und bereits reduzierte Artikel ausgenommen.\r\nBei Aktionen können bei der Verrechnung auf dem Kassabon Rundungsdifferenzen zu Gunsten des Kunden entstehen.",
+      "source": "PriceRepository",
+      "boss_number": "010710412105",
+      "discount_role_id": "2000000002",
+      "discount_role_label": "M: Wochenangebot Typ I",
+      "last_imported": "2020-09-07T15:15:12+0200"
+    },
+    "discount_hint": "Angebot gilt nur vom 15.9. bis 21.9.2020, solange Vorrat."
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "reindex_date": "2020-09-21T23:59:59+0200"
+}

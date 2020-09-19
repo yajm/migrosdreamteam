@@ -1,0 +1,324 @@
+{
+  "id": "165011900000",
+  "language": "de",
+  "name": "Costa MSC Lachs im Blättert. Honig-Senf",
+  "slug": "costa-msc-lachs-im-blaettert-honig-senf",
+  "boss_number": "010510551610",
+  "description": {
+    "text": "Mit Honig und Senf im Bl&auml;tterteig",
+    "source": "PIM"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "source-qim-origins",
+    "source-qim-distributor",
+    "validity-range-not-set",
+    "source-qim-allergens",
+    "source-qim-fooddeclaration",
+    "source-qim-nutritionfacts",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "4008467055706"
+  ],
+  "brand": {
+    "id": "432",
+    "name": "Costa",
+    "slug": "costa"
+  },
+  "labels": [
+    {
+      "id": "L05",
+      "name": "MSC",
+      "slug": "msc",
+      "image": {
+        "original": "https://image.migros.ch/original/b4f2b83e8fa72e840367b33d46a26ab586685a13/msc.jpg",
+        "stack": "https://image.migros.ch/{stack}/b4f2b83e8fa72e840367b33d46a26ab586685a13/msc.jpg"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_0101150401",
+      "name": "Fisch & Fischfilets",
+      "slug": "supermarkt/lebensmittel/tiefkuehlprodukte/fisch-meeresfruechte/fisch-fischfilets",
+      "visible": true,
+      "title": "Schlemmen mit gefrorenen Fischfilets aus Meer und See",
+      "parent_code": "BeSS_01011504",
+      "image": {
+        "original": "https://image.migros.ch/original/904f05124554d05b4cfb64f36114507abf729cac/fisch-fischfilets.jpg",
+        "stack": "https://image.migros.ch/{stack}/904f05124554d05b4cfb64f36114507abf729cac/fisch-fischfilets.jpg"
+      },
+      "level": 5
+    },
+    {
+      "code": "BeSS_01011504",
+      "name": "Fisch & Meeresfrüchte",
+      "slug": "supermarkt/lebensmittel/tiefkuehlprodukte/fisch-meeresfruechte",
+      "visible": true,
+      "title": "Lecker und empfehlenswert &ndash; Tiefkühlfisch von der Migros",
+      "parent_code": "BeSS_010115",
+      "level": 4
+    },
+    {
+      "code": "BeSS_010115",
+      "name": "Tiefkühlprodukte",
+      "slug": "supermarkt/lebensmittel/tiefkuehlprodukte",
+      "visible": true,
+      "title": "Tiefkühlprodukte aus Ihrer Migros: schnell etwas Feines auf Ihren Tisch",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/b8e389701dd44ecdd5fbc95db5eed9b0a8c4a03d/tiefkuehlprodukte.jpg",
+        "stack": "https://image.migros.ch/{stack}/b8e389701dd44ecdd5fbc95db5eed9b0a8c4a03d/tiefkuehlprodukte.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "features": [
+    {
+      "label_code": "MISO_produktionsanspruch",
+      "label": "Produktionsverfahren",
+      "values": [
+        {
+          "value_code": "MISO_produktionsanspruch_nachhaltigefischerei",
+          "value": "Nachhaltige Fischerei"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_anzahlentnehmbarereinzelportionen",
+      "label": "Anzahl entnehmbarer Einzeleinheiten",
+      "values": [
+        {
+          "value_code": "NUMERIC_2.0",
+          "value": "2.0",
+          "numeric_value": 2
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_karton",
+          "value": "Karton"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zubereitungsverfahren",
+      "label": "Hinweise für die Zubereitung",
+      "values": [
+        {
+          "value_code": "MISO_zubereitungsverfahren_backen",
+          "value": "Backen"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_musserwaermtwerden",
+      "label": "Muss erwärmt werden",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_anzahlportionen",
+      "label": "Anzahl Portionen",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_mahlzeit",
+      "label": "Mahlzeit",
+      "values": [
+        {
+          "value_code": "MISO_mahlzeit_hauptmahlzeit",
+          "value": "Hauptmahlzeit"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zubereitungszeit",
+      "label": "Zubereitungszeit (min.)",
+      "values": [
+        {
+          "value": "25-30"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_produktionslandherstellungsort",
+      "label": "Produktionsland/Herstellungsort",
+      "values": [
+        {
+          "value_code": "MISO_produktionslandherstellungsort_deutschland",
+          "value": "Deutschland"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_fischart",
+      "label": "Fischart",
+      "values": [
+        {
+          "value_code": "MISO_fischart_wildlachs",
+          "value": "Wildlachs"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_geeignetzumtiefkuehlen",
+      "label": "Geeignet zum Tiefkühlen",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/31f624d13ebdc965b00fdbc88d316152d45bcf5c/costa-msc-lachs-im-blaettert-honig-senf.jpg",
+    "stack": "https://image.migros.ch/{stack}/31f624d13ebdc965b00fdbc88d316152d45bcf5c/costa-msc-lachs-im-blaettert-honig-senf.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/1f3238ca3ca7810db0e6e2355d110b8192ddd853/costa-msc-lachs-im-blaettert-honig-senf.png",
+    "stack": "https://image.migros.ch/{stack}/1f3238ca3ca7810db0e6e2355d110b8192ddd853/costa-msc-lachs-im-blaettert-honig-senf.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "M",
+          "value": "Kolonial Standard"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "30152",
+          "value": "TK FISCH ZUBEREITET"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/165011900000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/costa-msc-lachs-im-blaettert-honig-senf",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/165011900000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/costa-msc-lachs-im-blaettert-honig-senf",
+      "type": "info",
+      "purchasable": false
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/226395",
+      "app_url": "leshop:///catalog/article/detail?ean=4008467055706",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/costa-msc-lachs-im-blaettert-honig-senf",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "updated_at": "2020-09-15T06:48:54+0200",
+  "receipt_text": "MSC Lachs Honig-Senf",
+  "price": {
+    "valid_from": "2019-04-10T00:00:00+0200",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 5.95,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "300g"
+    },
+    "base": {
+      "price": 1.98,
+      "quantity": 100,
+      "unit": "g"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 3,
+    "average_all": 4.333333333333
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

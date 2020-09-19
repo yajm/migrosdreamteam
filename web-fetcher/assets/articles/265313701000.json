@@ -1,0 +1,359 @@
+{
+  "id": "265313701000",
+  "language": "de",
+  "name": "Trauben Lavallée",
+  "slug": "trauben-lavallee",
+  "boss_number": "050215440510",
+  "description": {
+    "text": "Die dunkelblaue Beere wurde um 1860 in Orl&eacute;ans gez&uuml;chtet. Ihr Name geht auf Pierre Alphonse Martin Lavall&eacute;e zur&uuml;ck, den damaligen Pr&auml;sidenten der Soci&eacute;t&eacute; d&acute;Horticulture de France, der Gesellschaft f&uuml;r Gartenbau. Sie geh&ouml;rt zu den blauen Sorten. Ihr mild-s&uuml;sses Aroma erinnert an Sauser.",
+    "source": "PIM"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "2123647000009",
+    "7617027547383"
+  ],
+  "brand": {
+    "id": "S10",
+    "name": "Fresca",
+    "slug": "fresca-S10",
+    "image": {
+      "original": "https://image.migros.ch/original/d169433eae86571fe4796efc52300f787084eaa4/fresca-S10.jpg",
+      "stack": "https://image.migros.ch/{stack}/d169433eae86571fe4796efc52300f787084eaa4/fresca-S10.jpg"
+    }
+  },
+  "categories": [
+    {
+      "code": "BeSS_0101190103",
+      "name": "Trauben",
+      "slug": "supermarkt/lebensmittel/fruechte-gemuese/fruechte/trauben",
+      "visible": true,
+      "title": "Trauben in Ihrer Migros kaufen",
+      "parent_code": "BeSS_01011901",
+      "level": 5
+    },
+    {
+      "code": "BeSS_01011901",
+      "name": "Früchte",
+      "slug": "supermarkt/lebensmittel/fruechte-gemuese/fruechte",
+      "visible": true,
+      "title": "Früchte – in Ihrer Migros täglich frisch",
+      "parent_code": "BeSS_010119",
+      "level": 4
+    },
+    {
+      "code": "BeSS_010119",
+      "name": "Früchte & Gemüse",
+      "slug": "supermarkt/lebensmittel/fruechte-gemuese",
+      "visible": true,
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/f839060a505bba25c0f37585edb558c003c50479/fruechte-gemuese.jpg",
+        "stack": "https://image.migros.ch/{stack}/f839060a505bba25c0f37585edb558c003c50479/fruechte-gemuese.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_TraubenBeeren_Fruechte_FruechteGemuese",
+        "name": "Trauben & Beeren",
+        "slug": "amigos/fruechte-gemuese/fruechte/trauben-beeren",
+        "visible": true,
+        "parent_code": "AMIG_CAT_Fruechte_FruechteGemuese",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_Fruechte_FruechteGemuese",
+        "name": "Früchte",
+        "slug": "amigos/fruechte-gemuese/fruechte",
+        "visible": true,
+        "parent_code": "AMIG_CAT_FruechteGemuese",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_FruechteGemuese",
+        "name": "Früchte & Gemüse",
+        "slug": "amigos/fruechte-gemuese",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "features": [
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_lose",
+          "value": "Lose"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zusatzangaben",
+      "label": "Zusatzangaben",
+      "values": [
+        {
+          "value_code": "MISO_zusatzangaben_265",
+          "value": "Die Ernte der Tafeltrauben erfolgt per Hand, damit der wachsartige Duftfilm nicht beschädigt wird."
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_handelsklasse",
+      "label": "Handelsklasse (Qualität)",
+      "values": [
+        {
+          "value_code": "MISO_handelsklasse_i",
+          "value": "I"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_verwendungszweckvonobstfruechten",
+      "label": "Verwendungszweck",
+      "values": [
+        {
+          "value_code": "MISO_verwendungszweckvonobstfruechten_15",
+          "value": "Trauben können roh gegessen, zu Rosinen getrocknet oder zu Traubensaft und Wein verarbeitet werden. Aus den Kernen kann hochwertiges Traubenkernöl gewonnen werden."
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_saison",
+      "label": "Saison",
+      "values": [
+        {
+          "value_code": "MISO_saison_augustnovember",
+          "value": "August - November"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_reifekriterien",
+      "label": "Reifekriterien",
+      "values": [
+        {
+          "value": "Tafeltrauben reifen nach der Ernte nicht nach und müssen daher voll ausgereift geerntet werden, sodass sie möglichst aromatisch und süss schmecken. Frische Trauben haben ein grünes Stielgerüst und leuchtend gefärbte, pralle Beeren."
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_sorte",
+      "label": "Sorte",
+      "values": [
+        {
+          "value_code": "MISO_sorte_lavallee",
+          "value": "Lavallee"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/730b833527bd1e3b8bc3e9ca227b2c7ef0c2b2f9/trauben-lavallee.jpg",
+    "stack": "https://image.migros.ch/{stack}/730b833527bd1e3b8bc3e9ca227b2c7ef0c2b2f9/trauben-lavallee.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/4ff92fac54e9864dfca179fae5c4a5911e6b1884/trauben-lavallee.png",
+    "stack": "https://image.migros.ch/{stack}/4ff92fac54e9864dfca179fae5c4a5911e6b1884/trauben-lavallee.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_sortierung",
+      "label": "Sortierung aMigos",
+      "values": [
+        {
+          "value_code": "NUMERIC_130",
+          "value": "130",
+          "numeric_value": 130
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_minimal-gewicht",
+      "label": "Minimal-Gewicht",
+      "values": [
+        {
+          "value_code": "NUMERIC_400.0",
+          "value": "400.0 g",
+          "numeric_value": 400
+        }
+      ],
+      "top_fact": false,
+      "unit_code": "g",
+      "unit": "Gramm",
+      "unit_symbol": "g"
+    },
+    {
+      "label_code": "MISO_aMigos_maximal-gewicht",
+      "label": "Maximal-Gewicht",
+      "values": [
+        {
+          "value_code": "NUMERIC_600.0",
+          "value": "600.0 g",
+          "numeric_value": 600
+        }
+      ],
+      "top_fact": false,
+      "unit_code": "g",
+      "unit": "Gramm",
+      "unit_symbol": "g"
+    },
+    {
+      "label_code": "MISO_aMigos_gewicht",
+      "label": "Gewicht aMigos!",
+      "values": [
+        {
+          "value_code": "NUMERIC_0.5",
+          "value": "0.5 kg",
+          "numeric_value": 0.5
+        }
+      ],
+      "top_fact": false,
+      "unit_code": "kg",
+      "unit": "Kilogramm",
+      "unit_symbol": "kg"
+    },
+    {
+      "label_code": "MISO_aMigos_volumen",
+      "label": "Volumen aMigos!",
+      "values": [
+        {
+          "value_code": "NUMERIC_1.0",
+          "value": "1.0 l",
+          "numeric_value": 1
+        }
+      ],
+      "top_fact": false,
+      "unit_code": "l",
+      "unit": "Liter",
+      "unit_symbol": "l"
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZFRP",
+          "value": "Frische Beschaffung"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "2",
+          "value": "Früchte und Gemüse"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "71412",
+          "value": "TRAUBEN"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/265313701000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/trauben-lavallee",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/265313701000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/trauben-lavallee",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "updated_at": "2020-09-16T05:55:02+0200",
+  "receipt_text": "Trauben Lavallee",
+  "price": {
+    "valid_from": "2019-09-10T00:00:00+0200",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "source": "PriceRepository",
+    "no_price_hint": "Aktueller Tagespreis"
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 4,
+    "average_all": 3.75
+  },
+  "reindex_date": "2020-09-21T23:59:59+0200"
+}

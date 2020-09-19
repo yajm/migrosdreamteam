@@ -1,14 +1,17 @@
 import * as path from 'path';
 import * as fs from 'fs';
-import { existsArticle, readJson, writeJson } from './utils';
+import {
+  existsArticle,
+  getDeepestCategory,
+  readJson,
+  writeJson,
+} from './utils';
 
 const targetDir = path.join(process.cwd(), '../web/src/assets/data');
 const purchaseArticlesFile = path.join(
   process.cwd(),
   'assets/purchase-articles.json'
 );
-
-function reduceArticle(article: any): { data: {}; file: string }[] {}
 
 async function main() {
   const purchaseArticles = readJson(purchaseArticlesFile);
@@ -25,19 +28,16 @@ async function main() {
   const articlePath = path.join(process.cwd(), 'assets/articles');
   const reducedArticles: { file: string; data: any }[] = [];
   const categorySlugs: { [key: string]: any[] } = {};
+  const articleMap: { [key: string]: any } = {};
 
   for (const file of fs.readdirSync(articlePath)) {
     const article = readJson(path.join(articlePath, file));
-    let deepestCategory = null;
-    for (const category of article.categories || []) {
-      if (deepestCategory == null || deepestCategory.level < category.level) {
-        deepestCategory = category;
-      }
-    }
+    const deepestCategory = getDeepestCategory(article);
     const reducedArticle = {
       data: {
+        id: article.id,
         name: article.name,
-        categorySlug: deepestCategory?.slug,
+        categoryCode: deepestCategory?.code,
         regulated_description: article.regulated_description,
         image: {
           original: article.image.original,
@@ -49,49 +49,87 @@ async function main() {
       },
       file,
     };
+    articleMap[article.id] = reducedArticle.data;
     if (deepestCategory) {
-      if (!categorySlugs[deepestCategory.slug]) {
-        categorySlugs[deepestCategory.slug] = [];
+      if (!categorySlugs[deepestCategory.code]) {
+        categorySlugs[deepestCategory.code] = [];
       }
-      categorySlugs[deepestCategory.slug].push(reducedArticle);
+      categorySlugs[deepestCategory.code].push(reducedArticle);
     }
     reducedArticles.push(reducedArticle);
   }
 
+  function aggregateScore(
+    scoreKey: string,
+    selector: (data: any) => any,
+    reverse: boolean
+  ) {
+    for (const categorySlug of Object.keys(categorySlugs)) {
+      let categoryMin = Number.MAX_VALUE;
+      let categoryMax = Number.MIN_VALUE;
+
+      for (const article of categorySlugs[categorySlug]) {
+        const value = selector(article.data);
+        if (value === null || value === undefined) {
+          continue;
+        }
+        if (value > categoryMax) {
+          categoryMax = value;
+        }
+        if (value < categoryMin) {
+          categoryMin = value;
+        }
+      }
+
+      const valueRange = categoryMax - categoryMin;
+      for (const article of categorySlugs[categorySlug]) {
+        const value = selector(article.data);
+        if (value === null || value === undefined) {
+          article.data[scoreKey] = null;
+          continue;
+        }
+
+        if (valueRange === 0) {
+          article.data[scoreKey] = 1;
+        } else {
+          const score = (value - categoryMin) / valueRange;
+          article.data[scoreKey] = reverse ? 1 - score : score;
+        }
+      }
+    }
+  }
+
+  aggregateScore('priceScore', (article) => article.price, true);
+  aggregateScore('kcalScore', (article) => article.kcal, true);
+  aggregateScore('co2Score', (article) => 1, true);
+  aggregateScore(
+    'totalScore',
+    (article) =>
+      (article.priceScore ?? 0) +
+      (article.kcalScore ?? 0) +
+      (article.co2Score ?? 0),
+    false
+  );
+
   for (const categorySlug of Object.keys(categorySlugs)) {
-    let priceMin = Number.MAX_VALUE;
-    let priceMax = Number.MIN_VALUE;
-
-    for (const article of categorySlugs[categorySlug]) {
-      if (article.data.price === null || article.data.price === undefined) {
-        continue;
-      }
-      if (article.data.price > priceMax) {
-        priceMax = article.data.price;
-      }
-      if (article.data.price < priceMin) {
-        priceMin = article.data.price;
-      }
-    }
-
-    const priceRange = priceMax - priceMin;
-    for (const article of categorySlugs[categorySlug]) {
-      if (article.data.price === null || article.data.price === undefined) {
-        continue;
-      }
-
-      article.data.priceRange = priceRange;
-      article.data.priceMax = priceMax;
-      article.data.priceMin = priceMin;
-      article.data.priceScore =
-        1 - (article.data.price - priceMin) / priceRange;
-    }
+    writeJson(
+      path.join(targetDir, 'categories', categorySlug + '.json'),
+      categorySlugs[categorySlug].map((a) => articleMap[a.data.id])
+    );
   }
 
   for (const reducedArticle of reducedArticles) {
     writeJson(
       path.join(targetDir, 'articles', reducedArticle.file),
       reducedArticle.data
+    );
+  }
+
+  for (const purchaseId of Object.keys(purchaseArticles)) {
+    const articles: any[] = purchaseArticles[purchaseId];
+    writeJson(
+      path.join(targetDir, 'purchases', purchaseId + '.json'),
+      articles.map((a) => articleMap[a.artikelID])
     );
   }
 }

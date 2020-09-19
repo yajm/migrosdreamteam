@@ -1,0 +1,260 @@
+{
+  "id": "100910600000",
+  "language": "de",
+  "name": "Pralinés du Confiseur",
+  "slug": "pralines-du-confiseur-100910600000",
+  "boss_number": "010110031110",
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "validity-range-not-set",
+    "leshop-discounted",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7616500665545"
+  ],
+  "brand": {
+    "id": "062",
+    "name": "Frey",
+    "slug": "frey",
+    "links": {
+      "homepage": {
+        "url": "http://www.chocolatfrey.ch/de",
+        "name": "Homepage",
+        "type": "info",
+        "purchasable": false
+      }
+    },
+    "image": {
+      "original": "https://image.migros.ch/original/0f240825beceb0ba78936de6bce6939efdfd3f26/frey.jpg",
+      "stack": "https://image.migros.ch/{stack}/0f240825beceb0ba78936de6bce6939efdfd3f26/frey.jpg"
+    }
+  },
+  "labels": [
+    {
+      "id": "L53",
+      "name": "Swissness",
+      "slug": "swissness",
+      "image": {
+        "original": "https://image.migros.ch/original/d771bba2f6b08ba42970ea0243c6f8c5a8832f15/swissness.jpg",
+        "stack": "https://image.migros.ch/{stack}/d771bba2f6b08ba42970ea0243c6f8c5a8832f15/swissness.jpg"
+      }
+    },
+    {
+      "id": "L34",
+      "name": "UTZ",
+      "slug": "utz",
+      "image": {
+        "original": "https://image.migros.ch/original/64192d97b7770d351f5bbe89a57c9f614e529150/utz.jpg",
+        "stack": "https://image.migros.ch/{stack}/64192d97b7770d351f5bbe89a57c9f614e529150/utz.jpg"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_0101082108",
+      "name": "Pralinés",
+      "slug": "supermarkt/lebensmittel/suessigkeiten/schokolade/pralines",
+      "visible": true,
+      "title": "Feine Pralinen zu günstigen Preisen bei der Migros",
+      "parent_code": "BeSS_01010821",
+      "level": 5
+    },
+    {
+      "code": "BeSS_01010821",
+      "name": "Schokolade",
+      "slug": "supermarkt/lebensmittel/suessigkeiten/schokolade",
+      "visible": true,
+      "parent_code": "BeSS_010108",
+      "level": 4
+    },
+    {
+      "code": "BeSS_010108",
+      "name": "Süssigkeiten",
+      "slug": "supermarkt/lebensmittel/suessigkeiten",
+      "visible": true,
+      "title": "Süssigkeiten aus Ihrer Migros: für Naschkatzen und Schleckmäuler",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/a9c80f4e896b5ebdd3b7ebbee11f956c8ff157cf/suessigkeiten.jpg",
+        "stack": "https://image.migros.ch/{stack}/a9c80f4e896b5ebdd3b7ebbee11f956c8ff157cf/suessigkeiten.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/e885a72e1a5ec4ee428f2a61403bb4e7e5b719a7/pralines-du-confiseur.jpg",
+    "stack": "https://image.migros.ch/{stack}/e885a72e1a5ec4ee428f2a61403bb4e7e5b719a7/pralines-du-confiseur.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/1356e977c10f2a75174436d672994ccf5f0eb606/pralines-du-confiseur.png",
+    "stack": "https://image.migros.ch/{stack}/1356e977c10f2a75174436d672994ccf5f0eb606/pralines-du-confiseur.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "M",
+          "value": "Kolonial Standard"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "11201",
+          "value": "PRALINEN ASSORTIERT"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/100910600000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/pralines-du-confiseur-100910600000",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/100910600000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/pralines-du-confiseur-100910600000",
+      "type": "info",
+      "purchasable": false
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/5178855",
+      "app_url": "leshop:///catalog/article/detail?ean=7616500665545",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/pralines-du-confiseur-100910600000",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "updated_at": "2020-09-16T06:49:54+0200",
+  "receipt_text": "Pralinés du Confiseur",
+  "price": {
+    "valid_from": "2020-09-15T00:00:00+0200",
+    "valid_to": "2020-09-28T23:59:59+0200",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 16.65,
+      "original_price": 20.8,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "503g"
+    },
+    "discount": {
+      "id": "1449464",
+      "region": "national",
+      "start_date": "2020-09-15T00:00:00+0200",
+      "end_date": "2020-09-28T23:59:59+0200",
+      "publication_date": "2020-09-13T00:00:00+0200",
+      "discount_amount": "20%",
+      "discount_regions": [
+        "national"
+      ],
+      "reference_product_id": "100901800000",
+      "discount_type": "aktion",
+      "discount_type_id": "001",
+      "discount_type_label": "SA Sonderangebot",
+      "organisation": "02",
+      "cooperative": "mgb",
+      "image": {
+        "tags": [
+          "list-image"
+        ],
+        "original": "https://image.migros.ch/original/9f1cec35d3c06aab264dbe7ea765834e8f520618/alle-frey-pralines-in-schachteln-und-adoro-utz.jpg",
+        "source": "PriceRepository",
+        "stack": "https://image.migros.ch/{stack}/9f1cec35d3c06aab264dbe7ea765834e8f520618/alle-frey-pralines-in-schachteln-und-adoro-utz.jpg"
+      },
+      "image_transparent": {
+        "original": "https://image.migros.ch/original/9f1cec35d3c06aab264dbe7ea765834e8f520618/alle-frey-pralines-in-schachteln-und-adoro-utz.png",
+        "source": "PriceRepository",
+        "stack": "https://image.migros.ch/{stack}/9f1cec35d3c06aab264dbe7ea765834e8f520618/alle-frey-pralines-in-schachteln-und-adoro-utz.png"
+      },
+      "logo": {
+        "original": "https://image.migros.ch/original/63992097c0ab00749a21c1906dc38d8bf3373398.png",
+        "source": "PriceRepository",
+        "stack": "https://image.migros.ch/{stack}/63992097c0ab00749a21c1906dc38d8bf3373398.png"
+      },
+      "badge": {
+        "original": "https://image.migros.ch/original/0633530dd39bda4f1496c8c8aa5ac1d66f227594.png",
+        "stack": "https://image.migros.ch/{stack}/0633530dd39bda4f1496c8c8aa5ac1d66f227594.png"
+      },
+      "location_planning_type": "01",
+      "reduction_type_id": "01",
+      "special_advertisement": false,
+      "advertisement_type_id": "2",
+      "description": "Alle Frey-Pralinés in Schachteln und -Adoro, UTZ",
+      "discount_hint": "(ohne Mehrfachpackungen), z.B. Pralinés Prestige, 132 g, <strong>7.80 </strong>statt 9.80, Angebot gilt nur vom 15.9. bis 28.9.2020, solange Vorrat.",
+      "high_performer": false,
+      "collective_discount": true,
+      "instead_of": "statt",
+      "price": 16.65,
+      "original_price": 20.8,
+      "disclaimer": "Gültigkeit siehe Angebots-Detailseite.\r\nBei allen Angeboten sind M-Budget und bereits reduzierte Artikel ausgenommen.\r\nBei Aktionen können bei der Verrechnung auf dem Kassabon Rundungsdifferenzen zu Gunsten des Kunden entstehen.",
+      "source": "PriceRepository",
+      "boss_number": "010110031105",
+      "discount_role_id": "2000000002",
+      "discount_role_label": "M: Wochenangebot Typ I",
+      "last_imported": "2020-09-08T05:15:04+0200"
+    },
+    "discount_hint": "Angebot gilt nur vom 15.9. bis 28.9.2020, solange Vorrat."
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 1,
+    "average_all": 5
+  },
+  "allergen_text": "Kann Eier und Spuren anderer Schalenfrüchte (Nüsse) enthalten",
+  "reindex_date": "2020-09-28T23:59:59+0200"
+}

@@ -1,0 +1,451 @@
+{
+  "id": "702000600000",
+  "language": "de",
+  "name": "Cucina & Tavola Dressing-Shaker",
+  "slug": "cucina-tavola-dressing-shaker",
+  "boss_number": "150423100505",
+  "description": {
+    "text": "<p>- Mit Skalierung<br />- Mit weiter Verschlusskappe f&uuml;r sauberes Ausgiessen<br />- Geeignet f&uuml;r s&auml;mige Dressings</p>",
+    "source": "PEX"
+  },
+  "tags": [
+    "source-pex",
+    "near-non-food",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7613294850058"
+  ],
+  "brand": {
+    "id": "NF1",
+    "name": "Cucina & Tavola",
+    "slug": "cucina-tavola",
+    "image": {
+      "original": "https://image.migros.ch/original/ec18c12011ab778b7756486a090e13866fc1eaf1/cucina-tavola.jpg",
+      "stack": "https://image.migros.ch/{stack}/ec18c12011ab778b7756486a090e13866fc1eaf1/cucina-tavola.jpg"
+    }
+  },
+  "categories": [
+    {
+      "code": "BeSS_01040913",
+      "name": "Küchenhelfer",
+      "slug": "supermarkt/haushalt-reinigung/kueche/kuechenhelfer",
+      "visible": true,
+      "parent_code": "BeSS_010409",
+      "image": {
+        "original": "https://image.migros.ch/original/56256124a866c079d9acf746ae2dc46f0ac2dd00/kuechenhelfer.jpg",
+        "stack": "https://image.migros.ch/{stack}/56256124a866c079d9acf746ae2dc46f0ac2dd00/kuechenhelfer.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010409",
+      "name": "Küche",
+      "slug": "supermarkt/haushalt-reinigung/kueche",
+      "visible": true,
+      "title": "Artikel für die Küche aus Ihrer Migros – gut & günstig!",
+      "parent_code": "BeSS_0104",
+      "image": {
+        "original": "https://image.migros.ch/original/90120e4cc3d5d74e017d4b91bbdcb1da29eb70a6/kueche.jpg",
+        "stack": "https://image.migros.ch/{stack}/90120e4cc3d5d74e017d4b91bbdcb1da29eb70a6/kueche.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0104",
+      "name": "Haushalt & Reinigung",
+      "slug": "supermarkt/haushalt-reinigung",
+      "visible": true,
+      "title": "Reinigung mit der Migros – Reiniger für Haushalt und Garten",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/e5da3225980543e0c7ddcc443069f331d94e8439/haushalt-reinigung.png",
+        "stack": "https://image.migros.ch/{stack}/e5da3225980543e0c7ddcc443069f331d94e8439/haushalt-reinigung.png"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "MIC_SHOP_CAT_MigrosSupermarkt_Essen_AccessoiresTextilien",
+        "name": "Migros Supermarkt",
+        "slug": "micasa/accessoires-textilien/essen/migros-supermarkt",
+        "visible": false,
+        "parent_code": "MIC_SHOP_CAT_Essen_AccessoiresTextilien",
+        "level": 4
+      },
+      {
+        "code": "MIC_SHOP_CAT_Essen_AccessoiresTextilien",
+        "name": "Essen",
+        "slug": "micasa/accessoires-textilien/essen",
+        "visible": true,
+        "parent_code": "MIC_SHOP_CAT_AccessoiresTextilien",
+        "level": 3
+      },
+      {
+        "code": "MIC_SHOP_CAT_AccessoiresTextilien",
+        "name": "Accessoires & Textilien",
+        "slug": "micasa/accessoires-textilien",
+        "visible": true,
+        "parent_code": "BeSS_02",
+        "level": 2
+      },
+      {
+        "code": "BeSS_02",
+        "name": "Micasa",
+        "slug": "micasa",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ],
+    [
+      {
+        "code": "MIC_SHOP_CAT_KuechenhelferZubehoer_Kochen_Essen_AccessoiresTextilien",
+        "name": "Küchenhelfer & Zubehör",
+        "slug": "micasa/accessoires-textilien/essen/kochen/kuechenhelfer-zubehoer",
+        "visible": true,
+        "parent_code": "MIC_SHOP_CAT_Kochen_Essen_AccessoiresTextilien",
+        "level": 5
+      },
+      {
+        "code": "MIC_SHOP_CAT_Kochen_Essen_AccessoiresTextilien",
+        "name": "Kochen",
+        "slug": "micasa/accessoires-textilien/essen/kochen",
+        "visible": true,
+        "parent_code": "MIC_SHOP_CAT_Essen_AccessoiresTextilien",
+        "level": 4
+      },
+      {
+        "code": "MIC_SHOP_CAT_Essen_AccessoiresTextilien",
+        "name": "Essen",
+        "slug": "micasa/accessoires-textilien/essen",
+        "visible": true,
+        "parent_code": "MIC_SHOP_CAT_AccessoiresTextilien",
+        "level": 3
+      },
+      {
+        "code": "MIC_SHOP_CAT_AccessoiresTextilien",
+        "name": "Accessoires & Textilien",
+        "slug": "micasa/accessoires-textilien",
+        "visible": true,
+        "parent_code": "BeSS_02",
+        "level": 2
+      },
+      {
+        "code": "BeSS_02",
+        "name": "Micasa",
+        "slug": "micasa",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "features": [
+    {
+      "label_code": "mic_hoehe",
+      "label": "Höhe",
+      "values": [
+        {
+          "value_code": "NUMERIC_20.5",
+          "value": "20.5 cm",
+          "numeric_value": 20.5
+        }
+      ],
+      "top_fact": false,
+      "unit_code": "cm",
+      "unit": "Zentimeter",
+      "unit_symbol": "cm"
+    },
+    {
+      "label_code": "mic_durchmesser",
+      "label": "Durchmesser",
+      "values": [
+        {
+          "value_code": "NUMERIC_7.5",
+          "value": "7.5 cm",
+          "numeric_value": 7.5
+        }
+      ],
+      "top_fact": false,
+      "unit_code": "cm",
+      "unit": "Zentimeter",
+      "unit_symbol": "cm"
+    },
+    {
+      "label_code": "mic_farbewohnshop_farben",
+      "label": "Farben",
+      "values": [
+        {
+          "value_code": "MIC_FarbeWohnshop_Gruen",
+          "value": "Grün"
+        },
+        {
+          "value_code": "MIC_FarbeWohnshop_Transparent",
+          "value": "Transparent"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "mic_materialwohnshop_material",
+      "label": "Material",
+      "values": [
+        {
+          "value_code": "MIC_MaterialWohnshop_Kunststoff",
+          "value": "Kunststoff"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "mic_volumeninhaltgewicht",
+      "label": "Volumen (Inhalt, Gewicht)",
+      "values": [
+        {
+          "value": "0.5l"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "mic_fuer_lebensmittel_geeignet",
+      "label": "Für Lebensmittel geeignet",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "mic_spuelmaschinenfest",
+      "label": "Spülmaschinengeeignet",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "mic_mikrowellengeeignet",
+      "label": "Mikrowellengeeignet",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "Nein",
+          "boolean_value": false
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "mic_backofenfest",
+      "label": "Backofenfest",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "Nein",
+          "boolean_value": false
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/2c6f869323a5bc6ffc1981851dd02aea9fe15ad7/cucina-tavola-dressing-shaker.jpg",
+    "stack": "https://image.migros.ch/{stack}/2c6f869323a5bc6ffc1981851dd02aea9fe15ad7/cucina-tavola-dressing-shaker.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/4b6a17e54cfcd857496d97f54eb2bd844c7b5bd7/cucina-tavola-dressing-shaker.png",
+    "stack": "https://image.migros.ch/{stack}/4b6a17e54cfcd857496d97f54eb2bd844c7b5bd7/cucina-tavola-dressing-shaker.png"
+  },
+  "additional_images": [
+    {
+      "original": "https://image.migros.ch/original/b0bcf3d8da65c90f36776ad42d1507dc90222bc9.jpg",
+      "stack": "https://image.migros.ch/{stack}/b0bcf3d8da65c90f36776ad42d1507dc90222bc9.jpg"
+    }
+  ],
+  "internal_features": [
+    {
+      "label_code": "MAPI_DEFAULT_LOGISTIC_TYPE",
+      "values": [
+        {
+          "value_code": "55",
+          "value": "Versandart Paket"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Normalposition"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "HART"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_RISK_CLASS",
+      "values": [
+        {
+          "value_code": "2",
+          "value": "2 (medium)"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_QUALITY_CHECK",
+      "values": [
+        {
+          "value_code": "02",
+          "value": "FRI (Final Random  Inspection)"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_KUBE_TUKA",
+      "values": [
+        {
+          "value_code": "BLANK",
+          "value": "KUBE und TUKA nicht zugelassen"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HART",
+          "value": "Hartwaren  Handelsware"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "H",
+          "value": "Hartwaren"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "50920",
+          "value": "KOCHEN"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 1,
+    "percentage": 7.7
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/702000600000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/cucina-tavola-dressing-shaker",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/702000600000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/cucina-tavola-dressing-shaker",
+      "type": "info",
+      "purchasable": false
+    },
+    "micasa": {
+      "url": "https://www.micasa.ch/de/p/702000600000/cucina-tavola-dressing-shaker",
+      "name": "Micasa",
+      "canonical": "https://produkte.migros.ch/cucina-tavola-dressing-shaker",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "updated_at": "2020-09-16T06:42:32+0200",
+  "receipt_text": "Shaker für Dressings",
+  "price": {
+    "valid_from": "2018-01-30T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 9.95,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 7,
+    "average_all": 5
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

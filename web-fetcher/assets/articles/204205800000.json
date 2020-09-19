@@ -1,0 +1,320 @@
+{
+  "id": "204205800000",
+  "language": "de",
+  "name": "Floralp Vorzugsbutter Schale",
+  "slug": "floralp-vorzugsbutter-schale",
+  "boss_number": "030213202010",
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "source-qim-origins",
+    "validity-range-not-set",
+    "source-qim-allergens",
+    "source-qim-fooddeclaration",
+    "source-qim-nutritionfacts",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7610200369604",
+    "7612300011223"
+  ],
+  "brand": {
+    "id": "J28",
+    "name": "Floralp",
+    "slug": "floralp"
+  },
+  "labels": [
+    {
+      "id": "L53",
+      "name": "Swissness",
+      "slug": "swissness",
+      "image": {
+        "original": "https://image.migros.ch/original/d771bba2f6b08ba42970ea0243c6f8c5a8832f15/swissness.jpg",
+        "stack": "https://image.migros.ch/{stack}/d771bba2f6b08ba42970ea0243c6f8c5a8832f15/swissness.jpg"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_01010408",
+      "name": "Butter",
+      "slug": "supermarkt/lebensmittel/milchprodukte-eier/butter",
+      "visible": true,
+      "title": "Butter in Ihrer Migros kaufen",
+      "parent_code": "BeSS_010104",
+      "image": {
+        "original": "https://image.migros.ch/original/62f24ee3be5d51745ef4fdb78b5b9ac484a74cd9/butter.jpg",
+        "stack": "https://image.migros.ch/{stack}/62f24ee3be5d51745ef4fdb78b5b9ac484a74cd9/butter.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010104",
+      "name": "Milchprodukte & Eier",
+      "slug": "supermarkt/lebensmittel/milchprodukte-eier",
+      "visible": true,
+      "title": "Milchprodukte und Eier –",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/6b1ea6c2d41c3ccb21bf05c8dc342f7f55d83deb/milchprodukte-eier.jpg",
+        "stack": "https://image.migros.ch/{stack}/6b1ea6c2d41c3ccb21bf05c8dc342f7f55d83deb/milchprodukte-eier.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_Butter_ButterMargarine_MilchprodukteEier",
+        "name": "Butter",
+        "slug": "amigos/milchprodukte-eier/butter-margarine/butter",
+        "visible": true,
+        "parent_code": "AMIG_CAT_ButterMargarine_MilchprodukteEier",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_ButterMargarine_MilchprodukteEier",
+        "name": "Butter & Margarine",
+        "slug": "amigos/milchprodukte-eier/butter-margarine",
+        "visible": true,
+        "parent_code": "AMIG_CAT_MilchprodukteEier",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_MilchprodukteEier",
+        "name": "Milchprodukte & Eier",
+        "slug": "amigos/milchprodukte-eier",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "features": [
+    {
+      "label_code": "MISO_mussgekuehltwerden",
+      "label": "Muss gekühlt werden",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_schale",
+          "value": "Schale"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zusatzangaben",
+      "label": "Zusatzangaben",
+      "values": [
+        {
+          "value_code": "MISO_zusatzangaben_310",
+          "value": "Vor Licht geschützt und kühl aufbewahren."
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_beschaffenheitderbutter",
+      "label": "Beschaffenheit der Butter",
+      "values": [
+        {
+          "value_code": "MISO_beschaffenheitderbutter_aufstrich",
+          "value": "Aufstrich"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_milchartrohstoff",
+      "label": "Milchart/Rohstoff",
+      "values": [
+        {
+          "value_code": "MISO_milchartrohstoff_rahm",
+          "value": "Rahm"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_qualitaetsstufe",
+      "label": "Qualitätsstufe",
+      "values": [
+        {
+          "value_code": "MISO_qualitaetsstufe_vorzugsbutter",
+          "value": "Vorzugsbutter"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/1b21d0d42958126119de60cc1e9fff5e083bcf13/floralp-vorzugsbutter-schale.jpg",
+    "stack": "https://image.migros.ch/{stack}/1b21d0d42958126119de60cc1e9fff5e083bcf13/floralp-vorzugsbutter-schale.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/d920a8ef97ac376d35201817c1cbf7865f627479/floralp-vorzugsbutter-schale.png",
+    "stack": "https://image.migros.ch/{stack}/d920a8ef97ac376d35201817c1cbf7865f627479/floralp-vorzugsbutter-schale.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_sortierung",
+      "label": "Sortierung aMigos",
+      "values": [
+        {
+          "value_code": "NUMERIC_140",
+          "value": "140",
+          "numeric_value": 140
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_volumen",
+      "label": "Volumen aMigos!",
+      "values": [
+        {
+          "value_code": "NUMERIC_0.243474",
+          "value": "0.243474 l",
+          "numeric_value": 0.243474
+        }
+      ],
+      "top_fact": false,
+      "unit_code": "l",
+      "unit": "Liter",
+      "unit_symbol": "l"
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZFRP",
+          "value": "Frische Beschaffung"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "1",
+          "value": "Molki"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "70008",
+          "value": "BUTTER"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/204205800000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/floralp-vorzugsbutter-schale",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/204205800000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/floralp-vorzugsbutter-schale",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "updated_at": "2020-09-16T05:47:32+0200",
+  "receipt_text": "Floralp Schale 100g",
+  "price": {
+    "valid_from": "2020-07-06T00:00:00+0200",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 2.1,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "100g"
+    },
+    "base": {
+      "price": 2.1,
+      "quantity": 100,
+      "unit": "g"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 12,
+    "average_all": 4.8
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

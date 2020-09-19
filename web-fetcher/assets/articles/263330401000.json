@@ -1,0 +1,304 @@
+{
+  "id": "263330401000",
+  "language": "de",
+  "name": "Extra Blondorangen",
+  "slug": "extra-blondorangen-263330401000",
+  "boss_number": "050215430505",
+  "description": {
+    "text": "Die gelbfleischigen Vertreter der beliebtesten Orangengruppe enthalten meist keine Kerne.",
+    "source": "PIM"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "2164361000005",
+    "7613404116319"
+  ],
+  "brand": {
+    "id": "FS0",
+    "name": "Extra (Früchte/Gemüse)",
+    "slug": "extra-fruechtegemuese",
+    "image": {
+      "original": "https://image.migros.ch/original/3df2b100fc81ef15e51c26e0017222142f3d4ecc/extra-fruechtegemuese.jpg",
+      "stack": "https://image.migros.ch/{stack}/3df2b100fc81ef15e51c26e0017222142f3d4ecc/extra-fruechtegemuese.jpg"
+    }
+  },
+  "categories": [
+    {
+      "code": "BeSS_0101190104",
+      "name": "Zitrusfrüchte",
+      "slug": "supermarkt/lebensmittel/fruechte-gemuese/fruechte/zitrusfruechte",
+      "visible": true,
+      "title": "Zitrusfrüchte in Ihrer Migros kaufen",
+      "parent_code": "BeSS_01011901",
+      "level": 5
+    },
+    {
+      "code": "BeSS_01011901",
+      "name": "Früchte",
+      "slug": "supermarkt/lebensmittel/fruechte-gemuese/fruechte",
+      "visible": true,
+      "title": "Früchte – in Ihrer Migros täglich frisch",
+      "parent_code": "BeSS_010119",
+      "level": 4
+    },
+    {
+      "code": "BeSS_010119",
+      "name": "Früchte & Gemüse",
+      "slug": "supermarkt/lebensmittel/fruechte-gemuese",
+      "visible": true,
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/f839060a505bba25c0f37585edb558c003c50479/fruechte-gemuese.jpg",
+        "stack": "https://image.migros.ch/{stack}/f839060a505bba25c0f37585edb558c003c50479/fruechte-gemuese.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_Zitrusfruechte_Fruechte_FruechteGemuese",
+        "name": "Zitrusfrüchte",
+        "slug": "amigos/fruechte-gemuese/fruechte/zitrusfruechte",
+        "visible": true,
+        "parent_code": "AMIG_CAT_Fruechte_FruechteGemuese",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_Fruechte_FruechteGemuese",
+        "name": "Früchte",
+        "slug": "amigos/fruechte-gemuese/fruechte",
+        "visible": true,
+        "parent_code": "AMIG_CAT_FruechteGemuese",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_FruechteGemuese",
+        "name": "Früchte & Gemüse",
+        "slug": "amigos/fruechte-gemuese",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "features": [
+    {
+      "label_code": "MISO_fruchtfleischfarbe",
+      "label": "Fruchtfleischfarbe",
+      "values": [
+        {
+          "value_code": "MISO_fruchtfleischfarbe_gelb",
+          "value": "Gelb"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_verwendungszweckvonobstfruechten",
+      "label": "Verwendungszweck",
+      "values": [
+        {
+          "value_code": "MISO_verwendungszweckvonobstfruechten_9",
+          "value": "Ihr erfrischend süssliches Fruchtfleisch enthält viel Saft, deshalb eignen sie sich perfekt zum Auspressen."
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_saison",
+      "label": "Saison",
+      "values": [
+        {
+          "value_code": "MISO_saison_novembermaerz",
+          "value": "November - März"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/964e76fed944aa0e9808e588cde47fce713ed8d7/extra-blondorangen.jpg",
+    "stack": "https://image.migros.ch/{stack}/964e76fed944aa0e9808e588cde47fce713ed8d7/extra-blondorangen.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/ecdd0821eec2f2b1130db29badd5686a489c73a5/extra-blondorangen.png",
+    "stack": "https://image.migros.ch/{stack}/ecdd0821eec2f2b1130db29badd5686a489c73a5/extra-blondorangen.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_minimal-gewicht",
+      "label": "Minimal-Gewicht",
+      "values": [
+        {
+          "value_code": "NUMERIC_250.0",
+          "value": "250.0 g",
+          "numeric_value": 250
+        }
+      ],
+      "top_fact": false,
+      "unit_code": "g",
+      "unit": "Gramm",
+      "unit_symbol": "g"
+    },
+    {
+      "label_code": "MISO_aMigos_maximal-gewicht",
+      "label": "Maximal-Gewicht",
+      "values": [
+        {
+          "value_code": "NUMERIC_450.0",
+          "value": "450.0 g",
+          "numeric_value": 450
+        }
+      ],
+      "top_fact": false,
+      "unit_code": "g",
+      "unit": "Gramm",
+      "unit_symbol": "g"
+    },
+    {
+      "label_code": "MISO_aMigos_verkaufseinheit",
+      "label": "Verkaufseinheit",
+      "values": [
+        {
+          "value_code": "NUMERIC_1.0",
+          "value": "1.0 Stk.",
+          "numeric_value": 1
+        }
+      ],
+      "top_fact": false,
+      "unit_code": "Stk.",
+      "unit": "Stück",
+      "unit_symbol": "Stk."
+    },
+    {
+      "label_code": "MISO_aMigos_volumen",
+      "label": "Volumen aMigos!",
+      "values": [
+        {
+          "value_code": "NUMERIC_0.4",
+          "value": "0.4 l",
+          "numeric_value": 0.4
+        }
+      ],
+      "top_fact": false,
+      "unit_code": "l",
+      "unit": "Liter",
+      "unit_symbol": "l"
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZFRP",
+          "value": "Frische Beschaffung"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "2",
+          "value": "Früchte und Gemüse"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "70336",
+          "value": "ORANGEN"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/263330401000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/extra-blondorangen-263330401000",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/263330401000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/extra-blondorangen-263330401000",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "updated_at": "2020-09-16T03:57:30+0200",
+  "receipt_text": "Extra Blondorangen",
+  "price": {
+    "valid_from": "2018-10-11T00:00:00+0200",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "source": "PriceRepository",
+    "no_price_hint": "Aktueller Tagespreis"
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 14,
+    "average_all": 4.428571428571
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

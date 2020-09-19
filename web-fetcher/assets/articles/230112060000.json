@@ -1,0 +1,435 @@
+{
+  "id": "230112060000",
+  "language": "de",
+  "name": "Optigal Poulet-Bratwurst",
+  "slug": "optigal-poulet-bratwurst",
+  "boss_number": "040114502510",
+  "description": {
+    "text": "unger&auml;ucherte Poulet-Br&uuml;hwurst",
+    "source": "PIM"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "source-qim-origins",
+    "validity-range-not-set",
+    "source-qim-allergens",
+    "source-qim-fooddeclaration",
+    "source-qim-nutritionfacts",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7610200044099"
+  ],
+  "brand": {
+    "id": "466",
+    "name": "Optigal",
+    "slug": "optigal",
+    "image": {
+      "original": "https://image.migros.ch/original/b8f0717003093571737989d3593f3af1249bce67/optigal.jpg",
+      "stack": "https://image.migros.ch/{stack}/b8f0717003093571737989d3593f3af1249bce67/optigal.jpg"
+    }
+  },
+  "labels": [
+    {
+      "id": "L53",
+      "name": "Swissness",
+      "slug": "swissness",
+      "image": {
+        "original": "https://image.migros.ch/original/d771bba2f6b08ba42970ea0243c6f8c5a8832f15/swissness.jpg",
+        "stack": "https://image.migros.ch/{stack}/d771bba2f6b08ba42970ea0243c6f8c5a8832f15/swissness.jpg"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_0101061101",
+      "name": "Aufschnitt, Rohfleischwaren und Wurstwaren aus Geflügelfleisch",
+      "slug": "supermarkt/lebensmittel/fleisch/charcuterie-produkte/aufschnitt-rohfleischwaren-und-wurstwaren-aus-gefluegelfleis",
+      "visible": true,
+      "parent_code": "BeSS_01010611",
+      "image": {
+        "original": "https://image.migros.ch/original/adf225c06ab8ef3a6d68eb4a0e2e9c168e6c6f7a/aufschnitt-rohfleischwaren-und-wurstwaren-aus-gefluegelfleis.jpg",
+        "stack": "https://image.migros.ch/{stack}/adf225c06ab8ef3a6d68eb4a0e2e9c168e6c6f7a/aufschnitt-rohfleischwaren-und-wurstwaren-aus-gefluegelfleis.jpg"
+      },
+      "level": 5
+    },
+    {
+      "code": "BeSS_01010611",
+      "name": "Charcuterie Produkte",
+      "slug": "supermarkt/lebensmittel/fleisch/charcuterie-produkte",
+      "visible": true,
+      "title": "Vielfältige Charcuterie-Produkte jetzt in Ihrer Migros",
+      "parent_code": "BeSS_010106",
+      "image": {
+        "original": "https://image.migros.ch/original/25316d2bc38d6c6d28b266513291b23735ad8a1f/charcuterie-produkte.jpg",
+        "stack": "https://image.migros.ch/{stack}/25316d2bc38d6c6d28b266513291b23735ad8a1f/charcuterie-produkte.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010106",
+      "name": "Fleisch",
+      "slug": "supermarkt/lebensmittel/fleisch",
+      "visible": true,
+      "title": "Fleisch ausgezeichneter Qualität aus Ihrer Migros: einfach gut",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/03d32c0880d7a9ea6e58971966032e65ac442b58/fleisch.jpg",
+        "stack": "https://image.migros.ch/{stack}/03d32c0880d7a9ea6e58971966032e65ac442b58/fleisch.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_Wuerste_CharcuterieWurstwaren_FleischFisch",
+        "name": "Würste",
+        "slug": "amigos/fleisch-fisch/charcuterie-wurstwaren/wuerste",
+        "visible": true,
+        "parent_code": "AMIG_CAT_CharcuterieWurstwaren_FleischFisch",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_CharcuterieWurstwaren_FleischFisch",
+        "name": "Charcuterie & Wurstwaren",
+        "slug": "amigos/fleisch-fisch/charcuterie-wurstwaren",
+        "visible": true,
+        "parent_code": "AMIG_CAT_FleischFisch",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_FleischFisch",
+        "name": "Fleisch & Fisch",
+        "slug": "amigos/fleisch-fisch",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "features": [
+    {
+      "label_code": "MISO_mussgekuehltwerden",
+      "label": "Muss gekühlt werden",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_produktionsanspruch",
+      "label": "Produktionsverfahren",
+      "values": [
+        {
+          "value_code": "MISO_produktionsanspruch_optigalbesonderstierfreundlichestallungen",
+          "value": "Optigal, besonders tierfreundliche Stallungen"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_anzahlentnehmbarereinzelportionen",
+      "label": "Anzahl entnehmbarer Einzeleinheiten",
+      "values": [
+        {
+          "value_code": "NUMERIC_2.0",
+          "value": "2.0",
+          "numeric_value": 2
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_kunststoffverpackung",
+          "value": "Kunststoff-Verpackung"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zubereitungsverfahren",
+      "label": "Hinweise für die Zubereitung",
+      "values": [
+        {
+          "value_code": "MISO_zubereitungsverfahren_braten",
+          "value": "Braten"
+        },
+        {
+          "value_code": "MISO_zubereitungsverfahren_grillieren",
+          "value": "Grillieren"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_fleischform",
+      "label": "Fleischform bearbeitet",
+      "values": [
+        {
+          "value_code": "MISO_fleischform_wurst",
+          "value": "Wurst"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_primaerezusaetze",
+      "label": "Primäre Zusätze",
+      "values": [
+        {
+          "value_code": "MISO_primaerezusaetze_gewuerze",
+          "value": "Gewürze"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_tierartodergattung",
+      "label": "Tierart oder Gattung",
+      "values": [
+        {
+          "value_code": "MISO_tierartodergattung_poulet",
+          "value": "Poulet"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_verpackungsform",
+      "label": "Verpackungsform",
+      "values": [
+        {
+          "value_code": "MISO_verpackungsform_schutzatmosphaere",
+          "value": "Schutzatmosphäre"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_herstellungsverfahrenvonfleisch",
+      "label": "Herstellungsverfahren von Fleisch",
+      "values": [
+        {
+          "value_code": "MISO_herstellungsverfahrenvonfleisch_gekocht",
+          "value": "gekocht"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_tierwohlmehrwert",
+      "label": "Tierwohl Mehrwert",
+      "values": [
+        {
+          "value_code": "MISO_tierwohlmehrwert_besonderstierfreundlichestallungenmitauslaufwintergartenrueckverfolgbarbiszumbauerherkunftch",
+          "value": "Besonders tierfreundliche Stallungen mit Auslauf in einen Wintergarten. Rückverfolgbar bis zum Bauer. Herkunft CH"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_haltbarmachung",
+      "label": "Haltbarmachung",
+      "values": [
+        {
+          "value_code": "MISO_haltbarmachung_gekocht",
+          "value": "gekocht"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_fleischstueck",
+      "label": "Fleischstück",
+      "values": [
+        {
+          "value_code": "MISO_fleischstueck_wurstfleisch",
+          "value": "Wurstfleisch"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/51dc9628d0cecfd8b67b7ac8121427486f4c1521/optigal-poulet-bratwurst.jpg",
+    "stack": "https://image.migros.ch/{stack}/51dc9628d0cecfd8b67b7ac8121427486f4c1521/optigal-poulet-bratwurst.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/35603817fd61e0b598ae6fcc45740fde5932f38e/optigal-poulet-bratwurst.png",
+    "stack": "https://image.migros.ch/{stack}/35603817fd61e0b598ae6fcc45740fde5932f38e/optigal-poulet-bratwurst.png"
+  },
+  "additional_images": [
+    {
+      "original": "https://image.migros.ch/original/e4811621e7111f2cac51f00c31dd534319f5ece2.jpg",
+      "stack": "https://image.migros.ch/{stack}/e4811621e7111f2cac51f00c31dd534319f5ece2.jpg"
+    }
+  ],
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_sortierung",
+      "label": "Sortierung aMigos",
+      "values": [
+        {
+          "value_code": "NUMERIC_455",
+          "value": "455",
+          "numeric_value": 455
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_volumen",
+      "label": "Volumen aMigos!",
+      "values": [
+        {
+          "value_code": "NUMERIC_0.68448",
+          "value": "0.68448 l",
+          "numeric_value": 0.68448
+        }
+      ],
+      "top_fact": false,
+      "unit_code": "l",
+      "unit": "Liter",
+      "unit_symbol": "l"
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZFRP",
+          "value": "Frische Beschaffung"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "6",
+          "value": "Fleisch-Fisch-Geflüg"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "71226",
+          "value": "GEFLUEGEL CHARCUTERIE"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/230112060000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/optigal-poulet-bratwurst",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/230112060000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/optigal-poulet-bratwurst",
+      "type": "info",
+      "purchasable": false
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/58153",
+      "app_url": "leshop:///catalog/article/detail?ean=7610200044099",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/optigal-poulet-bratwurst",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "updated_at": "2020-09-16T05:50:00+0200",
+  "receipt_text": "Poulet-Bratwurst",
+  "price": {
+    "valid_from": "2018-01-29T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 3.3,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "220g"
+    },
+    "base": {
+      "price": 1.5,
+      "quantity": 100,
+      "unit": "g"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 4,
+    "average_all": 4.25
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

@@ -1,0 +1,474 @@
+{
+  "id": "703112100000",
+  "language": "de",
+  "name": "Cucina & Tavola Haushaltschere",
+  "slug": "cucina-tavola-haushaltschere",
+  "boss_number": "150423102020",
+  "description": {
+    "text": "Anwendung: Schneidet Papier, Schnur, Stoff, Karton, Folien.",
+    "source": "PEX"
+  },
+  "tags": [
+    "source-pex",
+    "near-non-food",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7613204679946"
+  ],
+  "brand": {
+    "id": "NF1",
+    "name": "Cucina & Tavola",
+    "slug": "cucina-tavola",
+    "image": {
+      "original": "https://image.migros.ch/original/ec18c12011ab778b7756486a090e13866fc1eaf1/cucina-tavola.jpg",
+      "stack": "https://image.migros.ch/{stack}/ec18c12011ab778b7756486a090e13866fc1eaf1/cucina-tavola.jpg"
+    }
+  },
+  "categories": [
+    {
+      "code": "BeSS_01040914",
+      "name": "Schneiden",
+      "slug": "supermarkt/haushalt-reinigung/kueche/schneiden",
+      "visible": true,
+      "parent_code": "BeSS_010409",
+      "image": {
+        "original": "https://image.migros.ch/original/b8a5804c94a33c70f1b0605eb89e90820745bcde/schneiden.jpg",
+        "stack": "https://image.migros.ch/{stack}/b8a5804c94a33c70f1b0605eb89e90820745bcde/schneiden.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010409",
+      "name": "Küche",
+      "slug": "supermarkt/haushalt-reinigung/kueche",
+      "visible": true,
+      "title": "Artikel für die Küche aus Ihrer Migros – gut & günstig!",
+      "parent_code": "BeSS_0104",
+      "image": {
+        "original": "https://image.migros.ch/original/90120e4cc3d5d74e017d4b91bbdcb1da29eb70a6/kueche.jpg",
+        "stack": "https://image.migros.ch/{stack}/90120e4cc3d5d74e017d4b91bbdcb1da29eb70a6/kueche.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0104",
+      "name": "Haushalt & Reinigung",
+      "slug": "supermarkt/haushalt-reinigung",
+      "visible": true,
+      "title": "Reinigung mit der Migros – Reiniger für Haushalt und Garten",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/e5da3225980543e0c7ddcc443069f331d94e8439/haushalt-reinigung.png",
+        "stack": "https://image.migros.ch/{stack}/e5da3225980543e0c7ddcc443069f331d94e8439/haushalt-reinigung.png"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "MIC_SHOP_CAT_Schneiden_Kochen_Essen_AccessoiresTextilien",
+        "name": "Schneiden",
+        "slug": "micasa/accessoires-textilien/essen/kochen/schneiden",
+        "visible": true,
+        "parent_code": "MIC_SHOP_CAT_Kochen_Essen_AccessoiresTextilien",
+        "level": 5
+      },
+      {
+        "code": "MIC_SHOP_CAT_Kochen_Essen_AccessoiresTextilien",
+        "name": "Kochen",
+        "slug": "micasa/accessoires-textilien/essen/kochen",
+        "visible": true,
+        "parent_code": "MIC_SHOP_CAT_Essen_AccessoiresTextilien",
+        "level": 4
+      },
+      {
+        "code": "MIC_SHOP_CAT_Essen_AccessoiresTextilien",
+        "name": "Essen",
+        "slug": "micasa/accessoires-textilien/essen",
+        "visible": true,
+        "parent_code": "MIC_SHOP_CAT_AccessoiresTextilien",
+        "level": 3
+      },
+      {
+        "code": "MIC_SHOP_CAT_AccessoiresTextilien",
+        "name": "Accessoires & Textilien",
+        "slug": "micasa/accessoires-textilien",
+        "visible": true,
+        "parent_code": "BeSS_02",
+        "level": 2
+      },
+      {
+        "code": "BeSS_02",
+        "name": "Micasa",
+        "slug": "micasa",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ],
+    [
+      {
+        "code": "MIC_SHOP_CAT_MigrosSupermarkt_Essen_AccessoiresTextilien",
+        "name": "Migros Supermarkt",
+        "slug": "micasa/accessoires-textilien/essen/migros-supermarkt",
+        "visible": false,
+        "parent_code": "MIC_SHOP_CAT_Essen_AccessoiresTextilien",
+        "level": 4
+      },
+      {
+        "code": "MIC_SHOP_CAT_Essen_AccessoiresTextilien",
+        "name": "Essen",
+        "slug": "micasa/accessoires-textilien/essen",
+        "visible": true,
+        "parent_code": "MIC_SHOP_CAT_AccessoiresTextilien",
+        "level": 3
+      },
+      {
+        "code": "MIC_SHOP_CAT_AccessoiresTextilien",
+        "name": "Accessoires & Textilien",
+        "slug": "micasa/accessoires-textilien",
+        "visible": true,
+        "parent_code": "BeSS_02",
+        "level": 2
+      },
+      {
+        "code": "BeSS_02",
+        "name": "Micasa",
+        "slug": "micasa",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ],
+    [
+      {
+        "code": "MIC_SHOP_CAT_KuechenhelferZubehoer_Kochen_Essen_AccessoiresTextilien",
+        "name": "Küchenhelfer & Zubehör",
+        "slug": "micasa/accessoires-textilien/essen/kochen/kuechenhelfer-zubehoer",
+        "visible": true,
+        "parent_code": "MIC_SHOP_CAT_Kochen_Essen_AccessoiresTextilien",
+        "level": 5
+      },
+      {
+        "code": "MIC_SHOP_CAT_Kochen_Essen_AccessoiresTextilien",
+        "name": "Kochen",
+        "slug": "micasa/accessoires-textilien/essen/kochen",
+        "visible": true,
+        "parent_code": "MIC_SHOP_CAT_Essen_AccessoiresTextilien",
+        "level": 4
+      },
+      {
+        "code": "MIC_SHOP_CAT_Essen_AccessoiresTextilien",
+        "name": "Essen",
+        "slug": "micasa/accessoires-textilien/essen",
+        "visible": true,
+        "parent_code": "MIC_SHOP_CAT_AccessoiresTextilien",
+        "level": 3
+      },
+      {
+        "code": "MIC_SHOP_CAT_AccessoiresTextilien",
+        "name": "Accessoires & Textilien",
+        "slug": "micasa/accessoires-textilien",
+        "visible": true,
+        "parent_code": "BeSS_02",
+        "level": 2
+      },
+      {
+        "code": "BeSS_02",
+        "name": "Micasa",
+        "slug": "micasa",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "features": [
+    {
+      "label_code": "mic_farbewohnshop_farben",
+      "label": "Farben",
+      "values": [
+        {
+          "value_code": "MIC_FarbeWohnshop_Orange",
+          "value": "Orange"
+        },
+        {
+          "value_code": "MIC_FarbeWohnshop_Schwarz",
+          "value": "Schwarz"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "mic_materialwohnshop_material",
+      "label": "Material",
+      "values": [
+        {
+          "value_code": "MIC_MaterialWohnshop_Kunststoff_Edelstahl",
+          "value": "Kunststoff / Edelstahl"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "mic_laenge",
+      "label": "Länge",
+      "values": [
+        {
+          "value_code": "NUMERIC_23",
+          "value": "23 cm",
+          "numeric_value": 23
+        }
+      ],
+      "top_fact": false,
+      "unit_code": "cm",
+      "unit": "Zentimeter",
+      "unit_symbol": "cm"
+    },
+    {
+      "label_code": "mic_fuer_lebensmittel_geeignet",
+      "label": "Für Lebensmittel geeignet",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "mic_spuelmaschinenfest",
+      "label": "Spülmaschinengeeignet",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "Nein",
+          "boolean_value": false
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "mic_pflegehinweise",
+      "label": "Pflegehinweise",
+      "values": [
+        {
+          "value": "Achsengelenk ab und zu mit etwas Öl betupfen."
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/73972f4840a4c5745e84c712d3cfb907ca1d0914/cucina-tavola-haushaltschere.jpg",
+    "stack": "https://image.migros.ch/{stack}/73972f4840a4c5745e84c712d3cfb907ca1d0914/cucina-tavola-haushaltschere.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/e962ce38390b18e9eef97d69b41c8c6126d464c9/cucina-tavola-haushaltschere.png",
+    "stack": "https://image.migros.ch/{stack}/e962ce38390b18e9eef97d69b41c8c6126d464c9/cucina-tavola-haushaltschere.png"
+  },
+  "additional_images": [
+    {
+      "original": "https://image.migros.ch/original/ddbdb0b1b647d2ac398f4b36093be5d501414a30.jpg",
+      "stack": "https://image.migros.ch/{stack}/ddbdb0b1b647d2ac398f4b36093be5d501414a30.jpg"
+    }
+  ],
+  "internal_features": [
+    {
+      "label_code": "MAPI_DEFAULT_LOGISTIC_TYPE",
+      "values": [
+        {
+          "value_code": "55",
+          "value": "Versandart Paket"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Normalposition"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "HART"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUSTOMS_POSITION",
+      "values": [
+        {
+          "value_code": "NUMERIC_82130000000",
+          "value": "82130000000",
+          "numeric_value": 82130000000
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_RISK_CLASS",
+      "values": [
+        {
+          "value_code": "2",
+          "value": "2 (medium)"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_QUALITY_CHECK",
+      "values": [
+        {
+          "value_code": "02",
+          "value": "FRI (Final Random  Inspection)"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_KUBE_TUKA",
+      "values": [
+        {
+          "value_code": "BLANK",
+          "value": "KUBE und TUKA nicht zugelassen"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HART",
+          "value": "Hartwaren  Handelsware"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "H",
+          "value": "Hartwaren"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "50922",
+          "value": "SCHNEIDEN"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 1,
+    "percentage": 7.7
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/703112100000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/cucina-tavola-haushaltschere",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/703112100000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/cucina-tavola-haushaltschere",
+      "type": "info",
+      "purchasable": false
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/106967",
+      "app_url": "leshop:///catalog/article/detail?ean=7613204679946",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/cucina-tavola-haushaltschere",
+      "type": "shop",
+      "purchasable": true
+    },
+    "micasa": {
+      "url": "https://www.micasa.ch/de/p/703112100000/cucina-tavola-haushaltschere",
+      "name": "Micasa",
+      "canonical": "https://produkte.migros.ch/cucina-tavola-haushaltschere",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "updated_at": "2020-09-16T06:07:57+0200",
+  "receipt_text": "Haushaltschere",
+  "price": {
+    "valid_from": "2018-08-07T00:00:00+0200",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 9.95,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "1 Stück"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 1,
+    "average_all": 5
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

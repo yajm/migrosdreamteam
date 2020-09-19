@@ -1,0 +1,353 @@
+{
+  "id": "264200702100",
+  "language": "de",
+  "name": "M-Budget Bananen",
+  "slug": "m-budget-bananen",
+  "boss_number": "050215423005",
+  "description": {
+    "text": "Bananen liefern einen idealen Energiekick im Alltag und beim Sport.",
+    "source": "PIM"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "2148139000008",
+    "7617012070247"
+  ],
+  "brand": {
+    "id": "N26",
+    "name": "M-Budget",
+    "slug": "m-budget",
+    "links": {
+      "homepage": {
+        "url": "https://m-budget.migros.ch/de.html",
+        "name": "Homepage",
+        "type": "info",
+        "purchasable": false
+      }
+    },
+    "image": {
+      "original": "https://image.migros.ch/original/1d1a13e240a94a7e1fa8ef99f15ce5b896f3486b/m-budget.jpg",
+      "stack": "https://image.migros.ch/{stack}/1d1a13e240a94a7e1fa8ef99f15ce5b896f3486b/m-budget.jpg"
+    }
+  },
+  "categories": [
+    {
+      "code": "BeSS_0101190102",
+      "name": "Südfrüchte",
+      "slug": "supermarkt/lebensmittel/fruechte-gemuese/fruechte/suedfruechte",
+      "visible": true,
+      "title": "Fruchtig und aromatisch: Exotische Früchte aus Ihrer Migros",
+      "parent_code": "BeSS_01011901",
+      "level": 5
+    },
+    {
+      "code": "BeSS_01011901",
+      "name": "Früchte",
+      "slug": "supermarkt/lebensmittel/fruechte-gemuese/fruechte",
+      "visible": true,
+      "title": "Früchte – in Ihrer Migros täglich frisch",
+      "parent_code": "BeSS_010119",
+      "level": 4
+    },
+    {
+      "code": "BeSS_010119",
+      "name": "Früchte & Gemüse",
+      "slug": "supermarkt/lebensmittel/fruechte-gemuese",
+      "visible": true,
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/f839060a505bba25c0f37585edb558c003c50479/fruechte-gemuese.jpg",
+        "stack": "https://image.migros.ch/{stack}/f839060a505bba25c0f37585edb558c003c50479/fruechte-gemuese.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_Bananen_Fruechte_FruechteGemuese",
+        "name": "Bananen",
+        "slug": "amigos/fruechte-gemuese/fruechte/bananen",
+        "visible": true,
+        "parent_code": "AMIG_CAT_Fruechte_FruechteGemuese",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_Fruechte_FruechteGemuese",
+        "name": "Früchte",
+        "slug": "amigos/fruechte-gemuese/fruechte",
+        "visible": true,
+        "parent_code": "AMIG_CAT_FruechteGemuese",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_FruechteGemuese",
+        "name": "Früchte & Gemüse",
+        "slug": "amigos/fruechte-gemuese",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "features": [
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_beutel",
+          "value": "Beutel"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_handelsklasse",
+      "label": "Handelsklasse (Qualität)",
+      "values": [
+        {
+          "value_code": "MISO_handelsklasse_ii",
+          "value": "II"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_saison",
+      "label": "Saison",
+      "values": [
+        {
+          "value_code": "MISO_saison_novemberfebruar",
+          "value": "November - Februar"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/93ce81f7b62c84692c111fea83234712cc5d8bb9/m-budget-bananen.jpg",
+    "stack": "https://image.migros.ch/{stack}/93ce81f7b62c84692c111fea83234712cc5d8bb9/m-budget-bananen.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/f3a616b5dffa44b9d62f7701a9f237e5088f57de/m-budget-bananen.png",
+    "stack": "https://image.migros.ch/{stack}/f3a616b5dffa44b9d62f7701a9f237e5088f57de/m-budget-bananen.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_sortierung",
+      "label": "Sortierung aMigos",
+      "values": [
+        {
+          "value_code": "NUMERIC_120",
+          "value": "120",
+          "numeric_value": 120
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_minimal-gewicht",
+      "label": "Minimal-Gewicht",
+      "values": [
+        {
+          "value_code": "NUMERIC_600.0",
+          "value": "600.0 g",
+          "numeric_value": 600
+        }
+      ],
+      "top_fact": false,
+      "unit_code": "g",
+      "unit": "Gramm",
+      "unit_symbol": "g"
+    },
+    {
+      "label_code": "MISO_aMigos_maximal-gewicht",
+      "label": "Maximal-Gewicht",
+      "values": [
+        {
+          "value_code": "NUMERIC_1000.0",
+          "value": "1000.0 g",
+          "numeric_value": 1000
+        }
+      ],
+      "top_fact": false,
+      "unit_code": "g",
+      "unit": "Gramm",
+      "unit_symbol": "g"
+    },
+    {
+      "label_code": "MISO_aMigos_verkaufseinheit",
+      "label": "Verkaufseinheit",
+      "values": [
+        {
+          "value_code": "NUMERIC_1.0",
+          "value": "1.0 Sack",
+          "numeric_value": 1
+        }
+      ],
+      "top_fact": false,
+      "unit_code": "Sack",
+      "unit": "Sack",
+      "unit_symbol": "Sack"
+    },
+    {
+      "label_code": "MISO_aMigos_volumen",
+      "label": "Volumen aMigos!",
+      "values": [
+        {
+          "value_code": "NUMERIC_1.0",
+          "value": "1.0 l",
+          "numeric_value": 1
+        }
+      ],
+      "top_fact": false,
+      "unit_code": "l",
+      "unit": "Liter",
+      "unit_symbol": "l"
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZFRP",
+          "value": "Frische Beschaffung"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "2",
+          "value": "Früchte und Gemüse"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "70334",
+          "value": "BANANEN"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/264200702100",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/m-budget-bananen",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/264200702100",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/m-budget-bananen",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "updated_at": "2020-09-16T06:35:13+0200",
+  "receipt_text": "MBud Bananen",
+  "m_check": [
+    {
+      "label": "Rohstoffe",
+      "label_code": "MISO_MCheck_rohstoffe",
+      "value_code": "MISO_MCheck_rohstoffe_V6",
+      "value": "Verantwortungsvoller Anbau",
+      "link": "https://generation-m.migros.ch/de/nachhaltig-leben/m-check.html#heading-rohstoffe-verantwortungsvoller-anbau",
+      "image": {
+        "original": "https://image.migros.ch/original/c116dfda8dfe4fbf37e4f56061cca177af40a2c6/verantwortungsvoller-anbau.jpg",
+        "code": "MISO_MCheck_rohstoffe_V6",
+        "description": "Verantwortungsvoller Anbau",
+        "stack": "https://image.migros.ch/{stack}/c116dfda8dfe4fbf37e4f56061cca177af40a2c6/verantwortungsvoller-anbau.jpg"
+      }
+    }
+  ],
+  "price": {
+    "valid_from": "2019-01-22T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 1.4,
+      "quantity": 1,
+      "unit": "KG",
+      "varying_quantity": false,
+      "display_quantity": "1 kg"
+    },
+    "estimated_piece_weight": 800,
+    "estimated_piece_price": 1.15,
+    "base": {
+      "price": 0.14,
+      "quantity": 100,
+      "unit": "g"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 88,
+    "average_all": 4.375
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

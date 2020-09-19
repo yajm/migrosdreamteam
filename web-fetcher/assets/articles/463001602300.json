@@ -1,0 +1,349 @@
+{
+  "id": "463001602300",
+  "language": "de",
+  "name": "Powerbar Riegel",
+  "slug": "powerbar-riegel-lemon",
+  "boss_number": "341611481015",
+  "description": {
+    "text": "Nach einer anstrengenden Ausdauer- oder Kraft-Trainingseinheit sind deine Muskeln erschöpft. Jetzt brauchst du Eiweiß als „Bausteine“ für Muskelaufbau und -erhalt. PROTEIN PLUS 30% Riegel sind reich an hochwertigem Eiweiß und schmecken sehr lecker!\n Mit premium Trisource Protein, einem speziellen Mix aus Casein,",
+    "source": "PEX"
+  },
+  "tags": [
+    "source-pex",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": true,
+  "base_product_id": "463001600000",
+  "gtins": [
+    "4029679520165",
+    "4029679520172"
+  ],
+  "brand": {
+    "id": "N59",
+    "name": "Powerbar",
+    "slug": "powerbar",
+    "image": {
+      "original": "https://image.migros.ch/original/5ac7ecbc14e242147039d14029a57365375c9789/powerbar.jpg",
+      "stack": "https://image.migros.ch/{stack}/5ac7ecbc14e242147039d14029a57365375c9789/powerbar.jpg"
+    }
+  },
+  "categories": [
+    {
+      "code": "SPO_SHOP_CAT_Sportnahrung_Ausruestung",
+      "name": "Sportnahrung",
+      "slug": "sportxx/ausruestung/sportnahrung",
+      "visible": true,
+      "parent_code": "SPO_SHOP_CAT_Ausruestung",
+      "level": 3
+    },
+    {
+      "code": "SPO_SHOP_CAT_Ausruestung",
+      "name": "Ausrüstung",
+      "slug": "sportxx/ausruestung",
+      "visible": true,
+      "parent_code": "BeSS_03",
+      "level": 2
+    },
+    {
+      "code": "BeSS_03",
+      "name": "SportXX",
+      "slug": "sportxx",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "features": [
+    {
+      "label_code": "spo_zutaten",
+      "label": "Zutaten",
+      "values": [
+        {
+          "value": "Calciumcaseinat (aus Milch) (21%), weiße Schokolade (18%) [Zucker, Kakaobutter, Vollmilchpulver, Emulgator (Sojalecithine), Aroma], Oligofruktosesirup, Invertzuckersirup, Fruktosesirup, Molkeneiweiß (8%), Magermilchpulver, Sojaeiweiß (2%), Aromen, Emulgator (Sojalecithine). Kann Spuren von Nüssen, Erdnüssen und Gluten enthalten."
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "spo_100g_preis_chf",
+      "label": "100g Preis CHF",
+      "values": [
+        {
+          "value_code": "NUMERIC_4.54",
+          "value": "4.54",
+          "numeric_value": 4.54
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "spo_naehrwerte",
+      "label": "Nährwerte",
+      "values": [
+        {
+          "value": "Nährwertangaben pro 100 g pro Riegel (55 g) Energie kJ (kcal) 1468 (348) 806 (191) Fett 6,2 g 3,4 g davon gesättigte Fettsäuren 3,5 g 1,9 g Kohlenhydrate 36,4 g 20 g davon Zucker 35,5 g 19,5 g Ballaststoffe 10,5 g 5,8 g *Eiweiß 31,5 g 17,3 g Salz 0,30 g 0,18 g * davon: Casein 18,9 g 10,4 g Molkeneiweiß 6,9 g 3,8 g Sojaeiweiß 1,7 g 0,94 g"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "spo_produktionsland",
+      "label": "Produktionsland",
+      "values": [
+        {
+          "value": "Deutschland"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "spo_einnahmeempfehlung",
+      "label": "Einnahmeempfehlung",
+      "values": [
+        {
+          "value": " 1 Riegel direkt nach dem Sport  1 Riegel pro Tag. Für die Geschmacksrichtungen \"Cappuccino Caramel Crisp\" und \"Vanilla Caramel Crisp\" 1-2 Riegel pro Tag  Zusätzlich zu einer"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "spo_gewicht",
+      "label": "Gewicht",
+      "values": [
+        {
+          "value_code": "NUMERIC_55",
+          "value": "55 g",
+          "numeric_value": 55
+        }
+      ],
+      "top_fact": false,
+      "unit_code": "g",
+      "unit": "Gramm",
+      "unit_symbol": "g"
+    },
+    {
+      "label_code": "spo_anwendung_anwendung",
+      "label": "Anwendung",
+      "values": [
+        {
+          "value_code": "SPO_Anwendung_Kraftaufbau",
+          "value": "Kraftaufbau"
+        }
+      ],
+      "top_fact": true
+    },
+    {
+      "label_code": "spo_phase_phase",
+      "label": "Phase",
+      "values": [
+        {
+          "value_code": "SPO_Phase_nachdemTraining",
+          "value": "nach dem Training"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "spo_form_form",
+      "label": "Form",
+      "values": [
+        {
+          "value_code": "SPO_Form_Riegel",
+          "value": "Riegel"
+        }
+      ],
+      "top_fact": true
+    },
+    {
+      "label_code": "spo_geschmack",
+      "label": "Geschmack",
+      "values": [
+        {
+          "value": "Lemon Cheesecake"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "spo_sportart_sportart",
+      "label": "Sportart",
+      "values": [
+        {
+          "value_code": "SPO_Sportart_Allgemein",
+          "value": "Allgemein"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "attributes": {
+    "typ_geschmack": {
+      "code": "GA50-023",
+      "name": "Geschmack",
+      "value": "Lemon"
+    }
+  },
+  "image": {
+    "original": "https://image.migros.ch/original/bee30568beee726b8dd3156aff1c5affa00cc7fe/powerbar-riegel.jpg",
+    "stack": "https://image.migros.ch/{stack}/bee30568beee726b8dd3156aff1c5affa00cc7fe/powerbar-riegel.jpg"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_DEFAULT_LOGISTIC_TYPE",
+      "values": [
+        {
+          "value_code": "55",
+          "value": "Versandart Paket"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Normalposition"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "SPOR"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_RISK_CLASS",
+      "values": [
+        {
+          "value_code": "2",
+          "value": "2 (medium)"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_KUBE_TUKA",
+      "values": [
+        {
+          "value_code": "BLANK",
+          "value": "KUBE und TUKA nicht zugelassen"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "SPOR",
+          "value": "Sport  Handelsware"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "S",
+          "value": "Sport"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "55537",
+          "value": "SPORTNAHRUNG"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/463001602300",
+      "name": "migros.ch",
+      "canonical": "https://www.sportxx.ch/de/p/463001600000/powerbar-riegel",
+      "type": "info",
+      "purchasable": false
+    },
+    "sportxx": {
+      "url": "https://www.sportxx.ch/de/p/463001602300/powerbar-riegel?selectVariant=",
+      "name": "SportXX",
+      "canonical": "https://www.sportxx.ch/de/p/463001600000/powerbar-riegel",
+      "type": "shop",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/463001602300",
+      "name": "Migipedia",
+      "canonical": "https://www.sportxx.ch/de/p/463001600000/powerbar-riegel",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "updated_at": "2020-09-10T06:42:59+0200",
+  "receipt_text": "PB Protein Plus 30%",
+  "price": {
+    "valid_from": "2018-01-30T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 2.5,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "33% 55g"
+    },
+    "base": {
+      "price": 4.55,
+      "quantity": 100,
+      "unit": "g"
+    }
+  },
+  "retailer": {
+    "id": "sportxx",
+    "name": "SportXX"
+  },
+  "warranty_months": 24,
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

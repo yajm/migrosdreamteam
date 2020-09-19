@@ -1,0 +1,718 @@
+{
+  "id": "463001400000",
+  "language": "de",
+  "name": "Powerbar Recovery 2.0 Nahrungsergänzung",
+  "slug": "powerbar-recovery-20-nahrungsergaenzung",
+  "product_type": "Nahrungsergänzung",
+  "boss_number": "341611481010",
+  "tags": [
+    "source-pex",
+    "migipedia",
+    "base-product",
+    "validity-range-not-set",
+    "no-image",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "brand": {
+    "id": "N59",
+    "name": "Powerbar",
+    "slug": "powerbar",
+    "image": {
+      "original": "https://image.migros.ch/original/5ac7ecbc14e242147039d14029a57365375c9789/powerbar.jpg",
+      "stack": "https://image.migros.ch/{stack}/5ac7ecbc14e242147039d14029a57365375c9789/powerbar.jpg"
+    }
+  },
+  "categories": [
+    {
+      "code": "SPO_SHOP_CAT_Sportnahrung_Ausruestung",
+      "name": "Sportnahrung",
+      "slug": "sportxx/ausruestung/sportnahrung",
+      "visible": true,
+      "parent_code": "SPO_SHOP_CAT_Ausruestung",
+      "level": 3
+    },
+    {
+      "code": "SPO_SHOP_CAT_Ausruestung",
+      "name": "Ausrüstung",
+      "slug": "sportxx/ausruestung",
+      "visible": true,
+      "parent_code": "BeSS_03",
+      "level": 2
+    },
+    {
+      "code": "BeSS_03",
+      "name": "SportXX",
+      "slug": "sportxx",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "BWO_SHOP_CAT_Sportnahrung_AusruestungAccessoires",
+        "name": "Sportnahrung",
+        "slug": "bwo/ausruestung/sportnahrung",
+        "visible": true,
+        "parent_code": "BWO_SHOP_CAT_AusruestungAccessoires",
+        "level": 3
+      },
+      {
+        "code": "BWO_SHOP_CAT_AusruestungAccessoires",
+        "name": "Ausrüstung",
+        "slug": "bwo/ausruestung",
+        "visible": true,
+        "parent_code": "BeSS_06",
+        "level": 2
+      },
+      {
+        "code": "BeSS_06",
+        "name": "BWO",
+        "slug": "bwo",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "features": [
+    {
+      "label_code": "spo_zutaten",
+      "label": "Zutaten",
+      "values": [
+        {
+          "value": "Maltodextrin (43 %), Molkeneiweiß (Milch), Zucker, Magermilchpulver, fettarmes Kakaopulver (6 %), Hafermehl (2 %), natürliches Aroma, Magnesiumcarbonate, Zinkcitrat, Salz, Emulgator (Sojalecithine). Kann Spuren von Ei enthalten."
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "spo_100g_preis_chf",
+      "label": "100g Preis CHF",
+      "values": [
+        {
+          "value_code": "NUMERIC_3.5",
+          "value": "3.5",
+          "numeric_value": 3.5
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "spo_naehrwerte",
+      "label": "Nährwerte",
+      "values": [
+        {
+          "value": "Nährwertangaben\tpro 100 g\tPro Portion (44 g)*\tpro 2 Portionen (88 g)** Energie kJ (kcal)\t1574 (371)\t693 (163)\t1385 (326) Fett \t2,1 g\t0,9 g\t1,8 g davon gesättigte Fettsäuren \t0,8 g\t0,4 g\t0,7 g Kohlenhydrate \t64 g\t28 g\t57 g davon Zucker \t24 g\t10 g\t21 g Eiweiß\t23 g\t10 g\t20 g Salz\t0,72 g\t0,32 g\t0,64 g Magnesium\t 218 mg (58%***)\t95,9 mg (26%***)\t192 mg (51%***) Zink\t6,3 mg (63%***) \t2,8 mg (28%***)\t5,5 mg (55%***)"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "spo_produktionsland",
+      "label": "Produktionsland",
+      "values": [
+        {
+          "value": "Niederlande"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "spo_einnahmeempfehlung",
+      "label": "Einnahmeempfehlung",
+      "values": [
+        {
+          "value": "\tZubereitung:  \tNach moderaten und intensiven Trainingseinheiten: Gemäß aktuellen Erkenntnissen der Sporternährung, 2 Portionen = 88 g (ca. 6 Dosierlöffel) mit 250 ml Wasser anmischen und direkt nach dem Training konsumieren. \tNach leichtem Training: 1 Portion = 44 g (ca. 3 Dosierlöffel) mit 125 ml Wasser anmischen und direkt konsumieren.   \tZusätzlich zu einer abwechslungsreichen und ausgewogenen Ernährung und einer gesunden Lebensweise. 1-2 Portionen pro Tag nach dem Training."
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "spo_gewicht",
+      "label": "Gewicht",
+      "values": [
+        {
+          "value_code": "NUMERIC_1144",
+          "value": "1144 g",
+          "numeric_value": 1144
+        }
+      ],
+      "top_fact": false,
+      "unit_code": "g",
+      "unit": "Gramm",
+      "unit_symbol": "g"
+    },
+    {
+      "label_code": "spo_anwendung_anwendung",
+      "label": "Anwendung",
+      "values": [
+        {
+          "value_code": "SPO_Anwendung_Regeneration",
+          "value": "Regeneration"
+        }
+      ],
+      "top_fact": true
+    },
+    {
+      "label_code": "spo_phase_phase",
+      "label": "Phase",
+      "values": [
+        {
+          "value_code": "SPO_Phase_nachdemTraining",
+          "value": "nach dem Training"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "spo_form_form",
+      "label": "Form",
+      "values": [
+        {
+          "value_code": "SPO_Form_Pulver",
+          "value": "Pulver"
+        }
+      ],
+      "top_fact": true
+    },
+    {
+      "label_code": "spo_geschmack",
+      "label": "Geschmack",
+      "values": [
+        {
+          "value": "Schokolade"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "spo_sportart_sportart",
+      "label": "Sportart",
+      "values": [
+        {
+          "value_code": "SPO_Sportart_Fitness",
+          "value": "Fitness"
+        },
+        {
+          "value_code": "SPO_Sportart_Kraftraining",
+          "value": "Krafttraining"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "variants": [
+    {
+      "id": "463001403600",
+      "language": "de",
+      "name": "Powerbar Recovery 2.0 Nahrungsergänzungmittel",
+      "slug": "powerbar-recovery-20-nahrungsergaenzungmittel-schokolade",
+      "product_type": "Nahrungsergänzungmittel",
+      "boss_number": "341611481010",
+      "description": {
+        "text": "Hole das Maximum aus deinem Training heraus! Für die Unterstützung einer optimalen Regeneration nach aktuellen sporternährungswissenschaftlichen Erkenntnissen entwickelt: RECOVERY 2.0 verbindet hoch-glykämische Kohlenhydrate, die deine Energietanks (Glykogenspeicher) auffüllen ideal mit Protein, das deinen Muskelerhalt unterstützt. Dabei kommen Zutaten höchster Qualität wie Molkeprotein, Hafermehl und natürliche Aromen zum Einsatz. Für die Unterstützung des Immunsystems haben wir dem Drink Zink und gegen Müdigkeit Magnesium zugefügt. Natürlich kommt RECOVERY 2.0 ohne Stabilisatoren, Verdickungsmittel oder Konservierungsstoffe aus! Und da aktuelle Studienergebnisse zeigen, dass antioxidative Vitamine die Trainingsanpassung deines Körpers nach dem Sport behindern können, enthält RECOVERY 2.0 keine antioxidantiven Vitamine.",
+        "source": "PEX"
+      },
+      "tags": [
+        "source-pex",
+        "migipedia",
+        "validity-range-not-set",
+        "view-browse-partial",
+        "view-browse-all-retailers-partial"
+      ],
+      "is_variant": true,
+      "base_product_id": "463001400000",
+      "gtins": [
+        "4029679672734",
+        "4029679670402"
+      ],
+      "brand": {
+        "id": "N59",
+        "name": "Powerbar",
+        "slug": "powerbar",
+        "image": {
+          "original": "https://image.migros.ch/original/5ac7ecbc14e242147039d14029a57365375c9789/powerbar.jpg",
+          "stack": "https://image.migros.ch/{stack}/5ac7ecbc14e242147039d14029a57365375c9789/powerbar.jpg"
+        }
+      },
+      "categories": [
+        {
+          "code": "SPO_SHOP_CAT_Sportnahrung_Ausruestung",
+          "name": "Sportnahrung",
+          "slug": "sportxx/ausruestung/sportnahrung",
+          "visible": true,
+          "parent_code": "SPO_SHOP_CAT_Ausruestung",
+          "level": 3
+        },
+        {
+          "code": "SPO_SHOP_CAT_Ausruestung",
+          "name": "Ausrüstung",
+          "slug": "sportxx/ausruestung",
+          "visible": true,
+          "parent_code": "BeSS_03",
+          "level": 2
+        },
+        {
+          "code": "BeSS_03",
+          "name": "SportXX",
+          "slug": "sportxx",
+          "visible": true,
+          "parent_code": "root",
+          "level": 1
+        }
+      ],
+      "features": [
+        {
+          "label_code": "spo_zutaten",
+          "label": "Zutaten",
+          "values": [
+            {
+              "value": "Maltodextrin (43 %), Molkeneiweiß (Milch), Zucker, Magermilchpulver, fettarmes Kakaopulver (6 %), Hafermehl (2 %), natürliches Aroma, Magnesiumcarbonate, Zinkcitrat, Salz, Emulgator (Sojalecithine). Kann Spuren von Ei enthalten."
+            }
+          ],
+          "top_fact": false
+        },
+        {
+          "label_code": "spo_100g_preis_chf",
+          "label": "100g Preis CHF",
+          "values": [
+            {
+              "value_code": "NUMERIC_3.5",
+              "value": "3.5",
+              "numeric_value": 3.5
+            }
+          ],
+          "top_fact": false
+        },
+        {
+          "label_code": "spo_naehrwerte",
+          "label": "Nährwerte",
+          "values": [
+            {
+              "value": "Nährwertangaben\tpro 100 g\tPro Portion (44 g)*\tpro 2 Portionen (88 g)** Energie kJ (kcal)\t1574 (371)\t693 (163)\t1385 (326) Fett \t2,1 g\t0,9 g\t1,8 g davon gesättigte Fettsäuren \t0,8 g\t0,4 g\t0,7 g Kohlenhydrate \t64 g\t28 g\t57 g davon Zucker \t24 g\t10 g\t21 g Eiweiß\t23 g\t10 g\t20 g Salz\t0,72 g\t0,32 g\t0,64 g Magnesium\t 218 mg (58%***)\t95,9 mg (26%***)\t192 mg (51%***) Zink\t6,3 mg (63%***) \t2,8 mg (28%***)\t5,5 mg (55%***)"
+            }
+          ],
+          "top_fact": false
+        },
+        {
+          "label_code": "spo_produktionsland",
+          "label": "Produktionsland",
+          "values": [
+            {
+              "value": "Niederlande"
+            }
+          ],
+          "top_fact": false
+        },
+        {
+          "label_code": "spo_einnahmeempfehlung",
+          "label": "Einnahmeempfehlung",
+          "values": [
+            {
+              "value": "\tZubereitung:  \tNach moderaten und intensiven Trainingseinheiten: Gemäß aktuellen Erkenntnissen der Sporternährung, 2 Portionen = 88 g (ca. 6 Dosierlöffel) mit 250 ml Wasser anmischen und direkt nach dem Training konsumieren. \tNach leichtem Training: 1 Portion = 44 g (ca. 3 Dosierlöffel) mit 125 ml Wasser anmischen und direkt konsumieren.   \tZusätzlich zu einer abwechslungsreichen und ausgewogenen Ernährung und einer gesunden Lebensweise. 1-2 Portionen pro Tag nach dem Training."
+            }
+          ],
+          "top_fact": false
+        },
+        {
+          "label_code": "spo_gewicht",
+          "label": "Gewicht",
+          "values": [
+            {
+              "value_code": "NUMERIC_1144",
+              "value": "1144 g",
+              "numeric_value": 1144
+            }
+          ],
+          "top_fact": false,
+          "unit_code": "g",
+          "unit": "Gramm",
+          "unit_symbol": "g"
+        },
+        {
+          "label_code": "spo_anwendung_anwendung",
+          "label": "Anwendung",
+          "values": [
+            {
+              "value_code": "SPO_Anwendung_Regeneration",
+              "value": "Regeneration"
+            }
+          ],
+          "top_fact": true
+        },
+        {
+          "label_code": "spo_phase_phase",
+          "label": "Phase",
+          "values": [
+            {
+              "value_code": "SPO_Phase_nachdemTraining",
+              "value": "nach dem Training"
+            }
+          ],
+          "top_fact": false
+        },
+        {
+          "label_code": "spo_form_form",
+          "label": "Form",
+          "values": [
+            {
+              "value_code": "SPO_Form_Pulver",
+              "value": "Pulver"
+            }
+          ],
+          "top_fact": true
+        },
+        {
+          "label_code": "spo_geschmack",
+          "label": "Geschmack",
+          "values": [
+            {
+              "value": "Schokolade"
+            }
+          ],
+          "top_fact": false
+        },
+        {
+          "label_code": "spo_sportart_sportart",
+          "label": "Sportart",
+          "values": [
+            {
+              "value_code": "SPO_Sportart_Fitness",
+              "value": "Fitness"
+            },
+            {
+              "value_code": "SPO_Sportart_Kraftraining",
+              "value": "Krafttraining"
+            }
+          ],
+          "top_fact": false
+        }
+      ],
+      "attributes": {
+        "typ_geschmack": {
+          "code": "GA50-036",
+          "name": "Geschmack",
+          "value": "Schokolade"
+        }
+      },
+      "image": {
+        "original": "https://image.migros.ch/original/0792331acb53875051f3e034ed4119cb5a85d2d7/powerbar-recovery-20-nahrungsergaenzungmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/0792331acb53875051f3e034ed4119cb5a85d2d7/powerbar-recovery-20-nahrungsergaenzungmittel.jpg"
+      },
+      "image_transparent": {
+        "original": "https://image.migros.ch/original/4581711fcae8f962cb634eb5dfc1f4e8486cb003/powerbar-recovery-20-nahrungsergaenzungmittel.png",
+        "stack": "https://image.migros.ch/{stack}/4581711fcae8f962cb634eb5dfc1f4e8486cb003/powerbar-recovery-20-nahrungsergaenzungmittel.png"
+      },
+      "internal_features": [
+        {
+          "label_code": "MAPI_DEFAULT_LOGISTIC_TYPE",
+          "values": [
+            {
+              "value_code": "55",
+              "value": "Versandart Paket"
+            }
+          ],
+          "top_fact": false
+        },
+        {
+          "label_code": "MAPI_GENERAL_POSITION_GROUP",
+          "values": [
+            {
+              "value_code": "NORM",
+              "value": "Normalposition"
+            }
+          ],
+          "top_fact": false
+        },
+        {
+          "label_code": "MAPI_ARTICLE_VARIETY",
+          "values": [
+            {
+              "value": "SPOR"
+            }
+          ],
+          "top_fact": false
+        },
+        {
+          "label_code": "MAPI_RISK_CLASS",
+          "values": [
+            {
+              "value_code": "2",
+              "value": "2 (medium)"
+            }
+          ],
+          "top_fact": false
+        },
+        {
+          "label_code": "MAPI_KUBE_TUKA",
+          "values": [
+            {
+              "value_code": "T",
+              "value": "TUKA zugelassen"
+            }
+          ],
+          "top_fact": false
+        },
+        {
+          "label_code": "MAPI_PRODUCT_KIND",
+          "values": [
+            {
+              "value_code": "SPOR",
+              "value": "Sport  Handelsware"
+            }
+          ],
+          "top_fact": false
+        },
+        {
+          "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+          "values": [
+            {
+              "value_code": "S",
+              "value": "Sport"
+            }
+          ],
+          "top_fact": false
+        },
+        {
+          "label_code": "MAPI_PRODUCT_GROUP",
+          "values": [
+            {
+              "value_code": "55537",
+              "value": "SPORTNAHRUNG"
+            }
+          ],
+          "top_fact": false
+        },
+        {
+          "label_code": "MAPI_CUMULUS_POINTS_CODE",
+          "values": [
+            {
+              "value_code": "NUMERIC_2",
+              "value": "2",
+              "numeric_value": 2
+            }
+          ],
+          "top_fact": false
+        },
+        {
+          "label_code": "MAPI_PROMOTIONS_CODE",
+          "values": [
+            {
+              "value_code": "NUMERIC_1",
+              "value": "1",
+              "numeric_value": 1
+            }
+          ],
+          "top_fact": false
+        }
+      ],
+      "vat": {
+        "id": 2,
+        "percentage": 2.5
+      },
+      "links": {
+        "migros_ch": {
+          "url": "https://produkte.migros.ch/products/463001403600",
+          "name": "migros.ch",
+          "canonical": "https://www.sportxx.ch/de/p/463001400000/powerbar-recovery-2-0",
+          "type": "info",
+          "purchasable": false
+        },
+        "migipedia": {
+          "url": "https://migipedia.migros.ch/de/products/463001403600",
+          "name": "Migipedia",
+          "canonical": "https://www.sportxx.ch/de/p/463001400000/powerbar-recovery-2-0",
+          "type": "info",
+          "purchasable": false
+        },
+        "sportxx": {
+          "url": "https://www.sportxx.ch/de/p/463001403600/powerbar-recovery-2-0?selectVariant=",
+          "name": "SportXX",
+          "canonical": "https://www.sportxx.ch/de/p/463001400000/powerbar-recovery-2-0",
+          "type": "shop",
+          "purchasable": false
+        }
+      },
+      "updated_at": "2020-09-16T06:36:52+0200",
+      "receipt_text": "PowerBar Recovery 2.0",
+      "price": {
+        "valid_from": "2018-05-29T00:00:00+0200",
+        "valid_to": "9999-12-31T23:59:59+0100",
+        "currency": "CHF",
+        "source": "PriceRepository",
+        "item": {
+          "price": 40,
+          "quantity": 1,
+          "unit": "CU",
+          "varying_quantity": false,
+          "display_quantity": "1144g"
+        },
+        "base": {
+          "price": 3.5,
+          "quantity": 100,
+          "unit": "g"
+        }
+      },
+      "retailer": {
+        "id": "sportxx",
+        "name": "SportXX"
+      },
+      "warranty_months": 24
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/cd0d9bebc4ab0c69f3f27a61e861f6c6168021cc.jpg",
+    "stack": "https://image.migros.ch/{stack}/cd0d9bebc4ab0c69f3f27a61e861f6c6168021cc.jpg"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_DEFAULT_LOGISTIC_TYPE",
+      "values": [
+        {
+          "value_code": "55",
+          "value": "Versandart Paket"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Normalposition"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "SPOR"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_RISK_CLASS",
+      "values": [
+        {
+          "value_code": "2",
+          "value": "2 (medium)"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_KUBE_TUKA",
+      "values": [
+        {
+          "value_code": "T",
+          "value": "TUKA zugelassen"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "SPOR",
+          "value": "Sport  Handelsware"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "S",
+          "value": "Sport"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "55537",
+          "value": "SPORTNAHRUNG"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/463001400000",
+      "name": "migros.ch",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/463001400000",
+      "name": "Migipedia",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "updated_at": "2020-09-16T06:36:52+0200",
+  "receipt_text": "PowerBar Recovery 2.0",
+  "price": {
+    "valid_from": "2018-05-29T00:00:00+0200",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 40,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "1144g"
+    },
+    "base": {
+      "price": 3.5,
+      "quantity": 100,
+      "unit": "g"
+    }
+  },
+  "retailer": {
+    "id": "sportxx",
+    "name": "SportXX"
+  },
+  "warranty_months": 24,
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

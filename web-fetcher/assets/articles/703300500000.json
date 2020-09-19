@@ -1,0 +1,541 @@
+{
+  "id": "703300500000",
+  "language": "de",
+  "name": "Cucina & Tavola GASTRO Flötenkessel",
+  "slug": "cucina-tavola-gastro-floetenkessel",
+  "boss_number": "150423081035",
+  "tags": [
+    "source-pex",
+    "near-non-food",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7613047607489"
+  ],
+  "brand": {
+    "id": "NF1",
+    "name": "Cucina & Tavola",
+    "slug": "cucina-tavola",
+    "image": {
+      "original": "https://image.migros.ch/original/ec18c12011ab778b7756486a090e13866fc1eaf1/cucina-tavola.jpg",
+      "stack": "https://image.migros.ch/{stack}/ec18c12011ab778b7756486a090e13866fc1eaf1/cucina-tavola.jpg"
+    }
+  },
+  "categories": [
+    {
+      "code": "BeSS_01040910",
+      "name": "Kochgeschirr",
+      "slug": "supermarkt/haushalt-reinigung/kueche/kochgeschirr",
+      "visible": true,
+      "title": "Es geht heiss her: Pfannen und Töpfe bei der Migros",
+      "parent_code": "BeSS_010409",
+      "image": {
+        "original": "https://image.migros.ch/original/6fc86f7979452ef175917b4d70b41fc7d9fb9f86/kochgeschirr.jpg",
+        "stack": "https://image.migros.ch/{stack}/6fc86f7979452ef175917b4d70b41fc7d9fb9f86/kochgeschirr.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010409",
+      "name": "Küche",
+      "slug": "supermarkt/haushalt-reinigung/kueche",
+      "visible": true,
+      "title": "Artikel für die Küche aus Ihrer Migros – gut & günstig!",
+      "parent_code": "BeSS_0104",
+      "image": {
+        "original": "https://image.migros.ch/original/90120e4cc3d5d74e017d4b91bbdcb1da29eb70a6/kueche.jpg",
+        "stack": "https://image.migros.ch/{stack}/90120e4cc3d5d74e017d4b91bbdcb1da29eb70a6/kueche.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0104",
+      "name": "Haushalt & Reinigung",
+      "slug": "supermarkt/haushalt-reinigung",
+      "visible": true,
+      "title": "Reinigung mit der Migros – Reiniger für Haushalt und Garten",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/e5da3225980543e0c7ddcc443069f331d94e8439/haushalt-reinigung.png",
+        "stack": "https://image.migros.ch/{stack}/e5da3225980543e0c7ddcc443069f331d94e8439/haushalt-reinigung.png"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "MIC_SHOP_CAT_PfannenToepfe_Kochen_Essen_AccessoiresTextilien",
+        "name": "Pfannen & Töpfe",
+        "slug": "micasa/accessoires-textilien/essen/kochen/pfannen-toepfe",
+        "visible": true,
+        "parent_code": "MIC_SHOP_CAT_Kochen_Essen_AccessoiresTextilien",
+        "level": 5
+      },
+      {
+        "code": "MIC_SHOP_CAT_Kochen_Essen_AccessoiresTextilien",
+        "name": "Kochen",
+        "slug": "micasa/accessoires-textilien/essen/kochen",
+        "visible": true,
+        "parent_code": "MIC_SHOP_CAT_Essen_AccessoiresTextilien",
+        "level": 4
+      },
+      {
+        "code": "MIC_SHOP_CAT_Essen_AccessoiresTextilien",
+        "name": "Essen",
+        "slug": "micasa/accessoires-textilien/essen",
+        "visible": true,
+        "parent_code": "MIC_SHOP_CAT_AccessoiresTextilien",
+        "level": 3
+      },
+      {
+        "code": "MIC_SHOP_CAT_AccessoiresTextilien",
+        "name": "Accessoires & Textilien",
+        "slug": "micasa/accessoires-textilien",
+        "visible": true,
+        "parent_code": "BeSS_02",
+        "level": 2
+      },
+      {
+        "code": "BeSS_02",
+        "name": "Micasa",
+        "slug": "micasa",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ],
+    [
+      {
+        "code": "MIC_SHOP_CAT_MigrosSupermarkt_Essen_AccessoiresTextilien",
+        "name": "Migros Supermarkt",
+        "slug": "micasa/accessoires-textilien/essen/migros-supermarkt",
+        "visible": false,
+        "parent_code": "MIC_SHOP_CAT_Essen_AccessoiresTextilien",
+        "level": 4
+      },
+      {
+        "code": "MIC_SHOP_CAT_Essen_AccessoiresTextilien",
+        "name": "Essen",
+        "slug": "micasa/accessoires-textilien/essen",
+        "visible": true,
+        "parent_code": "MIC_SHOP_CAT_AccessoiresTextilien",
+        "level": 3
+      },
+      {
+        "code": "MIC_SHOP_CAT_AccessoiresTextilien",
+        "name": "Accessoires & Textilien",
+        "slug": "micasa/accessoires-textilien",
+        "visible": true,
+        "parent_code": "BeSS_02",
+        "level": 2
+      },
+      {
+        "code": "BeSS_02",
+        "name": "Micasa",
+        "slug": "micasa",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "features": [
+    {
+      "label_code": "mic_hoehe",
+      "label": "Höhe",
+      "values": [
+        {
+          "value_code": "NUMERIC_20",
+          "value": "20 cm",
+          "numeric_value": 20
+        }
+      ],
+      "top_fact": false,
+      "unit_code": "cm",
+      "unit": "Zentimeter",
+      "unit_symbol": "cm"
+    },
+    {
+      "label_code": "mic_durchmesser",
+      "label": "Durchmesser",
+      "values": [
+        {
+          "value_code": "NUMERIC_20",
+          "value": "20 cm",
+          "numeric_value": 20
+        }
+      ],
+      "top_fact": false,
+      "unit_code": "cm",
+      "unit": "Zentimeter",
+      "unit_symbol": "cm"
+    },
+    {
+      "label_code": "mic_farbewohnshop_farben",
+      "label": "Farben",
+      "values": [
+        {
+          "value_code": "MIC_FarbeWohnshop_Silber",
+          "value": "Silber"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "mic_materialwohnshop_material",
+      "label": "Material",
+      "values": [
+        {
+          "value_code": "MIC_MaterialWohnshop_Chromnickelstahl1810",
+          "value": "Chromnickelstahl 18/10"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "mic_volumeninhaltgewicht",
+      "label": "Volumen (Inhalt, Gewicht)",
+      "values": [
+        {
+          "value": "1.8l"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "mic_inhaltstueckteile",
+      "label": "Inhalt (Stück, Teile)",
+      "values": [
+        {
+          "value_code": "NUMERIC_3",
+          "value": "3 pcs",
+          "numeric_value": 3
+        }
+      ],
+      "top_fact": false,
+      "unit_code": "teile",
+      "unit": "Teile",
+      "unit_symbol": "pcs"
+    },
+    {
+      "label_code": "mic_fuer_lebensmittel_geeignet",
+      "label": "Für Lebensmittel geeignet",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "mic_spuelmaschinenfest",
+      "label": "Spülmaschinengeeignet",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "mic_mikrowellengeeignet",
+      "label": "Mikrowellengeeignet",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "Nein",
+          "boolean_value": false
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "mic_backofenfest",
+      "label": "Backofenfest",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "Nein",
+          "boolean_value": false
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "mic_fuerinduktionsherdgeeignet",
+      "label": "Für Induktionsherd geeignet",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "mic_fuergasherdgeeignet",
+      "label": "Für Gasherd geeignet",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "mic_fuerkeramikkochfeldgeeignet",
+      "label": "Für Keramikkochfeld geeignet",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "mic_fuerkochfelderausgusseisengeeignet",
+      "label": "Für Kochfelder aus Gusseisen geeignet",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "mic_teflonbeschichtet",
+      "label": "Teflonbeschichtet",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "Nein",
+          "boolean_value": false
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "mic_antihaftbeschichtet",
+      "label": "Antihaftbeschichtet",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "Nein",
+          "boolean_value": false
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/6ac8f99bc5e559a1cb677db95165ea6b52f9dcb9/cucina-tavola-gastro-floetenkessel.jpg",
+    "stack": "https://image.migros.ch/{stack}/6ac8f99bc5e559a1cb677db95165ea6b52f9dcb9/cucina-tavola-gastro-floetenkessel.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/55ea838c6068fee4b18adfb62046d25f7f77fa94/cucina-tavola-gastro-floetenkessel.png",
+    "stack": "https://image.migros.ch/{stack}/55ea838c6068fee4b18adfb62046d25f7f77fa94/cucina-tavola-gastro-floetenkessel.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_DEFAULT_LOGISTIC_TYPE",
+      "values": [
+        {
+          "value_code": "55",
+          "value": "Versandart Paket"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Normalposition"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "HART"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_RISK_CLASS",
+      "values": [
+        {
+          "value_code": "2",
+          "value": "2 (medium)"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_QUALITY_CHECK",
+      "values": [
+        {
+          "value_code": "02",
+          "value": "FRI (Final Random  Inspection)"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_KUBE_TUKA",
+      "values": [
+        {
+          "value_code": "BLANK",
+          "value": "KUBE und TUKA nicht zugelassen"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HART",
+          "value": "Hartwaren  Handelsware"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "H",
+          "value": "Hartwaren"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "50914",
+          "value": "KOCHTOEPFE/KASSEROLLEN"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 1,
+    "percentage": 7.7
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/703300500000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/cucina-tavola-gastro-floetenkessel",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/703300500000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/cucina-tavola-gastro-floetenkessel",
+      "type": "info",
+      "purchasable": false
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/104431",
+      "app_url": "leshop:///catalog/article/detail?ean=7613047607489",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/cucina-tavola-gastro-floetenkessel",
+      "type": "shop",
+      "purchasable": true
+    },
+    "micasa": {
+      "url": "https://www.micasa.ch/de/p/703300500000/cucina-tavola-gastro-floetenkessel",
+      "name": "Micasa",
+      "canonical": "https://produkte.migros.ch/cucina-tavola-gastro-floetenkessel",
+      "type": "shop",
+      "purchasable": true
+    },
+    "mservice": {
+      "url": "https://www.migros-service.ch/p/70330050000004/",
+      "name": "Migros-Service",
+      "canonical": "https://produkte.migros.ch/cucina-tavola-gastro-floetenkessel",
+      "type": "shop",
+      "purchasable": false
+    }
+  },
+  "updated_at": "2020-09-11T12:21:20+0200",
+  "receipt_text": "Flötenkessel Gastro",
+  "price": {
+    "valid_from": "2019-09-11T00:00:00+0200",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 54.95,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 4,
+    "average_all": 5
+  },
+  "warranty_months": 24,
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

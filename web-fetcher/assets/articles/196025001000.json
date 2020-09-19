@@ -1,0 +1,306 @@
+{
+  "id": "196025001000",
+  "language": "de",
+  "name": "Eier CH Freiland 10 x 53g+",
+  "slug": "eier-ch-freiland-10-x-53g",
+  "boss_number": "030113000510",
+  "description": {
+    "text": "10 Schweizer Eier Freilandhaltung 53g+",
+    "source": "PIM"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "source-qim-origins",
+    "validity-range-not-set",
+    "source-qim-allergens",
+    "source-qim-fooddeclaration",
+    "source-qim-nutritionfacts",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7613269850038"
+  ],
+  "labels": [
+    {
+      "id": "L53",
+      "name": "Swissness",
+      "slug": "swissness",
+      "image": {
+        "original": "https://image.migros.ch/original/d771bba2f6b08ba42970ea0243c6f8c5a8832f15/swissness.jpg",
+        "stack": "https://image.migros.ch/{stack}/d771bba2f6b08ba42970ea0243c6f8c5a8832f15/swissness.jpg"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_0101041002",
+      "name": "Freilandhaltung Schweiz",
+      "slug": "supermarkt/lebensmittel/milchprodukte-eier/eier/freilandhaltung-schweiz",
+      "visible": true,
+      "parent_code": "BeSS_01010410",
+      "image": {
+        "original": "https://image.migros.ch/original/35286413bb5263314ff187519d7e7fb554dfe501/freilandhaltung-schweiz.jpg",
+        "stack": "https://image.migros.ch/{stack}/35286413bb5263314ff187519d7e7fb554dfe501/freilandhaltung-schweiz.jpg"
+      },
+      "level": 5
+    },
+    {
+      "code": "BeSS_01010410",
+      "name": "Eier",
+      "slug": "supermarkt/lebensmittel/milchprodukte-eier/eier",
+      "visible": true,
+      "title": "Eier in Ihrer Migros kaufen",
+      "parent_code": "BeSS_010104",
+      "image": {
+        "original": "https://image.migros.ch/original/c5cd67b8dd9e7e99f0c6918c3ee49752dd60c461/eier.jpg",
+        "stack": "https://image.migros.ch/{stack}/c5cd67b8dd9e7e99f0c6918c3ee49752dd60c461/eier.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010104",
+      "name": "Milchprodukte & Eier",
+      "slug": "supermarkt/lebensmittel/milchprodukte-eier",
+      "visible": true,
+      "title": "Milchprodukte und Eier –",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/6b1ea6c2d41c3ccb21bf05c8dc342f7f55d83deb/milchprodukte-eier.jpg",
+        "stack": "https://image.migros.ch/{stack}/6b1ea6c2d41c3ccb21bf05c8dc342f7f55d83deb/milchprodukte-eier.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_Eier_MilchprodukteEier",
+        "name": "Eier",
+        "slug": "amigos/milchprodukte-eier/eier",
+        "visible": true,
+        "parent_code": "AMIG_CAT_MilchprodukteEier",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_MilchprodukteEier",
+        "name": "Milchprodukte & Eier",
+        "slug": "amigos/milchprodukte-eier",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "features": [
+    {
+      "label_code": "MISO_anzahlentnehmbarereinzelportionen",
+      "label": "Anzahl entnehmbarer Einzeleinheiten",
+      "values": [
+        {
+          "value_code": "NUMERIC_10.0",
+          "value": "10.0",
+          "numeric_value": 10
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_karton",
+          "value": "Karton"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_beschaffenheitdereier",
+      "label": "Beschaffenheit der Eier",
+      "values": [
+        {
+          "value_code": "MISO_beschaffenheitdereier_roh",
+          "value": "roh"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_gefluegelart",
+      "label": "Geflügelart",
+      "values": [
+        {
+          "value_code": "MISO_gefluegelart_huhn",
+          "value": "Huhn"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_produktionsmethode",
+      "label": "Produktionsmethode",
+      "values": [
+        {
+          "value_code": "MISO_produktionsmethode_freilandhaltung",
+          "value": "Freilandhaltung"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_gewichtsklassedereier",
+      "label": "Gewichtsklasse der Eier",
+      "values": [
+        {
+          "value_code": "MISO_gewichtsklassedereier_53g",
+          "value": "53g+"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/df490224e8bde07413124ce89e7c23d735155202/eier-ch-freiland-10-x-53g.jpg",
+    "stack": "https://image.migros.ch/{stack}/df490224e8bde07413124ce89e7c23d735155202/eier-ch-freiland-10-x-53g.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/c557553d93c728a2af7d7f5d69fc40ba109d39b3/eier-ch-freiland-10-x-53g.png",
+    "stack": "https://image.migros.ch/{stack}/c557553d93c728a2af7d7f5d69fc40ba109d39b3/eier-ch-freiland-10-x-53g.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZFRP",
+          "value": "Frische Beschaffung"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "1",
+          "value": "Molki"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "70000",
+          "value": "ROHE INLAENDISCHE EIER"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/196025001000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/eier-ch-freiland-10-x-53g",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/196025001000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/eier-ch-freiland-10-x-53g",
+      "type": "info",
+      "purchasable": false
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/4790421",
+      "app_url": "leshop:///catalog/article/detail?ean=7613269850038",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/eier-ch-freiland-10-x-53g",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "updated_at": "2020-09-16T05:46:19+0200",
+  "receipt_text": "Eier CH 10x53g+",
+  "m_check": [
+    {
+      "label": "Tierwohl",
+      "label_code": "MISO_MCheck_tierwohl",
+      "value_code": "MISO_MCheck_tierwohl_legehennen_V2",
+      "value": "Tierfreundliche Freilandhaltung",
+      "link": "https://generation-m.migros.ch/de/nachhaltig-leben/m-check.html#heading-tierwohl-legehennen-tierfreundliche-freilandhaltung",
+      "image": {
+        "original": "https://image.migros.ch/original/e0c52dc6d6f7ee22b9d336174bc28d6b6611595d/tierfreundliche-freilandhaltung.jpg",
+        "code": "MISO_MCheck_tierwohl_legehennen_V2",
+        "description": "Tierfreundliche Freilandhaltung",
+        "stack": "https://image.migros.ch/{stack}/e0c52dc6d6f7ee22b9d336174bc28d6b6611595d/tierfreundliche-freilandhaltung.jpg"
+      }
+    }
+  ],
+  "price": {
+    "valid_from": "2020-07-13T00:00:00+0200",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "source": "PriceRepository",
+    "no_price_hint": "Aktueller Tagespreis"
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 11,
+    "average_all": 4.636363636364
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

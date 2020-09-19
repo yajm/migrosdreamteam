@@ -1,0 +1,301 @@
+{
+  "id": "104476700000",
+  "language": "de",
+  "name": "Mifloc Kart Stock 5x95",
+  "slug": "mifloc-kart-stock-5x95",
+  "boss_number": "011011261520",
+  "description": {
+    "text": "Mifloc Kartoffelflocken f&uuml;r Kartoffelstock",
+    "source": "PIM"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "validity-range-not-set",
+    "leshop-discounted",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7613312021460"
+  ],
+  "brand": {
+    "id": "116",
+    "name": "Mifloc",
+    "slug": "mifloc"
+  },
+  "categories": [
+    {
+      "code": "BeSS_01011404",
+      "name": "Kartoffeln & Spätzli",
+      "slug": "supermarkt/lebensmittel/pasta-zutaten-konserven/kartoffeln-spaetzli",
+      "visible": true,
+      "parent_code": "BeSS_010114",
+      "image": {
+        "original": "https://image.migros.ch/original/9b6282c120eb78b544b50bda8941209b2f4afe06/kartoffeln-spaetzli.jpg",
+        "stack": "https://image.migros.ch/{stack}/9b6282c120eb78b544b50bda8941209b2f4afe06/kartoffeln-spaetzli.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010114",
+      "name": "Pasta, Zutaten & Konserven",
+      "slug": "supermarkt/lebensmittel/pasta-zutaten-konserven",
+      "visible": true,
+      "title": "Pasta aus Ihrer Migros: alles rund um Teigwaren",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/6d0964bbb34b8e041ba4d74fc0c90b149907f46a/pasta-zutaten-konserven.jpg",
+        "stack": "https://image.migros.ch/{stack}/6d0964bbb34b8e041ba4d74fc0c90b149907f46a/pasta-zutaten-konserven.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "features": [
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_schachtel",
+          "value": "Schachtel"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zubereitungsverfahren",
+      "label": "Hinweise für die Zubereitung",
+      "values": [
+        {
+          "value_code": "MISO_zubereitungsverfahren_heisseswasserhinzugeben",
+          "value": "Heisses Wasser hinzugeben"
+        },
+        {
+          "value_code": "MISO_zubereitungsverfahren_kochen",
+          "value": "Kochen"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_musserwaermtwerden",
+      "label": "Muss erwärmt werden",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zubereitungszeit",
+      "label": "Zubereitungszeit (min.)",
+      "values": [
+        {
+          "value_code": "NUMERIC_12",
+          "value": "12",
+          "numeric_value": 12
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_produktionslandherstellungsort",
+      "label": "Produktionsland/Herstellungsort",
+      "values": [
+        {
+          "value_code": "MISO_produktionslandherstellungsort_schweiz_bischofszell",
+          "value": "Schweiz/Bischofszell"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_formbeschaffenheit",
+      "label": "Form/Beschaffenheit",
+      "values": [
+        {
+          "value_code": "MISO_formbeschaffenheit_pueriert",
+          "value": "püriert"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_unterscheidendebestandteile",
+      "label": "Unterscheidende Bestandteile",
+      "values": [
+        {
+          "value_code": "MISO_unterscheidendebestandteile_kartoffeln",
+          "value": "Kartoffeln"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/1858869fbd0fc734870c1a853308674d4ed140c9/mifloc-kart-stock-5x95.jpg",
+    "stack": "https://image.migros.ch/{stack}/1858869fbd0fc734870c1a853308674d4ed140c9/mifloc-kart-stock-5x95.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/198b2aecf338c7cd3a754db77d2f20f61b802db0/mifloc-kart-stock-5x95.png",
+    "stack": "https://image.migros.ch/{stack}/198b2aecf338c7cd3a754db77d2f20f61b802db0/mifloc-kart-stock-5x95.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "S",
+          "value": "Sellout"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "10130",
+          "value": "KARTOFFELPRODUKTE"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/104476700000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/mifloc-kart-stock-5x95",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/104476700000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/mifloc-kart-stock-5x95",
+      "type": "info",
+      "purchasable": false
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/225263",
+      "app_url": "leshop:///catalog/article/detail?ean=7613312021460",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/mifloc-kart-stock-5x95",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "updated_at": "2020-09-16T06:51:12+0200",
+  "receipt_text": "Mifloc Kart Stock 5x95",
+  "price": {
+    "valid_from": "2020-09-15T00:00:00+0200",
+    "valid_to": "2020-09-21T23:59:59+0200",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 4.55,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false
+    },
+    "discount": {
+      "id": "1447642",
+      "region": "national",
+      "start_date": "2020-09-15T00:00:00+0200",
+      "end_date": "2020-09-21T23:59:59+0200",
+      "publication_date": "2020-09-13T00:00:00+0200",
+      "discount_regions": [
+        "national"
+      ],
+      "reference_product_id": "104476700000",
+      "discount_type": "aktion",
+      "discount_type_id": "002",
+      "discount_type_label": "SE Sellout",
+      "organisation": "02",
+      "cooperative": "mgb",
+      "image": {
+        "tags": [
+          "list-image"
+        ],
+        "original": "https://image.migros.ch/original/198b2aecf338c7cd3a754db77d2f20f61b802db0/mifloc-kartoffelstock.jpg",
+        "source": "PriceRepository",
+        "stack": "https://image.migros.ch/{stack}/198b2aecf338c7cd3a754db77d2f20f61b802db0/mifloc-kartoffelstock.jpg"
+      },
+      "image_transparent": {
+        "original": "https://image.migros.ch/original/198b2aecf338c7cd3a754db77d2f20f61b802db0/mifloc-kartoffelstock.png",
+        "source": "PriceRepository",
+        "stack": "https://image.migros.ch/{stack}/198b2aecf338c7cd3a754db77d2f20f61b802db0/mifloc-kartoffelstock.png"
+      },
+      "badge": {
+        "original": "https://image.migros.ch/original/a898e2d109a25d7f43f2d3c1d39433300b6998b5.png",
+        "stack": "https://image.migros.ch/{stack}/a898e2d109a25d7f43f2d3c1d39433300b6998b5.png"
+      },
+      "location_planning_type": "01",
+      "reduction_type_id": "07",
+      "special_advertisement": false,
+      "advertisement_type_id": "5",
+      "description": "Mifloc Kartoffelstock",
+      "discount_hint": "4 Beutel + 1 gratis, in Sonderpackung, 5 x 95 g, Angebot gilt nur vom 15.9. bis 21.9.2020, solange Vorrat.",
+      "high_performer": false,
+      "collective_discount": false,
+      "price": 4.55,
+      "disclaimer": "Gültigkeit siehe Angebots-Detailseite.\r\nBei allen Angeboten sind M-Budget und bereits reduzierte Artikel ausgenommen.\r\nBei Aktionen können bei der Verrechnung auf dem Kassabon Rundungsdifferenzen zu Gunsten des Kunden entstehen.",
+      "source": "PriceRepository",
+      "boss_number": "011011261520",
+      "discount_role_id": "2000000002",
+      "discount_role_label": "M: Wochenangebot Typ I",
+      "last_imported": "2020-09-07T15:15:02+0200"
+    },
+    "discount_hint": "Angebot gilt nur vom 15.9. bis 21.9.2020, solange Vorrat."
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 6,
+    "average_all": 4.833333333333
+  },
+  "reindex_date": "2020-09-21T23:59:59+0200"
+}

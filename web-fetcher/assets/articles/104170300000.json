@@ -1,0 +1,298 @@
+{
+  "id": "104170300000",
+  "language": "de",
+  "name": "Aus der Region Salat Gemüse/Blumen",
+  "slug": "aus-der-region-salat-gemueseblumen",
+  "boss_number": "011011282010",
+  "description": {
+    "text": "<p><strong>Aus der Region - Salatgarnitur mit Gem&uuml;se und Blumen</strong></p><p>Kernenmischung mit Gem&uuml;se und Kornblumen rot und rosa.</p>",
+    "source": "PIM"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "source-qim-origins",
+    "validity-range-not-set",
+    "source-qim-allergens",
+    "source-qim-fooddeclaration",
+    "source-qim-nutritionfacts",
+    "filter-aus-der-region",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7613312069813"
+  ],
+  "labels": [
+    {
+      "id": "L28",
+      "name": "Aus der Region",
+      "slug": "aus-der-region",
+      "image": {
+        "original": "https://image.migros.ch/original/28068cd4d6e174c8ec75906797af89b64170c43f/aus-der-region.jpg",
+        "stack": "https://image.migros.ch/{stack}/28068cd4d6e174c8ec75906797af89b64170c43f/aus-der-region.jpg"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_0101140906",
+      "name": "Salatsaucen & Salatzugaben",
+      "slug": "supermarkt/lebensmittel/pasta-zutaten-konserven/suppen-saucen-bouillon/salatsaucen-salatzugaben",
+      "visible": true,
+      "parent_code": "BeSS_01011409",
+      "image": {
+        "original": "https://image.migros.ch/original/3cc9e1321e36676ba33839966742ed9b63e649e4/salatsaucen-salatzugaben.jpg",
+        "stack": "https://image.migros.ch/{stack}/3cc9e1321e36676ba33839966742ed9b63e649e4/salatsaucen-salatzugaben.jpg"
+      },
+      "level": 5
+    },
+    {
+      "code": "BeSS_01011409",
+      "name": "Suppen, Saucen & Bouillon",
+      "slug": "supermarkt/lebensmittel/pasta-zutaten-konserven/suppen-saucen-bouillon",
+      "visible": true,
+      "title": "Bouillon in Ihrer Migros kaufen",
+      "parent_code": "BeSS_010114",
+      "image": {
+        "original": "https://image.migros.ch/original/5f7779de5b06c3e5051c0ccdb81a414859a26cf5/suppen-saucen-bouillon.jpg",
+        "stack": "https://image.migros.ch/{stack}/5f7779de5b06c3e5051c0ccdb81a414859a26cf5/suppen-saucen-bouillon.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010114",
+      "name": "Pasta, Zutaten & Konserven",
+      "slug": "supermarkt/lebensmittel/pasta-zutaten-konserven",
+      "visible": true,
+      "title": "Pasta aus Ihrer Migros: alles rund um Teigwaren",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/6d0964bbb34b8e041ba4d74fc0c90b149907f46a/pasta-zutaten-konserven.jpg",
+        "stack": "https://image.migros.ch/{stack}/6d0964bbb34b8e041ba4d74fc0c90b149907f46a/pasta-zutaten-konserven.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "features": [
+    {
+      "label_code": "MISO_produktionsanspruch",
+      "label": "Produktionsverfahren",
+      "values": [
+        {
+          "value_code": "MISO_produktionsanspruch_ausderregion",
+          "value": "Aus der Region"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_glas",
+          "value": "Glas"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zubereitungsverfahren",
+      "label": "Hinweise für die Zubereitung",
+      "values": [
+        {
+          "value_code": "MISO_zubereitungsverfahren_verzehrfertig",
+          "value": "Verzehrfertig"
+        },
+        {
+          "value_code": "MISO_zubereitungsverfahren_zumwuerzengeeignet",
+          "value": "Zum Würzen geeignet"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zusatzangaben",
+      "label": "Zusatzangaben",
+      "values": [
+        {
+          "value_code": "MISO_zusatzangaben_329",
+          "value": "Trocken aufbewahren. Für höchste Frische vor Licht und Wärme schützen."
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_gewuerzegeeignetfuer",
+      "label": "Gewürze geeignet für",
+      "values": [
+        {
+          "value_code": "MISO_gewuerzegeeignetfuer_salat",
+          "value": "Salat"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_formbeschaffenheitvonkraeuterngewuerzen",
+      "label": "Form/Beschaffenheit von Kräutern/Gewürzen",
+      "values": [
+        {
+          "value_code": "MISO_formbeschaffenheitvonkraeuterngewuerzen_grob",
+          "value": "Grob"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_artvonkraeuterngewuerzen",
+      "label": "Art von Kräutern/Gewürzen",
+      "values": [
+        {
+          "value_code": "MISO_artvonkraeuterngewuerzen_paprika",
+          "value": "Paprika"
+        },
+        {
+          "value_code": "MISO_artvonkraeuterngewuerzen_petersilie",
+          "value": "Petersilie"
+        },
+        {
+          "value_code": "MISO_artvonkraeuterngewuerzen_zwiebeln",
+          "value": "Zwiebeln"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zumwuerzenvon",
+      "label": "Zum Würzen von",
+      "values": [
+        {
+          "value_code": "MISO_zumwuerzenvon_salat",
+          "value": "Salat"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zustandsform",
+      "label": "Zustandsform",
+      "values": [
+        {
+          "value_code": "MISO_zustandsform_getrocknet",
+          "value": "Getrocknet"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/0c66d042495ec11af039effe194e951030cc84a5/aus-der-region-salat-gemueseblumen.jpg",
+    "stack": "https://image.migros.ch/{stack}/0c66d042495ec11af039effe194e951030cc84a5/aus-der-region-salat-gemueseblumen.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/83c2805680995c576939de12ddb5aca0fba96cb3/aus-der-region-salat-gemueseblumen.png",
+    "stack": "https://image.migros.ch/{stack}/83c2805680995c576939de12ddb5aca0fba96cb3/aus-der-region-salat-gemueseblumen.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "M",
+          "value": "Kolonial Standard"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "10140",
+          "value": "SALATSAUCEN/-ZUGABE"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/104170300000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/aus-der-region-salat-gemueseblumen",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/104170300000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/aus-der-region-salat-gemueseblumen",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "updated_at": "2020-09-16T05:41:32+0200",
+  "receipt_text": "AdR Salatg.Gemüse",
+  "price": {
+    "valid_from": "2018-05-16T00:00:00+0200",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 5.5,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "140g"
+    },
+    "base": {
+      "price": 3.93,
+      "quantity": 100,
+      "unit": "g"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "allergen_text": "Kann enthalten: Soja.",
+  "reindex_date": "2020-09-20T00:00:00+0200"
+}

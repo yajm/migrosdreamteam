@@ -1,0 +1,275 @@
+{
+  "id": "203565000000",
+  "language": "de",
+  "name": "Alnatura Frischcreme Kräuter",
+  "slug": "alnatura-frischcreme-kraeuter",
+  "boss_number": "030413505535",
+  "description": {
+    "text": "vegane Creme mit Kr&auml;utern",
+    "source": "PIM"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "4104420207325",
+    "7613404140871"
+  ],
+  "brand": {
+    "id": "D06",
+    "name": "Alnatura",
+    "slug": "alnatura",
+    "links": {
+      "homepage": {
+        "url": "https://alnatura.migros.ch/de.html",
+        "name": "Homepage",
+        "type": "info",
+        "purchasable": false
+      }
+    },
+    "image": {
+      "original": "https://image.migros.ch/original/2c0deb7a67525727ed8213ce2b42bc8a6eb35567/alnatura.jpg",
+      "stack": "https://image.migros.ch/{stack}/2c0deb7a67525727ed8213ce2b42bc8a6eb35567/alnatura.jpg"
+    }
+  },
+  "categories": [
+    {
+      "code": "BeSS_0101040105",
+      "name": "Spezialitäten Käse",
+      "slug": "supermarkt/lebensmittel/milchprodukte-eier/kaese/spezialitaeten-kaese",
+      "visible": true,
+      "title": "Der edle Norditaliener bei Ihrer Migros",
+      "parent_code": "BeSS_01010401",
+      "image": {
+        "original": "https://image.migros.ch/original/fbc00a96cd8a6d1f493b4a8052bcd68bbfd4dfb0/spezialitaeten-kaese.jpg",
+        "stack": "https://image.migros.ch/{stack}/fbc00a96cd8a6d1f493b4a8052bcd68bbfd4dfb0/spezialitaeten-kaese.jpg"
+      },
+      "level": 5
+    },
+    {
+      "code": "BeSS_01010401",
+      "name": "Käse",
+      "slug": "supermarkt/lebensmittel/milchprodukte-eier/kaese",
+      "visible": true,
+      "title": "Käse von Ihrer Migros &ndash; macht Appetit auf mehr",
+      "parent_code": "BeSS_010104",
+      "image": {
+        "original": "https://image.migros.ch/original/4fbf646a3ebce5b0f570ef4c8f4f9e8d708bb65f/kaese.jpg",
+        "stack": "https://image.migros.ch/{stack}/4fbf646a3ebce5b0f570ef4c8f4f9e8d708bb65f/kaese.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010104",
+      "name": "Milchprodukte & Eier",
+      "slug": "supermarkt/lebensmittel/milchprodukte-eier",
+      "visible": true,
+      "title": "Milchprodukte und Eier –",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/6b1ea6c2d41c3ccb21bf05c8dc342f7f55d83deb/milchprodukte-eier.jpg",
+        "stack": "https://image.migros.ch/{stack}/6b1ea6c2d41c3ccb21bf05c8dc342f7f55d83deb/milchprodukte-eier.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "features": [
+    {
+      "label_code": "MISO_mussgekuehltwerden",
+      "label": "Muss gekühlt werden",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_deckel",
+          "value": "Deckel"
+        },
+        {
+          "value_code": "MISO_cu_gebindeart_kunststoffbecher",
+          "value": "Kunststoff-Becher"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zusatzangaben",
+      "label": "Zusatzangaben",
+      "values": [
+        {
+          "value_code": "MISO_zusatzangaben_31",
+          "value": "Gekühlt aufbewahren bei max. +5 Grad C."
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_festigkeit",
+      "label": "Festigkeit",
+      "values": [
+        {
+          "value_code": "MISO_festigkeit_weich",
+          "value": "weich"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_formbeschaffenheitdeskaeses",
+      "label": "Form/Beschaffenheit des Käses",
+      "values": [
+        {
+          "value_code": "MISO_formbeschaffenheitdeskaeses_streichfrischkaese",
+          "value": "Streichfrischkäse"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_kaesesorte",
+      "label": "Käsesorte",
+      "values": [
+        {
+          "value_code": "MISO_kaesesorte_kaesealternative",
+          "value": "Käsealternative"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_milchartrohstoff",
+      "label": "Milchart/Rohstoff",
+      "values": [
+        {
+          "value_code": "MISO_milchartrohstoff_kokosoel",
+          "value": "Kokosöl"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/2ec6eb795209cea8197a40d7328bac437515f3ad/alnatura-frischcreme-kraeuter.jpg",
+    "stack": "https://image.migros.ch/{stack}/2ec6eb795209cea8197a40d7328bac437515f3ad/alnatura-frischcreme-kraeuter.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/48fcbbcca16ccb8e9300e50db16538612fca0fe9/alnatura-frischcreme-kraeuter.png",
+    "stack": "https://image.migros.ch/{stack}/48fcbbcca16ccb8e9300e50db16538612fca0fe9/alnatura-frischcreme-kraeuter.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZFRP",
+          "value": "Frische Beschaffung"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "1",
+          "value": "Molki"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "70123",
+          "value": "BIO / ALNATURA"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/203565000000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/alnatura-frischcreme-kraeuter",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/203565000000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/alnatura-frischcreme-kraeuter",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "updated_at": "2020-09-16T06:31:58+0200",
+  "receipt_text": "Alnatura Frischcreme",
+  "price": {
+    "valid_from": "2018-11-16T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 2.6,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "150g"
+    },
+    "base": {
+      "price": 17.33,
+      "quantity": 1000,
+      "unit": "g"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 10,
+    "average_all": 4.5
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

@@ -1,0 +1,322 @@
+{
+  "id": "106502500000",
+  "language": "de",
+  "name": "Bon Chef Bratensauce gebunden",
+  "slug": "bon-chef-bratensauce-gebunden-106502500000",
+  "boss_number": "011111082110",
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "source-qim-origins",
+    "validity-range-not-set",
+    "source-qim-allergens",
+    "source-qim-fooddeclaration",
+    "source-qim-nutritionfacts",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7613269298298",
+    "7610121400073"
+  ],
+  "brand": {
+    "id": "652",
+    "name": "Bon Chef",
+    "slug": "bon-chef",
+    "image": {
+      "original": "https://image.migros.ch/original/19823c12a870ef747fb91c2ebd0a6c10084f3c81/bon-chef.jpg",
+      "stack": "https://image.migros.ch/{stack}/19823c12a870ef747fb91c2ebd0a6c10084f3c81/bon-chef.jpg"
+    }
+  },
+  "categories": [
+    {
+      "code": "BeSS_0101140903",
+      "name": "Saucen",
+      "slug": "supermarkt/lebensmittel/pasta-zutaten-konserven/suppen-saucen-bouillon/saucen",
+      "visible": true,
+      "title": "Saucen in Ihrer Migros kaufen",
+      "parent_code": "BeSS_01011409",
+      "image": {
+        "original": "https://image.migros.ch/original/217fa50552714c2c776c821a6173e77373630f5d/saucen.jpg",
+        "stack": "https://image.migros.ch/{stack}/217fa50552714c2c776c821a6173e77373630f5d/saucen.jpg"
+      },
+      "level": 5
+    },
+    {
+      "code": "BeSS_01011409",
+      "name": "Suppen, Saucen & Bouillon",
+      "slug": "supermarkt/lebensmittel/pasta-zutaten-konserven/suppen-saucen-bouillon",
+      "visible": true,
+      "title": "Bouillon in Ihrer Migros kaufen",
+      "parent_code": "BeSS_010114",
+      "image": {
+        "original": "https://image.migros.ch/original/5f7779de5b06c3e5051c0ccdb81a414859a26cf5/suppen-saucen-bouillon.jpg",
+        "stack": "https://image.migros.ch/{stack}/5f7779de5b06c3e5051c0ccdb81a414859a26cf5/suppen-saucen-bouillon.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010114",
+      "name": "Pasta, Zutaten & Konserven",
+      "slug": "supermarkt/lebensmittel/pasta-zutaten-konserven",
+      "visible": true,
+      "title": "Pasta aus Ihrer Migros: alles rund um Teigwaren",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/6d0964bbb34b8e041ba4d74fc0c90b149907f46a/pasta-zutaten-konserven.jpg",
+        "stack": "https://image.migros.ch/{stack}/6d0964bbb34b8e041ba4d74fc0c90b149907f46a/pasta-zutaten-konserven.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_WarmeSaucen_PastasaucenwarmeSaucen_Grundnahrungsmittel",
+        "name": "Warme Saucen",
+        "slug": "amigos/grundnahrungsmittel/pastasaucen-warme-saucen/warme-saucen",
+        "visible": true,
+        "parent_code": "AMIG_CAT_PastasaucenwarmeSaucen_Grundnahrungsmittel",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_PastasaucenwarmeSaucen_Grundnahrungsmittel",
+        "name": "Pastasaucen & warme Saucen",
+        "slug": "amigos/grundnahrungsmittel/pastasaucen-warme-saucen",
+        "visible": true,
+        "parent_code": "AMIG_CAT_Grundnahrungsmittel",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_Grundnahrungsmittel",
+        "name": "Grundnahrungsmittel",
+        "slug": "amigos/grundnahrungsmittel",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "features": [
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_tube",
+          "value": "Tube"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zubereitungsverfahren",
+      "label": "Hinweise für die Zubereitung",
+      "values": [
+        {
+          "value_code": "MISO_zubereitungsverfahren_kochen",
+          "value": "Kochen"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_gewuerzegeeignetfuer",
+      "label": "Gewürze geeignet für",
+      "values": [
+        {
+          "value_code": "MISO_gewuerzegeeignetfuer_bratenfond",
+          "value": "Bratenfond"
+        },
+        {
+          "value_code": "MISO_gewuerzegeeignetfuer_fleisch",
+          "value": "Fleisch"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_artvonsaucedip",
+      "label": "Art von Sauce/Dip",
+      "values": [
+        {
+          "value_code": "MISO_artvonsaucedip_bratensauce",
+          "value": "Bratensauce"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_vorgeseheneverwendungdersauce",
+      "label": "Vorgesehene Verwendung der Sauce",
+      "values": [
+        {
+          "value_code": "MISO_vorgeseheneverwendungdersauce_fleischgerichte",
+          "value": "Fleischgerichte"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_eignungfuerverzehrsituation",
+      "label": "Eignung für Verzehrsituation",
+      "values": [
+        {
+          "value_code": "MISO_eignungfuerverzehrsituation_zumkochengeeignet",
+          "value": "zum Kochen geeignet"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/d00ff846d1c223807eb8d0bea66fd15c89103edc/bon-chef-bratensauce-gebunden.jpg",
+    "stack": "https://image.migros.ch/{stack}/d00ff846d1c223807eb8d0bea66fd15c89103edc/bon-chef-bratensauce-gebunden.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/b6483c8baba96ff1f9bf57482bf4fdcef5cea27c/bon-chef-bratensauce-gebunden.png",
+    "stack": "https://image.migros.ch/{stack}/b6483c8baba96ff1f9bf57482bf4fdcef5cea27c/bon-chef-bratensauce-gebunden.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_sortierung",
+      "label": "Sortierung aMigos",
+      "values": [
+        {
+          "value_code": "NUMERIC_160",
+          "value": "160",
+          "numeric_value": 160
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "M",
+          "value": "Kolonial Standard"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "11114",
+          "value": "BRATENSAUCEN"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/106502500000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/bon-chef-bratensauce-gebunden-106502500000",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/106502500000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/bon-chef-bratensauce-gebunden-106502500000",
+      "type": "info",
+      "purchasable": false
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/4962031",
+      "app_url": "leshop:///catalog/article/detail?ean=7613269298298",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/bon-chef-bratensauce-gebunden-106502500000",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "updated_at": "2020-09-16T06:50:52+0200",
+  "receipt_text": "Bon Chef Bratensauce",
+  "price": {
+    "valid_from": "2018-01-29T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 2.9,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "150g"
+    },
+    "base": {
+      "price": 1.93,
+      "quantity": 100,
+      "unit": "g"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 3,
+    "average_all": 4.666666666667
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

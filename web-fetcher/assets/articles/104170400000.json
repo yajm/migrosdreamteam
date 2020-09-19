@@ -1,0 +1,319 @@
+{
+  "id": "104170400000",
+  "language": "de",
+  "name": "Croûtons Alpenkräuter",
+  "slug": "croutons-alpenkraeuter",
+  "boss_number": "011011282010",
+  "description": {
+    "text": "Roman&acute;s Knusper Baguette Cro&ucirc;tons mit Schweizer Alpenkr&auml;utern werden nach altem, aufw&auml;ndigem Rezept aus frischgebackenen Baguettes hergestellt. Unter Zugabe von Schweizer Raps&ouml;l und Schweizer Alpenkr&auml;utern entstehen in einem dreifachen Back- und R&ouml;stprozess Cro&ucirc;tons von h&ouml;chster Qualit&auml;t.",
+    "source": "PIM"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "source-qim-origins",
+    "source-qim-distributor",
+    "validity-range-not-set",
+    "source-qim-allergens",
+    "source-qim-fooddeclaration",
+    "source-qim-nutritionfacts",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7640134625156"
+  ],
+  "brand": {
+    "id": "029",
+    "name": "Chatham Village",
+    "slug": "chatham-village"
+  },
+  "categories": [
+    {
+      "code": "BeSS_0101140906",
+      "name": "Salatsaucen & Salatzugaben",
+      "slug": "supermarkt/lebensmittel/pasta-zutaten-konserven/suppen-saucen-bouillon/salatsaucen-salatzugaben",
+      "visible": true,
+      "parent_code": "BeSS_01011409",
+      "image": {
+        "original": "https://image.migros.ch/original/3cc9e1321e36676ba33839966742ed9b63e649e4/salatsaucen-salatzugaben.jpg",
+        "stack": "https://image.migros.ch/{stack}/3cc9e1321e36676ba33839966742ed9b63e649e4/salatsaucen-salatzugaben.jpg"
+      },
+      "level": 5
+    },
+    {
+      "code": "BeSS_01011409",
+      "name": "Suppen, Saucen & Bouillon",
+      "slug": "supermarkt/lebensmittel/pasta-zutaten-konserven/suppen-saucen-bouillon",
+      "visible": true,
+      "title": "Bouillon in Ihrer Migros kaufen",
+      "parent_code": "BeSS_010114",
+      "image": {
+        "original": "https://image.migros.ch/original/5f7779de5b06c3e5051c0ccdb81a414859a26cf5/suppen-saucen-bouillon.jpg",
+        "stack": "https://image.migros.ch/{stack}/5f7779de5b06c3e5051c0ccdb81a414859a26cf5/suppen-saucen-bouillon.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010114",
+      "name": "Pasta, Zutaten & Konserven",
+      "slug": "supermarkt/lebensmittel/pasta-zutaten-konserven",
+      "visible": true,
+      "title": "Pasta aus Ihrer Migros: alles rund um Teigwaren",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/6d0964bbb34b8e041ba4d74fc0c90b149907f46a/pasta-zutaten-konserven.jpg",
+        "stack": "https://image.migros.ch/{stack}/6d0964bbb34b8e041ba4d74fc0c90b149907f46a/pasta-zutaten-konserven.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_KerneCroton_Salate_FruechteGemuese",
+        "name": "Kerne & Croûton",
+        "slug": "amigos/fruechte-gemuese/salate/kerne-crouton",
+        "visible": true,
+        "parent_code": "AMIG_CAT_Salate_FruechteGemuese",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_Salate_FruechteGemuese",
+        "name": "Salate",
+        "slug": "amigos/fruechte-gemuese/salate",
+        "visible": true,
+        "parent_code": "AMIG_CAT_FruechteGemuese",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_FruechteGemuese",
+        "name": "Früchte & Gemüse",
+        "slug": "amigos/fruechte-gemuese",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "features": [
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_beutelsack",
+          "value": "Beutel/Sack"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_besonderezutaten",
+      "label": "Besondere Zutaten",
+      "values": [
+        {
+          "value_code": "MISO_besonderezutaten_alpenkraeuter",
+          "value": "Alpenkräuter"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_geschnitten",
+      "label": "Geschnitten",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_wiederverschliessbar",
+      "label": "Wiederverschliessbar",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_verzehrbarkeit",
+      "label": "Hinweise zum Verzehr",
+      "values": [
+        {
+          "value_code": "MISO_verzehrbarkeit_fertigzumservieren",
+          "value": "fertig zum Servieren"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_produktionslandherstellungsort",
+      "label": "Produktionsland/Herstellungsort",
+      "values": [
+        {
+          "value_code": "MISO_produktionslandherstellungsort_schweiz",
+          "value": "Schweiz"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/a7ee1aac790157348a2c21ff05d794728d9802c0/croutons-alpenkraeuter.jpg",
+    "stack": "https://image.migros.ch/{stack}/a7ee1aac790157348a2c21ff05d794728d9802c0/croutons-alpenkraeuter.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/dae98a9995b24d8f7bd3f022dc749bc531f34648/croutons-alpenkraeuter.png",
+    "stack": "https://image.migros.ch/{stack}/dae98a9995b24d8f7bd3f022dc749bc531f34648/croutons-alpenkraeuter.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_sortierung",
+      "label": "Sortierung aMigos",
+      "values": [
+        {
+          "value_code": "NUMERIC_370",
+          "value": "370",
+          "numeric_value": 370
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "M",
+          "value": "Kolonial Standard"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "10140",
+          "value": "SALATSAUCEN/-ZUGABE"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/104170400000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/croutons-alpenkraeuter",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/104170400000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/croutons-alpenkraeuter",
+      "type": "info",
+      "purchasable": false
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/4961378",
+      "app_url": "leshop:///catalog/article/detail?ean=7640134625156",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/croutons-alpenkraeuter",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "updated_at": "2020-09-16T05:41:32+0200",
+  "receipt_text": "Croûtons Alpenkräuter",
+  "price": {
+    "valid_from": "2018-01-29T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 3.55,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "140g"
+    },
+    "base": {
+      "price": 2.54,
+      "quantity": 100,
+      "unit": "g"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 7,
+    "average_all": 4.285714285714
+  },
+  "reindex_date": "2020-09-20T00:00:00+0200"
+}

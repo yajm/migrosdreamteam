@@ -1,0 +1,320 @@
+{
+  "id": "526220400000",
+  "language": "de",
+  "name": "M-Classic Toilettenpapier",
+  "slug": "m-classic-toilettenpapier",
+  "boss_number": "150126812025",
+  "description": {
+    "text": "Sanft & Weich",
+    "source": "PEX"
+  },
+  "tags": [
+    "source-pex",
+    "near-non-food",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7613312259917",
+    "7613312259924"
+  ],
+  "brand": {
+    "id": "068",
+    "name": "M-Classic",
+    "slug": "m-classic",
+    "links": {
+      "homepage": {
+        "url": "https://m-classic.migros.ch/de.html",
+        "name": "Homepage",
+        "type": "info",
+        "purchasable": false
+      }
+    },
+    "image": {
+      "original": "https://image.migros.ch/original/72c18633f911e026e081ac11d872cff2d8dc8abb/m-classic.jpg",
+      "stack": "https://image.migros.ch/{stack}/72c18633f911e026e081ac11d872cff2d8dc8abb/m-classic.jpg"
+    }
+  },
+  "labels": [
+    {
+      "id": "L09",
+      "name": "FSC",
+      "slug": "fsc",
+      "image": {
+        "original": "https://image.migros.ch/original/2c1084154f39b6058058a9257b03090d98835154/fsc.jpg",
+        "stack": "https://image.migros.ch/{stack}/2c1084154f39b6058058a9257b03090d98835154/fsc.jpg"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_01040202",
+      "name": "Toilettenpapier",
+      "slug": "supermarkt/haushalt-reinigung/haushaltpapier-toilettenpapier/toilettenpapier",
+      "visible": true,
+      "title": "Eine saubere Sache: Toilettenpapier bei der Migros",
+      "parent_code": "BeSS_010402",
+      "image": {
+        "original": "https://image.migros.ch/original/7434ceb5f07ae350c2b0eceafa0ab5c7040277b6/toilettenpapier.jpg",
+        "stack": "https://image.migros.ch/{stack}/7434ceb5f07ae350c2b0eceafa0ab5c7040277b6/toilettenpapier.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010402",
+      "name": "Haushaltpapier & Toilettenpapier",
+      "slug": "supermarkt/haushalt-reinigung/haushaltpapier-toilettenpapier",
+      "visible": true,
+      "parent_code": "BeSS_0104",
+      "image": {
+        "original": "https://image.migros.ch/original/ab122c4f7f4efda2c2bf26b21b3e683288db089c/haushaltpapier-toilettenpapier.jpg",
+        "stack": "https://image.migros.ch/{stack}/ab122c4f7f4efda2c2bf26b21b3e683288db089c/haushaltpapier-toilettenpapier.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0104",
+      "name": "Haushalt & Reinigung",
+      "slug": "supermarkt/haushalt-reinigung",
+      "visible": true,
+      "title": "Reinigung mit der Migros – Reiniger für Haushalt und Garten",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/e5da3225980543e0c7ddcc443069f331d94e8439/haushalt-reinigung.png",
+        "stack": "https://image.migros.ch/{stack}/e5da3225980543e0c7ddcc443069f331d94e8439/haushalt-reinigung.png"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "features": [
+    {
+      "label_code": "miso_oeko_hinweis",
+      "label": "Öko Hinweis",
+      "values": [
+        {
+          "value_code": "MISO_mix_aus_frischzellstoff_und_recyclingmaterial",
+          "value": "Mix aus Frischzellstoff und Recyclingmaterial"
+        },
+        {
+          "value_code": "MISO_papier_aus_nachhaltiger_forstwirtschaft_FSC",
+          "value": "Papier aus nachhaltiger Forstwirtschaft \"FSC\""
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "miso_anzahl_lagen",
+      "label": "Anzahl Lagen",
+      "values": [
+        {
+          "value_code": "NUMERIC_3",
+          "value": "3",
+          "numeric_value": 3
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "miso_anzahl_blaetter_pro_rolle",
+      "label": "Anzahl Blätter / Rolle",
+      "values": [
+        {
+          "value_code": "NUMERIC_200",
+          "value": "200",
+          "numeric_value": 200
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/388f66d73950e4e3f273353fe8992a3dc536ee7c/m-classic-toilettenpapier.jpg",
+    "stack": "https://image.migros.ch/{stack}/388f66d73950e4e3f273353fe8992a3dc536ee7c/m-classic-toilettenpapier.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/913f1fa66e89e1c2e27f7aeb57026ed94a713ce2/m-classic-toilettenpapier.png",
+    "stack": "https://image.migros.ch/{stack}/913f1fa66e89e1c2e27f7aeb57026ed94a713ce2/m-classic-toilettenpapier.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Normalposition"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "ZHKS"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUSTOMS_POSITION",
+      "values": [
+        {
+          "value_code": "NUMERIC_48181000000",
+          "value": "48181000000",
+          "numeric_value": 48181000000
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_RISK_CLASS",
+      "values": [
+        {
+          "value_code": "2",
+          "value": "2 (medium)"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_QUALITY_CHECK",
+      "values": [
+        {
+          "value_code": "00",
+          "value": "Keine Prüfung"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZHKS",
+          "value": "HKS Standardartikel"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "H",
+          "value": "HKS Standard"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "50317",
+          "value": "EIGENMARKE"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_LIFECYCLE",
+      "values": [
+        {
+          "value_code": "D",
+          "value": "Detailhandelsartikel"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 1,
+    "percentage": 7.7
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/526220400000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/m-classic-toilettenpapier",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/526220400000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/m-classic-toilettenpapier",
+      "type": "info",
+      "purchasable": false
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/4989636",
+      "app_url": "leshop:///catalog/article/detail?ean=7613312259917",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/m-classic-toilettenpapier",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "updated_at": "2020-09-16T06:05:39+0200",
+  "receipt_text": "M-Classic TP 3 lagig",
+  "price": {
+    "valid_from": "2019-05-15T00:00:00+0200",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 5.9,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "12R 3 lagig"
+    },
+    "base": {
+      "price": 0.49,
+      "quantity": 1,
+      "unit": "st"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 4,
+    "average_all": 3.5
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

@@ -1,0 +1,290 @@
+{
+  "id": "166001600000",
+  "language": "de",
+  "name": "Don Pollo Chicken Nuggets im Teig",
+  "slug": "don-pollo-chicken-nuggets-im-teig",
+  "boss_number": "010510721105",
+  "description": {
+    "text": "Chicken Nuggets im Teig, zubereitet in 6-8 Minuten",
+    "source": "PIM"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "source-qim-origins",
+    "validity-range-not-set",
+    "source-qim-allergens",
+    "source-qim-fooddeclaration",
+    "source-qim-nutritionfacts",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7613312290972",
+    "7611521031416",
+    "7613269302537"
+  ],
+  "brand": {
+    "id": "433",
+    "name": "Don Pollo",
+    "slug": "don-pollo"
+  },
+  "categories": [
+    {
+      "code": "BeSS_0101150304",
+      "name": "Geflügel",
+      "slug": "supermarkt/lebensmittel/tiefkuehlprodukte/fleisch/gefluegel",
+      "visible": true,
+      "title": "Feines Tiefkühl-Geflügel bei Ihrer Migros",
+      "parent_code": "BeSS_01011503",
+      "image": {
+        "original": "https://image.migros.ch/original/3e4e54c069e6dcdb8019ddfff2f3283c73a89283/gefluegel.jpg",
+        "stack": "https://image.migros.ch/{stack}/3e4e54c069e6dcdb8019ddfff2f3283c73a89283/gefluegel.jpg"
+      },
+      "level": 5
+    },
+    {
+      "code": "BeSS_01011503",
+      "name": "Fleisch",
+      "slug": "supermarkt/lebensmittel/tiefkuehlprodukte/fleisch",
+      "visible": true,
+      "title": "Tiefkühlfleisch in Ihrer Migros kaufen",
+      "parent_code": "BeSS_010115",
+      "level": 4
+    },
+    {
+      "code": "BeSS_010115",
+      "name": "Tiefkühlprodukte",
+      "slug": "supermarkt/lebensmittel/tiefkuehlprodukte",
+      "visible": true,
+      "title": "Tiefkühlprodukte aus Ihrer Migros: schnell etwas Feines auf Ihren Tisch",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/b8e389701dd44ecdd5fbc95db5eed9b0a8c4a03d/tiefkuehlprodukte.jpg",
+        "stack": "https://image.migros.ch/{stack}/b8e389701dd44ecdd5fbc95db5eed9b0a8c4a03d/tiefkuehlprodukte.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "features": [
+    {
+      "label_code": "MISO_produktionsanspruch",
+      "label": "Produktionsverfahren",
+      "values": [
+        {
+          "value_code": "MISO_produktionsanspruch_vorfrittiert",
+          "value": "Vorfrittiert"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_anzahlentnehmbarereinzelportionen",
+      "label": "Anzahl entnehmbarer Einzeleinheiten",
+      "values": [
+        {
+          "value_code": "NUMERIC_29.0",
+          "value": "29.0",
+          "numeric_value": 29
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_beutelsack",
+          "value": "Beutel/Sack"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zubereitungsverfahren",
+      "label": "Hinweise für die Zubereitung",
+      "values": [
+        {
+          "value_code": "MISO_zubereitungsverfahren_backen",
+          "value": "Backen"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_fleischform",
+      "label": "Fleischform bearbeitet",
+      "values": [
+        {
+          "value_code": "MISO_fleischform_zusammengefuegt",
+          "value": "Zusammengefügt"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_primaerezusaetze",
+      "label": "Primäre Zusätze",
+      "values": [
+        {
+          "value_code": "MISO_primaerezusaetze_teig",
+          "value": "Teig"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_tierartodergattung",
+      "label": "Tierart oder Gattung",
+      "values": [
+        {
+          "value_code": "MISO_tierartodergattung_poulet",
+          "value": "Poulet"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_herstellungsverfahrenvonfleisch",
+      "label": "Herstellungsverfahren von Fleisch",
+      "values": [
+        {
+          "value_code": "MISO_herstellungsverfahrenvonfleisch_vorfrittiert",
+          "value": "Vorfrittiert"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_artderummantelung",
+      "label": "Art der Ummantelung",
+      "values": [
+        {
+          "value_code": "MISO_artderummantelung_teig",
+          "value": "Teig"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/8ab97c47ee06235dda2bd1c62e50fb21da72bc81/don-pollo-chicken-nuggets-im-teig.jpg",
+    "stack": "https://image.migros.ch/{stack}/8ab97c47ee06235dda2bd1c62e50fb21da72bc81/don-pollo-chicken-nuggets-im-teig.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/3598116456545ee07dd7b9a4f7747ea6e7c0544d/don-pollo-chicken-nuggets-im-teig.png",
+    "stack": "https://image.migros.ch/{stack}/3598116456545ee07dd7b9a4f7747ea6e7c0544d/don-pollo-chicken-nuggets-im-teig.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "M",
+          "value": "Kolonial Standard"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "30171",
+          "value": "TK GEFLUEGEL PANIERT"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/166001600000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/don-pollo-chicken-nuggets-im-teig",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/166001600000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/don-pollo-chicken-nuggets-im-teig",
+      "type": "info",
+      "purchasable": false
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/109414",
+      "app_url": "leshop:///catalog/article/detail?ean=7613312290972",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/don-pollo-chicken-nuggets-im-teig",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "updated_at": "2020-09-16T06:31:03+0200",
+  "receipt_text": "Chicken Nuggets Teig",
+  "price": {
+    "valid_from": "2019-04-03T00:00:00+0200",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 12.5,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "750g"
+    },
+    "base": {
+      "price": 1.67,
+      "quantity": 100,
+      "unit": "g"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 25,
+    "average_all": 3.722222222222
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

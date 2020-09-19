@@ -1,0 +1,226 @@
+{
+  "id": "104201000000",
+  "language": "de",
+  "name": "Kellogg's Tresor Dark Choco",
+  "slug": "kelloggs-tresor-dark-choco",
+  "boss_number": "010310522605",
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "source-qim-origins",
+    "source-qim-distributor",
+    "validity-range-not-set",
+    "source-qim-allergens",
+    "source-qim-fooddeclaration",
+    "source-qim-nutritionfacts",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "5059319002446",
+    "5059319002477"
+  ],
+  "brand": {
+    "id": "216",
+    "name": "Kellogg's",
+    "slug": "kelloggs",
+    "image": {
+      "original": "https://image.migros.ch/original/dcdb16dc0aa0bc69d4352e89958529c7ef89b673/kelloggs.jpg",
+      "stack": "https://image.migros.ch/{stack}/dcdb16dc0aa0bc69d4352e89958529c7ef89b673/kelloggs.jpg"
+    }
+  },
+  "categories": [
+    {
+      "code": "BeSS_01011202",
+      "name": "Cerealien",
+      "slug": "supermarkt/lebensmittel/mueesli-cerealien/cerealien",
+      "visible": true,
+      "title": "Cerealien aus der Migros: Gut in den Tag starten",
+      "parent_code": "BeSS_010112",
+      "image": {
+        "original": "https://image.migros.ch/original/0ce52f6661cdb9fc2d373463dbf484792d36e6b8/cerealien.jpg",
+        "stack": "https://image.migros.ch/{stack}/0ce52f6661cdb9fc2d373463dbf484792d36e6b8/cerealien.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010112",
+      "name": "Müesli & Cerealien",
+      "slug": "supermarkt/lebensmittel/mueesli-cerealien",
+      "visible": true,
+      "title": "Cerealien von der Migros &ndash; für einen guten Start in den Tag",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/94adab320c7d6778bba96c16ad7b18a493850519/mueesli-cerealien.jpg",
+        "stack": "https://image.migros.ch/{stack}/94adab320c7d6778bba96c16ad7b18a493850519/mueesli-cerealien.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_Mueesli_MueesliGetreideflocken_MueesliCerealienBrotaufstriche",
+        "name": "Müesli",
+        "slug": "amigos/mueesli-cerealien-brotaufstriche/mueesli-getreideflocken/mueesli",
+        "visible": true,
+        "parent_code": "AMIG_CAT_MueesliGetreideflocken_MueesliCerealienBrotaufstriche",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_MueesliGetreideflocken_MueesliCerealienBrotaufstriche",
+        "name": "Müesli & Getreideflocken",
+        "slug": "amigos/mueesli-cerealien-brotaufstriche/mueesli-getreideflocken",
+        "visible": true,
+        "parent_code": "AMIG_CAT_MueesliCerealienBrotaufstriche",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_MueesliCerealienBrotaufstriche",
+        "name": "Müesli, Cerealien & Brotaufstriche",
+        "slug": "amigos/mueesli-cerealien-brotaufstriche",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/f16bb4093efc0c98c11b23d0962f521d760a1a2b/kelloggs-tresor-dark-choco.jpg",
+    "stack": "https://image.migros.ch/{stack}/f16bb4093efc0c98c11b23d0962f521d760a1a2b/kelloggs-tresor-dark-choco.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/c2039d9c25bb9cfcc3fd1b1cc9907d39db8e1383/kelloggs-tresor-dark-choco.png",
+    "stack": "https://image.migros.ch/{stack}/c2039d9c25bb9cfcc3fd1b1cc9907d39db8e1383/kelloggs-tresor-dark-choco.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "M",
+          "value": "Kolonial Standard"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "10318",
+          "value": "KINDER CEREALIEN"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/104201000000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/kelloggs-tresor-dark-choco",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/104201000000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/kelloggs-tresor-dark-choco",
+      "type": "info",
+      "purchasable": false
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/5102289",
+      "app_url": "leshop:///catalog/article/detail?ean=5059319002446",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/kelloggs-tresor-dark-choco",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "updated_at": "2020-09-16T06:29:30+0200",
+  "receipt_text": "Kellogg's Tresor Dark",
+  "price": {
+    "valid_from": "2019-10-15T00:00:00+0200",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 4.4,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "375g"
+    },
+    "base": {
+      "price": 1.17,
+      "quantity": 100,
+      "unit": "g"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 4,
+    "average_all": 4.75
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

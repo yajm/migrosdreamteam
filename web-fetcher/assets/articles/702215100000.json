@@ -1,0 +1,332 @@
+{
+  "id": "702215100000",
+  "language": "de",
+  "name": "Bettflasche",
+  "slug": "bettflasche",
+  "boss_number": "150332202005",
+  "description": {
+    "text": "W&auml;rmeregulierenden Lamellen",
+    "source": "PEX"
+  },
+  "tags": [
+    "source-pex",
+    "near-non-food",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7613295504998"
+  ],
+  "categories": [
+    {
+      "code": "BeSS_010414",
+      "name": "Sonstiges",
+      "slug": "supermarkt/haushalt-reinigung/sonstiges",
+      "visible": true,
+      "title": "Haushaltsartikel aus der Migros: grosse Auswahl zum kleinen Preis",
+      "parent_code": "BeSS_0104",
+      "image": {
+        "original": "https://image.migros.ch/original/f7ff90c1097acb2b3510562665461f0d1896edff/sonstiges.jpg",
+        "stack": "https://image.migros.ch/{stack}/f7ff90c1097acb2b3510562665461f0d1896edff/sonstiges.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0104",
+      "name": "Haushalt & Reinigung",
+      "slug": "supermarkt/haushalt-reinigung",
+      "visible": true,
+      "title": "Reinigung mit der Migros – Reiniger für Haushalt und Garten",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/e5da3225980543e0c7ddcc443069f331d94e8439/haushalt-reinigung.png",
+        "stack": "https://image.migros.ch/{stack}/e5da3225980543e0c7ddcc443069f331d94e8439/haushalt-reinigung.png"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "features": [
+    {
+      "label_code": "miso_produkttyp",
+      "label": "Produkttyp",
+      "values": [
+        {
+          "value_code": "MISO_produkttyp_waermetherapie",
+          "value": "Wärmetherapie"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "miso_anzahl",
+      "label": "Anzahl",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1 Stk.",
+          "numeric_value": 1
+        }
+      ],
+      "top_fact": false,
+      "unit_code": "Stk.",
+      "unit": "Stück",
+      "unit_symbol": "Stk."
+    },
+    {
+      "label_code": "miso_masse_groesse",
+      "label": "Masse / Grösse",
+      "values": [
+        {
+          "value": "31 x 19 x 4 cm"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "miso_volumen",
+      "label": "Volumen",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2 l",
+          "numeric_value": 2
+        }
+      ],
+      "top_fact": false,
+      "unit_code": "l",
+      "unit": "Liter",
+      "unit_symbol": "l"
+    },
+    {
+      "label_code": "miso_material",
+      "label": "Material",
+      "values": [
+        {
+          "value_code": "MISO_material_polypropylenPP",
+          "value": "Polypropylen PP"
+        },
+        {
+          "value_code": "MISO_material_PVC",
+          "value": "PVC"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "miso_farbe",
+      "label": "Farbe",
+      "values": [
+        {
+          "value_code": "MISO_farbe_blau",
+          "value": "blau"
+        },
+        {
+          "value_code": "MISO_farbe_rot",
+          "value": "rot"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "miso_hinweis",
+      "label": "Hinweis",
+      "values": [
+        {
+          "value": "Phtalatfrei, latexfrei"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/53da7f87f44ebf781a8b6d265427ed47d3f22582/bettflasche.jpg",
+    "stack": "https://image.migros.ch/{stack}/53da7f87f44ebf781a8b6d265427ed47d3f22582/bettflasche.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/0df7e5b675b12f639b0207106c01cf7d5000ffbb/bettflasche.png",
+    "stack": "https://image.migros.ch/{stack}/0df7e5b675b12f639b0207106c01cf7d5000ffbb/bettflasche.png"
+  },
+  "additional_images": [
+    {
+      "original": "https://image.migros.ch/original/4e7969a721d7e6b6149a97187a3aa414932f741f.jpg",
+      "stack": "https://image.migros.ch/{stack}/4e7969a721d7e6b6149a97187a3aa414932f741f.jpg"
+    },
+    {
+      "original": "https://image.migros.ch/original/5215503f6825885055ccf765b9d980cb719a623b.jpg",
+      "stack": "https://image.migros.ch/{stack}/5215503f6825885055ccf765b9d980cb719a623b.jpg"
+    },
+    {
+      "original": "https://image.migros.ch/original/794e9f0cd0d57b96929edc6372ecf1a9fb82abcd.jpg",
+      "stack": "https://image.migros.ch/{stack}/794e9f0cd0d57b96929edc6372ecf1a9fb82abcd.jpg"
+    }
+  ],
+  "internal_features": [
+    {
+      "label_code": "MAPI_DEFAULT_LOGISTIC_TYPE",
+      "values": [
+        {
+          "value_code": "55",
+          "value": "Versandart Paket"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Normalposition"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "HART"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUSTOMS_POSITION",
+      "values": [
+        {
+          "value_code": "NUMERIC_42029200000",
+          "value": "42029200000",
+          "numeric_value": 42029200000
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_RISK_CLASS",
+      "values": [
+        {
+          "value_code": "2",
+          "value": "2 (medium)"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_KUBE_TUKA",
+      "values": [
+        {
+          "value_code": "BLANK",
+          "value": "KUBE und TUKA nicht zugelassen"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HART",
+          "value": "Hartwaren  Handelsware"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "H",
+          "value": "Hartwaren"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "60497",
+          "value": "WÄRMEFLASCHEN/KISSEN"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 1,
+    "percentage": 7.7
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/702215100000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/bettflasche",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/702215100000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/bettflasche",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "updated_at": "2020-09-16T06:10:48+0200",
+  "receipt_text": "Bettflasche 2L",
+  "price": {
+    "valid_from": "2018-01-30T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 9.95,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "1 Stück"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 2,
+    "average_all": 2
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

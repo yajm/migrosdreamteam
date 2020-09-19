@@ -1,0 +1,319 @@
+{
+  "id": "720561400000",
+  "language": "de",
+  "name": "BIC BiC Tipp-Ex Rapid 20ml",
+  "slug": "bic-bic-tipp-ex-rapid-20ml",
+  "boss_number": "150626951505",
+  "description": {
+    "text": "TIPP-EX Rapid einfach ideal Schnelltrocknendes Korrektur-Fluid mit Auftragsschw&auml;mmchen f&uuml;r gleichm&auml;ssiges Auftragen. Pr&auml;zise Korrekturen bei grossen Fl&auml;chen und kleinsten Details.",
+    "source": "PEX"
+  },
+  "tags": [
+    "source-pex",
+    "near-non-food",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "3086126100272",
+    "3086128871569"
+  ],
+  "brand": {
+    "id": "352",
+    "name": "BIC",
+    "slug": "bic",
+    "image": {
+      "original": "https://image.migros.ch/original/56bac06b8cd90ac832a7b4c8c218e161245f811d/bic.jpg",
+      "stack": "https://image.migros.ch/{stack}/56bac06b8cd90ac832a7b4c8c218e161245f811d/bic.jpg"
+    }
+  },
+  "categories": [
+    {
+      "code": "BeSS_01051403",
+      "name": "Korrigieren",
+      "slug": "supermarkt/papeterie-bueromaterial/schreiben-notieren/korrigieren",
+      "visible": true,
+      "parent_code": "BeSS_010514",
+      "level": 4
+    },
+    {
+      "code": "BeSS_010514",
+      "name": "Schreiben & Notieren",
+      "slug": "supermarkt/papeterie-bueromaterial/schreiben-notieren",
+      "visible": true,
+      "parent_code": "BeSS_0105",
+      "level": 3
+    },
+    {
+      "code": "BeSS_0105",
+      "name": "Papeterie & Büromaterial",
+      "slug": "supermarkt/papeterie-bueromaterial",
+      "visible": true,
+      "title": "Papeterie und Büromaterialien sind immer in Ihrer Migros zu finden",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/6b764b62482953963a5ab3263b9bd3a69cbf436a/papeterie-bueromaterial.jpg",
+        "stack": "https://image.migros.ch/{stack}/6b764b62482953963a5ab3263b9bd3a69cbf436a/papeterie-bueromaterial.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "features": [
+    {
+      "label_code": "miso_anzahl",
+      "label": "Anzahl",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1 Stk.",
+          "numeric_value": 1
+        }
+      ],
+      "top_fact": false,
+      "unit_code": "Stk.",
+      "unit": "Stück",
+      "unit_symbol": "Stk."
+    },
+    {
+      "label_code": "CHEMICALS_WARNING",
+      "label": "Warnhinweis",
+      "values": [
+        {
+          "value": "Vor Gebrauch stets Kennzeichnung und Produktinformationen lesen."
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/085bb1132a023ed42993f5dfc15b026c2f4d8356/bic-bic-tipp-ex-rapid-20ml.jpg",
+    "stack": "https://image.migros.ch/{stack}/085bb1132a023ed42993f5dfc15b026c2f4d8356/bic-bic-tipp-ex-rapid-20ml.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/4934d81d8f2f2afe8e939fba64097510e6a77b43/bic-bic-tipp-ex-rapid-20ml.png",
+    "stack": "https://image.migros.ch/{stack}/4934d81d8f2f2afe8e939fba64097510e6a77b43/bic-bic-tipp-ex-rapid-20ml.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "miso_marke",
+      "label": "Marke",
+      "values": [
+        {
+          "value_code": "MISO_marke_TippEx",
+          "value": "Tipp-Ex"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_RETURNABLE",
+      "label": "Rückgabe",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "true",
+          "boolean_value": true
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_MAX_ORDER_QUANTITY",
+      "values": [
+        {
+          "value_code": "NUMERIC_99999",
+          "value": "99999",
+          "numeric_value": 99999
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_EXCLUDE_FROM_COMPARISON_ENGINES",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "false",
+          "boolean_value": false
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_DEFAULT_LOGISTIC_TYPE",
+      "values": [
+        {
+          "value_code": "55",
+          "value": "Versandart Paket"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Normalposition"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "HART"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUSTOMS_POSITION",
+      "values": [
+        {
+          "value_code": "NUMERIC_38249996990",
+          "value": "38249996990",
+          "numeric_value": 38249996990
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_RISK_CLASS",
+      "values": [
+        {
+          "value_code": "1",
+          "value": "1 (high)"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_KUBE_TUKA",
+      "values": [
+        {
+          "value_code": "BLANK",
+          "value": "KUBE und TUKA nicht zugelassen"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HART",
+          "value": "Hartwaren  Handelsware"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "H",
+          "value": "Hartwaren"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "57898",
+          "value": "KORRIGIEREN"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 1,
+    "percentage": 7.7
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/720561400000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/bic-bic-tipp-ex-rapid-20ml",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/720561400000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/bic-bic-tipp-ex-rapid-20ml",
+      "type": "info",
+      "purchasable": false
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/4754010",
+      "app_url": "leshop:///catalog/article/detail?ean=3086126100272",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/bic-bic-tipp-ex-rapid-20ml",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "updated_at": "2020-09-15T15:31:48+0200",
+  "receipt_text": "Tipp Ex Rapid 20ml",
+  "price": {
+    "valid_from": "2018-10-16T00:00:00+0200",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 3.3,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "20ml"
+    },
+    "base": {
+      "price": 16.5,
+      "quantity": 100,
+      "unit": "ml"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

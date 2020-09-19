@@ -1,0 +1,171 @@
+{
+  "id": "236729577260",
+  "language": "de",
+  "name": "Rapelli Bärlauchpastete",
+  "slug": "rapelli-baerlauchpastete",
+  "boss_number": "040114507015",
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "2159736000001",
+    "7613269675150"
+  ],
+  "brand": {
+    "id": "470",
+    "name": "Rapelli",
+    "slug": "rapelli"
+  },
+  "labels": [
+    {
+      "id": "L53",
+      "name": "Swissness",
+      "slug": "swissness",
+      "image": {
+        "original": "https://image.migros.ch/original/d771bba2f6b08ba42970ea0243c6f8c5a8832f15/swissness.jpg",
+        "stack": "https://image.migros.ch/{stack}/d771bba2f6b08ba42970ea0243c6f8c5a8832f15/swissness.jpg"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_0101061109",
+      "name": "Saisonale Charcuterie Produkte ungekühlt",
+      "slug": "supermarkt/lebensmittel/fleisch/charcuterie-produkte/saisonale-charcuterie-produkte-ungekuehlt",
+      "visible": true,
+      "parent_code": "BeSS_01010611",
+      "level": 5
+    },
+    {
+      "code": "BeSS_01010611",
+      "name": "Charcuterie Produkte",
+      "slug": "supermarkt/lebensmittel/fleisch/charcuterie-produkte",
+      "visible": true,
+      "title": "Vielfältige Charcuterie-Produkte jetzt in Ihrer Migros",
+      "parent_code": "BeSS_010106",
+      "image": {
+        "original": "https://image.migros.ch/original/25316d2bc38d6c6d28b266513291b23735ad8a1f/charcuterie-produkte.jpg",
+        "stack": "https://image.migros.ch/{stack}/25316d2bc38d6c6d28b266513291b23735ad8a1f/charcuterie-produkte.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010106",
+      "name": "Fleisch",
+      "slug": "supermarkt/lebensmittel/fleisch",
+      "visible": true,
+      "title": "Fleisch ausgezeichneter Qualität aus Ihrer Migros: einfach gut",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/03d32c0880d7a9ea6e58971966032e65ac442b58/fleisch.jpg",
+        "stack": "https://image.migros.ch/{stack}/03d32c0880d7a9ea6e58971966032e65ac442b58/fleisch.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/9f06c02f836ba6115e305669bc9f98b386d480a7/rapelli-baerlauchpastete.jpg",
+    "stack": "https://image.migros.ch/{stack}/9f06c02f836ba6115e305669bc9f98b386d480a7/rapelli-baerlauchpastete.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/e5bdf463d4982446a9f7b40ef073dce57c2b94f2/rapelli-baerlauchpastete.png",
+    "stack": "https://image.migros.ch/{stack}/e5bdf463d4982446a9f7b40ef073dce57c2b94f2/rapelli-baerlauchpastete.png"
+  },
+  "additional_images": [
+    {
+      "original": "https://image.migros.ch/original/e7dea2d83b45652dd37d6cb6b7eea3cf98305e82.jpg",
+      "stack": "https://image.migros.ch/{stack}/e7dea2d83b45652dd37d6cb6b7eea3cf98305e82.jpg"
+    }
+  ],
+  "internal_features": [
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZFRP",
+          "value": "Frische Beschaffung"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "6",
+          "value": "Fleisch-Fisch-Geflüg"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "71229",
+          "value": "FRUEHJAHR / SOMMER"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/236729577260",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/rapelli-baerlauchpastete",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/236729577260",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/rapelli-baerlauchpastete",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "updated_at": "2020-09-08T15:54:02+0200",
+  "receipt_text": "Bärlauchpastete",
+  "price": {
+    "valid_from": "2019-02-04T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "source": "PriceRepository",
+    "no_price_hint": "Aktueller Tagespreis"
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

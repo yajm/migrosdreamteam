@@ -1,0 +1,275 @@
+{
+  "id": "107301200000",
+  "language": "de",
+  "name": "Aha! Kakaogetränk",
+  "slug": "aha-kakaogetraenk",
+  "boss_number": "010310274605",
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "source-qim-origins",
+    "validity-range-not-set",
+    "source-qim-fooddeclaration",
+    "source-qim-nutritionfacts",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7613312092552"
+  ],
+  "labels": [
+    {
+      "id": "L15",
+      "name": "aha!",
+      "slug": "aha",
+      "image": {
+        "original": "https://image.migros.ch/original/ddc0ba54b162f407e050f09ed5f0c948ed31e289/aha.jpg",
+        "stack": "https://image.migros.ch/{stack}/ddc0ba54b162f407e050f09ed5f0c948ed31e289/aha.jpg"
+      }
+    },
+    {
+      "id": "L57",
+      "name": "V-vegan",
+      "slug": "v-vegan",
+      "image": {
+        "original": "https://image.migros.ch/original/9425b8ea6312342ddd2d0dc87e65567c88e1b757/v-vegan.jpg",
+        "stack": "https://image.migros.ch/{stack}/9425b8ea6312342ddd2d0dc87e65567c88e1b757/v-vegan.jpg"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_01011101",
+      "name": "Kakao & Schokoladen Pulver",
+      "slug": "supermarkt/lebensmittel/fruehstueck/kakao-schokoladen-pulver",
+      "visible": true,
+      "parent_code": "BeSS_010111",
+      "image": {
+        "original": "https://image.migros.ch/original/bb15de8d7297a55afc2e11c56f03389035777661/kakao-schokoladen-pulver.jpg",
+        "stack": "https://image.migros.ch/{stack}/bb15de8d7297a55afc2e11c56f03389035777661/kakao-schokoladen-pulver.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010111",
+      "name": "Frühstück",
+      "slug": "supermarkt/lebensmittel/fruehstueck",
+      "visible": true,
+      "title": "Frühstück: Mit Produkten aus Ihrer Migros einfach in den Tag starten",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/58a87c73cd077c5c9efb268051c16d5b373f5c29/fruehstueck.jpg",
+        "stack": "https://image.migros.ch/{stack}/58a87c73cd077c5c9efb268051c16d5b373f5c29/fruehstueck.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "features": [
+    {
+      "label_code": "MISO_anzahlentnehmbarereinzelportionen",
+      "label": "Anzahl entnehmbarer Einzeleinheiten",
+      "values": [
+        {
+          "value_code": "NUMERIC_10.0",
+          "value": "10.0",
+          "numeric_value": 10
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_schachtel",
+          "value": "Schachtel"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zubereitungsverfahren",
+      "label": "Hinweise für die Zubereitung",
+      "values": [
+        {
+          "value_code": "MISO_zubereitungsverfahren_mitmilchanruehren",
+          "value": "Mit Milch anrühren"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_artvontrinkschokolade",
+      "label": "Art von Trinkschokolade",
+      "values": [
+        {
+          "value_code": "MISO_artvontrinkschokolade_kakao",
+          "value": "Kakao"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_VEGETARIANISM",
+      "label": "Vegetarismus",
+      "values": [
+        {
+          "value_code": "MAPI_VEGETARIANISM_vegan",
+          "value": "vegan"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ALLERGENES",
+      "label": "Allergenauslobungen",
+      "values": [
+        {
+          "value_code": "MAPI_ALLERGENES_laktosefrei",
+          "value": "Laktosefrei"
+        },
+        {
+          "value_code": "MAPI_ALLERGENES_ohneMilch",
+          "value": "Ohne Milch"
+        },
+        {
+          "value_code": "MAPI_ALLERGENES_glutenfrei",
+          "value": "Glutenfrei"
+        },
+        {
+          "value_code": "MAPI_ALLERGENES_ohneWeizen",
+          "value": "Ohne Weizen"
+        },
+        {
+          "value_code": "MAPI_ALLERGENES_ohneEi",
+          "value": "Ohne Ei"
+        },
+        {
+          "value_code": "MAPI_ALLERGENES_ohneSoja",
+          "value": "Ohne Soja"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/07b7b43b336b2f551f271163e27e3effbfe0ef03/aha-kakaogetraenk.jpg",
+    "stack": "https://image.migros.ch/{stack}/07b7b43b336b2f551f271163e27e3effbfe0ef03/aha-kakaogetraenk.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/06ebbcc1b5dc38aa7dfafecdcb3518987136cd86/aha-kakaogetraenk.png",
+    "stack": "https://image.migros.ch/{stack}/06ebbcc1b5dc38aa7dfafecdcb3518987136cd86/aha-kakaogetraenk.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "M",
+          "value": "Kolonial Standard"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "10397",
+          "value": "ALLERG. FRÜHSTÜCKGETRÄNKE"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/107301200000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/aha-kakaogetraenk",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/107301200000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/aha-kakaogetraenk",
+      "type": "info",
+      "purchasable": false
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/3285418",
+      "app_url": "leshop:///catalog/article/detail?ean=7613312092552",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/aha-kakaogetraenk",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "updated_at": "2020-09-16T05:40:43+0200",
+  "receipt_text": "Aha! Kakaogetränk",
+  "price": {
+    "valid_from": "2018-01-29T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 5.5,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "10 x 15g"
+    },
+    "base": {
+      "price": 3.67,
+      "quantity": 100,
+      "unit": "g"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 1,
+    "average_all": 4
+  },
+  "reindex_date": "2020-09-20T00:00:00+0200"
+}

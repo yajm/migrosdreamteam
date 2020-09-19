@@ -1,0 +1,414 @@
+{
+  "id": "526221200000",
+  "language": "de",
+  "name": "Soft Deluxe Toilettenpapier",
+  "slug": "soft-deluxe-toilettenpapier",
+  "boss_number": "150126812015",
+  "description": {
+    "text": "vier Lagen aus reinen Zellstofffasern, die zwei Mittellagen der Umwelt zuliebe aus Recycling- Faserstoff",
+    "source": "PEX"
+  },
+  "tags": [
+    "source-pex",
+    "near-non-food",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7612999003691",
+    "7612999003707"
+  ],
+  "brand": {
+    "id": "173",
+    "name": "Soft",
+    "slug": "soft",
+    "image": {
+      "original": "https://image.migros.ch/original/13506990cecda9b468d2e7e3e2970fccc9416c20/soft.jpg",
+      "stack": "https://image.migros.ch/{stack}/13506990cecda9b468d2e7e3e2970fccc9416c20/soft.jpg"
+    }
+  },
+  "labels": [
+    {
+      "id": "L09",
+      "name": "FSC",
+      "slug": "fsc",
+      "image": {
+        "original": "https://image.migros.ch/original/2c1084154f39b6058058a9257b03090d98835154/fsc.jpg",
+        "stack": "https://image.migros.ch/{stack}/2c1084154f39b6058058a9257b03090d98835154/fsc.jpg"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_01040202",
+      "name": "Toilettenpapier",
+      "slug": "supermarkt/haushalt-reinigung/haushaltpapier-toilettenpapier/toilettenpapier",
+      "visible": true,
+      "title": "Eine saubere Sache: Toilettenpapier bei der Migros",
+      "parent_code": "BeSS_010402",
+      "image": {
+        "original": "https://image.migros.ch/original/7434ceb5f07ae350c2b0eceafa0ab5c7040277b6/toilettenpapier.jpg",
+        "stack": "https://image.migros.ch/{stack}/7434ceb5f07ae350c2b0eceafa0ab5c7040277b6/toilettenpapier.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010402",
+      "name": "Haushaltpapier & Toilettenpapier",
+      "slug": "supermarkt/haushalt-reinigung/haushaltpapier-toilettenpapier",
+      "visible": true,
+      "parent_code": "BeSS_0104",
+      "image": {
+        "original": "https://image.migros.ch/original/ab122c4f7f4efda2c2bf26b21b3e683288db089c/haushaltpapier-toilettenpapier.jpg",
+        "stack": "https://image.migros.ch/{stack}/ab122c4f7f4efda2c2bf26b21b3e683288db089c/haushaltpapier-toilettenpapier.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0104",
+      "name": "Haushalt & Reinigung",
+      "slug": "supermarkt/haushalt-reinigung",
+      "visible": true,
+      "title": "Reinigung mit der Migros – Reiniger für Haushalt und Garten",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/e5da3225980543e0c7ddcc443069f331d94e8439/haushalt-reinigung.png",
+        "stack": "https://image.migros.ch/{stack}/e5da3225980543e0c7ddcc443069f331d94e8439/haushalt-reinigung.png"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_Toilettenpapier_PapiertuecherHygieneartikel_HygieneGesundheitBaby",
+        "name": "Toilettenpapier",
+        "slug": "amigos/hygiene-gesundheit-baby/papiertuecher-hygieneartikel/toilettenpapier",
+        "visible": true,
+        "parent_code": "AMIG_CAT_PapiertuecherHygieneartikel_HygieneGesundheitBaby",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_PapiertuecherHygieneartikel_HygieneGesundheitBaby",
+        "name": "Papiertücher & Hygieneartikel",
+        "slug": "amigos/hygiene-gesundheit-baby/papiertuecher-hygieneartikel",
+        "visible": true,
+        "parent_code": "AMIG_CAT_HygieneGesundheitBaby",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_HygieneGesundheitBaby",
+        "name": "Hygiene, Gesundheit & Baby",
+        "slug": "amigos/hygiene-gesundheit-baby",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "features": [
+    {
+      "label_code": "miso_spezielle_eigenschaften",
+      "label": "Spezielle Eigenschaften",
+      "values": [
+        {
+          "value": "mit einem Hauch Jojoba- Lotion auf der Oberfläche für ein samtiges Hautgefühl"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "miso_oeko_hinweis",
+      "label": "Öko Hinweis",
+      "values": [
+        {
+          "value_code": "MISO_mix_aus_frischzellstoff_und_recyclingmaterial",
+          "value": "Mix aus Frischzellstoff und Recyclingmaterial"
+        },
+        {
+          "value_code": "MISO_papier_aus_nachhaltiger_forstwirtschaft_FSC",
+          "value": "Papier aus nachhaltiger Forstwirtschaft \"FSC\""
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "miso_anzahl_lagen",
+      "label": "Anzahl Lagen",
+      "values": [
+        {
+          "value_code": "NUMERIC_6",
+          "value": "6",
+          "numeric_value": 6
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "miso_anzahl_blaetter_pro_rolle",
+      "label": "Anzahl Blätter / Rolle",
+      "values": [
+        {
+          "value_code": "NUMERIC_120",
+          "value": "120 Blatt",
+          "numeric_value": 120
+        }
+      ],
+      "top_fact": false,
+      "unit_code": "blatt",
+      "unit": "Blatt",
+      "unit_symbol": "Blatt"
+    },
+    {
+      "label_code": "miso_produktmehrwert",
+      "label": "Produktmehrwert",
+      "values": [
+        {
+          "value_code": "MISO_hautvertraeglichkeit_dermatologisch_bestaetigt",
+          "value": "Hautverträglichkeit dermatologisch bestätigt"
+        },
+        {
+          "value_code": "MISO_mit_pflegelotion",
+          "value": "Mit Pflegelotion"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/3f41e74e395b3672c80e0bb2924e15885fd29e3d/soft-deluxe-toilettenpapier.jpg",
+    "stack": "https://image.migros.ch/{stack}/3f41e74e395b3672c80e0bb2924e15885fd29e3d/soft-deluxe-toilettenpapier.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/8e090e8256ea75f3cd1ea2cb340e723bcde558fb/soft-deluxe-toilettenpapier.png",
+    "stack": "https://image.migros.ch/{stack}/8e090e8256ea75f3cd1ea2cb340e723bcde558fb/soft-deluxe-toilettenpapier.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_sortierung",
+      "label": "Sortierung aMigos",
+      "values": [
+        {
+          "value_code": "NUMERIC_220",
+          "value": "220",
+          "numeric_value": 220
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_RETURNABLE",
+      "label": "Rückgabe",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "true",
+          "boolean_value": true
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_EXCLUDE_FROM_COMPARISON_ENGINES",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "false",
+          "boolean_value": false
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Normalposition"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "ZHKS"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUSTOMS_POSITION",
+      "values": [
+        {
+          "value_code": "NUMERIC_48181000000",
+          "value": "48181000000",
+          "numeric_value": 48181000000
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_RISK_CLASS",
+      "values": [
+        {
+          "value_code": "2",
+          "value": "2 (medium)"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_QUALITY_CHECK",
+      "values": [
+        {
+          "value_code": "00",
+          "value": "Keine Prüfung"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZHKS",
+          "value": "HKS Standardartikel"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "H",
+          "value": "HKS Standard"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "50317",
+          "value": "EIGENMARKE"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_LIFECYCLE",
+      "values": [
+        {
+          "value_code": "D",
+          "value": "Detailhandelsartikel"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 1,
+    "percentage": 7.7
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/526221200000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/soft-deluxe-toilettenpapier",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/526221200000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/soft-deluxe-toilettenpapier",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "updated_at": "2020-09-16T06:05:40+0200",
+  "receipt_text": "Soft Deluxe",
+  "price": {
+    "valid_from": "2018-10-01T00:00:00+0200",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 5.2,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "6 Stk."
+    },
+    "base": {
+      "price": 0.87,
+      "quantity": 1,
+      "unit": "st"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 19,
+    "average_all": 3.764705882353
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

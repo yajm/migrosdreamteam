@@ -1,0 +1,239 @@
+{
+  "id": "511842000000",
+  "language": "de",
+  "name": "Luvos Heilerde Micro Kapseln",
+  "slug": "luvos-heilerde-micro-kapseln",
+  "boss_number": "090322230530",
+  "description": {
+    "text": "Zur Bindung von Cholesterin, Fetten und Schadstoffen aus der Nahrung. \r\nUnterst&uuml;tzt die Darmsanierung, Entgiftung, Entschlackung. \r\nLindert Bl&auml;hungen, Magendruck und V&ouml;llegef&uuml;hl.",
+    "source": "PIM"
+  },
+  "tags": [
+    "source-pim",
+    "near-non-food",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7611278903912"
+  ],
+  "brand": {
+    "id": "J47",
+    "name": "Luvos",
+    "slug": "luvos"
+  },
+  "categories": [
+    {
+      "code": "BeSS_011201",
+      "name": "Hausapotheke",
+      "slug": "supermarkt/gesundheit/hausapotheke",
+      "visible": true,
+      "parent_code": "BeSS_0112",
+      "level": 3
+    },
+    {
+      "code": "BeSS_0112",
+      "name": "Gesundheit",
+      "slug": "supermarkt/gesundheit",
+      "visible": true,
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/832762761a56d78835c380db87e2aa4ecd7a4eed/gesundheit.jpg",
+        "stack": "https://image.migros.ch/{stack}/832762761a56d78835c380db87e2aa4ecd7a4eed/gesundheit.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_Nahrungsergaenzung_Hausapotheke_HygieneGesundheitBaby",
+        "name": "Nahrungsergänzung",
+        "slug": "amigos/hygiene-gesundheit-baby/hausapotheke/nahrungsergaenzung",
+        "visible": true,
+        "parent_code": "AMIG_CAT_Hausapotheke_HygieneGesundheitBaby",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_Hausapotheke_HygieneGesundheitBaby",
+        "name": "Hausapotheke",
+        "slug": "amigos/hygiene-gesundheit-baby/hausapotheke",
+        "visible": true,
+        "parent_code": "AMIG_CAT_HygieneGesundheitBaby",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_HygieneGesundheitBaby",
+        "name": "Hygiene, Gesundheit & Baby",
+        "slug": "amigos/hygiene-gesundheit-baby",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "features": [
+    {
+      "label_code": "MISO_geeignet_fuer",
+      "label": "Geeignet für",
+      "values": [
+        {
+          "value_code": "MISO_geeignet_fuer_verdauung",
+          "value": "Verdauung"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/234b357546b2e05c998027a53af8bd1392b2de4e/luvos-heilerde-micro-kapseln.jpg",
+    "stack": "https://image.migros.ch/{stack}/234b357546b2e05c998027a53af8bd1392b2de4e/luvos-heilerde-micro-kapseln.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/53422f8407474b8435d5a959336e548438399125/luvos-heilerde-micro-kapseln.png",
+    "stack": "https://image.migros.ch/{stack}/53422f8407474b8435d5a959336e548438399125/luvos-heilerde-micro-kapseln.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_sortierung",
+      "label": "Sortierung aMigos",
+      "values": [
+        {
+          "value_code": "NUMERIC_670",
+          "value": "670",
+          "numeric_value": 670
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZHKS",
+          "value": "HKS Standardartikel"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_QUALITY_CHECK",
+      "values": [
+        {
+          "value_code": "03",
+          "value": "FRL (Final Random Labtest)"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_RISK_CLASS",
+      "values": [
+        {
+          "value_code": "1",
+          "value": "1 (high)"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "H",
+          "value": "HKS Standard"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "50385",
+          "value": "SELBSTMEDIKATION"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/511842000000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/luvos-heilerde-micro-kapseln",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/511842000000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/luvos-heilerde-micro-kapseln",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "updated_at": "2020-09-15T06:19:31+0200",
+  "receipt_text": "Luvos Heilerde Micro K",
+  "price": {
+    "valid_from": "2018-01-29T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 14.5,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "40 Stk."
+    },
+    "base": {
+      "price": 0.36,
+      "quantity": 1,
+      "unit": "st"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 2,
+    "average_all": 4
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

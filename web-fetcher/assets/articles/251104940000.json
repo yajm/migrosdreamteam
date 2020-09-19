@@ -1,0 +1,429 @@
+{
+  "id": "251104940000",
+  "language": "de",
+  "name": "MSC Kabeljaurücken",
+  "slug": "msc-kabeljauruecken",
+  "boss_number": "040414362510",
+  "description": {
+    "text": "MSC R&uuml;ckenfilet vom Kabeljau mit Mandeln, Pistazien und Basilikum fixfertig in Aluschale",
+    "source": "PIM"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7613269013907"
+  ],
+  "labels": [
+    {
+      "id": "L05",
+      "name": "MSC",
+      "slug": "msc",
+      "image": {
+        "original": "https://image.migros.ch/original/b4f2b83e8fa72e840367b33d46a26ab586685a13/msc.jpg",
+        "stack": "https://image.migros.ch/{stack}/b4f2b83e8fa72e840367b33d46a26ab586685a13/msc.jpg"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_01010706",
+      "name": "Traiteur",
+      "slug": "supermarkt/lebensmittel/fisch-meeresfruechte/traiteur",
+      "visible": true,
+      "title": "Frischen Fisch in Ihrer Migros kaufen",
+      "parent_code": "BeSS_010107",
+      "level": 4
+    },
+    {
+      "code": "BeSS_010107",
+      "name": "Fisch & Meeresfrüchte",
+      "slug": "supermarkt/lebensmittel/fisch-meeresfruechte",
+      "visible": true,
+      "title": "Frische Fische – natürlich aus Ihrer Migros",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/ec75a7d58e38e50543a63ffef79d21bc22d60668/fisch-meeresfruechte.jpg",
+        "stack": "https://image.migros.ch/{stack}/ec75a7d58e38e50543a63ffef79d21bc22d60668/fisch-meeresfruechte.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_Fisch_FischMeeresfruechte_FleischFisch",
+        "name": "Fisch",
+        "slug": "amigos/fleisch-fisch/fisch-meeresfruechte/fisch",
+        "visible": true,
+        "parent_code": "AMIG_CAT_FischMeeresfruechte_FleischFisch",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_FischMeeresfruechte_FleischFisch",
+        "name": "Fisch & Meeresfrüchte",
+        "slug": "amigos/fleisch-fisch/fisch-meeresfruechte",
+        "visible": true,
+        "parent_code": "AMIG_CAT_FleischFisch",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_FleischFisch",
+        "name": "Fleisch & Fisch",
+        "slug": "amigos/fleisch-fisch",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "features": [
+    {
+      "label_code": "MISO_mussgekuehltwerden",
+      "label": "Muss gekühlt werden",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_produktionsanspruch",
+      "label": "Produktionsverfahren",
+      "values": [
+        {
+          "value_code": "MISO_produktionsanspruch_nachhaltigefischerei",
+          "value": "Nachhaltige Fischerei"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_schale",
+          "value": "Schale"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zubereitungsverfahren",
+      "label": "Hinweise für die Zubereitung",
+      "values": [
+        {
+          "value_code": "MISO_zubereitungsverfahren_backen",
+          "value": "Backen"
+        },
+        {
+          "value_code": "MISO_zubereitungsverfahren_grillieren",
+          "value": "Grillieren"
+        },
+        {
+          "value_code": "MISO_zubereitungsverfahren_indermikrowelleerhitzen",
+          "value": "In der Mikrowelle erhitzen"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zusatzangaben",
+      "label": "Zusatzangaben",
+      "values": [
+        {
+          "value_code": "MISO_zusatzangaben_57",
+          "value": "Die Gräten wurden mit grösster Sorgfalt entfernt. In Ausnahmefällen kann es aber vorkommen, dass Gräten enthalten sind."
+        },
+        {
+          "value_code": "MISO_zusatzangaben_273",
+          "value": "Gekühlt aufbewahren bei max. +2 Grad C."
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_fischspezies",
+      "label": "Fischspezies",
+      "values": [
+        {
+          "value_code": "MISO_fischspezies_kabeljau",
+          "value": "Kabeljau"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_anatomischeformvonfisch",
+      "label": "Anatomische Form von Fisch",
+      "values": [
+        {
+          "value_code": "MISO_anatomischeformvonfisch_filet",
+          "value": "Filet"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zuchtoderwildfang",
+      "label": "Zucht oder Wildfang",
+      "values": [
+        {
+          "value_code": "MISO_zuchtoderwildfang_wildfang",
+          "value": "Wildfang"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_suessodersalzwasser",
+      "label": "Süss- oder Salzwasser",
+      "values": [
+        {
+          "value_code": "MISO_suessodersalzwasser_salzwasser",
+          "value": "Salzwasser"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zuchtoderfangmethode",
+      "label": "Zucht- oder Fangmethode",
+      "values": [
+        {
+          "value_code": "MISO_zuchtoderfangmethode_meeresfischerei",
+          "value": "Meeresfischerei"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_verpackungsform",
+      "label": "Verpackungsform",
+      "values": [
+        {
+          "value_code": "MISO_verpackungsform_schutzatmosphaere",
+          "value": "Schutzatmosphäre"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_herstellungsverfahren",
+      "label": "Herstellungsverfahren",
+      "values": [
+        {
+          "value_code": "MISO_herstellungsverfahren_gewuerzt",
+          "value": "Gewürzt"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_tierwohlmehrwert",
+      "label": "Tierwohl Mehrwert",
+      "values": [
+        {
+          "value_code": "MISO_tierwohlmehrwert_msc",
+          "value": "MSC"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/fd1e0752c9390f2e1a2f43ad5c093a478b36865e/msc-kabeljauruecken.jpg",
+    "stack": "https://image.migros.ch/{stack}/fd1e0752c9390f2e1a2f43ad5c093a478b36865e/msc-kabeljauruecken.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/da11f9ac9ccd5bf4eaa7dcdaa4db08402024daee/msc-kabeljauruecken.png",
+    "stack": "https://image.migros.ch/{stack}/da11f9ac9ccd5bf4eaa7dcdaa4db08402024daee/msc-kabeljauruecken.png"
+  },
+  "additional_images": [
+    {
+      "original": "https://image.migros.ch/original/9698adab0eee8c4929f262d0476a4f0d464d8c02.jpg",
+      "stack": "https://image.migros.ch/{stack}/9698adab0eee8c4929f262d0476a4f0d464d8c02.jpg"
+    }
+  ],
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_sortierung",
+      "label": "Sortierung aMigos",
+      "values": [
+        {
+          "value_code": "NUMERIC_580",
+          "value": "580",
+          "numeric_value": 580
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_gewicht",
+      "label": "Gewicht aMigos!",
+      "values": [
+        {
+          "value_code": "NUMERIC_0.36",
+          "value": "0.36 kg",
+          "numeric_value": 0.36
+        }
+      ],
+      "top_fact": false,
+      "unit_code": "kg",
+      "unit": "Kilogramm",
+      "unit_symbol": "kg"
+    },
+    {
+      "label_code": "MISO_aMigos_volumen",
+      "label": "Volumen aMigos!",
+      "values": [
+        {
+          "value_code": "NUMERIC_0.99",
+          "value": "0.99 l",
+          "numeric_value": 0.99
+        }
+      ],
+      "top_fact": false,
+      "unit_code": "l",
+      "unit": "Liter",
+      "unit_symbol": "l"
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZFRP",
+          "value": "Frische Beschaffung"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "6",
+          "value": "Fleisch-Fisch-Geflüg"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "70199",
+          "value": "CONVENIENCE"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/251104940000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/msc-kabeljauruecken",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/251104940000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/msc-kabeljauruecken",
+      "type": "info",
+      "purchasable": false
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/4873203",
+      "app_url": "leshop:///catalog/article/detail?ean=7613269013907",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/msc-kabeljauruecken",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "updated_at": "2020-09-16T05:53:08+0200",
+  "receipt_text": "MSC Kabeljaurücken",
+  "price": {
+    "valid_from": "2020-04-06T00:00:00+0200",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 14.6,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "360g"
+    },
+    "base": {
+      "price": 4.06,
+      "quantity": 100,
+      "unit": "g"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 6,
+    "average_all": 3
+  },
+  "allergen_text": "Kann enthalten: Sellerie.",
+  "reindex_date": "2020-09-21T23:59:59+0200"
+}

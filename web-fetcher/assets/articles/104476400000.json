@@ -1,0 +1,359 @@
+{
+  "id": "104476400000",
+  "language": "de",
+  "name": "Mifloc Instant Kartoffelstock",
+  "slug": "mifloc-instant-kartoffelstock",
+  "boss_number": "011011261520",
+  "description": {
+    "text": "Mifloc Kartoffelstock mit allen Zutaten - nur mit Wasser zubereiten",
+    "source": "PIM"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7616800430379",
+    "7616800460604"
+  ],
+  "brand": {
+    "id": "116",
+    "name": "Mifloc",
+    "slug": "mifloc"
+  },
+  "labels": [
+    {
+      "id": "L58",
+      "name": "V-vegetarisch",
+      "slug": "v-vegetarisch",
+      "image": {
+        "original": "https://image.migros.ch/original/f2077ff37c74a16ea9b38ea99c05cb880cc26136/v-vegetarisch.jpg",
+        "stack": "https://image.migros.ch/{stack}/f2077ff37c74a16ea9b38ea99c05cb880cc26136/v-vegetarisch.jpg"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_01011404",
+      "name": "Kartoffeln & Spätzli",
+      "slug": "supermarkt/lebensmittel/pasta-zutaten-konserven/kartoffeln-spaetzli",
+      "visible": true,
+      "parent_code": "BeSS_010114",
+      "image": {
+        "original": "https://image.migros.ch/original/9b6282c120eb78b544b50bda8941209b2f4afe06/kartoffeln-spaetzli.jpg",
+        "stack": "https://image.migros.ch/{stack}/9b6282c120eb78b544b50bda8941209b2f4afe06/kartoffeln-spaetzli.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010114",
+      "name": "Pasta, Zutaten & Konserven",
+      "slug": "supermarkt/lebensmittel/pasta-zutaten-konserven",
+      "visible": true,
+      "title": "Pasta aus Ihrer Migros: alles rund um Teigwaren",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/6d0964bbb34b8e041ba4d74fc0c90b149907f46a/pasta-zutaten-konserven.jpg",
+        "stack": "https://image.migros.ch/{stack}/6d0964bbb34b8e041ba4d74fc0c90b149907f46a/pasta-zutaten-konserven.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_Kartoffelprodukte_TeigwarenReisGetreide_Grundnahrungsmittel",
+        "name": "Kartoffelprodukte",
+        "slug": "amigos/grundnahrungsmittel/teigwaren-reis-getreide/kartoffelprodukte",
+        "visible": true,
+        "parent_code": "AMIG_CAT_TeigwarenReisGetreide_Grundnahrungsmittel",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_TeigwarenReisGetreide_Grundnahrungsmittel",
+        "name": "Teigwaren, Reis & Getreide",
+        "slug": "amigos/grundnahrungsmittel/teigwaren-reis-getreide",
+        "visible": true,
+        "parent_code": "AMIG_CAT_Grundnahrungsmittel",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_Grundnahrungsmittel",
+        "name": "Grundnahrungsmittel",
+        "slug": "amigos/grundnahrungsmittel",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "features": [
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_schachtel",
+          "value": "Schachtel"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zubereitungsverfahren",
+      "label": "Hinweise für die Zubereitung",
+      "values": [
+        {
+          "value_code": "MISO_zubereitungsverfahren_heisseswasserhinzugeben",
+          "value": "Heisses Wasser hinzugeben"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_musserwaermtwerden",
+      "label": "Muss erwärmt werden",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_anzahlportionen",
+      "label": "Anzahl Portionen",
+      "values": [
+        {
+          "value_code": "NUMERIC_12",
+          "value": "12",
+          "numeric_value": 12
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zubereitungszeit",
+      "label": "Zubereitungszeit (min.)",
+      "values": [
+        {
+          "value_code": "NUMERIC_12",
+          "value": "12",
+          "numeric_value": 12
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_produktionslandherstellungsort",
+      "label": "Produktionsland/Herstellungsort",
+      "values": [
+        {
+          "value_code": "MISO_produktionslandherstellungsort_schweiz_bischofszell",
+          "value": "Schweiz/Bischofszell"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_formbeschaffenheit",
+      "label": "Form/Beschaffenheit",
+      "values": [
+        {
+          "value_code": "MISO_formbeschaffenheit_pueriert",
+          "value": "püriert"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_unterscheidendebestandteile",
+      "label": "Unterscheidende Bestandteile",
+      "values": [
+        {
+          "value_code": "MISO_unterscheidendebestandteile_kartoffeln",
+          "value": "Kartoffeln"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_fertiggewuerzt",
+      "label": "Fertig gewürzt",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_VEGETARIANISM",
+      "label": "Vegetarismus",
+      "values": [
+        {
+          "value_code": "MAPI_VEGETARIANISM_vegetarisch",
+          "value": "vegetarisch"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/3107d4b12f457cdceea04c4d9450cbd8c93dce59/mifloc-instant-kartoffelstock.jpg",
+    "stack": "https://image.migros.ch/{stack}/3107d4b12f457cdceea04c4d9450cbd8c93dce59/mifloc-instant-kartoffelstock.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/1a488105ceb42b32e64983eb6e317a28ba773dc1/mifloc-instant-kartoffelstock.png",
+    "stack": "https://image.migros.ch/{stack}/1a488105ceb42b32e64983eb6e317a28ba773dc1/mifloc-instant-kartoffelstock.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_sortierung",
+      "label": "Sortierung aMigos",
+      "values": [
+        {
+          "value_code": "NUMERIC_140",
+          "value": "140",
+          "numeric_value": 140
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "M",
+          "value": "Kolonial Standard"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "10130",
+          "value": "KARTOFFELPRODUKTE"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/104476400000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/mifloc-instant-kartoffelstock",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/104476400000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/mifloc-instant-kartoffelstock",
+      "type": "info",
+      "purchasable": false
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/63457",
+      "app_url": "leshop:///catalog/article/detail?ean=7616800430379",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/mifloc-instant-kartoffelstock",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "updated_at": "2020-09-15T05:47:04+0200",
+  "receipt_text": "Kartoffelstock",
+  "price": {
+    "valid_from": "2018-01-29T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 6.2,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "4 x 110g"
+    },
+    "base": {
+      "price": 1.41,
+      "quantity": 100,
+      "unit": "g"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 16,
+    "average_all": 3.909090909091
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

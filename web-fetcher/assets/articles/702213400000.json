@@ -1,0 +1,353 @@
+{
+  "id": "702213400000",
+  "language": "de",
+  "name": "Kühl-Thermometer",
+  "slug": "kuehl-thermometer",
+  "boss_number": "150332201510",
+  "description": {
+    "text": "Messwerte zwischen -30°C bis +30°C.",
+    "source": "PEX"
+  },
+  "tags": [
+    "source-pex",
+    "near-non-food",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7613205270951",
+    "7610200029768",
+    "4009816036469"
+  ],
+  "categories": [
+    {
+      "code": "BeSS_010414",
+      "name": "Sonstiges",
+      "slug": "supermarkt/haushalt-reinigung/sonstiges",
+      "visible": true,
+      "title": "Haushaltsartikel aus der Migros: grosse Auswahl zum kleinen Preis",
+      "parent_code": "BeSS_0104",
+      "image": {
+        "original": "https://image.migros.ch/original/f7ff90c1097acb2b3510562665461f0d1896edff/sonstiges.jpg",
+        "stack": "https://image.migros.ch/{stack}/f7ff90c1097acb2b3510562665461f0d1896edff/sonstiges.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0104",
+      "name": "Haushalt & Reinigung",
+      "slug": "supermarkt/haushalt-reinigung",
+      "visible": true,
+      "title": "Reinigung mit der Migros – Reiniger für Haushalt und Garten",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/e5da3225980543e0c7ddcc443069f331d94e8439/haushalt-reinigung.png",
+        "stack": "https://image.migros.ch/{stack}/e5da3225980543e0c7ddcc443069f331d94e8439/haushalt-reinigung.png"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_Haushaltshilfe_Haushalt_HaushaltReinigung",
+        "name": "Haushaltshilfe",
+        "slug": "amigos/haushalt-reinigung/haushalt/haushaltshilfe",
+        "visible": true,
+        "parent_code": "AMIG_CAT_Haushalt_HaushaltReinigung",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_Haushalt_HaushaltReinigung",
+        "name": "Haushalt",
+        "slug": "amigos/haushalt-reinigung/haushalt",
+        "visible": true,
+        "parent_code": "AMIG_CAT_HaushaltReinigung",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_HaushaltReinigung",
+        "name": "Haushalt & Reinigung",
+        "slug": "amigos/haushalt-reinigung",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "features": [
+    {
+      "label_code": "miso_anwendungsbereich",
+      "label": "Anwendungsbereich",
+      "values": [
+        {
+          "value": "Indoor"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "miso_anzahl",
+      "label": "Anzahl",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1 Stk.",
+          "numeric_value": 1
+        }
+      ],
+      "top_fact": false,
+      "unit_code": "Stk.",
+      "unit": "Stück",
+      "unit_symbol": "Stk."
+    },
+    {
+      "label_code": "miso_masse_groesse",
+      "label": "Masse / Grösse",
+      "values": [
+        {
+          "value": "Ø 6.8 cm "
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "miso_material",
+      "label": "Material",
+      "values": [
+        {
+          "value_code": "MISO_material_polystyrol",
+          "value": "Polystyrol"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "miso_farbe",
+      "label": "Farbe",
+      "values": [
+        {
+          "value_code": "MISO_farbe_weiss",
+          "value": "weiss"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/f316ded611280e2b46d71e55f77612f4c5bd8806/kuehl-thermometer.jpg",
+    "stack": "https://image.migros.ch/{stack}/f316ded611280e2b46d71e55f77612f4c5bd8806/kuehl-thermometer.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/595c467af63f96d32f294a5650fb1c4b805a92b6/kuehl-thermometer.png",
+    "stack": "https://image.migros.ch/{stack}/595c467af63f96d32f294a5650fb1c4b805a92b6/kuehl-thermometer.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_sortierung",
+      "label": "Sortierung aMigos",
+      "values": [
+        {
+          "value_code": "NUMERIC_280",
+          "value": "280",
+          "numeric_value": 280
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_DEFAULT_LOGISTIC_TYPE",
+      "values": [
+        {
+          "value_code": "55",
+          "value": "Versandart Paket"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Normalposition"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "HART"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUSTOMS_POSITION",
+      "values": [
+        {
+          "value_code": "NUMERIC_90251980000",
+          "value": "90251980000",
+          "numeric_value": 90251980000
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_RISK_CLASS",
+      "values": [
+        {
+          "value_code": "2",
+          "value": "2 (medium)"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_KUBE_TUKA",
+      "values": [
+        {
+          "value_code": "BLANK",
+          "value": "KUBE und TUKA nicht zugelassen"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HART",
+          "value": "Hartwaren  Handelsware"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "H",
+          "value": "Hartwaren"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "60496",
+          "value": "THERMOMETER/WETTERSTATION"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 1,
+    "percentage": 7.7
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/702213400000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/kuehl-thermometer",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/702213400000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/kuehl-thermometer",
+      "type": "info",
+      "purchasable": false
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/5006375",
+      "app_url": "leshop:///catalog/article/detail?ean=7613205270951",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/kuehl-thermometer",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "updated_at": "2020-09-16T06:10:48+0200",
+  "receipt_text": "Kühl-Termometer",
+  "price": {
+    "valid_from": "2020-08-26T00:00:00+0200",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 3.5,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "1 Stück"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 0,
+    "average_all": 0
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

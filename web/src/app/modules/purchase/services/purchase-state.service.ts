@@ -1,10 +1,10 @@
 import { Injectable } from '@angular/core';
 import { AssetApiService } from '../../api/services/asset-api.service';
+import { ProductInfo } from '../../product/models/product-info';
 
 @Injectable()
 export class PurchaseStateService {
   private purchases = this.assetApi.getPurchases();
-  private purchaseArticles = this.assetApi.getPurchaseArticles();
 
   constructor(private assetApi: AssetApiService) {}
 
@@ -19,9 +19,7 @@ export class PurchaseStateService {
     return data;
   }
 
-  async getArticles(purchaseId: string) {
-    const data = await this.purchaseArticles;
-    console.log(data, purchaseId);
-    return data[purchaseId];
+  async getArticles(purchaseId: string): Promise<ProductInfo[]> {
+    return await this.assetApi.getPurchaseArticles(purchaseId);
   }
 }

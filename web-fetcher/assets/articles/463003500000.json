@@ -1,0 +1,1073 @@
+{
+  "id": "463003500000",
+  "language": "de",
+  "name": "Sponser Oat Pack Riegel",
+  "slug": "sponser-oat-pack-riegel",
+  "product_type": "Riegel",
+  "boss_number": "341611481015",
+  "tags": [
+    "source-pex",
+    "migipedia",
+    "base-product",
+    "no-image",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "brand": {
+    "id": "224",
+    "name": "Sponser",
+    "slug": "sponser",
+    "image": {
+      "original": "https://image.migros.ch/original/e41b0291fa108e608d3ce350b0abc36286341068/sponser.jpg",
+      "stack": "https://image.migros.ch/{stack}/e41b0291fa108e608d3ce350b0abc36286341068/sponser.jpg"
+    }
+  },
+  "categories": [
+    {
+      "code": "SPO_SHOP_CAT_Sportnahrung_Ausruestung",
+      "name": "Sportnahrung",
+      "slug": "sportxx/ausruestung/sportnahrung",
+      "visible": true,
+      "parent_code": "SPO_SHOP_CAT_Ausruestung",
+      "level": 3
+    },
+    {
+      "code": "SPO_SHOP_CAT_Ausruestung",
+      "name": "Ausrüstung",
+      "slug": "sportxx/ausruestung",
+      "visible": true,
+      "parent_code": "BeSS_03",
+      "level": 2
+    },
+    {
+      "code": "BeSS_03",
+      "name": "SportXX",
+      "slug": "sportxx",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "BWO_SHOP_CAT_Sportnahrung_AusruestungAccessoires",
+        "name": "Sportnahrung",
+        "slug": "bwo/ausruestung/sportnahrung",
+        "visible": true,
+        "parent_code": "BWO_SHOP_CAT_AusruestungAccessoires",
+        "level": 3
+      },
+      {
+        "code": "BWO_SHOP_CAT_AusruestungAccessoires",
+        "name": "Ausrüstung",
+        "slug": "bwo/ausruestung",
+        "visible": true,
+        "parent_code": "BeSS_06",
+        "level": 2
+      },
+      {
+        "code": "BeSS_06",
+        "name": "BWO",
+        "slug": "bwo",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "features": [
+    {
+      "label_code": "spo_zutaten",
+      "label": "Zutaten",
+      "values": [
+        {
+          "value": "Haferflocken 53%, Glucosesirup, Rahmpulver 8.4% (enthält Milch), Milchfett, Karamellstücke 5% (Zucker, Glucosesirup, Kondensmilch, gesalzene Butter), Rohrzucker, Honig, Saccharose, Feuchthaltemittel Glycerol, Aromen, Kochsalz, Emulgator Sojalecithin, Vanille 0.2%.   Kann Spuren von Ei, Nüssen, Erdnüssen und Sesam enthalten."
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "spo_100g_preis_chf",
+      "label": "100g Preis CHF",
+      "values": [
+        {
+          "value_code": "NUMERIC_4",
+          "value": "4 CHF",
+          "numeric_value": 4
+        }
+      ],
+      "top_fact": false,
+      "unit_code": "chf",
+      "unit": "Schweizer Franken",
+      "unit_symbol": "CHF"
+    },
+    {
+      "label_code": "spo_sachbezeichnung",
+      "label": "Sachbezeichnung",
+      "values": [
+        {
+          "value": "Getreideriegel mit Haferflocken und Karamell-Stücken."
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "spo_naehrwerte",
+      "label": "Nährwerte",
+      "values": [
+        {
+          "value": "NÄHRWERTE TYPISCHE NÄHRWERTE\tPER 100 G\tPER RIEGEL 50 G Energie kJ (kcal)\t1800 (430)\t900 (215) Fett\t18 g\t9.0 g davon gesättigte Fettsäuren\t9.0 g\t4.5 g Kohlenhydrate\t57 g\t29 g davon Zuckerarten\t24 g\t12 g Ballaststoffe\t5.3 g\t2.7 g Protein\t7.3 g\t3.7 g Salz\t0..65 g\t0.33 g ** Berechnet nach Gesetz mit Faktor 2.5"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "spo_produktionsland",
+      "label": "Produktionsland",
+      "values": [
+        {
+          "value": "Niederlanden"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "spo_einnahmeempfehlung",
+      "label": "Einnahmeempfehlung",
+      "values": [
+        {
+          "value": "Geeignet als Power-Snack in Beruf, Freizeit und Sport."
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "spo_gewicht",
+      "label": "Gewicht",
+      "values": [
+        {
+          "value_code": "NUMERIC_50",
+          "value": "50 g",
+          "numeric_value": 50
+        }
+      ],
+      "top_fact": false,
+      "unit_code": "g",
+      "unit": "Gramm",
+      "unit_symbol": "g"
+    },
+    {
+      "label_code": "spo_anwendung_anwendung",
+      "label": "Anwendung",
+      "values": [
+        {
+          "value_code": "SPO_Anwendung_Ausdauersport",
+          "value": "Ausdauersport"
+        }
+      ],
+      "top_fact": true
+    },
+    {
+      "label_code": "spo_phase_phase",
+      "label": "Phase",
+      "values": [
+        {
+          "value_code": "SPO_Phase_vordemTraining",
+          "value": "vor dem Training"
+        },
+        {
+          "value_code": "SPO_Phase_waehrenddemTraining",
+          "value": "während dem Training"
+        },
+        {
+          "value_code": "SPO_Phase_nachdemTraining",
+          "value": "nach dem Training"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "spo_form_form",
+      "label": "Form",
+      "values": [
+        {
+          "value_code": "SPO_Form_Riegel",
+          "value": "Riegel"
+        }
+      ],
+      "top_fact": true
+    },
+    {
+      "label_code": "spo_vertraeglichkeit_vertraeglichkeit",
+      "label": "Verträglichkeit",
+      "values": [
+        {
+          "value_code": "SPO_Vertraeglichkeit_ohnekuenstlicheSuessstoffe",
+          "value": "ohne künstliche Süssstoffe"
+        },
+        {
+          "value_code": "SPO_Vertraeglichkeit_saeurefrei",
+          "value": "säurefrei"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "spo_geschmack",
+      "label": "Geschmack",
+      "values": [
+        {
+          "value": "Creamy-Caramel"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "spo_sportart_sportart",
+      "label": "Sportart",
+      "values": [
+        {
+          "value_code": "SPO_Sportart_Allgemein",
+          "value": "Allgemein"
+        },
+        {
+          "value_code": "SPO_Sportart_AquaFit",
+          "value": "Aqua Fit"
+        },
+        {
+          "value_code": "SPO_Sportart_Badminton",
+          "value": "Badminton"
+        },
+        {
+          "value_code": "SPO_Sportart_Basketball",
+          "value": "Basketball"
+        },
+        {
+          "value_code": "SPO_Sportart_Biking_BikingVelofahren",
+          "value": "Biking & Velofahren"
+        },
+        {
+          "value_code": "SPO_Sportart_Camping",
+          "value": "Camping"
+        },
+        {
+          "value_code": "SPO_Sportart_Fitness",
+          "value": "Fitness"
+        },
+        {
+          "value_code": "SPO_Sportart_Freizeit",
+          "value": "Freizeit"
+        },
+        {
+          "value_code": "SPO_Sportart_Fussball",
+          "value": "Fussball"
+        },
+        {
+          "value_code": "SPO_Sportart_Handball",
+          "value": "Handball"
+        },
+        {
+          "value_code": "SPO_Sportart_Inlineskating",
+          "value": "Inlineskating"
+        },
+        {
+          "value_code": "SPO_Sportart_Klettern",
+          "value": "Klettern"
+        },
+        {
+          "value_code": "SPO_Sportart_Kraftraining",
+          "value": "Krafttraining"
+        },
+        {
+          "value_code": "SPO_Sportart_Langlauf",
+          "value": "Langlauf"
+        },
+        {
+          "value_code": "SPO_Sportart_Motorrad",
+          "value": "Motorrad"
+        },
+        {
+          "value_code": "SPO_Sportart_NordicWalking",
+          "value": "Nordic Walking"
+        },
+        {
+          "value_code": "SPO_Sportart_Running",
+          "value": "Running"
+        },
+        {
+          "value_code": "SPO_Sportart_Schlitteln",
+          "value": "Schlitteln"
+        },
+        {
+          "value_code": "SPO_Sportart_Schneeschuhlaufen",
+          "value": "Schneeschuhlaufen"
+        },
+        {
+          "value_code": "SPO_Sportart_Schwimmen",
+          "value": "Schwimmen"
+        },
+        {
+          "value_code": "SPO_Sportart_Skifahren",
+          "value": "Skifahren"
+        },
+        {
+          "value_code": "SPO_Sportart_Snowboarding",
+          "value": "Snowboarding"
+        },
+        {
+          "value_code": "SPO_Sportart_Spiele",
+          "value": "Spiele"
+        },
+        {
+          "value_code": "SPO_Sportart_Squash",
+          "value": "Squash"
+        },
+        {
+          "value_code": "SPO_Sportart_Streethockey",
+          "value": "Streethockey"
+        },
+        {
+          "value_code": "SPO_Sportart_Tauchen",
+          "value": "Tauchen"
+        },
+        {
+          "value_code": "SPO_Sportart_Tennis",
+          "value": "Tennis"
+        },
+        {
+          "value_code": "SPO_Sportart_Tischtennis",
+          "value": "Tischtennis"
+        },
+        {
+          "value_code": "SPO_Sportart_Touren",
+          "value": "Touren"
+        },
+        {
+          "value_code": "SPO_Sportart_Trekking_TrekkingWandern",
+          "value": "Trekking & Wandern"
+        },
+        {
+          "value_code": "SPO_Sportart_Unihockey",
+          "value": "Unihockey"
+        },
+        {
+          "value_code": "SPO_Sportart_VolleyBeachvolleyball",
+          "value": "Volley- & Beachvolleyball"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "variants": [
+    {
+      "id": "463003508400",
+      "language": "de",
+      "name": "Sponser Oat Pack Riegel",
+      "slug": "sponser-oat-pack-riegel-caramel-vanilla",
+      "product_type": "Riegel",
+      "boss_number": "341611481015",
+      "description": {
+        "text": "SPONSER ® OAT PACK – Geballte Energie aus Hafer. \nHaferflocken sättigen langanhaltend, da sie lösliche Fasern enthalten, welche gelbildende Eigenschaften haben. Geeignet als schmackhafte Verpflegung auf Biketouren, beim Wandern oder Trekking, aber auch bei der Arbeit oder im Alltag.\n\nVORTEILE\n–\tHoher Anteil an langkettigen Kohlenhydraten\n–\tLeckerer Riegel ideal für Sport und Freizeit.\n–\tMit natürlichen Zutaten\n\nANWENDUNG\nGeeignet als Power-Snack in Beruf, Freizeit und Sport.\n\nZUTATEN \nHaferflocken 53%, Glucosesirup, Rahmpulver 8.4% (enthält Milch), Milchfett, Karamellstücke 5% (Zucker, Glucosesirup, Kondensmilch, gesalzene Butter), Rohrzucker, Honig, Saccharose, Feuchthaltemittel Glycerol, Aromen, Kochsalz, Emulgator Sojalecithin, Vanille 0.2%. \n\nKann Spuren von Ei, Nüssen, Erdnüssen und Sesam enthalten.",
+        "source": "PEX"
+      },
+      "tags": [
+        "source-pex",
+        "migipedia",
+        "validity-range-not-set",
+        "view-browse-partial",
+        "view-browse-all-retailers-partial"
+      ],
+      "is_variant": true,
+      "base_product_id": "463003500000",
+      "brand": {
+        "id": "224",
+        "name": "Sponser",
+        "slug": "sponser",
+        "image": {
+          "original": "https://image.migros.ch/original/e41b0291fa108e608d3ce350b0abc36286341068/sponser.jpg",
+          "stack": "https://image.migros.ch/{stack}/e41b0291fa108e608d3ce350b0abc36286341068/sponser.jpg"
+        }
+      },
+      "categories": [
+        {
+          "code": "SPO_SHOP_CAT_Sportnahrung_Ausruestung",
+          "name": "Sportnahrung",
+          "slug": "sportxx/ausruestung/sportnahrung",
+          "visible": true,
+          "parent_code": "SPO_SHOP_CAT_Ausruestung",
+          "level": 3
+        },
+        {
+          "code": "SPO_SHOP_CAT_Ausruestung",
+          "name": "Ausrüstung",
+          "slug": "sportxx/ausruestung",
+          "visible": true,
+          "parent_code": "BeSS_03",
+          "level": 2
+        },
+        {
+          "code": "BeSS_03",
+          "name": "SportXX",
+          "slug": "sportxx",
+          "visible": true,
+          "parent_code": "root",
+          "level": 1
+        }
+      ],
+      "additional_categories": [
+        [
+          {
+            "code": "BWO_SHOP_CAT_Sportnahrung_AusruestungAccessoires",
+            "name": "Sportnahrung",
+            "slug": "bwo/ausruestung/sportnahrung",
+            "visible": true,
+            "parent_code": "BWO_SHOP_CAT_AusruestungAccessoires",
+            "level": 3
+          },
+          {
+            "code": "BWO_SHOP_CAT_AusruestungAccessoires",
+            "name": "Ausrüstung",
+            "slug": "bwo/ausruestung",
+            "visible": true,
+            "parent_code": "BeSS_06",
+            "level": 2
+          },
+          {
+            "code": "BeSS_06",
+            "name": "BWO",
+            "slug": "bwo",
+            "visible": true,
+            "parent_code": "root",
+            "level": 1
+          }
+        ]
+      ],
+      "features": [
+        {
+          "label_code": "spo_zutaten",
+          "label": "Zutaten",
+          "values": [
+            {
+              "value": "Haferflocken 53%, Glucosesirup, Rahmpulver 8.4% (enthält Milch), Milchfett, Karamellstücke 5% (Zucker, Glucosesirup, Kondensmilch, gesalzene Butter), Rohrzucker, Honig, Saccharose, Feuchthaltemittel Glycerol, Aromen, Kochsalz, Emulgator Sojalecithin, Vanille 0.2%.   Kann Spuren von Ei, Nüssen, Erdnüssen und Sesam enthalten."
+            }
+          ],
+          "top_fact": false
+        },
+        {
+          "label_code": "spo_100g_preis_chf",
+          "label": "100g Preis CHF",
+          "values": [
+            {
+              "value_code": "NUMERIC_4",
+              "value": "4 CHF",
+              "numeric_value": 4
+            }
+          ],
+          "top_fact": false,
+          "unit_code": "chf",
+          "unit": "Schweizer Franken",
+          "unit_symbol": "CHF"
+        },
+        {
+          "label_code": "spo_sachbezeichnung",
+          "label": "Sachbezeichnung",
+          "values": [
+            {
+              "value": "Getreideriegel mit Haferflocken und Karamell-Stücken."
+            }
+          ],
+          "top_fact": false
+        },
+        {
+          "label_code": "spo_naehrwerte",
+          "label": "Nährwerte",
+          "values": [
+            {
+              "value": "NÄHRWERTE TYPISCHE NÄHRWERTE\tPER 100 G\tPER RIEGEL 50 G Energie kJ (kcal)\t1800 (430)\t900 (215) Fett\t18 g\t9.0 g davon gesättigte Fettsäuren\t9.0 g\t4.5 g Kohlenhydrate\t57 g\t29 g davon Zuckerarten\t24 g\t12 g Ballaststoffe\t5.3 g\t2.7 g Protein\t7.3 g\t3.7 g Salz\t0..65 g\t0.33 g ** Berechnet nach Gesetz mit Faktor 2.5"
+            }
+          ],
+          "top_fact": false
+        },
+        {
+          "label_code": "spo_produktionsland",
+          "label": "Produktionsland",
+          "values": [
+            {
+              "value": "Niederlanden"
+            }
+          ],
+          "top_fact": false
+        },
+        {
+          "label_code": "spo_einnahmeempfehlung",
+          "label": "Einnahmeempfehlung",
+          "values": [
+            {
+              "value": "Geeignet als Power-Snack in Beruf, Freizeit und Sport."
+            }
+          ],
+          "top_fact": false
+        },
+        {
+          "label_code": "spo_gewicht",
+          "label": "Gewicht",
+          "values": [
+            {
+              "value_code": "NUMERIC_50",
+              "value": "50 g",
+              "numeric_value": 50
+            }
+          ],
+          "top_fact": false,
+          "unit_code": "g",
+          "unit": "Gramm",
+          "unit_symbol": "g"
+        },
+        {
+          "label_code": "spo_anwendung_anwendung",
+          "label": "Anwendung",
+          "values": [
+            {
+              "value_code": "SPO_Anwendung_Ausdauersport",
+              "value": "Ausdauersport"
+            }
+          ],
+          "top_fact": true
+        },
+        {
+          "label_code": "spo_phase_phase",
+          "label": "Phase",
+          "values": [
+            {
+              "value_code": "SPO_Phase_vordemTraining",
+              "value": "vor dem Training"
+            },
+            {
+              "value_code": "SPO_Phase_waehrenddemTraining",
+              "value": "während dem Training"
+            },
+            {
+              "value_code": "SPO_Phase_nachdemTraining",
+              "value": "nach dem Training"
+            }
+          ],
+          "top_fact": false
+        },
+        {
+          "label_code": "spo_form_form",
+          "label": "Form",
+          "values": [
+            {
+              "value_code": "SPO_Form_Riegel",
+              "value": "Riegel"
+            }
+          ],
+          "top_fact": true
+        },
+        {
+          "label_code": "spo_vertraeglichkeit_vertraeglichkeit",
+          "label": "Verträglichkeit",
+          "values": [
+            {
+              "value_code": "SPO_Vertraeglichkeit_ohnekuenstlicheSuessstoffe",
+              "value": "ohne künstliche Süssstoffe"
+            },
+            {
+              "value_code": "SPO_Vertraeglichkeit_saeurefrei",
+              "value": "säurefrei"
+            }
+          ],
+          "top_fact": false
+        },
+        {
+          "label_code": "spo_geschmack",
+          "label": "Geschmack",
+          "values": [
+            {
+              "value": "Creamy-Caramel"
+            }
+          ],
+          "top_fact": false
+        },
+        {
+          "label_code": "spo_sportart_sportart",
+          "label": "Sportart",
+          "values": [
+            {
+              "value_code": "SPO_Sportart_Allgemein",
+              "value": "Allgemein"
+            },
+            {
+              "value_code": "SPO_Sportart_AquaFit",
+              "value": "Aqua Fit"
+            },
+            {
+              "value_code": "SPO_Sportart_Badminton",
+              "value": "Badminton"
+            },
+            {
+              "value_code": "SPO_Sportart_Basketball",
+              "value": "Basketball"
+            },
+            {
+              "value_code": "SPO_Sportart_Biking_BikingVelofahren",
+              "value": "Biking & Velofahren"
+            },
+            {
+              "value_code": "SPO_Sportart_Camping",
+              "value": "Camping"
+            },
+            {
+              "value_code": "SPO_Sportart_Fitness",
+              "value": "Fitness"
+            },
+            {
+              "value_code": "SPO_Sportart_Freizeit",
+              "value": "Freizeit"
+            },
+            {
+              "value_code": "SPO_Sportart_Fussball",
+              "value": "Fussball"
+            },
+            {
+              "value_code": "SPO_Sportart_Handball",
+              "value": "Handball"
+            },
+            {
+              "value_code": "SPO_Sportart_Inlineskating",
+              "value": "Inlineskating"
+            },
+            {
+              "value_code": "SPO_Sportart_Klettern",
+              "value": "Klettern"
+            },
+            {
+              "value_code": "SPO_Sportart_Kraftraining",
+              "value": "Krafttraining"
+            },
+            {
+              "value_code": "SPO_Sportart_Langlauf",
+              "value": "Langlauf"
+            },
+            {
+              "value_code": "SPO_Sportart_Motorrad",
+              "value": "Motorrad"
+            },
+            {
+              "value_code": "SPO_Sportart_NordicWalking",
+              "value": "Nordic Walking"
+            },
+            {
+              "value_code": "SPO_Sportart_Running",
+              "value": "Running"
+            },
+            {
+              "value_code": "SPO_Sportart_Schlitteln",
+              "value": "Schlitteln"
+            },
+            {
+              "value_code": "SPO_Sportart_Schneeschuhlaufen",
+              "value": "Schneeschuhlaufen"
+            },
+            {
+              "value_code": "SPO_Sportart_Schwimmen",
+              "value": "Schwimmen"
+            },
+            {
+              "value_code": "SPO_Sportart_Skifahren",
+              "value": "Skifahren"
+            },
+            {
+              "value_code": "SPO_Sportart_Snowboarding",
+              "value": "Snowboarding"
+            },
+            {
+              "value_code": "SPO_Sportart_Spiele",
+              "value": "Spiele"
+            },
+            {
+              "value_code": "SPO_Sportart_Squash",
+              "value": "Squash"
+            },
+            {
+              "value_code": "SPO_Sportart_Streethockey",
+              "value": "Streethockey"
+            },
+            {
+              "value_code": "SPO_Sportart_Tauchen",
+              "value": "Tauchen"
+            },
+            {
+              "value_code": "SPO_Sportart_Tennis",
+              "value": "Tennis"
+            },
+            {
+              "value_code": "SPO_Sportart_Tischtennis",
+              "value": "Tischtennis"
+            },
+            {
+              "value_code": "SPO_Sportart_Touren",
+              "value": "Touren"
+            },
+            {
+              "value_code": "SPO_Sportart_Trekking_TrekkingWandern",
+              "value": "Trekking & Wandern"
+            },
+            {
+              "value_code": "SPO_Sportart_Unihockey",
+              "value": "Unihockey"
+            },
+            {
+              "value_code": "SPO_Sportart_VolleyBeachvolleyball",
+              "value": "Volley- & Beachvolleyball"
+            }
+          ],
+          "top_fact": false
+        }
+      ],
+      "attributes": {
+        "typ_geschmack": {
+          "code": "GA50-084",
+          "name": "Geschmack",
+          "value": "Caramel / Vanilla"
+        }
+      },
+      "image": {
+        "original": "https://image.migros.ch/original/c895f2897a09f864eac7381e2dbd9b8c48c053cd/sponser-oat-pack-riegel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c895f2897a09f864eac7381e2dbd9b8c48c053cd/sponser-oat-pack-riegel.jpg"
+      },
+      "internal_features": [
+        {
+          "label_code": "MAPI_DEFAULT_LOGISTIC_TYPE",
+          "values": [
+            {
+              "value_code": "55",
+              "value": "Versandart Paket"
+            }
+          ],
+          "top_fact": false
+        },
+        {
+          "label_code": "MAPI_GENERAL_POSITION_GROUP",
+          "values": [
+            {
+              "value_code": "BANS",
+              "value": "Streckenposition"
+            }
+          ],
+          "top_fact": false
+        },
+        {
+          "label_code": "MAPI_ARTICLE_VARIETY",
+          "values": [
+            {
+              "value": "SPOR"
+            }
+          ],
+          "top_fact": false
+        },
+        {
+          "label_code": "MAPI_RISK_CLASS",
+          "values": [
+            {
+              "value_code": "2",
+              "value": "2 (medium)"
+            }
+          ],
+          "top_fact": false
+        },
+        {
+          "label_code": "MAPI_KUBE_TUKA",
+          "values": [
+            {
+              "value_code": "BLANK",
+              "value": "KUBE und TUKA nicht zugelassen"
+            }
+          ],
+          "top_fact": false
+        },
+        {
+          "label_code": "MAPI_PRODUCT_KIND",
+          "values": [
+            {
+              "value_code": "SPOR",
+              "value": "Sport  Handelsware"
+            }
+          ],
+          "top_fact": false
+        },
+        {
+          "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+          "values": [
+            {
+              "value_code": "S",
+              "value": "Sport"
+            }
+          ],
+          "top_fact": false
+        },
+        {
+          "label_code": "MAPI_PRODUCT_GROUP",
+          "values": [
+            {
+              "value_code": "55537",
+              "value": "SPORTNAHRUNG"
+            }
+          ],
+          "top_fact": false
+        },
+        {
+          "label_code": "MAPI_CUMULUS_POINTS_CODE",
+          "values": [
+            {
+              "value_code": "NUMERIC_2",
+              "value": "2",
+              "numeric_value": 2
+            }
+          ],
+          "top_fact": false
+        },
+        {
+          "label_code": "MAPI_PROMOTIONS_CODE",
+          "values": [
+            {
+              "value_code": "NUMERIC_1",
+              "value": "1",
+              "numeric_value": 1
+            }
+          ],
+          "top_fact": false
+        }
+      ],
+      "vat": {
+        "id": 2,
+        "percentage": 2.5
+      },
+      "links": {
+        "bikeworld": {
+          "url": "https://www.bikeworld.ch/de/p/463003508400/sponser-oat-pack?selectVariant=",
+          "name": "Bike World",
+          "canonical": "https://www.sportxx.ch/de/p/463003500000/sponser-oat-pack",
+          "type": "shop",
+          "purchasable": true
+        },
+        "migros_ch": {
+          "url": "https://produkte.migros.ch/products/463003508400",
+          "name": "migros.ch",
+          "canonical": "https://www.sportxx.ch/de/p/463003500000/sponser-oat-pack",
+          "type": "info",
+          "purchasable": false
+        },
+        "sportxx": {
+          "url": "https://www.sportxx.ch/de/p/463003508400/sponser-oat-pack?selectVariant=",
+          "name": "SportXX",
+          "canonical": "https://www.sportxx.ch/de/p/463003500000/sponser-oat-pack",
+          "type": "shop",
+          "purchasable": true
+        },
+        "migipedia": {
+          "url": "https://migipedia.migros.ch/de/products/463003508400",
+          "name": "Migipedia",
+          "canonical": "https://www.sportxx.ch/de/p/463003500000/sponser-oat-pack",
+          "type": "info",
+          "purchasable": false
+        },
+        "leshop": {
+          "url": "https://www.leshop.ch/de/direct/product/5041337",
+          "app_url": "leshop:///catalog/article/detail?ean=7611174142187",
+          "name": "LeShop.ch",
+          "canonical": "https://www.sportxx.ch/de/p/463003500000/sponser-oat-pack",
+          "type": "shop",
+          "purchasable": true
+        }
+      },
+      "updated_at": "2020-09-16T06:36:52+0200",
+      "receipt_text": "SPONSER Oat Pack Riege",
+      "price": {
+        "valid_from": "2018-01-30T00:00:00+0100",
+        "valid_to": "9999-12-31T23:59:59+0100",
+        "currency": "CHF",
+        "source": "PriceRepository",
+        "item": {
+          "price": 2,
+          "quantity": 1,
+          "unit": "CU",
+          "varying_quantity": false,
+          "display_quantity": "50g"
+        },
+        "base": {
+          "price": 4,
+          "quantity": 100,
+          "unit": "g"
+        }
+      },
+      "retailer": {
+        "id": "sportxx",
+        "name": "SportXX"
+      },
+      "ratings": {
+        "count_all": 2,
+        "average_all": 4
+      },
+      "warranty_months": 24
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/cd0d9bebc4ab0c69f3f27a61e861f6c6168021cc.jpg",
+    "stack": "https://image.migros.ch/{stack}/cd0d9bebc4ab0c69f3f27a61e861f6c6168021cc.jpg"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_DEFAULT_LOGISTIC_TYPE",
+      "values": [
+        {
+          "value_code": "55",
+          "value": "Versandart Paket"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "BANS",
+          "value": "Streckenposition"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "SPOR"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_RISK_CLASS",
+      "values": [
+        {
+          "value_code": "2",
+          "value": "2 (medium)"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_KUBE_TUKA",
+      "values": [
+        {
+          "value_code": "BLANK",
+          "value": "KUBE und TUKA nicht zugelassen"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "SPOR",
+          "value": "Sport  Handelsware"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "S",
+          "value": "Sport"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "55537",
+          "value": "SPORTNAHRUNG"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/463003500000",
+      "name": "migros.ch",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/463003500000",
+      "name": "Migipedia",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "updated_at": "2020-09-16T06:36:52+0200",
+  "receipt_text": "SPONSER Oat Pack Riege",
+  "price": {
+    "valid_from": "2018-01-30T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 2,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "50g"
+    },
+    "base": {
+      "price": 4,
+      "quantity": 100,
+      "unit": "g"
+    }
+  },
+  "retailer": {
+    "id": "sportxx",
+    "name": "SportXX"
+  },
+  "ratings": {
+    "count_all": 2,
+    "average_all": 4
+  },
+  "warranty_months": 24,
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

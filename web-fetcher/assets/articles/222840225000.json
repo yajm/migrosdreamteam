@@ -1,0 +1,159 @@
+{
+  "id": "222840225000",
+  "language": "de",
+  "name": "Birnen Rotweinsauce",
+  "slug": "birnen-rotweinsauce",
+  "boss_number": "040214522515",
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7617027762304"
+  ],
+  "categories": [
+    {
+      "code": "BeSS_01010616",
+      "name": "Beilagen",
+      "slug": "supermarkt/lebensmittel/fleisch/beilagen",
+      "visible": true,
+      "parent_code": "BeSS_010106",
+      "level": 4
+    },
+    {
+      "code": "BeSS_010106",
+      "name": "Fleisch",
+      "slug": "supermarkt/lebensmittel/fleisch",
+      "visible": true,
+      "title": "Fleisch ausgezeichneter Qualität aus Ihrer Migros: einfach gut",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/03d32c0880d7a9ea6e58971966032e65ac442b58/fleisch.jpg",
+        "stack": "https://image.migros.ch/{stack}/03d32c0880d7a9ea6e58971966032e65ac442b58/fleisch.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/bc536d5028793711fed35f43bc3cbd6aa14e8850/birnen-rotweinsauce.jpg",
+    "stack": "https://image.migros.ch/{stack}/bc536d5028793711fed35f43bc3cbd6aa14e8850/birnen-rotweinsauce.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/045a9b1dc0ca927f03efddc660bc0106adf590d9/birnen-rotweinsauce.png",
+    "stack": "https://image.migros.ch/{stack}/045a9b1dc0ca927f03efddc660bc0106adf590d9/birnen-rotweinsauce.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZFRP",
+          "value": "Frische Beschaffung"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "6",
+          "value": "Fleisch-Fisch-Geflüg"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "71270",
+          "value": "WILD"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/222840225000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/birnen-rotweinsauce",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/222840225000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/birnen-rotweinsauce",
+      "type": "info",
+      "purchasable": false
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/97199",
+      "app_url": "leshop:///catalog/article/detail?ean=7617027762304",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/birnen-rotweinsauce",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "updated_at": "2020-09-16T05:52:51+0200",
+  "receipt_text": "Birnen in Rotweinsauce",
+  "price": {
+    "valid_from": "2018-01-29T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 4.9,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "250g"
+    },
+    "base": {
+      "price": 1.96,
+      "quantity": 100,
+      "unit": "g"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 1,
+    "average_all": 1
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

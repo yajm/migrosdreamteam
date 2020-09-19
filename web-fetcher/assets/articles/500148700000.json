@@ -1,0 +1,505 @@
+{
+  "id": "500148700000",
+  "language": "de",
+  "name": "Total Waschmittel Savo",
+  "slug": "total-waschmittel-savo",
+  "boss_number": "150126753505",
+  "description": {
+    "text": "Mit reiner Seife und erlesenen Waschaktiv-Rohstoffen.\nDermatologisch gepr&uuml;ft.\nSchont Ihre W&auml;sche und macht sie geschmeidig. Schont die Waschmaschine.",
+    "source": "PEX"
+  },
+  "tags": [
+    "source-pex",
+    "near-non-food",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7617300722636",
+    "7617300722643"
+  ],
+  "brand": {
+    "id": "188",
+    "name": "Total",
+    "slug": "total",
+    "image": {
+      "original": "https://image.migros.ch/original/4cdcf1de6073d82c361b783f7f40dde5d8df352e/total.jpg",
+      "stack": "https://image.migros.ch/{stack}/4cdcf1de6073d82c361b783f7f40dde5d8df352e/total.jpg"
+    }
+  },
+  "categories": [
+    {
+      "code": "BeSS_0104010102",
+      "name": "Waschpulver",
+      "slug": "supermarkt/haushalt-reinigung/waschen-reinigen-pflege/waschmittel/waschpulver",
+      "visible": true,
+      "parent_code": "BeSS_01040101",
+      "image": {
+        "original": "https://image.migros.ch/original/754e902cd0a7a00e614b11eecf66164745f01f3a/waschpulver.jpg",
+        "stack": "https://image.migros.ch/{stack}/754e902cd0a7a00e614b11eecf66164745f01f3a/waschpulver.jpg"
+      },
+      "level": 5
+    },
+    {
+      "code": "BeSS_01040101",
+      "name": "Waschmittel",
+      "slug": "supermarkt/haushalt-reinigung/waschen-reinigen-pflege/waschmittel",
+      "visible": true,
+      "title": "Waschmittel bei der Migros: Porentief rein und duftig fein",
+      "parent_code": "BeSS_010401",
+      "image": {
+        "original": "https://image.migros.ch/original/0076911ffef80a8fbf18236ab7ad28fcb069512a/waschmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/0076911ffef80a8fbf18236ab7ad28fcb069512a/waschmittel.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010401",
+      "name": "Waschen, Reinigen & Pflege",
+      "slug": "supermarkt/haushalt-reinigung/waschen-reinigen-pflege",
+      "visible": true,
+      "parent_code": "BeSS_0104",
+      "image": {
+        "original": "https://image.migros.ch/original/4187e91a67904fcbbbb5b901717fabe280e0ad24/waschen-reinigen-pflege.jpg",
+        "stack": "https://image.migros.ch/{stack}/4187e91a67904fcbbbb5b901717fabe280e0ad24/waschen-reinigen-pflege.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0104",
+      "name": "Haushalt & Reinigung",
+      "slug": "supermarkt/haushalt-reinigung",
+      "visible": true,
+      "title": "Reinigung mit der Migros – Reiniger für Haushalt und Garten",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/e5da3225980543e0c7ddcc443069f331d94e8439/haushalt-reinigung.png",
+        "stack": "https://image.migros.ch/{stack}/e5da3225980543e0c7ddcc443069f331d94e8439/haushalt-reinigung.png"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_Pulverwaschmittel_WaschenTextilpflege_HaushaltReinigung",
+        "name": "Pulverwaschmittel",
+        "slug": "amigos/haushalt-reinigung/waschen-textilpflege/pulverwaschmittel",
+        "visible": true,
+        "parent_code": "AMIG_CAT_WaschenTextilpflege_HaushaltReinigung",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_WaschenTextilpflege_HaushaltReinigung",
+        "name": "Waschen & Textilpflege",
+        "slug": "amigos/haushalt-reinigung/waschen-textilpflege",
+        "visible": true,
+        "parent_code": "AMIG_CAT_HaushaltReinigung",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_HaushaltReinigung",
+        "name": "Haushalt & Reinigung",
+        "slug": "amigos/haushalt-reinigung",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "features": [
+    {
+      "label_code": "miso_oeko_hinweis",
+      "label": "Öko Hinweis",
+      "values": [
+        {
+          "value_code": "MISO_biologisch_gut_abbaubar_OECD_test_302B_ergaenzt_mit_CO2_analytik",
+          "value": "Biologisch gut abbaubar (OECD-Test 302B, ergänzt mit CO2-Analytik)"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "miso_gefahrenhinweise",
+      "label": "Gefahrenhinweise",
+      "values": [
+        {
+          "value": "Darf nicht in die Hände von Kindern gelangen."
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "miso_anwendbarkeit_beschaffenheit_form",
+      "label": "Form",
+      "values": [
+        {
+          "value_code": "MISO_vollwaschmittel",
+          "value": "Vollwaschmittel"
+        },
+        {
+          "value_code": "MISO_pulver",
+          "value": "Pulver"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "miso_waschgaenge",
+      "label": "Waschgänge",
+      "values": [
+        {
+          "value_code": "NUMERIC_35",
+          "value": "35",
+          "numeric_value": 35
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "miso_inhalt",
+      "label": "Inhalt",
+      "values": [
+        {
+          "value_code": "NUMERIC_3.5",
+          "value": "3.5 kg",
+          "numeric_value": 3.5
+        }
+      ],
+      "top_fact": false,
+      "unit_code": "kg",
+      "unit": "Kilogramm",
+      "unit_symbol": "kg"
+    },
+    {
+      "label_code": "miso_geeignet_fuer",
+      "label": "Geeignet für",
+      "values": [
+        {
+          "value_code": "MISO_automatenwaesche",
+          "value": "Automatenwäsche"
+        },
+        {
+          "value_code": "MISO_baumwolle",
+          "value": "Baumwolle"
+        },
+        {
+          "value_code": "MISO_weisses",
+          "value": "Weisses"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "miso_nicht_geeignet_fuer",
+      "label": "Nicht geeignet für",
+      "values": [
+        {
+          "value_code": "MISO_daunen",
+          "value": "Daunen"
+        },
+        {
+          "value_code": "MISO_feines",
+          "value": "Feines"
+        },
+        {
+          "value_code": "MISO_feinstrick",
+          "value": "Feinstrick"
+        },
+        {
+          "value_code": "MISO_kaschmir",
+          "value": "Kaschmir"
+        },
+        {
+          "value_code": "MISO_seide",
+          "value": "Seide"
+        },
+        {
+          "value_code": "MISO_wolle",
+          "value": "Wolle"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "miso_temperaturbereich",
+      "label": "Temperaturbereich",
+      "values": [
+        {
+          "value": "15°C - 95°C"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "miso_zusatz_hinweis",
+      "label": "Zusatz Hinweis",
+      "values": [
+        {
+          "value_code": "MISO_hautvertraeglichkeit_dermatologisch_bestaetigt",
+          "value": "Hautverträglichkeit dermatologisch bestätigt"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "CHEMICALS_WARNING",
+      "label": "Warnhinweis",
+      "values": [
+        {
+          "value": "Vor Gebrauch stets Kennzeichnung und Produktinformationen lesen."
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/5b724d5c6fb56a209a0353b1f9b2c6e6d9dc9ffb/total-waschmittel-savo.jpg",
+    "stack": "https://image.migros.ch/{stack}/5b724d5c6fb56a209a0353b1f9b2c6e6d9dc9ffb/total-waschmittel-savo.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/688a32709abafbb539b81e43121318a51df4b0eb/total-waschmittel-savo.png",
+    "stack": "https://image.migros.ch/{stack}/688a32709abafbb539b81e43121318a51df4b0eb/total-waschmittel-savo.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_sortierung",
+      "label": "Sortierung aMigos",
+      "values": [
+        {
+          "value_code": "NUMERIC_130",
+          "value": "130",
+          "numeric_value": 130
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Normalposition"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "ZHKS"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_RISK_CLASS",
+      "values": [
+        {
+          "value_code": "2",
+          "value": "2 (medium)"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_QUALITY_CHECK",
+      "values": [
+        {
+          "value_code": "00",
+          "value": "Keine Prüfung"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZHKS",
+          "value": "HKS Standardartikel"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "H",
+          "value": "HKS Standard"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "50299",
+          "value": "PULVER"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_LIFECYCLE",
+      "values": [
+        {
+          "value_code": "D",
+          "value": "Detailhandelsartikel"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 1,
+    "percentage": 7.7
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/500148700000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/total-waschmittel-savo",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/500148700000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/total-waschmittel-savo",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "updated_at": "2020-09-16T06:39:14+0200",
+  "receipt_text": "Total Savo 3.5kg",
+  "price": {
+    "valid_from": "2020-09-15T00:00:00+0200",
+    "valid_to": "2020-09-28T23:59:59+0200",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 7.95,
+      "original_price": 15.9,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "3.5kg"
+    },
+    "discount": {
+      "id": "1450211",
+      "region": "national",
+      "start_date": "2020-09-15T00:00:00+0200",
+      "end_date": "2020-09-28T23:59:59+0200",
+      "publication_date": "2020-09-13T00:00:00+0200",
+      "discount_amount": "50%",
+      "discount_regions": [
+        "national"
+      ],
+      "reference_product_id": "500148200000",
+      "discount_type": "aktion",
+      "discount_type_id": "005",
+      "discount_type_label": "GRAB Angebot CHF beim Kauf ab X Stueck",
+      "organisation": "09",
+      "cooperative": "mgb",
+      "image": {
+        "tags": [
+          "list-image"
+        ],
+        "original": "https://image.migros.ch/original/94b1323c21f0afcc029a7e1ee0608380e48335a2/alle-total-waschmittel.jpg",
+        "source": "PriceRepository",
+        "stack": "https://image.migros.ch/{stack}/94b1323c21f0afcc029a7e1ee0608380e48335a2/alle-total-waschmittel.jpg"
+      },
+      "image_transparent": {
+        "original": "https://image.migros.ch/original/94b1323c21f0afcc029a7e1ee0608380e48335a2/alle-total-waschmittel.png",
+        "source": "PriceRepository",
+        "stack": "https://image.migros.ch/{stack}/94b1323c21f0afcc029a7e1ee0608380e48335a2/alle-total-waschmittel.png"
+      },
+      "badge": {
+        "original": "https://image.migros.ch/original/76987fcbdc8b4c08ad561b35edf31a12360839a1.png",
+        "stack": "https://image.migros.ch/{stack}/76987fcbdc8b4c08ad561b35edf31a12360839a1.png"
+      },
+      "location_planning_type": "01",
+      "reduction_type_id": "01",
+      "special_advertisement": false,
+      "description": "Alle Total Waschmittel",
+      "discount_hint": "<strong>ab 2 </strong><strong>Stück, </strong><strong>50% günstiger, </strong>z.B. Color, 2.475 kg, <strong>7.95 </strong>statt 15.90, Angebot gilt nur vom 15.9. bis 28.9.2020, solange Vorrat.",
+      "high_performer": false,
+      "collective_discount": true,
+      "instead_of": "statt",
+      "price": 7.95,
+      "original_price": 15.9,
+      "disclaimer": "Gültigkeit siehe Angebots-Detailseite.\r\nBei allen Angeboten sind M-Budget und bereits reduzierte Artikel ausgenommen.\r\nBei Aktionen können bei der Verrechnung auf dem Kassabon Rundungsdifferenzen zu Gunsten des Kunden entstehen.",
+      "source": "PriceRepository",
+      "boss_number": "150126753505",
+      "discount_role_id": "2000000002",
+      "discount_role_label": "M: Wochenangebot Typ I",
+      "last_imported": "2020-09-07T21:15:02+0200"
+    },
+    "discount_hint": "<strong>ab 2 </strong><strong>Stück, </strong>Angebot gilt nur vom 15.9. bis 28.9.2020, solange Vorrat."
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 5,
+    "average_all": 5
+  },
+  "reindex_date": "2020-09-28T23:59:59+0200"
+}

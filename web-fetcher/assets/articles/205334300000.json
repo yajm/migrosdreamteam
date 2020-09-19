@@ -1,0 +1,324 @@
+{
+  "id": "205334300000",
+  "language": "de",
+  "name": "Crème Choco 4x175g",
+  "slug": "creme-choco-4x175g",
+  "boss_number": "030213308020",
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "validity-range-not-set",
+    "leshop-discounted",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7613269461432",
+    "7613404113912"
+  ],
+  "brand": {
+    "id": "FR5",
+    "name": "Tradition - Karo",
+    "slug": "tradition-karo"
+  },
+  "labels": [
+    {
+      "id": "L53",
+      "name": "Swissness",
+      "slug": "swissness",
+      "image": {
+        "original": "https://image.migros.ch/original/d771bba2f6b08ba42970ea0243c6f8c5a8832f15/swissness.jpg",
+        "stack": "https://image.migros.ch/{stack}/d771bba2f6b08ba42970ea0243c6f8c5a8832f15/swissness.jpg"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_01010404",
+      "name": "Dessert",
+      "slug": "supermarkt/lebensmittel/milchprodukte-eier/dessert",
+      "visible": true,
+      "title": "Immer eine Sünde wert &ndash; Desserts von der Migros",
+      "parent_code": "BeSS_010104",
+      "image": {
+        "original": "https://image.migros.ch/original/ba5bb365e8afeb50a776a7b8f2c3e28c666d5593/dessert.jpg",
+        "stack": "https://image.migros.ch/{stack}/ba5bb365e8afeb50a776a7b8f2c3e28c666d5593/dessert.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010104",
+      "name": "Milchprodukte & Eier",
+      "slug": "supermarkt/lebensmittel/milchprodukte-eier",
+      "visible": true,
+      "title": "Milchprodukte und Eier –",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/6b1ea6c2d41c3ccb21bf05c8dc342f7f55d83deb/milchprodukte-eier.jpg",
+        "stack": "https://image.migros.ch/{stack}/6b1ea6c2d41c3ccb21bf05c8dc342f7f55d83deb/milchprodukte-eier.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_Desserts_MilchprodukteEier",
+        "name": "Desserts",
+        "slug": "amigos/milchprodukte-eier/desserts",
+        "visible": true,
+        "parent_code": "AMIG_CAT_MilchprodukteEier",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_MilchprodukteEier",
+        "name": "Milchprodukte & Eier",
+        "slug": "amigos/milchprodukte-eier",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "features": [
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_becher",
+          "value": "Becher"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zubereitungsverfahren",
+      "label": "Hinweise für die Zubereitung",
+      "values": [
+        {
+          "value_code": "MISO_zubereitungsverfahren_verzehrfertig",
+          "value": "Verzehrfertig"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_artvondessert",
+      "label": "Art von Dessert",
+      "values": [
+        {
+          "value_code": "MISO_artvondessert_creme",
+          "value": "Creme"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_verzehrbarkeit",
+      "label": "Hinweise zum Verzehr",
+      "values": [
+        {
+          "value_code": "MISO_verzehrbarkeit_fertigzumservieren",
+          "value": "fertig zum Servieren"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/870973b46df43d1f42c34bf1e090674128c36607/creme-choco-4x175g.jpg",
+    "stack": "https://image.migros.ch/{stack}/870973b46df43d1f42c34bf1e090674128c36607/creme-choco-4x175g.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/a2f02d472c2e9bf0452223f3b2a625f9a3494530/creme-choco-4x175g.png",
+    "stack": "https://image.migros.ch/{stack}/a2f02d472c2e9bf0452223f3b2a625f9a3494530/creme-choco-4x175g.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_nein",
+          "value": "Nein"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZFRP",
+          "value": "Frische Beschaffung"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "1",
+          "value": "Molki"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "70022",
+          "value": "SELLOUT/PROMOTIONEN"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/205334300000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/creme-choco-4x175g",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/205334300000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/creme-choco-4x175g",
+      "type": "info",
+      "purchasable": false
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/4981980",
+      "app_url": "leshop:///catalog/article/detail?ean=7613404113912",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/creme-choco-4x175g",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "updated_at": "2020-09-16T06:50:45+0200",
+  "receipt_text": "Crème Choco 4x175g",
+  "price": {
+    "valid_from": "2020-09-15T00:00:00+0200",
+    "valid_to": "2020-09-21T23:59:59+0200",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 4.2,
+      "original_price": 5.2,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false
+    },
+    "discount": {
+      "id": "1444671",
+      "region": "national",
+      "start_date": "2020-09-15T00:00:00+0200",
+      "end_date": "2020-09-21T23:59:59+0200",
+      "publication_date": "2020-09-13T00:00:00+0200",
+      "discount_amount": "1.00",
+      "discount_regions": [
+        "national",
+        "gmaa",
+        "gmbs",
+        "gmge",
+        "gmlu",
+        "gmnf",
+        "gmos",
+        "gmti",
+        "gmvd",
+        "gmvs",
+        "gmzh"
+      ],
+      "reference_product_id": "205334100000",
+      "discount_type": "aktion",
+      "discount_type_id": "002",
+      "discount_type_label": "SE Sellout",
+      "organisation": "03",
+      "cooperative": "mgb",
+      "image": {
+        "tags": [
+          "list-image"
+        ],
+        "original": "https://image.migros.ch/original/bed1e67b84268fe97d22dff705701f93673104a9/dessert-tradition-cremen.jpg",
+        "source": "PriceRepository",
+        "stack": "https://image.migros.ch/{stack}/bed1e67b84268fe97d22dff705701f93673104a9/dessert-tradition-cremen.jpg"
+      },
+      "image_transparent": {
+        "original": "https://image.migros.ch/original/bed1e67b84268fe97d22dff705701f93673104a9/dessert-tradition-cremen.png",
+        "source": "PriceRepository",
+        "stack": "https://image.migros.ch/{stack}/bed1e67b84268fe97d22dff705701f93673104a9/dessert-tradition-cremen.png"
+      },
+      "badge": {
+        "original": "https://image.migros.ch/original/8b02c0004afa2b1044f5f40d790f3c3f36e6baa0.png",
+        "stack": "https://image.migros.ch/{stack}/8b02c0004afa2b1044f5f40d790f3c3f36e6baa0.png"
+      },
+      "location_planning_type": "01",
+      "reduction_type_id": "02",
+      "special_advertisement": false,
+      "advertisement_type_id": "3",
+      "description": "Dessert Tradition Crèmen",
+      "discount_hint": "<strong>4er-Pack, </strong>Vanille, Caramel oder Chocolat au lait, z.B. Vanille, 4 x 175 g, Angebot gilt nur vom 15.9. bis 21.9.2020, solange Vorrat.",
+      "high_performer": false,
+      "collective_discount": true,
+      "instead_of": "statt",
+      "price": 4.2,
+      "original_price": 5.2,
+      "disclaimer": "Gültigkeit siehe Angebots-Detailseite.\r\nBei allen Angeboten sind M-Budget und bereits reduzierte Artikel ausgenommen.\r\nBei Aktionen können bei der Verrechnung auf dem Kassabon Rundungsdifferenzen zu Gunsten des Kunden entstehen.",
+      "source": "PriceRepository",
+      "boss_number": "030213308020",
+      "discount_role_id": "2000000002",
+      "discount_role_label": "M: Wochenangebot Typ I",
+      "last_imported": "2020-09-11T18:15:30+0200"
+    },
+    "discount_hint": "<strong>Stück, </strong>Angebot gilt nur vom 15.9. bis 21.9.2020, solange Vorrat."
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 1,
+    "average_all": 5
+  },
+  "reindex_date": "2020-09-21T23:59:59+0200"
+}

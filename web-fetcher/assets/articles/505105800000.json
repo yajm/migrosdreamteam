@@ -1,0 +1,385 @@
+{
+  "id": "505105800000",
+  "language": "de",
+  "name": "Optimum Mückenstopp Nachfüllflasche",
+  "slug": "optimum-mueckenstopp-nachfuellflasche-505105800000",
+  "boss_number": "150126830505",
+  "description": {
+    "text": "Der Optimum M&uuml;ckenstopp sch&uuml;tzt zuverl&auml;ssig vor M&uuml;cken. Wirkt selbst bei Licht und offenem Fenster. Die verwendeten Wirkstoffe (Pyrethroide) sind mit dem nat&uuml;rlichen Pflanzenwirkstoff Pyrethrin vergleichbar.",
+    "source": "PEX"
+  },
+  "tags": [
+    "source-pex",
+    "near-non-food",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7613269235712",
+    "7613269235729"
+  ],
+  "brand": {
+    "id": "134",
+    "name": "Optimum",
+    "slug": "optimum"
+  },
+  "categories": [
+    {
+      "code": "BeSS_010403",
+      "name": "Insektizide",
+      "slug": "supermarkt/haushalt-reinigung/insektizide",
+      "visible": true,
+      "parent_code": "BeSS_0104",
+      "image": {
+        "original": "https://image.migros.ch/original/da2a51364e41c928bbbd2d014487984def0938cb/insektizide.jpg",
+        "stack": "https://image.migros.ch/{stack}/da2a51364e41c928bbbd2d014487984def0938cb/insektizide.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0104",
+      "name": "Haushalt & Reinigung",
+      "slug": "supermarkt/haushalt-reinigung",
+      "visible": true,
+      "title": "Reinigung mit der Migros – Reiniger für Haushalt und Garten",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/e5da3225980543e0c7ddcc443069f331d94e8439/haushalt-reinigung.png",
+        "stack": "https://image.migros.ch/{stack}/e5da3225980543e0c7ddcc443069f331d94e8439/haushalt-reinigung.png"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_InsektizideDuenger_Haushalt_HaushaltReinigung",
+        "name": "Insektizide & Dünger",
+        "slug": "amigos/haushalt-reinigung/haushalt/insektizide-duenger",
+        "visible": true,
+        "parent_code": "AMIG_CAT_Haushalt_HaushaltReinigung",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_Haushalt_HaushaltReinigung",
+        "name": "Haushalt",
+        "slug": "amigos/haushalt-reinigung/haushalt",
+        "visible": true,
+        "parent_code": "AMIG_CAT_HaushaltReinigung",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_HaushaltReinigung",
+        "name": "Haushalt & Reinigung",
+        "slug": "amigos/haushalt-reinigung",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "features": [
+    {
+      "label_code": "miso_spezielle_eigenschaften",
+      "label": "Spezielle Eigenschaften",
+      "values": [
+        {
+          "value": "Geruchslos, 45 Tage/Nächte à 8 Stunden"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "miso_gefahrenhinweise",
+      "label": "Gefahrenhinweise",
+      "values": [
+        {
+          "value": "Sehr giftig für Wasserorganismen mit langfristiger Wirkung. Darf nicht in die Hände von Kindern gelangen. Bei Verschlucken sofort ärztlichen Rat einholen und Verpackung oder Etikett vorzeigen. Bei Berührung mit der Haut sofort abwaschen mit viel Wasser und Seife. Berührung mit den Augen und der Haut vermeiden. Nicht in Räumen anwenden, in denen sich Kleinkinder oder empfindliche Personen aufhalten (z.B. Kranke oder Personen mit geschwächtem Immunsystem). ACHTUNG: Tierkäfige, Terrarien und Aquarien vor Anwendung entfernen oder abdecken. Auquarienbelüftung ausschalten."
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "miso_anwendbarkeit_beschaffenheit_form",
+      "label": "Form",
+      "values": [
+        {
+          "value_code": "MISO_refill",
+          "value": "Refill"
+        },
+        {
+          "value_code": "MISO_stecker",
+          "value": "Stecker"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "miso_inhalt",
+      "label": "Inhalt",
+      "values": [
+        {
+          "value": "33 ml"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "miso_zur_bekaempfung_von",
+      "label": "Zur Bekämpfung von",
+      "values": [
+        {
+          "value_code": "MISO_muecken",
+          "value": "Mücken"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "miso_wirkung",
+      "label": "Wirkung",
+      "values": [
+        {
+          "value_code": "MISO_sofortbekaempfung",
+          "value": "Sofortbekämpfung"
+        },
+        {
+          "value_code": "MISO_langzeitwirkung",
+          "value": "Langzeitwirkung"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "CHEMICALS_WARNING",
+      "label": "Warnhinweis",
+      "values": [
+        {
+          "value": "Vor Gebrauch stets Kennzeichnung und Produktinformationen lesen."
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/a27596de6a22619f7008c94079e47d86b6e7d34d/optimum-mueckenstopp-nachfuellflasche.jpg",
+    "stack": "https://image.migros.ch/{stack}/a27596de6a22619f7008c94079e47d86b6e7d34d/optimum-mueckenstopp-nachfuellflasche.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/7a35ea62f12f1e5dfff1a604e9d1f188178d0ea8/optimum-mueckenstopp-nachfuellflasche.png",
+    "stack": "https://image.migros.ch/{stack}/7a35ea62f12f1e5dfff1a604e9d1f188178d0ea8/optimum-mueckenstopp-nachfuellflasche.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_sortierung",
+      "label": "Sortierung aMigos",
+      "values": [
+        {
+          "value_code": "NUMERIC_230",
+          "value": "230",
+          "numeric_value": 230
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Normalposition"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "ZHKS"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUSTOMS_POSITION",
+      "values": [
+        {
+          "value_code": "NUMERIC_38089110",
+          "value": "38089110",
+          "numeric_value": 38089110
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_RISK_CLASS",
+      "values": [
+        {
+          "value_code": "1",
+          "value": "1 (high)"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_QUALITY_CHECK",
+      "values": [
+        {
+          "value_code": "00",
+          "value": "Keine Prüfung"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZHKS",
+          "value": "HKS Standardartikel"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "H",
+          "value": "HKS Standard"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "50217",
+          "value": ""
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_LIFECYCLE",
+      "values": [
+        {
+          "value_code": "D",
+          "value": "Detailhandelsartikel"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 1,
+    "percentage": 7.7
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/505105800000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/optimum-mueckenstopp-nachfuellflasche-505105800000",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/505105800000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/optimum-mueckenstopp-nachfuellflasche-505105800000",
+      "type": "info",
+      "purchasable": false
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/55296",
+      "app_url": "leshop:///catalog/article/detail?ean=7613269235712",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/optimum-mueckenstopp-nachfuellflasche-505105800000",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "updated_at": "2020-09-16T06:01:31+0200",
+  "receipt_text": "Optimum Mue. Nachfüll.",
+  "price": {
+    "valid_from": "2018-01-29T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 4.5,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "33ml"
+    },
+    "base": {
+      "price": 13.64,
+      "quantity": 100,
+      "unit": "ml"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 5,
+    "average_all": 3.8
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

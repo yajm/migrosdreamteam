@@ -1,0 +1,487 @@
+{
+  "id": "104105400000",
+  "language": "de",
+  "name": "Bio YOU Spaghetti gelbe Linsen",
+  "slug": "bio-you-spaghetti-gelbe-linsen",
+  "boss_number": "011011277005",
+  "description": {
+    "text": "Bio Teigwaren aus gelben Linsen und Reis",
+    "source": "PEX"
+  },
+  "tags": [
+    "source-pex",
+    "migipedia",
+    "source-qim-origins",
+    "validity-range-not-set",
+    "source-qim-fooddeclaration",
+    "source-qim-nutritionfacts",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7613312185377",
+    "7613312185384"
+  ],
+  "brand": {
+    "id": "R07",
+    "name": "YOU",
+    "slug": "you",
+    "image": {
+      "original": "https://image.migros.ch/original/06c7b3e9747e8266271bc30ff9c211bb607bb19e/you.jpg",
+      "stack": "https://image.migros.ch/{stack}/06c7b3e9747e8266271bc30ff9c211bb607bb19e/you.jpg"
+    }
+  },
+  "labels": [
+    {
+      "id": "L02",
+      "name": "Migros Bio",
+      "slug": "migros-bio",
+      "image": {
+        "original": "https://image.migros.ch/original/f32d1804b8db5760147310b8d6458eb36757b486/migros-bio.jpg",
+        "stack": "https://image.migros.ch/{stack}/f32d1804b8db5760147310b8d6458eb36757b486/migros-bio.jpg"
+      }
+    },
+    {
+      "id": "L57",
+      "name": "V-vegan",
+      "slug": "v-vegan",
+      "image": {
+        "original": "https://image.migros.ch/original/9425b8ea6312342ddd2d0dc87e65567c88e1b757/v-vegan.jpg",
+        "stack": "https://image.migros.ch/{stack}/9425b8ea6312342ddd2d0dc87e65567c88e1b757/v-vegan.jpg"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_01011401",
+      "name": "Pasta",
+      "slug": "supermarkt/lebensmittel/pasta-zutaten-konserven/pasta",
+      "visible": true,
+      "title": "Zum Schlemmen gern &ndash; Pasta und Teigwaren aus der Migros",
+      "parent_code": "BeSS_010114",
+      "image": {
+        "original": "https://image.migros.ch/original/9952f477bfad296e6c5b237da2904d5955d69bc9/pasta.jpg",
+        "stack": "https://image.migros.ch/{stack}/9952f477bfad296e6c5b237da2904d5955d69bc9/pasta.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010114",
+      "name": "Pasta, Zutaten & Konserven",
+      "slug": "supermarkt/lebensmittel/pasta-zutaten-konserven",
+      "visible": true,
+      "title": "Pasta aus Ihrer Migros: alles rund um Teigwaren",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/6d0964bbb34b8e041ba4d74fc0c90b149907f46a/pasta-zutaten-konserven.jpg",
+        "stack": "https://image.migros.ch/{stack}/6d0964bbb34b8e041ba4d74fc0c90b149907f46a/pasta-zutaten-konserven.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_Teigwaren_TeigwarenReisGetreide_Grundnahrungsmittel",
+        "name": "Teigwaren",
+        "slug": "amigos/grundnahrungsmittel/teigwaren-reis-getreide/teigwaren",
+        "visible": true,
+        "parent_code": "AMIG_CAT_TeigwarenReisGetreide_Grundnahrungsmittel",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_TeigwarenReisGetreide_Grundnahrungsmittel",
+        "name": "Teigwaren, Reis & Getreide",
+        "slug": "amigos/grundnahrungsmittel/teigwaren-reis-getreide",
+        "visible": true,
+        "parent_code": "AMIG_CAT_Grundnahrungsmittel",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_Grundnahrungsmittel",
+        "name": "Grundnahrungsmittel",
+        "slug": "amigos/grundnahrungsmittel",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "features": [
+    {
+      "label_code": "miso_produktionsanspruch",
+      "label": "Produktionsverfahren",
+      "values": [
+        {
+          "value_code": "MISO_produktionsanspruch_bioproduktion",
+          "value": "Bio-Produktion"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "miso_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_karton",
+          "value": "Karton"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "miso_naehrwertanspruch",
+      "label": "Nährwertanspruch",
+      "values": [
+        {
+          "value_code": "MISO_naehrwertanspruch_ballaststoffquelle",
+          "value": "Ballaststoffquelle"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "miso_zubereitungsverfahren",
+      "label": "Hinweise für die Zubereitung",
+      "values": [
+        {
+          "value_code": "MISO_zubereitungsverfahren_kochen",
+          "value": "Kochen"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "miso_anzahlportionen",
+      "label": "Anzahl Portionen",
+      "values": [
+        {
+          "value_code": "NUMERIC_3",
+          "value": "3",
+          "numeric_value": 3
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "miso_produktionslandherstellungsort",
+      "label": "Produktionsland/Herstellungsort",
+      "values": [
+        {
+          "value_code": "MISO_produktionslandherstellungsort_italien",
+          "value": "Italien"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "miso_artvonteigwarennudeln",
+      "label": "Art von Teigwaren/Nudeln",
+      "values": [
+        {
+          "value_code": "MISO_artvonteigwarennudeln_spaghetti",
+          "value": "Spaghetti"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "miso_getreideart",
+      "label": "Getreideart",
+      "values": [
+        {
+          "value_code": "MISO_getreideart_reis",
+          "value": "Reis"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "miso_kochzeit",
+      "label": "Kochzeit (min.)",
+      "values": [
+        {
+          "value": "6-8"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_VEGETARIANISM",
+      "label": "Vegetarismus",
+      "values": [
+        {
+          "value_code": "MAPI_VEGETARIANISM_vegan",
+          "value": "vegan"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/d5f9fad42ccadca945be9ec6806a99aa4c66b32c/bio-you-spaghetti-gelbe-linsen.jpg",
+    "stack": "https://image.migros.ch/{stack}/d5f9fad42ccadca945be9ec6806a99aa4c66b32c/bio-you-spaghetti-gelbe-linsen.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/b2e0025e5a279abc4916bc57b4216862fda857b6/bio-you-spaghetti-gelbe-linsen.png",
+    "stack": "https://image.migros.ch/{stack}/b2e0025e5a279abc4916bc57b4216862fda857b6/bio-you-spaghetti-gelbe-linsen.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_RETURNABLE",
+      "label": "Rückgabe",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "true",
+          "boolean_value": true
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_EXCLUDE_FROM_COMPARISON_ENGINES",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "false",
+          "boolean_value": false
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Normalposition"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "HAWA"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "M",
+          "value": "Kolonial Standard"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "11001",
+          "value": "BIO PASTA/SALSA"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_LIFECYCLE",
+      "values": [
+        {
+          "value_code": "D",
+          "value": "Detailhandelsartikel"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/104105400000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/bio-you-spaghetti-gelbe-linsen",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/104105400000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/bio-you-spaghetti-gelbe-linsen",
+      "type": "info",
+      "purchasable": false
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/4725764",
+      "app_url": "leshop:///catalog/article/detail?ean=7613312185377",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/bio-you-spaghetti-gelbe-linsen",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "updated_at": "2020-09-16T06:29:28+0200",
+  "receipt_text": "Bio YOU Spaghetti",
+  "price": {
+    "valid_from": "2020-09-15T00:00:00+0200",
+    "valid_to": "2020-09-21T23:59:59+0200",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 2.75,
+      "original_price": 3.4,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "250g"
+    },
+    "discount": {
+      "id": "1447944",
+      "region": "national",
+      "start_date": "2020-09-15T00:00:00+0200",
+      "end_date": "2020-09-21T23:59:59+0200",
+      "publication_date": "2020-09-13T00:00:00+0200",
+      "discount_amount": "20%",
+      "discount_regions": [
+        "national"
+      ],
+      "reference_product_id": "104132500000",
+      "discount_type": "aktion",
+      "discount_type_id": "001",
+      "discount_type_label": "SA Sonderangebot",
+      "organisation": "02",
+      "cooperative": "mgb",
+      "image": {
+        "tags": [
+          "list-image"
+        ],
+        "original": "https://image.migros.ch/original/440e66cb906e7cc635c191420a0d947f685b7f8a/alle-bio-teigwaren-pastasaucen-und-tomatenkonserven.jpg",
+        "source": "PriceRepository",
+        "stack": "https://image.migros.ch/{stack}/440e66cb906e7cc635c191420a0d947f685b7f8a/alle-bio-teigwaren-pastasaucen-und-tomatenkonserven.jpg"
+      },
+      "image_transparent": {
+        "original": "https://image.migros.ch/original/440e66cb906e7cc635c191420a0d947f685b7f8a/alle-bio-teigwaren-pastasaucen-und-tomatenkonserven.png",
+        "source": "PriceRepository",
+        "stack": "https://image.migros.ch/{stack}/440e66cb906e7cc635c191420a0d947f685b7f8a/alle-bio-teigwaren-pastasaucen-und-tomatenkonserven.png"
+      },
+      "logo": {
+        "original": "https://image.migros.ch/original/e7b8cb912e7f9b50b3acd25b298934738bd1bde2.png",
+        "source": "PriceRepository",
+        "stack": "https://image.migros.ch/{stack}/e7b8cb912e7f9b50b3acd25b298934738bd1bde2.png"
+      },
+      "badge": {
+        "original": "https://image.migros.ch/original/0633530dd39bda4f1496c8c8aa5ac1d66f227594.png",
+        "stack": "https://image.migros.ch/{stack}/0633530dd39bda4f1496c8c8aa5ac1d66f227594.png"
+      },
+      "location_planning_type": "01",
+      "reduction_type_id": "01",
+      "special_advertisement": false,
+      "advertisement_type_id": "2",
+      "description": "Alle Bio-Teigwaren, -Pastasaucen und -Tomatenkonserven",
+      "discount_hint": "(ohne Alnatura), z.B. Vollkorn Spaghettini, 500 g, <strong>1.50 </strong>statt 1.90, Angebot gilt nur vom 15.9. bis 21.9.2020, solange Vorrat.",
+      "high_performer": false,
+      "collective_discount": true,
+      "instead_of": "statt",
+      "price": 2.75,
+      "original_price": 3.4,
+      "disclaimer": "Gültigkeit siehe Angebots-Detailseite.\r\nBei allen Angeboten sind M-Budget und bereits reduzierte Artikel ausgenommen.\r\nBei Aktionen können bei der Verrechnung auf dem Kassabon Rundungsdifferenzen zu Gunsten des Kunden entstehen.",
+      "source": "PriceRepository",
+      "boss_number": "011011277015",
+      "discount_role_id": "2000000002",
+      "discount_role_label": "M: Wochenangebot Typ I",
+      "last_imported": "2020-09-07T15:15:10+0200"
+    },
+    "discount_hint": "Angebot gilt nur vom 15.9. bis 21.9.2020, solange Vorrat."
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 34,
+    "average_all": 4.294117647059
+  },
+  "reindex_date": "2020-09-21T23:59:59+0200"
+}

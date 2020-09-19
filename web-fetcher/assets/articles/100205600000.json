@@ -1,0 +1,360 @@
+{
+  "id": "100205600000",
+  "language": "de",
+  "name": "Schokolade Cognac",
+  "slug": "schokolade-cognac",
+  "boss_number": "010110041115",
+  "description": {
+    "text": "<p>Milchschokolade mit fl&uuml;ssiger Cognac-F&uuml;llung</p><p>Ohne Zuckerkruste</p>. Edle Spirituosen meisterlich verarbeitet zu fruchtigen und s&uuml;ssen Lik&ouml;rs und eingeschlossen in eine H&uuml;lle aus aromatischer und knackiger Schokolade. Das ist das Genuss-Geheimnis der Frey Lik&ouml;r Tafel-Linie.Edel, speziell , &quot;mit Schuss&quot;.",
+    "source": "PIM"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "validity-range-not-set",
+    "leshop-discounted",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7616500649668"
+  ],
+  "brand": {
+    "id": "062",
+    "name": "Frey",
+    "slug": "frey",
+    "links": {
+      "homepage": {
+        "url": "http://www.chocolatfrey.ch/de",
+        "name": "Homepage",
+        "type": "info",
+        "purchasable": false
+      }
+    },
+    "image": {
+      "original": "https://image.migros.ch/original/0f240825beceb0ba78936de6bce6939efdfd3f26/frey.jpg",
+      "stack": "https://image.migros.ch/{stack}/0f240825beceb0ba78936de6bce6939efdfd3f26/frey.jpg"
+    }
+  },
+  "labels": [
+    {
+      "id": "L53",
+      "name": "Swissness",
+      "slug": "swissness",
+      "image": {
+        "original": "https://image.migros.ch/original/d771bba2f6b08ba42970ea0243c6f8c5a8832f15/swissness.jpg",
+        "stack": "https://image.migros.ch/{stack}/d771bba2f6b08ba42970ea0243c6f8c5a8832f15/swissness.jpg"
+      }
+    },
+    {
+      "id": "L34",
+      "name": "UTZ",
+      "slug": "utz",
+      "image": {
+        "original": "https://image.migros.ch/original/64192d97b7770d351f5bbe89a57c9f614e529150/utz.jpg",
+        "stack": "https://image.migros.ch/{stack}/64192d97b7770d351f5bbe89a57c9f614e529150/utz.jpg"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_0101082101",
+      "name": "Schokoladentafeln",
+      "slug": "supermarkt/lebensmittel/suessigkeiten/schokolade/schokoladentafeln",
+      "visible": true,
+      "title": "Schokoladentafeln in grosser Auswahl bei der Migros",
+      "parent_code": "BeSS_01010821",
+      "level": 5
+    },
+    {
+      "code": "BeSS_01010821",
+      "name": "Schokolade",
+      "slug": "supermarkt/lebensmittel/suessigkeiten/schokolade",
+      "visible": true,
+      "parent_code": "BeSS_010108",
+      "level": 4
+    },
+    {
+      "code": "BeSS_010108",
+      "name": "Süssigkeiten",
+      "slug": "supermarkt/lebensmittel/suessigkeiten",
+      "visible": true,
+      "title": "Süssigkeiten aus Ihrer Migros: für Naschkatzen und Schleckmäuler",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/a9c80f4e896b5ebdd3b7ebbee11f956c8ff157cf/suessigkeiten.jpg",
+        "stack": "https://image.migros.ch/{stack}/a9c80f4e896b5ebdd3b7ebbee11f956c8ff157cf/suessigkeiten.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "features": [
+    {
+      "label_code": "MISO_anzahlentnehmbarereinzelportionen",
+      "label": "Anzahl entnehmbarer Einzeleinheiten",
+      "values": [
+        {
+          "value_code": "NUMERIC_1.0",
+          "value": "1.0",
+          "numeric_value": 1
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_papierverpackung",
+          "value": "Papierverpackung"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_artvonbonbonsanderensuesswaren",
+      "label": "Art von Bonbons/anderen Süsswaren",
+      "values": [
+        {
+          "value_code": "MISO_artvonbonbonsanderensuesswaren_schokoladentafel",
+          "value": "Schokoladentafel"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_enthaeltalkohol",
+      "label": "Enthält Alkohol",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_formdersuesswaren",
+      "label": "Form der Süsswaren",
+      "values": [
+        {
+          "value_code": "MISO_formdersuesswaren_tafel",
+          "value": "Tafel"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_artvonschokolade",
+      "label": "Art von Schokolade",
+      "values": [
+        {
+          "value_code": "MISO_artvonschokolade_milchschokolade",
+          "value": "Milchschokolade"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_hinzugefuegtezutaten",
+      "label": "Hinzugefügte Zutaten",
+      "values": [
+        {
+          "value_code": "MISO_hinzugefuegtezutaten_cognac",
+          "value": "Cognac"
+        },
+        {
+          "value_code": "MISO_hinzugefuegtezutaten_maredechampagne",
+          "value": "Mare de Champagne"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_gefuellt",
+      "label": "Gefüllt",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/1978882faaa34b95a1efa1d07b4e3a249105a505/schokolade-cognac.jpg",
+    "stack": "https://image.migros.ch/{stack}/1978882faaa34b95a1efa1d07b4e3a249105a505/schokolade-cognac.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/4ba2e6036721063e5b415ee5d8ac4845be4048e4/schokolade-cognac.png",
+    "stack": "https://image.migros.ch/{stack}/4ba2e6036721063e5b415ee5d8ac4845be4048e4/schokolade-cognac.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "M",
+          "value": "Kolonial Standard"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "11142",
+          "value": "SPEZIALITAETEN"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/100205600000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/schokolade-cognac",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/100205600000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/schokolade-cognac",
+      "type": "info",
+      "purchasable": false
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/4965210",
+      "app_url": "leshop:///catalog/article/detail?ean=7616500649668",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/schokolade-cognac",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "updated_at": "2020-09-16T06:49:41+0200",
+  "receipt_text": "Chocolat Cognac",
+  "price": {
+    "valid_from": "2020-09-15T00:00:00+0200",
+    "valid_to": "2020-09-28T23:59:59+0200",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 2.25,
+      "original_price": 2.8,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "100g"
+    },
+    "discount": {
+      "id": "1451964",
+      "region": "national",
+      "start_date": "2020-09-15T00:00:00+0200",
+      "end_date": "2020-09-28T23:59:59+0200",
+      "publication_date": "2020-09-13T00:00:00+0200",
+      "discount_amount": "20%",
+      "discount_regions": [
+        "national"
+      ],
+      "reference_product_id": "100110000000",
+      "discount_type": "aktion",
+      "discount_type_id": "005",
+      "discount_type_label": "GRAB Angebot CHF beim Kauf ab X Stueck",
+      "organisation": "02",
+      "cooperative": "mgb",
+      "image": {
+        "tags": [
+          "list-image"
+        ],
+        "original": "https://image.migros.ch/original/415ca6bbd9495254c18b6edfcdf968eab9c9a44d/alle-frey-tafelschokoladen-100-g-utz.jpg",
+        "source": "PriceRepository",
+        "stack": "https://image.migros.ch/{stack}/415ca6bbd9495254c18b6edfcdf968eab9c9a44d/alle-frey-tafelschokoladen-100-g-utz.jpg"
+      },
+      "image_transparent": {
+        "original": "https://image.migros.ch/original/415ca6bbd9495254c18b6edfcdf968eab9c9a44d/alle-frey-tafelschokoladen-100-g-utz.png",
+        "source": "PriceRepository",
+        "stack": "https://image.migros.ch/{stack}/415ca6bbd9495254c18b6edfcdf968eab9c9a44d/alle-frey-tafelschokoladen-100-g-utz.png"
+      },
+      "logo": {
+        "original": "https://image.migros.ch/original/63992097c0ab00749a21c1906dc38d8bf3373398.png",
+        "source": "PriceRepository",
+        "stack": "https://image.migros.ch/{stack}/63992097c0ab00749a21c1906dc38d8bf3373398.png"
+      },
+      "badge": {
+        "original": "https://image.migros.ch/original/0633530dd39bda4f1496c8c8aa5ac1d66f227594.png",
+        "stack": "https://image.migros.ch/{stack}/0633530dd39bda4f1496c8c8aa5ac1d66f227594.png"
+      },
+      "location_planning_type": "01",
+      "reduction_type_id": "01",
+      "special_advertisement": false,
+      "description": "Alle Frey Tafelschokoladen, 100 g, UTZ",
+      "discount_hint": "<strong>ab 3 </strong><strong>Stück, </strong><strong>20% günstiger, </strong>(ohne Sélection, Suprême, M-Classic und Mehrfachpackungen), z.B. Milch-Nuss, <strong>1.60 </strong>statt 2.–, Angebot gilt nur vom 15.9. bis 28.9.2020, solange Vorrat.",
+      "high_performer": true,
+      "collective_discount": true,
+      "instead_of": "statt",
+      "price": 2.25,
+      "original_price": 2.8,
+      "disclaimer": "Gültigkeit siehe Angebots-Detailseite.\r\nBei allen Angeboten sind M-Budget und bereits reduzierte Artikel ausgenommen.\r\nBei Aktionen können bei der Verrechnung auf dem Kassabon Rundungsdifferenzen zu Gunsten des Kunden entstehen.",
+      "source": "PriceRepository",
+      "boss_number": "010110041605",
+      "discount_role_id": "2000000001",
+      "discount_role_label": "High-Performer",
+      "last_imported": "2020-09-07T15:15:12+0200"
+    },
+    "discount_hint": "<strong>ab 3 </strong><strong>Stück, </strong>Angebot gilt nur vom 15.9. bis 28.9.2020, solange Vorrat."
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 3,
+    "average_all": 4
+  },
+  "allergen_text": "Kann Haselnüsse, Mandeln und Soja enthalten",
+  "reindex_date": "2020-09-28T23:59:59+0200"
+}

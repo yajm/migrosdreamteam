@@ -1,0 +1,367 @@
+{
+  "id": "505102300000",
+  "language": "de",
+  "name": "Optimum Fliegenklatsche",
+  "slug": "optimum-fliegenklatsche",
+  "boss_number": "150126831015",
+  "description": {
+    "text": "Fliegenklatsche ist zur Bek&auml;mpfung von allen fliegenden Insekten geeignet",
+    "source": "PEX"
+  },
+  "tags": [
+    "source-pex",
+    "near-non-food",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "4037302105405",
+    "4037302115404"
+  ],
+  "brand": {
+    "id": "134",
+    "name": "Optimum",
+    "slug": "optimum"
+  },
+  "categories": [
+    {
+      "code": "BeSS_010403",
+      "name": "Insektizide",
+      "slug": "supermarkt/haushalt-reinigung/insektizide",
+      "visible": true,
+      "parent_code": "BeSS_0104",
+      "image": {
+        "original": "https://image.migros.ch/original/da2a51364e41c928bbbd2d014487984def0938cb/insektizide.jpg",
+        "stack": "https://image.migros.ch/{stack}/da2a51364e41c928bbbd2d014487984def0938cb/insektizide.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0104",
+      "name": "Haushalt & Reinigung",
+      "slug": "supermarkt/haushalt-reinigung",
+      "visible": true,
+      "title": "Reinigung mit der Migros – Reiniger für Haushalt und Garten",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/e5da3225980543e0c7ddcc443069f331d94e8439/haushalt-reinigung.png",
+        "stack": "https://image.migros.ch/{stack}/e5da3225980543e0c7ddcc443069f331d94e8439/haushalt-reinigung.png"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_InsektizideDuenger_Haushalt_HaushaltReinigung",
+        "name": "Insektizide & Dünger",
+        "slug": "amigos/haushalt-reinigung/haushalt/insektizide-duenger",
+        "visible": true,
+        "parent_code": "AMIG_CAT_Haushalt_HaushaltReinigung",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_Haushalt_HaushaltReinigung",
+        "name": "Haushalt",
+        "slug": "amigos/haushalt-reinigung/haushalt",
+        "visible": true,
+        "parent_code": "AMIG_CAT_HaushaltReinigung",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_HaushaltReinigung",
+        "name": "Haushalt & Reinigung",
+        "slug": "amigos/haushalt-reinigung",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "features": [
+    {
+      "label_code": "miso_anwendbarkeit_beschaffenheit_form",
+      "label": "Form",
+      "values": [
+        {
+          "value_code": "MISO_klatsche",
+          "value": "Klatsche"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "miso_inhalt",
+      "label": "Inhalt",
+      "values": [
+        {
+          "value": "2 Fliegenklatschen"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "miso_zur_bekaempfung_von",
+      "label": "Zur Bekämpfung von",
+      "values": [
+        {
+          "value_code": "MISO_fliegen",
+          "value": "Fliegen"
+        },
+        {
+          "value_code": "MISO_fliegende_insekten",
+          "value": "Fliegende Insekten"
+        },
+        {
+          "value_code": "MISO_lebensmittelmotten",
+          "value": "Lebensmittelmotten"
+        },
+        {
+          "value_code": "MISO_muecken",
+          "value": "Mücken"
+        },
+        {
+          "value_code": "MISO_tiegermuecken",
+          "value": "Tiegermücken"
+        },
+        {
+          "value_code": "MISO_wespen",
+          "value": "Wespen"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "miso_wirkung",
+      "label": "Wirkung",
+      "values": [
+        {
+          "value_code": "MISO_sofortbekaempfung",
+          "value": "Sofortbekämpfung"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/c784e7fac6df9ee5a98bd0f0a1b5ce2e31b2d1c4/optimum-fliegenklatsche.jpg",
+    "stack": "https://image.migros.ch/{stack}/c784e7fac6df9ee5a98bd0f0a1b5ce2e31b2d1c4/optimum-fliegenklatsche.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/f325aa832186e72765cd28e8286da1378d1acf6f/optimum-fliegenklatsche.png",
+    "stack": "https://image.migros.ch/{stack}/f325aa832186e72765cd28e8286da1378d1acf6f/optimum-fliegenklatsche.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_sortierung",
+      "label": "Sortierung aMigos",
+      "values": [
+        {
+          "value_code": "NUMERIC_110",
+          "value": "110",
+          "numeric_value": 110
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Normalposition"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "ZHKS"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUSTOMS_POSITION",
+      "values": [
+        {
+          "value_code": "NUMERIC_39249090000",
+          "value": "39249090000",
+          "numeric_value": 39249090000
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_RISK_CLASS",
+      "values": [
+        {
+          "value_code": "3",
+          "value": "3 (low)"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_QUALITY_CHECK",
+      "values": [
+        {
+          "value_code": "00",
+          "value": "Keine Prüfung"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZHKS",
+          "value": "HKS Standardartikel"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "H",
+          "value": "HKS Standard"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "50218",
+          "value": ""
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_LIFECYCLE",
+      "values": [
+        {
+          "value_code": "D",
+          "value": "Detailhandelsartikel"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 1,
+    "percentage": 7.7
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/505102300000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/optimum-fliegenklatsche",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/505102300000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/optimum-fliegenklatsche",
+      "type": "info",
+      "purchasable": false
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/58496",
+      "app_url": "leshop:///catalog/article/detail?ean=4037302105405",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/optimum-fliegenklatsche",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "updated_at": "2020-09-16T06:39:31+0200",
+  "receipt_text": "Optimum Fliegenklatsch",
+  "price": {
+    "valid_from": "2018-01-29T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 1.5,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "2 Stk."
+    },
+    "base": {
+      "price": 0.75,
+      "quantity": 1,
+      "unit": "st"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 9,
+    "average_all": 4.25
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

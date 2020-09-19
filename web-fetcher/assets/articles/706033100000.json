@@ -1,0 +1,434 @@
+{
+  "id": "706033100000",
+  "language": "de",
+  "name": "Miobrill Microfaser Bodentuch Antibacterial",
+  "slug": "miobrill-microfaser-bodentuch-antibacterial",
+  "boss_number": "150223300510",
+  "description": {
+    "text": "-Gewebe mit antibakteriell wirksamen Silberionen veredelt\n-Keine unangenehmen Gerüche durch Bakterienbefall\n-Karo-Gewebe für besonders gute Schmutzbindung und hohe Wasseraufnahme\n-Entfernt mühelos selbst hartnäckigen Schmutz",
+    "source": "PEX"
+  },
+  "tags": [
+    "source-pex",
+    "near-non-food",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7613296793759"
+  ],
+  "brand": {
+    "id": "MGF",
+    "name": "Miobrill",
+    "slug": "miobrill"
+  },
+  "categories": [
+    {
+      "code": "BeSS_0104200101",
+      "name": "Microfaser",
+      "slug": "supermarkt/haushalt-reinigung/reinigungsutensilien/reinigungstuecher/microfaser",
+      "visible": true,
+      "parent_code": "BeSS_01042001",
+      "level": 5
+    },
+    {
+      "code": "BeSS_01042001",
+      "name": "Reinigungstücher",
+      "slug": "supermarkt/haushalt-reinigung/reinigungsutensilien/reinigungstuecher",
+      "visible": true,
+      "parent_code": "BeSS_010420",
+      "level": 4
+    },
+    {
+      "code": "BeSS_010420",
+      "name": "Reinigungsutensilien",
+      "slug": "supermarkt/haushalt-reinigung/reinigungsutensilien",
+      "visible": true,
+      "parent_code": "BeSS_0104",
+      "level": 3
+    },
+    {
+      "code": "BeSS_0104",
+      "name": "Haushalt & Reinigung",
+      "slug": "supermarkt/haushalt-reinigung",
+      "visible": true,
+      "title": "Reinigung mit der Migros – Reiniger für Haushalt und Garten",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/e5da3225980543e0c7ddcc443069f331d94e8439/haushalt-reinigung.png",
+        "stack": "https://image.migros.ch/{stack}/e5da3225980543e0c7ddcc443069f331d94e8439/haushalt-reinigung.png"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "features": [
+    {
+      "label_code": "miso_farbe",
+      "label": "Farbe",
+      "values": [
+        {
+          "value_code": "MISO_farbe_grau",
+          "value": "grau"
+        },
+        {
+          "value_code": "MISO_farbe_tuerkis",
+          "value": "türkis"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "miso_material",
+      "label": "Material",
+      "values": [
+        {
+          "value_code": "MISO_material_polyamid",
+          "value": "Polyamid"
+        },
+        {
+          "value_code": "MISO_material_polyester",
+          "value": "Polyester"
+        },
+        {
+          "value_code": "MISO_material_silbergarn",
+          "value": "Silbergarn"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "miso_anwendungsbereich",
+      "label": "Anwendungsbereich",
+      "values": [
+        {
+          "value_code": "MISO_feucht",
+          "value": "feucht"
+        },
+        {
+          "value_code": "MISO_nass",
+          "value": "nass"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "miso_anzahl",
+      "label": "Anzahl",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1 Stk.",
+          "numeric_value": 1
+        }
+      ],
+      "top_fact": false,
+      "unit_code": "Stk.",
+      "unit": "Stück",
+      "unit_symbol": "Stk."
+    },
+    {
+      "label_code": "miso_masse_groesse",
+      "label": "Masse / Grösse",
+      "values": [
+        {
+          "value": "50 cm x 60 cm"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "miso_hinweis",
+      "label": "Hinweis",
+      "values": [
+        {
+          "value_code": "MISO_keinen_weichspueler_verwenden",
+          "value": "Keinen Weichspüler verwenden"
+        },
+        {
+          "value_code": "MISO_nicht_auf_gewachsten_oder_geoelten_oberflaechen_anwenden",
+          "value": "Nicht auf gewachsten oder geölten Oberflächen anwenden"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "miso_waschhinweis",
+      "label": "Waschhinweis",
+      "values": [
+        {
+          "image": {
+            "original": "https://image.migros.ch/original/fa26e68fc80b2538297c670585b4608ab8d061a5/MISO_bleichen_nicht_erlaubt.jpg",
+            "code": "MISO_bleichen_nicht_erlaubt",
+            "description": "Bleichen nicht erlaubt",
+            "stack": "https://image.migros.ch/{stack}/fa26e68fc80b2538297c670585b4608ab8d061a5/MISO_bleichen_nicht_erlaubt.jpg"
+          },
+          "value_code": "MISO_bleichen_nicht_erlaubt",
+          "value": "Bleichen nicht erlaubt"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "miso_waschhinweis",
+      "label": "Waschhinweis",
+      "values": [
+        {
+          "image": {
+            "original": "https://image.migros.ch/original/e8075c97f20c7bf45051be2d16b1b4e5a9ed29b4/MISO_nicht_buegeln.jpg",
+            "code": "MISO_nicht_buegeln",
+            "description": "Nicht bügeln",
+            "stack": "https://image.migros.ch/{stack}/e8075c97f20c7bf45051be2d16b1b4e5a9ed29b4/MISO_nicht_buegeln.jpg"
+          },
+          "value_code": "MISO_nicht_buegeln",
+          "value": "Nicht bügeln"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "miso_waschhinweis",
+      "label": "Waschhinweis",
+      "values": [
+        {
+          "image": {
+            "original": "https://image.migros.ch/original/da9f67cb9607c90830e1a123799fb95c208c1580/MISO_reinigung_nicht_chemisch.jpg",
+            "code": "MISO_reinigung_nicht_chemisch",
+            "description": "Reinigung nicht chemisch",
+            "stack": "https://image.migros.ch/{stack}/da9f67cb9607c90830e1a123799fb95c208c1580/MISO_reinigung_nicht_chemisch.jpg"
+          },
+          "value_code": "MISO_reinigung_nicht_chemisch",
+          "value": "Reinigung nicht chemisch"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "miso_waschhinweis",
+      "label": "Waschhinweis",
+      "values": [
+        {
+          "image": {
+            "original": "https://image.migros.ch/original/2136218b4056ce5b7ec27b01860a675015472990/MISO_trockner_nicht_geeignet.jpg",
+            "code": "MISO_trockner_nicht_geeignet",
+            "description": "Trockner nicht geeignet",
+            "stack": "https://image.migros.ch/{stack}/2136218b4056ce5b7ec27b01860a675015472990/MISO_trockner_nicht_geeignet.jpg"
+          },
+          "value_code": "MISO_trockner_nicht_geeignet",
+          "value": "Trockner nicht geeignet"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "miso_waschhinweis",
+      "label": "Waschhinweis",
+      "values": [
+        {
+          "image": {
+            "original": "https://image.migros.ch/original/ed6c8cd12ec9ec2c80068d43ff19edf257a672c6/MISO_60grad.jpg",
+            "code": "MISO_60grad",
+            "description": "60°",
+            "stack": "https://image.migros.ch/{stack}/ed6c8cd12ec9ec2c80068d43ff19edf257a672c6/MISO_60grad.jpg"
+          },
+          "value_code": "MISO_60grad",
+          "value": "60°"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/8fa78f65ed6740bd248b1d5b6b951e3838024fcc/miobrill-microfaser-bodentuch-antibacterial.jpg",
+    "stack": "https://image.migros.ch/{stack}/8fa78f65ed6740bd248b1d5b6b951e3838024fcc/miobrill-microfaser-bodentuch-antibacterial.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/7a113ab9783950899238c48e4f4ad7e37747fe1c/miobrill-microfaser-bodentuch-antibacterial.png",
+    "stack": "https://image.migros.ch/{stack}/7a113ab9783950899238c48e4f4ad7e37747fe1c/miobrill-microfaser-bodentuch-antibacterial.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "miso_marke",
+      "label": "Marke",
+      "values": [
+        {
+          "value_code": "MISO_marke_Miobrill",
+          "value": "Miobrill"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_DEFAULT_LOGISTIC_TYPE",
+      "values": [
+        {
+          "value_code": "55",
+          "value": "Versandart Paket"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Normalposition"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "HART"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUSTOMS_POSITION",
+      "values": [
+        {
+          "value_code": "NUMERIC_00063071090",
+          "value": "00063071090",
+          "numeric_value": 63071090
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRESENTATION",
+      "values": [
+        {
+          "value_code": "H",
+          "value": "hängend"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_RISK_CLASS",
+      "values": [
+        {
+          "value_code": "3",
+          "value": "3 (low)"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_KUBE_TUKA",
+      "values": [
+        {
+          "value_code": "BLANK",
+          "value": "KUBE und TUKA nicht zugelassen"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HART",
+          "value": "Hartwaren  Handelsware"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "H",
+          "value": "Hartwaren"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "50777",
+          "value": "TUECHER"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 1,
+    "percentage": 7.7
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/706033100000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/miobrill-microfaser-bodentuch-antibacterial",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/706033100000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/miobrill-microfaser-bodentuch-antibacterial",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "updated_at": "2020-09-15T18:19:28+0200",
+  "receipt_text": "Miobrill Bodentuch",
+  "price": {
+    "valid_from": "2019-03-05T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 6.95,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "1 Stk."
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

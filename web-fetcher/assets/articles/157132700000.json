@@ -1,0 +1,324 @@
+{
+  "id": "157132700000",
+  "language": "de",
+  "name": "M-Classic Ravioli alla napoletana",
+  "slug": "m-classic-ravioli-alla-napoletana",
+  "boss_number": "011111100105",
+  "description": {
+    "text": "Eierteigwaren mit Fleischf&uuml;llung an Tomatensauce",
+    "source": "PIM"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7616800705057",
+    "7613269181590"
+  ],
+  "brand": {
+    "id": "068",
+    "name": "M-Classic",
+    "slug": "m-classic",
+    "links": {
+      "homepage": {
+        "url": "https://m-classic.migros.ch/de.html",
+        "name": "Homepage",
+        "type": "info",
+        "purchasable": false
+      }
+    },
+    "image": {
+      "original": "https://image.migros.ch/original/72c18633f911e026e081ac11d872cff2d8dc8abb/m-classic.jpg",
+      "stack": "https://image.migros.ch/{stack}/72c18633f911e026e081ac11d872cff2d8dc8abb/m-classic.jpg"
+    }
+  },
+  "categories": [
+    {
+      "code": "BeSS_01011301",
+      "name": "Diverse Fertiggerichte",
+      "slug": "supermarkt/lebensmittel/fertiggerichte-menues-snacks/diverse-fertiggerichte",
+      "visible": true,
+      "title": "Kochen im Handumdrehen: Fertiggerichte aus der Migros",
+      "parent_code": "BeSS_010113",
+      "image": {
+        "original": "https://image.migros.ch/original/90852e2f41d9662517da0d5150c6392cd2a53019/diverse-fertiggerichte.jpg",
+        "stack": "https://image.migros.ch/{stack}/90852e2f41d9662517da0d5150c6392cd2a53019/diverse-fertiggerichte.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010113",
+      "name": "Fertiggerichte, Menüs & Snacks",
+      "slug": "supermarkt/lebensmittel/fertiggerichte-menues-snacks",
+      "visible": true,
+      "title": "Fertige Pizzen, Menüs und Snacks &ndash; schnell und lecker von der Migros",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/6770b6c8fbbd2689aece359ffeda93b90c58dd09/fertiggerichte-menues-snacks.jpg",
+        "stack": "https://image.migros.ch/{stack}/6770b6c8fbbd2689aece359ffeda93b90c58dd09/fertiggerichte-menues-snacks.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_Fleisch_KonservenEingemachtes_Grundnahrungsmittel",
+        "name": "Fleisch",
+        "slug": "amigos/grundnahrungsmittel/konserven-eingemachtes/fleisch",
+        "visible": true,
+        "parent_code": "AMIG_CAT_KonservenEingemachtes_Grundnahrungsmittel",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_KonservenEingemachtes_Grundnahrungsmittel",
+        "name": "Konserven & Eingemachtes",
+        "slug": "amigos/grundnahrungsmittel/konserven-eingemachtes",
+        "visible": true,
+        "parent_code": "AMIG_CAT_Grundnahrungsmittel",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_Grundnahrungsmittel",
+        "name": "Grundnahrungsmittel",
+        "slug": "amigos/grundnahrungsmittel",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "features": [
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_dose",
+          "value": "Dose"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zubereitungsverfahren",
+      "label": "Hinweise für die Zubereitung",
+      "values": [
+        {
+          "value_code": "MISO_zubereitungsverfahren_herd",
+          "value": "Herd"
+        },
+        {
+          "value_code": "MISO_zubereitungsverfahren_indermikrowelleerhitzen",
+          "value": "In der Mikrowelle erhitzen"
+        },
+        {
+          "value_code": "MISO_zubereitungsverfahren_inderpfanneerwaermen",
+          "value": "In der Pfanne erwärmen"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_mitsauce",
+      "label": "Mit Sauce",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_musserwaermtwerden",
+      "label": "Muss erwärmt werden",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zubereitungszeit",
+      "label": "Zubereitungszeit (min.)",
+      "values": [
+        {
+          "value_code": "NUMERIC_5",
+          "value": "5",
+          "numeric_value": 5
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_fleischsorte",
+      "label": "Fleischsorte",
+      "values": [
+        {
+          "value_code": "MISO_fleischsorte_schwein",
+          "value": "Schwein"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/345ed89daca1bc97f16deab82e49813a7b787d33/m-classic-ravioli-alla-napoletana.jpg",
+    "stack": "https://image.migros.ch/{stack}/345ed89daca1bc97f16deab82e49813a7b787d33/m-classic-ravioli-alla-napoletana.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/80b049e2f6a40a3b681c995d7e48c6d83c0e3808/m-classic-ravioli-alla-napoletana.png",
+    "stack": "https://image.migros.ch/{stack}/80b049e2f6a40a3b681c995d7e48c6d83c0e3808/m-classic-ravioli-alla-napoletana.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_sortierung",
+      "label": "Sortierung aMigos",
+      "values": [
+        {
+          "value_code": "NUMERIC_110",
+          "value": "110",
+          "numeric_value": 110
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "M",
+          "value": "Kolonial Standard"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "11150",
+          "value": "DOSENGERICHTE"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/157132700000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/m-classic-ravioli-alla-napoletana",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/157132700000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/m-classic-ravioli-alla-napoletana",
+      "type": "info",
+      "purchasable": false
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/54241",
+      "app_url": "leshop:///catalog/article/detail?ean=7616800705057",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/m-classic-ravioli-alla-napoletana",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "updated_at": "2020-09-16T05:47:33+0200",
+  "receipt_text": "MClass Ravi. Nap. 430g",
+  "price": {
+    "valid_from": "2018-01-29T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 1.9,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "430g"
+    },
+    "base": {
+      "price": 0.44,
+      "quantity": 100,
+      "unit": "g"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 31,
+    "average_all": 3.761904761905
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

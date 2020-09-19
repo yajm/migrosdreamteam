@@ -1,0 +1,164 @@
+{
+  "id": "120101800000",
+  "language": "de",
+  "name": "Evian Mini",
+  "slug": "evian-mini",
+  "boss_number": "010710410605",
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "source-qim-origins",
+    "source-qim-distributor",
+    "validity-range-not-set",
+    "source-qim-fooddeclaration",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "3068320019314"
+  ],
+  "brand": {
+    "id": "F10",
+    "name": "Evian",
+    "slug": "evian"
+  },
+  "categories": [
+    {
+      "code": "BeSS_01011003",
+      "name": "Mineralwasser",
+      "slug": "supermarkt/lebensmittel/getraenke-heiss-kalt/mineralwasser",
+      "visible": true,
+      "title": "Prickelnd oder still? Mineralwasser bei der Migros.",
+      "parent_code": "BeSS_010110",
+      "image": {
+        "original": "https://image.migros.ch/original/12bd975bcb43071aa066ae16ec61f5b147a3166a/mineralwasser.jpg",
+        "stack": "https://image.migros.ch/{stack}/12bd975bcb43071aa066ae16ec61f5b147a3166a/mineralwasser.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010110",
+      "name": "Getränke heiss & kalt",
+      "slug": "supermarkt/lebensmittel/getraenke-heiss-kalt",
+      "visible": true,
+      "title": "Getränke aus der Migros löschen auch Ihren Durst",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/d04d95fbc2e1b4ada4783d2976d37a962a0318a1/getraenke-heiss-kalt.jpg",
+        "stack": "https://image.migros.ch/{stack}/d04d95fbc2e1b4ada4783d2976d37a962a0318a1/getraenke-heiss-kalt.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/c064b5ee8a24745f41dacf58d1454cb8f41e5783/evian-mini.jpg",
+    "stack": "https://image.migros.ch/{stack}/c064b5ee8a24745f41dacf58d1454cb8f41e5783/evian-mini.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/f00c710f46cefe97678e6dddd401e0e479629edb/evian-mini.png",
+    "stack": "https://image.migros.ch/{stack}/f00c710f46cefe97678e6dddd401e0e479629edb/evian-mini.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "A",
+          "value": "Aufreissartikel"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "10740",
+          "value": "MW SOFORTKONSUM"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/120101800000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/evian-mini",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/120101800000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/evian-mini",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "updated_at": "2020-09-16T05:42:31+0200",
+  "receipt_text": "Evian Mini 33cl",
+  "price": {
+    "valid_from": "2019-01-09T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 0.8,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "330ml"
+    },
+    "base": {
+      "price": 0.24,
+      "quantity": 100,
+      "unit": "ml"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 3,
+    "average_all": 5
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

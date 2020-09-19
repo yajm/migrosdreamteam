@@ -1,0 +1,281 @@
+{
+  "id": "511843400000",
+  "language": "de",
+  "name": "Bachblüten Rescue Remedy Tropfen 20 ml",
+  "slug": "bachblueten-rescue-remedy-tropfen-20-ml",
+  "boss_number": "090322230540",
+  "tags": [
+    "source-pim",
+    "near-non-food",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "50761999",
+    "7613269102502",
+    "5000488105742",
+    "741273008217"
+  ],
+  "brand": {
+    "id": "J48",
+    "name": "Rescue",
+    "slug": "rescue"
+  },
+  "categories": [
+    {
+      "code": "BeSS_011201",
+      "name": "Hausapotheke",
+      "slug": "supermarkt/gesundheit/hausapotheke",
+      "visible": true,
+      "parent_code": "BeSS_0112",
+      "level": 3
+    },
+    {
+      "code": "BeSS_0112",
+      "name": "Gesundheit",
+      "slug": "supermarkt/gesundheit",
+      "visible": true,
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/832762761a56d78835c380db87e2aa4ecd7a4eed/gesundheit.jpg",
+        "stack": "https://image.migros.ch/{stack}/832762761a56d78835c380db87e2aa4ecd7a4eed/gesundheit.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_ErsteHilfe_Hausapotheke_HygieneGesundheitBaby",
+        "name": "Erste Hilfe",
+        "slug": "amigos/hygiene-gesundheit-baby/hausapotheke/erste-hilfe",
+        "visible": true,
+        "parent_code": "AMIG_CAT_Hausapotheke_HygieneGesundheitBaby",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_Hausapotheke_HygieneGesundheitBaby",
+        "name": "Hausapotheke",
+        "slug": "amigos/hygiene-gesundheit-baby/hausapotheke",
+        "visible": true,
+        "parent_code": "AMIG_CAT_HygieneGesundheitBaby",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_HygieneGesundheitBaby",
+        "name": "Hygiene, Gesundheit & Baby",
+        "slug": "amigos/hygiene-gesundheit-baby",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "features": [
+    {
+      "label_code": "MISO_geeignet_fuer",
+      "label": "Geeignet für",
+      "values": [
+        {
+          "value_code": "MISO_geeignet_fuer_sonstiges",
+          "value": "Sonstiges"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_produkttyp",
+      "label": "Produkttyp",
+      "values": [
+        {
+          "value_code": "MISO_produkttyp_bachblueten",
+          "value": "Bachblüten"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/69d9aec06b483d2ad81f8f863bac83118ac4f317/bachblueten-rescue-remedy-tropfen-20-ml.jpg",
+    "stack": "https://image.migros.ch/{stack}/69d9aec06b483d2ad81f8f863bac83118ac4f317/bachblueten-rescue-remedy-tropfen-20-ml.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/725588e5bc016a0a21f8506fc72d57165ac47237/bachblueten-rescue-remedy-tropfen-20-ml.png",
+    "stack": "https://image.migros.ch/{stack}/725588e5bc016a0a21f8506fc72d57165ac47237/bachblueten-rescue-remedy-tropfen-20-ml.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_sortierung",
+      "label": "Sortierung aMigos",
+      "values": [
+        {
+          "value_code": "NUMERIC_750",
+          "value": "750",
+          "numeric_value": 750
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_volumen",
+      "label": "Volumen aMigos!",
+      "values": [
+        {
+          "value_code": "NUMERIC_0.06272",
+          "value": "0.06272 l",
+          "numeric_value": 0.06272
+        }
+      ],
+      "top_fact": false,
+      "unit_code": "l",
+      "unit": "Liter",
+      "unit_symbol": "l"
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZHKS",
+          "value": "HKS Standardartikel"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_QUALITY_CHECK",
+      "values": [
+        {
+          "value_code": "03",
+          "value": "FRL (Final Random Labtest)"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_RISK_CLASS",
+      "values": [
+        {
+          "value_code": "1",
+          "value": "1 (high)"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "H",
+          "value": "HKS Standard"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "50385",
+          "value": "SELBSTMEDIKATION"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUSTOMS_POSITION",
+      "values": [
+        {
+          "value_code": "22089099"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 1,
+    "percentage": 7.7
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/511843400000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/bachblueten-rescue-remedy-tropfen-20-ml",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/511843400000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/bachblueten-rescue-remedy-tropfen-20-ml",
+      "type": "info",
+      "purchasable": false
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/164293",
+      "app_url": "leshop:///catalog/article/detail?ean=50761999",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/bachblueten-rescue-remedy-tropfen-20-ml",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "updated_at": "2020-09-15T06:19:33+0200",
+  "receipt_text": "Rescue Tropfen 20ml",
+  "price": {
+    "valid_from": "2018-01-29T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 22.5,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "20ml"
+    },
+    "base": {
+      "price": 11.25,
+      "quantity": 10,
+      "unit": "ml"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 4,
+    "average_all": 5
+  },
+  "reindex_date": "2020-09-20T00:00:00+0200"
+}

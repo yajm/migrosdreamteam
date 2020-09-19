@@ -1,0 +1,225 @@
+{
+  "id": "101002300000",
+  "language": "de",
+  "name": "The Original Marshmallows BBQ",
+  "slug": "the-original-marshmallows-bbq",
+  "boss_number": "010110081125",
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "8712767500151"
+  ],
+  "brand": {
+    "id": "V39",
+    "name": "Marshmallow Company",
+    "slug": "marshmallow-company"
+  },
+  "categories": [
+    {
+      "code": "BeSS_01010818",
+      "name": "Bonbons & Kaugummi",
+      "slug": "supermarkt/lebensmittel/suessigkeiten/bonbons-kaugummi",
+      "visible": true,
+      "title": "Süss, bunt und lecker: Bonbons und Kaugummis bei Ihrer Migros",
+      "parent_code": "BeSS_010108",
+      "image": {
+        "original": "https://image.migros.ch/original/ad0254bc5ba2f1387119b73f9a1479f27e0d867e/bonbons-kaugummi.jpg",
+        "stack": "https://image.migros.ch/{stack}/ad0254bc5ba2f1387119b73f9a1479f27e0d867e/bonbons-kaugummi.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010108",
+      "name": "Süssigkeiten",
+      "slug": "supermarkt/lebensmittel/suessigkeiten",
+      "visible": true,
+      "title": "Süssigkeiten aus Ihrer Migros: für Naschkatzen und Schleckmäuler",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/a9c80f4e896b5ebdd3b7ebbee11f956c8ff157cf/suessigkeiten.jpg",
+        "stack": "https://image.migros.ch/{stack}/a9c80f4e896b5ebdd3b7ebbee11f956c8ff157cf/suessigkeiten.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_Bonbons_BonbonsKaugummis_SchokoladenSuessigkeiten",
+        "name": "Bonbons",
+        "slug": "amigos/schokoladen-suessigkeiten/bonbons-kaugummis/bonbons",
+        "visible": true,
+        "parent_code": "AMIG_CAT_BonbonsKaugummis_SchokoladenSuessigkeiten",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_BonbonsKaugummis_SchokoladenSuessigkeiten",
+        "name": "Bonbons & Kaugummis",
+        "slug": "amigos/schokoladen-suessigkeiten/bonbons-kaugummis",
+        "visible": true,
+        "parent_code": "AMIG_CAT_SchokoladenSuessigkeiten",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_SchokoladenSuessigkeiten",
+        "name": "Schokoladen & Süssigkeiten",
+        "slug": "amigos/schokoladen-suessigkeiten",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/dd69614ed1cdd87a6fa284e4bf0af98ee4fe4273/the-original-marshmallows-bbq.jpg",
+    "stack": "https://image.migros.ch/{stack}/dd69614ed1cdd87a6fa284e4bf0af98ee4fe4273/the-original-marshmallows-bbq.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/5a9d09e47623fb678e39217e7e8157a86a9a7a3f/the-original-marshmallows-bbq.png",
+    "stack": "https://image.migros.ch/{stack}/5a9d09e47623fb678e39217e7e8157a86a9a7a3f/the-original-marshmallows-bbq.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "M",
+          "value": "Kolonial Standard"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "11211",
+          "value": "GELATINE"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUSTOMS_POSITION",
+      "values": [
+        {
+          "value_code": "1704.9099"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/101002300000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/the-original-marshmallows-bbq",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/101002300000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/the-original-marshmallows-bbq",
+      "type": "info",
+      "purchasable": false
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/4963923",
+      "app_url": "leshop:///catalog/article/detail?ean=8712767500151",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/the-original-marshmallows-bbq",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "updated_at": "2020-09-16T05:40:25+0200",
+  "receipt_text": "Marshmallows BBQ",
+  "price": {
+    "valid_from": "2018-06-20T00:00:00+0200",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 4.8,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "300g"
+    },
+    "base": {
+      "price": 1.6,
+      "quantity": 100,
+      "unit": "g"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 2,
+    "average_all": 2
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

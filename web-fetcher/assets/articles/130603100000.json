@@ -1,0 +1,437 @@
+{
+  "id": "130603100000",
+  "language": "de",
+  "name": "Anna's Best Pesto Basilico",
+  "slug": "annas-best-pesto-basilico",
+  "boss_number": "020630163005",
+  "description": {
+    "text": "Anna's Best Pesto Basilico",
+    "source": "PIM"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7613269260417",
+    "27002216"
+  ],
+  "brand": {
+    "id": "007",
+    "name": "Anna's Best",
+    "slug": "annas-best",
+    "links": {
+      "homepage": {
+        "url": "https://annasbest.migros.ch/de.html",
+        "name": "Homepage",
+        "type": "info",
+        "purchasable": false
+      }
+    },
+    "image": {
+      "original": "https://image.migros.ch/original/184dd9291cf7fb67f0772e72d682c71c5fb76261/annas-best.jpg",
+      "stack": "https://image.migros.ch/{stack}/184dd9291cf7fb67f0772e72d682c71c5fb76261/annas-best.jpg"
+    }
+  },
+  "categories": [
+    {
+      "code": "BeSS_0101130208",
+      "name": "Saucen",
+      "slug": "supermarkt/lebensmittel/fertiggerichte-menues-snacks/fertige-pizzen-menues-snacks/saucen",
+      "visible": true,
+      "title": "Saucen in Ihrer Migros kaufen",
+      "parent_code": "BeSS_01011302",
+      "image": {
+        "original": "https://image.migros.ch/original/951dd0050375781c0c2b908f08043656be442346/saucen.jpg",
+        "stack": "https://image.migros.ch/{stack}/951dd0050375781c0c2b908f08043656be442346/saucen.jpg"
+      },
+      "level": 5
+    },
+    {
+      "code": "BeSS_01011302",
+      "name": "Fertige Pizzen, Menüs & Snacks",
+      "slug": "supermarkt/lebensmittel/fertiggerichte-menues-snacks/fertige-pizzen-menues-snacks",
+      "visible": true,
+      "title": "Feine Fertiggerichte aus Ihrer Migros!",
+      "parent_code": "BeSS_010113",
+      "image": {
+        "original": "https://image.migros.ch/original/0014f54049f00019a8782aedb21ad671bd28a8e8/fertige-pizzen-menues-snacks.jpg",
+        "stack": "https://image.migros.ch/{stack}/0014f54049f00019a8782aedb21ad671bd28a8e8/fertige-pizzen-menues-snacks.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010113",
+      "name": "Fertiggerichte, Menüs & Snacks",
+      "slug": "supermarkt/lebensmittel/fertiggerichte-menues-snacks",
+      "visible": true,
+      "title": "Fertige Pizzen, Menüs und Snacks &ndash; schnell und lecker von der Migros",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/6770b6c8fbbd2689aece359ffeda93b90c58dd09/fertiggerichte-menues-snacks.jpg",
+        "stack": "https://image.migros.ch/{stack}/6770b6c8fbbd2689aece359ffeda93b90c58dd09/fertiggerichte-menues-snacks.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_Pastasaucen_PastasaucenwarmeSaucen_Grundnahrungsmittel",
+        "name": "Pastasaucen",
+        "slug": "amigos/grundnahrungsmittel/pastasaucen-warme-saucen/pastasaucen",
+        "visible": true,
+        "parent_code": "AMIG_CAT_PastasaucenwarmeSaucen_Grundnahrungsmittel",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_PastasaucenwarmeSaucen_Grundnahrungsmittel",
+        "name": "Pastasaucen & warme Saucen",
+        "slug": "amigos/grundnahrungsmittel/pastasaucen-warme-saucen",
+        "visible": true,
+        "parent_code": "AMIG_CAT_Grundnahrungsmittel",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_Grundnahrungsmittel",
+        "name": "Grundnahrungsmittel",
+        "slug": "amigos/grundnahrungsmittel",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "features": [
+    {
+      "label_code": "MISO_mussgekuehltwerden",
+      "label": "Muss gekühlt werden",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_kunststoffverpackungmitkarton",
+          "value": "Kunststoff-Verpackung mit Karton"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zubereitungsverfahren",
+      "label": "Hinweise für die Zubereitung",
+      "values": [
+        {
+          "value_code": "MISO_zubereitungsverfahren_zumerwaermen",
+          "value": "zum Erwärmen"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_lebensmittel_AB_pikto_portion",
+      "label": "Portion",
+      "values": [
+        {
+          "image": {
+            "original": "https://image.migros.ch/original/f80874175bf09a27e90e8d90cc5a5c7a0998ca6a/portion-fuer-1-person.jpg",
+            "code": "MISO_lebensmittel_AB_pikto_portion_1",
+            "description": "Portion für 1 Person",
+            "stack": "https://image.migros.ch/{stack}/f80874175bf09a27e90e8d90cc5a5c7a0998ca6a/portion-fuer-1-person.jpg"
+          },
+          "value_code": "MISO_lebensmittel_AB_pikto_portion_1",
+          "value": "Portion für 1 Person"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_lebensmittel_AB_pikto_zubereitung",
+      "label": "Zubereitung",
+      "values": [
+        {
+          "image": {
+            "original": "https://image.migros.ch/original/b6d5f10c07b9abdd2bcb396bbdb2b2a9be476d44/im-kochtopf-zubereiten-kochen.jpg",
+            "code": "MISO_lebensmittel_AB_pikto_zubereitung_pfanne",
+            "description": "Im Kochtopf zubereiten / Kochen",
+            "stack": "https://image.migros.ch/{stack}/b6d5f10c07b9abdd2bcb396bbdb2b2a9be476d44/im-kochtopf-zubereiten-kochen.jpg"
+          },
+          "value_code": "MISO_lebensmittel_AB_pikto_zubereitung_pfanne",
+          "value": "Im Kochtopf zubereiten / Kochen"
+        },
+        {
+          "image": {
+            "original": "https://image.migros.ch/original/3bfabd90e30fd51ce30e22f8c48306d1ba8a0164/in-der-mikrowelle-zubereiten.jpg",
+            "code": "MISO_lebensmittel_AB_pikto_zubereitung_mikrowelle",
+            "description": "In der Mikrowelle zubereiten",
+            "stack": "https://image.migros.ch/{stack}/3bfabd90e30fd51ce30e22f8c48306d1ba8a0164/in-der-mikrowelle-zubereiten.jpg"
+          },
+          "value_code": "MISO_lebensmittel_AB_pikto_zubereitung_mikrowelle",
+          "value": "In der Mikrowelle zubereiten"
+        },
+        {
+          "image": {
+            "original": "https://image.migros.ch/original/2e49269ac205ea53a304f22de7e8a96fe272c1cb/in-der-pfanne-braten-braten.jpg",
+            "code": "MISO_lebensmittel_AB_pikto_zubereitung_braten",
+            "description": "In der Pfanne braten / Braten",
+            "stack": "https://image.migros.ch/{stack}/2e49269ac205ea53a304f22de7e8a96fe272c1cb/in-der-pfanne-braten-braten.jpg"
+          },
+          "value_code": "MISO_lebensmittel_AB_pikto_zubereitung_braten",
+          "value": "In der Pfanne braten / Braten"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_artvonsaucedip",
+      "label": "Art von Sauce/Dip",
+      "values": [
+        {
+          "value_code": "MISO_artvonsaucedip_pesto",
+          "value": "Pesto"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_hinzugefuegtezutaten",
+      "label": "Hinzugefügte Zutaten",
+      "values": [
+        {
+          "value_code": "MISO_hinzugefuegtezutaten_basilikum",
+          "value": "Basilikum"
+        },
+        {
+          "value_code": "MISO_hinzugefuegtezutaten_pinienkerne",
+          "value": "Pinienkerne"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_saucensortezumkochen",
+      "label": "Saucensorte - zum Kochen",
+      "values": [
+        {
+          "value_code": "MISO_saucensortezumkochen_pestobasilico",
+          "value": "Pesto Basilico"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_vorgeseheneverwendungdersauce",
+      "label": "Vorgesehene Verwendung der Sauce",
+      "values": [
+        {
+          "value_code": "MISO_vorgeseheneverwendungdersauce_nudelgerichte",
+          "value": "Nudelgerichte"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/79b56581fd76eb208ea72d905cf3d9e4b3ed0557/annas-best-pesto-basilico.jpg",
+    "stack": "https://image.migros.ch/{stack}/79b56581fd76eb208ea72d905cf3d9e4b3ed0557/annas-best-pesto-basilico.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/9bbd2387d7f8985c7f5c85f561c548f3d1305093/annas-best-pesto-basilico.png",
+    "stack": "https://image.migros.ch/{stack}/9bbd2387d7f8985c7f5c85f561c548f3d1305093/annas-best-pesto-basilico.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_sortierung",
+      "label": "Sortierung aMigos",
+      "values": [
+        {
+          "value_code": "NUMERIC_140",
+          "value": "140",
+          "numeric_value": 140
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_volumen",
+      "label": "Volumen aMigos!",
+      "values": [
+        {
+          "value_code": "NUMERIC_0.6105",
+          "value": "0.6105 l",
+          "numeric_value": 0.6105
+        }
+      ],
+      "top_fact": false,
+      "unit_code": "l",
+      "unit": "Liter",
+      "unit_symbol": "l"
+    },
+    {
+      "label_code": "MISO_lebensmittel_AB_kategorien",
+      "label": "Kategorien",
+      "values": [
+        {
+          "value_code": "MISO_lebensmittel_AB_kategorien_saucen",
+          "value": "Saucen"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_lebensmittel_AB_genusstyp",
+      "label": "Genusstypen",
+      "values": [
+        {
+          "value_code": "MISO_lebensmittel_AB_genusstyp_warm-geniessen",
+          "value": "Warm geniessen"
+        },
+        {
+          "value_code": "MISO_lebensmittel_AB_genusstyp_zu-hause",
+          "value": "Zu Hause"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZFRP",
+          "value": "Frische Beschaffung"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "7",
+          "value": "Convenience"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "71154",
+          "value": "SAUCEN"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/130603100000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/annas-best-pesto-basilico",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/130603100000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/annas-best-pesto-basilico",
+      "type": "info",
+      "purchasable": false
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/50820",
+      "app_url": "leshop:///catalog/article/detail?ean=7613269260417",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/annas-best-pesto-basilico",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "updated_at": "2020-09-16T05:44:12+0200",
+  "receipt_text": "Pesto Basilico",
+  "price": {
+    "valid_from": "2019-04-09T00:00:00+0200",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 2.95,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "150ml"
+    },
+    "base": {
+      "price": 1.97,
+      "quantity": 100,
+      "unit": "ml"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 28,
+    "average_all": 4
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

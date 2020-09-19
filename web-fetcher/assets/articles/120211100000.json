@@ -1,0 +1,250 @@
+{
+  "id": "120211100000",
+  "language": "de",
+  "name": "S.Pellegrino Aranciata Amara",
+  "slug": "spellegrino-aranciata-amara-120211100000",
+  "boss_number": "010710381605",
+  "description": {
+    "text": "Bitter Orangenlimonade mit Kohlens&auml;ure/Chininhaltig 20% Orangensaft. Sanpellegrino Aranciata Amara wurde 1949 kreiert und verwendet Orangen von der K&uuml;ste Italiens, die mit ein wenig Chinarinde-Extrakt vermischt werden, um so den einzigartigen Geschmack reich an italienischen Aromen zu bilden",
+    "source": "PIM"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "source-qim-origins",
+    "source-qim-distributor",
+    "validity-range-not-set",
+    "source-qim-fooddeclaration",
+    "source-qim-nutritionfacts",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "8002270976520"
+  ],
+  "brand": {
+    "id": "222",
+    "name": "S. Pellegrino",
+    "slug": "s-pellegrino"
+  },
+  "categories": [
+    {
+      "code": "BeSS_01011008",
+      "name": "Apéro-Getränke",
+      "slug": "supermarkt/lebensmittel/getraenke-heiss-kalt/apero-getraenke",
+      "visible": true,
+      "parent_code": "BeSS_010110",
+      "image": {
+        "original": "https://image.migros.ch/original/b1d1c5474055c73040b8a2518ff75cef51cf3d4c/apero-getraenke.jpg",
+        "stack": "https://image.migros.ch/{stack}/b1d1c5474055c73040b8a2518ff75cef51cf3d4c/apero-getraenke.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010110",
+      "name": "Getränke heiss & kalt",
+      "slug": "supermarkt/lebensmittel/getraenke-heiss-kalt",
+      "visible": true,
+      "title": "Getränke aus der Migros löschen auch Ihren Durst",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/d04d95fbc2e1b4ada4783d2976d37a962a0318a1/getraenke-heiss-kalt.jpg",
+        "stack": "https://image.migros.ch/{stack}/d04d95fbc2e1b4ada4783d2976d37a962a0318a1/getraenke-heiss-kalt.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "features": [
+    {
+      "label_code": "MISO_naehrwertanspruch",
+      "label": "Nährwertanspruch",
+      "values": [
+        {
+          "value_code": "MISO_naehrwertanspruch_chininhaltig",
+          "value": "Chininhaltig"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_kohlensaeurehaltig",
+      "label": "Kohlensäurehaltig",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_artvonerfrischungsgetraenk",
+      "label": "Art von Erfrischungsgetränk",
+      "values": [
+        {
+          "value_code": "MISO_artvonerfrischungsgetraenk_limonade",
+          "value": "Limonade"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_auskonzentrat",
+      "label": "Aus Konzentrat",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_saftsorte",
+      "label": "Saftsorte",
+      "values": [
+        {
+          "value_code": "MISO_saftsorte_orange",
+          "value": "Orange"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_fruchtgehalt",
+      "label": "Fruchtgehalt",
+      "values": [
+        {
+          "value_code": "NUMERIC_20.0",
+          "value": "20.0 %",
+          "numeric_value": 20
+        }
+      ],
+      "top_fact": false,
+      "unit_code": "prozent",
+      "unit": "Prozent",
+      "unit_symbol": "%"
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/9db8286db48d58125f0f8b486bdd238d334c44b1/spellegrino-aranciata-amara.jpg",
+    "stack": "https://image.migros.ch/{stack}/9db8286db48d58125f0f8b486bdd238d334c44b1/spellegrino-aranciata-amara.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/23a688d031765f6298c7b28c5179ed1e5d2469c8/spellegrino-aranciata-amara.png",
+    "stack": "https://image.migros.ch/{stack}/23a688d031765f6298c7b28c5179ed1e5d2469c8/spellegrino-aranciata-amara.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "M",
+          "value": "Kolonial Standard"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "10722",
+          "value": "APERO / MIXGETRAENKE"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/120211100000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/spellegrino-aranciata-amara-120211100000",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/120211100000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/spellegrino-aranciata-amara-120211100000",
+      "type": "info",
+      "purchasable": false
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/230338",
+      "app_url": "leshop:///catalog/article/detail?ean=8002270976520",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/spellegrino-aranciata-amara-120211100000",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "updated_at": "2020-09-16T06:30:30+0200",
+  "receipt_text": "S.Pellegrino Aran.Amar",
+  "price": {
+    "valid_from": "2018-01-29T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 7.8,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "6 x 330ml"
+    },
+    "base": {
+      "price": 0.39,
+      "quantity": 100,
+      "unit": "ml"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 1,
+    "average_all": 5
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

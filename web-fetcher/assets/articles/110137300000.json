@@ -1,0 +1,320 @@
+{
+  "id": "110137300000",
+  "language": "de",
+  "name": "Bio Blévita Spinat - Basilikum",
+  "slug": "bio-blevita-spinat-basilikum",
+  "boss_number": "010210131005",
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7613312244821"
+  ],
+  "brand": {
+    "id": "018",
+    "name": "Blévita",
+    "slug": "blevita",
+    "image": {
+      "original": "https://image.migros.ch/original/2263b89f8405700b3b058af2220d0301a9f0e048/blevita.jpg",
+      "stack": "https://image.migros.ch/{stack}/2263b89f8405700b3b058af2220d0301a9f0e048/blevita.jpg"
+    }
+  },
+  "labels": [
+    {
+      "id": "L02",
+      "name": "Migros Bio",
+      "slug": "migros-bio",
+      "image": {
+        "original": "https://image.migros.ch/original/f32d1804b8db5760147310b8d6458eb36757b486/migros-bio.jpg",
+        "stack": "https://image.migros.ch/{stack}/f32d1804b8db5760147310b8d6458eb36757b486/migros-bio.jpg"
+      }
+    },
+    {
+      "id": "L57",
+      "name": "V-vegan",
+      "slug": "v-vegan",
+      "image": {
+        "original": "https://image.migros.ch/original/9425b8ea6312342ddd2d0dc87e65567c88e1b757/v-vegan.jpg",
+        "stack": "https://image.migros.ch/{stack}/9425b8ea6312342ddd2d0dc87e65567c88e1b757/v-vegan.jpg"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_01010817",
+      "name": "Blévita",
+      "slug": "supermarkt/lebensmittel/suessigkeiten/blevita",
+      "visible": true,
+      "title": "Bl&eacute;vita-Süssigkeiten in Ihrer Migros kaufen",
+      "parent_code": "BeSS_010108",
+      "image": {
+        "original": "https://image.migros.ch/original/ba9aac27f1b582651ebf1cd96c4ecc895644d04f/blevita.jpg",
+        "stack": "https://image.migros.ch/{stack}/ba9aac27f1b582651ebf1cd96c4ecc895644d04f/blevita.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010108",
+      "name": "Süssigkeiten",
+      "slug": "supermarkt/lebensmittel/suessigkeiten",
+      "visible": true,
+      "title": "Süssigkeiten aus Ihrer Migros: für Naschkatzen und Schleckmäuler",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/a9c80f4e896b5ebdd3b7ebbee11f956c8ff157cf/suessigkeiten.jpg",
+        "stack": "https://image.migros.ch/{stack}/a9c80f4e896b5ebdd3b7ebbee11f956c8ff157cf/suessigkeiten.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "features": [
+    {
+      "label_code": "MISO_produktionsanspruch",
+      "label": "Produktionsverfahren",
+      "values": [
+        {
+          "value_code": "MISO_produktionsanspruch_bioproduktion",
+          "value": "Bio-Produktion"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_anzahlentnehmbarereinzelportionen",
+      "label": "Anzahl entnehmbarer Einzeleinheiten",
+      "values": [
+        {
+          "value_code": "NUMERIC_6.0",
+          "value": "6.0",
+          "numeric_value": 6
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_folienverpackung",
+          "value": "Folienverpackung"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zubereitungsverfahren",
+      "label": "Hinweise für die Zubereitung",
+      "values": [
+        {
+          "value_code": "MISO_zubereitungsverfahren_verzehrfertig",
+          "value": "Verzehrfertig"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zusatzangaben",
+      "label": "Zusatzangaben",
+      "values": [
+        {
+          "value_code": "MISO_zusatzangaben_329",
+          "value": "Trocken aufbewahren. Für höchste Frische vor Licht und Wärme schützen."
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_besonderezutaten",
+      "label": "Besondere Zutaten",
+      "values": [
+        {
+          "value_code": "MISO_besonderezutaten_basilikum",
+          "value": "Basilikum"
+        },
+        {
+          "value_code": "MISO_besonderezutaten_dinkel",
+          "value": "Dinkel"
+        },
+        {
+          "value_code": "MISO_besonderezutaten_meersalz",
+          "value": "Meersalz"
+        },
+        {
+          "value_code": "MISO_besonderezutaten_sonnenblumenoel",
+          "value": "Sonnenblumenöl"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_wiederverschliessbar",
+      "label": "Wiederverschliessbar",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "Nein",
+          "boolean_value": false
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_artvonkeksgebaeck",
+      "label": "Art von Keks/Gebäck",
+      "values": [
+        {
+          "value_code": "MISO_artvonkeksgebaeck_cracker",
+          "value": "Cracker"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_getreideart",
+      "label": "Getreideart",
+      "values": [
+        {
+          "value_code": "MISO_getreideart_dinkel",
+          "value": "Dinkel"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_VEGETARIANISM",
+      "label": "Vegetarismus",
+      "values": [
+        {
+          "value_code": "MAPI_VEGETARIANISM_vegan",
+          "value": "vegan"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/9863048a1a3a581329ac9744c8d5211cbb38d3ca/bio-blevita-spinat-basilikum.jpg",
+    "stack": "https://image.migros.ch/{stack}/9863048a1a3a581329ac9744c8d5211cbb38d3ca/bio-blevita-spinat-basilikum.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/7aca04eb0f04545e46a110e383c810e7785cdce2/bio-blevita-spinat-basilikum.png",
+    "stack": "https://image.migros.ch/{stack}/7aca04eb0f04545e46a110e383c810e7785cdce2/bio-blevita-spinat-basilikum.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "M",
+          "value": "Kolonial Standard"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "10254",
+          "value": "BLEVITA PORTIONEN"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/110137300000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/bio-blevita-spinat-basilikum",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/110137300000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/bio-blevita-spinat-basilikum",
+      "type": "info",
+      "purchasable": false
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/4708831",
+      "app_url": "leshop:///catalog/article/detail?ean=7613312244821",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/bio-blevita-spinat-basilikum",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "updated_at": "2020-09-16T06:29:15+0200",
+  "receipt_text": "Bio Blévita Spinat",
+  "price": {
+    "valid_from": "2019-04-16T00:00:00+0200",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 3.8,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "228g"
+    },
+    "base": {
+      "price": 1.67,
+      "quantity": 100,
+      "unit": "g"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 66,
+    "average_all": 3.742424242424
+  },
+  "allergen_text": "Kann Milch und Sesam enthalten.",
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

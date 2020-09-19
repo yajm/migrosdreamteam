@@ -1,0 +1,340 @@
+{
+  "id": "274450003300",
+  "language": "de",
+  "name": "Kartoffeln mehligkochend",
+  "slug": "kartoffeln-mehligkochend",
+  "boss_number": "050115220505",
+  "description": {
+    "text": "<p>Mehligkochend (blaue Linie)</p><p>Diese Sorten sind trocken und grobkörnig. Beim Kochen springen die Knollen auf und saugen Flüssigkeit sehr gut auf. Sie eignen sich für Kartoffelstock, Gratins oder Gnocchi.</p>",
+    "source": "PIM"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7610200318756"
+  ],
+  "brand": {
+    "id": "S10",
+    "name": "Fresca",
+    "slug": "fresca-S10",
+    "image": {
+      "original": "https://image.migros.ch/original/d169433eae86571fe4796efc52300f787084eaa4/fresca-S10.jpg",
+      "stack": "https://image.migros.ch/{stack}/d169433eae86571fe4796efc52300f787084eaa4/fresca-S10.jpg"
+    }
+  },
+  "categories": [
+    {
+      "code": "BeSS_0101190205",
+      "name": "Lagergemüse",
+      "slug": "supermarkt/lebensmittel/fruechte-gemuese/gemuese/lagergemuese",
+      "visible": true,
+      "title": "Für den Winter: Kartoffeln und Lagergemüse von der Migros",
+      "parent_code": "BeSS_01011902",
+      "level": 5
+    },
+    {
+      "code": "BeSS_01011902",
+      "name": "Gemüse",
+      "slug": "supermarkt/lebensmittel/fruechte-gemuese/gemuese",
+      "visible": true,
+      "title": "Mit Gem&uuml;se von der Migros jeden Tag gesund essen",
+      "parent_code": "BeSS_010119",
+      "level": 4
+    },
+    {
+      "code": "BeSS_010119",
+      "name": "Früchte & Gemüse",
+      "slug": "supermarkt/lebensmittel/fruechte-gemuese",
+      "visible": true,
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/f839060a505bba25c0f37585edb558c003c50479/fruechte-gemuese.jpg",
+        "stack": "https://image.migros.ch/{stack}/f839060a505bba25c0f37585edb558c003c50479/fruechte-gemuese.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_Kartoffeln_Gemuese_FruechteGemuese",
+        "name": "Kartoffeln",
+        "slug": "amigos/fruechte-gemuese/gemuese/kartoffeln",
+        "visible": true,
+        "parent_code": "AMIG_CAT_Gemuese_FruechteGemuese",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_Gemuese_FruechteGemuese",
+        "name": "Gemüse",
+        "slug": "amigos/fruechte-gemuese/gemuese",
+        "visible": true,
+        "parent_code": "AMIG_CAT_FruechteGemuese",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_FruechteGemuese",
+        "name": "Früchte & Gemüse",
+        "slug": "amigos/fruechte-gemuese",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "features": [
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_tragtasche",
+          "value": "Tragtasche"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_formbeschaffenheitvongemuese",
+      "label": "Form/Beschaffenheit",
+      "values": [
+        {
+          "value_code": "MISO_formbeschaffenheitvongemuese_mehligkochend",
+          "value": "Mehligkochend"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_saison",
+      "label": "Saison",
+      "values": [
+        {
+          "value_code": "MISO_saison_maifebruar",
+          "value": "Mai - Februar"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_sorte",
+      "label": "Sorte",
+      "values": [
+        {
+          "value_code": "MISO_sorte_ladyfeliciavictoriajellychallengerconcordiabintjeagria",
+          "value": "Lady Felicia, Victoria, Jelly, Challenger, Concordia, Bintje, Agria"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_geschmackvongemuese",
+      "label": "Geschmack von Gemüse",
+      "values": [
+        {
+          "value_code": "MISO_geschmackvongemuese_mehlig",
+          "value": "Mehlig"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/a83304caf501d3ac35b2fb4908bfeb89152a6d08/kartoffeln-mehligkochend.jpg",
+    "stack": "https://image.migros.ch/{stack}/a83304caf501d3ac35b2fb4908bfeb89152a6d08/kartoffeln-mehligkochend.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/cc520cdf56eec09b326d30c191f14a71dc9fbc9c/kartoffeln-mehligkochend.png",
+    "stack": "https://image.migros.ch/{stack}/cc520cdf56eec09b326d30c191f14a71dc9fbc9c/kartoffeln-mehligkochend.png"
+  },
+  "additional_images": [
+    {
+      "original": "https://image.migros.ch/original/f1273ea7afdebf07b2585d485454dcf61dcab45a.jpg",
+      "stack": "https://image.migros.ch/{stack}/f1273ea7afdebf07b2585d485454dcf61dcab45a.jpg"
+    },
+    {
+      "original": "https://image.migros.ch/original/76ab9fdc18f43e7f549ad0bf06c9fac5332c68b8.jpg",
+      "stack": "https://image.migros.ch/{stack}/76ab9fdc18f43e7f549ad0bf06c9fac5332c68b8.jpg"
+    }
+  ],
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_sortierung",
+      "label": "Sortierung aMigos",
+      "values": [
+        {
+          "value_code": "NUMERIC_170",
+          "value": "170",
+          "numeric_value": 170
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_verkaufseinheit",
+      "label": "Verkaufseinheit",
+      "values": [
+        {
+          "value_code": "NUMERIC_1.0",
+          "value": "1.0 Sack",
+          "numeric_value": 1
+        }
+      ],
+      "top_fact": false,
+      "unit_code": "Sack",
+      "unit": "Sack",
+      "unit_symbol": "Sack"
+    },
+    {
+      "label_code": "MISO_aMigos_gewicht",
+      "label": "Gewicht aMigos!",
+      "values": [
+        {
+          "value_code": "NUMERIC_2.5",
+          "value": "2.5 kg",
+          "numeric_value": 2.5
+        }
+      ],
+      "top_fact": false,
+      "unit_code": "kg",
+      "unit": "Kilogramm",
+      "unit_symbol": "kg"
+    },
+    {
+      "label_code": "MISO_aMigos_volumen",
+      "label": "Volumen aMigos!",
+      "values": [
+        {
+          "value_code": "NUMERIC_3.75",
+          "value": "3.75 l",
+          "numeric_value": 3.75
+        }
+      ],
+      "top_fact": false,
+      "unit_code": "l",
+      "unit": "Liter",
+      "unit_symbol": "l"
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZFRP",
+          "value": "Frische Beschaffung"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "2",
+          "value": "Früchte und Gemüse"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "71364",
+          "value": "KARTOFFELN"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/274450003300",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/kartoffeln-mehligkochend",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/274450003300",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/kartoffeln-mehligkochend",
+      "type": "info",
+      "purchasable": false
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/5287186",
+      "app_url": "leshop:///catalog/article/detail?ean=7610200318756",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/kartoffeln-mehligkochend",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "updated_at": "2020-09-16T05:54:10+0200",
+  "receipt_text": "Kart.mehligkochend",
+  "price": {
+    "valid_from": "2020-06-16T00:00:00+0200",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "source": "PriceRepository",
+    "no_price_hint": "Aktueller Tagespreis"
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 16,
+    "average_all": 3.727272727273
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

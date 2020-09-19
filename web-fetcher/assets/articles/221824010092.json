@@ -1,0 +1,177 @@
+{
+  "id": "221824010092",
+  "language": "de",
+  "name": "Hors Line Pferde Geschnetzeltes",
+  "slug": "hors-line-pferde-geschnetzeltes",
+  "boss_number": "040214522115",
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "2158729000004",
+    "7613269577539"
+  ],
+  "brand": {
+    "id": "620",
+    "name": "Horse Line",
+    "slug": "horse-line"
+  },
+  "categories": [
+    {
+      "code": "BeSS_01010606",
+      "name": "Pferd",
+      "slug": "supermarkt/lebensmittel/fleisch/pferd",
+      "visible": true,
+      "parent_code": "BeSS_010106",
+      "level": 4
+    },
+    {
+      "code": "BeSS_010106",
+      "name": "Fleisch",
+      "slug": "supermarkt/lebensmittel/fleisch",
+      "visible": true,
+      "title": "Fleisch ausgezeichneter Qualität aus Ihrer Migros: einfach gut",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/03d32c0880d7a9ea6e58971966032e65ac442b58/fleisch.jpg",
+        "stack": "https://image.migros.ch/{stack}/03d32c0880d7a9ea6e58971966032e65ac442b58/fleisch.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/77504f6956fb5a1fc2efc20e73ee9e23ca11d7da/hors-line-pferde-geschnetzeltes.jpg",
+    "stack": "https://image.migros.ch/{stack}/77504f6956fb5a1fc2efc20e73ee9e23ca11d7da/hors-line-pferde-geschnetzeltes.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/7e87e524026dfdf133186726a9158d0b64439573/hors-line-pferde-geschnetzeltes.png",
+    "stack": "https://image.migros.ch/{stack}/7e87e524026dfdf133186726a9158d0b64439573/hors-line-pferde-geschnetzeltes.png"
+  },
+  "additional_images": [
+    {
+      "original": "https://image.migros.ch/original/e1ded36fc2ce83785e8f816c5e39746947b76afa.jpg",
+      "stack": "https://image.migros.ch/{stack}/e1ded36fc2ce83785e8f816c5e39746947b76afa.jpg"
+    }
+  ],
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_minimal-gewicht",
+      "label": "Minimal-Gewicht",
+      "values": [
+        {
+          "value_code": "NUMERIC_250.0",
+          "value": "250.0 g",
+          "numeric_value": 250
+        }
+      ],
+      "top_fact": false,
+      "unit_code": "g",
+      "unit": "Gramm",
+      "unit_symbol": "g"
+    },
+    {
+      "label_code": "MISO_aMigos_maximal-gewicht",
+      "label": "Maximal-Gewicht",
+      "values": [
+        {
+          "value_code": "NUMERIC_250.0",
+          "value": "250.0 g",
+          "numeric_value": 250
+        }
+      ],
+      "top_fact": false,
+      "unit_code": "g",
+      "unit": "Gramm",
+      "unit_symbol": "g"
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZFRP",
+          "value": "Frische Beschaffung"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "6",
+          "value": "Fleisch-Fisch-Geflüg"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "70188",
+          "value": "PFERD"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/221824010092",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/hors-line-pferde-geschnetzeltes",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/221824010092",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/hors-line-pferde-geschnetzeltes",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "updated_at": "2020-09-16T06:32:29+0200",
+  "receipt_text": "Pferde Geschnetzeltes",
+  "price": {
+    "valid_from": "2018-01-30T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "source": "PriceRepository",
+    "no_price_hint": "Aktueller Tagespreis"
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

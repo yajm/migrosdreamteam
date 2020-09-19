@@ -1,0 +1,358 @@
+{
+  "id": "706220600000",
+  "language": "de",
+  "name": "Miobrill Greenline Handwischer FSC®",
+  "slug": "miobrill-greenline-handwischer-fsc",
+  "boss_number": "150223303005",
+  "description": {
+    "text": "-Mit M&ouml;belschoner",
+    "source": "PEX"
+  },
+  "tags": [
+    "source-pex",
+    "near-non-food",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7613248580833"
+  ],
+  "brand": {
+    "id": "MGF",
+    "name": "Miobrill",
+    "slug": "miobrill"
+  },
+  "labels": [
+    {
+      "id": "L53",
+      "name": "Swissness",
+      "slug": "swissness",
+      "image": {
+        "original": "https://image.migros.ch/original/d771bba2f6b08ba42970ea0243c6f8c5a8832f15/swissness.jpg",
+        "stack": "https://image.migros.ch/{stack}/d771bba2f6b08ba42970ea0243c6f8c5a8832f15/swissness.jpg"
+      }
+    },
+    {
+      "id": "L09",
+      "name": "FSC",
+      "slug": "fsc",
+      "image": {
+        "original": "https://image.migros.ch/original/2c1084154f39b6058058a9257b03090d98835154/fsc.jpg",
+        "stack": "https://image.migros.ch/{stack}/2c1084154f39b6058058a9257b03090d98835154/fsc.jpg"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_0104200603",
+      "name": "Kehren&Schrubben",
+      "slug": "supermarkt/haushalt-reinigung/reinigungsutensilien/bodenreinigung/kehrenschrubben",
+      "visible": true,
+      "parent_code": "BeSS_01042006",
+      "level": 5
+    },
+    {
+      "code": "BeSS_01042006",
+      "name": "Bodenreinigung",
+      "slug": "supermarkt/haushalt-reinigung/reinigungsutensilien/bodenreinigung",
+      "visible": true,
+      "parent_code": "BeSS_010420",
+      "level": 4
+    },
+    {
+      "code": "BeSS_010420",
+      "name": "Reinigungsutensilien",
+      "slug": "supermarkt/haushalt-reinigung/reinigungsutensilien",
+      "visible": true,
+      "parent_code": "BeSS_0104",
+      "level": 3
+    },
+    {
+      "code": "BeSS_0104",
+      "name": "Haushalt & Reinigung",
+      "slug": "supermarkt/haushalt-reinigung",
+      "visible": true,
+      "title": "Reinigung mit der Migros – Reiniger für Haushalt und Garten",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/e5da3225980543e0c7ddcc443069f331d94e8439/haushalt-reinigung.png",
+        "stack": "https://image.migros.ch/{stack}/e5da3225980543e0c7ddcc443069f331d94e8439/haushalt-reinigung.png"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "features": [
+    {
+      "label_code": "miso_holzart",
+      "label": "Holzart",
+      "values": [
+        {
+          "value_code": "MISO_holzart_bucherohunbehandelt",
+          "value": "Buche, roh, unbehandelt"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "miso_holzherkunft",
+      "label": "Holzherkunft",
+      "values": [
+        {
+          "value_code": "MISO_holzherkunftsland_schweiz",
+          "value": "Schweiz"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "miso_holz_wissenschaftlicher_name",
+      "label": "Wissenschaftlicher Name Holz",
+      "values": [
+        {
+          "value_code": "MISO_holz_wissenschaftlicher_name_link",
+          "value": "Kann unter www.holzdeklaration.ch abgefragt werden."
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "miso_farbe",
+      "label": "Farbe",
+      "values": [
+        {
+          "value_code": "MISO_farbe_natur",
+          "value": "natur"
+        },
+        {
+          "value_code": "MISO_farbe_hellgruen",
+          "value": "hellgrün"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "miso_material",
+      "label": "Material",
+      "values": [
+        {
+          "value_code": "MISO_material_buchenholz",
+          "value": "Buchenholz"
+        },
+        {
+          "value_code": "MISO_material_pferdehaar",
+          "value": "Pferdehaar"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "miso_anzahl",
+      "label": "Anzahl",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1 Stk.",
+          "numeric_value": 1
+        }
+      ],
+      "top_fact": false,
+      "unit_code": "Stk.",
+      "unit": "Stück",
+      "unit_symbol": "Stk."
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/c6efa3b9b8e39755f9f68b0c4cc6d6bbd00b3c49/miobrill-greenline-handwischer-fsc.jpg",
+    "stack": "https://image.migros.ch/{stack}/c6efa3b9b8e39755f9f68b0c4cc6d6bbd00b3c49/miobrill-greenline-handwischer-fsc.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/654e9afa0f9b034b2af3fb584c0d489ddfa26358/miobrill-greenline-handwischer-fsc.png",
+    "stack": "https://image.migros.ch/{stack}/654e9afa0f9b034b2af3fb584c0d489ddfa26358/miobrill-greenline-handwischer-fsc.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "miso_marke",
+      "label": "Marke",
+      "values": [
+        {
+          "value_code": "MISO_marke_Miobrill",
+          "value": "Miobrill"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_DEFAULT_LOGISTIC_TYPE",
+      "values": [
+        {
+          "value_code": "55",
+          "value": "Versandart Paket"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Normalposition"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "HART"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUSTOMS_POSITION",
+      "values": [
+        {
+          "value_code": "NUMERIC_44170000000",
+          "value": "44170000000",
+          "numeric_value": 44170000000
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRESENTATION",
+      "values": [
+        {
+          "value_code": "H",
+          "value": "hängend"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_RISK_CLASS",
+      "values": [
+        {
+          "value_code": "3",
+          "value": "3 (low)"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_KUBE_TUKA",
+      "values": [
+        {
+          "value_code": "BLANK",
+          "value": "KUBE und TUKA nicht zugelassen"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HART",
+          "value": "Hartwaren  Handelsware"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "H",
+          "value": "Hartwaren"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "57874",
+          "value": "REINIGUNGSZUBEHOER"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 1,
+    "percentage": 7.7
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/706220600000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/miobrill-greenline-handwischer-fsc",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/706220600000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/miobrill-greenline-handwischer-fsc",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "updated_at": "2020-09-15T15:32:05+0200",
+  "receipt_text": "Miobrill Handwischer",
+  "price": {
+    "valid_from": "2020-08-31T00:00:00+0200",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 7.95,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "1 Stück"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

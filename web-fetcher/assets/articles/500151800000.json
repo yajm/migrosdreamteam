@@ -1,0 +1,522 @@
+{
+  "id": "500151800000",
+  "language": "de",
+  "name": "Total Waschmittel 1 for all",
+  "slug": "total-waschmittel-1-for-all-500151800000",
+  "boss_number": "150126753005",
+  "description": {
+    "text": "Reinigt und schützt alle Gewebearten und Farben. Spezielle Wirkstoffe erhalten die Farbbrillanz und schützen vor dem Verblassen. Porentiefe Sauberkeit schon bei niedrigen Temperaturen. Ohne Bleichmittel und optische Aufheller.",
+    "source": "PEX"
+  },
+  "tags": [
+    "source-pex",
+    "near-non-food",
+    "migipedia",
+    "validity-range-not-set",
+    "leshop-discounted",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7630028621654",
+    "7630028621647"
+  ],
+  "brand": {
+    "id": "188",
+    "name": "Total",
+    "slug": "total",
+    "image": {
+      "original": "https://image.migros.ch/original/4cdcf1de6073d82c361b783f7f40dde5d8df352e/total.jpg",
+      "stack": "https://image.migros.ch/{stack}/4cdcf1de6073d82c361b783f7f40dde5d8df352e/total.jpg"
+    }
+  },
+  "categories": [
+    {
+      "code": "BeSS_0104010101",
+      "name": "Flüssigwaschmittel",
+      "slug": "supermarkt/haushalt-reinigung/waschen-reinigen-pflege/waschmittel/fluessigwaschmittel",
+      "visible": true,
+      "parent_code": "BeSS_01040101",
+      "image": {
+        "original": "https://image.migros.ch/original/8de0603f228616e0ab5d85e81b6cebde4317577d/fluessigwaschmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/8de0603f228616e0ab5d85e81b6cebde4317577d/fluessigwaschmittel.jpg"
+      },
+      "level": 5
+    },
+    {
+      "code": "BeSS_01040101",
+      "name": "Waschmittel",
+      "slug": "supermarkt/haushalt-reinigung/waschen-reinigen-pflege/waschmittel",
+      "visible": true,
+      "title": "Waschmittel bei der Migros: Porentief rein und duftig fein",
+      "parent_code": "BeSS_010401",
+      "image": {
+        "original": "https://image.migros.ch/original/0076911ffef80a8fbf18236ab7ad28fcb069512a/waschmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/0076911ffef80a8fbf18236ab7ad28fcb069512a/waschmittel.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010401",
+      "name": "Waschen, Reinigen & Pflege",
+      "slug": "supermarkt/haushalt-reinigung/waschen-reinigen-pflege",
+      "visible": true,
+      "parent_code": "BeSS_0104",
+      "image": {
+        "original": "https://image.migros.ch/original/4187e91a67904fcbbbb5b901717fabe280e0ad24/waschen-reinigen-pflege.jpg",
+        "stack": "https://image.migros.ch/{stack}/4187e91a67904fcbbbb5b901717fabe280e0ad24/waschen-reinigen-pflege.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0104",
+      "name": "Haushalt & Reinigung",
+      "slug": "supermarkt/haushalt-reinigung",
+      "visible": true,
+      "title": "Reinigung mit der Migros – Reiniger für Haushalt und Garten",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/e5da3225980543e0c7ddcc443069f331d94e8439/haushalt-reinigung.png",
+        "stack": "https://image.migros.ch/{stack}/e5da3225980543e0c7ddcc443069f331d94e8439/haushalt-reinigung.png"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_Fluessigwaschmittel_WaschenTextilpflege_HaushaltReinigung",
+        "name": "Flüssigwaschmittel",
+        "slug": "amigos/haushalt-reinigung/waschen-textilpflege/fluessigwaschmittel",
+        "visible": true,
+        "parent_code": "AMIG_CAT_WaschenTextilpflege_HaushaltReinigung",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_WaschenTextilpflege_HaushaltReinigung",
+        "name": "Waschen & Textilpflege",
+        "slug": "amigos/haushalt-reinigung/waschen-textilpflege",
+        "visible": true,
+        "parent_code": "AMIG_CAT_HaushaltReinigung",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_HaushaltReinigung",
+        "name": "Haushalt & Reinigung",
+        "slug": "amigos/haushalt-reinigung",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "features": [
+    {
+      "label_code": "miso_spezielle_eigenschaften",
+      "label": "Spezielle Eigenschaften",
+      "values": [
+        {
+          "value": "3D Power Formula. Frei von Mikroplastik."
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "miso_oeko_hinweis",
+      "label": "Öko Hinweis",
+      "values": [
+        {
+          "value_code": "MISO_biologisch_gut_abbaubar_OECD_test_302B_ergaenzt_mit_CO2_analytik",
+          "value": "Biologisch gut abbaubar (OECD-Test 302B, ergänzt mit CO2-Analytik)"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "miso_gefahrenhinweise",
+      "label": "Gefahrenhinweise",
+      "values": [
+        {
+          "value": "Darf nicht in die Hände von Kindern gelangen."
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "miso_anwendbarkeit_beschaffenheit_form",
+      "label": "Form",
+      "values": [
+        {
+          "value_code": "MISO_colorwaschmittel",
+          "value": "Colorwaschmittel"
+        },
+        {
+          "value_code": "MISO_feinwaschmittel",
+          "value": "Feinwaschmittel"
+        },
+        {
+          "value_code": "MISO_vollwaschmittel",
+          "value": "Vollwaschmittel"
+        },
+        {
+          "value_code": "MISO_fluessig",
+          "value": "flüssig"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "miso_waschgaenge",
+      "label": "Waschgänge",
+      "values": [
+        {
+          "value_code": "NUMERIC_36",
+          "value": "36",
+          "numeric_value": 36
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "miso_inhalt",
+      "label": "Inhalt",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2 l",
+          "numeric_value": 2
+        }
+      ],
+      "top_fact": false,
+      "unit_code": "l",
+      "unit": "Liter",
+      "unit_symbol": "l"
+    },
+    {
+      "label_code": "miso_geeignet_fuer",
+      "label": "Geeignet für",
+      "values": [
+        {
+          "value_code": "MISO_automatenwaesche",
+          "value": "Automatenwäsche"
+        },
+        {
+          "value_code": "MISO_baumwolle",
+          "value": "Baumwolle"
+        },
+        {
+          "value_code": "MISO_farbiges",
+          "value": "Farbiges"
+        },
+        {
+          "value_code": "MISO_feines",
+          "value": "Feines"
+        },
+        {
+          "value_code": "MISO_schwarz",
+          "value": "Schwarz"
+        },
+        {
+          "value_code": "MISO_seide",
+          "value": "Seide"
+        },
+        {
+          "value_code": "MISO_weisses",
+          "value": "Weisses"
+        },
+        {
+          "value_code": "MISO_wolle",
+          "value": "Wolle"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "miso_nicht_geeignet_fuer",
+      "label": "Nicht geeignet für",
+      "values": [
+        {
+          "value_code": "MISO_daunen",
+          "value": "Daunen"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "miso_temperaturbereich",
+      "label": "Temperaturbereich",
+      "values": [
+        {
+          "value": "15°C - 60°C"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/7610569a339fc4ffc813db00d1c1a1a05b30045a/total-waschmittel-1-for-all.jpg",
+    "stack": "https://image.migros.ch/{stack}/7610569a339fc4ffc813db00d1c1a1a05b30045a/total-waschmittel-1-for-all.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/b47213975245ea508d6f33c911a68758075d0cb4/total-waschmittel-1-for-all.png",
+    "stack": "https://image.migros.ch/{stack}/b47213975245ea508d6f33c911a68758075d0cb4/total-waschmittel-1-for-all.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_RETURNABLE",
+      "label": "Rückgabe",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "true",
+          "boolean_value": true
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_EXCLUDE_FROM_COMPARISON_ENGINES",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "false",
+          "boolean_value": false
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Normalposition"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "ZHKS"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_RISK_CLASS",
+      "values": [
+        {
+          "value_code": "2",
+          "value": "2 (medium)"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_QUALITY_CHECK",
+      "values": [
+        {
+          "value_code": "00",
+          "value": "Keine Prüfung"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZHKS",
+          "value": "HKS Standardartikel"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "H",
+          "value": "HKS Standard"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "50298",
+          "value": "FLUESSIG"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_LIFECYCLE",
+      "values": [
+        {
+          "value_code": "D",
+          "value": "Detailhandelsartikel"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 1,
+    "percentage": 7.7
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/500151800000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/total-waschmittel-1-for-all-500151800000",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/500151800000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/total-waschmittel-1-for-all-500151800000",
+      "type": "info",
+      "purchasable": false
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/177351",
+      "app_url": "leshop:///catalog/article/detail?ean=7630028621654",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/total-waschmittel-1-for-all-500151800000",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "updated_at": "2020-09-16T06:50:52+0200",
+  "receipt_text": "Total 1 for all 2l",
+  "price": {
+    "valid_from": "2020-09-15T00:00:00+0200",
+    "valid_to": "2020-09-28T23:59:59+0200",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 8.45,
+      "original_price": 16.9,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "2L"
+    },
+    "discount": {
+      "id": "1450211",
+      "region": "national",
+      "start_date": "2020-09-15T00:00:00+0200",
+      "end_date": "2020-09-28T23:59:59+0200",
+      "publication_date": "2020-09-13T00:00:00+0200",
+      "discount_amount": "50%",
+      "discount_regions": [
+        "national"
+      ],
+      "reference_product_id": "500148200000",
+      "discount_type": "aktion",
+      "discount_type_id": "005",
+      "discount_type_label": "GRAB Angebot CHF beim Kauf ab X Stueck",
+      "organisation": "09",
+      "cooperative": "mgb",
+      "image": {
+        "tags": [
+          "list-image"
+        ],
+        "original": "https://image.migros.ch/original/94b1323c21f0afcc029a7e1ee0608380e48335a2/alle-total-waschmittel.jpg",
+        "source": "PriceRepository",
+        "stack": "https://image.migros.ch/{stack}/94b1323c21f0afcc029a7e1ee0608380e48335a2/alle-total-waschmittel.jpg"
+      },
+      "image_transparent": {
+        "original": "https://image.migros.ch/original/94b1323c21f0afcc029a7e1ee0608380e48335a2/alle-total-waschmittel.png",
+        "source": "PriceRepository",
+        "stack": "https://image.migros.ch/{stack}/94b1323c21f0afcc029a7e1ee0608380e48335a2/alle-total-waschmittel.png"
+      },
+      "badge": {
+        "original": "https://image.migros.ch/original/76987fcbdc8b4c08ad561b35edf31a12360839a1.png",
+        "stack": "https://image.migros.ch/{stack}/76987fcbdc8b4c08ad561b35edf31a12360839a1.png"
+      },
+      "location_planning_type": "01",
+      "reduction_type_id": "01",
+      "special_advertisement": false,
+      "description": "Alle Total Waschmittel",
+      "discount_hint": "<strong>ab 2 </strong><strong>Stück, </strong><strong>50% günstiger, </strong>z.B. Color, 2.475 kg, <strong>7.95 </strong>statt 15.90, Angebot gilt nur vom 15.9. bis 28.9.2020, solange Vorrat.",
+      "high_performer": false,
+      "collective_discount": true,
+      "instead_of": "statt",
+      "price": 8.45,
+      "original_price": 16.9,
+      "disclaimer": "Gültigkeit siehe Angebots-Detailseite.\r\nBei allen Angeboten sind M-Budget und bereits reduzierte Artikel ausgenommen.\r\nBei Aktionen können bei der Verrechnung auf dem Kassabon Rundungsdifferenzen zu Gunsten des Kunden entstehen.",
+      "source": "PriceRepository",
+      "boss_number": "150126753505",
+      "discount_role_id": "2000000002",
+      "discount_role_label": "M: Wochenangebot Typ I",
+      "last_imported": "2020-09-07T21:15:02+0200"
+    },
+    "discount_hint": "<strong>ab 2 </strong><strong>Stück, </strong>Angebot gilt nur vom 15.9. bis 28.9.2020, solange Vorrat."
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 1,
+    "average_all": 4
+  },
+  "reindex_date": "2020-09-28T23:59:59+0200"
+}

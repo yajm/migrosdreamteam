@@ -1,0 +1,244 @@
+{
+  "id": "265200702400",
+  "language": "de",
+  "name": "Sélection Erdbeeren Gariguette",
+  "slug": "selection-erdbeeren-gariguette",
+  "boss_number": "050215450505",
+  "description": {
+    "text": "Der Seefahrer Amédée-François Frézier brachte die Erdbeere 1712 von S&uuml;damerika nach Frankreich.",
+    "source": "PIM"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7613269535867"
+  ],
+  "brand": {
+    "id": "NB1",
+    "name": "Sélection",
+    "slug": "selection",
+    "links": {
+      "homepage": {
+        "url": "https://www.migros.ch/de/einkaufen/migros-marken/selection.html",
+        "name": "Homepage",
+        "type": "info",
+        "purchasable": false
+      }
+    },
+    "image": {
+      "original": "https://image.migros.ch/original/04f877657368f73f8ee8973aab7fd0cdfb8e2cd1/selection.jpg",
+      "stack": "https://image.migros.ch/{stack}/04f877657368f73f8ee8973aab7fd0cdfb8e2cd1/selection.jpg"
+    }
+  },
+  "categories": [
+    {
+      "code": "BeSS_0101190107",
+      "name": "Beeren",
+      "slug": "supermarkt/lebensmittel/fruechte-gemuese/fruechte/beeren",
+      "visible": true,
+      "parent_code": "BeSS_01011901",
+      "level": 5
+    },
+    {
+      "code": "BeSS_01011901",
+      "name": "Früchte",
+      "slug": "supermarkt/lebensmittel/fruechte-gemuese/fruechte",
+      "visible": true,
+      "title": "Früchte – in Ihrer Migros täglich frisch",
+      "parent_code": "BeSS_010119",
+      "level": 4
+    },
+    {
+      "code": "BeSS_010119",
+      "name": "Früchte & Gemüse",
+      "slug": "supermarkt/lebensmittel/fruechte-gemuese",
+      "visible": true,
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/f839060a505bba25c0f37585edb558c003c50479/fruechte-gemuese.jpg",
+        "stack": "https://image.migros.ch/{stack}/f839060a505bba25c0f37585edb558c003c50479/fruechte-gemuese.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "features": [
+    {
+      "label_code": "MISO_mussgekuehltwerden",
+      "label": "Muss gekühlt werden",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_schale",
+          "value": "Schale"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zusatzangaben",
+      "label": "Zusatzangaben",
+      "values": [
+        {
+          "value_code": "MISO_zusatzangaben_264",
+          "value": "Die Erdbeere ist botanisch gesehen keine echte Beerenart, sondern eine Sammelnussfrucht. Die eigentliche Frucht sind nämlich nicht, wie man vermuten würde, das rote Fruchtfleisch, sondern die darin verteilten Kerne."
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_verwendungszweckvonobstfruechten",
+      "label": "Verwendungszweck",
+      "values": [
+        {
+          "value_code": "MISO_verwendungszweckvonobstfruechten_7",
+          "value": "Frisch mit Rahm munden sie am besten. Kenner mögen sie mit Zitronensaft oder pikant mit schwarzem Pfeffer und Muskatnuss."
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_saison",
+      "label": "Saison",
+      "values": [
+        {
+          "value_code": "MISO_saison_maiseptember",
+          "value": "Mai - September"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/152f8178e165e41260cdefbb381c806fd329aea8/selection-erdbeeren-gariguette.jpg",
+    "stack": "https://image.migros.ch/{stack}/152f8178e165e41260cdefbb381c806fd329aea8/selection-erdbeeren-gariguette.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/888190aab48715fc2edc5572f1d36d4ecb7514c8/selection-erdbeeren-gariguette.png",
+    "stack": "https://image.migros.ch/{stack}/888190aab48715fc2edc5572f1d36d4ecb7514c8/selection-erdbeeren-gariguette.png"
+  },
+  "additional_images": [
+    {
+      "original": "https://image.migros.ch/original/24cc03161d8b18d45e8c1c15db8af8ad13dff949.jpg",
+      "stack": "https://image.migros.ch/{stack}/24cc03161d8b18d45e8c1c15db8af8ad13dff949.jpg"
+    }
+  ],
+  "internal_features": [
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZFRP",
+          "value": "Frische Beschaffung"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "2",
+          "value": "Früchte und Gemüse"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "70343",
+          "value": "ERDBEEREN/HIMBEEREN"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/265200702400",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/selection-erdbeeren-gariguette",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/265200702400",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/selection-erdbeeren-gariguette",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "updated_at": "2020-09-10T03:57:15+0200",
+  "receipt_text": "Sélec Erdb. Gariguette",
+  "price": {
+    "valid_from": "2020-04-07T00:00:00+0200",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 4.9,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "250g"
+    },
+    "base": {
+      "price": 1.96,
+      "quantity": 100,
+      "unit": "g"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 3,
+    "average_all": 2.333333333333
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

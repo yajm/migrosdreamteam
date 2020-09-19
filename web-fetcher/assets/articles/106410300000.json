@@ -1,0 +1,284 @@
+{
+  "id": "106410300000",
+  "language": "de",
+  "name": "Thomy Senf Persischer Safran",
+  "slug": "thomy-senf-persischer-safran",
+  "boss_number": "011011290520",
+  "description": {
+    "text": "<p><strong>THOMY SENF MIT PERSISCHEM SAFRAN</strong></p><p>Senf mit Safran, handgepfl&uuml;ckter persischer&nbsp;Safran, das edelste Gew&uuml;rz der Welt, verleiht ein Aroma wie aus&nbsp;1001 Nacht.</p>",
+    "source": "PIM"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "source-qim-distributor",
+    "validity-range-not-set",
+    "source-qim-fooddeclaration",
+    "source-qim-nutritionfacts",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7613036289429"
+  ],
+  "brand": {
+    "id": "402",
+    "name": "Thomy",
+    "slug": "thomy"
+  },
+  "categories": [
+    {
+      "code": "BeSS_0101140908",
+      "name": "Senf",
+      "slug": "supermarkt/lebensmittel/pasta-zutaten-konserven/suppen-saucen-bouillon/senf",
+      "visible": true,
+      "parent_code": "BeSS_01011409",
+      "image": {
+        "original": "https://image.migros.ch/original/cf55bc4c9893244fe03f2661e0302d9f7b566445/senf.jpg",
+        "stack": "https://image.migros.ch/{stack}/cf55bc4c9893244fe03f2661e0302d9f7b566445/senf.jpg"
+      },
+      "level": 5
+    },
+    {
+      "code": "BeSS_01011409",
+      "name": "Suppen, Saucen & Bouillon",
+      "slug": "supermarkt/lebensmittel/pasta-zutaten-konserven/suppen-saucen-bouillon",
+      "visible": true,
+      "title": "Bouillon in Ihrer Migros kaufen",
+      "parent_code": "BeSS_010114",
+      "image": {
+        "original": "https://image.migros.ch/original/5f7779de5b06c3e5051c0ccdb81a414859a26cf5/suppen-saucen-bouillon.jpg",
+        "stack": "https://image.migros.ch/{stack}/5f7779de5b06c3e5051c0ccdb81a414859a26cf5/suppen-saucen-bouillon.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010114",
+      "name": "Pasta, Zutaten & Konserven",
+      "slug": "supermarkt/lebensmittel/pasta-zutaten-konserven",
+      "visible": true,
+      "title": "Pasta aus Ihrer Migros: alles rund um Teigwaren",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/6d0964bbb34b8e041ba4d74fc0c90b149907f46a/pasta-zutaten-konserven.jpg",
+        "stack": "https://image.migros.ch/{stack}/6d0964bbb34b8e041ba4d74fc0c90b149907f46a/pasta-zutaten-konserven.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "features": [
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_tube",
+          "value": "Tube"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zubereitungsverfahren",
+      "label": "Hinweise für die Zubereitung",
+      "values": [
+        {
+          "value_code": "MISO_zubereitungsverfahren_zumwuerzengeeignet",
+          "value": "Zum Würzen geeignet"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_hefefrei",
+      "label": "Hefefrei",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_artvonsaucedip",
+      "label": "Art von Sauce/Dip",
+      "values": [
+        {
+          "value_code": "MISO_artvonsaucedip_senf",
+          "value": "Senf"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_hinzugefuegtezutaten",
+      "label": "Hinzugefügte Zutaten",
+      "values": [
+        {
+          "value_code": "MISO_hinzugefuegtezutaten_gewuerze",
+          "value": "Gewürze"
+        },
+        {
+          "value_code": "MISO_hinzugefuegtezutaten_safran",
+          "value": "Safran"
+        },
+        {
+          "value_code": "MISO_hinzugefuegtezutaten_senf",
+          "value": "Senf"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_eignungfuerverzehrsituation",
+      "label": "Eignung für Verzehrsituation",
+      "values": [
+        {
+          "value_code": "MISO_eignungfuerverzehrsituation_verzehrfertig",
+          "value": "Verzehrfertig"
+        },
+        {
+          "value_code": "MISO_eignungfuerverzehrsituation_zumgrillierenundwuerzengeeignet",
+          "value": "zum Grillieren und Würzen geeignet"
+        },
+        {
+          "value_code": "MISO_eignungfuerverzehrsituation_zummarinierengeeignet",
+          "value": "zum Marinieren geeignet"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_schaerfegrad",
+      "label": "Schärfegrad",
+      "values": [
+        {
+          "value_code": "MISO_schaerfegrad_mild",
+          "value": "mild"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/a57b7dbe3e51e1a5103e493f7c33c73d802df102/thomy-senf-persischer-safran.jpg",
+    "stack": "https://image.migros.ch/{stack}/a57b7dbe3e51e1a5103e493f7c33c73d802df102/thomy-senf-persischer-safran.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/ae8d1e8e95c58e9b3b7fbe0fff1fa22e5a709799/thomy-senf-persischer-safran.png",
+    "stack": "https://image.migros.ch/{stack}/ae8d1e8e95c58e9b3b7fbe0fff1fa22e5a709799/thomy-senf-persischer-safran.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "M",
+          "value": "Kolonial Standard"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "10142",
+          "value": "SENF"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/106410300000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/thomy-senf-persischer-safran",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/106410300000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/thomy-senf-persischer-safran",
+      "type": "info",
+      "purchasable": false
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/4137802",
+      "app_url": "leshop:///catalog/article/detail?ean=7613036289429",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/thomy-senf-persischer-safran",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "updated_at": "2020-09-11T05:40:56+0200",
+  "receipt_text": "Thomy Senf Safran",
+  "price": {
+    "valid_from": "2019-01-15T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 2.2,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "100g"
+    },
+    "base": {
+      "price": 2.2,
+      "quantity": 100,
+      "unit": "g"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 4,
+    "average_all": 4.5
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

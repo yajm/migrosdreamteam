@@ -1,0 +1,214 @@
+{
+  "id": "233030391000",
+  "language": "de",
+  "name": "Rapelli Pancetta gerollt",
+  "slug": "rapelli-pancetta-gerollt",
+  "boss_number": "040114512020",
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "2135360000006",
+    "7617027522885"
+  ],
+  "brand": {
+    "id": "470",
+    "name": "Rapelli",
+    "slug": "rapelli"
+  },
+  "labels": [
+    {
+      "id": "L53",
+      "name": "Swissness",
+      "slug": "swissness",
+      "image": {
+        "original": "https://image.migros.ch/original/d771bba2f6b08ba42970ea0243c6f8c5a8832f15/swissness.jpg",
+        "stack": "https://image.migros.ch/{stack}/d771bba2f6b08ba42970ea0243c6f8c5a8832f15/swissness.jpg"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_0101061401",
+      "name": "Rohessspeck",
+      "slug": "supermarkt/lebensmittel/fleisch/salami-speck/rohessspeck",
+      "visible": true,
+      "parent_code": "BeSS_01010614",
+      "image": {
+        "original": "https://image.migros.ch/original/abd477a60483328eac260f5bffa5d44121a7a1bb/rohessspeck.jpg",
+        "stack": "https://image.migros.ch/{stack}/abd477a60483328eac260f5bffa5d44121a7a1bb/rohessspeck.jpg"
+      },
+      "level": 5
+    },
+    {
+      "code": "BeSS_01010614",
+      "name": "Salami & Speck",
+      "slug": "supermarkt/lebensmittel/fleisch/salami-speck",
+      "visible": true,
+      "title": "Schmackhafte Salami und Speck in Ihrer Migros-Filiale",
+      "parent_code": "BeSS_010106",
+      "image": {
+        "original": "https://image.migros.ch/original/aa9f6cdab5a203c9d83a5f855477bec14d9a0af0/salami-speck.jpg",
+        "stack": "https://image.migros.ch/{stack}/aa9f6cdab5a203c9d83a5f855477bec14d9a0af0/salami-speck.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010106",
+      "name": "Fleisch",
+      "slug": "supermarkt/lebensmittel/fleisch",
+      "visible": true,
+      "title": "Fleisch ausgezeichneter Qualität aus Ihrer Migros: einfach gut",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/03d32c0880d7a9ea6e58971966032e65ac442b58/fleisch.jpg",
+        "stack": "https://image.migros.ch/{stack}/03d32c0880d7a9ea6e58971966032e65ac442b58/fleisch.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/fdc4a04805fa0ed4518e5cf2880e53215f3c3f43/rapelli-pancetta-gerollt.jpg",
+    "stack": "https://image.migros.ch/{stack}/fdc4a04805fa0ed4518e5cf2880e53215f3c3f43/rapelli-pancetta-gerollt.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/e4a3627e06ef4f9c97be460212d3db93595e3851/rapelli-pancetta-gerollt.png",
+    "stack": "https://image.migros.ch/{stack}/e4a3627e06ef4f9c97be460212d3db93595e3851/rapelli-pancetta-gerollt.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_minimal-gewicht",
+      "label": "Minimal-Gewicht",
+      "values": [
+        {
+          "value_code": "NUMERIC_130.0",
+          "value": "130.0 g",
+          "numeric_value": 130
+        }
+      ],
+      "top_fact": false,
+      "unit_code": "g",
+      "unit": "Gramm",
+      "unit_symbol": "g"
+    },
+    {
+      "label_code": "MISO_aMigos_maximal-gewicht",
+      "label": "Maximal-Gewicht",
+      "values": [
+        {
+          "value_code": "NUMERIC_145.0",
+          "value": "145.0 g",
+          "numeric_value": 145
+        }
+      ],
+      "top_fact": false,
+      "unit_code": "g",
+      "unit": "Gramm",
+      "unit_symbol": "g"
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZFRP",
+          "value": "Frische Beschaffung"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "6",
+          "value": "Fleisch-Fisch-Geflüg"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "71235",
+          "value": "ROHESSPECK"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/233030391000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/rapelli-pancetta-gerollt",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/233030391000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/rapelli-pancetta-gerollt",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "updated_at": "2020-09-16T05:52:42+0200",
+  "receipt_text": "Pancetta gerollt",
+  "price": {
+    "valid_from": "2019-12-09T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "source": "PriceRepository",
+    "no_price_hint": "Aktueller Tagespreis"
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 1,
+    "average_all": 4
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

@@ -1,0 +1,470 @@
+{
+  "id": "107162900000",
+  "language": "de",
+  "name": "Noblesse Café Zaun Glas 100g",
+  "slug": "noblesse-cafe-zaun-glas-100g",
+  "boss_number": "010310305610",
+  "description": {
+    "text": "L&ouml;slicher Kaffee, entkoffeniert und volles Aroma",
+    "source": "PIM"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "source-qim-origins",
+    "validity-range-not-set",
+    "source-qim-fooddeclaration",
+    "leshop-discounted",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7613312131107",
+    "7610121000457"
+  ],
+  "brand": {
+    "id": "J21",
+    "name": "Café Zaun",
+    "slug": "cafe-zaun"
+  },
+  "labels": [
+    {
+      "id": "L34",
+      "name": "UTZ",
+      "slug": "utz",
+      "image": {
+        "original": "https://image.migros.ch/original/64192d97b7770d351f5bbe89a57c9f614e529150/utz.jpg",
+        "stack": "https://image.migros.ch/{stack}/64192d97b7770d351f5bbe89a57c9f614e529150/utz.jpg"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_0101100103",
+      "name": "Instantkaffee",
+      "slug": "supermarkt/lebensmittel/getraenke-heiss-kalt/kaffee/instantkaffee",
+      "visible": true,
+      "parent_code": "BeSS_01011001",
+      "image": {
+        "original": "https://image.migros.ch/original/59719c8f8756d4b1718ad9f8351e8414931b1cdb/instantkaffee.jpg",
+        "stack": "https://image.migros.ch/{stack}/59719c8f8756d4b1718ad9f8351e8414931b1cdb/instantkaffee.jpg"
+      },
+      "level": 5
+    },
+    {
+      "code": "BeSS_01011001",
+      "name": "Kaffee",
+      "slug": "supermarkt/lebensmittel/getraenke-heiss-kalt/kaffee",
+      "visible": true,
+      "title": "Das schwarze Gold der Geniesser: Kaffee bei der Migros",
+      "parent_code": "BeSS_010110",
+      "image": {
+        "original": "https://image.migros.ch/original/be9ca8bc37911ac3d695139eadc7cb2446fd5974/kaffee.jpg",
+        "stack": "https://image.migros.ch/{stack}/be9ca8bc37911ac3d695139eadc7cb2446fd5974/kaffee.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010110",
+      "name": "Getränke heiss & kalt",
+      "slug": "supermarkt/lebensmittel/getraenke-heiss-kalt",
+      "visible": true,
+      "title": "Getränke aus der Migros löschen auch Ihren Durst",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/d04d95fbc2e1b4ada4783d2976d37a962a0318a1/getraenke-heiss-kalt.jpg",
+        "stack": "https://image.migros.ch/{stack}/d04d95fbc2e1b4ada4783d2976d37a962a0318a1/getraenke-heiss-kalt.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "features": [
+    {
+      "label_code": "MISO_anzahlentnehmbarereinzelportionen",
+      "label": "Anzahl entnehmbarer Einzeleinheiten",
+      "values": [
+        {
+          "value_code": "NUMERIC_50.0",
+          "value": "50.0",
+          "numeric_value": 50
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_glastiegel",
+          "value": "Glastiegel"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zubereitungsverfahren",
+      "label": "Hinweise für die Zubereitung",
+      "values": [
+        {
+          "value_code": "MISO_zubereitungsverfahren_heisseswasserhinzugeben",
+          "value": "Heisses Wasser hinzugeben"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_verwendung",
+      "label": "Verwendung",
+      "values": [
+        {
+          "value_code": "MISO_verwendung_instant",
+          "value": "Instant"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_botanischesorte",
+      "label": "Botanische Sorte",
+      "values": [
+        {
+          "value_code": "MISO_botanischesorte_arabica",
+          "value": "Arabica"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_entkoffeiniert",
+      "label": "Entkoffeiniert",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_formbeschaffenheitdeskaffees",
+      "label": "Form/Beschaffenheit des Kaffees",
+      "values": [
+        {
+          "value_code": "MISO_formbeschaffenheitdeskaffees_granulat",
+          "value": "Granulat"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_herkunftdeskaffees",
+      "label": "Herkunft des Kaffees",
+      "values": [
+        {
+          "value_code": "MISO_Herkunftsland_Asien",
+          "value": "Asien"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zubereitungdeskaffees",
+      "label": "Zubereitung des Kaffees",
+      "values": [
+        {
+          "value_code": "MISO_zubereitungdeskaffees_lose",
+          "value": "lose"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_instant",
+      "label": "Instant",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_sortedeskaffees",
+      "label": "Sorte des Kaffees",
+      "values": [
+        {
+          "value_code": "MISO_sortedeskaffees_decaffeinato",
+          "value": "Decaffeinato"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_wiederverschliessbar",
+      "label": "Wiederverschliessbar",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_moeglichevewendungsmengeintassen",
+      "label": "Mögliche Vewendungsmenge in Tassen",
+      "values": [
+        {
+          "value_code": "NUMERIC_50",
+          "value": "50",
+          "numeric_value": 50
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_staerke15",
+      "label": "Stärke (1-5)",
+      "values": [
+        {
+          "value_code": "NUMERIC_2.0",
+          "value": "2.0",
+          "numeric_value": 2
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_tassengroesse",
+      "label": "Tassengrösse",
+      "values": [
+        {
+          "value_code": "MISO_tassengroesse_espresso_50ml",
+          "value": "Espresso (50ml)"
+        },
+        {
+          "value_code": "MISO_tassengroesse_lungo_120ml",
+          "value": "Lungo (120ml)"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_koffein",
+      "label": "Koffein",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "Nein",
+          "boolean_value": false
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/650bfe0f738712c8ec4ce764dec0e5b94d445ae0/noblesse-cafe-zaun-glas-100g.jpg",
+    "stack": "https://image.migros.ch/{stack}/650bfe0f738712c8ec4ce764dec0e5b94d445ae0/noblesse-cafe-zaun-glas-100g.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/1ea7a374d55889fa0b9212e26e56a4a2cf6c7e0e/noblesse-cafe-zaun-glas-100g.png",
+    "stack": "https://image.migros.ch/{stack}/1ea7a374d55889fa0b9212e26e56a4a2cf6c7e0e/noblesse-cafe-zaun-glas-100g.png"
+  },
+  "additional_images": [
+    {
+      "original": "https://image.migros.ch/original/1f0f3543ce9ace4f5ca6fe8d3567bfc711a8b3bd.jpg",
+      "stack": "https://image.migros.ch/{stack}/1f0f3543ce9ace4f5ca6fe8d3567bfc711a8b3bd.jpg"
+    }
+  ],
+  "internal_features": [
+    {
+      "label_code": "MISO_intensitaet",
+      "label": "Intensität",
+      "values": [
+        {
+          "value_code": "MISO_intensitaet_mild",
+          "value": "Mild"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_intensitaet",
+      "label": "Intensität",
+      "values": [
+        {
+          "value_code": "MISO_intensitaet_mild",
+          "value": "Mild"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "M",
+          "value": "Kolonial Standard"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "10385",
+          "value": "INSTANTKAFFEE REIN"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/107162900000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/noblesse-cafe-zaun-glas-100g",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/107162900000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/noblesse-cafe-zaun-glas-100g",
+      "type": "info",
+      "purchasable": false
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/4963614",
+      "app_url": "leshop:///catalog/article/detail?ean=7613312131107",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/noblesse-cafe-zaun-glas-100g",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "updated_at": "2020-09-16T06:51:20+0200",
+  "receipt_text": "Café Zaun 100g Glas",
+  "price": {
+    "valid_from": "2020-09-15T00:00:00+0200",
+    "valid_to": "2020-09-21T23:59:59+0200",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 5.7,
+      "original_price": 7.1,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "100g"
+    },
+    "discount": {
+      "id": "1448000",
+      "region": "national",
+      "start_date": "2020-09-15T00:00:00+0200",
+      "end_date": "2020-09-21T23:59:59+0200",
+      "publication_date": "2020-09-13T00:00:00+0200",
+      "discount_amount": "20%",
+      "discount_regions": [
+        "national"
+      ],
+      "reference_product_id": "107157900000",
+      "discount_type": "aktion",
+      "discount_type_id": "001",
+      "discount_type_label": "SA Sonderangebot",
+      "organisation": "02",
+      "cooperative": "mgb",
+      "image": {
+        "tags": [
+          "list-image"
+        ],
+        "original": "https://image.migros.ch/original/9ec143b78c0ae0affe248763258e4b55dcb8e756/alle-instant-kaffees-utz.jpg",
+        "source": "PriceRepository",
+        "stack": "https://image.migros.ch/{stack}/9ec143b78c0ae0affe248763258e4b55dcb8e756/alle-instant-kaffees-utz.jpg"
+      },
+      "image_transparent": {
+        "original": "https://image.migros.ch/original/9ec143b78c0ae0affe248763258e4b55dcb8e756/alle-instant-kaffees-utz.png",
+        "source": "PriceRepository",
+        "stack": "https://image.migros.ch/{stack}/9ec143b78c0ae0affe248763258e4b55dcb8e756/alle-instant-kaffees-utz.png"
+      },
+      "logo": {
+        "original": "https://image.migros.ch/original/63992097c0ab00749a21c1906dc38d8bf3373398.png",
+        "source": "PriceRepository",
+        "stack": "https://image.migros.ch/{stack}/63992097c0ab00749a21c1906dc38d8bf3373398.png"
+      },
+      "badge": {
+        "original": "https://image.migros.ch/original/0633530dd39bda4f1496c8c8aa5ac1d66f227594.png",
+        "stack": "https://image.migros.ch/{stack}/0633530dd39bda4f1496c8c8aa5ac1d66f227594.png"
+      },
+      "location_planning_type": "01",
+      "reduction_type_id": "01",
+      "special_advertisement": false,
+      "advertisement_type_id": "2",
+      "description": "Alle Instant-Kaffees, UTZ",
+      "discount_hint": "(ohne Nescafé), z.B. Cafino Classic, Beutel, 550 g, <strong>8.75 </strong>statt 10.95, Angebot gilt nur vom 15.9. bis 21.9.2020, solange Vorrat.",
+      "high_performer": false,
+      "collective_discount": true,
+      "instead_of": "statt",
+      "price": 5.7,
+      "original_price": 7.1,
+      "disclaimer": "Gültigkeit siehe Angebots-Detailseite.\r\nBei allen Angeboten sind M-Budget und bereits reduzierte Artikel ausgenommen.\r\nBei Aktionen können bei der Verrechnung auf dem Kassabon Rundungsdifferenzen zu Gunsten des Kunden entstehen.",
+      "source": "PriceRepository",
+      "boss_number": "010310306605",
+      "discount_role_id": "2000000002",
+      "discount_role_label": "M: Wochenangebot Typ I",
+      "last_imported": "2020-09-07T15:15:07+0200"
+    },
+    "discount_hint": "Angebot gilt nur vom 15.9. bis 21.9.2020, solange Vorrat."
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 5,
+    "average_all": 5
+  },
+  "reindex_date": "2020-09-21T23:59:59+0200"
+}

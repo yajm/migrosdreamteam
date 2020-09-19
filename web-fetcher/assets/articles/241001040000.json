@@ -1,0 +1,331 @@
+{
+  "id": "241001040000",
+  "language": "de",
+  "name": "Optigal Poulet GMNF",
+  "slug": "optigal-poulet-gmnf",
+  "boss_number": "040314332005",
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "validity-range-not-set",
+    "filter-aus-der-region",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "2139977000008",
+    "7617023010089"
+  ],
+  "brand": {
+    "id": "466",
+    "name": "Optigal",
+    "slug": "optigal",
+    "image": {
+      "original": "https://image.migros.ch/original/b8f0717003093571737989d3593f3af1249bce67/optigal.jpg",
+      "stack": "https://image.migros.ch/{stack}/b8f0717003093571737989d3593f3af1249bce67/optigal.jpg"
+    }
+  },
+  "labels": [
+    {
+      "id": "L53",
+      "name": "Swissness",
+      "slug": "swissness",
+      "image": {
+        "original": "https://image.migros.ch/original/d771bba2f6b08ba42970ea0243c6f8c5a8832f15/swissness.jpg",
+        "stack": "https://image.migros.ch/{stack}/d771bba2f6b08ba42970ea0243c6f8c5a8832f15/swissness.jpg"
+      }
+    },
+    {
+      "id": "L28",
+      "name": "Aus der Region",
+      "slug": "aus-der-region",
+      "image": {
+        "original": "https://image.migros.ch/original/28068cd4d6e174c8ec75906797af89b64170c43f/aus-der-region.jpg",
+        "stack": "https://image.migros.ch/{stack}/28068cd4d6e174c8ec75906797af89b64170c43f/aus-der-region.jpg"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_01010607",
+      "name": "Geflügel",
+      "slug": "supermarkt/lebensmittel/fleisch/gefluegel",
+      "visible": true,
+      "title": "Geflügel jetzt aus Ihrer Migros",
+      "parent_code": "BeSS_010106",
+      "image": {
+        "original": "https://image.migros.ch/original/c6d714f520b6147d78e2f73138da462944b3bc66/gefluegel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c6d714f520b6147d78e2f73138da462944b3bc66/gefluegel.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010106",
+      "name": "Fleisch",
+      "slug": "supermarkt/lebensmittel/fleisch",
+      "visible": true,
+      "title": "Fleisch ausgezeichneter Qualität aus Ihrer Migros: einfach gut",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/03d32c0880d7a9ea6e58971966032e65ac442b58/fleisch.jpg",
+        "stack": "https://image.migros.ch/{stack}/03d32c0880d7a9ea6e58971966032e65ac442b58/fleisch.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "features": [
+    {
+      "label_code": "MISO_mussgekuehltwerden",
+      "label": "Muss gekühlt werden",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_produktionsanspruch",
+      "label": "Produktionsverfahren",
+      "values": [
+        {
+          "value_code": "MISO_produktionsanspruch_ausderregion",
+          "value": "Aus der Region"
+        },
+        {
+          "value_code": "MISO_produktionsanspruch_roh",
+          "value": "Roh"
+        },
+        {
+          "value_code": "MISO_produktionsanspruch_schweizerfleisch",
+          "value": "Schweizer Fleisch"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_kunststoffverpackung",
+          "value": "Kunststoff-Verpackung"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zubereitungsverfahren",
+      "label": "Hinweise für die Zubereitung",
+      "values": [
+        {
+          "value_code": "MISO_zubereitungsverfahren_braten",
+          "value": "Braten"
+        },
+        {
+          "value_code": "MISO_zubereitungsverfahren_zumgekochtessen",
+          "value": "Zum Gekochtessen"
+        },
+        {
+          "value_code": "MISO_zubereitungsverfahren_zumgrillierengeeignet",
+          "value": "Zum Grillieren geeignet"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zusatzangaben",
+      "label": "Zusatzangaben",
+      "values": [
+        {
+          "value_code": "MISO_zusatzangaben_31",
+          "value": "Gekühlt aufbewahren bei max. +5 Grad C."
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_tierartodergattung",
+      "label": "Tierart oder Gattung",
+      "values": [
+        {
+          "value_code": "MISO_tierartodergattung_poulet",
+          "value": "Poulet"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_verpackungsform",
+      "label": "Verpackungsform",
+      "values": [
+        {
+          "value_code": "MISO_verpackungsform_stretchfolie",
+          "value": "Stretchfolie"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zubereitungsform",
+      "label": "Zubereitungsform",
+      "values": [
+        {
+          "value_code": "MISO_zubereitungsform_mithaut",
+          "value": "Mit Haut"
+        },
+        {
+          "value_code": "MISO_zubereitungsform_mitknochen",
+          "value": "mit Knochen"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_herstellungsverfahrenvonfleisch",
+      "label": "Herstellungsverfahren von Fleisch",
+      "values": [
+        {
+          "value_code": "MISO_herstellungsverfahrenvonfleisch_roh",
+          "value": "roh"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_tierwohlmehrwert",
+      "label": "Tierwohl Mehrwert",
+      "values": [
+        {
+          "value_code": "MISO_tierwohlmehrwert_besonderstierfreundlichestallungenmitauslaufwintergartenrueckverfolgbarbiszumbauerherkunftch",
+          "value": "Besonders tierfreundliche Stallungen mit Auslauf in einen Wintergarten. Rückverfolgbar bis zum Bauer. Herkunft CH"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/f3b16957ff528e9e0391eef817cc4c46d3e21f75/optigal-poulet-gmnf.jpg",
+    "stack": "https://image.migros.ch/{stack}/f3b16957ff528e9e0391eef817cc4c46d3e21f75/optigal-poulet-gmnf.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/ca7de4f4d1283d412499f0245b28efed2b205a2a/optigal-poulet-gmnf.png",
+    "stack": "https://image.migros.ch/{stack}/ca7de4f4d1283d412499f0245b28efed2b205a2a/optigal-poulet-gmnf.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZFRP",
+          "value": "Frische Beschaffung"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "6",
+          "value": "Fleisch-Fisch-Geflüg"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "71283",
+          "value": "GANZ"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/241001040000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/optigal-poulet-gmnf",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/241001040000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/optigal-poulet-gmnf",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "updated_at": "2020-09-16T05:51:52+0200",
+  "receipt_text": "Poulet GMNF",
+  "m_check": [
+    {
+      "label": "Tierwohl",
+      "label_code": "MISO_MCheck_tierwohl",
+      "value_code": "MISO_MCheck_tierwohl_gefluegel_V1",
+      "value": "Besonders tierfreundliche Stallhaltung",
+      "link": "https://generation-m.migros.ch/de/nachhaltig-leben/m-check.html#heading-tierwohl-gefluegel-schweizer-tierschutz-vorschriften",
+      "image": {
+        "original": "https://image.migros.ch/original/e0c52dc6d6f7ee22b9d336174bc28d6b6611595d/besonders-tierfreundliche-stallhaltung.jpg",
+        "code": "MISO_MCheck_tierwohl_gefluegel_V1",
+        "description": "Besonders tierfreundliche Stallhaltung",
+        "stack": "https://image.migros.ch/{stack}/e0c52dc6d6f7ee22b9d336174bc28d6b6611595d/besonders-tierfreundliche-stallhaltung.jpg"
+      }
+    }
+  ],
+  "price": {
+    "valid_from": "2018-01-30T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 9.5,
+      "quantity": 1,
+      "unit": "KG",
+      "varying_quantity": true,
+      "display_quantity": "per kg"
+    },
+    "base": {
+      "price": 0.95,
+      "quantity": 100,
+      "unit": "g"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

@@ -1,0 +1,254 @@
+{
+  "id": "105211800000",
+  "language": "de",
+  "name": "Sun Queen Studentenfutter",
+  "slug": "sun-queen-studentenfutter-105211800000",
+  "boss_number": "010410241505",
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "source-qim-allergens",
+    "source-qim-fooddeclaration",
+    "source-qim-nutritionfacts",
+    "source-qim-origins",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7613312297223"
+  ],
+  "brand": {
+    "id": "178",
+    "name": "Sun Queen",
+    "slug": "sun-queen",
+    "image": {
+      "original": "https://image.migros.ch/original/6035c048bc686d3e8e595bd52f53b7732470d741/sun-queen.jpg",
+      "stack": "https://image.migros.ch/{stack}/6035c048bc686d3e8e595bd52f53b7732470d741/sun-queen.jpg"
+    }
+  },
+  "categories": [
+    {
+      "code": "BeSS_0101030903",
+      "name": "Nüsse & Trockenfrüchte",
+      "slug": "supermarkt/lebensmittel/baeckerei-confiserie-backen/backzutaten/nuesse-trockenfruechte",
+      "visible": true,
+      "title": "Nüsse und Trockenfrüchte in der Migros kaufen",
+      "parent_code": "BeSS_01010309",
+      "image": {
+        "original": "https://image.migros.ch/original/d0db63260c4a2577e990dd7c4e5b2902db80742c/nuesse-trockenfruechte.jpg",
+        "stack": "https://image.migros.ch/{stack}/d0db63260c4a2577e990dd7c4e5b2902db80742c/nuesse-trockenfruechte.jpg"
+      },
+      "level": 5
+    },
+    {
+      "code": "BeSS_01010309",
+      "name": "Backzutaten",
+      "slug": "supermarkt/lebensmittel/baeckerei-confiserie-backen/backzutaten",
+      "visible": true,
+      "title": "Backzutaten von der Migros &ndash; Feines für den Ofen",
+      "parent_code": "BeSS_010103",
+      "image": {
+        "original": "https://image.migros.ch/original/7f4777fff65971e62d70347f2563db0eba17376b/backzutaten.jpg",
+        "stack": "https://image.migros.ch/{stack}/7f4777fff65971e62d70347f2563db0eba17376b/backzutaten.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010103",
+      "name": "Bäckerei, Confiserie & Backen",
+      "slug": "supermarkt/lebensmittel/baeckerei-confiserie-backen",
+      "visible": true,
+      "title": "Backen macht Freude! Alle Zutaten finden Sie in Ihrer Migros",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/04b41cd6f4daedf3061a2a37617d48e992760b35/baeckerei-confiserie-backen.jpg",
+        "stack": "https://image.migros.ch/{stack}/04b41cd6f4daedf3061a2a37617d48e992760b35/baeckerei-confiserie-backen.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_Trockenfruechte_FruechteGemuese",
+        "name": "Trockenfrüchte",
+        "slug": "amigos/fruechte-gemuese/trockenfruechte",
+        "visible": true,
+        "parent_code": "AMIG_CAT_FruechteGemuese",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_FruechteGemuese",
+        "name": "Früchte & Gemüse",
+        "slug": "amigos/fruechte-gemuese",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "features": [
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_wiederverschliessbarerzipbeutel",
+          "value": "Wiederverschliessbarer ZIP-Beutel"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zusatzangaben",
+      "label": "Zusatzangaben",
+      "values": [
+        {
+          "value_code": "MISO_zusatzangaben_327",
+          "value": "Trotz sorgfältiger Verarbeitung kann das Produkt Schalenteile enthalten."
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/0db322160b7c4614b1e6335aadbaadedac9c0834/sun-queen-studentenfutter.jpg",
+    "stack": "https://image.migros.ch/{stack}/0db322160b7c4614b1e6335aadbaadedac9c0834/sun-queen-studentenfutter.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/7ee4518208f3fabf8d52d2262bc86adb33915553/sun-queen-studentenfutter.png",
+    "stack": "https://image.migros.ch/{stack}/7ee4518208f3fabf8d52d2262bc86adb33915553/sun-queen-studentenfutter.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "M",
+          "value": "Kolonial Standard"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "10401",
+          "value": "TROCKENFRUECHTEMISCHUNGEN"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/105211800000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/sun-queen-studentenfutter-105211800000",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/105211800000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/sun-queen-studentenfutter-105211800000",
+      "type": "info",
+      "purchasable": false
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/5310889",
+      "app_url": "leshop:///catalog/article/detail?ean=7613312297223",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/sun-queen-studentenfutter-105211800000",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "updated_at": "2020-09-16T06:48:20+0200",
+  "receipt_text": "Sun Queen Studentenfut",
+  "price": {
+    "valid_from": "2020-02-15T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 2.7,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "200g"
+    },
+    "base": {
+      "price": 1.35,
+      "quantity": 100,
+      "unit": "g"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 1,
+    "average_all": 5
+  },
+  "allergen_text": "DE: Kann andere Schalenfrüchte (Nüsse) und Erdnüsse enthalten.",
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

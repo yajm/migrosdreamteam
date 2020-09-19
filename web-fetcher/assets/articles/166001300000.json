@@ -1,0 +1,303 @@
+{
+  "id": "166001300000",
+  "language": "de",
+  "name": "Don Pollo Délice Poulet",
+  "slug": "don-pollo-delice-poulet",
+  "boss_number": "010510721105",
+  "description": {
+    "text": "Erzeugnis aus Pouletfleischst&uuml;cken zusammengef&uuml;gt, gef&uuml;llt, mit Trutenfleischerzeugnis und Schmelzk&auml;se, paniert, vorfrittiert, zum Erhitztessen",
+    "source": "PIM"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "source-qim-origins",
+    "validity-range-not-set",
+    "source-qim-allergens",
+    "source-qim-fooddeclaration",
+    "source-qim-nutritionfacts",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7613312291047",
+    "7611521031393",
+    "7613312233665",
+    "7613269302292"
+  ],
+  "brand": {
+    "id": "433",
+    "name": "Don Pollo",
+    "slug": "don-pollo"
+  },
+  "categories": [
+    {
+      "code": "BeSS_0101150304",
+      "name": "Geflügel",
+      "slug": "supermarkt/lebensmittel/tiefkuehlprodukte/fleisch/gefluegel",
+      "visible": true,
+      "title": "Feines Tiefkühl-Geflügel bei Ihrer Migros",
+      "parent_code": "BeSS_01011503",
+      "image": {
+        "original": "https://image.migros.ch/original/3e4e54c069e6dcdb8019ddfff2f3283c73a89283/gefluegel.jpg",
+        "stack": "https://image.migros.ch/{stack}/3e4e54c069e6dcdb8019ddfff2f3283c73a89283/gefluegel.jpg"
+      },
+      "level": 5
+    },
+    {
+      "code": "BeSS_01011503",
+      "name": "Fleisch",
+      "slug": "supermarkt/lebensmittel/tiefkuehlprodukte/fleisch",
+      "visible": true,
+      "title": "Tiefkühlfleisch in Ihrer Migros kaufen",
+      "parent_code": "BeSS_010115",
+      "level": 4
+    },
+    {
+      "code": "BeSS_010115",
+      "name": "Tiefkühlprodukte",
+      "slug": "supermarkt/lebensmittel/tiefkuehlprodukte",
+      "visible": true,
+      "title": "Tiefkühlprodukte aus Ihrer Migros: schnell etwas Feines auf Ihren Tisch",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/b8e389701dd44ecdd5fbc95db5eed9b0a8c4a03d/tiefkuehlprodukte.jpg",
+        "stack": "https://image.migros.ch/{stack}/b8e389701dd44ecdd5fbc95db5eed9b0a8c4a03d/tiefkuehlprodukte.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "features": [
+    {
+      "label_code": "MISO_produktionsanspruch",
+      "label": "Produktionsverfahren",
+      "values": [
+        {
+          "value_code": "MISO_produktionsanspruch_vorfrittiert",
+          "value": "Vorfrittiert"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_anzahlentnehmbarereinzelportionen",
+      "label": "Anzahl entnehmbarer Einzeleinheiten",
+      "values": [
+        {
+          "value_code": "NUMERIC_6.0",
+          "value": "6.0",
+          "numeric_value": 6
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_beutelsack",
+          "value": "Beutel/Sack"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zubereitungsverfahren",
+      "label": "Hinweise für die Zubereitung",
+      "values": [
+        {
+          "value_code": "MISO_zubereitungsverfahren_backen",
+          "value": "Backen"
+        },
+        {
+          "value_code": "MISO_zubereitungsverfahren_braten",
+          "value": "Braten"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_fleischform",
+      "label": "Fleischform bearbeitet",
+      "values": [
+        {
+          "value_code": "MISO_fleischform_zusammengefuegt",
+          "value": "Zusammengefügt"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_primaerezusaetze",
+      "label": "Primäre Zusätze",
+      "values": [
+        {
+          "value_code": "MISO_primaerezusaetze_schmelzkaese",
+          "value": "Schmelzkäse"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_tierartodergattung",
+      "label": "Tierart oder Gattung",
+      "values": [
+        {
+          "value_code": "MISO_tierartodergattung_poulet",
+          "value": "Poulet"
+        },
+        {
+          "value_code": "MISO_tierartodergattung_truthahn",
+          "value": "Truthahn"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_herstellungsverfahrenvonfleisch",
+      "label": "Herstellungsverfahren von Fleisch",
+      "values": [
+        {
+          "value_code": "MISO_herstellungsverfahrenvonfleisch_vorfrittiert",
+          "value": "Vorfrittiert"
+        },
+        {
+          "value_code": "MISO_herstellungsverfahrenvonfleisch_paniert",
+          "value": "paniert"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_artderummantelung",
+      "label": "Art der Ummantelung",
+      "values": [
+        {
+          "value_code": "MISO_artderummantelung_panade",
+          "value": "Panade"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/d0634132f9dc85cdc57e09ed3b78bd93a3a7065f/don-pollo-delice-poulet.jpg",
+    "stack": "https://image.migros.ch/{stack}/d0634132f9dc85cdc57e09ed3b78bd93a3a7065f/don-pollo-delice-poulet.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/65e0b2f0fee708a2395a6cc740407bdda812b619/don-pollo-delice-poulet.png",
+    "stack": "https://image.migros.ch/{stack}/65e0b2f0fee708a2395a6cc740407bdda812b619/don-pollo-delice-poulet.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "M",
+          "value": "Kolonial Standard"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "30171",
+          "value": "TK GEFLUEGEL PANIERT"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/166001300000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/don-pollo-delice-poulet",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/166001300000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/don-pollo-delice-poulet",
+      "type": "info",
+      "purchasable": false
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/94594",
+      "app_url": "leshop:///catalog/article/detail?ean=7613312291047",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/don-pollo-delice-poulet",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "updated_at": "2020-09-16T05:47:19+0200",
+  "receipt_text": "Poulet  Délice 750g",
+  "price": {
+    "valid_from": "2018-08-01T00:00:00+0200",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 10.5,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "750g"
+    },
+    "base": {
+      "price": 1.4,
+      "quantity": 100,
+      "unit": "g"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 15,
+    "average_all": 2.636363636364
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

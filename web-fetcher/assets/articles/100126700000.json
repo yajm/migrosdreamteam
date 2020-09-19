@@ -1,0 +1,387 @@
+{
+  "id": "100126700000",
+  "language": "de",
+  "name": "Mahony Dark 55%",
+  "slug": "mahony-dark-55",
+  "boss_number": "010110010620",
+  "description": {
+    "text": "Edelschokolade mit Honig-Mandel-Nougat.. Mahony steht f&uuml;r die Kombination aus feinster Schweizer Schokolade und delizi&ouml;sem Honig-Mandel-Nougat. Die spezielle Form passt hervorragend zur speziellen Schokolade. St&uuml;ck f&uuml;r St&uuml;ck eine Gaumenfreude mit einer Vielzahl von Aromen.",
+    "source": "PIM"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7616500912922"
+  ],
+  "brand": {
+    "id": "062",
+    "name": "Frey",
+    "slug": "frey",
+    "links": {
+      "homepage": {
+        "url": "http://www.chocolatfrey.ch/de",
+        "name": "Homepage",
+        "type": "info",
+        "purchasable": false
+      }
+    },
+    "image": {
+      "original": "https://image.migros.ch/original/0f240825beceb0ba78936de6bce6939efdfd3f26/frey.jpg",
+      "stack": "https://image.migros.ch/{stack}/0f240825beceb0ba78936de6bce6939efdfd3f26/frey.jpg"
+    }
+  },
+  "labels": [
+    {
+      "id": "L53",
+      "name": "Swissness",
+      "slug": "swissness",
+      "image": {
+        "original": "https://image.migros.ch/original/d771bba2f6b08ba42970ea0243c6f8c5a8832f15/swissness.jpg",
+        "stack": "https://image.migros.ch/{stack}/d771bba2f6b08ba42970ea0243c6f8c5a8832f15/swissness.jpg"
+      }
+    },
+    {
+      "id": "L34",
+      "name": "UTZ",
+      "slug": "utz",
+      "image": {
+        "original": "https://image.migros.ch/original/64192d97b7770d351f5bbe89a57c9f614e529150/utz.jpg",
+        "stack": "https://image.migros.ch/{stack}/64192d97b7770d351f5bbe89a57c9f614e529150/utz.jpg"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_0101082102",
+      "name": "Schokoriegel & Branches",
+      "slug": "supermarkt/lebensmittel/suessigkeiten/schokolade/schokoriegel-branches",
+      "visible": true,
+      "title": "Schokoriegel und Branches zu günstigen Preisen in Ihrer Migros",
+      "parent_code": "BeSS_01010821",
+      "level": 5
+    },
+    {
+      "code": "BeSS_01010821",
+      "name": "Schokolade",
+      "slug": "supermarkt/lebensmittel/suessigkeiten/schokolade",
+      "visible": true,
+      "parent_code": "BeSS_010108",
+      "level": 4
+    },
+    {
+      "code": "BeSS_010108",
+      "name": "Süssigkeiten",
+      "slug": "supermarkt/lebensmittel/suessigkeiten",
+      "visible": true,
+      "title": "Süssigkeiten aus Ihrer Migros: für Naschkatzen und Schleckmäuler",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/a9c80f4e896b5ebdd3b7ebbee11f956c8ff157cf/suessigkeiten.jpg",
+        "stack": "https://image.migros.ch/{stack}/a9c80f4e896b5ebdd3b7ebbee11f956c8ff157cf/suessigkeiten.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_Riegel_RiegelSchokoladensnacks_SchokoladenSuessigkeiten",
+        "name": "Riegel",
+        "slug": "amigos/schokoladen-suessigkeiten/riegel-schokoladensnacks/riegel",
+        "visible": true,
+        "parent_code": "AMIG_CAT_RiegelSchokoladensnacks_SchokoladenSuessigkeiten",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_RiegelSchokoladensnacks_SchokoladenSuessigkeiten",
+        "name": "Riegel & Schokoladensnacks",
+        "slug": "amigos/schokoladen-suessigkeiten/riegel-schokoladensnacks",
+        "visible": true,
+        "parent_code": "AMIG_CAT_SchokoladenSuessigkeiten",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_SchokoladenSuessigkeiten",
+        "name": "Schokoladen & Süssigkeiten",
+        "slug": "amigos/schokoladen-suessigkeiten",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "features": [
+    {
+      "label_code": "MISO_anzahlentnehmbarereinzelportionen",
+      "label": "Anzahl entnehmbarer Einzeleinheiten",
+      "values": [
+        {
+          "value_code": "NUMERIC_1.0",
+          "value": "1.0",
+          "numeric_value": 1
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_schachtel",
+          "value": "Schachtel"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_Lebensmittel_Schokolade_Sortiment",
+      "label": "Sortiment",
+      "values": [
+        {
+          "value_code": "MISO_ChocoSnacks",
+          "value": "Choco Snacks"
+        },
+        {
+          "value_code": "MISO_Schokoriegel",
+          "value": "Schokoriegel"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_Lebensmittel_Schokolade_Themen",
+      "label": "Themen",
+      "values": [
+        {
+          "value_code": "MISO_DunkleSchokolade",
+          "value": "Dunkle Schokolade"
+        },
+        {
+          "value_code": "MISO_Geschenke",
+          "value": "Geschenke"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_Lebensmittel_Schokolade_Submarken",
+      "label": "Submarken",
+      "values": [
+        {
+          "value_code": "MISO_Mahony",
+          "value": "Mahony"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_artvonbonbonsanderensuesswaren",
+      "label": "Art von Bonbons/anderen Süsswaren",
+      "values": [
+        {
+          "value_code": "MISO_artvonbonbonsanderensuesswaren_schokoladenriegel",
+          "value": "Schokoladenriegel"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_formdersuesswaren",
+      "label": "Form der Süsswaren",
+      "values": [
+        {
+          "value_code": "MISO_formdersuesswaren_riegel",
+          "value": "Riegel"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_artvonschokolade",
+      "label": "Art von Schokolade",
+      "values": [
+        {
+          "value_code": "MISO_artvonschokolade_edelschokolade",
+          "value": "Edelschokolade"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_hinzugefuegtezutaten",
+      "label": "Hinzugefügte Zutaten",
+      "values": [
+        {
+          "value_code": "MISO_hinzugefuegtezutaten_honig",
+          "value": "Honig"
+        },
+        {
+          "value_code": "MISO_hinzugefuegtezutaten_mandel",
+          "value": "Mandel"
+        },
+        {
+          "value_code": "MISO_hinzugefuegtezutaten_nougat",
+          "value": "Nougat"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/1e1a3fa19061062692f213a4c91c9b57b4658767/mahony-dark-55.jpg",
+    "stack": "https://image.migros.ch/{stack}/1e1a3fa19061062692f213a4c91c9b57b4658767/mahony-dark-55.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/503735c4f986aa5c7ec508899833361769568e57/mahony-dark-55.png",
+    "stack": "https://image.migros.ch/{stack}/503735c4f986aa5c7ec508899833361769568e57/mahony-dark-55.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_sortierung",
+      "label": "Sortierung aMigos",
+      "values": [
+        {
+          "value_code": "NUMERIC_440",
+          "value": "440",
+          "numeric_value": 440
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "M",
+          "value": "Kolonial Standard"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "10155",
+          "value": "FILLED BARS"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/100126700000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/mahony-dark-55",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/100126700000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/mahony-dark-55",
+      "type": "info",
+      "purchasable": false
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/4964443",
+      "app_url": "leshop:///catalog/article/detail?ean=7616500912922",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/mahony-dark-55",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "updated_at": "2020-09-13T04:39:28+0200",
+  "receipt_text": "Mahony Dark 55% 100g",
+  "price": {
+    "valid_from": "2018-01-15T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 2.4,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "100g"
+    },
+    "base": {
+      "price": 2.4,
+      "quantity": 100,
+      "unit": "g"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 14,
+    "average_all": 4.181818181818
+  },
+  "allergen_text": "Kann Milch, Haselnüsse und Spuren anderer Schalenfrüchte (Nüsse) enthalten",
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

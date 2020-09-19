@@ -1,0 +1,300 @@
+{
+  "id": "102004000000",
+  "language": "de",
+  "name": "Cristal Würfelzucker",
+  "slug": "cristal-wuerfelzucker",
+  "boss_number": "010410460510",
+  "description": {
+    "text": "Schweizer W&uuml;rfelzucker, W&uuml;rfel zum Halbieren",
+    "source": "PIM"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "source-qim-origins",
+    "validity-range-not-set",
+    "source-qim-fooddeclaration",
+    "source-qim-nutritionfacts",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7610200010100",
+    "7610278033100"
+  ],
+  "labels": [
+    {
+      "id": "L53",
+      "name": "Swissness",
+      "slug": "swissness",
+      "image": {
+        "original": "https://image.migros.ch/original/d771bba2f6b08ba42970ea0243c6f8c5a8832f15/swissness.jpg",
+        "stack": "https://image.migros.ch/{stack}/d771bba2f6b08ba42970ea0243c6f8c5a8832f15/swissness.jpg"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_0101030904",
+      "name": "Zucker & Süssstoffe",
+      "slug": "supermarkt/lebensmittel/baeckerei-confiserie-backen/backzutaten/zucker-suessstoffe",
+      "visible": true,
+      "parent_code": "BeSS_01010309",
+      "image": {
+        "original": "https://image.migros.ch/original/ba549e55f17a1dc4243343a114ec6989dafee047/zucker-suessstoffe.jpg",
+        "stack": "https://image.migros.ch/{stack}/ba549e55f17a1dc4243343a114ec6989dafee047/zucker-suessstoffe.jpg"
+      },
+      "level": 5
+    },
+    {
+      "code": "BeSS_01010309",
+      "name": "Backzutaten",
+      "slug": "supermarkt/lebensmittel/baeckerei-confiserie-backen/backzutaten",
+      "visible": true,
+      "title": "Backzutaten von der Migros &ndash; Feines für den Ofen",
+      "parent_code": "BeSS_010103",
+      "image": {
+        "original": "https://image.migros.ch/original/7f4777fff65971e62d70347f2563db0eba17376b/backzutaten.jpg",
+        "stack": "https://image.migros.ch/{stack}/7f4777fff65971e62d70347f2563db0eba17376b/backzutaten.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010103",
+      "name": "Bäckerei, Confiserie & Backen",
+      "slug": "supermarkt/lebensmittel/baeckerei-confiserie-backen",
+      "visible": true,
+      "title": "Backen macht Freude! Alle Zutaten finden Sie in Ihrer Migros",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/04b41cd6f4daedf3061a2a37617d48e992760b35/baeckerei-confiserie-backen.jpg",
+        "stack": "https://image.migros.ch/{stack}/04b41cd6f4daedf3061a2a37617d48e992760b35/baeckerei-confiserie-backen.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_ZuckerSuessstoffe_Backzutaten_BroteBacken",
+        "name": "Zucker & Süssstoffe",
+        "slug": "amigos/brote-backen/backzutaten/zucker-suessstoffe",
+        "visible": true,
+        "parent_code": "AMIG_CAT_Backzutaten_BroteBacken",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_Backzutaten_BroteBacken",
+        "name": "Backzutaten",
+        "slug": "amigos/brote-backen/backzutaten",
+        "visible": true,
+        "parent_code": "AMIG_CAT_BroteBacken",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_BroteBacken",
+        "name": "Brote & Backen",
+        "slug": "amigos/brote-backen",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "features": [
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_karton",
+          "value": "Karton"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_artvonzucker",
+      "label": "Art von Zucker",
+      "values": [
+        {
+          "value_code": "MISO_artvonzucker_wuerfelzucker",
+          "value": "Würfel-Zucker"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_formbeschaffenheitvonzucker",
+      "label": "Form/Beschaffenheit von Zucker",
+      "values": [
+        {
+          "value_code": "MISO_formbeschaffenheitvonzucker_wuerfel",
+          "value": "Würfel"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_produktionslandherstellungsort",
+      "label": "Produktionsland/Herstellungsort",
+      "values": [
+        {
+          "value_code": "MISO_produktionslandherstellungsort_schweiz",
+          "value": "Schweiz"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/42b5057648f0cb1a0229715185ea7fd86ed9309a/cristal-wuerfelzucker.jpg",
+    "stack": "https://image.migros.ch/{stack}/42b5057648f0cb1a0229715185ea7fd86ed9309a/cristal-wuerfelzucker.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/63fe7b3df694326b2744323ce9d170fde22f4cc4/cristal-wuerfelzucker.png",
+    "stack": "https://image.migros.ch/{stack}/63fe7b3df694326b2744323ce9d170fde22f4cc4/cristal-wuerfelzucker.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_sortierung",
+      "label": "Sortierung aMigos",
+      "values": [
+        {
+          "value_code": "NUMERIC_130",
+          "value": "130",
+          "numeric_value": 130
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "M",
+          "value": "Kolonial Standard"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "10066",
+          "value": "ZUCKER"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/102004000000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/cristal-wuerfelzucker",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/102004000000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/cristal-wuerfelzucker",
+      "type": "info",
+      "purchasable": false
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/51573",
+      "app_url": "leshop:///catalog/article/detail?ean=7610200010100",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/cristal-wuerfelzucker",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "updated_at": "2020-09-16T05:41:06+0200",
+  "receipt_text": "Würfelzucker",
+  "price": {
+    "valid_from": "2019-09-04T00:00:00+0200",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 1.55,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "1kg"
+    },
+    "base": {
+      "price": 0.16,
+      "quantity": 100,
+      "unit": "g"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 6,
+    "average_all": 4
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

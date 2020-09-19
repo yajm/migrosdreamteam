@@ -1,0 +1,299 @@
+{
+  "id": "702818400000",
+  "language": "de",
+  "name": "Vakuum-Aufbewahrungsbeutel",
+  "slug": "vakuum-aufbewahrungsbeutel",
+  "boss_number": "150223200505",
+  "description": {
+    "text": "Bis zu 70% Volumeneinsparung durch Vakuumierung",
+    "source": "PEX"
+  },
+  "tags": [
+    "source-pex",
+    "near-non-food",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "8001410076786",
+    "8001410105059",
+    "8001410070661"
+  ],
+  "categories": [
+    {
+      "code": "BeSS_01042505",
+      "name": "Kleideraufbewahrung",
+      "slug": "supermarkt/haushalt-reinigung/waesche-buegeln-kleideraufbewahrung/kleideraufbewahrung",
+      "visible": true,
+      "parent_code": "BeSS_010425",
+      "level": 4
+    },
+    {
+      "code": "BeSS_010425",
+      "name": "Wäsche, Bügeln & Kleideraufbewahrung",
+      "slug": "supermarkt/haushalt-reinigung/waesche-buegeln-kleideraufbewahrung",
+      "visible": true,
+      "parent_code": "BeSS_0104",
+      "level": 3
+    },
+    {
+      "code": "BeSS_0104",
+      "name": "Haushalt & Reinigung",
+      "slug": "supermarkt/haushalt-reinigung",
+      "visible": true,
+      "title": "Reinigung mit der Migros – Reiniger für Haushalt und Garten",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/e5da3225980543e0c7ddcc443069f331d94e8439/haushalt-reinigung.png",
+        "stack": "https://image.migros.ch/{stack}/e5da3225980543e0c7ddcc443069f331d94e8439/haushalt-reinigung.png"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "features": [
+    {
+      "label_code": "miso_anzahl",
+      "label": "Anzahl",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2 Stk.",
+          "numeric_value": 2
+        }
+      ],
+      "top_fact": false,
+      "unit_code": "Stk.",
+      "unit": "Stück",
+      "unit_symbol": "Stk."
+    },
+    {
+      "label_code": "miso_masse_groesse",
+      "label": "Masse / Grösse",
+      "values": [
+        {
+          "value": "70 cm x 105 cm"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "miso_material",
+      "label": "Material",
+      "values": [
+        {
+          "value_code": "MISO_material_polyethylenPE",
+          "value": "Polyethylen PE"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "miso_farbe",
+      "label": "Farbe",
+      "values": [
+        {
+          "value_code": "MISO_farbe_transparent",
+          "value": "transparent"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/25380b6397140d3d85be7dfe924ff623e0ad745a/vakuum-aufbewahrungsbeutel.jpg",
+    "stack": "https://image.migros.ch/{stack}/25380b6397140d3d85be7dfe924ff623e0ad745a/vakuum-aufbewahrungsbeutel.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/5ea8319e31bbb8ab61e480a02b1ffda0cef3526b/vakuum-aufbewahrungsbeutel.png",
+    "stack": "https://image.migros.ch/{stack}/5ea8319e31bbb8ab61e480a02b1ffda0cef3526b/vakuum-aufbewahrungsbeutel.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "miso_marke",
+      "label": "Marke",
+      "values": [
+        {
+          "value_code": "MISO_marke_Domopac",
+          "value": "Domopac"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_RETURNABLE",
+      "label": "Rückgabe",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "true",
+          "boolean_value": true
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_EXCLUDE_FROM_COMPARISON_ENGINES",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "false",
+          "boolean_value": false
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_DEFAULT_LOGISTIC_TYPE",
+      "values": [
+        {
+          "value_code": "55",
+          "value": "Versandart Paket"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Normalposition"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "HART"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUSTOMS_POSITION",
+      "values": [
+        {
+          "value_code": "NUMERIC_39269097000",
+          "value": "39269097000",
+          "numeric_value": 39269097000
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_KUBE_TUKA",
+      "values": [
+        {
+          "value_code": "BLANK",
+          "value": "KUBE und TUKA nicht zugelassen"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HART",
+          "value": "Hartwaren  Handelsware"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "H",
+          "value": "Hartwaren"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "50753",
+          "value": "AUFBEWAHRUNG"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 1,
+    "percentage": 7.7
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/702818400000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/vakuum-aufbewahrungsbeutel",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/702818400000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/vakuum-aufbewahrungsbeutel",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "updated_at": "2020-09-16T06:10:55+0200",
+  "receipt_text": "Vakuum-Aufbewahrung XL",
+  "price": {
+    "valid_from": "2019-03-05T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 13.5,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "2 Stk."
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

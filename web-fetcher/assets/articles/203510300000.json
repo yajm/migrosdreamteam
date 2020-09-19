@@ -1,0 +1,431 @@
+{
+  "id": "203510300000",
+  "language": "de",
+  "name": "Bio Soja Soyog Birchermüesli aha!",
+  "slug": "bio-soja-soyog-birchermueesli-aha",
+  "boss_number": "030213305525",
+  "description": {
+    "text": "Bio Soyaerzeugnis, Bircherm&uuml;esli",
+    "source": "PIM"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "source-qim-origins",
+    "validity-range-not-set",
+    "source-qim-allergens",
+    "source-qim-fooddeclaration",
+    "source-qim-nutritionfacts",
+    "leshop-discounted",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7610200424747"
+  ],
+  "labels": [
+    {
+      "id": "L02",
+      "name": "Migros Bio",
+      "slug": "migros-bio",
+      "image": {
+        "original": "https://image.migros.ch/original/f32d1804b8db5760147310b8d6458eb36757b486/migros-bio.jpg",
+        "stack": "https://image.migros.ch/{stack}/f32d1804b8db5760147310b8d6458eb36757b486/migros-bio.jpg"
+      }
+    },
+    {
+      "id": "L15",
+      "name": "aha!",
+      "slug": "aha",
+      "image": {
+        "original": "https://image.migros.ch/original/ddc0ba54b162f407e050f09ed5f0c948ed31e289/aha.jpg",
+        "stack": "https://image.migros.ch/{stack}/ddc0ba54b162f407e050f09ed5f0c948ed31e289/aha.jpg"
+      }
+    },
+    {
+      "id": "L57",
+      "name": "V-vegan",
+      "slug": "v-vegan",
+      "image": {
+        "original": "https://image.migros.ch/original/9425b8ea6312342ddd2d0dc87e65567c88e1b757/v-vegan.jpg",
+        "stack": "https://image.migros.ch/{stack}/9425b8ea6312342ddd2d0dc87e65567c88e1b757/v-vegan.jpg"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_01010404",
+      "name": "Dessert",
+      "slug": "supermarkt/lebensmittel/milchprodukte-eier/dessert",
+      "visible": true,
+      "title": "Immer eine Sünde wert &ndash; Desserts von der Migros",
+      "parent_code": "BeSS_010104",
+      "image": {
+        "original": "https://image.migros.ch/original/ba5bb365e8afeb50a776a7b8f2c3e28c666d5593/dessert.jpg",
+        "stack": "https://image.migros.ch/{stack}/ba5bb365e8afeb50a776a7b8f2c3e28c666d5593/dessert.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010104",
+      "name": "Milchprodukte & Eier",
+      "slug": "supermarkt/lebensmittel/milchprodukte-eier",
+      "visible": true,
+      "title": "Milchprodukte und Eier –",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/6b1ea6c2d41c3ccb21bf05c8dc342f7f55d83deb/milchprodukte-eier.jpg",
+        "stack": "https://image.migros.ch/{stack}/6b1ea6c2d41c3ccb21bf05c8dc342f7f55d83deb/milchprodukte-eier.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_Joghurts_JoghurtsQuark_MilchprodukteEier",
+        "name": "Joghurts",
+        "slug": "amigos/milchprodukte-eier/joghurts-quark/joghurts",
+        "visible": true,
+        "parent_code": "AMIG_CAT_JoghurtsQuark_MilchprodukteEier",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_JoghurtsQuark_MilchprodukteEier",
+        "name": "Joghurts & Quark",
+        "slug": "amigos/milchprodukte-eier/joghurts-quark",
+        "visible": true,
+        "parent_code": "AMIG_CAT_MilchprodukteEier",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_MilchprodukteEier",
+        "name": "Milchprodukte & Eier",
+        "slug": "amigos/milchprodukte-eier",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "features": [
+    {
+      "label_code": "MISO_mussgekuehltwerden",
+      "label": "Muss gekühlt werden",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_banderole",
+          "value": "Banderole"
+        },
+        {
+          "value_code": "MISO_cu_gebindeart_becher",
+          "value": "Becher"
+        },
+        {
+          "value_code": "MISO_cu_gebindeart_deckel",
+          "value": "Deckel"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_artvonjoghurt",
+      "label": "Art von Joghurt",
+      "values": [
+        {
+          "value_code": "MISO_artvonjoghurt_sojaerzeugnis",
+          "value": "Sojaerzeugnis"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_geschmack",
+      "label": "Geschmack",
+      "values": [
+        {
+          "value_code": "MISO_geschmack_birchermueesli",
+          "value": "Birchermüesli"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_milchartrohstoff",
+      "label": "Milchart/Rohstoff",
+      "values": [
+        {
+          "value_code": "MISO_milchartrohstoff_soja",
+          "value": "Soja"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_VEGETARIANISM",
+      "label": "Vegetarismus",
+      "values": [
+        {
+          "value_code": "MAPI_VEGETARIANISM_vegan",
+          "value": "vegan"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ALLERGENES",
+      "label": "Allergenauslobungen",
+      "values": [
+        {
+          "value_code": "MAPI_ALLERGENES_laktosefrei",
+          "value": "Laktosefrei"
+        },
+        {
+          "value_code": "MAPI_ALLERGENES_ohneMilch",
+          "value": "Ohne Milch"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/ba7fe166ca241062ec1a8d56fff1c0a980998256/bio-soja-soyog-birchermueesli-aha.jpg",
+    "stack": "https://image.migros.ch/{stack}/ba7fe166ca241062ec1a8d56fff1c0a980998256/bio-soja-soyog-birchermueesli-aha.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/b5679213473b7e9dae09c053c4c4e293c3350fa5/bio-soja-soyog-birchermueesli-aha.png",
+    "stack": "https://image.migros.ch/{stack}/b5679213473b7e9dae09c053c4c4e293c3350fa5/bio-soja-soyog-birchermueesli-aha.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_sortierung",
+      "label": "Sortierung aMigos",
+      "values": [
+        {
+          "value_code": "NUMERIC_1130",
+          "value": "1130",
+          "numeric_value": 1130
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_volumen",
+      "label": "Volumen aMigos!",
+      "values": [
+        {
+          "value_code": "NUMERIC_0.383616",
+          "value": "0.383616 l",
+          "numeric_value": 0.383616
+        }
+      ],
+      "top_fact": false,
+      "unit_code": "l",
+      "unit": "Liter",
+      "unit_symbol": "l"
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZFRP",
+          "value": "Frische Beschaffung"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "1",
+          "value": "Molki"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "70121",
+          "value": "BIO / ALNATURA"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/203510300000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/bio-soja-soyog-birchermueesli-aha",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/203510300000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/bio-soja-soyog-birchermueesli-aha",
+      "type": "info",
+      "purchasable": false
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/218995",
+      "app_url": "leshop:///catalog/article/detail?ean=7610200424747",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/bio-soja-soyog-birchermueesli-aha",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "updated_at": "2020-09-16T06:50:40+0200",
+  "receipt_text": "Bio Soyog Birchermüsli",
+  "price": {
+    "valid_from": "2020-09-15T00:00:00+0200",
+    "valid_to": "2020-09-21T23:59:59+0200",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 0.65,
+      "original_price": 0.8,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "150g"
+    },
+    "discount": {
+      "id": "1444579",
+      "region": "national",
+      "start_date": "2020-09-15T00:00:00+0200",
+      "end_date": "2020-09-21T23:59:59+0200",
+      "publication_date": "2020-09-13T00:00:00+0200",
+      "discount_amount": "20%",
+      "discount_regions": [
+        "national",
+        "gmaa",
+        "gmbs",
+        "gmge",
+        "gmlu",
+        "gmnf",
+        "gmos",
+        "gmti",
+        "gmvd",
+        "gmvs",
+        "gmzh"
+      ],
+      "reference_product_id": "205023700000",
+      "discount_type": "aktion",
+      "discount_type_id": "001",
+      "discount_type_label": "SA Sonderangebot",
+      "organisation": "03",
+      "cooperative": "mgb",
+      "image": {
+        "tags": [
+          "list-image"
+        ],
+        "original": "https://image.migros.ch/original/a0c4aba9afea2e2bc03d34b7a9f58ade4b5a939e/alle-bio-joghurts.jpg",
+        "source": "PriceRepository",
+        "stack": "https://image.migros.ch/{stack}/a0c4aba9afea2e2bc03d34b7a9f58ade4b5a939e/alle-bio-joghurts.jpg"
+      },
+      "image_transparent": {
+        "original": "https://image.migros.ch/original/a0c4aba9afea2e2bc03d34b7a9f58ade4b5a939e/alle-bio-joghurts.png",
+        "source": "PriceRepository",
+        "stack": "https://image.migros.ch/{stack}/a0c4aba9afea2e2bc03d34b7a9f58ade4b5a939e/alle-bio-joghurts.png"
+      },
+      "logo": {
+        "original": "https://image.migros.ch/original/e7b8cb912e7f9b50b3acd25b298934738bd1bde2.png",
+        "source": "PriceRepository",
+        "stack": "https://image.migros.ch/{stack}/e7b8cb912e7f9b50b3acd25b298934738bd1bde2.png"
+      },
+      "badge": {
+        "original": "https://image.migros.ch/original/0633530dd39bda4f1496c8c8aa5ac1d66f227594.png",
+        "stack": "https://image.migros.ch/{stack}/0633530dd39bda4f1496c8c8aa5ac1d66f227594.png"
+      },
+      "location_planning_type": "01",
+      "reduction_type_id": "01",
+      "special_advertisement": false,
+      "advertisement_type_id": "2",
+      "description": "Alle Bio Joghurts",
+      "discount_hint": "(ohne Schaf- und Büffelmilchjoghurt), z.B. Erdbeer, 180 g, <strong>–.60 </strong>statt –.80, Angebot gilt nur vom 15.9. bis 21.9.2020, solange Vorrat.",
+      "high_performer": false,
+      "collective_discount": true,
+      "instead_of": "statt",
+      "price": 0.65,
+      "original_price": 0.8,
+      "disclaimer": "Gültigkeit siehe Angebots-Detailseite.\r\nBei allen Angeboten sind M-Budget und bereits reduzierte Artikel ausgenommen.\r\nBei Aktionen können bei der Verrechnung auf dem Kassabon Rundungsdifferenzen zu Gunsten des Kunden entstehen.",
+      "source": "PriceRepository",
+      "boss_number": "030213305505",
+      "discount_role_id": "2000000002",
+      "discount_role_label": "M: Wochenangebot Typ I",
+      "last_imported": "2020-09-09T18:15:32+0200"
+    },
+    "discount_hint": "<strong>Stück, </strong>Angebot gilt nur vom 15.9. bis 21.9.2020, solange Vorrat."
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 36,
+    "average_all": 4.53125
+  },
+  "reindex_date": "2020-09-20T00:00:00+0200"
+}

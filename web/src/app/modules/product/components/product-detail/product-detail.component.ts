@@ -3,6 +3,7 @@ import { ActivatedRoute } from '@angular/router';
 import { ProductInfo } from '../../models/product-info';
 import { ProductStateService } from '../../services/product-state.service';
 import { Product } from '../../../purchase/models/product';
+import { SwitchValue } from '../../../switcher/model/switch-value';
 
 @Component({
   selector: 'app-product-detail',
@@ -14,8 +15,11 @@ export class ProductDetailComponent implements OnInit {
   purchaseId: string;
   productId: string;
   productInfo: ProductInfo;
-  products: Product[] = [];
+  products: ProductInfo[] = [];
+  sortedProducts: { [key: string]: ProductInfo[] } = {};
   loading = true;
+  productsLoading = true;
+  sort: SwitchValue = 'total';
 
   constructor(
     private route: ActivatedRoute,
@@ -30,10 +34,20 @@ export class ProductDetailComponent implements OnInit {
     } else {
       this.backUrl = ['/product'];
     }
-    this.productState.getInfo(this.productId).then((productInfo) => {
-      this.productInfo = productInfo;
-      this.loading = false;
+    this.productInfo = await this.productState.getInfo(this.productId);
+    this.loading = false;
+    this.products = await this.productState.getSimilarProducts(
+      this.productInfo.categoryCode
+    );
+    for (const key of ['price', 'total', 'kcal', 'c02']) {
+      this.sortedProducts[key] = this.sortByScore(key);
+    }
+    this.productsLoading = false;
+  }
+
+  private sortByScore(score: string) {
+    return [...this.products].sort((a, b) => {
+      return b[`${score}Score`] - a[`${score}Score`];
     });
-    this.products = await this.productState.getProducts(0, 10);
   }
 }

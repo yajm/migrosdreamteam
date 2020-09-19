@@ -1,0 +1,283 @@
+{
+  "id": "706204800000",
+  "language": "de",
+  "name": "Miobrill WC-Bürste mit Doppelrandreiniger",
+  "slug": "miobrill-wc-buerste-mit-doppelrandreiniger",
+  "boss_number": "150223304005",
+  "description": {
+    "text": "-mit Doppelrandreiniger",
+    "source": "PEX"
+  },
+  "tags": [
+    "source-pex",
+    "near-non-food",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7613162229511"
+  ],
+  "brand": {
+    "id": "MGF",
+    "name": "Miobrill",
+    "slug": "miobrill"
+  },
+  "categories": [
+    {
+      "code": "BeSS_01042004",
+      "name": "WC/Bad",
+      "slug": "supermarkt/haushalt-reinigung/reinigungsutensilien/wcbad",
+      "visible": true,
+      "parent_code": "BeSS_010420",
+      "level": 4
+    },
+    {
+      "code": "BeSS_010420",
+      "name": "Reinigungsutensilien",
+      "slug": "supermarkt/haushalt-reinigung/reinigungsutensilien",
+      "visible": true,
+      "parent_code": "BeSS_0104",
+      "level": 3
+    },
+    {
+      "code": "BeSS_0104",
+      "name": "Haushalt & Reinigung",
+      "slug": "supermarkt/haushalt-reinigung",
+      "visible": true,
+      "title": "Reinigung mit der Migros – Reiniger für Haushalt und Garten",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/e5da3225980543e0c7ddcc443069f331d94e8439/haushalt-reinigung.png",
+        "stack": "https://image.migros.ch/{stack}/e5da3225980543e0c7ddcc443069f331d94e8439/haushalt-reinigung.png"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "features": [
+    {
+      "label_code": "miso_farbe",
+      "label": "Farbe",
+      "values": [
+        {
+          "value_code": "MISO_farbe_blau",
+          "value": "blau"
+        },
+        {
+          "value_code": "MISO_farbe_weiss",
+          "value": "weiss"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "miso_material",
+      "label": "Material",
+      "values": [
+        {
+          "value_code": "MISO_material_polypropylen",
+          "value": "Polypropylen"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "miso_anzahl",
+      "label": "Anzahl",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1 Stk.",
+          "numeric_value": 1
+        }
+      ],
+      "top_fact": false,
+      "unit_code": "Stk.",
+      "unit": "Stück",
+      "unit_symbol": "Stk."
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/fc6372f0ec132c62101c6bf4331e4aff499b83e3/miobrill-wc-buerste-mit-doppelrandreiniger.jpg",
+    "stack": "https://image.migros.ch/{stack}/fc6372f0ec132c62101c6bf4331e4aff499b83e3/miobrill-wc-buerste-mit-doppelrandreiniger.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/faceca6b4afead60d8c390f03dee68d7094d4afc/miobrill-wc-buerste-mit-doppelrandreiniger.png",
+    "stack": "https://image.migros.ch/{stack}/faceca6b4afead60d8c390f03dee68d7094d4afc/miobrill-wc-buerste-mit-doppelrandreiniger.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "miso_marke",
+      "label": "Marke",
+      "values": [
+        {
+          "value_code": "MISO_marke_Miobrill",
+          "value": "Miobrill"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_DEFAULT_LOGISTIC_TYPE",
+      "values": [
+        {
+          "value_code": "55",
+          "value": "Versandart Paket"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Normalposition"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "HART"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUSTOMS_POSITION",
+      "values": [
+        {
+          "value_code": "NUMERIC_96039090000",
+          "value": "96039090000",
+          "numeric_value": 96039090000
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_RISK_CLASS",
+      "values": [
+        {
+          "value_code": "3",
+          "value": "3 (low)"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_KUBE_TUKA",
+      "values": [
+        {
+          "value_code": "BLANK",
+          "value": "KUBE und TUKA nicht zugelassen"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HART",
+          "value": "Hartwaren  Handelsware"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "H",
+          "value": "Hartwaren"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "57875",
+          "value": "WC"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 1,
+    "percentage": 7.7
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/706204800000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/miobrill-wc-buerste-mit-doppelrandreiniger",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/706204800000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/miobrill-wc-buerste-mit-doppelrandreiniger",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "updated_at": "2020-09-15T18:19:00+0200",
+  "receipt_text": "Miobrill WC-Bürste",
+  "price": {
+    "valid_from": "2018-01-30T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 3.8,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "1 Stück"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

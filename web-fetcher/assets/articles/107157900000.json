@@ -1,0 +1,432 @@
+{
+  "id": "107157900000",
+  "language": "de",
+  "name": "Cafino Classic Instant Beutel 550g",
+  "slug": "cafino-classic-instant-beutel-550g",
+  "boss_number": "010310306605",
+  "description": {
+    "text": "F&uuml;r Ihren milden Milchkaffee, Genuss f&uuml;r den ganzen Tag",
+    "source": "PIM"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "source-qim-origins",
+    "validity-range-not-set",
+    "source-qim-fooddeclaration",
+    "source-qim-nutritionfacts",
+    "leshop-discounted",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7610200081193"
+  ],
+  "brand": {
+    "id": "J23",
+    "name": "Cafino",
+    "slug": "cafino"
+  },
+  "labels": [
+    {
+      "id": "L34",
+      "name": "UTZ",
+      "slug": "utz",
+      "image": {
+        "original": "https://image.migros.ch/original/64192d97b7770d351f5bbe89a57c9f614e529150/utz.jpg",
+        "stack": "https://image.migros.ch/{stack}/64192d97b7770d351f5bbe89a57c9f614e529150/utz.jpg"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_0101100103",
+      "name": "Instantkaffee",
+      "slug": "supermarkt/lebensmittel/getraenke-heiss-kalt/kaffee/instantkaffee",
+      "visible": true,
+      "parent_code": "BeSS_01011001",
+      "image": {
+        "original": "https://image.migros.ch/original/59719c8f8756d4b1718ad9f8351e8414931b1cdb/instantkaffee.jpg",
+        "stack": "https://image.migros.ch/{stack}/59719c8f8756d4b1718ad9f8351e8414931b1cdb/instantkaffee.jpg"
+      },
+      "level": 5
+    },
+    {
+      "code": "BeSS_01011001",
+      "name": "Kaffee",
+      "slug": "supermarkt/lebensmittel/getraenke-heiss-kalt/kaffee",
+      "visible": true,
+      "title": "Das schwarze Gold der Geniesser: Kaffee bei der Migros",
+      "parent_code": "BeSS_010110",
+      "image": {
+        "original": "https://image.migros.ch/original/be9ca8bc37911ac3d695139eadc7cb2446fd5974/kaffee.jpg",
+        "stack": "https://image.migros.ch/{stack}/be9ca8bc37911ac3d695139eadc7cb2446fd5974/kaffee.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010110",
+      "name": "Getränke heiss & kalt",
+      "slug": "supermarkt/lebensmittel/getraenke-heiss-kalt",
+      "visible": true,
+      "title": "Getränke aus der Migros löschen auch Ihren Durst",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/d04d95fbc2e1b4ada4783d2976d37a962a0318a1/getraenke-heiss-kalt.jpg",
+        "stack": "https://image.migros.ch/{stack}/d04d95fbc2e1b4ada4783d2976d37a962a0318a1/getraenke-heiss-kalt.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_Instantkaffee_Kaffee_Getraenke",
+        "name": "Instantkaffee",
+        "slug": "amigos/getraenke/kaffee/instantkaffee",
+        "visible": true,
+        "parent_code": "AMIG_CAT_Kaffee_Getraenke",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_Kaffee_Getraenke",
+        "name": "Kaffee",
+        "slug": "amigos/getraenke/kaffee",
+        "visible": true,
+        "parent_code": "AMIG_CAT_Getraenke",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_Getraenke",
+        "name": "Getränke",
+        "slug": "amigos/getraenke",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "features": [
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_beutelsack",
+          "value": "Beutel/Sack"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_verwendung",
+      "label": "Verwendung",
+      "values": [
+        {
+          "value_code": "MISO_verwendung_instant",
+          "value": "Instant"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_formbeschaffenheitdeskaffees",
+      "label": "Form/Beschaffenheit des Kaffees",
+      "values": [
+        {
+          "value_code": "MISO_formbeschaffenheitdeskaffees_grobgemahlen",
+          "value": "grob gemahlen"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zubereitungdeskaffees",
+      "label": "Zubereitung des Kaffees",
+      "values": [
+        {
+          "value_code": "MISO_zubereitungdeskaffees_lose",
+          "value": "lose"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_staerke15",
+      "label": "Stärke (1-5)",
+      "values": [
+        {
+          "value_code": "NUMERIC_1.0",
+          "value": "1.0",
+          "numeric_value": 1
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_saeure",
+      "label": "Säure (1 - 5)",
+      "values": [
+        {
+          "value_code": "MISO_saeure_1",
+          "value": "1"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_tassengroesse",
+      "label": "Tassengrösse",
+      "values": [
+        {
+          "value_code": "MISO_tassengroesse_lungo_120ml",
+          "value": "Lungo (120ml)"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_koffein",
+      "label": "Koffein",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/acc92d7ce72da263f1c0326139b2086c11ca1152/cafino-classic-instant-beutel-550g.jpg",
+    "stack": "https://image.migros.ch/{stack}/acc92d7ce72da263f1c0326139b2086c11ca1152/cafino-classic-instant-beutel-550g.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/84f468b0735f89fbcee6c0eafdc24f0be30c2c9c/cafino-classic-instant-beutel-550g.png",
+    "stack": "https://image.migros.ch/{stack}/84f468b0735f89fbcee6c0eafdc24f0be30c2c9c/cafino-classic-instant-beutel-550g.png"
+  },
+  "additional_images": [
+    {
+      "original": "https://image.migros.ch/original/de63ec3aa84afc38fcdaae6760e54f5ff2cbfb00.jpg",
+      "stack": "https://image.migros.ch/{stack}/de63ec3aa84afc38fcdaae6760e54f5ff2cbfb00.jpg"
+    }
+  ],
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_sortierung",
+      "label": "Sortierung aMigos",
+      "values": [
+        {
+          "value_code": "NUMERIC_250",
+          "value": "250",
+          "numeric_value": 250
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_intensitaet",
+      "label": "Intensität",
+      "values": [
+        {
+          "value_code": "MISO_intensitaet_mild",
+          "value": "Mild"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_intensitaet",
+      "label": "Intensität",
+      "values": [
+        {
+          "value_code": "MISO_intensitaet_mild",
+          "value": "Mild"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "M",
+          "value": "Kolonial Standard"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "10386",
+          "value": "INSTANTK. M. ZUSAETZEN"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/107157900000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/cafino-classic-instant-beutel-550g",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/107157900000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/cafino-classic-instant-beutel-550g",
+      "type": "info",
+      "purchasable": false
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/56155",
+      "app_url": "leshop:///catalog/article/detail?ean=7610200081193",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/cafino-classic-instant-beutel-550g",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "updated_at": "2020-09-16T06:51:19+0200",
+  "receipt_text": "Cafino Classic",
+  "price": {
+    "valid_from": "2020-09-15T00:00:00+0200",
+    "valid_to": "2020-09-21T23:59:59+0200",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 8.75,
+      "original_price": 10.95,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "550g"
+    },
+    "discount": {
+      "id": "1448000",
+      "region": "national",
+      "start_date": "2020-09-15T00:00:00+0200",
+      "end_date": "2020-09-21T23:59:59+0200",
+      "publication_date": "2020-09-13T00:00:00+0200",
+      "discount_amount": "20%",
+      "discount_regions": [
+        "national"
+      ],
+      "reference_product_id": "107157900000",
+      "discount_type": "aktion",
+      "discount_type_id": "001",
+      "discount_type_label": "SA Sonderangebot",
+      "organisation": "02",
+      "cooperative": "mgb",
+      "image": {
+        "tags": [
+          "list-image"
+        ],
+        "original": "https://image.migros.ch/original/9ec143b78c0ae0affe248763258e4b55dcb8e756/alle-instant-kaffees-utz.jpg",
+        "source": "PriceRepository",
+        "stack": "https://image.migros.ch/{stack}/9ec143b78c0ae0affe248763258e4b55dcb8e756/alle-instant-kaffees-utz.jpg"
+      },
+      "image_transparent": {
+        "original": "https://image.migros.ch/original/9ec143b78c0ae0affe248763258e4b55dcb8e756/alle-instant-kaffees-utz.png",
+        "source": "PriceRepository",
+        "stack": "https://image.migros.ch/{stack}/9ec143b78c0ae0affe248763258e4b55dcb8e756/alle-instant-kaffees-utz.png"
+      },
+      "logo": {
+        "original": "https://image.migros.ch/original/63992097c0ab00749a21c1906dc38d8bf3373398.png",
+        "source": "PriceRepository",
+        "stack": "https://image.migros.ch/{stack}/63992097c0ab00749a21c1906dc38d8bf3373398.png"
+      },
+      "badge": {
+        "original": "https://image.migros.ch/original/0633530dd39bda4f1496c8c8aa5ac1d66f227594.png",
+        "stack": "https://image.migros.ch/{stack}/0633530dd39bda4f1496c8c8aa5ac1d66f227594.png"
+      },
+      "location_planning_type": "01",
+      "reduction_type_id": "01",
+      "special_advertisement": false,
+      "advertisement_type_id": "2",
+      "description": "Alle Instant-Kaffees, UTZ",
+      "discount_hint": "(ohne Nescafé), z.B. Cafino Classic, Beutel, 550 g, <strong>8.75 </strong>statt 10.95, Angebot gilt nur vom 15.9. bis 21.9.2020, solange Vorrat.",
+      "high_performer": false,
+      "collective_discount": true,
+      "instead_of": "statt",
+      "price": 8.75,
+      "original_price": 10.95,
+      "disclaimer": "Gültigkeit siehe Angebots-Detailseite.\r\nBei allen Angeboten sind M-Budget und bereits reduzierte Artikel ausgenommen.\r\nBei Aktionen können bei der Verrechnung auf dem Kassabon Rundungsdifferenzen zu Gunsten des Kunden entstehen.",
+      "source": "PriceRepository",
+      "boss_number": "010310306605",
+      "discount_role_id": "2000000002",
+      "discount_role_label": "M: Wochenangebot Typ I",
+      "last_imported": "2020-09-07T15:15:07+0200"
+    },
+    "discount_hint": "Angebot gilt nur vom 15.9. bis 21.9.2020, solange Vorrat."
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 13,
+    "average_all": 4.666666666667
+  },
+  "reindex_date": "2020-09-21T23:59:59+0200"
+}

@@ -1,0 +1,285 @@
+{
+  "id": "200693900000",
+  "language": "de",
+  "name": "Alfredo Classico Racella",
+  "slug": "alfredo-classico-racella",
+  "boss_number": "030413501210",
+  "description": {
+    "text": "Mozzarella Scheiben f&uuml;r den Raclette Ofen.",
+    "source": "PIM"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "source-qim-origins",
+    "validity-range-not-set",
+    "source-qim-allergens",
+    "source-qim-fooddeclaration",
+    "source-qim-nutritionfacts",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7613404362419"
+  ],
+  "brand": {
+    "id": "FS9",
+    "name": "Alfredo",
+    "slug": "alfredo"
+  },
+  "labels": [
+    {
+      "id": "L53",
+      "name": "Swissness",
+      "slug": "swissness",
+      "image": {
+        "original": "https://image.migros.ch/original/d771bba2f6b08ba42970ea0243c6f8c5a8832f15/swissness.jpg",
+        "stack": "https://image.migros.ch/{stack}/d771bba2f6b08ba42970ea0243c6f8c5a8832f15/swissness.jpg"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_0101040106",
+      "name": "Fondue & Raclette",
+      "slug": "supermarkt/lebensmittel/milchprodukte-eier/kaese/fondue-raclette",
+      "visible": true,
+      "parent_code": "BeSS_01010401",
+      "image": {
+        "original": "https://image.migros.ch/original/cb4ed392fe561c442576800912faf2df0e4f9c68/fondue-raclette.jpg",
+        "stack": "https://image.migros.ch/{stack}/cb4ed392fe561c442576800912faf2df0e4f9c68/fondue-raclette.jpg"
+      },
+      "level": 5
+    },
+    {
+      "code": "BeSS_01010401",
+      "name": "Käse",
+      "slug": "supermarkt/lebensmittel/milchprodukte-eier/kaese",
+      "visible": true,
+      "title": "Käse von Ihrer Migros &ndash; macht Appetit auf mehr",
+      "parent_code": "BeSS_010104",
+      "image": {
+        "original": "https://image.migros.ch/original/4fbf646a3ebce5b0f570ef4c8f4f9e8d708bb65f/kaese.jpg",
+        "stack": "https://image.migros.ch/{stack}/4fbf646a3ebce5b0f570ef4c8f4f9e8d708bb65f/kaese.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010104",
+      "name": "Milchprodukte & Eier",
+      "slug": "supermarkt/lebensmittel/milchprodukte-eier",
+      "visible": true,
+      "title": "Milchprodukte und Eier –",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/6b1ea6c2d41c3ccb21bf05c8dc342f7f55d83deb/milchprodukte-eier.jpg",
+        "stack": "https://image.migros.ch/{stack}/6b1ea6c2d41c3ccb21bf05c8dc342f7f55d83deb/milchprodukte-eier.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "features": [
+    {
+      "label_code": "MISO_mussgekuehltwerden",
+      "label": "Muss gekühlt werden",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_kunststoffverpackung",
+          "value": "Kunststoff-Verpackung"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zubereitungsverfahren",
+      "label": "Hinweise für die Zubereitung",
+      "values": [
+        {
+          "value_code": "MISO_zubereitungsverfahren_fuerfondueraclettegeeignet",
+          "value": "Für Fondue/Raclette geeignet"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_fettgehalt",
+      "label": "Fettgehalt",
+      "values": [
+        {
+          "value_code": "MISO_fettgehalt_vollfett",
+          "value": "Vollfett"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_formbeschaffenheitdeskaeses",
+      "label": "Form/Beschaffenheit des Käses",
+      "values": [
+        {
+          "value_code": "MISO_formbeschaffenheitdeskaeses_frischkaese",
+          "value": "Frischkäse"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_kaesesorte",
+      "label": "Käsesorte",
+      "values": [
+        {
+          "value_code": "MISO_kaesesorte_mozzarella",
+          "value": "Mozzarella"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_milchartrohstoff",
+      "label": "Milchart/Rohstoff",
+      "values": [
+        {
+          "value_code": "MISO_milchartrohstoff_kuh",
+          "value": "Kuh"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_milchbehandlungsart",
+      "label": "Milchbehandlungsart",
+      "values": [
+        {
+          "value_code": "MISO_milchbehandlungsart_pastmilch",
+          "value": "Pastmilch"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/608ff93311f40defe0474b95149d3622c62a1cdb/alfredo-classico-racella.jpg",
+    "stack": "https://image.migros.ch/{stack}/608ff93311f40defe0474b95149d3622c62a1cdb/alfredo-classico-racella.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/ca166880ca5270df822977df38abdad696f4c1d3/alfredo-classico-racella.png",
+    "stack": "https://image.migros.ch/{stack}/ca166880ca5270df822977df38abdad696f4c1d3/alfredo-classico-racella.png"
+  },
+  "additional_images": [
+    {
+      "original": "https://image.migros.ch/original/fa2f32fec152f58e718f8793b11152477e8eed5a.jpg",
+      "stack": "https://image.migros.ch/{stack}/fa2f32fec152f58e718f8793b11152477e8eed5a.jpg"
+    }
+  ],
+  "internal_features": [
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZFRP",
+          "value": "Frische Beschaffung"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "1",
+          "value": "Molki"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "70040",
+          "value": "RACLETTE"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/200693900000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/alfredo-classico-racella",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/200693900000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/alfredo-classico-racella",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "updated_at": "2020-09-16T05:46:49+0200",
+  "receipt_text": "Alfredo Racella",
+  "price": {
+    "valid_from": "2020-06-15T00:00:00+0200",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 6.95,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "300g"
+    },
+    "base": {
+      "price": 2.32,
+      "quantity": 100,
+      "unit": "g"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

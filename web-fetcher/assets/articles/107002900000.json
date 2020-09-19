@@ -1,0 +1,189 @@
+{
+  "id": "107002900000",
+  "language": "de",
+  "name": "Bio Alpenkräuter-Tee Brennesseln",
+  "slug": "bio-alpenkraeuter-tee-brennesseln",
+  "boss_number": "010310327005",
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "source-qim-origins",
+    "source-qim-fooddeclaration",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7613312263082"
+  ],
+  "labels": [
+    {
+      "id": "L53",
+      "name": "Swissness",
+      "slug": "swissness",
+      "image": {
+        "original": "https://image.migros.ch/original/d771bba2f6b08ba42970ea0243c6f8c5a8832f15/swissness.jpg",
+        "stack": "https://image.migros.ch/{stack}/d771bba2f6b08ba42970ea0243c6f8c5a8832f15/swissness.jpg"
+      }
+    },
+    {
+      "id": "L02",
+      "name": "Migros Bio",
+      "slug": "migros-bio",
+      "image": {
+        "original": "https://image.migros.ch/original/f32d1804b8db5760147310b8d6458eb36757b486/migros-bio.jpg",
+        "stack": "https://image.migros.ch/{stack}/f32d1804b8db5760147310b8d6458eb36757b486/migros-bio.jpg"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_0101100208",
+      "name": "Bio Tee",
+      "slug": "supermarkt/lebensmittel/getraenke-heiss-kalt/tee/bio-tee",
+      "visible": true,
+      "parent_code": "BeSS_01011002",
+      "image": {
+        "original": "https://image.migros.ch/original/6146dcf5c8dfd03896ea49089f781c0c52c54cb8/bio-tee.jpg",
+        "stack": "https://image.migros.ch/{stack}/6146dcf5c8dfd03896ea49089f781c0c52c54cb8/bio-tee.jpg"
+      },
+      "level": 5
+    },
+    {
+      "code": "BeSS_01011002",
+      "name": "Tee",
+      "slug": "supermarkt/lebensmittel/getraenke-heiss-kalt/tee",
+      "visible": true,
+      "title": "Das Wohlgefühl zum Trinken: Tee bei der Migros",
+      "parent_code": "BeSS_010110",
+      "image": {
+        "original": "https://image.migros.ch/original/e5aa5ec4832ef2ba88169253848460a3ab6e11c2/tee.jpg",
+        "stack": "https://image.migros.ch/{stack}/e5aa5ec4832ef2ba88169253848460a3ab6e11c2/tee.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010110",
+      "name": "Getränke heiss & kalt",
+      "slug": "supermarkt/lebensmittel/getraenke-heiss-kalt",
+      "visible": true,
+      "title": "Getränke aus der Migros löschen auch Ihren Durst",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/d04d95fbc2e1b4ada4783d2976d37a962a0318a1/getraenke-heiss-kalt.jpg",
+        "stack": "https://image.migros.ch/{stack}/d04d95fbc2e1b4ada4783d2976d37a962a0318a1/getraenke-heiss-kalt.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/e170d0b258684f0842c16ba9319a7822d49028a8/bio-alpenkraeuter-tee-brennesseln.jpg",
+    "stack": "https://image.migros.ch/{stack}/e170d0b258684f0842c16ba9319a7822d49028a8/bio-alpenkraeuter-tee-brennesseln.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/c2735a409b44ba236abf06233d07822acf3c1725/bio-alpenkraeuter-tee-brennesseln.png",
+    "stack": "https://image.migros.ch/{stack}/c2735a409b44ba236abf06233d07822acf3c1725/bio-alpenkraeuter-tee-brennesseln.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "M",
+          "value": "Kolonial Standard"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "10372",
+          "value": "BIO TEE"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/107002900000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/bio-alpenkraeuter-tee-brennesseln",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/107002900000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/bio-alpenkraeuter-tee-brennesseln",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "updated_at": "2020-09-15T07:08:34+0200",
+  "receipt_text": "Bio Alplenkr. Brenness",
+  "price": {
+    "valid_from": "2019-05-25T00:00:00+0200",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 2.9,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "31.2g"
+    },
+    "base": {
+      "price": 0.93,
+      "quantity": 10,
+      "unit": "g"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 55,
+    "average_all": 4.127272727273
+  },
+  "reindex_date": "2027-12-31T00:00:00+0100"
+}

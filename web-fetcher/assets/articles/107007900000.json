@@ -1,0 +1,180 @@
+{
+  "id": "107007900000",
+  "language": "de",
+  "name": "Bio Swiss Minzenmischung",
+  "slug": "bio-swiss-minzenmischung",
+  "boss_number": "010310327005",
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "source-qim-origins",
+    "source-qim-distributor",
+    "validity-range-not-set",
+    "source-qim-fooddeclaration",
+    "source-qim-nutritionfacts",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7610418200126",
+    "7613269356158",
+    "7610184007844",
+    "7610184006601"
+  ],
+  "brand": {
+    "id": "F17",
+    "name": "Swiss Alpine Herbs",
+    "slug": "swiss-alpine-herbs"
+  },
+  "categories": [
+    {
+      "code": "BeSS_0101100208",
+      "name": "Bio Tee",
+      "slug": "supermarkt/lebensmittel/getraenke-heiss-kalt/tee/bio-tee",
+      "visible": true,
+      "parent_code": "BeSS_01011002",
+      "image": {
+        "original": "https://image.migros.ch/original/6146dcf5c8dfd03896ea49089f781c0c52c54cb8/bio-tee.jpg",
+        "stack": "https://image.migros.ch/{stack}/6146dcf5c8dfd03896ea49089f781c0c52c54cb8/bio-tee.jpg"
+      },
+      "level": 5
+    },
+    {
+      "code": "BeSS_01011002",
+      "name": "Tee",
+      "slug": "supermarkt/lebensmittel/getraenke-heiss-kalt/tee",
+      "visible": true,
+      "title": "Das Wohlgefühl zum Trinken: Tee bei der Migros",
+      "parent_code": "BeSS_010110",
+      "image": {
+        "original": "https://image.migros.ch/original/e5aa5ec4832ef2ba88169253848460a3ab6e11c2/tee.jpg",
+        "stack": "https://image.migros.ch/{stack}/e5aa5ec4832ef2ba88169253848460a3ab6e11c2/tee.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010110",
+      "name": "Getränke heiss & kalt",
+      "slug": "supermarkt/lebensmittel/getraenke-heiss-kalt",
+      "visible": true,
+      "title": "Getränke aus der Migros löschen auch Ihren Durst",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/d04d95fbc2e1b4ada4783d2976d37a962a0318a1/getraenke-heiss-kalt.jpg",
+        "stack": "https://image.migros.ch/{stack}/d04d95fbc2e1b4ada4783d2976d37a962a0318a1/getraenke-heiss-kalt.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/4eeae594c706efc074f391957596196cbdb7ff07/bio-swiss-minzenmischung.jpg",
+    "stack": "https://image.migros.ch/{stack}/4eeae594c706efc074f391957596196cbdb7ff07/bio-swiss-minzenmischung.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/15fec289f4047520d4a7e63be1565649507a3017/bio-swiss-minzenmischung.png",
+    "stack": "https://image.migros.ch/{stack}/15fec289f4047520d4a7e63be1565649507a3017/bio-swiss-minzenmischung.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "M",
+          "value": "Kolonial Standard"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "10372",
+          "value": "BIO TEE"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/107007900000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/bio-swiss-minzenmischung",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/107007900000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/bio-swiss-minzenmischung",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "updated_at": "2020-09-15T04:54:27+0200",
+  "receipt_text": "Bio Swiss Minzenmisch.",
+  "price": {
+    "valid_from": "2018-01-29T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 5.5,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "14g"
+    },
+    "base": {
+      "price": 3.93,
+      "quantity": 10,
+      "unit": "g"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 2,
+    "average_all": 4
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

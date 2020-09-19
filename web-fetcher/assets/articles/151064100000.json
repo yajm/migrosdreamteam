@@ -1,0 +1,284 @@
+{
+  "id": "151064100000",
+  "language": "de",
+  "name": "Extra Fit & Well Aprik.Erdb.Kirschen",
+  "slug": "extra-fit-well-aprikerdbkirschen",
+  "boss_number": "010310407605",
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7613312048276"
+  ],
+  "brand": {
+    "id": "051",
+    "name": "Extra (Frühstück)",
+    "slug": "extra-fruehstueck"
+  },
+  "categories": [
+    {
+      "code": "BeSS_01011105",
+      "name": "Konfitüren & Honig Portionen",
+      "slug": "supermarkt/lebensmittel/fruehstueck/konfitueren-honig-portionen",
+      "visible": true,
+      "parent_code": "BeSS_010111",
+      "image": {
+        "original": "https://image.migros.ch/original/f8096c39b7bff5f2ec7c7bbc49c8f81ab9bf9c28/konfitueren-honig-portionen.jpg",
+        "stack": "https://image.migros.ch/{stack}/f8096c39b7bff5f2ec7c7bbc49c8f81ab9bf9c28/konfitueren-honig-portionen.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010111",
+      "name": "Frühstück",
+      "slug": "supermarkt/lebensmittel/fruehstueck",
+      "visible": true,
+      "title": "Frühstück: Mit Produkten aus Ihrer Migros einfach in den Tag starten",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/58a87c73cd077c5c9efb268051c16d5b373f5c29/fruehstueck.jpg",
+        "stack": "https://image.migros.ch/{stack}/58a87c73cd077c5c9efb268051c16d5b373f5c29/fruehstueck.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_Konfitueren_Brotaufstriche_MueesliCerealienBrotaufstriche",
+        "name": "Konfitüren",
+        "slug": "amigos/mueesli-cerealien-brotaufstriche/brotaufstriche/konfitueren",
+        "visible": true,
+        "parent_code": "AMIG_CAT_Brotaufstriche_MueesliCerealienBrotaufstriche",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_Brotaufstriche_MueesliCerealienBrotaufstriche",
+        "name": "Brotaufstriche",
+        "slug": "amigos/mueesli-cerealien-brotaufstriche/brotaufstriche",
+        "visible": true,
+        "parent_code": "AMIG_CAT_MueesliCerealienBrotaufstriche",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_MueesliCerealienBrotaufstriche",
+        "name": "Müesli, Cerealien & Brotaufstriche",
+        "slug": "amigos/mueesli-cerealien-brotaufstriche",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "features": [
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_karton",
+          "value": "Karton"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_prozentderreduzierung",
+      "label": "Prozent der Reduzierung",
+      "values": [
+        {
+          "value": "35% kalorienreduziert, 35% energievermindert"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_artdermarmeladekonfituere",
+      "label": "Art der Marmelade/Konfitüre",
+      "values": [
+        {
+          "value_code": "MISO_artdermarmeladekonfituere_fruchtaufstrich",
+          "value": "Fruchtaufstrich"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_hauptzutat",
+      "label": "Hauptzutat",
+      "values": [
+        {
+          "value_code": "MISO_hauptzutat_aprikosen",
+          "value": "Aprikosen"
+        },
+        {
+          "value_code": "MISO_hauptzutat_erdbeeren",
+          "value": "Erdbeeren"
+        },
+        {
+          "value_code": "MISO_hauptzutat_schwarzekirschen",
+          "value": "Schwarze Kirschen"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_kalorienreduziert",
+      "label": "Kalorienreduziert",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/407ae0ef581ce26a1c23402ab8af42ae327a7ce7/extra-fit-well-aprikerdbkirschen.jpg",
+    "stack": "https://image.migros.ch/{stack}/407ae0ef581ce26a1c23402ab8af42ae327a7ce7/extra-fit-well-aprikerdbkirschen.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/3b7d885fca86e131f02abb1cb6d589b3158a2f79/extra-fit-well-aprikerdbkirschen.png",
+    "stack": "https://image.migros.ch/{stack}/3b7d885fca86e131f02abb1cb6d589b3158a2f79/extra-fit-well-aprikerdbkirschen.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_sortierung",
+      "label": "Sortierung aMigos",
+      "values": [
+        {
+          "value_code": "NUMERIC_295",
+          "value": "295",
+          "numeric_value": 295
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "X",
+          "value": "Auslaufartikel"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "10347",
+          "value": "PORT KONFI/BROTAUFST"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/151064100000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/extra-fit-well-aprikerdbkirschen",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/151064100000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/extra-fit-well-aprikerdbkirschen",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "updated_at": "2020-09-16T05:46:43+0200",
+  "receipt_text": "Extra Fit&Well ass.",
+  "price": {
+    "valid_from": "2018-01-08T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 2.7,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "6 x 27g"
+    },
+    "base": {
+      "price": 1.67,
+      "quantity": 100,
+      "unit": "g"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 4,
+    "average_all": 4.75
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

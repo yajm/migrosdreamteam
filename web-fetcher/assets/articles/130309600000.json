@@ -1,0 +1,407 @@
+{
+  "id": "130309600000",
+  "language": "de",
+  "name": "Anna's Best MSC Crevettensalat",
+  "slug": "annas-best-msc-crevettensalat",
+  "boss_number": "020530323010",
+  "description": {
+    "text": "Die gekochten Crevetten stammen aus kanadischem Wildfang. Die cremig-w&uuml;rzige Sauce ganz ohne Konservierungsmittel verleiht dem Salat die unverkennbare Note.",
+    "source": "PIM"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7613404100462",
+    "7613269285861"
+  ],
+  "brand": {
+    "id": "007",
+    "name": "Anna's Best",
+    "slug": "annas-best",
+    "links": {
+      "homepage": {
+        "url": "https://annasbest.migros.ch/de.html",
+        "name": "Homepage",
+        "type": "info",
+        "purchasable": false
+      }
+    },
+    "image": {
+      "original": "https://image.migros.ch/original/184dd9291cf7fb67f0772e72d682c71c5fb76261/annas-best.jpg",
+      "stack": "https://image.migros.ch/{stack}/184dd9291cf7fb67f0772e72d682c71c5fb76261/annas-best.jpg"
+    }
+  },
+  "labels": [
+    {
+      "id": "L05",
+      "name": "MSC",
+      "slug": "msc",
+      "image": {
+        "original": "https://image.migros.ch/original/b4f2b83e8fa72e840367b33d46a26ab586685a13/msc.jpg",
+        "stack": "https://image.migros.ch/{stack}/b4f2b83e8fa72e840367b33d46a26ab586685a13/msc.jpg"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_0101130219",
+      "name": "Fertigsalate",
+      "slug": "supermarkt/lebensmittel/fertiggerichte-menues-snacks/fertige-pizzen-menues-snacks/fertigsalate",
+      "visible": true,
+      "title": "Fertigsalate in Ihrer Migros kaufen",
+      "parent_code": "BeSS_01011302",
+      "image": {
+        "original": "https://image.migros.ch/original/341ccbb8d9660a61c4d4cf571bca7e96a949aecc/fertigsalate.jpg",
+        "stack": "https://image.migros.ch/{stack}/341ccbb8d9660a61c4d4cf571bca7e96a949aecc/fertigsalate.jpg"
+      },
+      "level": 5
+    },
+    {
+      "code": "BeSS_01011302",
+      "name": "Fertige Pizzen, Menüs & Snacks",
+      "slug": "supermarkt/lebensmittel/fertiggerichte-menues-snacks/fertige-pizzen-menues-snacks",
+      "visible": true,
+      "title": "Feine Fertiggerichte aus Ihrer Migros!",
+      "parent_code": "BeSS_010113",
+      "image": {
+        "original": "https://image.migros.ch/original/0014f54049f00019a8782aedb21ad671bd28a8e8/fertige-pizzen-menues-snacks.jpg",
+        "stack": "https://image.migros.ch/{stack}/0014f54049f00019a8782aedb21ad671bd28a8e8/fertige-pizzen-menues-snacks.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010113",
+      "name": "Fertiggerichte, Menüs & Snacks",
+      "slug": "supermarkt/lebensmittel/fertiggerichte-menues-snacks",
+      "visible": true,
+      "title": "Fertige Pizzen, Menüs und Snacks &ndash; schnell und lecker von der Migros",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/6770b6c8fbbd2689aece359ffeda93b90c58dd09/fertiggerichte-menues-snacks.jpg",
+        "stack": "https://image.migros.ch/{stack}/6770b6c8fbbd2689aece359ffeda93b90c58dd09/fertiggerichte-menues-snacks.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_Fertigsalate_Salate_FruechteGemuese",
+        "name": "Fertigsalate",
+        "slug": "amigos/fruechte-gemuese/salate/fertigsalate",
+        "visible": true,
+        "parent_code": "AMIG_CAT_Salate_FruechteGemuese",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_Salate_FruechteGemuese",
+        "name": "Salate",
+        "slug": "amigos/fruechte-gemuese/salate",
+        "visible": true,
+        "parent_code": "AMIG_CAT_FruechteGemuese",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_FruechteGemuese",
+        "name": "Früchte & Gemüse",
+        "slug": "amigos/fruechte-gemuese",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "features": [
+    {
+      "label_code": "MISO_mussgekuehltwerden",
+      "label": "Muss gekühlt werden",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_produktionsanspruch",
+      "label": "Produktionsverfahren",
+      "values": [
+        {
+          "value_code": "MISO_produktionsanspruch_nachhaltigefischerei",
+          "value": "Nachhaltige Fischerei"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_kunststoffverpackung",
+          "value": "Kunststoff-Verpackung"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_besteck",
+      "label": "Besteck",
+      "values": [
+        {
+          "value_code": "MISO_besteck_gabel",
+          "value": "Gabel"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_lebensmittel_AB_pikto_besteck",
+      "label": "Besteck",
+      "values": [
+        {
+          "image": {
+            "original": "https://image.migros.ch/original/003a6b9c39213e0c9759dcbe12f15bf98b644d8b/besteck-gabel.jpg",
+            "code": "MISO_lebensmittel_AB_pikto_besteck_gabel",
+            "description": "Besteck Gabel",
+            "stack": "https://image.migros.ch/{stack}/003a6b9c39213e0c9759dcbe12f15bf98b644d8b/besteck-gabel.jpg"
+          },
+          "value_code": "MISO_lebensmittel_AB_pikto_besteck_gabel",
+          "value": "Besteck Gabel"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_mahlzeit",
+      "label": "Mahlzeit",
+      "values": [
+        {
+          "value_code": "MISO_mahlzeit_jedemahlzeit",
+          "value": "jede Mahlzeit"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_lebensmittel_AB_pikto_portion",
+      "label": "Portion",
+      "values": [
+        {
+          "image": {
+            "original": "https://image.migros.ch/original/f80874175bf09a27e90e8d90cc5a5c7a0998ca6a/portion-fuer-1-person.jpg",
+            "code": "MISO_lebensmittel_AB_pikto_portion_1",
+            "description": "Portion für 1 Person",
+            "stack": "https://image.migros.ch/{stack}/f80874175bf09a27e90e8d90cc5a5c7a0998ca6a/portion-fuer-1-person.jpg"
+          },
+          "value_code": "MISO_lebensmittel_AB_pikto_portion_1",
+          "value": "Portion für 1 Person"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_produktionslandherstellungsort",
+      "label": "Produktionsland/Herstellungsort",
+      "values": [
+        {
+          "value_code": "MISO_produktionslandherstellungsort_schweiz",
+          "value": "Schweiz"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_artvonkrustentierenmuschelnschnecken",
+      "label": "Art von Krustentieren/Muscheln/Schnecken",
+      "values": [
+        {
+          "value_code": "MISO_artvonkrustentierenmuschelnschnecken_crevetten",
+          "value": "Crevetten"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/e8d28d334e2ee73a4fbbb61d569988edf86000cd/annas-best-msc-crevettensalat.jpg",
+    "stack": "https://image.migros.ch/{stack}/e8d28d334e2ee73a4fbbb61d569988edf86000cd/annas-best-msc-crevettensalat.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/acb6868038101e3ce3b2a1d00bb0f01ee86c4973/annas-best-msc-crevettensalat.png",
+    "stack": "https://image.migros.ch/{stack}/acb6868038101e3ce3b2a1d00bb0f01ee86c4973/annas-best-msc-crevettensalat.png"
+  },
+  "additional_images": [
+    {
+      "original": "https://image.migros.ch/original/10b619854560342759ef75e1cdc115a88772a8c8.jpg",
+      "stack": "https://image.migros.ch/{stack}/10b619854560342759ef75e1cdc115a88772a8c8.jpg"
+    }
+  ],
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_lebensmittel_AB_kategorien",
+      "label": "Kategorien",
+      "values": [
+        {
+          "value_code": "MISO_lebensmittel_AB_kategorien_fertigsalate",
+          "value": "Fertigsalate"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_lebensmittel_AB_genusstyp",
+      "label": "Genusstypen",
+      "values": [
+        {
+          "value_code": "MISO_lebensmittel_AB_genusstyp_fisch",
+          "value": "Fisch"
+        },
+        {
+          "value_code": "MISO_lebensmittel_AB_genusstyp_kalt-geniessen",
+          "value": "Kalt geniessen"
+        },
+        {
+          "value_code": "MISO_lebensmittel_AB_genusstyp_unterwegs",
+          "value": "Unterwegs"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZFRP",
+          "value": "Frische Beschaffung"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "7",
+          "value": "Convenience"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "70137",
+          "value": "FERTIGSALAT FLEISCH-FISCH"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/130309600000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/annas-best-msc-crevettensalat",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/130309600000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/annas-best-msc-crevettensalat",
+      "type": "info",
+      "purchasable": false
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/219723",
+      "app_url": "leshop:///catalog/article/detail?ean=7613404100462",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/annas-best-msc-crevettensalat",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "updated_at": "2020-09-16T05:44:27+0200",
+  "receipt_text": "MSC Crevettensalat",
+  "price": {
+    "valid_from": "2020-05-28T00:00:00+0200",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 4.7,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "190g"
+    },
+    "base": {
+      "price": 2.47,
+      "quantity": 100,
+      "unit": "g"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 8,
+    "average_all": 3.428571428571
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

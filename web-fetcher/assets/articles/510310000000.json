@@ -1,0 +1,255 @@
+{
+  "id": "510310000000",
+  "language": "de",
+  "name": "Oral-B AdvancePower Batterie-Zahnbürste",
+  "slug": "oral-b-advancepower-batterie-zahnbuerste",
+  "boss_number": "090221702510",
+  "tags": [
+    "source-pim",
+    "near-non-food",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "4210201822264",
+    "4210201326878"
+  ],
+  "brand": {
+    "id": "631",
+    "name": "Oral-B",
+    "slug": "oral-b",
+    "image": {
+      "original": "https://image.migros.ch/original/2e08bfbc1a6ed029c5fc95a9f73b60a65aeca86e/oral-b.jpg",
+      "stack": "https://image.migros.ch/{stack}/2e08bfbc1a6ed029c5fc95a9f73b60a65aeca86e/oral-b.jpg"
+    }
+  },
+  "categories": [
+    {
+      "code": "BeSS_01110404",
+      "name": "Elektrische Zahnbürsten",
+      "slug": "supermarkt/beauty/mundpflege/elektrische-zahnbuersten",
+      "visible": true,
+      "parent_code": "BeSS_011104",
+      "level": 4
+    },
+    {
+      "code": "BeSS_011104",
+      "name": "Mundpflege",
+      "slug": "supermarkt/beauty/mundpflege",
+      "visible": true,
+      "parent_code": "BeSS_0111",
+      "level": 3
+    },
+    {
+      "code": "BeSS_0111",
+      "name": "Beauty",
+      "slug": "supermarkt/beauty",
+      "visible": true,
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/293925170bd129344f9259c67a15e903f881bef8/beauty.jpg",
+        "stack": "https://image.migros.ch/{stack}/293925170bd129344f9259c67a15e903f881bef8/beauty.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_Zahnbuersten_Zahnpflege_HygieneGesundheitBaby",
+        "name": "Zahnbürsten",
+        "slug": "amigos/hygiene-gesundheit-baby/zahnpflege/zahnbuersten",
+        "visible": true,
+        "parent_code": "AMIG_CAT_Zahnpflege_HygieneGesundheitBaby",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_Zahnpflege_HygieneGesundheitBaby",
+        "name": "Zahnpflege",
+        "slug": "amigos/hygiene-gesundheit-baby/zahnpflege",
+        "visible": true,
+        "parent_code": "AMIG_CAT_HygieneGesundheitBaby",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_HygieneGesundheitBaby",
+        "name": "Hygiene, Gesundheit & Baby",
+        "slug": "amigos/hygiene-gesundheit-baby",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "features": [
+    {
+      "label_code": "MISO_kundengruppe",
+      "label": "Kundengruppe",
+      "values": [
+        {
+          "value_code": "MISO_kundengruppe_erwachsene",
+          "value": "Erwachsene"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_produkttyp",
+      "label": "Produkttyp",
+      "values": [
+        {
+          "value_code": "MISO_produkttyp_geraete",
+          "value": "Geräte"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/e35d1190ef85ac284aed5732a5c20e68223fce21/oral-b-advancepower-batterie-zahnbuerste.jpg",
+    "stack": "https://image.migros.ch/{stack}/e35d1190ef85ac284aed5732a5c20e68223fce21/oral-b-advancepower-batterie-zahnbuerste.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/665faf233c238093b70a01695ea68ff3049ef56b/oral-b-advancepower-batterie-zahnbuerste.png",
+    "stack": "https://image.migros.ch/{stack}/665faf233c238093b70a01695ea68ff3049ef56b/oral-b-advancepower-batterie-zahnbuerste.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_sortierung",
+      "label": "Sortierung aMigos",
+      "values": [
+        {
+          "value_code": "NUMERIC_360",
+          "value": "360",
+          "numeric_value": 360
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZHKS",
+          "value": "HKS Standardartikel"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_QUALITY_CHECK",
+      "values": [
+        {
+          "value_code": "00",
+          "value": "Keine Prüfung"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_RISK_CLASS",
+      "values": [
+        {
+          "value_code": "2",
+          "value": "2 (medium)"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "H",
+          "value": "HKS Standard"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "50282",
+          "value": "ELEKTRO-ZAHNBUERSTEN"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 1,
+    "percentage": 7.7
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/510310000000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/oral-b-advancepower-batterie-zahnbuerste",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/510310000000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/oral-b-advancepower-batterie-zahnbuerste",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "updated_at": "2020-09-16T06:01:44+0200",
+  "receipt_text": "Oral-B AdvancePower",
+  "price": {
+    "valid_from": "2018-01-29T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 16.6,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "1 Stk."
+    },
+    "base": {
+      "price": 16.6,
+      "quantity": 1,
+      "unit": "st"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

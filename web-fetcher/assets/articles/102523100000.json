@@ -1,0 +1,333 @@
+{
+  "id": "102523100000",
+  "language": "de",
+  "name": "Muffins",
+  "slug": "muffins",
+  "boss_number": "010410900505",
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "validity-range-not-set",
+    "leshop-discounted",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7617400020458"
+  ],
+  "categories": [
+    {
+      "code": "BeSS_0101030901",
+      "name": "Backen & Desserts",
+      "slug": "supermarkt/lebensmittel/baeckerei-confiserie-backen/backzutaten/backen-desserts",
+      "visible": true,
+      "title": "Backwaren und Desserts in der Migros kaufen",
+      "parent_code": "BeSS_01010309",
+      "image": {
+        "original": "https://image.migros.ch/original/9f1d49dbae2055f2327ad61e32dacb73a813012f/backen-desserts.jpg",
+        "stack": "https://image.migros.ch/{stack}/9f1d49dbae2055f2327ad61e32dacb73a813012f/backen-desserts.jpg"
+      },
+      "level": 5
+    },
+    {
+      "code": "BeSS_01010309",
+      "name": "Backzutaten",
+      "slug": "supermarkt/lebensmittel/baeckerei-confiserie-backen/backzutaten",
+      "visible": true,
+      "title": "Backzutaten von der Migros &ndash; Feines für den Ofen",
+      "parent_code": "BeSS_010103",
+      "image": {
+        "original": "https://image.migros.ch/original/7f4777fff65971e62d70347f2563db0eba17376b/backzutaten.jpg",
+        "stack": "https://image.migros.ch/{stack}/7f4777fff65971e62d70347f2563db0eba17376b/backzutaten.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010103",
+      "name": "Bäckerei, Confiserie & Backen",
+      "slug": "supermarkt/lebensmittel/baeckerei-confiserie-backen",
+      "visible": true,
+      "title": "Backen macht Freude! Alle Zutaten finden Sie in Ihrer Migros",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/04b41cd6f4daedf3061a2a37617d48e992760b35/baeckerei-confiserie-backen.jpg",
+        "stack": "https://image.migros.ch/{stack}/04b41cd6f4daedf3061a2a37617d48e992760b35/baeckerei-confiserie-backen.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_Fertigmischungen_Backzutaten_BroteBacken",
+        "name": "Fertigmischungen",
+        "slug": "amigos/brote-backen/backzutaten/fertigmischungen",
+        "visible": true,
+        "parent_code": "AMIG_CAT_Backzutaten_BroteBacken",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_Backzutaten_BroteBacken",
+        "name": "Backzutaten",
+        "slug": "amigos/brote-backen/backzutaten",
+        "visible": true,
+        "parent_code": "AMIG_CAT_BroteBacken",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_BroteBacken",
+        "name": "Brote & Backen",
+        "slug": "amigos/brote-backen",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "features": [
+    {
+      "label_code": "MISO_produktionsanspruch",
+      "label": "Produktionsverfahren",
+      "values": [
+        {
+          "value_code": "MISO_produktionsanspruch_mitnatuerlichenaromen",
+          "value": "Mit natürlichen Aromen"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_anzahlentnehmbarereinzelportionen",
+      "label": "Anzahl entnehmbarer Einzeleinheiten",
+      "values": [
+        {
+          "value_code": "NUMERIC_1.0",
+          "value": "1.0",
+          "numeric_value": 1
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_schachtel",
+          "value": "Schachtel"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zubereitungsverfahren",
+      "label": "Hinweise für die Zubereitung",
+      "values": [
+        {
+          "value_code": "MISO_zubereitungsverfahren_backen",
+          "value": "Backen"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/34d28d828c7d44dcdeb9a271cc49fccb79aa3470/muffins.jpg",
+    "stack": "https://image.migros.ch/{stack}/34d28d828c7d44dcdeb9a271cc49fccb79aa3470/muffins.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/80029012ea7285fa12166db1f10e8a2f2948f542/muffins.png",
+    "stack": "https://image.migros.ch/{stack}/80029012ea7285fa12166db1f10e8a2f2948f542/muffins.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_sortierung",
+      "label": "Sortierung aMigos",
+      "values": [
+        {
+          "value_code": "NUMERIC_125",
+          "value": "125",
+          "numeric_value": 125
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "M",
+          "value": "Kolonial Standard"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "10070",
+          "value": "BACKMISCHUNGEN"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/102523100000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/muffins",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/102523100000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/muffins",
+      "type": "info",
+      "purchasable": false
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/4372245",
+      "app_url": "leshop:///catalog/article/detail?ean=7617400020458",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/muffins",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "updated_at": "2020-09-16T06:50:45+0200",
+  "receipt_text": "Muffins",
+  "price": {
+    "valid_from": "2020-09-15T00:00:00+0200",
+    "valid_to": "2020-09-21T23:59:59+0200",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 3.2,
+      "original_price": 4,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "290g"
+    },
+    "discount": {
+      "id": "1446839",
+      "region": "national",
+      "start_date": "2020-09-15T00:00:00+0200",
+      "end_date": "2020-09-21T23:59:59+0200",
+      "publication_date": "2020-09-13T00:00:00+0200",
+      "discount_amount": "20%",
+      "discount_regions": [
+        "national"
+      ],
+      "reference_product_id": "102523000000",
+      "discount_type": "aktion",
+      "discount_type_id": "001",
+      "discount_type_label": "SA Sonderangebot",
+      "organisation": "02",
+      "cooperative": "mgb",
+      "image": {
+        "tags": [
+          "list-image"
+        ],
+        "original": "https://image.migros.ch/original/e092a6bb70599eb0e99752edc8b96dafe0fedb91/alle-homemade-backmischungen-cup-lovers-und-dessertpulver.jpg",
+        "source": "PriceRepository",
+        "stack": "https://image.migros.ch/{stack}/e092a6bb70599eb0e99752edc8b96dafe0fedb91/alle-homemade-backmischungen-cup-lovers-und-dessertpulver.jpg"
+      },
+      "image_transparent": {
+        "original": "https://image.migros.ch/original/e092a6bb70599eb0e99752edc8b96dafe0fedb91/alle-homemade-backmischungen-cup-lovers-und-dessertpulver.png",
+        "source": "PriceRepository",
+        "stack": "https://image.migros.ch/{stack}/e092a6bb70599eb0e99752edc8b96dafe0fedb91/alle-homemade-backmischungen-cup-lovers-und-dessertpulver.png"
+      },
+      "badge": {
+        "original": "https://image.migros.ch/original/0633530dd39bda4f1496c8c8aa5ac1d66f227594.png",
+        "stack": "https://image.migros.ch/{stack}/0633530dd39bda4f1496c8c8aa5ac1d66f227594.png"
+      },
+      "location_planning_type": "01",
+      "reduction_type_id": "01",
+      "special_advertisement": false,
+      "advertisement_type_id": "2",
+      "description": "Alle Homemade Backmischungen, Cup Lovers und Dessertpulver",
+      "discount_hint": "(ohne Alnatura), z.B. Homemade Brownies, 490 g, <strong>4.85 </strong>statt 6.10, Angebot gilt nur vom 15.9. bis 21.9.2020, solange Vorrat.",
+      "high_performer": false,
+      "collective_discount": true,
+      "instead_of": "statt",
+      "price": 3.2,
+      "original_price": 4,
+      "disclaimer": "Gültigkeit siehe Angebots-Detailseite.\r\nBei allen Angeboten sind M-Budget und bereits reduzierte Artikel ausgenommen.\r\nBei Aktionen können bei der Verrechnung auf dem Kassabon Rundungsdifferenzen zu Gunsten des Kunden entstehen.",
+      "source": "PriceRepository",
+      "boss_number": "010410900505",
+      "discount_role_id": "2000000002",
+      "discount_role_label": "M: Wochenangebot Typ I",
+      "last_imported": "2020-09-07T15:15:05+0200"
+    },
+    "discount_hint": "Angebot gilt nur vom 15.9. bis 21.9.2020, solange Vorrat."
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 16,
+    "average_all": 4.9
+  },
+  "allergen_text": "Kann Eier und Nüsse enthalten.",
+  "reindex_date": "2020-09-21T23:59:59+0200"
+}

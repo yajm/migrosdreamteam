@@ -1,0 +1,264 @@
+{
+  "id": "151401400000",
+  "language": "de",
+  "name": "Wild Meadow Ringelblume vegan",
+  "slug": "wild-meadow-ringelblume-vegan",
+  "boss_number": "010310405610",
+  "description": {
+    "text": "<p>Vegane Honig-Alternative</p>",
+    "source": "PIM"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "4260536477059"
+  ],
+  "labels": [
+    {
+      "id": "L57",
+      "name": "V-vegan",
+      "slug": "v-vegan",
+      "image": {
+        "original": "https://image.migros.ch/original/9425b8ea6312342ddd2d0dc87e65567c88e1b757/v-vegan.jpg",
+        "stack": "https://image.migros.ch/{stack}/9425b8ea6312342ddd2d0dc87e65567c88e1b757/v-vegan.jpg"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_01011104",
+      "name": "Honig",
+      "slug": "supermarkt/lebensmittel/fruehstueck/honig",
+      "visible": true,
+      "parent_code": "BeSS_010111",
+      "image": {
+        "original": "https://image.migros.ch/original/cf93a88b225b284afedafefffd6f34fd1515c9fc/honig.jpg",
+        "stack": "https://image.migros.ch/{stack}/cf93a88b225b284afedafefffd6f34fd1515c9fc/honig.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010111",
+      "name": "Frühstück",
+      "slug": "supermarkt/lebensmittel/fruehstueck",
+      "visible": true,
+      "title": "Frühstück: Mit Produkten aus Ihrer Migros einfach in den Tag starten",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/58a87c73cd077c5c9efb268051c16d5b373f5c29/fruehstueck.jpg",
+        "stack": "https://image.migros.ch/{stack}/58a87c73cd077c5c9efb268051c16d5b373f5c29/fruehstueck.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_HonigSchokolade_Brotaufstriche_MueesliCerealienBrotaufstriche",
+        "name": "Honig & Schokolade",
+        "slug": "amigos/mueesli-cerealien-brotaufstriche/brotaufstriche/honig-schokolade",
+        "visible": true,
+        "parent_code": "AMIG_CAT_Brotaufstriche_MueesliCerealienBrotaufstriche",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_Brotaufstriche_MueesliCerealienBrotaufstriche",
+        "name": "Brotaufstriche",
+        "slug": "amigos/mueesli-cerealien-brotaufstriche/brotaufstriche",
+        "visible": true,
+        "parent_code": "AMIG_CAT_MueesliCerealienBrotaufstriche",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_MueesliCerealienBrotaufstriche",
+        "name": "Müesli, Cerealien & Brotaufstriche",
+        "slug": "amigos/mueesli-cerealien-brotaufstriche",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "features": [
+    {
+      "label_code": "MISO_artvonhonig",
+      "label": "Art von Honig",
+      "values": [
+        {
+          "value_code": "MISO_artvonhonig_blueten",
+          "value": "Blüten"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_honigkonsistenz",
+      "label": "Honig Konsistenz",
+      "values": [
+        {
+          "value_code": "MISO_honigkonsistenz_fluessigerhonig",
+          "value": "flüssiger Honig"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zumkochengeeignet",
+      "label": "Zum Kochen geeignet",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_VEGETARIANISM",
+      "label": "Vegetarismus",
+      "values": [
+        {
+          "value_code": "MAPI_VEGETARIANISM_vegan",
+          "value": "vegan"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/94f25e59abf89388f94e043076c1ae7d13a2fd1d/wild-meadow-ringelblume-vegan.jpg",
+    "stack": "https://image.migros.ch/{stack}/94f25e59abf89388f94e043076c1ae7d13a2fd1d/wild-meadow-ringelblume-vegan.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/bf95a2c68c441c843e9352ab4dd8cda3342f7e50/wild-meadow-ringelblume-vegan.png",
+    "stack": "https://image.migros.ch/{stack}/bf95a2c68c441c843e9352ab4dd8cda3342f7e50/wild-meadow-ringelblume-vegan.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "M",
+          "value": "Kolonial Standard"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "10344",
+          "value": "HONIG"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/151401400000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/wild-meadow-ringelblume-vegan",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/151401400000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/wild-meadow-ringelblume-vegan",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "updated_at": "2020-09-09T06:30:55+0200",
+  "receipt_text": "Ringelblume vegan",
+  "price": {
+    "valid_from": "2019-12-12T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 6,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "225g"
+    },
+    "base": {
+      "price": 2.67,
+      "quantity": 100,
+      "unit": "g"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 33,
+    "average_all": 4
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

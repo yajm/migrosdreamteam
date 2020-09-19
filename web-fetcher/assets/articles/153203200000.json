@@ -1,0 +1,351 @@
+{
+  "id": "153203200000",
+  "language": "de",
+  "name": "Aus der Region Tomatensauce Arrabbiata",
+  "slug": "aus-der-region-tomatensauce-arrabbiata",
+  "boss_number": "011011270505",
+  "description": {
+    "text": "<p><strong>Aus der Region - Sugo Arrabbiata (Tomaten und Peperoncini) </strong></p><p>Dieses Sugo ist aus Nordwestschweizer Tomaten ohne Haut und Kerne hergestellt. Es ist darum fl&uuml;ssiger als industrielle Produkte. Von Hand gemacht und abgef&uuml;llt.</p>",
+    "source": "PEX"
+  },
+  "tags": [
+    "source-pex",
+    "migipedia",
+    "validity-range-not-set",
+    "filter-aus-der-region",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7613312202364",
+    "7613312202371"
+  ],
+  "labels": [
+    {
+      "id": "L28",
+      "name": "Aus der Region",
+      "slug": "aus-der-region",
+      "image": {
+        "original": "https://image.migros.ch/original/28068cd4d6e174c8ec75906797af89b64170c43f/aus-der-region.jpg",
+        "stack": "https://image.migros.ch/{stack}/28068cd4d6e174c8ec75906797af89b64170c43f/aus-der-region.jpg"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_0101140905",
+      "name": "Pasta-Saucen",
+      "slug": "supermarkt/lebensmittel/pasta-zutaten-konserven/suppen-saucen-bouillon/pasta-saucen",
+      "visible": true,
+      "title": "Pasta-Saucen in Ihrer Migros kaufen",
+      "parent_code": "BeSS_01011409",
+      "image": {
+        "original": "https://image.migros.ch/original/acb0d99c9ddd2625a193fe58059b0d98be064ceb/pasta-saucen.jpg",
+        "stack": "https://image.migros.ch/{stack}/acb0d99c9ddd2625a193fe58059b0d98be064ceb/pasta-saucen.jpg"
+      },
+      "level": 5
+    },
+    {
+      "code": "BeSS_01011409",
+      "name": "Suppen, Saucen & Bouillon",
+      "slug": "supermarkt/lebensmittel/pasta-zutaten-konserven/suppen-saucen-bouillon",
+      "visible": true,
+      "title": "Bouillon in Ihrer Migros kaufen",
+      "parent_code": "BeSS_010114",
+      "image": {
+        "original": "https://image.migros.ch/original/5f7779de5b06c3e5051c0ccdb81a414859a26cf5/suppen-saucen-bouillon.jpg",
+        "stack": "https://image.migros.ch/{stack}/5f7779de5b06c3e5051c0ccdb81a414859a26cf5/suppen-saucen-bouillon.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010114",
+      "name": "Pasta, Zutaten & Konserven",
+      "slug": "supermarkt/lebensmittel/pasta-zutaten-konserven",
+      "visible": true,
+      "title": "Pasta aus Ihrer Migros: alles rund um Teigwaren",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/6d0964bbb34b8e041ba4d74fc0c90b149907f46a/pasta-zutaten-konserven.jpg",
+        "stack": "https://image.migros.ch/{stack}/6d0964bbb34b8e041ba4d74fc0c90b149907f46a/pasta-zutaten-konserven.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "features": [
+    {
+      "label_code": "miso_produktionsanspruch",
+      "label": "Produktionsverfahren",
+      "values": [
+        {
+          "value_code": "MISO_produktionsanspruch_100natuerlichezutaten",
+          "value": "100% natürliche Zutaten"
+        },
+        {
+          "value_code": "MISO_produktionsanspruch_ausderregion",
+          "value": "Aus der Region"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "miso_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_glas",
+          "value": "Glas"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "miso_zubereitungsverfahren",
+      "label": "Hinweise für die Zubereitung",
+      "values": [
+        {
+          "value_code": "MISO_zubereitungsverfahren_zumerhitztessen",
+          "value": "Zum Erhitztessen"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "miso_hefefrei",
+      "label": "Hefefrei",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "miso_artvonsaucedip",
+      "label": "Art von Sauce/Dip",
+      "values": [
+        {
+          "value_code": "MISO_artvonsaucedip_tomatensauce",
+          "value": "Tomatensauce"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "miso_hinzugefuegtezutaten",
+      "label": "Hinzugefügte Zutaten",
+      "values": [
+        {
+          "value_code": "MISO_hinzugefuegtezutaten_peperoncini",
+          "value": "Peperoncini"
+        },
+        {
+          "value_code": "MISO_hinzugefuegtezutaten_tomatenmark",
+          "value": "Tomatenmark"
+        },
+        {
+          "value_code": "MISO_hinzugefuegtezutaten_zwiebeln",
+          "value": "Zwiebeln"
+        },
+        {
+          "value_code": "MISO_hinzugefuegtezutaten_basilikum",
+          "value": "Basilikum"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "miso_saucensortezumkochen",
+      "label": "Saucensorte - zum Kochen",
+      "values": [
+        {
+          "value_code": "MISO_saucensortezumkochen_arrabbiata",
+          "value": "Arrabbiata"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "miso_vorgeseheneverwendungdersauce",
+      "label": "Vorgesehene Verwendung der Sauce",
+      "values": [
+        {
+          "value_code": "MISO_vorgeseheneverwendungdersauce_italienischekueche",
+          "value": "Italienische Küche"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "miso_eignungfuerverzehrsituation",
+      "label": "Eignung für Verzehrsituation",
+      "values": [
+        {
+          "value_code": "MISO_eignungfuerverzehrsituation_zumkochengeeignet",
+          "value": "zum Kochen geeignet"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/79ffa3c2ecc56ca2890449e8818889dfa9ce2fc1/aus-der-region-tomatensauce-arrabbiata.jpg",
+    "stack": "https://image.migros.ch/{stack}/79ffa3c2ecc56ca2890449e8818889dfa9ce2fc1/aus-der-region-tomatensauce-arrabbiata.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/031902c1377afb8225ee40cccf8990529d0f96f8/aus-der-region-tomatensauce-arrabbiata.png",
+    "stack": "https://image.migros.ch/{stack}/031902c1377afb8225ee40cccf8990529d0f96f8/aus-der-region-tomatensauce-arrabbiata.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Normalposition"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "HAWA"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "L",
+          "value": "Lieferunterbruch"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "10133",
+          "value": "PREM. NASSSAUCEN F. PASTA"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_LIFECYCLE",
+      "values": [
+        {
+          "value_code": "D",
+          "value": "Detailhandelsartikel"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/153203200000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/aus-der-region-tomatensauce-arrabbiata",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/153203200000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/aus-der-region-tomatensauce-arrabbiata",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "updated_at": "2020-09-14T05:49:24+0200",
+  "receipt_text": "AdR Sauce Arrabbiata",
+  "price": {
+    "valid_from": "2020-06-24T00:00:00+0200",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 4.8,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "360g"
+    },
+    "base": {
+      "price": 1.33,
+      "quantity": 100,
+      "unit": "g"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

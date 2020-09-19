@@ -1,0 +1,338 @@
+{
+  "id": "103502800000",
+  "language": "de",
+  "name": "Aus der Region Basilikum Apfelessig",
+  "slug": "aus-der-region-basilikum-apfelessig",
+  "boss_number": "011011281510",
+  "description": {
+    "text": "<p><strong>Aus der Region - Basilikum Apfelessig mit Alpenkr&auml;utern</strong></p><p>Unser Basilikum Apfelessig mit Alpenkr&auml;utern ist naturbelassen, ohne Konservierungsmittel. Es kann sich eine leichte Tr&uuml;bung bilden. Dies ist ein nat&uuml;rlicher Vorgang, der die Qualit&auml;t nicht beeinflusst.</p><p>&nbsp;</p>",
+    "source": "PIM"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "validity-range-not-set",
+    "filter-aus-der-region",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7610418201932"
+  ],
+  "labels": [
+    {
+      "id": "L28",
+      "name": "Aus der Region",
+      "slug": "aus-der-region",
+      "image": {
+        "original": "https://image.migros.ch/original/28068cd4d6e174c8ec75906797af89b64170c43f/aus-der-region.jpg",
+        "stack": "https://image.migros.ch/{stack}/28068cd4d6e174c8ec75906797af89b64170c43f/aus-der-region.jpg"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_0101141003",
+      "name": "Essig & Balsamico",
+      "slug": "supermarkt/lebensmittel/pasta-zutaten-konserven/essig-oele/essig-balsamico",
+      "visible": true,
+      "title": "Essig und Balsamico in Ihrer Migros kaufen",
+      "parent_code": "BeSS_01011410",
+      "image": {
+        "original": "https://image.migros.ch/original/0cb21b1102655448589da28a5fa4dd5567100f2e/essig-balsamico.jpg",
+        "stack": "https://image.migros.ch/{stack}/0cb21b1102655448589da28a5fa4dd5567100f2e/essig-balsamico.jpg"
+      },
+      "level": 5
+    },
+    {
+      "code": "BeSS_01011410",
+      "name": "Essig & Öle",
+      "slug": "supermarkt/lebensmittel/pasta-zutaten-konserven/essig-oele",
+      "visible": true,
+      "title": "Essig und öl &ndash; das Beste zum Kochen aus Ihrer Migros",
+      "parent_code": "BeSS_010114",
+      "image": {
+        "original": "https://image.migros.ch/original/1ba9cadbce840aaa77db246b510e97af4f66c258/essig-oele.jpg",
+        "stack": "https://image.migros.ch/{stack}/1ba9cadbce840aaa77db246b510e97af4f66c258/essig-oele.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010114",
+      "name": "Pasta, Zutaten & Konserven",
+      "slug": "supermarkt/lebensmittel/pasta-zutaten-konserven",
+      "visible": true,
+      "title": "Pasta aus Ihrer Migros: alles rund um Teigwaren",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/6d0964bbb34b8e041ba4d74fc0c90b149907f46a/pasta-zutaten-konserven.jpg",
+        "stack": "https://image.migros.ch/{stack}/6d0964bbb34b8e041ba4d74fc0c90b149907f46a/pasta-zutaten-konserven.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_Essig_EssigOelSpeisefett_Grundnahrungsmittel",
+        "name": "Essig",
+        "slug": "amigos/grundnahrungsmittel/essig-oel-speisefett/essig",
+        "visible": true,
+        "parent_code": "AMIG_CAT_EssigOelSpeisefett_Grundnahrungsmittel",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_EssigOelSpeisefett_Grundnahrungsmittel",
+        "name": "Essig, Öl & Speisefett",
+        "slug": "amigos/grundnahrungsmittel/essig-oel-speisefett",
+        "visible": true,
+        "parent_code": "AMIG_CAT_Grundnahrungsmittel",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_Grundnahrungsmittel",
+        "name": "Grundnahrungsmittel",
+        "slug": "amigos/grundnahrungsmittel",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "features": [
+    {
+      "label_code": "MISO_produktionsanspruch",
+      "label": "Produktionsverfahren",
+      "values": [
+        {
+          "value_code": "MISO_produktionsanspruch_ausderregion",
+          "value": "Aus der Region"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_flasche",
+          "value": "Flasche"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zubereitungsverfahren",
+      "label": "Hinweise für die Zubereitung",
+      "values": [
+        {
+          "value_code": "MISO_zubereitungsverfahren_verzehrfertig",
+          "value": "Verzehrfertig"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zusatzangaben",
+      "label": "Zusatzangaben",
+      "values": [
+        {
+          "value_code": "MISO_zusatzangaben_329",
+          "value": "Trocken aufbewahren. Für höchste Frische vor Licht und Wärme schützen."
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_gewuerzegeeignetfuer",
+      "label": "Gewürze geeignet für",
+      "values": [
+        {
+          "value_code": "MISO_gewuerzegeeignetfuer_salatsaucen",
+          "value": "Salatsaucen"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_essigsorte",
+      "label": "Essigsorte",
+      "values": [
+        {
+          "value_code": "MISO_essigsorte_apfelessig",
+          "value": "Apfelessig"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_hinzugefuegtezutaten",
+      "label": "Hinzugefügte Zutaten",
+      "values": [
+        {
+          "value_code": "MISO_hinzugefuegtezutaten_alpenkraeuter",
+          "value": "Alpenkräuter"
+        },
+        {
+          "value_code": "MISO_hinzugefuegtezutaten_basilikum",
+          "value": "Basilikum"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_saeuregehalt",
+      "label": "Säuregehalt",
+      "values": [
+        {
+          "value_code": "NUMERIC_4.5",
+          "value": "4.5 %",
+          "numeric_value": 4.5
+        }
+      ],
+      "top_fact": false,
+      "unit_code": "prozent",
+      "unit": "Prozent",
+      "unit_symbol": "%"
+    },
+    {
+      "label_code": "MISO_natuerlichegaerung",
+      "label": "Natürliche Gärung",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/fc19667514ac14e0be1c7c6cfd8a868362c716a7/aus-der-region-basilikum-apfelessig.jpg",
+    "stack": "https://image.migros.ch/{stack}/fc19667514ac14e0be1c7c6cfd8a868362c716a7/aus-der-region-basilikum-apfelessig.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/78d4743e9a208204b4d2998ff12fbe4e05956e71/aus-der-region-basilikum-apfelessig.png",
+    "stack": "https://image.migros.ch/{stack}/78d4743e9a208204b4d2998ff12fbe4e05956e71/aus-der-region-basilikum-apfelessig.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "M",
+          "value": "Kolonial Standard"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "10139",
+          "value": "ESSIG/BALSA/CONDIM.BIANCO"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/103502800000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/aus-der-region-basilikum-apfelessig",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/103502800000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/aus-der-region-basilikum-apfelessig",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "updated_at": "2020-09-16T05:41:18+0200",
+  "receipt_text": "AdR Apfeless. Basilik.",
+  "price": {
+    "valid_from": "2018-04-28T00:00:00+0200",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 2.7,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "500ml"
+    },
+    "base": {
+      "price": 0.54,
+      "quantity": 100,
+      "unit": "ml"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}
