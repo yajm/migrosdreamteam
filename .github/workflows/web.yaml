@@ -23,10 +23,10 @@ jobs:
         working-directory: web
       - run: npm run build --prod
         working-directory: web
-      - run: echo "migros.bertschi.io" > web/dist/web/CNAME
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
+      - name: Deploy to foo-bar.surge.sh
+        uses: dswistowski/surge-sh-action@v1
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./web/dist/web
-          publish_branch: gh-pages
+          domain: 'migros-challenge.surge.sh'
+          project: 'web/dist/web'
+          login: ${{ secrets.surge_login }}
+          token: ${{ secrets.surge_token }}
