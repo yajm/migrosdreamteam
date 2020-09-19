@@ -15,6 +15,7 @@ export class ProductDetailComponent implements OnInit {
   productId: string;
   productInfo: ProductInfo;
   products: Product[] = [];
+  loading = true;
 
   constructor(
     private route: ActivatedRoute,
@@ -29,7 +30,10 @@ export class ProductDetailComponent implements OnInit {
     } else {
       this.backUrl = ['/product'];
     }
-    this.productInfo = this.productState.getInfo(this.productId);
+    this.productState.getInfo(this.productId).then((productInfo) => {
+      this.productInfo = productInfo;
+      this.loading = false;
+    });
     this.products = this.productState.products;
   }
 }

@@ -1,0 +1,4 @@
+<div class="w-24 h-24 bg-orange-300 flex-shrink-0 rounded items-center flex justify-center">
+  <app-loader *ngIf="loading"></app-loader>
+  <img *ngIf="!loading" [src]="productInfo.image.original" class="rounded" />
+</div>

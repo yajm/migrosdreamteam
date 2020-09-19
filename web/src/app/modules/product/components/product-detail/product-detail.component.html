@@ -5,18 +5,18 @@
 <app-page-content>
   <div class="p-3">
     <div class="flex">
-      <img class="w-32 h-32 bg-orange-100 rounded" [src]="productInfo.image.original"/>
+      <app-product-image [loading]="loading" [productInfo]="productInfo"></app-product-image>
       <div class="ml-3">
-        <div class="text-xl text-gray-900">{{productInfo.name}}</div>
-        <div class="text-sm text-gray-500">{{productInfo.regulated_description}}</div>
+        <div class="text-xl text-gray-900">{{productInfo?.name}}</div>
+        <div class="text-sm text-gray-500">{{productInfo?.regulated_description}}</div>
       </div>
     </div>
 
     <app-switcher class="my-3"></app-switcher>
   </div>
 
-  <app-scrollable-list>
-    <div class="flex items-center list-item" *ngFor="let product of products; let i = index">
+  <app-scrollable-list class="flex-grow min-h-0">
+    <div class="flex items-center flex-shrink-0 list-item" *ngFor="let product of products; let i = index">
       <div class="pl-3 pr-1 w-8 text-center">{{i + 1}}.</div>
       <app-product-card [product]="product" [disableNavigation]="true"></app-product-card>
     </div>

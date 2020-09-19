@@ -820,7 +820,7 @@ export class ProductStateService {
 
   constructor() {}
 
-  getInfo(id: string): ProductInfo {
+  async getInfo(id: string): Promise<ProductInfo> {
     return this.info;
   }
 }
