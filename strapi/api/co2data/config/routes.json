@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/co-2-data",
+      "handler": "co2data.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/co-2-data/count",
+      "handler": "co2data.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/co-2-data/:id",
+      "handler": "co2data.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/co-2-data",
+      "handler": "co2data.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/co-2-data/:id",
+      "handler": "co2data.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/co-2-data/:id",
+      "handler": "co2data.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
