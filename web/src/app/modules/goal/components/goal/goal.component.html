@@ -4,35 +4,56 @@
 </app-navbar>
 <app-page-content>
 
-  <div class="w-full px-3 py-4 list-item">
-    <div class="text-xl">CO<sup>2</sup> Score</div>
-    <div class="flex w-full">
-      <img src="assets/svgs/undraw_environment_iaus.svg" class="h-32 flex-grow"/>
-      <app-score>
+  <a [routerLink]="['/goal', 'co2']" class="w-full list-item">
+    <div class="text-xl text-gray-700 px-3 pt-4 pb-2 flex items-center">
+      <app-score class="mr-2">
         {{goal?.co2Score * 10 | number: '1.1-1'}}
       </app-score>
-    </div>
-  </div>
+      <div class="flex-grow">CO<sub>2</sub> Score</div>
 
-  <div class="w-full px-3 py-4 list-item">
-    <div class="text-xl">Kcal Score</div>
-    <div class="flex w-full">
-      <img src="assets/svgs/undraw_healthy_habit_bh5w.svg" class="h-32 flex-grow"/>
-      <app-score>
+      <div class="flex text-xl">
+        <div class="mr-2">Tips</div>
+        <fa-icon [icon]="navigateIcon"></fa-icon>
+      </div>
+    </div>
+    <div class="flex w-full items-center px-3 pb-6">
+      <img src="assets/svgs/undraw_environment_iaus.svg" class="h-24 flex-grow"/>
+    </div>
+  </a>
+
+  <a [routerLink]="['/goal', 'kcal']" class="w-full list-item">
+    <div class="text-xl text-gray-700 px-3 pt-4 pb-2 flex items-center">
+      <app-score class="mr-2">
         {{goal?.kcalScore * 10 | number: '1.1-1'}}
       </app-score>
+      <div class="flex-grow">Kcal Score</div>
+
+      <div class="flex text-xl">
+        <div class="mr-2">Tips</div>
+        <fa-icon [icon]="navigateIcon"></fa-icon>
+      </div>
     </div>
-  </div>
+    <div class="flex w-full items-center px-3 pb-6">
+      <img src="assets/svgs/undraw_healthy_habit_bh5w.svg" class="h-24 flex-grow"/>
+    </div>
+  </a>
 
 
-  <div class="w-full px-3 py-4 list-item">
-    <div class="text-xl">Price Score</div>
-    <div class="flex w-full">
-      <img src="assets/svgs/undraw_personal_finance_tqcd.svg" class="h-32 flex-grow"/>
-      <app-score>
+  <a [routerLink]="['/goal', 'price']" class="w-full list-item">
+    <div class="text-xl text-gray-700 px-3 pt-4 pb-2 flex items-center">
+      <app-score class="mr-2">
         {{goal?.priceScore * 10 | number: '1.1-1'}}
       </app-score>
+      <div class="flex-grow">Price Score</div>
+
+      <div class="flex text-xl">
+        <div class="mr-2">Tips</div>
+        <fa-icon [icon]="navigateIcon"></fa-icon>
+      </div>
     </div>
-  </div>
+    <div class="flex w-full items-center px-3 pb-6">
+      <img src="assets/svgs/undraw_personal_finance_tqcd.svg" class="h-24 flex-grow"/>
+    </div>
+  </a>
 
 </app-page-content>

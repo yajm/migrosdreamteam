@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { AssetApiService } from '../../../api/services/asset-api.service';
 import { Goal } from '../../models/goal';
-import { faBullseye } from '@fortawesome/pro-light-svg-icons';
+import { faArrowRight, faBullseye } from '@fortawesome/pro-light-svg-icons';
 
 @Component({
   selector: 'app-goal',
@@ -11,6 +11,7 @@ import { faBullseye } from '@fortawesome/pro-light-svg-icons';
 export class GoalComponent implements OnInit {
   goal: Goal;
   goalIcon = faBullseye;
+  navigateIcon = faArrowRight;
 
   constructor(private assetApi: AssetApiService) {}
 

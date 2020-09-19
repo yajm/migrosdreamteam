@@ -7,9 +7,11 @@ import { ApiModule } from '../api/api.module';
 import { ScoreModule } from '../score/score.module';
 import { PageModule } from '../page/page.module';
 import { NavbarModule } from '../navbar/navbar.module';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { GoalTipComponent } from './components/goal-tip/goal-tip.component';
 
 @NgModule({
-  declarations: [GoalComponent],
+  declarations: [GoalComponent, GoalTipComponent],
   imports: [
     CommonModule,
     ApiModule,
@@ -17,6 +19,7 @@ import { NavbarModule } from '../navbar/navbar.module';
     ScoreModule,
     PageModule,
     NavbarModule,
+    FontAwesomeModule,
   ],
 })
 export class GoalModule {}
