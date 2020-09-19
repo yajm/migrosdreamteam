@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { PurchaseStateService } from '../../services/purchase-state.service';
 import { ActivatedRoute } from '@angular/router';
 import { Purchase } from '../../models/purchase';
+import { Product } from '../../models/product';
 
 @Component({
   selector: 'app-purchase-detail',
@@ -9,7 +10,7 @@ import { Purchase } from '../../models/purchase';
   styleUrls: ['./purchase-detail.component.scss'],
 })
 export class PurchaseDetailComponent implements OnInit {
-  products = this.purchaseState.products;
+  products: Product[];
   purchase: Purchase;
 
   constructor(
@@ -17,9 +18,9 @@ export class PurchaseDetailComponent implements OnInit {
     private route: ActivatedRoute
   ) {}
 
-  ngOnInit(): void {
-    this.purchase = this.purchaseState.getPurchase(
-      this.route.snapshot.params.purchaseId
-    );
+  async ngOnInit() {
+    const purchaseId = this.route.snapshot.params.purchaseId;
+    this.products = await this.purchaseState.getArticles(purchaseId);
+    this.purchase = await this.purchaseState.getPurchase(purchaseId);
   }
 }
