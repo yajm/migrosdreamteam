@@ -14,9 +14,16 @@ export class ProductCardComponent implements OnInit {
   @Input()
   purchase: Purchase;
 
+  @Input()
+  disableNavigation = false;
+
   url: string[];
 
   constructor() {}
+
+  verifyClick(e: Event) {
+    e.preventDefault();
+  }
 
   ngOnInit(): void {
     if (this.purchase) {
