@@ -1,0 +1,653 @@
+{
+  "id": "101311000000",
+  "language": "de",
+  "name": "Alnatura Marzipan Nougat Riegel",
+  "names": {
+    "name": "Alnatura Marzipan Nougat Riegel"
+  },
+  "slug": "alnatura-marzipan-nougat-riegel",
+  "boss_number": "010110014605",
+  "description": {
+    "text": "Bio Edelmarzipan-Riegel mit Nougat in Zartbitterschokolade. In diesem Riegel umschliesst knackig-feine Zartbitterschokolade eine aromatische F&uuml;llung aus Edelmarzipan und Nussnougat. Alle Zutaten f&uuml;r den Alnatura Riegel Marzipan-Nougat Zartbitter stammen aus biologischer Landwirtschaft.",
+    "source": "PIM"
+  },
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "source-qim-origins",
+    "source-qim-distributor",
+    "validity-range-not-set",
+    "source-qim-allergens",
+    "source-qim-fooddeclaration",
+    "source-qim-nutritionfacts",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "42247104",
+    "7613269430544"
+  ],
+  "brand": {
+    "id": "D06",
+    "name": "Alnatura",
+    "slug": "alnatura",
+    "links": {
+      "homepage": {
+        "url": "https://alnatura.migros.ch/de.html",
+        "name": "Homepage",
+        "type": "info",
+        "purchasable": false
+      }
+    },
+    "image": {
+      "original": "https://image.migros.ch/original/2c0deb7a67525727ed8213ce2b42bc8a6eb35567/alnatura.jpg",
+      "stack": "https://image.migros.ch/{stack}/2c0deb7a67525727ed8213ce2b42bc8a6eb35567/alnatura.jpg"
+    }
+  },
+  "categories": [
+    {
+      "code": "BeSS_010108",
+      "name": "Süssigkeiten",
+      "slug": "supermarkt/lebensmittel/suessigkeiten",
+      "visible": true,
+      "title": "Süssigkeiten aus Ihrer Migros: für Naschkatzen und Schleckmäuler",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/a9c80f4e896b5ebdd3b7ebbee11f956c8ff157cf/suessigkeiten.jpg",
+        "stack": "https://image.migros.ch/{stack}/a9c80f4e896b5ebdd3b7ebbee11f956c8ff157cf/suessigkeiten.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "ALNA_CAT_SchokoladeundGetreideriegel_SchokoladeBiscuitsundsuesseSnacks",
+        "name": "Schokolade- und Getreideriegel",
+        "slug": "alnatura/schokolade-biscuits-und-suesse-snacks/schokolade-und-getreideriegel",
+        "visible": true,
+        "parent_code": "ALNA_CAT_SchokoladeBiscuitsundsuesseSnacks",
+        "level": 3
+      },
+      {
+        "code": "ALNA_CAT_SchokoladeBiscuitsundsuesseSnacks",
+        "name": "Schokolade, Biscuits und süsse Snacks",
+        "slug": "alnatura/schokolade-biscuits-und-suesse-snacks",
+        "visible": true,
+        "parent_code": "BeSS_97",
+        "level": 2
+      },
+      {
+        "code": "BeSS_97",
+        "name": "Alnatura",
+        "slug": "alnatura",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "nutrition_facts": {
+    "standard": {
+      "nutrients": [
+        {
+          "code": "PIM_NUT_ENERGIE",
+          "name": "Energie",
+          "pictogram_name": "Energie",
+          "category": "BIG9",
+          "quantity": 2120,
+          "nutrition_operator": "~",
+          "quantity_unit": "kJ",
+          "quantity_alternate": 509,
+          "quantity_alternate_unit": "kcal"
+        },
+        {
+          "code": "PIM_NUT_FETT",
+          "name": "Fett",
+          "pictogram_name": "Fett",
+          "category": "BIG9",
+          "quantity": 31,
+          "nutrition_operator": "~",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_FETT_GES",
+          "name": "davon gesättigte Fettsäuren",
+          "pictogram_name": "gesättigte Fettsäuren",
+          "category": "BIG9",
+          "quantity": 9.5,
+          "nutrition_operator": "~",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_KOHLENHY",
+          "name": "Kohlenhydrate",
+          "category": "BIG9",
+          "quantity": 44,
+          "nutrition_operator": "~",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_ZUCKER",
+          "name": "davon Zucker",
+          "pictogram_name": "Zuckerarten",
+          "category": "BIG9",
+          "quantity": 42,
+          "nutrition_operator": "~",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_GES_BALL",
+          "name": "Ballaststoffe",
+          "category": "BIG9",
+          "quantity": 7.5,
+          "nutrition_operator": "~",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_PROTEINE",
+          "name": "Eiweiss",
+          "category": "BIG9",
+          "quantity": 8.8,
+          "nutrition_operator": "~",
+          "quantity_unit": "g"
+        },
+        {
+          "code": "PIM_NUT_KOCHSALZ",
+          "name": "Salz",
+          "pictogram_name": "Salz",
+          "category": "BIG9",
+          "quantity": 0.05,
+          "nutrition_operator": "~",
+          "quantity_unit": "g"
+        }
+      ],
+      "base_quantity": 100,
+      "base_unit": "g",
+      "preparation_state": "UNPREPARED"
+    }
+  },
+  "features": [
+    {
+      "label_code": "MISO_produktionsanspruch",
+      "label": "Produktionsverfahren",
+      "values": [
+        {
+          "value_code": "MISO_produktionsanspruch_bioproduktion",
+          "value": "Bio-Produktion"
+        },
+        {
+          "value_code": "MISO_produktionsanspruch_ohnelecithinzusatz",
+          "value": "Ohne Lecithinzusatz"
+        }
+      ],
+      "category_code": "MISO_CLA_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_kunststoffverpackung",
+          "value": "Kunststoff-Verpackung"
+        }
+      ],
+      "category_code": "MISO_CLA_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_artvonbonbonsanderensuesswaren",
+      "label": "Art von Bonbons/anderen Süsswaren",
+      "values": [
+        {
+          "value_code": "MISO_artvonbonbonsanderensuesswaren_marzipanriegel",
+          "value": "Marzipanriegel"
+        }
+      ],
+      "category_code": "MISO_CLA_Suesswaren_SuesswarenSuessungsmittel_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_formdersuesswaren",
+      "label": "Form der Süsswaren",
+      "values": [
+        {
+          "value_code": "MISO_formdersuesswaren_riegel",
+          "value": "Riegel"
+        }
+      ],
+      "category_code": "MISO_CLA_Suesswaren_SuesswarenSuessungsmittel_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_artvonschokolade",
+      "label": "Art von Schokolade",
+      "values": [
+        {
+          "value_code": "MISO_artvonschokolade_zartbitter",
+          "value": "Zartbitter"
+        }
+      ],
+      "category_code": "MISO_CLA_Suesswaren_SuesswarenSuessungsmittel_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_einzelnverpackt",
+      "label": "Einzeln verpackt",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MISO_CLA_Suesswaren_SuesswarenSuessungsmittel_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_gefuellt",
+      "label": "Gefüllt",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MISO_CLA_Suesswaren_SuesswarenSuessungsmittel_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_VEGETARIANISM",
+      "label": "Vegetarismus",
+      "values": [
+        {
+          "value_code": "MAPI_VEGETARIANISM_vegan",
+          "value": "vegan"
+        }
+      ],
+      "category_code": "MAPI_VEGETARIANISM",
+      "top_fact": false
+    }
+  ],
+  "allergens": [
+    {
+      "code": "ALLG_SOJA",
+      "name": "Sojabohne und Sojabohnenderivate",
+      "contamination_code": "KANN_ENTHALTEN",
+      "contamination": "kann enthalten"
+    },
+    {
+      "code": "ALLG_PISTAZI",
+      "name": "Pistazie und Pistazienerzeugnisse",
+      "contamination_code": "KANN_ENTHALTEN",
+      "contamination": "kann enthalten"
+    },
+    {
+      "code": "ALLG_MILCH",
+      "name": "Milch und Milchderivate",
+      "contamination_code": "KANN_ENTHALTEN",
+      "contamination": "kann enthalten"
+    },
+    {
+      "code": "ALLG_CASHEW",
+      "name": "Kaschunuss und Kaschunusserzeugnisse",
+      "contamination_code": "KANN_ENTHALTEN",
+      "contamination": "kann enthalten"
+    },
+    {
+      "code": "ALLG_NUSS",
+      "name": "Nüsse und Nussderivate. (Kann Mandeln, Haselnüsse, Walnüsse, Cashewnüsse etc. einschließen)",
+      "contamination_code": "VORHANDEN",
+      "contamination": "vorhanden"
+    },
+    {
+      "code": "ALLG_MANDELN",
+      "name": "Mandeln und Mandelerzeugnisse",
+      "contamination_code": "VORHANDEN",
+      "contamination": "vorhanden"
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/4215a4dd16cb7b12b4952d0b6513b38770c1f493/alnatura-marzipan-nougat-riegel.jpg",
+    "stack": "https://image.migros.ch/{stack}/4215a4dd16cb7b12b4952d0b6513b38770c1f493/alnatura-marzipan-nougat-riegel.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/8cbdd7669c51c7fb469cc44a03084bcf1c7e7e77/alnatura-marzipan-nougat-riegel.png",
+    "stack": "https://image.migros.ch/{stack}/8cbdd7669c51c7fb469cc44a03084bcf1c7e7e77/alnatura-marzipan-nougat-riegel.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "M",
+          "value": "Kolonial Standard"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "11121",
+          "value": "ALNATURA CHOCO SNACKS"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUSTOMS_POSITION",
+      "values": [
+        {
+          "value_code": "1806.3121"
+        }
+      ],
+      "category_code": "MAPI_CUSTOMS_POSITION",
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "regulated_description": "Bio Edelbitterschokolade mitEdelmarzipan-Nougat-Füllung",
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/101311000000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/alnatura-marzipan-nougat-riegel",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/101311000000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/alnatura-marzipan-nougat-riegel",
+      "type": "info",
+      "purchasable": false
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/224522",
+      "app_url": "leshop:///catalog/article/detail?ean=42247104",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/alnatura-marzipan-nougat-riegel",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "regional_availability": {
+    "gmaa": {
+      "probability": 36
+    },
+    "gmbs": {
+      "probability": 59
+    },
+    "gmge": {
+      "probability": 59
+    },
+    "gmlu": {
+      "probability": 14
+    },
+    "gmnf": {
+      "probability": 35
+    },
+    "gmos": {
+      "probability": 27
+    },
+    "gmti": {
+      "probability": 22
+    },
+    "gmvd": {
+      "probability": 28
+    },
+    "gmvs": {
+      "probability": 31
+    },
+    "gmzh": {
+      "probability": 54
+    }
+  },
+  "updated_at": "2020-09-16T06:49:25+0200",
+  "base_unit": "CU",
+  "slugs": {
+    "de": "alnatura-marzipan-nougat-riegel",
+    "fr": "alnatura-barre-nougat-massepain",
+    "it": "alnatura-catenaccio-di-torrone-marzapane"
+  },
+  "receipt_text": "Alnatura Marzipan Noug",
+  "main_supplier": {
+    "name": "Alnatura Produktions-",
+    "id": "0010030436",
+    "supplier_product_id": "142461"
+  },
+  "price": {
+    "valid_from": "2018-01-29T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 1.35,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "40g"
+    },
+    "base": {
+      "price": 3.38,
+      "quantity": 100,
+      "unit": "g"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 8,
+    "average_all": 5
+  },
+  "data_source": "SAP-X11",
+  "origins": {},
+  "distributor": {
+    "name": "Alnatura GmbH",
+    "address": "Mahatma-Gandhi-Straße 7, 64295 Darmstadt"
+  },
+  "ingredients": "Edelmarzipan* 60 % (MANDELN* 43 %, Rohrohrzucker*, Wasser, Invertzuckersirup*, Alkohol 0,9 %), Edelbitterschokolade* 25 % (Kakaomasse*, Rohrohrzucker*, Kakaobutter*, Bourbonvanilleschote* gemahlen), NOUGAT* 15 % (Rohrohrzucker*, HASELNÜSSE* 34 %, Kakaobutter*, Kakaomasse*)*aus biologischer Landwirtschaft. Kann Spuren von Soja, Milch, Cashewnuss und Pistazie enthalten.",
+  "package": {
+    "content": 40,
+    "content_unit_code": "g",
+    "content_unit": "Gramm",
+    "net_weight": 0.04,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogramm",
+    "brutto_weight": 0.041,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 0.084,
+    "brutto_volume_unit_code": "cdm",
+    "height": 4,
+    "length": 1.4,
+    "width": 15,
+    "unit_dimension": "cm",
+    "price_comparison_content": 100,
+    "size": "40g"
+  },
+  "package_information": {
+    "tu": {
+      "brutto_weight": 1.1,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 2.05,
+      "brutto_volume_unit_code": "cdm",
+      "height": 6.2,
+      "length": 21.2,
+      "width": 15.6,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 24
+    },
+    "cu": {
+      "brutto_weight": 0.041,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0.084,
+      "brutto_volume_unit_code": "cdm",
+      "height": 4,
+      "length": 1.4,
+      "width": 15,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "lu": {
+      "brutto_weight": 236.16,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 595.2,
+      "brutto_volume_unit_code": "cdm",
+      "height": 62,
+      "length": 120,
+      "width": 80,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 5760
+    }
+  },
+  "related_products": {
+    "purchase_recommendations": {
+      "product_ids": [
+        "101311500000",
+        "101311400000",
+        "101311200000",
+        "101311300000",
+        "101312000000"
+      ]
+    }
+  },
+  "declarations": {
+    "food": {
+      "features": [
+        {
+          "label_code": "GDSN_M281_NetContent",
+          "label": "Nettofüllmenge Wert",
+          "values": [
+            {
+              "value_code": "NUMERIC_40",
+              "value": "40",
+              "numeric_value": 40
+            }
+          ],
+          "category_code": "GDSN",
+          "top_fact": false,
+          "unit_code": "g"
+        },
+        {
+          "label_code": "GDSN_M236_IsVariableUnit",
+          "label": "Mengenvariabler Artikel",
+          "values": [
+            {
+              "value_code": "BOOLEAN_FALSE",
+              "value": "false",
+              "boolean_value": false
+            }
+          ],
+          "category_code": "GDSN",
+          "top_fact": false
+        },
+        {
+          "label_code": "MAPI_CERTIFICATION_BODY",
+          "label": "Zertifizierungsstellen für Bio und/oder Berg/Alp inkl. Zertifizierungsnummer",
+          "values": [
+            {
+              "value": "DE-ÖKO-001"
+            }
+          ],
+          "category_code": "GDSN",
+          "top_fact": false
+        },
+        {
+          "label_code": "GDSN_M362_ConsumerStorageInstructions",
+          "label": "Aufbewahrungshinweise für den Konsumenten",
+          "values": [
+            {
+              "value": "Trocken lagern, vor Wärme schützen."
+            }
+          ],
+          "category_code": "GDSN",
+          "top_fact": false
+        },
+        {
+          "label_code": "GDSN_M278_NetWeight",
+          "label": "Nettogewicht",
+          "values": [
+            {
+              "value_code": "NUMERIC_40",
+              "value": "40",
+              "numeric_value": 40
+            }
+          ],
+          "category_code": "GDSN",
+          "top_fact": false,
+          "unit_code": "g",
+          "unit": "Gramm",
+          "unit_symbol": "g"
+        },
+        {
+          "label_code": "GDSN_M094_CompulsoryAdditiveLabelInformation",
+          "label": "Verpflichtende Kennzeichnung an der Ware",
+          "values": [
+            {
+              "value": "Kakaoanteil 55,00% mindestens in der Schokolade;"
+            }
+          ],
+          "category_code": "GDSN",
+          "top_fact": false
+        }
+      ]
+    }
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "recipe_ingredient_ids": [
+    "10000"
+  ],
+  "views": [
+    "all",
+    "browse"
+  ]
+}
