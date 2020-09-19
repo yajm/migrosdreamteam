@@ -10,12 +10,31 @@ import { ProductStateService } from '../../services/product-state.service';
 export class ProductComponent implements OnInit {
   productIcon = faUtensils;
   products = [];
+  skip = 0;
+  take = 20;
+  private loading = false;
 
   constructor(private productState: ProductStateService) {}
 
   ngOnInit(): void {
-    this.productState.getProducts(0, 50).then((products) => {
-      this.products = products;
-    });
+    this.loadMore();
+  }
+
+  loadMore() {
+    if (this.loading) {
+      return;
+    }
+    this.loading = true;
+    this.productState
+      .getProducts(this.skip, this.take)
+      .then((products) => {
+        this.products.push(...products);
+        this.skip += this.take;
+        this.loading = false;
+      })
+      .catch((err) => {
+        console.error(err);
+        this.loading = false;
+      });
   }
 }
