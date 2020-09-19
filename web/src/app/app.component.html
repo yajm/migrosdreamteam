@@ -1,18 +1,18 @@
-<div class="flex-grow">
+<div class="flex-grow min-h-0">
   <router-outlet></router-outlet>
 </div>
 
-<div class="flex-shrink-0 flex-no-wrap bg-gray-300 text-gray-600 h-16 border-t border-gray-400 w-full flex space-between">
+<div class="flex-shrink-0 flex-no-wrap bg-white text-gray-600 h-16 w-full flex space-between">
   <a [routerLink]="['/product']" class="flex-grow flex flex-col justify-center items-center" [routerLinkActive]="'active'">
-    <fa-icon class="text-xl" [icon]="productIcon"></fa-icon>
-    <div class="text-sm">Produkte</div>
+    <fa-icon class="text-2xl" [icon]="productIcon"></fa-icon>
+    <div class="text-xs">Products</div>
   </a>
   <a [routerLink]="['/purchase']" class="flex-grow flex flex-col justify-center items-center" [routerLinkActive]="'active'">
-    <fa-icon [icon]="purchaseIcon"></fa-icon>
-    <div class="text-sm">Einkäufe</div>
+    <fa-icon class="text-2xl" [icon]="purchaseIcon"></fa-icon>
+    <div class="text-xs">Purchases</div>
   </a>
   <div [routerLink]="['/setting']" class="flex-grow flex flex-col justify-center items-center" [routerLinkActive]="'active'">
-    <fa-icon [icon]="settingIcon"></fa-icon>
-    <div class="text-sm">Einstellungen</div>
+    <fa-icon class="text-2xl" [icon]="settingIcon"></fa-icon>
+    <div class="text-xs">Settings</div>
   </div>
 </div>
