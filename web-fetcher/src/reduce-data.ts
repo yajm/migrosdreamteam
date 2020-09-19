@@ -148,6 +148,7 @@ async function main() {
     false
   );
 
+  // create category product list
   for (const categorySlug of Object.keys(categorySlugs)) {
     writeJson(
       path.join(targetDir, 'categories', categorySlug + '.json'),
@@ -155,6 +156,7 @@ async function main() {
     );
   }
 
+  // create product info
   for (const reducedArticle of reducedArticles) {
     writeJson(
       path.join(targetDir, 'articles', reducedArticle.file),
@@ -162,6 +164,7 @@ async function main() {
     );
   }
 
+  // create purchase product list
   for (const purchaseId of Object.keys(purchaseArticles)) {
     const articles = purchaseArticles[purchaseId];
     writeJson(
@@ -170,6 +173,7 @@ async function main() {
     );
   }
 
+  // extend purchases with article count and total score
   for (const purchase of purchases) {
     const articles = purchaseArticles[purchase.einkaufID].map(
       (a) => articleMap[a.artikelID]
@@ -186,6 +190,38 @@ async function main() {
   }
   writeJson(path.join(targetDir, 'purchases.json'), purchases);
 
+  // calculate goal score
+  const goals: any = {};
+  function aggregateGoalScore(scoreKey: string) {
+    let score = 0;
+    let count = 0;
+    for (const purchase of purchases) {
+      const articles = purchaseArticles[purchase.einkaufID].map(
+        (a) => articleMap[a.artikelID]
+      );
+      const articlesWithScore = articles.filter(
+        (a) =>
+          a[scoreKey] !== null &&
+          a[scoreKey] !== undefined &&
+          a[scoreKey] !== NaN
+      );
+      if (articlesWithScore.length === 0) {
+        continue;
+      }
+      score += articlesWithScore.reduce(
+        (value, article) => article[scoreKey] + value,
+        0
+      );
+      count += articlesWithScore.length;
+    }
+    goals[scoreKey] = score / count;
+  }
+  aggregateGoalScore('priceScore');
+  aggregateGoalScore('kcalScore');
+  aggregateGoalScore('co2Score');
+  writeJson(path.join(targetDir, 'goal.json'), goals);
+
+  // create batch result for product list
   const limit = 50;
   let batch = 0;
   let currentBatch: ReducedArticleData[] = [];

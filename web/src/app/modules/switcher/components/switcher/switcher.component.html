@@ -1,6 +1,6 @@
 <div class="flex flex-no-wrap bg-gray-400 rounded-full">
   <div class="flex-grow flex justify-center py-2 rounded-full cursor-pointer" [ngClass]="{'bg-orange-500 text-white': selected === 'total'}" (click)="select('total')">Total</div>
   <div class="flex-grow flex justify-center py-2 rounded-full cursor-pointer" [ngClass]="{'bg-orange-500 text-white': selected === 'price'}" (click)="select('price')">Price</div>
-  <div class="flex-grow flex justify-center py-2 rounded-full cursor-pointer" [ngClass]="{'bg-orange-500 text-white': selected === 'co2'}" (click)="select('co2')">CO2</div>
+  <div class="flex-grow flex justify-center py-2 rounded-full cursor-pointer" [ngClass]="{'bg-orange-500 text-white': selected === 'co2'}" (click)="select('co2')"><span>CO<sup>2</sup></span></div>
   <div class="flex-grow flex justify-center py-2 rounded-full cursor-pointer" [ngClass]="{'bg-orange-500 text-white': selected === 'kcal'}" (click)="select('kcal')">Kcal</div>
 </div>

@@ -3,6 +3,7 @@ import { ApiModule } from '../api.module';
 import { HttpClient } from '@angular/common/http';
 import { Purchase } from '../../purchase/models/purchase';
 import { ProductInfo } from '../../product/models/product-info';
+import { Goal } from '../../goal/models/goal';
 
 @Injectable({
   providedIn: ApiModule,
@@ -36,5 +37,9 @@ export class AssetApiService {
     return this.http
       .get<ProductInfo>(`/assets/data/articles/${productId}.json`)
       .toPromise();
+  }
+
+  getGoal(): Promise<Goal> {
+    return this.http.get<Goal>(`/assets/data/goal.json`).toPromise();
   }
 }

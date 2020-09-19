@@ -1,1 +1,38 @@
-Goal :)
+<app-navbar>
+  <app-navbar-icon [icon]="goalIcon"></app-navbar-icon>
+  <app-navbar-title>Goals</app-navbar-title>
+</app-navbar>
+<app-page-content>
+
+  <div class="w-full px-3 py-4 list-item">
+    <div class="text-xl">CO<sup>2</sup> Score</div>
+    <div class="flex w-full">
+      <img src="assets/svgs/undraw_environment_iaus.svg" class="h-32 flex-grow"/>
+      <app-score>
+        {{goal?.co2Score * 10 | number: '1.1-1'}}
+      </app-score>
+    </div>
+  </div>
+
+  <div class="w-full px-3 py-4 list-item">
+    <div class="text-xl">Kcal Score</div>
+    <div class="flex w-full">
+      <img src="assets/svgs/undraw_healthy_habit_bh5w.svg" class="h-32 flex-grow"/>
+      <app-score>
+        {{goal?.kcalScore * 10 | number: '1.1-1'}}
+      </app-score>
+    </div>
+  </div>
+
+
+  <div class="w-full px-3 py-4 list-item">
+    <div class="text-xl">Price Score</div>
+    <div class="flex w-full">
+      <img src="assets/svgs/undraw_personal_finance_tqcd.svg" class="h-32 flex-grow"/>
+      <app-score>
+        {{goal?.priceScore * 10 | number: '1.1-1'}}
+      </app-score>
+    </div>
+  </div>
+
+</app-page-content>
