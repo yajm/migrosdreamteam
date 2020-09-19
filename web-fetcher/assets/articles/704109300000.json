@@ -1,0 +1,508 @@
+{
+  "id": "704109300000",
+  "language": "de",
+  "name": "Kleiderbügel Garderobe",
+  "names": {
+    "name": "Kleiderbügel Garderobe",
+    "short_name": "Kleiderbügel Garderobe"
+  },
+  "slug": "kleiderbuegel-garderobe-704109300000",
+  "boss_number": "150223202015",
+  "description": {
+    "text": "Mit 50mm breiten Schultern ohne Kerbe, drehbarer Haken rostfrei, transparent lakiert mit Oekolack",
+    "source": "PEX"
+  },
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03"
+  },
+  "tags": [
+    "source-pex",
+    "near-non-food",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7613247432867"
+  ],
+  "labels": [
+    {
+      "id": "L09",
+      "name": "FSC",
+      "slug": "fsc",
+      "image": {
+        "original": "https://image.migros.ch/original/2c1084154f39b6058058a9257b03090d98835154/fsc.jpg",
+        "stack": "https://image.migros.ch/{stack}/2c1084154f39b6058058a9257b03090d98835154/fsc.jpg"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_01042505",
+      "name": "Kleideraufbewahrung",
+      "slug": "supermarkt/haushalt-reinigung/waesche-buegeln-kleideraufbewahrung/kleideraufbewahrung",
+      "visible": true,
+      "parent_code": "BeSS_010425",
+      "level": 4
+    },
+    {
+      "code": "BeSS_010425",
+      "name": "Wäsche, Bügeln & Kleideraufbewahrung",
+      "slug": "supermarkt/haushalt-reinigung/waesche-buegeln-kleideraufbewahrung",
+      "visible": true,
+      "parent_code": "BeSS_0104",
+      "level": 3
+    },
+    {
+      "code": "BeSS_0104",
+      "name": "Haushalt & Reinigung",
+      "slug": "supermarkt/haushalt-reinigung",
+      "visible": true,
+      "title": "Reinigung mit der Migros – Reiniger für Haushalt und Garten",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/e5da3225980543e0c7ddcc443069f331d94e8439/haushalt-reinigung.png",
+        "stack": "https://image.migros.ch/{stack}/e5da3225980543e0c7ddcc443069f331d94e8439/haushalt-reinigung.png"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "features": [
+    {
+      "label_code": "miso_anzahl",
+      "label": "Anzahl",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1 Stk.",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MISO_CLA_AufbewahrungWaesche_Verbrauch_Haushalt_Alle",
+      "top_fact": false,
+      "unit_code": "Stk.",
+      "unit": "Stück",
+      "unit_symbol": "Stk."
+    },
+    {
+      "label_code": "miso_masse_groesse",
+      "label": "Masse / Grösse",
+      "values": [
+        {
+          "value": "45.5 cm x 25.5 cm"
+        }
+      ],
+      "category_code": "MISO_CLA_AufbewahrungWaesche_Verbrauch_Haushalt_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "miso_material",
+      "label": "Material",
+      "values": [
+        {
+          "value_code": "MISO_material_buchenholz",
+          "value": "Buchenholz"
+        },
+        {
+          "value_code": "MISO_material_metall",
+          "value": "Metall"
+        }
+      ],
+      "category_code": "MISO_CLA_AufbewahrungWaesche_Verbrauch_Haushalt_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "miso_farbe",
+      "label": "Farbe",
+      "values": [
+        {
+          "value_code": "MISO_farbe_natur",
+          "value": "natur"
+        }
+      ],
+      "category_code": "MISO_CLA_AufbewahrungWaesche_Verbrauch_Haushalt_Alle",
+      "top_fact": false
+    }
+  ],
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    }
+  },
+  "image": {
+    "original": "https://image.migros.ch/original/5fe1dc61edfb70de776221f13f624efcbaaf89c5/kleiderbuegel-garderobe.jpg",
+    "stack": "https://image.migros.ch/{stack}/5fe1dc61edfb70de776221f13f624efcbaaf89c5/kleiderbuegel-garderobe.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/57912bd5b69e188514f2c05943da1d7eae55e3bb/kleiderbuegel-garderobe.png",
+    "stack": "https://image.migros.ch/{stack}/57912bd5b69e188514f2c05943da1d7eae55e3bb/kleiderbuegel-garderobe.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_RETURNABLE",
+      "label": "Rückgabe",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "true",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MAPI_RETURNABLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_EXCLUDE_FROM_COMPARISON_ENGINES",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "false",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_EXCLUDE_FROM_COMPARISON_ENGINES",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_DEFAULT_LOGISTIC_TYPE",
+      "values": [
+        {
+          "value_code": "55",
+          "value": "Versandart Paket"
+        }
+      ],
+      "category_code": "MAPI_DEFAULT_LOGISTIC_TYPE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Normalposition"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "HART"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUSTOMS_POSITION",
+      "values": [
+        {
+          "value_code": "NUMERIC_44211000000",
+          "value": "44211000000",
+          "numeric_value": 44211000000
+        }
+      ],
+      "category_code": "MAPI_CUSTOMS_POSITION",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_RISK_CLASS",
+      "values": [
+        {
+          "value_code": "3",
+          "value": "3 (low)"
+        }
+      ],
+      "category_code": "MAPI_RISK_CLASS",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_KUBE_TUKA",
+      "values": [
+        {
+          "value_code": "BLANK",
+          "value": "KUBE und TUKA nicht zugelassen"
+        }
+      ],
+      "category_code": "MAPI_KUBE_TUKA",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HART",
+          "value": "Hartwaren  Handelsware"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "H",
+          "value": "Hartwaren"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "50756",
+          "value": "KLEIDERBUEGEL"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 1,
+    "percentage": 7.7
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/704109300000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/kleiderbuegel-garderobe-704109300000",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/704109300000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/kleiderbuegel-garderobe-704109300000",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "regional_availability": {
+    "gmaa": {
+      "probability": 9
+    },
+    "gmbs": {
+      "probability": 7
+    },
+    "gmge": {
+      "probability": 3
+    },
+    "gmlu": {
+      "probability": 8
+    },
+    "gmnf": {
+      "probability": 6
+    },
+    "gmos": {
+      "probability": 10
+    },
+    "gmti": {
+      "probability": 9
+    },
+    "gmvd": {
+      "probability": 8
+    },
+    "gmvs": {
+      "probability": 10
+    },
+    "gmzh": {
+      "probability": 6
+    }
+  },
+  "updated_at": "2020-09-12T06:36:38+0200",
+  "base_unit": "CU",
+  "slugs": {
+    "de": "kleiderbuegel-garderobe-704109300000",
+    "fr": "cintre-pour-portemanteau-704109300000",
+    "it": "appendiabiti-da-armadio-704109300000"
+  },
+  "receipt_text": "Formbügel extra breit",
+  "main_supplier": {
+    "name": "Forest Gorlice sp. z o.o.",
+    "id": "0010030595"
+  },
+  "price": {
+    "valid_from": "2018-01-30T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 8.2,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "1 Stück"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "data_source": "SAP-X12",
+  "origins": {
+    "producing_country": "Polen"
+  },
+  "package": {
+    "content": 1,
+    "content_unit_code": "cu",
+    "net_weight": 0.234,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogramm",
+    "brutto_weight": 0.258,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 5.16,
+    "brutto_volume_unit_code": "cdm",
+    "height": 25.5,
+    "length": 4.5,
+    "width": 45.5,
+    "unit_dimension": "cm"
+  },
+  "package_information": {
+    "cu": {
+      "brutto_weight": 0.258,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 5.16,
+      "brutto_volume_unit_code": "cdm",
+      "height": 25.5,
+      "length": 4.5,
+      "width": 45.5,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "tuv": {
+      "brutto_weight": 0.82,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 11.2,
+      "brutto_volume_unit_code": "cdm",
+      "height": 7,
+      "length": 50,
+      "width": 32,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 4
+    },
+    "tue": {
+      "brutto_weight": 6,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 26.455,
+      "brutto_volume_unit_code": "cdm",
+      "height": 37.5,
+      "length": 37,
+      "width": 37,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 4
+    },
+    "lu": {
+      "number_of_base_units": 480
+    },
+    "moq": {
+      "number_of_base_units": 480
+    }
+  },
+  "related_products": {
+    "reference_recommendations": {
+      "product_ids": [
+        "704107700000",
+        "704115000000",
+        "704111100000",
+        "704105600000"
+      ]
+    }
+  },
+  "quantity_on_stock": 840,
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "recipe_ingredient_ids": [
+    "10000"
+  ],
+  "views": [
+    "all",
+    "browse"
+  ]
+}

@@ -18,7 +18,7 @@
   <app-scrollable-list class="flex-grow min-h-0">
     <div class="flex items-center flex-shrink-0 list-item" *ngFor="let product of products; let i = index">
       <div class="pl-3 pr-1 w-8 text-center">{{i + 1}}.</div>
-      <app-product-card [product]="product" [disableNavigation]="true"></app-product-card>
+      <app-product-card class="flex-grow" [product]="product" [disableNavigation]="true"></app-product-card>
     </div>
 
   </app-scrollable-list>

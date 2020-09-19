@@ -1,0 +1,390 @@
+{
+  "id": "120819000000",
+  "language": "de",
+  "name": "Aus der Region Knutwiler ohne CO2",
+  "names": {
+    "name": "Aus der Region Knutwiler ohne CO2"
+  },
+  "slug": "aus-der-region-knutwiler-ohne-co2-120819000000",
+  "boss_number": "010710410605",
+  "description": {
+    "text": "<p><strong>Aus der Region - Knutwiler nat&uuml;rliches Mineralwasser 0,75l</strong></p><p>Nat&uuml;rliches Mineralwasser\n<strong>ohne</strong> Kohlens&auml;ure.</p><p>Knutwiler ist ein artesisches gewonnenes nat&uuml;rliches Mineralwasser, welches aus den Tiefen einer Seitenmor&auml;ne des ehemaligen Reussgletschers entspringt. Das Wasser steigt durch einen nat&uuml;rlichen &Uuml;berdruck selbst&auml;ndig und vollkommen ausgereift an die Oberfl&auml;che des Quellbrunnens.</p><p>Fr&uuml;her als Kur- und Heilbad bekannt, ist Knutwiler heute das einzige Mineralwasser der Zentralschweiz. \n<br />Besonders ausgewogene Mineralisation mit tiefsten Nitratwerten. Speziell geeignet f&uuml;r eine natriumarme Ern&auml;hrung.\n<br />&nbsp;</p>",
+    "source": "PIM"
+  },
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "validity-range-not-set",
+    "filter-aus-der-region",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7610867056992"
+  ],
+  "brand": {
+    "id": "O90",
+    "name": "Knutwiler",
+    "slug": "knutwiler"
+  },
+  "labels": [
+    {
+      "id": "L28",
+      "name": "Aus der Region",
+      "slug": "aus-der-region",
+      "links": {
+        "homepage": {
+          "url": "https://aus-der-region.migros.ch/aus-der-region/de.html",
+          "name": "Homepage",
+          "type": "info",
+          "purchasable": false
+        }
+      },
+      "image": {
+        "original": "https://image.migros.ch/original/28068cd4d6e174c8ec75906797af89b64170c43f/aus-der-region.jpg",
+        "stack": "https://image.migros.ch/{stack}/28068cd4d6e174c8ec75906797af89b64170c43f/aus-der-region.jpg"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_01011003",
+      "name": "Mineralwasser",
+      "slug": "supermarkt/lebensmittel/getraenke-heiss-kalt/mineralwasser",
+      "visible": true,
+      "title": "Prickelnd oder still? Mineralwasser bei der Migros.",
+      "parent_code": "BeSS_010110",
+      "image": {
+        "original": "https://image.migros.ch/original/12bd975bcb43071aa066ae16ec61f5b147a3166a/mineralwasser.jpg",
+        "stack": "https://image.migros.ch/{stack}/12bd975bcb43071aa066ae16ec61f5b147a3166a/mineralwasser.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010110",
+      "name": "Getränke heiss & kalt",
+      "slug": "supermarkt/lebensmittel/getraenke-heiss-kalt",
+      "visible": true,
+      "title": "Getränke aus der Migros löschen auch Ihren Durst",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/d04d95fbc2e1b4ada4783d2976d37a962a0318a1/getraenke-heiss-kalt.jpg",
+        "stack": "https://image.migros.ch/{stack}/d04d95fbc2e1b4ada4783d2976d37a962a0318a1/getraenke-heiss-kalt.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "features": [
+    {
+      "label_code": "MISO_produktionsanspruch",
+      "label": "Produktionsverfahren",
+      "values": [
+        {
+          "value_code": "MISO_produktionsanspruch_ausderregion",
+          "value": "Aus der Region"
+        }
+      ],
+      "category_code": "MISO_CLA_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_anzahlentnehmbarereinzelportionen",
+      "label": "Anzahl entnehmbarer Einzeleinheiten",
+      "values": [
+        {
+          "value_code": "NUMERIC_6.0",
+          "value": "6.0 Stk.",
+          "numeric_value": 6
+        }
+      ],
+      "category_code": "MISO_CLA_LebensmittelGetraenke_Alle",
+      "top_fact": false,
+      "unit_code": "Stk.",
+      "unit": "Stück",
+      "unit_symbol": "Stk."
+    },
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_flasche",
+          "value": "Flasche"
+        },
+        {
+          "value_code": "MISO_cu_gebindeart_folienverpackung",
+          "value": "Folienverpackung"
+        }
+      ],
+      "category_code": "MISO_CLA_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_kohlensaeurehaltig",
+      "label": "Kohlensäurehaltig",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "Nein",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MISO_CLA_Getraenke_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_artvonerfrischungsgetraenk",
+      "label": "Art von Erfrischungsgetränk",
+      "values": [
+        {
+          "value_code": "MISO_artvonerfrischungsgetraenk_mineralwasser",
+          "value": "Mineralwasser"
+        }
+      ],
+      "category_code": "MISO_CLA_AlkoholfreieGetraenketrinkfertig_Getraenke_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_artvonwasser",
+      "label": "Art von Wasser",
+      "values": [
+        {
+          "value_code": "MISO_artvonwasser_mineralwasser",
+          "value": "Mineralwasser"
+        }
+      ],
+      "category_code": "MISO_CLA_AlkoholfreieGetraenketrinkfertig_Getraenke_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_karbonisierungsgehalt",
+      "label": "Karbonisierungsgehalt",
+      "values": [
+        {
+          "value_code": "MISO_karbonisierungsgehalt_natuerlich",
+          "value": "natürlich"
+        }
+      ],
+      "category_code": "MISO_CLA_AlkoholfreieGetraenketrinkfertig_Getraenke_LebensmittelGetraenke_Alle",
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/90d12c0dc2e8912ac5933b7b3173e13a0e01a6a7/aus-der-region-knutwiler-ohne-co2.jpg",
+    "stack": "https://image.migros.ch/{stack}/90d12c0dc2e8912ac5933b7b3173e13a0e01a6a7/aus-der-region-knutwiler-ohne-co2.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/0e8dae8018f076a382f69a3cc345586de227f7eb/aus-der-region-knutwiler-ohne-co2.png",
+    "stack": "https://image.migros.ch/{stack}/0e8dae8018f076a382f69a3cc345586de227f7eb/aus-der-region-knutwiler-ohne-co2.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "M",
+          "value": "Kolonial Standard"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "10740",
+          "value": "MW SOFORTKONSUM"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/120819000000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/aus-der-region-knutwiler-ohne-co2-120819000000",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/120819000000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/aus-der-region-knutwiler-ohne-co2-120819000000",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "regional_availability": {
+    "gmaa": {
+      "probability": 0
+    },
+    "gmbs": {
+      "probability": 0
+    },
+    "gmge": {
+      "probability": 0
+    },
+    "gmlu": {
+      "probability": 97
+    },
+    "gmnf": {
+      "probability": 0
+    },
+    "gmos": {
+      "probability": 0
+    },
+    "gmti": {
+      "probability": 0
+    },
+    "gmvd": {
+      "probability": 0
+    },
+    "gmvs": {
+      "probability": 0
+    },
+    "gmzh": {
+      "probability": 0
+    }
+  },
+  "updated_at": "2020-09-16T06:30:36+0200",
+  "base_unit": "CU",
+  "slugs": {
+    "de": "aus-der-region-knutwiler-ohne-co2-120819000000",
+    "fr": "de-la-region-knutwiler-sans-co2-120819000000",
+    "it": "dalla-regione-knutwiler-senza-co2-120819000000"
+  },
+  "receipt_text": "AdR Knutwiler o.CO2",
+  "main_supplier": {
+    "name": "Mineralquelle Bad Knutwil AG",
+    "id": "0010000684",
+    "supplier_product_id": "1699"
+  },
+  "price": {
+    "valid_from": "2018-04-27T00:00:00+0200",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 6,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "6 x 750ml"
+    },
+    "base": {
+      "price": 0.13,
+      "quantity": 100,
+      "unit": "ml"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "data_source": "SAP-X11",
+  "package": {
+    "content": 4500,
+    "content_unit_code": "ml",
+    "content_unit": "Mililiter",
+    "net_weight": 6,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogramm",
+    "brutto_weight": 6.24,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 8.755,
+    "brutto_volume_unit_code": "cdm",
+    "height": 22.8,
+    "length": 16,
+    "width": 24,
+    "unit_dimension": "cm",
+    "price_comparison_content": 100,
+    "size": "6 x 750ml"
+  },
+  "package_information": {
+    "tu": {
+      "brutto_weight": 6.24,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 8.755,
+      "brutto_volume_unit_code": "cdm",
+      "height": 22.8,
+      "length": 16,
+      "width": 24,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "cu": {
+      "brutto_weight": 6.24,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 8.755,
+      "brutto_volume_unit_code": "cdm",
+      "height": 22.8,
+      "length": 16,
+      "width": 24,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "lu": {
+      "brutto_weight": 961,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0,
+      "height": 0,
+      "length": 120,
+      "width": 80,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 150
+    }
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "recipe_ingredient_ids": [
+    "14724"
+  ],
+  "views": [
+    "all",
+    "browse"
+  ]
+}
