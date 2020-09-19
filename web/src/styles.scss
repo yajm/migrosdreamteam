@@ -5,3 +5,7 @@
 html, body {
   @apply bg-gray-300 min-h-screen;
 }
+
+.list-item:nth-child(odd) {
+  @apply bg-gray-200;
+}
