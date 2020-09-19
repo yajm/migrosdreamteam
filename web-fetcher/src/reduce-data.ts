@@ -8,8 +8,6 @@ const purchaseArticlesFile = path.join(
   'assets/purchase-articles.json'
 );
 
-function reduceArticle(article: any): { data: {}; file: string }[] {}
-
 async function main() {
   const purchaseArticles = readJson(purchaseArticlesFile);
   for (const purchaseId of Object.keys(purchaseArticles)) {
