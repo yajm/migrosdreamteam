@@ -15,11 +15,13 @@
     <app-switcher class="my-3" [(selected)]="sort"></app-switcher>
   </div>
 
+  <div class="flex justify-center" *ngIf="productsLoading">
+    <app-loader></app-loader>
+  </div>
   <app-scrollable-list class="flex-grow min-h-0">
     <div class="flex items-center flex-shrink-0 list-item" *ngFor="let product of sortedProducts[sort]; let i = index">
       <div class="pl-3 pr-1 w-8 text-center">{{i + 1}}.</div>
       <app-product-card class="flex-grow" [product]="product" [disableNavigation]="true" [scoreKey]="sort"></app-product-card>
     </div>
-
   </app-scrollable-list>
 </app-page-content>

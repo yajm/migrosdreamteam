@@ -22,7 +22,6 @@ export class PurchaseStateService {
 
   async getArticles(purchaseId: string): Promise<ProductInfo[]> {
     const data = await this.purchaseArticles;
-    console.log(data, purchaseId);
     const products: ProductInfo[] = [];
     for (const prod of data[purchaseId]) {
       products.push(

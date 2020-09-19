@@ -15,9 +15,9 @@ export class AssetApiService {
     return this.http.get<Purchase[]>('/assets/data/purchases.json').toPromise();
   }
 
-  getCategoryArticles(category: string): Promise<string[]> {
+  getCategoryArticles(category: string): Promise<ProductInfo[]> {
     return this.http
-      .get<string[]>(`/assets/data/categories/${category}.json`)
+      .get<ProductInfo[]>(`/assets/data/categories/${category}.json`)
       .toPromise();
   }
 

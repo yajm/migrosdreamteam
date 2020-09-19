@@ -28,6 +28,7 @@ async function main() {
   const articlePath = path.join(process.cwd(), 'assets/articles');
   const reducedArticles: { file: string; data: any }[] = [];
   const categorySlugs: { [key: string]: any[] } = {};
+  const articleMap: { [key: string]: any } = {};
 
   for (const file of fs.readdirSync(articlePath)) {
     const article = readJson(path.join(articlePath, file));
@@ -48,6 +49,7 @@ async function main() {
       },
       file,
     };
+    articleMap[article.id] = reducedArticle.data;
     if (deepestCategory) {
       if (!categorySlugs[deepestCategory.code]) {
         categorySlugs[deepestCategory.code] = [];
@@ -106,7 +108,7 @@ async function main() {
   for (const categorySlug of Object.keys(categorySlugs)) {
     writeJson(
       path.join(targetDir, 'categories', categorySlug + '.json'),
-      categorySlugs[categorySlug].map((a) => a.data.id)
+      categorySlugs[categorySlug].map((a) => articleMap[a.data.id])
     );
   }
 

@@ -18,6 +18,7 @@ export class ProductDetailComponent implements OnInit {
   products: ProductInfo[] = [];
   sortedProducts: { [key: string]: ProductInfo[] } = {};
   loading = true;
+  productsLoading = true;
   sort: SwitchValue = 'total';
 
   constructor(
@@ -41,6 +42,7 @@ export class ProductDetailComponent implements OnInit {
     for (const key of ['price', 'total', 'kcal', 'c02']) {
       this.sortedProducts[key] = this.sortByScore(key);
     }
+    this.productsLoading = false;
   }
 
   private sortByScore(score: string) {

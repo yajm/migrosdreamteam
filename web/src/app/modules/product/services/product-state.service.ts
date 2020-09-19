@@ -23,12 +23,7 @@ export class ProductStateService {
   }
 
   async getSimilarProducts(category: string): Promise<ProductInfo[]> {
-    const ids = await this.assetApi.getCategoryArticles(category);
-    const products = [];
-    for (const id of ids) {
-      products.push(await this.getInfo(id));
-    }
-    return products;
+    return await this.assetApi.getCategoryArticles(category);
   }
 
   async getInfo(id: string): Promise<ProductInfo> {
