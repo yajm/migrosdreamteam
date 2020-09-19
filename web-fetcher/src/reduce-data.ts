@@ -13,6 +13,18 @@ const purchaseArticlesFile = path.join(
   'assets/purchase-articles.json'
 );
 const purchasesFile = path.join(process.cwd(), 'assets/purchases.json');
+const co2ScoresFile = path.join(
+  process.cwd(),
+  'assets/co2_scores_little_preped.csv'
+);
+const co2Scores = fs.readFileSync(co2ScoresFile, { encoding: 'utf8' });
+const co2Score: { [key: string]: number } = co2Scores
+  .split('\n')
+  .reduce((map, line) => {
+    const [id, score] = line.split(',');
+    map[id] = parseFloat(score);
+    return map;
+  }, {});
 
 export interface ReducedArticle {
   data: ReducedArticleData;
@@ -27,6 +39,7 @@ export interface ReducedArticleData {
   image: {
     original?: string;
   };
+  co2: number | undefined;
   price: number | undefined;
   kcal: number | undefined;
   priceScore: number | null;
@@ -46,6 +59,7 @@ function reduceArticle(file: string, article: any): ReducedArticle {
       image: {
         original: article.image.original,
       },
+      co2: co2Score[article.id] ?? undefined,
       price: article.price.item ? article.price.item.price : undefined,
       kcal: article.nutrition_facts?.standard?.nutrients?.find(
         (s) => s.code === 'PIM_NUT_ENERGIE'
@@ -138,7 +152,7 @@ async function main() {
 
   aggregateScore('priceScore', (article) => article.price, true);
   aggregateScore('kcalScore', (article) => article.kcal, true);
-  aggregateScore('co2Score', (article) => 1, true);
+  aggregateScore('co2Score', (article) => article.co2, true);
   aggregateScore(
     'totalScore',
     (article) =>

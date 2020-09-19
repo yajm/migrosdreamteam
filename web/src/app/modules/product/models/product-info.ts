@@ -7,5 +7,6 @@ export interface ProductInfo {
     original: string;
   };
   kcal?: number;
+  co2?: number;
   price?: number;
 }

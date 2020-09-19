@@ -39,7 +39,7 @@ export class ProductDetailComponent implements OnInit {
     this.products = await this.productState.getSimilarProducts(
       this.productInfo.categoryCode
     );
-    for (const key of ['price', 'total', 'kcal', 'c02']) {
+    for (const key of ['price', 'total', 'kcal', 'co2']) {
       this.sortedProducts[key] = this.sortByScore(key);
     }
     this.productsLoading = false;

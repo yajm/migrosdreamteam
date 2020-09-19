@@ -5,6 +5,7 @@
     <div class="text-base text-gray-500">{{product?.regulated_description}}</div>
     <div class="text-sm">
       <span class="mr-2 text-gray-600" *ngIf="product?.kcal">{{product.kcal}} kcal</span>
+      <span class="mr-2 text-gray-600" *ngIf="product?.co2">{{product.co2 | number: '1.0-0'}} CO<sub>2</sub></span>
       <span class="mr-2 text-gray-600" *ngIf="product?.price">{{product.price | number: '1.2'}} CHF</span>
     </div>
   </div>
