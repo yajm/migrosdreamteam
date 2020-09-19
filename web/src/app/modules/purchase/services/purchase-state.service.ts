@@ -5,7 +5,6 @@ import { ProductInfo } from '../../product/models/product-info';
 @Injectable()
 export class PurchaseStateService {
   private purchases = this.assetApi.getPurchases();
-  private purchaseArticles = this.assetApi.getPurchaseArticles();
 
   constructor(private assetApi: AssetApiService) {}
 
@@ -21,13 +20,6 @@ export class PurchaseStateService {
   }
 
   async getArticles(purchaseId: string): Promise<ProductInfo[]> {
-    const data = await this.purchaseArticles;
-    const products: ProductInfo[] = [];
-    for (const prod of data[purchaseId]) {
-      products.push(
-        await this.assetApi.getProductInfo(prod.artikelID.toString())
-      );
-    }
-    return products;
+    return await this.assetApi.getPurchaseArticles(purchaseId);
   }
 }

@@ -59,7 +59,11 @@ async function main() {
     reducedArticles.push(reducedArticle);
   }
 
-  function aggregateScore(scoreKey: string, selector: (data: any) => any) {
+  function aggregateScore(
+    scoreKey: string,
+    selector: (data: any) => any,
+    reverse: boolean
+  ) {
     for (const categorySlug of Object.keys(categorySlugs)) {
       let categoryMin = Number.MAX_VALUE;
       let categoryMax = Number.MIN_VALUE;
@@ -88,21 +92,23 @@ async function main() {
         if (valueRange === 0) {
           article.data[scoreKey] = 1;
         } else {
-          article.data[scoreKey] = 1 - (value - categoryMin) / valueRange;
+          const score = (value - categoryMin) / valueRange;
+          article.data[scoreKey] = reverse ? 1 - score : score;
         }
       }
     }
   }
 
-  aggregateScore('priceScore', (article) => article.price);
-  aggregateScore('kcalScore', (article) => article.kcal);
-  aggregateScore('co2Score', (article) => 1);
+  aggregateScore('priceScore', (article) => article.price, true);
+  aggregateScore('kcalScore', (article) => article.kcal, true);
+  aggregateScore('co2Score', (article) => 1, true);
   aggregateScore(
     'totalScore',
     (article) =>
       (article.priceScore ?? 0) +
       (article.kcalScore ?? 0) +
-      (article.co2Score ?? 0)
+      (article.co2Score ?? 0),
+    false
   );
 
   for (const categorySlug of Object.keys(categorySlugs)) {
@@ -116,6 +122,14 @@ async function main() {
     writeJson(
       path.join(targetDir, 'articles', reducedArticle.file),
       reducedArticle.data
+    );
+  }
+
+  for (const purchaseId of Object.keys(purchaseArticles)) {
+    const articles: any[] = purchaseArticles[purchaseId];
+    writeJson(
+      path.join(targetDir, 'purchases', purchaseId + '.json'),
+      articles.map((a) => articleMap[a.artikelID])
     );
   }
 }

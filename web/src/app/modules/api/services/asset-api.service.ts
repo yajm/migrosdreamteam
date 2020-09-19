@@ -2,7 +2,6 @@ import { Injectable } from '@angular/core';
 import { ApiModule } from '../api.module';
 import { HttpClient } from '@angular/common/http';
 import { Purchase } from '../../purchase/models/purchase';
-import { Product } from '../../purchase/models/product';
 import { ProductInfo } from '../../product/models/product-info';
 
 @Injectable({
@@ -21,9 +20,9 @@ export class AssetApiService {
       .toPromise();
   }
 
-  getPurchaseArticles(): Promise<{ [key: string]: Product[] }> {
+  getPurchaseArticles(purchaseId: string): Promise<ProductInfo[]> {
     return this.http
-      .get<{ [key: string]: Product[] }>('/assets/data/purchase-articles.json')
+      .get<ProductInfo[]>(`/assets/data/purchases/${purchaseId}.json`)
       .toPromise();
   }
 
