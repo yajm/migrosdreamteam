@@ -5,4 +5,6 @@ export interface Purchase {
   profitKstNameDe: string;
   genossenschaftsCode: string;
   time: string;
+  totalScore: number;
+  articleCount: number;
 }

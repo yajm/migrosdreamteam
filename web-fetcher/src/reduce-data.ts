@@ -12,56 +12,93 @@ const purchaseArticlesFile = path.join(
   process.cwd(),
   'assets/purchase-articles.json'
 );
+const purchasesFile = path.join(process.cwd(), 'assets/purchases.json');
+
+export interface ReducedArticle {
+  data: ReducedArticleData;
+  file: string;
+}
+
+export interface ReducedArticleData {
+  id: string;
+  name: string;
+  categoryCode?: string;
+  regulated_description?: string;
+  image: {
+    original?: string;
+  };
+  price: number | undefined;
+  kcal: number | undefined;
+  priceScore: number | null;
+  totalScore: number | null;
+  kcalScore: number | null;
+  co2Score: number | null;
+}
+
+function reduceArticle(file: string, article: any): ReducedArticle {
+  const deepestCategory = getDeepestCategory(article);
+  return {
+    data: {
+      id: article.id,
+      name: article.name,
+      categoryCode: deepestCategory?.code,
+      regulated_description: article.regulated_description,
+      image: {
+        original: article.image.original,
+      },
+      price: article.price.item ? article.price.item.price : undefined,
+      kcal: article.nutrition_facts?.standard?.nutrients?.find(
+        (s) => s.code === 'PIM_NUT_ENERGIE'
+      )?.quantity_alternate,
+      co2Score: null,
+      kcalScore: null,
+      priceScore: null,
+      totalScore: null,
+    },
+    file,
+  };
+}
+
+export interface PurchaseArticle {
+  artikelID: string;
+}
 
 async function main() {
-  const purchaseArticles = readJson(purchaseArticlesFile);
+  const purchaseArticles: { [key: string]: PurchaseArticle[] } = readJson(
+    purchaseArticlesFile
+  );
   for (const purchaseId of Object.keys(purchaseArticles)) {
-    const articles: any[] = purchaseArticles[purchaseId];
+    const articles = purchaseArticles[purchaseId];
     for (let i = articles.length - 1; i >= 0; i--) {
       if (!existsArticle(articles[i].artikelID)) {
         articles.splice(i, 1);
       }
     }
   }
-  writeJson(path.join(targetDir, 'purchase-articles.json'), purchaseArticles);
+
+  const purchases = readJson(purchasesFile);
 
   const articlePath = path.join(process.cwd(), 'assets/articles');
-  const reducedArticles: { file: string; data: any }[] = [];
-  const categorySlugs: { [key: string]: any[] } = {};
-  const articleMap: { [key: string]: any } = {};
+  const reducedArticles: { file: string; data: ReducedArticleData }[] = [];
+  const categorySlugs: { [key: string]: ReducedArticle[] } = {};
+  const articleMap: { [key: string]: ReducedArticleData } = {};
 
   for (const file of fs.readdirSync(articlePath)) {
     const article = readJson(path.join(articlePath, file));
-    const deepestCategory = getDeepestCategory(article);
-    const reducedArticle = {
-      data: {
-        id: article.id,
-        name: article.name,
-        categoryCode: deepestCategory?.code,
-        regulated_description: article.regulated_description,
-        image: {
-          original: article.image.original,
-        },
-        price: article.price.item ? article.price.item.price : null,
-        kcal: article.nutrition_facts?.standard?.nutrients?.find(
-          (s) => s.code === 'PIM_NUT_ENERGIE'
-        )?.quantity_alternate,
-      },
-      file,
-    };
+    const reducedArticle = reduceArticle(file, article);
     articleMap[article.id] = reducedArticle.data;
-    if (deepestCategory) {
-      if (!categorySlugs[deepestCategory.code]) {
-        categorySlugs[deepestCategory.code] = [];
+    if (reducedArticle.data.categoryCode) {
+      if (!categorySlugs[reducedArticle.data.categoryCode]) {
+        categorySlugs[reducedArticle.data.categoryCode] = [];
       }
-      categorySlugs[deepestCategory.code].push(reducedArticle);
+      categorySlugs[reducedArticle.data.categoryCode].push(reducedArticle);
     }
     reducedArticles.push(reducedArticle);
   }
 
   function aggregateScore(
     scoreKey: string,
-    selector: (data: any) => any,
+    selector: (data: ReducedArticleData) => number,
     reverse: boolean
   ) {
     for (const categorySlug of Object.keys(categorySlugs)) {
@@ -126,16 +163,32 @@ async function main() {
   }
 
   for (const purchaseId of Object.keys(purchaseArticles)) {
-    const articles: any[] = purchaseArticles[purchaseId];
+    const articles = purchaseArticles[purchaseId];
     writeJson(
       path.join(targetDir, 'purchases', purchaseId + '.json'),
       articles.map((a) => articleMap[a.artikelID])
     );
   }
 
+  for (const purchase of purchases) {
+    const articles = purchaseArticles[purchase.einkaufID].map(
+      (a) => articleMap[a.artikelID]
+    );
+    const articlesWithScore = articles.filter(
+      (a) => a.totalScore !== null && a.totalScore !== undefined
+    );
+    purchase.totalScore =
+      articlesWithScore.reduce(
+        (value, article) => article.totalScore + value,
+        0
+      ) / articlesWithScore.length;
+    purchase.articleCount = articles.length;
+  }
+  writeJson(path.join(targetDir, 'purchases.json'), purchases);
+
   const limit = 50;
   let batch = 0;
-  let currentBatch: any[] = [];
+  let currentBatch: ReducedArticleData[] = [];
   for (const article of reducedArticles) {
     currentBatch.push(article.data);
     if (currentBatch.length === limit) {
