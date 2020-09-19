@@ -1,0 +1,259 @@
+{
+  "id": "166000800000",
+  "language": "de",
+  "name": "M-Classic Poulethälse",
+  "slug": "m-classic-poulethaelse",
+  "boss_number": "010510723005",
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7617023003982",
+    "7613269182689"
+  ],
+  "brand": {
+    "id": "068",
+    "name": "M-Classic",
+    "slug": "m-classic",
+    "links": {
+      "homepage": {
+        "url": "https://m-classic.migros.ch/de.html",
+        "name": "Homepage",
+        "type": "info",
+        "purchasable": false
+      }
+    },
+    "image": {
+      "original": "https://image.migros.ch/original/72c18633f911e026e081ac11d872cff2d8dc8abb/m-classic.jpg",
+      "stack": "https://image.migros.ch/{stack}/72c18633f911e026e081ac11d872cff2d8dc8abb/m-classic.jpg"
+    }
+  },
+  "labels": [
+    {
+      "id": "L53",
+      "name": "Swissness",
+      "slug": "swissness",
+      "image": {
+        "original": "https://image.migros.ch/original/d771bba2f6b08ba42970ea0243c6f8c5a8832f15/swissness.jpg",
+        "stack": "https://image.migros.ch/{stack}/d771bba2f6b08ba42970ea0243c6f8c5a8832f15/swissness.jpg"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_0101150304",
+      "name": "Geflügel",
+      "slug": "supermarkt/lebensmittel/tiefkuehlprodukte/fleisch/gefluegel",
+      "visible": true,
+      "title": "Feines Tiefkühl-Geflügel bei Ihrer Migros",
+      "parent_code": "BeSS_01011503",
+      "image": {
+        "original": "https://image.migros.ch/original/3e4e54c069e6dcdb8019ddfff2f3283c73a89283/gefluegel.jpg",
+        "stack": "https://image.migros.ch/{stack}/3e4e54c069e6dcdb8019ddfff2f3283c73a89283/gefluegel.jpg"
+      },
+      "level": 5
+    },
+    {
+      "code": "BeSS_01011503",
+      "name": "Fleisch",
+      "slug": "supermarkt/lebensmittel/tiefkuehlprodukte/fleisch",
+      "visible": true,
+      "title": "Tiefkühlfleisch in Ihrer Migros kaufen",
+      "parent_code": "BeSS_010115",
+      "level": 4
+    },
+    {
+      "code": "BeSS_010115",
+      "name": "Tiefkühlprodukte",
+      "slug": "supermarkt/lebensmittel/tiefkuehlprodukte",
+      "visible": true,
+      "title": "Tiefkühlprodukte aus Ihrer Migros: schnell etwas Feines auf Ihren Tisch",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/b8e389701dd44ecdd5fbc95db5eed9b0a8c4a03d/tiefkuehlprodukte.jpg",
+        "stack": "https://image.migros.ch/{stack}/b8e389701dd44ecdd5fbc95db5eed9b0a8c4a03d/tiefkuehlprodukte.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "features": [
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_kunststoffverpackung",
+          "value": "Kunststoff-Verpackung"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_anatomischeform",
+      "label": "Art/Form von Fleisch",
+      "values": [
+        {
+          "value_code": "MISO_anatomischeform_hals",
+          "value": "Hals"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_fleischform",
+      "label": "Fleischform bearbeitet",
+      "values": [
+        {
+          "value_code": "MISO_fleischform_geschnitten",
+          "value": "Geschnitten"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_tierartodergattung",
+      "label": "Tierart oder Gattung",
+      "values": [
+        {
+          "value_code": "MISO_tierartodergattung_poulet",
+          "value": "Poulet"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_hygienehinweise",
+      "label": "Hygienehinweise",
+      "values": [
+        {
+          "value_code": "MISO_hygienehinweise_5",
+          "value": "Das Fleisch in einem Gefäss im Kühlschrank auftauen lassen. Flüssigkeit weggiessen und Fleisch mit Haushaltspapier abtrocknen. Rohes Fleisch nicht in Kontakt mit anderen Lebensmitteln bringen. Fleisch immer gut durchgekocht/gebraten servieren."
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/29726c4887d5edc170b4687b66e3f6173b3e2e4f/m-classic-poulethaelse.jpg",
+    "stack": "https://image.migros.ch/{stack}/29726c4887d5edc170b4687b66e3f6173b3e2e4f/m-classic-poulethaelse.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/f8d88844af60c556905fe1812ef5f98f494f7d48/m-classic-poulethaelse.png",
+    "stack": "https://image.migros.ch/{stack}/f8d88844af60c556905fe1812ef5f98f494f7d48/m-classic-poulethaelse.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "M",
+          "value": "Kolonial Standard"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "30056",
+          "value": "TK GEFLUEGEL INNEREIEN"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/166000800000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/m-classic-poulethaelse",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/166000800000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/m-classic-poulethaelse",
+      "type": "info",
+      "purchasable": false
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/4896193",
+      "app_url": "leshop:///catalog/article/detail?ean=7617023003982",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/m-classic-poulethaelse",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "updated_at": "2020-09-16T05:47:19+0200",
+  "receipt_text": "MClass Poulethälse",
+  "price": {
+    "valid_from": "2018-01-01T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 1.9,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "500g"
+    },
+    "base": {
+      "price": 0.38,
+      "quantity": 100,
+      "unit": "g"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 4,
+    "average_all": 3.75
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

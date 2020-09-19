@@ -1,0 +1,308 @@
+{
+  "id": "251200616000",
+  "language": "de",
+  "name": "MSC Wildlachsfilet Zitrone - Dill",
+  "slug": "msc-wildlachsfilet-zitrone-dill",
+  "boss_number": "040414362510",
+  "description": {
+    "text": "In Aluschale direkt f&uuml;r auf den Grill oder in den Backofen",
+    "source": "PIM"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7613404066010"
+  ],
+  "labels": [
+    {
+      "id": "L05",
+      "name": "MSC",
+      "slug": "msc",
+      "image": {
+        "original": "https://image.migros.ch/original/b4f2b83e8fa72e840367b33d46a26ab586685a13/msc.jpg",
+        "stack": "https://image.migros.ch/{stack}/b4f2b83e8fa72e840367b33d46a26ab586685a13/msc.jpg"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_01010706",
+      "name": "Traiteur",
+      "slug": "supermarkt/lebensmittel/fisch-meeresfruechte/traiteur",
+      "visible": true,
+      "title": "Frischen Fisch in Ihrer Migros kaufen",
+      "parent_code": "BeSS_010107",
+      "level": 4
+    },
+    {
+      "code": "BeSS_010107",
+      "name": "Fisch & Meeresfrüchte",
+      "slug": "supermarkt/lebensmittel/fisch-meeresfruechte",
+      "visible": true,
+      "title": "Frische Fische – natürlich aus Ihrer Migros",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/ec75a7d58e38e50543a63ffef79d21bc22d60668/fisch-meeresfruechte.jpg",
+        "stack": "https://image.migros.ch/{stack}/ec75a7d58e38e50543a63ffef79d21bc22d60668/fisch-meeresfruechte.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "features": [
+    {
+      "label_code": "MISO_mussgekuehltwerden",
+      "label": "Muss gekühlt werden",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_produktionsanspruch",
+      "label": "Produktionsverfahren",
+      "values": [
+        {
+          "value_code": "MISO_produktionsanspruch_nachhaltigefischerei",
+          "value": "Nachhaltige Fischerei"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_schale",
+          "value": "Schale"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zubereitungsverfahren",
+      "label": "Hinweise für die Zubereitung",
+      "values": [
+        {
+          "value_code": "MISO_zubereitungsverfahren_backen",
+          "value": "Backen"
+        },
+        {
+          "value_code": "MISO_zubereitungsverfahren_grillieren",
+          "value": "Grillieren"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zusatzangaben",
+      "label": "Zusatzangaben",
+      "values": [
+        {
+          "value_code": "MISO_zusatzangaben_273",
+          "value": "Gekühlt aufbewahren bei max. +2 Grad C."
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_fischspezies",
+      "label": "Fischspezies",
+      "values": [
+        {
+          "value_code": "MISO_fischspezies_wildlachs",
+          "value": "Wildlachs"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zuchtoderwildfang",
+      "label": "Zucht oder Wildfang",
+      "values": [
+        {
+          "value_code": "MISO_zuchtoderwildfang_wildfang",
+          "value": "Wildfang"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_suessodersalzwasser",
+      "label": "Süss- oder Salzwasser",
+      "values": [
+        {
+          "value_code": "MISO_suessodersalzwasser_salzwasser",
+          "value": "Salzwasser"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zuchtoderfangmethode",
+      "label": "Zucht- oder Fangmethode",
+      "values": [
+        {
+          "value_code": "MISO_zuchtoderfangmethode_meeresfischerei",
+          "value": "Meeresfischerei"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_verpackungsform",
+      "label": "Verpackungsform",
+      "values": [
+        {
+          "value_code": "MISO_verpackungsform_schutzatmosphaere",
+          "value": "Schutzatmosphäre"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_haut",
+      "label": "Haut",
+      "values": [
+        {
+          "value_code": "MISO_haut_mithaut",
+          "value": "mit Haut"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_herstellungsverfahren",
+      "label": "Herstellungsverfahren",
+      "values": [
+        {
+          "value_code": "MISO_herstellungsverfahren_gewuerzt",
+          "value": "Gewürzt"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/f98b15263cfe59c8ece2a35165dd75d7301782c8/msc-wildlachsfilet-zitrone-dill.jpg",
+    "stack": "https://image.migros.ch/{stack}/f98b15263cfe59c8ece2a35165dd75d7301782c8/msc-wildlachsfilet-zitrone-dill.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/97f313408b671f7b5ef554cd94a7b8331fdc1774/msc-wildlachsfilet-zitrone-dill.png",
+    "stack": "https://image.migros.ch/{stack}/97f313408b671f7b5ef554cd94a7b8331fdc1774/msc-wildlachsfilet-zitrone-dill.png"
+  },
+  "additional_images": [
+    {
+      "original": "https://image.migros.ch/original/bc2b8fbbc8a3bdfc06876936d33c3253a0a88718.jpg",
+      "stack": "https://image.migros.ch/{stack}/bc2b8fbbc8a3bdfc06876936d33c3253a0a88718.jpg"
+    }
+  ],
+  "internal_features": [
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZFRP",
+          "value": "Frische Beschaffung"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "6",
+          "value": "Fleisch-Fisch-Geflüg"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "70199",
+          "value": "CONVENIENCE"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/251200616000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/msc-wildlachsfilet-zitrone-dill",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/251200616000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/msc-wildlachsfilet-zitrone-dill",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "updated_at": "2020-09-16T05:53:13+0200",
+  "receipt_text": "MSC Wildlachsfilet",
+  "price": {
+    "valid_from": "2020-04-01T00:00:00+0200",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 13.9,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "255g"
+    },
+    "base": {
+      "price": 5.45,
+      "quantity": 100,
+      "unit": "g"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "reindex_date": "2020-09-21T23:59:59+0200"
+}

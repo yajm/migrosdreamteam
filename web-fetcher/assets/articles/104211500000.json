@@ -1,0 +1,390 @@
+{
+  "id": "104211500000",
+  "language": "de",
+  "name": "Farmer Plus Crunchy Fibre",
+  "slug": "farmer-plus-crunchy-fibre",
+  "boss_number": "010310521605",
+  "description": {
+    "text": "Diese knusprige, vegane Farmer Plus M&uuml;esli Crunchy Fibre ist reich an Ballaststoffen und leistet damit einen wertvollen Beitrag zur t&auml;glichen Ballaststoffzufuhr.",
+    "source": "PIM"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "source-qim-allergens",
+    "source-qim-fooddeclaration",
+    "source-qim-nutritionfacts",
+    "source-qim-origins",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7613312091999"
+  ],
+  "brand": {
+    "id": "052",
+    "name": "Farmer",
+    "slug": "farmer",
+    "image": {
+      "original": "https://image.migros.ch/original/3c1bd7ea87cddf27b0b1e57b502cca4f6c01f4b1/farmer.jpg",
+      "stack": "https://image.migros.ch/{stack}/3c1bd7ea87cddf27b0b1e57b502cca4f6c01f4b1/farmer.jpg"
+    }
+  },
+  "labels": [
+    {
+      "id": "L61",
+      "name": "Folsäure",
+      "slug": "folsaeure",
+      "image": {
+        "original": "https://image.migros.ch/original/79c993b3586f1ec2ed154dac98a308eddfddacd8/folsaeure.jpg",
+        "stack": "https://image.migros.ch/{stack}/79c993b3586f1ec2ed154dac98a308eddfddacd8/folsaeure.jpg"
+      }
+    },
+    {
+      "id": "L57",
+      "name": "V-vegan",
+      "slug": "v-vegan",
+      "image": {
+        "original": "https://image.migros.ch/original/9425b8ea6312342ddd2d0dc87e65567c88e1b757/v-vegan.jpg",
+        "stack": "https://image.migros.ch/{stack}/9425b8ea6312342ddd2d0dc87e65567c88e1b757/v-vegan.jpg"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_01011201",
+      "name": "Müesli",
+      "slug": "supermarkt/lebensmittel/mueesli-cerealien/mueesli",
+      "visible": true,
+      "parent_code": "BeSS_010112",
+      "image": {
+        "original": "https://image.migros.ch/original/33c958e5d8cb6d7719833c9e1bf8fe39691a6ed9/mueesli.jpg",
+        "stack": "https://image.migros.ch/{stack}/33c958e5d8cb6d7719833c9e1bf8fe39691a6ed9/mueesli.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010112",
+      "name": "Müesli & Cerealien",
+      "slug": "supermarkt/lebensmittel/mueesli-cerealien",
+      "visible": true,
+      "title": "Cerealien von der Migros &ndash; für einen guten Start in den Tag",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/94adab320c7d6778bba96c16ad7b18a493850519/mueesli-cerealien.jpg",
+        "stack": "https://image.migros.ch/{stack}/94adab320c7d6778bba96c16ad7b18a493850519/mueesli-cerealien.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_Mueesli_MueesliGetreideflocken_MueesliCerealienBrotaufstriche",
+        "name": "Müesli",
+        "slug": "amigos/mueesli-cerealien-brotaufstriche/mueesli-getreideflocken/mueesli",
+        "visible": true,
+        "parent_code": "AMIG_CAT_MueesliGetreideflocken_MueesliCerealienBrotaufstriche",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_MueesliGetreideflocken_MueesliCerealienBrotaufstriche",
+        "name": "Müesli & Getreideflocken",
+        "slug": "amigos/mueesli-cerealien-brotaufstriche/mueesli-getreideflocken",
+        "visible": true,
+        "parent_code": "AMIG_CAT_MueesliCerealienBrotaufstriche",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_MueesliCerealienBrotaufstriche",
+        "name": "Müesli, Cerealien & Brotaufstriche",
+        "slug": "amigos/mueesli-cerealien-brotaufstriche",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "features": [
+    {
+      "label_code": "MISO_produktionsanspruch",
+      "label": "Produktionsverfahren",
+      "values": [
+        {
+          "value_code": "MISO_produktionsanspruch_ohnezuckerzusatz",
+          "value": "Ohne Zuckerzusatz"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_beutelsack",
+          "value": "Beutel/Sack"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_naehrwertanspruch",
+      "label": "Nährwertanspruch",
+      "values": [
+        {
+          "value_code": "MISO_naehrwertanspruch_ballaststoffquelle",
+          "value": "Ballaststoffquelle"
+        },
+        {
+          "value_code": "MISO_naehrwertanspruch_ohnezuckerzusatz",
+          "value": "Ohne Zuckerzusatz"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zubereitungsverfahren",
+      "label": "Hinweise für die Zubereitung",
+      "values": [
+        {
+          "value_code": "MISO_zubereitungsverfahren_milchhinzugeben",
+          "value": "Milch hinzugeben"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_angereichertmitvitaminen",
+      "label": "Angereichert mit Vitaminen",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_artvonbearbeitetemgetreideprodukt",
+      "label": "Art von bearbeitetem Getreideprodukt",
+      "values": [
+        {
+          "value_code": "MISO_artvonbearbeitetemgetreideprodukt_dinkel",
+          "value": "Dinkel"
+        },
+        {
+          "value_code": "MISO_artvonbearbeitetemgetreideprodukt_hafer",
+          "value": "Hafer"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_mitobst",
+      "label": "Mit Obst",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zubereitung",
+      "label": "Zubereitung",
+      "values": [
+        {
+          "value_code": "MISO_zubereitung_mitfruechten",
+          "value": "Mit Früchten"
+        },
+        {
+          "value_code": "MISO_zubereitung_mitjoghurt",
+          "value": "mit Joghurt"
+        },
+        {
+          "value_code": "MISO_zubereitung_mitmilch",
+          "value": "mit Milch"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_besonderezutaten",
+      "label": "Besondere Zutaten",
+      "values": [
+        {
+          "value_code": "MISO_besonderezutaten_fruechte",
+          "value": "Früchte"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_VEGETARIANISM",
+      "label": "Vegetarismus",
+      "values": [
+        {
+          "value_code": "MAPI_VEGETARIANISM_vegan",
+          "value": "vegan"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/184c2394bb7d841cca6cd99615c198d12c8851c2/farmer-plus-crunchy-fibre.jpg",
+    "stack": "https://image.migros.ch/{stack}/184c2394bb7d841cca6cd99615c198d12c8851c2/farmer-plus-crunchy-fibre.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/283c95a7cb8c8fcec03e6f8b1bb77668292a7966/farmer-plus-crunchy-fibre.png",
+    "stack": "https://image.migros.ch/{stack}/283c95a7cb8c8fcec03e6f8b1bb77668292a7966/farmer-plus-crunchy-fibre.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_sortierung",
+      "label": "Sortierung aMigos",
+      "values": [
+        {
+          "value_code": "NUMERIC_300",
+          "value": "300",
+          "numeric_value": 300
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "M",
+          "value": "Kolonial Standard"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "10317",
+          "value": "KNUSPERMUEESLI"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/104211500000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/farmer-plus-crunchy-fibre",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/104211500000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/farmer-plus-crunchy-fibre",
+      "type": "info",
+      "purchasable": false
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/3238849",
+      "app_url": "leshop:///catalog/article/detail?ean=7613312091999",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/farmer-plus-crunchy-fibre",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "updated_at": "2020-09-16T05:15:21+0200",
+  "receipt_text": "Farmer Plus Crun.Fibre",
+  "price": {
+    "valid_from": "2018-01-29T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 6.3,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "600g"
+    },
+    "base": {
+      "price": 1.05,
+      "quantity": 100,
+      "unit": "g"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 14,
+    "average_all": 4.714285714286
+  },
+  "allergen_text": "Kann enthalten: Haselnüsse, Cashewnüsse, Pecannüsse, Milchproteine, Soja, Sesamsamen.",
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

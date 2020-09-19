@@ -1,0 +1,231 @@
+{
+  "id": "106225500000",
+  "language": "de",
+  "name": "Cenovis",
+  "slug": "cenovis",
+  "boss_number": "011111090110",
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "source-qim-origins",
+    "source-qim-distributor",
+    "validity-range-not-set",
+    "source-qim-allergens",
+    "source-qim-fooddeclaration",
+    "source-qim-nutritionfacts",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "76159183"
+  ],
+  "brand": {
+    "id": "P90",
+    "name": "Cenovis",
+    "slug": "cenovis"
+  },
+  "categories": [
+    {
+      "code": "BeSS_01011412",
+      "name": "Fleischkonserven",
+      "slug": "supermarkt/lebensmittel/pasta-zutaten-konserven/fleischkonserven",
+      "visible": true,
+      "parent_code": "BeSS_010114",
+      "image": {
+        "original": "https://image.migros.ch/original/47cc685fe0cdeb231b0a755b74060b8bd6991061/fleischkonserven.jpg",
+        "stack": "https://image.migros.ch/{stack}/47cc685fe0cdeb231b0a755b74060b8bd6991061/fleischkonserven.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010114",
+      "name": "Pasta, Zutaten & Konserven",
+      "slug": "supermarkt/lebensmittel/pasta-zutaten-konserven",
+      "visible": true,
+      "title": "Pasta aus Ihrer Migros: alles rund um Teigwaren",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/6d0964bbb34b8e041ba4d74fc0c90b149907f46a/pasta-zutaten-konserven.jpg",
+        "stack": "https://image.migros.ch/{stack}/6d0964bbb34b8e041ba4d74fc0c90b149907f46a/pasta-zutaten-konserven.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "features": [
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_tube",
+          "value": "Tube"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zubereitungsverfahren",
+      "label": "Hinweise für die Zubereitung",
+      "values": [
+        {
+          "value_code": "MISO_zubereitungsverfahren_zumwuerzengeeignet",
+          "value": "Zum Würzen geeignet"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_gewuerzegeeignetfuer",
+      "label": "Gewürze geeignet für",
+      "values": [
+        {
+          "value_code": "MISO_gewuerzegeeignetfuer_brot",
+          "value": "Brot"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_hefefrei",
+      "label": "Hefefrei",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "Nein",
+          "boolean_value": false
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_artvonsaucedip",
+      "label": "Art von Sauce/Dip",
+      "values": [
+        {
+          "value_code": "MISO_artvonsaucedip_aufstrich",
+          "value": "Aufstrich"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/056c289c715e587de2b003e45e83ee640433e024/cenovis.jpg",
+    "stack": "https://image.migros.ch/{stack}/056c289c715e587de2b003e45e83ee640433e024/cenovis.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/1dac3ca9e56bf2cae7fdd89d14c584931091122f/cenovis.png",
+    "stack": "https://image.migros.ch/{stack}/1dac3ca9e56bf2cae7fdd89d14c584931091122f/cenovis.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "M",
+          "value": "Kolonial Standard"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "11130",
+          "value": "FLEISCHKONSERVEN"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/106225500000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/cenovis",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/106225500000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/cenovis",
+      "type": "info",
+      "purchasable": false
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/69385",
+      "app_url": "leshop:///catalog/article/detail?ean=76159183",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/cenovis",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "updated_at": "2020-09-16T05:39:56+0200",
+  "receipt_text": "Cenovis",
+  "price": {
+    "valid_from": "2018-01-01T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 3.8,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "70g"
+    },
+    "base": {
+      "price": 5.43,
+      "quantity": 100,
+      "unit": "g"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 2,
+    "average_all": 4
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

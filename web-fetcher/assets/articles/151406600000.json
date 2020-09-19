@@ -1,0 +1,277 @@
+{
+  "id": "151406600000",
+  "language": "de",
+  "name": "M-Budget Blütenhonig kristallin",
+  "slug": "m-budget-bluetenhonig-kristallin",
+  "boss_number": "010310405605",
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "source-qim-fooddeclaration",
+    "source-qim-nutritionfacts",
+    "source-qim-origins",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7613269323020"
+  ],
+  "brand": {
+    "id": "N26",
+    "name": "M-Budget",
+    "slug": "m-budget",
+    "links": {
+      "homepage": {
+        "url": "https://m-budget.migros.ch/de.html",
+        "name": "Homepage",
+        "type": "info",
+        "purchasable": false
+      }
+    },
+    "image": {
+      "original": "https://image.migros.ch/original/1d1a13e240a94a7e1fa8ef99f15ce5b896f3486b/m-budget.jpg",
+      "stack": "https://image.migros.ch/{stack}/1d1a13e240a94a7e1fa8ef99f15ce5b896f3486b/m-budget.jpg"
+    }
+  },
+  "categories": [
+    {
+      "code": "BeSS_01011104",
+      "name": "Honig",
+      "slug": "supermarkt/lebensmittel/fruehstueck/honig",
+      "visible": true,
+      "parent_code": "BeSS_010111",
+      "image": {
+        "original": "https://image.migros.ch/original/cf93a88b225b284afedafefffd6f34fd1515c9fc/honig.jpg",
+        "stack": "https://image.migros.ch/{stack}/cf93a88b225b284afedafefffd6f34fd1515c9fc/honig.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010111",
+      "name": "Frühstück",
+      "slug": "supermarkt/lebensmittel/fruehstueck",
+      "visible": true,
+      "title": "Frühstück: Mit Produkten aus Ihrer Migros einfach in den Tag starten",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/58a87c73cd077c5c9efb268051c16d5b373f5c29/fruehstueck.jpg",
+        "stack": "https://image.migros.ch/{stack}/58a87c73cd077c5c9efb268051c16d5b373f5c29/fruehstueck.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_HonigSchokolade_Brotaufstriche_MueesliCerealienBrotaufstriche",
+        "name": "Honig & Schokolade",
+        "slug": "amigos/mueesli-cerealien-brotaufstriche/brotaufstriche/honig-schokolade",
+        "visible": true,
+        "parent_code": "AMIG_CAT_Brotaufstriche_MueesliCerealienBrotaufstriche",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_Brotaufstriche_MueesliCerealienBrotaufstriche",
+        "name": "Brotaufstriche",
+        "slug": "amigos/mueesli-cerealien-brotaufstriche/brotaufstriche",
+        "visible": true,
+        "parent_code": "AMIG_CAT_MueesliCerealienBrotaufstriche",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_MueesliCerealienBrotaufstriche",
+        "name": "Müesli, Cerealien & Brotaufstriche",
+        "slug": "amigos/mueesli-cerealien-brotaufstriche",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "features": [
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_dose",
+          "value": "Dose"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_artvonhonig",
+      "label": "Art von Honig",
+      "values": [
+        {
+          "value_code": "MISO_artvonhonig_blueten",
+          "value": "Blüten"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_honigkonsistenz",
+      "label": "Honig Konsistenz",
+      "values": [
+        {
+          "value_code": "MISO_honigkonsistenz_kristallin",
+          "value": "Kristallin"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/0ab29eeec83c0121a261b2d346d3e655ee4a5e9c/m-budget-bluetenhonig-kristallin.jpg",
+    "stack": "https://image.migros.ch/{stack}/0ab29eeec83c0121a261b2d346d3e655ee4a5e9c/m-budget-bluetenhonig-kristallin.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/2b97e338deb0940fb5c9e3babb898025d995fd96/m-budget-bluetenhonig-kristallin.png",
+    "stack": "https://image.migros.ch/{stack}/2b97e338deb0940fb5c9e3babb898025d995fd96/m-budget-bluetenhonig-kristallin.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_sortierung",
+      "label": "Sortierung aMigos",
+      "values": [
+        {
+          "value_code": "NUMERIC_270",
+          "value": "270",
+          "numeric_value": 270
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "M",
+          "value": "Kolonial Standard"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "10344",
+          "value": "HONIG"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/151406600000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/m-budget-bluetenhonig-kristallin",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/151406600000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/m-budget-bluetenhonig-kristallin",
+      "type": "info",
+      "purchasable": false
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/225247",
+      "app_url": "leshop:///catalog/article/detail?ean=7613269323020",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/m-budget-bluetenhonig-kristallin",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "updated_at": "2020-09-16T05:05:44+0200",
+  "receipt_text": "MBud Honig kristallin",
+  "price": {
+    "valid_from": "2018-01-29T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 2.75,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "500g"
+    },
+    "base": {
+      "price": 0.55,
+      "quantity": 100,
+      "unit": "g"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 12,
+    "average_all": 4
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

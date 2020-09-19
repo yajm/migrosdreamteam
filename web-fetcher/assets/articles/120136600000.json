@@ -1,0 +1,233 @@
+{
+  "id": "120136600000",
+  "language": "de",
+  "name": "Tonic Water",
+  "slug": "tonic-water-120136600000",
+  "boss_number": "010710381605",
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7617500044118"
+  ],
+  "brand": {
+    "id": "O81",
+    "name": "Apéritiv",
+    "slug": "aperitiv"
+  },
+  "categories": [
+    {
+      "code": "BeSS_01011008",
+      "name": "Apéro-Getränke",
+      "slug": "supermarkt/lebensmittel/getraenke-heiss-kalt/apero-getraenke",
+      "visible": true,
+      "parent_code": "BeSS_010110",
+      "image": {
+        "original": "https://image.migros.ch/original/b1d1c5474055c73040b8a2518ff75cef51cf3d4c/apero-getraenke.jpg",
+        "stack": "https://image.migros.ch/{stack}/b1d1c5474055c73040b8a2518ff75cef51cf3d4c/apero-getraenke.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010110",
+      "name": "Getränke heiss & kalt",
+      "slug": "supermarkt/lebensmittel/getraenke-heiss-kalt",
+      "visible": true,
+      "title": "Getränke aus der Migros löschen auch Ihren Durst",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/d04d95fbc2e1b4ada4783d2976d37a962a0318a1/getraenke-heiss-kalt.jpg",
+        "stack": "https://image.migros.ch/{stack}/d04d95fbc2e1b4ada4783d2976d37a962a0318a1/getraenke-heiss-kalt.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_Aperos_AlkoholfreieBiereAperos_Getraenke",
+        "name": "Apéros",
+        "slug": "amigos/getraenke/alkoholfreie-biere-aperos/aperos",
+        "visible": true,
+        "parent_code": "AMIG_CAT_AlkoholfreieBiereAperos_Getraenke",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_AlkoholfreieBiereAperos_Getraenke",
+        "name": "Alkoholfreie Biere & Apéros",
+        "slug": "amigos/getraenke/alkoholfreie-biere-aperos",
+        "visible": true,
+        "parent_code": "AMIG_CAT_Getraenke",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_Getraenke",
+        "name": "Getränke",
+        "slug": "amigos/getraenke",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/3532b49484c26e00bed4498773f5886857c1003b/tonic-water.jpg",
+    "stack": "https://image.migros.ch/{stack}/3532b49484c26e00bed4498773f5886857c1003b/tonic-water.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/36a8578de8150a87fd37afd5749df305e13540c1/tonic-water.png",
+    "stack": "https://image.migros.ch/{stack}/36a8578de8150a87fd37afd5749df305e13540c1/tonic-water.png"
+  },
+  "additional_images": [
+    {
+      "original": "https://image.migros.ch/original/ceac8ebd63d70c5cc3f859f6ba076cfa74a890c4.jpg",
+      "stack": "https://image.migros.ch/{stack}/ceac8ebd63d70c5cc3f859f6ba076cfa74a890c4.jpg"
+    }
+  ],
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_sortierung",
+      "label": "Sortierung aMigos",
+      "values": [
+        {
+          "value_code": "NUMERIC_220",
+          "value": "220",
+          "numeric_value": 220
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "M",
+          "value": "Kolonial Standard"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "10722",
+          "value": "APERO / MIXGETRAENKE"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/120136600000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/tonic-water-120136600000",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/120136600000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/tonic-water-120136600000",
+      "type": "info",
+      "purchasable": false
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/217397",
+      "app_url": "leshop:///catalog/article/detail?ean=7617500044118",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/tonic-water-120136600000",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "updated_at": "2020-09-16T06:30:29+0200",
+  "receipt_text": "Tonic Water 6x50cl",
+  "price": {
+    "valid_from": "2018-01-29T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 6.6,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "6 x 500ml"
+    },
+    "base": {
+      "price": 0.22,
+      "quantity": 100,
+      "unit": "ml"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 7,
+    "average_all": 4.714285714286
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

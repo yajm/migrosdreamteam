@@ -1,0 +1,426 @@
+{
+  "id": "233510028010",
+  "language": "de",
+  "name": "Rippli Nierstück geräucht Terrasuisse",
+  "slug": "rippli-nierstueck-geraeucht-terrasuisse",
+  "boss_number": "040114503010",
+  "description": {
+    "text": "<p>Auslaufhaltung</p><p>Rippli Nierst&uuml;ck, ger&auml;uchert roh</p>",
+    "source": "PIM"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "2152428000006",
+    "7613269000334"
+  ],
+  "labels": [
+    {
+      "id": "L53",
+      "name": "Swissness",
+      "slug": "swissness",
+      "image": {
+        "original": "https://image.migros.ch/original/d771bba2f6b08ba42970ea0243c6f8c5a8832f15/swissness.jpg",
+        "stack": "https://image.migros.ch/{stack}/d771bba2f6b08ba42970ea0243c6f8c5a8832f15/swissness.jpg"
+      }
+    },
+    {
+      "id": "L14",
+      "name": "TerraSuisse",
+      "slug": "terrasuisse",
+      "image": {
+        "original": "https://image.migros.ch/original/1ffb197ef3d9b3099bc31eb47f8dfa585c93daa6/terrasuisse.jpg",
+        "stack": "https://image.migros.ch/{stack}/1ffb197ef3d9b3099bc31eb47f8dfa585c93daa6/terrasuisse.jpg"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_0101061103",
+      "name": "Fleischwaren gekühlt",
+      "slug": "supermarkt/lebensmittel/fleisch/charcuterie-produkte/fleischwaren-gekuehlt",
+      "visible": true,
+      "parent_code": "BeSS_01010611",
+      "image": {
+        "original": "https://image.migros.ch/original/240be88a673422fe7b0223b44152099394b79732/fleischwaren-gekuehlt.jpg",
+        "stack": "https://image.migros.ch/{stack}/240be88a673422fe7b0223b44152099394b79732/fleischwaren-gekuehlt.jpg"
+      },
+      "level": 5
+    },
+    {
+      "code": "BeSS_01010611",
+      "name": "Charcuterie Produkte",
+      "slug": "supermarkt/lebensmittel/fleisch/charcuterie-produkte",
+      "visible": true,
+      "title": "Vielfältige Charcuterie-Produkte jetzt in Ihrer Migros",
+      "parent_code": "BeSS_010106",
+      "image": {
+        "original": "https://image.migros.ch/original/25316d2bc38d6c6d28b266513291b23735ad8a1f/charcuterie-produkte.jpg",
+        "stack": "https://image.migros.ch/{stack}/25316d2bc38d6c6d28b266513291b23735ad8a1f/charcuterie-produkte.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010106",
+      "name": "Fleisch",
+      "slug": "supermarkt/lebensmittel/fleisch",
+      "visible": true,
+      "title": "Fleisch ausgezeichneter Qualität aus Ihrer Migros: einfach gut",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/03d32c0880d7a9ea6e58971966032e65ac442b58/fleisch.jpg",
+        "stack": "https://image.migros.ch/{stack}/03d32c0880d7a9ea6e58971966032e65ac442b58/fleisch.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_Schwein_Fleisch_FleischFisch",
+        "name": "Schwein",
+        "slug": "amigos/fleisch-fisch/fleisch/schwein",
+        "visible": true,
+        "parent_code": "AMIG_CAT_Fleisch_FleischFisch",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_Fleisch_FleischFisch",
+        "name": "Fleisch",
+        "slug": "amigos/fleisch-fisch/fleisch",
+        "visible": true,
+        "parent_code": "AMIG_CAT_FleischFisch",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_FleischFisch",
+        "name": "Fleisch & Fisch",
+        "slug": "amigos/fleisch-fisch",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "features": [
+    {
+      "label_code": "MISO_produktionsanspruch",
+      "label": "Produktionsverfahren",
+      "values": [
+        {
+          "value_code": "MISO_produktionsanspruch_ipsuissebauernhof",
+          "value": "IP-SUISSE Bauernhof"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_kunststoffverpackung",
+          "value": "Kunststoff-Verpackung"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zubereitungsverfahren",
+      "label": "Hinweise für die Zubereitung",
+      "values": [
+        {
+          "value_code": "MISO_zubereitungsverfahren_kochen",
+          "value": "Kochen"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_anatomischeform",
+      "label": "Art/Form von Fleisch",
+      "values": [
+        {
+          "value_code": "MISO_anatomischeform_niere",
+          "value": "Niere"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_fleischform",
+      "label": "Fleischform bearbeitet",
+      "values": [
+        {
+          "value_code": "MISO_fleischform_amstueck",
+          "value": "Am Stück"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_tierartodergattung",
+      "label": "Tierart oder Gattung",
+      "values": [
+        {
+          "value_code": "MISO_tierartodergattung_schwein",
+          "value": "Schwein"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_verpackungsform",
+      "label": "Verpackungsform",
+      "values": [
+        {
+          "value_code": "MISO_verpackungsform_vakuum",
+          "value": "Vakuum"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_herstellungsverfahrenvonfleisch",
+      "label": "Herstellungsverfahren von Fleisch",
+      "values": [
+        {
+          "value_code": "MISO_herstellungsverfahrenvonfleisch_geraeuchert",
+          "value": "geräuchert"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_tierwohlmehrwert",
+      "label": "Tierwohl Mehrwert",
+      "values": [
+        {
+          "value_code": "MISO_tierwohlmehrwert_beimressourceneffizientenanbauderprodukte",
+          "value": "Beim ressourceneffizienten Anbau der Produkte werden wenig bis gar keine Pflanzenschutzmittel eingesetzt. Das Vieh wird in artgerechten Ställen mit Auslauf gehalten. Die Betriebe schaffen Lebensräume für seltene Tiere und Pflanzen."
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_haltbarmachung",
+      "label": "Haltbarmachung",
+      "values": [
+        {
+          "value_code": "MISO_haltbarmachung_geraeuchert",
+          "value": "geräuchert"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/e11e076a45fe696535469cf41e36a55ddec5eaa2/rippli-nierstueck-geraeucht-terrasuisse.jpg",
+    "stack": "https://image.migros.ch/{stack}/e11e076a45fe696535469cf41e36a55ddec5eaa2/rippli-nierstueck-geraeucht-terrasuisse.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/4a0005ce960b0a0e3d8eefc22d588b29a8325b4f/rippli-nierstueck-geraeucht-terrasuisse.png",
+    "stack": "https://image.migros.ch/{stack}/4a0005ce960b0a0e3d8eefc22d588b29a8325b4f/rippli-nierstueck-geraeucht-terrasuisse.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_sortierung",
+      "label": "Sortierung aMigos",
+      "values": [
+        {
+          "value_code": "NUMERIC_1680",
+          "value": "1680",
+          "numeric_value": 1680
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_minimal-gewicht",
+      "label": "Minimal-Gewicht",
+      "values": [
+        {
+          "value_code": "NUMERIC_185.0",
+          "value": "185.0 g",
+          "numeric_value": 185
+        }
+      ],
+      "top_fact": false,
+      "unit_code": "g",
+      "unit": "Gramm",
+      "unit_symbol": "g"
+    },
+    {
+      "label_code": "MISO_aMigos_maximal-gewicht",
+      "label": "Maximal-Gewicht",
+      "values": [
+        {
+          "value_code": "NUMERIC_226.0",
+          "value": "226.0 g",
+          "numeric_value": 226
+        }
+      ],
+      "top_fact": false,
+      "unit_code": "g",
+      "unit": "Gramm",
+      "unit_symbol": "g"
+    },
+    {
+      "label_code": "MISO_aMigos_verkaufseinheit",
+      "label": "Verkaufseinheit",
+      "values": [
+        {
+          "value_code": "NUMERIC_1.0",
+          "value": "1.0 Pk",
+          "numeric_value": 1
+        }
+      ],
+      "top_fact": false,
+      "unit_code": "Pk",
+      "unit": "Pack",
+      "unit_symbol": "Pk"
+    },
+    {
+      "label_code": "MISO_aMigos_volumen",
+      "label": "Volumen aMigos!",
+      "values": [
+        {
+          "value_code": "NUMERIC_0.256",
+          "value": "0.256 l",
+          "numeric_value": 0.256
+        }
+      ],
+      "top_fact": false,
+      "unit_code": "l",
+      "unit": "Liter",
+      "unit_symbol": "l"
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZFRP",
+          "value": "Frische Beschaffung"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "6",
+          "value": "Fleisch-Fisch-Geflüg"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "71227",
+          "value": "GERAEUCHERT GEKUEHLT"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/233510028010",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/rippli-nierstueck-geraeucht-terrasuisse",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/233510028010",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/rippli-nierstueck-geraeucht-terrasuisse",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "updated_at": "2020-09-16T06:33:42+0200",
+  "receipt_text": "Rippli Nierstück ger.",
+  "price": {
+    "valid_from": "2019-08-26T00:00:00+0200",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 2.9,
+      "quantity": 100,
+      "unit": "g",
+      "varying_quantity": true,
+      "display_quantity": "100 g"
+    },
+    "estimated_piece_weight": 206,
+    "estimated_piece_price": 6,
+    "base": {
+      "price": 0.29,
+      "quantity": 100,
+      "unit": "g"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 2,
+    "average_all": 3
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

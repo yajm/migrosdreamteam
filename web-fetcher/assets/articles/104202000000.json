@@ -1,0 +1,267 @@
+{
+  "id": "104202000000",
+  "language": "de",
+  "name": "M-Classic Vollkorn-Haferflöckli fein",
+  "slug": "m-classic-vollkorn-haferfloeckli-fein-104202000000",
+  "boss_number": "010310520610",
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "source-qim-origins",
+    "validity-range-not-set",
+    "source-qim-allergens",
+    "source-qim-fooddeclaration",
+    "source-qim-nutritionfacts",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7610200011428"
+  ],
+  "brand": {
+    "id": "068",
+    "name": "M-Classic",
+    "slug": "m-classic",
+    "links": {
+      "homepage": {
+        "url": "https://m-classic.migros.ch/de.html",
+        "name": "Homepage",
+        "type": "info",
+        "purchasable": false
+      }
+    },
+    "image": {
+      "original": "https://image.migros.ch/original/72c18633f911e026e081ac11d872cff2d8dc8abb/m-classic.jpg",
+      "stack": "https://image.migros.ch/{stack}/72c18633f911e026e081ac11d872cff2d8dc8abb/m-classic.jpg"
+    }
+  },
+  "categories": [
+    {
+      "code": "BeSS_01011201",
+      "name": "Müesli",
+      "slug": "supermarkt/lebensmittel/mueesli-cerealien/mueesli",
+      "visible": true,
+      "parent_code": "BeSS_010112",
+      "image": {
+        "original": "https://image.migros.ch/original/33c958e5d8cb6d7719833c9e1bf8fe39691a6ed9/mueesli.jpg",
+        "stack": "https://image.migros.ch/{stack}/33c958e5d8cb6d7719833c9e1bf8fe39691a6ed9/mueesli.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010112",
+      "name": "Müesli & Cerealien",
+      "slug": "supermarkt/lebensmittel/mueesli-cerealien",
+      "visible": true,
+      "title": "Cerealien von der Migros &ndash; für einen guten Start in den Tag",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/94adab320c7d6778bba96c16ad7b18a493850519/mueesli-cerealien.jpg",
+        "stack": "https://image.migros.ch/{stack}/94adab320c7d6778bba96c16ad7b18a493850519/mueesli-cerealien.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_Getreideflocken_MueesliGetreideflocken_MueesliCerealienBrotaufstriche",
+        "name": "Getreideflocken",
+        "slug": "amigos/mueesli-cerealien-brotaufstriche/mueesli-getreideflocken/getreideflocken",
+        "visible": true,
+        "parent_code": "AMIG_CAT_MueesliGetreideflocken_MueesliCerealienBrotaufstriche",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_MueesliGetreideflocken_MueesliCerealienBrotaufstriche",
+        "name": "Müesli & Getreideflocken",
+        "slug": "amigos/mueesli-cerealien-brotaufstriche/mueesli-getreideflocken",
+        "visible": true,
+        "parent_code": "AMIG_CAT_MueesliCerealienBrotaufstriche",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_MueesliCerealienBrotaufstriche",
+        "name": "Müesli, Cerealien & Brotaufstriche",
+        "slug": "amigos/mueesli-cerealien-brotaufstriche",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "features": [
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_beutelsack",
+          "value": "Beutel/Sack"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_artvonbearbeitetemgetreideprodukt",
+      "label": "Art von bearbeitetem Getreideprodukt",
+      "values": [
+        {
+          "value_code": "MISO_artvonbearbeitetemgetreideprodukt_hafer",
+          "value": "Hafer"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/964bb85b6adb3bc8d4af3c49dba6a55c7cf6f9d9/m-classic-vollkorn-haferfloeckli-fein.jpg",
+    "stack": "https://image.migros.ch/{stack}/964bb85b6adb3bc8d4af3c49dba6a55c7cf6f9d9/m-classic-vollkorn-haferfloeckli-fein.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/1649a6b2c00f820bb15a582d5e199f000f802774/m-classic-vollkorn-haferfloeckli-fein.png",
+    "stack": "https://image.migros.ch/{stack}/1649a6b2c00f820bb15a582d5e199f000f802774/m-classic-vollkorn-haferfloeckli-fein.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_sortierung",
+      "label": "Sortierung aMigos",
+      "values": [
+        {
+          "value_code": "NUMERIC_120",
+          "value": "120",
+          "numeric_value": 120
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "M",
+          "value": "Kolonial Standard"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "10315",
+          "value": "BIRCHERMUEESLI"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/104202000000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/m-classic-vollkorn-haferfloeckli-fein-104202000000",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/104202000000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/m-classic-vollkorn-haferfloeckli-fein-104202000000",
+      "type": "info",
+      "purchasable": false
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/225449",
+      "app_url": "leshop:///catalog/article/detail?ean=7610200011428",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/m-classic-vollkorn-haferfloeckli-fein-104202000000",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "updated_at": "2020-09-16T05:41:33+0200",
+  "receipt_text": "MClass Haferflöckli",
+  "price": {
+    "valid_from": "2020-07-15T00:00:00+0200",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 1.4,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "1kg"
+    },
+    "base": {
+      "price": 0.14,
+      "quantity": 100,
+      "unit": "g"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 11,
+    "average_all": 4.545454545455
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

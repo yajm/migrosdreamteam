@@ -1,0 +1,290 @@
+{
+  "id": "101407400000",
+  "language": "de",
+  "name": "Bio Mandeln Rosmarin Thymian",
+  "slug": "bio-mandeln-rosmarin-thymian",
+  "boss_number": "011610151005",
+  "description": {
+    "text": "Thymian-Rosmarin Mandeln",
+    "source": "PIM"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "validity-range-not-set",
+    "leshop-discounted",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7613312096314"
+  ],
+  "labels": [
+    {
+      "id": "L02",
+      "name": "Migros Bio",
+      "slug": "migros-bio",
+      "image": {
+        "original": "https://image.migros.ch/original/f32d1804b8db5760147310b8d6458eb36757b486/migros-bio.jpg",
+        "stack": "https://image.migros.ch/{stack}/f32d1804b8db5760147310b8d6458eb36757b486/migros-bio.jpg"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_01010901",
+      "name": "Geröstete Nüsse",
+      "slug": "supermarkt/lebensmittel/chips-erdnuesse-aperitif/geroestete-nuesse",
+      "visible": true,
+      "parent_code": "BeSS_010109",
+      "image": {
+        "original": "https://image.migros.ch/original/53f4fe9384640c91c99da2079caa59165e3da613/geroestete-nuesse.jpg",
+        "stack": "https://image.migros.ch/{stack}/53f4fe9384640c91c99da2079caa59165e3da613/geroestete-nuesse.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010109",
+      "name": "Chips, Erdnüsse & Apéritif",
+      "slug": "supermarkt/lebensmittel/chips-erdnuesse-aperitif",
+      "visible": true,
+      "title": "Apéro Produkte – der perfekte Knabberspass aus Ihrer Migros",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/21ae01c49da971407bcb475b8d0f1525c8fbbdc6/chips-erdnuesse-aperitif.jpg",
+        "stack": "https://image.migros.ch/{stack}/21ae01c49da971407bcb475b8d0f1525c8fbbdc6/chips-erdnuesse-aperitif.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "features": [
+    {
+      "label_code": "MISO_produktionsanspruch",
+      "label": "Produktionsverfahren",
+      "values": [
+        {
+          "value_code": "MISO_produktionsanspruch_bioproduktion",
+          "value": "Bio-Produktion"
+        },
+        {
+          "value_code": "MISO_produktionsanspruch_geroestet",
+          "value": "Geröstet"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_beutelsack",
+          "value": "Beutel/Sack"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zubereitungsverfahren",
+      "label": "Hinweise für die Zubereitung",
+      "values": [
+        {
+          "value_code": "MISO_zubereitungsverfahren_verzehrfertig",
+          "value": "Verzehrfertig"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_artvonsnackknabberartikel",
+      "label": "Art von Snack/Knabberartikel",
+      "values": [
+        {
+          "value_code": "MISO_artvonsnackknabberartikel_mandeln",
+          "value": "Mandeln"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_gesalzengewuerzt",
+      "label": "Gesalzen/gewürzt",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/b049a32389d95b1ad37598af427b6c2d2168f089/bio-mandeln-rosmarin-thymian.jpg",
+    "stack": "https://image.migros.ch/{stack}/b049a32389d95b1ad37598af427b6c2d2168f089/bio-mandeln-rosmarin-thymian.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/864152a5b16799f67fa98b27153ce3c269861b7d/bio-mandeln-rosmarin-thymian.png",
+    "stack": "https://image.migros.ch/{stack}/864152a5b16799f67fa98b27153ce3c269861b7d/bio-mandeln-rosmarin-thymian.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "M",
+          "value": "Kolonial Standard"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "11600",
+          "value": "BIO NÜSSE GERÖSTET"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/101407400000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/bio-mandeln-rosmarin-thymian",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/101407400000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/bio-mandeln-rosmarin-thymian",
+      "type": "info",
+      "purchasable": false
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/3196335",
+      "app_url": "leshop:///catalog/article/detail?ean=7613312096314",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/bio-mandeln-rosmarin-thymian",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "updated_at": "2020-09-16T06:49:32+0200",
+  "receipt_text": "Bio Mandeln Rosmarin",
+  "price": {
+    "valid_from": "2020-09-15T00:00:00+0200",
+    "valid_to": "2020-09-21T23:59:59+0200",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 4.1,
+      "original_price": 5.1,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "170g"
+    },
+    "discount": {
+      "id": "1446687",
+      "region": "national",
+      "start_date": "2020-09-15T00:00:00+0200",
+      "end_date": "2020-09-21T23:59:59+0200",
+      "publication_date": "2020-09-13T00:00:00+0200",
+      "discount_amount": "20%",
+      "discount_regions": [
+        "national"
+      ],
+      "reference_product_id": "101403900000",
+      "discount_type": "aktion",
+      "discount_type_id": "001",
+      "discount_type_label": "SA Sonderangebot",
+      "organisation": "02",
+      "cooperative": "mgb",
+      "image": {
+        "tags": [
+          "list-image"
+        ],
+        "original": "https://image.migros.ch/original/920172d3719b0067d366b9c1d13a0e83c5344201/alle-party-zweifel-bio-und-you-nuesse-geroestet.jpg",
+        "source": "PriceRepository",
+        "stack": "https://image.migros.ch/{stack}/920172d3719b0067d366b9c1d13a0e83c5344201/alle-party-zweifel-bio-und-you-nuesse-geroestet.jpg"
+      },
+      "image_transparent": {
+        "original": "https://image.migros.ch/original/920172d3719b0067d366b9c1d13a0e83c5344201/alle-party-zweifel-bio-und-you-nuesse-geroestet.png",
+        "source": "PriceRepository",
+        "stack": "https://image.migros.ch/{stack}/920172d3719b0067d366b9c1d13a0e83c5344201/alle-party-zweifel-bio-und-you-nuesse-geroestet.png"
+      },
+      "badge": {
+        "original": "https://image.migros.ch/original/0633530dd39bda4f1496c8c8aa5ac1d66f227594.png",
+        "stack": "https://image.migros.ch/{stack}/0633530dd39bda4f1496c8c8aa5ac1d66f227594.png"
+      },
+      "location_planning_type": "01",
+      "reduction_type_id": "01",
+      "special_advertisement": false,
+      "advertisement_type_id": "2",
+      "description": "Alle Party-, Zweifel-, Bio- und You-Nüsse geröstet",
+      "discount_hint": "(ohne Alnatura), z.B. Party Pistazien, 250 g, <strong>3.60 </strong>statt 4.50, Angebot gilt nur vom 15.9. bis 21.9.2020, solange Vorrat.",
+      "high_performer": false,
+      "collective_discount": true,
+      "instead_of": "statt",
+      "price": 4.1,
+      "original_price": 5.1,
+      "disclaimer": "Gültigkeit siehe Angebots-Detailseite.\r\nBei allen Angeboten sind M-Budget und bereits reduzierte Artikel ausgenommen.\r\nBei Aktionen können bei der Verrechnung auf dem Kassabon Rundungsdifferenzen zu Gunsten des Kunden entstehen.",
+      "source": "PriceRepository",
+      "boss_number": "011610150520",
+      "discount_role_id": "2000000002",
+      "discount_role_label": "M: Wochenangebot Typ I",
+      "last_imported": "2020-09-07T15:15:03+0200"
+    },
+    "discount_hint": "Angebot gilt nur vom 15.9. bis 21.9.2020, solange Vorrat."
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 3,
+    "average_all": 4.333333333333
+  },
+  "allergen_text": "DE: Kann andere Schalenfrüchte (Nüsse) und Erdnüsse enthalten.",
+  "reindex_date": "2020-09-21T23:59:59+0200"
+}

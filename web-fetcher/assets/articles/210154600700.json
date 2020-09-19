@@ -1,0 +1,320 @@
+{
+  "id": "210154600700",
+  "language": "de",
+  "name": "Fondue Moitié-Moitié",
+  "slug": "fondue-moitie-moitie-210154600700",
+  "boss_number": "030413501310",
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7623700180723"
+  ],
+  "labels": [
+    {
+      "id": "L53",
+      "name": "Swissness",
+      "slug": "swissness",
+      "image": {
+        "original": "https://image.migros.ch/original/d771bba2f6b08ba42970ea0243c6f8c5a8832f15/swissness.jpg",
+        "stack": "https://image.migros.ch/{stack}/d771bba2f6b08ba42970ea0243c6f8c5a8832f15/swissness.jpg"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_0101040106",
+      "name": "Fondue & Raclette",
+      "slug": "supermarkt/lebensmittel/milchprodukte-eier/kaese/fondue-raclette",
+      "visible": true,
+      "parent_code": "BeSS_01010401",
+      "image": {
+        "original": "https://image.migros.ch/original/cb4ed392fe561c442576800912faf2df0e4f9c68/fondue-raclette.jpg",
+        "stack": "https://image.migros.ch/{stack}/cb4ed392fe561c442576800912faf2df0e4f9c68/fondue-raclette.jpg"
+      },
+      "level": 5
+    },
+    {
+      "code": "BeSS_01010401",
+      "name": "Käse",
+      "slug": "supermarkt/lebensmittel/milchprodukte-eier/kaese",
+      "visible": true,
+      "title": "Käse von Ihrer Migros &ndash; macht Appetit auf mehr",
+      "parent_code": "BeSS_010104",
+      "image": {
+        "original": "https://image.migros.ch/original/4fbf646a3ebce5b0f570ef4c8f4f9e8d708bb65f/kaese.jpg",
+        "stack": "https://image.migros.ch/{stack}/4fbf646a3ebce5b0f570ef4c8f4f9e8d708bb65f/kaese.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010104",
+      "name": "Milchprodukte & Eier",
+      "slug": "supermarkt/lebensmittel/milchprodukte-eier",
+      "visible": true,
+      "title": "Milchprodukte und Eier –",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/6b1ea6c2d41c3ccb21bf05c8dc342f7f55d83deb/milchprodukte-eier.jpg",
+        "stack": "https://image.migros.ch/{stack}/6b1ea6c2d41c3ccb21bf05c8dc342f7f55d83deb/milchprodukte-eier.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "features": [
+    {
+      "label_code": "MISO_mussgekuehltwerden",
+      "label": "Muss gekühlt werden",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_produktionsanspruch",
+      "label": "Produktionsverfahren",
+      "values": [
+        {
+          "value_code": "MISO_produktionsanspruch_ausderregion",
+          "value": "Aus der Region"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_beutel",
+          "value": "Beutel"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zubereitungsverfahren",
+      "label": "Hinweise für die Zubereitung",
+      "values": [
+        {
+          "value_code": "MISO_zubereitungsverfahren_fuerfondueraclettegeeignet",
+          "value": "Für Fondue/Raclette geeignet"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zusatzangaben",
+      "label": "Zusatzangaben",
+      "values": [
+        {
+          "value_code": "MISO_zusatzangaben_31",
+          "value": "Gekühlt aufbewahren bei max. +5 Grad C."
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_fettgehalt",
+      "label": "Fettgehalt",
+      "values": [
+        {
+          "value_code": "MISO_fettgehalt_vollfett",
+          "value": "Vollfett"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_festigkeit",
+      "label": "Festigkeit",
+      "values": [
+        {
+          "value_code": "MISO_festigkeit_halbhart",
+          "value": "halbhart"
+        },
+        {
+          "value_code": "MISO_festigkeit_hart",
+          "value": "hart"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_formbeschaffenheitdeskaeses",
+      "label": "Form/Beschaffenheit des Käses",
+      "values": [
+        {
+          "value_code": "MISO_formbeschaffenheitdeskaeses_fonduekaese",
+          "value": "Fonduekäse"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_kaesesorte",
+      "label": "Käsesorte",
+      "values": [
+        {
+          "value_code": "MISO_kaesesorte_schweizerhalbhartkaese",
+          "value": "Schweizer Halbhartkäse"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_milchartrohstoff",
+      "label": "Milchart/Rohstoff",
+      "values": [
+        {
+          "value_code": "MISO_milchartrohstoff_kuh",
+          "value": "Kuh"
+        },
+        {
+          "value_code": "MISO_milchartrohstoff_milch",
+          "value": "Milch"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_wuerzigkeit",
+      "label": "Würzigkeit",
+      "values": [
+        {
+          "value_code": "MISO_wuerzigkeit_wuerzig",
+          "value": "würzig"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_milchbehandlungsart",
+      "label": "Milchbehandlungsart",
+      "values": [
+        {
+          "value_code": "MISO_milchbehandlungsart_rohmilch",
+          "value": "Rohmilch"
+        },
+        {
+          "value_code": "MISO_milchbehandlungsart_thermisiert",
+          "value": "thermisiert"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/bf7a769cabe12c5c71968900c2624119d0725965/fondue-moitie-moitie.jpg",
+    "stack": "https://image.migros.ch/{stack}/bf7a769cabe12c5c71968900c2624119d0725965/fondue-moitie-moitie.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/4da1bd7a852fa48fc7a61f52d485bf11b34e7b2d/fondue-moitie-moitie.png",
+    "stack": "https://image.migros.ch/{stack}/4da1bd7a852fa48fc7a61f52d485bf11b34e7b2d/fondue-moitie-moitie.png"
+  },
+  "additional_images": [
+    {
+      "original": "https://image.migros.ch/original/adb0970fc0df9975a4dcd3be7282efc13ff28d92.jpg",
+      "stack": "https://image.migros.ch/{stack}/adb0970fc0df9975a4dcd3be7282efc13ff28d92.jpg"
+    }
+  ],
+  "internal_features": [
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZFRP",
+          "value": "Frische Beschaffung"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "1",
+          "value": "Molki"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "70145",
+          "value": "FONDUE"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/210154600700",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/fondue-moitie-moitie-210154600700",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/210154600700",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/fondue-moitie-moitie-210154600700",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "updated_at": "2020-09-15T06:49:31+0200",
+  "receipt_text": "Fondue Moitié-Moitié",
+  "price": {
+    "valid_from": "2019-02-26T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "source": "PriceRepository",
+    "no_price_hint": "Aktueller Tagespreis"
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 2,
+    "average_all": 3.5
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

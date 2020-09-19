@@ -1,0 +1,319 @@
+{
+  "id": "270480309300",
+  "language": "de",
+  "name": "Bio Chicorée",
+  "slug": "bio-chicoree",
+  "boss_number": "050115205505",
+  "description": {
+    "text": "Chicorée Der &laquo;Brüsseler&raquo; wurde 1846 im botanischen Garten der belgischen Hauptstadt gezüchtet. Das Wintergemüse gedeiht in lichtarmer Umgebung, wodurch es vornehm blass bleibt. Die länglichen, weissen Blätter mit zartgelben Spitzen schmecken leicht bitter und passen gut zu Äpfeln, Orangen und Nüssen.",
+    "source": "PIM"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7610632989364"
+  ],
+  "labels": [
+    {
+      "id": "L02",
+      "name": "Migros Bio",
+      "slug": "migros-bio",
+      "image": {
+        "original": "https://image.migros.ch/original/f32d1804b8db5760147310b8d6458eb36757b486/migros-bio.jpg",
+        "stack": "https://image.migros.ch/{stack}/f32d1804b8db5760147310b8d6458eb36757b486/migros-bio.jpg"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_0101190203",
+      "name": "Salate",
+      "slug": "supermarkt/lebensmittel/fruechte-gemuese/gemuese/salate",
+      "visible": true,
+      "title": "Salate und Salatgemüse in Ihrer Migros kaufen",
+      "parent_code": "BeSS_01011902",
+      "level": 5
+    },
+    {
+      "code": "BeSS_01011902",
+      "name": "Gemüse",
+      "slug": "supermarkt/lebensmittel/fruechte-gemuese/gemuese",
+      "visible": true,
+      "title": "Mit Gem&uuml;se von der Migros jeden Tag gesund essen",
+      "parent_code": "BeSS_010119",
+      "level": 4
+    },
+    {
+      "code": "BeSS_010119",
+      "name": "Früchte & Gemüse",
+      "slug": "supermarkt/lebensmittel/fruechte-gemuese",
+      "visible": true,
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/f839060a505bba25c0f37585edb558c003c50479/fruechte-gemuese.jpg",
+        "stack": "https://image.migros.ch/{stack}/f839060a505bba25c0f37585edb558c003c50479/fruechte-gemuese.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_Frischsalate_Salate_FruechteGemuese",
+        "name": "Frischsalate",
+        "slug": "amigos/fruechte-gemuese/salate/frischsalate",
+        "visible": true,
+        "parent_code": "AMIG_CAT_Salate_FruechteGemuese",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_Salate_FruechteGemuese",
+        "name": "Salate",
+        "slug": "amigos/fruechte-gemuese/salate",
+        "visible": true,
+        "parent_code": "AMIG_CAT_FruechteGemuese",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_FruechteGemuese",
+        "name": "Früchte & Gemüse",
+        "slug": "amigos/fruechte-gemuese",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "features": [
+    {
+      "label_code": "MISO_produktionsanspruch",
+      "label": "Produktionsverfahren",
+      "values": [
+        {
+          "value_code": "MISO_produktionsanspruch_bioproduktion",
+          "value": "Bio-Produktion"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_beutel",
+          "value": "Beutel"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_saison",
+      "label": "Saison",
+      "values": [
+        {
+          "value_code": "MISO_saison_septembermai",
+          "value": "September - Mai"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_geschmackvongemuese",
+      "label": "Geschmack von Gemüse",
+      "values": [
+        {
+          "value_code": "MISO_geschmackvongemuese_leichtbitter",
+          "value": "Leicht bitter"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/c096cbcee69090ccf9f4874f08978e2d2d31256b/bio-chicoree.jpg",
+    "stack": "https://image.migros.ch/{stack}/c096cbcee69090ccf9f4874f08978e2d2d31256b/bio-chicoree.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/a20071337d52fda87eae6966204ca3fceb63f59f/bio-chicoree.png",
+    "stack": "https://image.migros.ch/{stack}/a20071337d52fda87eae6966204ca3fceb63f59f/bio-chicoree.png"
+  },
+  "additional_images": [
+    {
+      "original": "https://image.migros.ch/original/ae05952f32e8b634b2bda617606003e17ee58c95.jpg",
+      "stack": "https://image.migros.ch/{stack}/ae05952f32e8b634b2bda617606003e17ee58c95.jpg"
+    }
+  ],
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_sortierung",
+      "label": "Sortierung aMigos",
+      "values": [
+        {
+          "value_code": "NUMERIC_232",
+          "value": "232",
+          "numeric_value": 232
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_verkaufseinheit",
+      "label": "Verkaufseinheit",
+      "values": [
+        {
+          "value_code": "NUMERIC_1.0",
+          "value": "1.0 Sack",
+          "numeric_value": 1
+        }
+      ],
+      "top_fact": false,
+      "unit_code": "Sack",
+      "unit": "Sack",
+      "unit_symbol": "Sack"
+    },
+    {
+      "label_code": "MISO_aMigos_gewicht",
+      "label": "Gewicht aMigos!",
+      "values": [
+        {
+          "value_code": "NUMERIC_500.0",
+          "value": "500.0 g",
+          "numeric_value": 500
+        }
+      ],
+      "top_fact": false,
+      "unit_code": "g",
+      "unit": "Gramm",
+      "unit_symbol": "g"
+    },
+    {
+      "label_code": "MISO_aMigos_volumen",
+      "label": "Volumen aMigos!",
+      "values": [
+        {
+          "value_code": "NUMERIC_1.152",
+          "value": "1.152 l",
+          "numeric_value": 1.152
+        }
+      ],
+      "top_fact": false,
+      "unit_code": "l",
+      "unit": "Liter",
+      "unit_symbol": "l"
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZFRP",
+          "value": "Frische Beschaffung"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "2",
+          "value": "Früchte und Gemüse"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "70309",
+          "value": "BIO SAL. /GURKEN/ERG"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/270480309300",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/bio-chicoree",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/270480309300",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/bio-chicoree",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "updated_at": "2020-09-16T05:55:44+0200",
+  "receipt_text": "Bio Chicorée",
+  "price": {
+    "valid_from": "2019-10-15T00:00:00+0200",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "source": "PriceRepository",
+    "no_price_hint": "Aktueller Tagespreis"
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 3,
+    "average_all": 4
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

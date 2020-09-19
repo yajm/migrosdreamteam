@@ -1,0 +1,220 @@
+{
+  "id": "153412700000",
+  "language": "de",
+  "name": "Aus der Region Champignons émincés",
+  "slug": "aus-der-region-champignons-eminces",
+  "boss_number": "011111090605",
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "validity-range-not-set",
+    "filter-aus-der-region",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7617027011013"
+  ],
+  "labels": [
+    {
+      "id": "L28",
+      "name": "Aus der Region",
+      "slug": "aus-der-region",
+      "image": {
+        "original": "https://image.migros.ch/original/28068cd4d6e174c8ec75906797af89b64170c43f/aus-der-region.jpg",
+        "stack": "https://image.migros.ch/{stack}/28068cd4d6e174c8ec75906797af89b64170c43f/aus-der-region.jpg"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_01011416",
+      "name": "Pilzkonserven & Olivenkonserven",
+      "slug": "supermarkt/lebensmittel/pasta-zutaten-konserven/pilzkonserven-olivenkonserven",
+      "visible": true,
+      "parent_code": "BeSS_010114",
+      "image": {
+        "original": "https://image.migros.ch/original/e33d4f44b82d8a8907b5f0bbf03b19bc3e806a86/pilzkonserven-olivenkonserven.jpg",
+        "stack": "https://image.migros.ch/{stack}/e33d4f44b82d8a8907b5f0bbf03b19bc3e806a86/pilzkonserven-olivenkonserven.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010114",
+      "name": "Pasta, Zutaten & Konserven",
+      "slug": "supermarkt/lebensmittel/pasta-zutaten-konserven",
+      "visible": true,
+      "title": "Pasta aus Ihrer Migros: alles rund um Teigwaren",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/6d0964bbb34b8e041ba4d74fc0c90b149907f46a/pasta-zutaten-konserven.jpg",
+        "stack": "https://image.migros.ch/{stack}/6d0964bbb34b8e041ba4d74fc0c90b149907f46a/pasta-zutaten-konserven.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "features": [
+    {
+      "label_code": "MISO_produktionsanspruch",
+      "label": "Produktionsverfahren",
+      "values": [
+        {
+          "value_code": "MISO_produktionsanspruch_ausderregion",
+          "value": "Aus der Region"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_glas",
+          "value": "Glas"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zubereitungsverfahren",
+      "label": "Hinweise für die Zubereitung",
+      "values": [
+        {
+          "value_code": "MISO_zubereitungsverfahren_zumgekochtessen",
+          "value": "Zum Gekochtessen"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zusatzangaben",
+      "label": "Zusatzangaben",
+      "values": [
+        {
+          "value_code": "MISO_zusatzangaben_302",
+          "value": "Nach dem Öffnen bei +5 Grad aufbewahren und rasch konsumieren."
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_artvoneingelegtemgemuesesauerkonserven",
+      "label": "Art von eingelegtem Gemüse/Sauerkonserven",
+      "values": [
+        {
+          "value_code": "MISO_artvoneingelegtemgemuesesauerkonserven_champignons",
+          "value": "Champignons"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/20b9167738ca85ef5c5e1facdcb7efb333e6f4a7/aus-der-region-champignons-eminces.jpg",
+    "stack": "https://image.migros.ch/{stack}/20b9167738ca85ef5c5e1facdcb7efb333e6f4a7/aus-der-region-champignons-eminces.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/a39a382cd020d7f09b023d7eacf8314b9153ec14/aus-der-region-champignons-eminces.png",
+    "stack": "https://image.migros.ch/{stack}/a39a382cd020d7f09b023d7eacf8314b9153ec14/aus-der-region-champignons-eminces.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "L",
+          "value": "Lieferunterbruch"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "11131",
+          "value": "PILZKONSERVEN"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/153412700000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/aus-der-region-champignons-eminces",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/153412700000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/aus-der-region-champignons-eminces",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "updated_at": "2020-09-11T05:46:40+0200",
+  "receipt_text": "AdR Champig. émincés",
+  "price": {
+    "valid_from": "2018-05-16T00:00:00+0200",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 2.6,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "230g"
+    },
+    "base": {
+      "price": 1.13,
+      "quantity": 100,
+      "unit": "g"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

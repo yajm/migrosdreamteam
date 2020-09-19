@@ -1,0 +1,309 @@
+{
+  "id": "274300301000",
+  "language": "de",
+  "name": "Süsskartoffeln",
+  "slug": "suesskartoffeln",
+  "boss_number": "050115220515",
+  "description": {
+    "text": "S&uuml;sskartoffel Die S&uuml;sskartoffel war bis vor wenigen Jahren allenfalls Globetrottern bekannt. Heute hingegen wird sie in Foodblogs, Gourmetguides und Ern&auml;hrungsratgebern gleichermassen gefeiert.Mit der Kartoffel hat die Batate ausser dem Ursprung in S&uuml;d- und Mittelamerika sowie der Vielseitigkeit in der K&uuml;che kaum etwas gemein. Das s&uuml;sslich-nussige Aroma erinnert eher an K&uuml;rbis und harmoniert beispielsweise perfekt mit Curry, Ingwer und Chili, mit Kokosmilch und Tropenfr&uuml;chten. Ihr feines Fleisch schmeckt in Form von Chips und Frites, als Baked Potatoe und Brei, in Suppen und Eint&ouml;pfen. Selbst als Nascherei macht die S&uuml;sskartoffel sich gut. Die Japaner verarbeiten sie unter anderem zu Yokan, eine Art Pralin&eacute;s.",
+    "source": "PIM"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "2124124000000",
+    "7617027555395"
+  ],
+  "brand": {
+    "id": "S10",
+    "name": "Fresca",
+    "slug": "fresca-S10",
+    "image": {
+      "original": "https://image.migros.ch/original/d169433eae86571fe4796efc52300f787084eaa4/fresca-S10.jpg",
+      "stack": "https://image.migros.ch/{stack}/d169433eae86571fe4796efc52300f787084eaa4/fresca-S10.jpg"
+    }
+  },
+  "categories": [
+    {
+      "code": "BeSS_0101190205",
+      "name": "Lagergemüse",
+      "slug": "supermarkt/lebensmittel/fruechte-gemuese/gemuese/lagergemuese",
+      "visible": true,
+      "title": "Für den Winter: Kartoffeln und Lagergemüse von der Migros",
+      "parent_code": "BeSS_01011902",
+      "level": 5
+    },
+    {
+      "code": "BeSS_01011902",
+      "name": "Gemüse",
+      "slug": "supermarkt/lebensmittel/fruechte-gemuese/gemuese",
+      "visible": true,
+      "title": "Mit Gem&uuml;se von der Migros jeden Tag gesund essen",
+      "parent_code": "BeSS_010119",
+      "level": 4
+    },
+    {
+      "code": "BeSS_010119",
+      "name": "Früchte & Gemüse",
+      "slug": "supermarkt/lebensmittel/fruechte-gemuese",
+      "visible": true,
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/f839060a505bba25c0f37585edb558c003c50479/fruechte-gemuese.jpg",
+        "stack": "https://image.migros.ch/{stack}/f839060a505bba25c0f37585edb558c003c50479/fruechte-gemuese.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_Kartoffeln_Gemuese_FruechteGemuese",
+        "name": "Kartoffeln",
+        "slug": "amigos/fruechte-gemuese/gemuese/kartoffeln",
+        "visible": true,
+        "parent_code": "AMIG_CAT_Gemuese_FruechteGemuese",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_Gemuese_FruechteGemuese",
+        "name": "Gemüse",
+        "slug": "amigos/fruechte-gemuese/gemuese",
+        "visible": true,
+        "parent_code": "AMIG_CAT_FruechteGemuese",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_FruechteGemuese",
+        "name": "Früchte & Gemüse",
+        "slug": "amigos/fruechte-gemuese",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "features": [
+    {
+      "label_code": "MISO_saison",
+      "label": "Saison",
+      "values": [
+        {
+          "value_code": "MISO_saison_septemberjanuar",
+          "value": "September - Januar"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/440e70a691e07415f638fcd89593b171c14eff41/suesskartoffeln.jpg",
+    "stack": "https://image.migros.ch/{stack}/440e70a691e07415f638fcd89593b171c14eff41/suesskartoffeln.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/7d9e6aad47a7be0703997b3ca60740b3376fb177/suesskartoffeln.png",
+    "stack": "https://image.migros.ch/{stack}/7d9e6aad47a7be0703997b3ca60740b3376fb177/suesskartoffeln.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_sortierung",
+      "label": "Sortierung aMigos",
+      "values": [
+        {
+          "value_code": "NUMERIC_450",
+          "value": "450",
+          "numeric_value": 450
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_minimal-gewicht",
+      "label": "Minimal-Gewicht",
+      "values": [
+        {
+          "value_code": "NUMERIC_250.0",
+          "value": "250.0 g",
+          "numeric_value": 250
+        }
+      ],
+      "top_fact": false,
+      "unit_code": "g",
+      "unit": "Gramm",
+      "unit_symbol": "g"
+    },
+    {
+      "label_code": "MISO_aMigos_maximal-gewicht",
+      "label": "Maximal-Gewicht",
+      "values": [
+        {
+          "value_code": "NUMERIC_250.0",
+          "value": "250.0 g",
+          "numeric_value": 250
+        }
+      ],
+      "top_fact": false,
+      "unit_code": "g",
+      "unit": "Gramm",
+      "unit_symbol": "g"
+    },
+    {
+      "label_code": "MISO_aMigos_verkaufseinheit",
+      "label": "Verkaufseinheit",
+      "values": [
+        {
+          "value_code": "NUMERIC_1.0",
+          "value": "1.0 Stk.",
+          "numeric_value": 1
+        }
+      ],
+      "top_fact": false,
+      "unit_code": "Stk.",
+      "unit": "Stück",
+      "unit_symbol": "Stk."
+    },
+    {
+      "label_code": "MISO_aMigos_gewicht",
+      "label": "Gewicht aMigos!",
+      "values": [
+        {
+          "value_code": "NUMERIC_250.0",
+          "value": "250.0 g",
+          "numeric_value": 250
+        }
+      ],
+      "top_fact": false,
+      "unit_code": "g",
+      "unit": "Gramm",
+      "unit_symbol": "g"
+    },
+    {
+      "label_code": "MISO_aMigos_volumen",
+      "label": "Volumen aMigos!",
+      "values": [
+        {
+          "value_code": "NUMERIC_0.36738",
+          "value": "0.36738 l",
+          "numeric_value": 0.36738
+        }
+      ],
+      "top_fact": false,
+      "unit_code": "l",
+      "unit": "Liter",
+      "unit_symbol": "l"
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZFRP",
+          "value": "Frische Beschaffung"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "2",
+          "value": "Früchte und Gemüse"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "71364",
+          "value": "KARTOFFELN"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/274300301000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/suesskartoffeln",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/274300301000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/suesskartoffeln",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "updated_at": "2020-09-16T05:54:07+0200",
+  "receipt_text": "Süsskartoffeln",
+  "price": {
+    "valid_from": "2019-10-31T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "source": "PriceRepository",
+    "no_price_hint": "Aktueller Tagespreis"
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 14,
+    "average_all": 4.583333333333
+  },
+  "reindex_date": "2020-09-20T23:59:59+0200"
+}

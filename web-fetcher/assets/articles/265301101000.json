@@ -1,0 +1,169 @@
+{
+  "id": "265301101000",
+  "language": "de",
+  "name": "Trauben weiss",
+  "slug": "trauben-weiss",
+  "boss_number": "050215440505",
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "2123613000002",
+    "7617027546942"
+  ],
+  "brand": {
+    "id": "S10",
+    "name": "Fresca",
+    "slug": "fresca-S10",
+    "image": {
+      "original": "https://image.migros.ch/original/d169433eae86571fe4796efc52300f787084eaa4/fresca-S10.jpg",
+      "stack": "https://image.migros.ch/{stack}/d169433eae86571fe4796efc52300f787084eaa4/fresca-S10.jpg"
+    }
+  },
+  "categories": [
+    {
+      "code": "BeSS_0101190103",
+      "name": "Trauben",
+      "slug": "supermarkt/lebensmittel/fruechte-gemuese/fruechte/trauben",
+      "visible": true,
+      "title": "Trauben in Ihrer Migros kaufen",
+      "parent_code": "BeSS_01011901",
+      "level": 5
+    },
+    {
+      "code": "BeSS_01011901",
+      "name": "Früchte",
+      "slug": "supermarkt/lebensmittel/fruechte-gemuese/fruechte",
+      "visible": true,
+      "title": "Früchte – in Ihrer Migros täglich frisch",
+      "parent_code": "BeSS_010119",
+      "level": 4
+    },
+    {
+      "code": "BeSS_010119",
+      "name": "Früchte & Gemüse",
+      "slug": "supermarkt/lebensmittel/fruechte-gemuese",
+      "visible": true,
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/f839060a505bba25c0f37585edb558c003c50479/fruechte-gemuese.jpg",
+        "stack": "https://image.migros.ch/{stack}/f839060a505bba25c0f37585edb558c003c50479/fruechte-gemuese.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/fa3f7f54822660681a4157684c2807fa1a92e620/trauben-weiss.jpg",
+    "stack": "https://image.migros.ch/{stack}/fa3f7f54822660681a4157684c2807fa1a92e620/trauben-weiss.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/0e429151c26ff8d373204fee0c0b686b9e9d9089/trauben-weiss.png",
+    "stack": "https://image.migros.ch/{stack}/0e429151c26ff8d373204fee0c0b686b9e9d9089/trauben-weiss.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZFRP",
+          "value": "Frische Beschaffung"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "2",
+          "value": "Früchte und Gemüse"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "71412",
+          "value": "TRAUBEN"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/265301101000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/trauben-weiss",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/265301101000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/trauben-weiss",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "updated_at": "2020-09-16T05:54:59+0200",
+  "receipt_text": "Trauben weiss",
+  "price": {
+    "valid_from": "2018-01-29T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "source": "PriceRepository",
+    "no_price_hint": "Aktueller Tagespreis"
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 4,
+    "average_all": 4.666666666667
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

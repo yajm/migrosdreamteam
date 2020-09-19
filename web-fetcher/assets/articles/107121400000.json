@@ -1,0 +1,461 @@
+{
+  "id": "107121400000",
+  "language": "de",
+  "name": "Delizio Espresso 12 Kapseln",
+  "slug": "delizio-espresso-12-kapseln",
+  "boss_number": "010310303610",
+  "description": {
+    "text": "Vollmundiger, intensiv w&uuml;rziger Kaffee mit komplexer S&auml;ure und leicht nussigen Aromen. R&ouml;stkaffee, gemahlen, in Kapseln. Exklusiv fu&uml;r das Delizio System.",
+    "source": "PIM"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7617014175032"
+  ],
+  "brand": {
+    "id": "603",
+    "name": "Delizio",
+    "slug": "delizio",
+    "image": {
+      "original": "https://image.migros.ch/original/f87e04a40a76daf824573bab55f9bf58e65ee249/delizio.jpg",
+      "stack": "https://image.migros.ch/{stack}/f87e04a40a76daf824573bab55f9bf58e65ee249/delizio.jpg"
+    }
+  },
+  "labels": [
+    {
+      "id": "L34",
+      "name": "UTZ",
+      "slug": "utz",
+      "image": {
+        "original": "https://image.migros.ch/original/64192d97b7770d351f5bbe89a57c9f614e529150/utz.jpg",
+        "stack": "https://image.migros.ch/{stack}/64192d97b7770d351f5bbe89a57c9f614e529150/utz.jpg"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_0101100102",
+      "name": "Kaffeekapseln",
+      "slug": "supermarkt/lebensmittel/getraenke-heiss-kalt/kaffee/kaffeekapseln",
+      "visible": true,
+      "title": "Kaffeekapseln in Ihrer Migros kaufen",
+      "parent_code": "BeSS_01011001",
+      "image": {
+        "original": "https://image.migros.ch/original/aa27c81fb04432f42ad3adf318d527e35435f309/kaffeekapseln.jpg",
+        "stack": "https://image.migros.ch/{stack}/aa27c81fb04432f42ad3adf318d527e35435f309/kaffeekapseln.jpg"
+      },
+      "level": 5
+    },
+    {
+      "code": "BeSS_01011001",
+      "name": "Kaffee",
+      "slug": "supermarkt/lebensmittel/getraenke-heiss-kalt/kaffee",
+      "visible": true,
+      "title": "Das schwarze Gold der Geniesser: Kaffee bei der Migros",
+      "parent_code": "BeSS_010110",
+      "image": {
+        "original": "https://image.migros.ch/original/be9ca8bc37911ac3d695139eadc7cb2446fd5974/kaffee.jpg",
+        "stack": "https://image.migros.ch/{stack}/be9ca8bc37911ac3d695139eadc7cb2446fd5974/kaffee.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010110",
+      "name": "Getränke heiss & kalt",
+      "slug": "supermarkt/lebensmittel/getraenke-heiss-kalt",
+      "visible": true,
+      "title": "Getränke aus der Migros löschen auch Ihren Durst",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/d04d95fbc2e1b4ada4783d2976d37a962a0318a1/getraenke-heiss-kalt.jpg",
+        "stack": "https://image.migros.ch/{stack}/d04d95fbc2e1b4ada4783d2976d37a962a0318a1/getraenke-heiss-kalt.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_Kapseln_Kaffee_Getraenke",
+        "name": "Kapseln",
+        "slug": "amigos/getraenke/kaffee/kapseln",
+        "visible": true,
+        "parent_code": "AMIG_CAT_Kaffee_Getraenke",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_Kaffee_Getraenke",
+        "name": "Kaffee",
+        "slug": "amigos/getraenke/kaffee",
+        "visible": true,
+        "parent_code": "AMIG_CAT_Getraenke",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_Getraenke",
+        "name": "Getränke",
+        "slug": "amigos/getraenke",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "features": [
+    {
+      "label_code": "MISO_produktionsanspruch",
+      "label": "Produktionsverfahren",
+      "values": [
+        {
+          "value_code": "MISO_produktionsanspruch_mitnatuerlichenaromen",
+          "value": "Mit natürlichen Aromen"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zubereitungsverfahren",
+      "label": "Hinweise für die Zubereitung",
+      "values": [
+        {
+          "value_code": "MISO_zubereitungsverfahren_deliziokapselsystem",
+          "value": "Delizio Kapselsystem"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_botanischesorte",
+      "label": "Botanische Sorte",
+      "values": [
+        {
+          "value_code": "MISO_botanischesorte_arabicarobusta",
+          "value": "Arabica / Robusta"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_kapselsystem",
+      "label": "Kapselsystem",
+      "values": [
+        {
+          "value_code": "MISO_kapselsystem_DelizioKompatibel",
+          "value": "Delizio kompatibel"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_verwendung",
+      "label": "Verwendung",
+      "values": [
+        {
+          "value_code": "MISO_verwendung_kapselmaschine",
+          "value": "Kapselmaschine"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_entkoffeiniert",
+      "label": "Entkoffeiniert",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "Nein",
+          "boolean_value": false
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_formbeschaffenheitdeskaffees",
+      "label": "Form/Beschaffenheit des Kaffees",
+      "values": [
+        {
+          "value_code": "MISO_formbeschaffenheitdeskaffees_gemahlen",
+          "value": "Gemahlen"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_herkunftdeskaffees",
+      "label": "Herkunft des Kaffees",
+      "values": [
+        {
+          "value_code": "MISO_Herkunftsland_Afrika",
+          "value": "Afrika"
+        },
+        {
+          "value_code": "MISO_Herkunftsland_Asien",
+          "value": "Asien"
+        },
+        {
+          "value_code": "MISO_herkunftdeskaffees_zentralsuedamerika",
+          "value": "Zentral- Südamerika"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_kaffeeroestung",
+      "label": "Kaffeeröstung",
+      "values": [
+        {
+          "value_code": "MISO_kaffeeroestung_mittlereroestung",
+          "value": "mittlere Röstung"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zubereitungdeskaffees",
+      "label": "Zubereitung des Kaffees",
+      "values": [
+        {
+          "value_code": "MISO_zubereitungdeskaffees_kapsel",
+          "value": "Kapsel"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_sortedeskaffees",
+      "label": "Sorte des Kaffees",
+      "values": [
+        {
+          "value_code": "MISO_sortedeskaffees_roestkaffee",
+          "value": "Röstkaffee"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_anzahlpadskapselnbeutel",
+      "label": "Anzahl Pads/Kapseln/Beutel",
+      "values": [
+        {
+          "value_code": "NUMERIC_12.0",
+          "value": "12.0",
+          "numeric_value": 12
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_staerke15",
+      "label": "Stärke (1-5)",
+      "values": [
+        {
+          "value_code": "NUMERIC_3.0",
+          "value": "3.0",
+          "numeric_value": 3
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_geeignetfuerkapselsystem",
+      "label": "Geeignet für Kapselsystem",
+      "values": [
+        {
+          "value_code": "MISO_geeignetfuerkapselsystem_delizio",
+          "value": "Delizio"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_Aroma",
+      "label": "Aroma",
+      "values": [
+        {
+          "value_code": "MISO_aroma_wassermelone",
+          "value": "Wassermelone"
+        },
+        {
+          "value_code": "MISO_aroma_vollmundig",
+          "value": "vollmundig"
+        },
+        {
+          "value_code": "MISO_aroma_wohltuend",
+          "value": "wohltuend"
+        },
+        {
+          "value_code": "MISO_aroma_wuerzig",
+          "value": "würzig"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_tassengroesse",
+      "label": "Tassengrösse",
+      "values": [
+        {
+          "value_code": "MISO_tassengroesse_espresso_50ml",
+          "value": "Espresso (50ml)"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/56e017043187415b67409fd6b8ad3a15631abd4b/delizio-espresso-12-kapseln.jpg",
+    "stack": "https://image.migros.ch/{stack}/56e017043187415b67409fd6b8ad3a15631abd4b/delizio-espresso-12-kapseln.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/ebc4210e3ac38413ebdceb94882e5eb6221d0562/delizio-espresso-12-kapseln.png",
+    "stack": "https://image.migros.ch/{stack}/ebc4210e3ac38413ebdceb94882e5eb6221d0562/delizio-espresso-12-kapseln.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_sortierung",
+      "label": "Sortierung aMigos",
+      "values": [
+        {
+          "value_code": "NUMERIC_300",
+          "value": "300",
+          "numeric_value": 300
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "M",
+          "value": "Kolonial Standard"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "10383",
+          "value": "DELIZIO"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/107121400000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/delizio-espresso-12-kapseln",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/107121400000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/delizio-espresso-12-kapseln",
+      "type": "info",
+      "purchasable": false
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/4783020",
+      "app_url": "leshop:///catalog/article/detail?ean=7617014175032",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/delizio-espresso-12-kapseln",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "updated_at": "2020-09-16T05:40:35+0200",
+  "receipt_text": "Delizio Espresso 12Kap",
+  "price": {
+    "valid_from": "2018-01-29T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 5.3,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "72g"
+    },
+    "base": {
+      "price": 7.36,
+      "quantity": 100,
+      "unit": "g"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 4,
+    "average_all": 3
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

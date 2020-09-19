@@ -1,0 +1,304 @@
+{
+  "id": "152002100000",
+  "language": "de",
+  "name": "Bio Baby Ananas",
+  "slug": "bio-baby-ananas",
+  "boss_number": "011111095110",
+  "description": {
+    "text": "Baby Ananas\n<br />Scheiben",
+    "source": "PIM"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "source-qim-origins",
+    "validity-range-not-set",
+    "source-qim-fooddeclaration",
+    "source-qim-nutritionfacts",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7613269165439"
+  ],
+  "labels": [
+    {
+      "id": "L02",
+      "name": "Migros Bio",
+      "slug": "migros-bio",
+      "image": {
+        "original": "https://image.migros.ch/original/f32d1804b8db5760147310b8d6458eb36757b486/migros-bio.jpg",
+        "stack": "https://image.migros.ch/{stack}/f32d1804b8db5760147310b8d6458eb36757b486/migros-bio.jpg"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_01011415",
+      "name": "Früchtekonserven",
+      "slug": "supermarkt/lebensmittel/pasta-zutaten-konserven/fruechtekonserven",
+      "visible": true,
+      "parent_code": "BeSS_010114",
+      "image": {
+        "original": "https://image.migros.ch/original/0ddab8a8d58f3a9713c510b0e506fc69558499b2/fruechtekonserven.jpg",
+        "stack": "https://image.migros.ch/{stack}/0ddab8a8d58f3a9713c510b0e506fc69558499b2/fruechtekonserven.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010114",
+      "name": "Pasta, Zutaten & Konserven",
+      "slug": "supermarkt/lebensmittel/pasta-zutaten-konserven",
+      "visible": true,
+      "title": "Pasta aus Ihrer Migros: alles rund um Teigwaren",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/6d0964bbb34b8e041ba4d74fc0c90b149907f46a/pasta-zutaten-konserven.jpg",
+        "stack": "https://image.migros.ch/{stack}/6d0964bbb34b8e041ba4d74fc0c90b149907f46a/pasta-zutaten-konserven.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_Fruechte_KonservenEingemachtes_Grundnahrungsmittel",
+        "name": "Früchte",
+        "slug": "amigos/grundnahrungsmittel/konserven-eingemachtes/fruechte",
+        "visible": true,
+        "parent_code": "AMIG_CAT_KonservenEingemachtes_Grundnahrungsmittel",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_KonservenEingemachtes_Grundnahrungsmittel",
+        "name": "Konserven & Eingemachtes",
+        "slug": "amigos/grundnahrungsmittel/konserven-eingemachtes",
+        "visible": true,
+        "parent_code": "AMIG_CAT_Grundnahrungsmittel",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_Grundnahrungsmittel",
+        "name": "Grundnahrungsmittel",
+        "slug": "amigos/grundnahrungsmittel",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "features": [
+    {
+      "label_code": "MISO_produktionsanspruch",
+      "label": "Produktionsverfahren",
+      "values": [
+        {
+          "value_code": "MISO_produktionsanspruch_bioproduktion",
+          "value": "Bio-Produktion"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_dose",
+          "value": "Dose"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_ursprungsland",
+      "label": "Ursprungsland",
+      "values": [
+        {
+          "value_code": "MISO_Herkunftsland_Vietnam",
+          "value": "Vietnam"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_formbeschaffenheitvonobst",
+      "label": "Form/Beschaffenheit",
+      "values": [
+        {
+          "value_code": "MISO_formbeschaffenheitvonobst_inscheiben",
+          "value": "in Scheiben"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_herstellungsverfahrenkochprozess",
+      "label": "Herstellungsverfahren/Kochprozess",
+      "values": [
+        {
+          "value_code": "MISO_herstellungsverfahrenkochprozess_mitfruchtsaft",
+          "value": "Mit Fruchtsaft"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_geschmackvonobstfruechten",
+      "label": "Geschmack von Obst/Früchten",
+      "values": [
+        {
+          "value_code": "MISO_geschmackvonobstfruechten_ananas",
+          "value": "Ananas"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/0440e1e9a37c7144807f6254068ed2b63fd46f29/bio-baby-ananas.jpg",
+    "stack": "https://image.migros.ch/{stack}/0440e1e9a37c7144807f6254068ed2b63fd46f29/bio-baby-ananas.jpg"
+  },
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_sortierung",
+      "label": "Sortierung aMigos",
+      "values": [
+        {
+          "value_code": "NUMERIC_310",
+          "value": "310",
+          "numeric_value": 310
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "M",
+          "value": "Kolonial Standard"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "11140",
+          "value": "BIO KONSERVEN"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/152002100000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/bio-baby-ananas",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/152002100000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/bio-baby-ananas",
+      "type": "info",
+      "purchasable": false
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/3891923",
+      "app_url": "leshop:///catalog/article/detail?ean=7613269165439",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/bio-baby-ananas",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "updated_at": "2020-09-16T06:31:47+0200",
+  "receipt_text": "Bio Baby Ananas",
+  "price": {
+    "valid_from": "2018-01-29T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 2.6,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "225g"
+    },
+    "base": {
+      "price": 1.16,
+      "quantity": 100,
+      "unit": "g"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 4,
+    "average_all": 4.333333333333
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

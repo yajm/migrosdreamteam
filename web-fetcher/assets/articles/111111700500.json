@@ -1,0 +1,286 @@
+{
+  "id": "111111700500",
+  "language": "de",
+  "name": "Baguette hell Terrasuisse",
+  "slug": "baguette-hell-terrasuisse-111111700500",
+  "boss_number": "020110562205",
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7613404177419"
+  ],
+  "labels": [
+    {
+      "id": "L14",
+      "name": "TerraSuisse",
+      "slug": "terrasuisse",
+      "image": {
+        "original": "https://image.migros.ch/original/1ffb197ef3d9b3099bc31eb47f8dfa585c93daa6/terrasuisse.jpg",
+        "stack": "https://image.migros.ch/{stack}/1ffb197ef3d9b3099bc31eb47f8dfa585c93daa6/terrasuisse.jpg"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_0101030103",
+      "name": "Stangenbrote",
+      "slug": "supermarkt/lebensmittel/baeckerei-confiserie-backen/brote/stangenbrote",
+      "visible": true,
+      "parent_code": "BeSS_01010301",
+      "level": 5
+    },
+    {
+      "code": "BeSS_01010301",
+      "name": "Brote",
+      "slug": "supermarkt/lebensmittel/baeckerei-confiserie-backen/brote",
+      "visible": true,
+      "title": "Frisch gebackenes Brot in Ihrer Migros kaufen",
+      "parent_code": "BeSS_010103",
+      "image": {
+        "original": "https://image.migros.ch/original/a38db1095b74da69ec3fd0de85e5b29c59c210b9/brote.jpg",
+        "stack": "https://image.migros.ch/{stack}/a38db1095b74da69ec3fd0de85e5b29c59c210b9/brote.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010103",
+      "name": "Bäckerei, Confiserie & Backen",
+      "slug": "supermarkt/lebensmittel/baeckerei-confiserie-backen",
+      "visible": true,
+      "title": "Backen macht Freude! Alle Zutaten finden Sie in Ihrer Migros",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/04b41cd6f4daedf3061a2a37617d48e992760b35/baeckerei-confiserie-backen.jpg",
+        "stack": "https://image.migros.ch/{stack}/04b41cd6f4daedf3061a2a37617d48e992760b35/baeckerei-confiserie-backen.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "features": [
+    {
+      "label_code": "MISO_mussgekuehltwerden",
+      "label": "Muss gekühlt werden",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "Nein",
+          "boolean_value": false
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_produktionsanspruch",
+      "label": "Produktionsverfahren",
+      "values": [
+        {
+          "value_code": "MISO_produktionsanspruch_ipsuissebauernhof",
+          "value": "IP-SUISSE Bauernhof"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_brotbeutel",
+          "value": "Brotbeutel"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zubereitungsverfahren",
+      "label": "Hinweise für die Zubereitung",
+      "values": [
+        {
+          "value_code": "MISO_zubereitungsverfahren_verzehrfertig",
+          "value": "Verzehrfertig"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_geschnitten",
+      "label": "Geschnitten",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "Nein",
+          "boolean_value": false
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zumfertigbacken",
+      "label": "Zum Fertigbacken",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "Nein",
+          "boolean_value": false
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_wiederverschliessbar",
+      "label": "Wiederverschliessbar",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "Nein",
+          "boolean_value": false
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_artvonbrot",
+      "label": "Art von Brot",
+      "values": [
+        {
+          "value_code": "MISO_artvonbrot_baguette",
+          "value": "Baguette"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_getreideart",
+      "label": "Getreideart",
+      "values": [
+        {
+          "value_code": "MISO_getreideart_weizen",
+          "value": "Weizen"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_artvonprodukt",
+      "label": "Art von Produkt",
+      "values": [
+        {
+          "value_code": "MISO_artvonprodukt_frischbrot",
+          "value": "Frischbrot"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/68ee3ede4608828af9c01f47e75d86abd1ef7972/baguette-hell-terrasuisse.jpg",
+    "stack": "https://image.migros.ch/{stack}/68ee3ede4608828af9c01f47e75d86abd1ef7972/baguette-hell-terrasuisse.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/ab04c3b509240634f56b698322e60e7efdb9faa2/baguette-hell-terrasuisse.png",
+    "stack": "https://image.migros.ch/{stack}/ab04c3b509240634f56b698322e60e7efdb9faa2/baguette-hell-terrasuisse.png"
+  },
+  "additional_images": [
+    {
+      "original": "https://image.migros.ch/original/2085abbf1e0475259601414c2b29c820b2073318.jpg",
+      "stack": "https://image.migros.ch/{stack}/2085abbf1e0475259601414c2b29c820b2073318.jpg"
+    }
+  ],
+  "internal_features": [
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZFRP",
+          "value": "Frische Beschaffung"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "8",
+          "value": "Backwaren"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "70354",
+          "value": "BO STANGENBROTE"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/111111700500",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/baguette-hell-terrasuisse-111111700500",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/111111700500",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/baguette-hell-terrasuisse-111111700500",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "updated_at": "2020-09-16T05:42:19+0200",
+  "receipt_text": "Baguette hell",
+  "price": {
+    "valid_from": "2020-02-22T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "source": "PriceRepository",
+    "no_price_hint": "Aktueller Tagespreis"
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 5,
+    "average_all": 3.6
+  },
+  "allergen_text": "Kann Nüsse \r\n, Sesam \r\n, Soja \r\n, Eier \r\n und Milch enthalten.",
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

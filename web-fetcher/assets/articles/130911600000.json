@@ -1,0 +1,255 @@
+{
+  "id": "130911600000",
+  "language": "de",
+  "name": "Cornatur Viva Gemüsebällchen",
+  "slug": "cornatur-viva-gemuesebaellchen",
+  "boss_number": "020630311505",
+  "description": {
+    "text": "B&auml;llchen auf Basis von Gem&uuml;se, Ei und Erbsenprotein",
+    "source": "PIM"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "source-qim-origins",
+    "validity-range-not-set",
+    "source-qim-allergens",
+    "source-qim-fooddeclaration",
+    "source-qim-nutritionfacts",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7613269886587",
+    "7613404342411"
+  ],
+  "brand": {
+    "id": "454",
+    "name": "Cornatur",
+    "slug": "cornatur"
+  },
+  "labels": [
+    {
+      "id": "L58",
+      "name": "V-vegetarisch",
+      "slug": "v-vegetarisch",
+      "image": {
+        "original": "https://image.migros.ch/original/f2077ff37c74a16ea9b38ea99c05cb880cc26136/v-vegetarisch.jpg",
+        "stack": "https://image.migros.ch/{stack}/f2077ff37c74a16ea9b38ea99c05cb880cc26136/v-vegetarisch.jpg"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_01011306",
+      "name": "Convenience",
+      "slug": "supermarkt/lebensmittel/fertiggerichte-menues-snacks/convenience",
+      "visible": true,
+      "parent_code": "BeSS_010113",
+      "image": {
+        "original": "https://image.migros.ch/original/5e93cba52d64e1dfb469df3fd588e5ce2d0e4b1d/convenience.jpg",
+        "stack": "https://image.migros.ch/{stack}/5e93cba52d64e1dfb469df3fd588e5ce2d0e4b1d/convenience.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010113",
+      "name": "Fertiggerichte, Menüs & Snacks",
+      "slug": "supermarkt/lebensmittel/fertiggerichte-menues-snacks",
+      "visible": true,
+      "title": "Fertige Pizzen, Menüs und Snacks &ndash; schnell und lecker von der Migros",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/6770b6c8fbbd2689aece359ffeda93b90c58dd09/fertiggerichte-menues-snacks.jpg",
+        "stack": "https://image.migros.ch/{stack}/6770b6c8fbbd2689aece359ffeda93b90c58dd09/fertiggerichte-menues-snacks.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "features": [
+    {
+      "label_code": "MISO_mussgekuehltwerden",
+      "label": "Muss gekühlt werden",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zubereitungsverfahren",
+      "label": "Hinweise für die Zubereitung",
+      "values": [
+        {
+          "value_code": "MISO_zubereitungsverfahren_backen",
+          "value": "Backen"
+        },
+        {
+          "value_code": "MISO_zubereitungsverfahren_braten",
+          "value": "Braten"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zubereitungszeit",
+      "label": "Zubereitungszeit (min.)",
+      "values": [
+        {
+          "value": "8-10"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_produktionslandherstellungsort",
+      "label": "Produktionsland/Herstellungsort",
+      "values": [
+        {
+          "value_code": "MISO_produktionslandherstellungsort_schweiz",
+          "value": "Schweiz"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_VEGETARIANISM",
+      "label": "Vegetarismus",
+      "values": [
+        {
+          "value_code": "MAPI_VEGETARIANISM_vegetarisch",
+          "value": "vegetarisch"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/bb2757970614fe6561c92670bfbc1c691ed85967/cornatur-viva-gemuesebaellchen.jpg",
+    "stack": "https://image.migros.ch/{stack}/bb2757970614fe6561c92670bfbc1c691ed85967/cornatur-viva-gemuesebaellchen.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/8676515128db73f506bade432d51a9e58d9709a7/cornatur-viva-gemuesebaellchen.png",
+    "stack": "https://image.migros.ch/{stack}/8676515128db73f506bade432d51a9e58d9709a7/cornatur-viva-gemuesebaellchen.png"
+  },
+  "additional_images": [
+    {
+      "original": "https://image.migros.ch/original/8800bc1ab7020950eb102654cf71b20de8b562c9.jpg",
+      "stack": "https://image.migros.ch/{stack}/8800bc1ab7020950eb102654cf71b20de8b562c9.jpg"
+    }
+  ],
+  "internal_features": [
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZFRP",
+          "value": "Frische Beschaffung"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "7",
+          "value": "Convenience"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "70439",
+          "value": "GEMUESE & GETREIDE SPEZ."
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/130911600000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/cornatur-viva-gemuesebaellchen",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/130911600000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/cornatur-viva-gemuesebaellchen",
+      "type": "info",
+      "purchasable": false
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/3838709",
+      "app_url": "leshop:///catalog/article/detail?ean=7613269886587",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/cornatur-viva-gemuesebaellchen",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "updated_at": "2020-09-16T05:45:17+0200",
+  "receipt_text": "Cornatur Gemüsebällch.",
+  "price": {
+    "valid_from": "2018-01-29T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 4.9,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "200g"
+    },
+    "base": {
+      "price": 2.45,
+      "quantity": 100,
+      "unit": "g"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 5,
+    "average_all": 4.6
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

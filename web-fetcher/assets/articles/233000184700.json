@@ -1,0 +1,176 @@
+{
+  "id": "233000184700",
+  "language": "de",
+  "name": "Davoser Surchoix Jumbo-Fresh",
+  "slug": "davoser-surchoix-jumbo-fresh",
+  "boss_number": "040114513540",
+  "tags": [
+    "source-pim",
+    "source-qim-origins",
+    "migipedia",
+    "validity-range-not-set",
+    "source-qim-fooddeclaration",
+    "source-qim-nutritionfacts",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "2151820000003",
+    "7617027952750"
+  ],
+  "brand": {
+    "id": "B06",
+    "name": "Länderspezialität",
+    "slug": "laenderspezialitaet"
+  },
+  "labels": [
+    {
+      "id": "L53",
+      "name": "Swissness",
+      "slug": "swissness",
+      "image": {
+        "original": "https://image.migros.ch/original/d771bba2f6b08ba42970ea0243c6f8c5a8832f15/swissness.jpg",
+        "stack": "https://image.migros.ch/{stack}/d771bba2f6b08ba42970ea0243c6f8c5a8832f15/swissness.jpg"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_0101061103",
+      "name": "Fleischwaren gekühlt",
+      "slug": "supermarkt/lebensmittel/fleisch/charcuterie-produkte/fleischwaren-gekuehlt",
+      "visible": true,
+      "parent_code": "BeSS_01010611",
+      "image": {
+        "original": "https://image.migros.ch/original/240be88a673422fe7b0223b44152099394b79732/fleischwaren-gekuehlt.jpg",
+        "stack": "https://image.migros.ch/{stack}/240be88a673422fe7b0223b44152099394b79732/fleischwaren-gekuehlt.jpg"
+      },
+      "level": 5
+    },
+    {
+      "code": "BeSS_01010611",
+      "name": "Charcuterie Produkte",
+      "slug": "supermarkt/lebensmittel/fleisch/charcuterie-produkte",
+      "visible": true,
+      "title": "Vielfältige Charcuterie-Produkte jetzt in Ihrer Migros",
+      "parent_code": "BeSS_010106",
+      "image": {
+        "original": "https://image.migros.ch/original/25316d2bc38d6c6d28b266513291b23735ad8a1f/charcuterie-produkte.jpg",
+        "stack": "https://image.migros.ch/{stack}/25316d2bc38d6c6d28b266513291b23735ad8a1f/charcuterie-produkte.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010106",
+      "name": "Fleisch",
+      "slug": "supermarkt/lebensmittel/fleisch",
+      "visible": true,
+      "title": "Fleisch ausgezeichneter Qualität aus Ihrer Migros: einfach gut",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/03d32c0880d7a9ea6e58971966032e65ac442b58/fleisch.jpg",
+        "stack": "https://image.migros.ch/{stack}/03d32c0880d7a9ea6e58971966032e65ac442b58/fleisch.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/e444196f855a5098b7d35077a5425fcbc1aaa822/davoser-surchoix-jumbo-fresh.jpg",
+    "stack": "https://image.migros.ch/{stack}/e444196f855a5098b7d35077a5425fcbc1aaa822/davoser-surchoix-jumbo-fresh.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/0b2e7bbb0ccf1a2af15bf5b632d5ff0b84726af2/davoser-surchoix-jumbo-fresh.png",
+    "stack": "https://image.migros.ch/{stack}/0b2e7bbb0ccf1a2af15bf5b632d5ff0b84726af2/davoser-surchoix-jumbo-fresh.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZFRP",
+          "value": "Frische Beschaffung"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "6",
+          "value": "Fleisch-Fisch-Geflüg"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "70185",
+          "value": "JUMBO FRESH"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/233000184700",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/davoser-surchoix-jumbo-fresh",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/233000184700",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/davoser-surchoix-jumbo-fresh",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "updated_at": "2020-09-16T05:52:14+0200",
+  "receipt_text": "Davoser Surchoix Jumbo",
+  "price": {
+    "valid_from": "2019-07-08T00:00:00+0200",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "source": "PriceRepository",
+    "no_price_hint": "Aktueller Tagespreis"
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 2,
+    "average_all": 4
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

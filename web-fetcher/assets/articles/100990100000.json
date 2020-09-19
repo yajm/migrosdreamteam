@@ -1,0 +1,380 @@
+{
+  "id": "100990100000",
+  "language": "de",
+  "name": "Adoro Kugeln Milch",
+  "slug": "adoro-kugeln-milch",
+  "boss_number": "010110030625",
+  "description": {
+    "text": "Erleben Sie Raffinesse &ndash; mit ADORO, der erlesenen Pralin&eacute;s-Spezialit&auml;t aus dem Hause Chocolat Frey. Entdecken Sie unter der knackigen Schale das unendlich zarte und cremige Herz von ADORO. Lehnen Sie sich zur&uuml;ck und g&ouml;nnen Sie sich einen unvergleichlich kostbaren Genussmoment mit ADORO",
+    "source": "PIM"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "validity-range-not-set",
+    "leshop-discounted",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7616500664661",
+    "7616500650107"
+  ],
+  "brand": {
+    "id": "062",
+    "name": "Frey",
+    "slug": "frey",
+    "links": {
+      "homepage": {
+        "url": "http://www.chocolatfrey.ch/de",
+        "name": "Homepage",
+        "type": "info",
+        "purchasable": false
+      }
+    },
+    "image": {
+      "original": "https://image.migros.ch/original/0f240825beceb0ba78936de6bce6939efdfd3f26/frey.jpg",
+      "stack": "https://image.migros.ch/{stack}/0f240825beceb0ba78936de6bce6939efdfd3f26/frey.jpg"
+    }
+  },
+  "labels": [
+    {
+      "id": "L53",
+      "name": "Swissness",
+      "slug": "swissness",
+      "image": {
+        "original": "https://image.migros.ch/original/d771bba2f6b08ba42970ea0243c6f8c5a8832f15/swissness.jpg",
+        "stack": "https://image.migros.ch/{stack}/d771bba2f6b08ba42970ea0243c6f8c5a8832f15/swissness.jpg"
+      }
+    },
+    {
+      "id": "L34",
+      "name": "UTZ",
+      "slug": "utz",
+      "image": {
+        "original": "https://image.migros.ch/original/64192d97b7770d351f5bbe89a57c9f614e529150/utz.jpg",
+        "stack": "https://image.migros.ch/{stack}/64192d97b7770d351f5bbe89a57c9f614e529150/utz.jpg"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_0101082108",
+      "name": "Pralinés",
+      "slug": "supermarkt/lebensmittel/suessigkeiten/schokolade/pralines",
+      "visible": true,
+      "title": "Feine Pralinen zu günstigen Preisen bei der Migros",
+      "parent_code": "BeSS_01010821",
+      "level": 5
+    },
+    {
+      "code": "BeSS_01010821",
+      "name": "Schokolade",
+      "slug": "supermarkt/lebensmittel/suessigkeiten/schokolade",
+      "visible": true,
+      "parent_code": "BeSS_010108",
+      "level": 4
+    },
+    {
+      "code": "BeSS_010108",
+      "name": "Süssigkeiten",
+      "slug": "supermarkt/lebensmittel/suessigkeiten",
+      "visible": true,
+      "title": "Süssigkeiten aus Ihrer Migros: für Naschkatzen und Schleckmäuler",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/a9c80f4e896b5ebdd3b7ebbee11f956c8ff157cf/suessigkeiten.jpg",
+        "stack": "https://image.migros.ch/{stack}/a9c80f4e896b5ebdd3b7ebbee11f956c8ff157cf/suessigkeiten.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "features": [
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_schachtel",
+          "value": "Schachtel"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_anlass",
+      "label": "Anlass",
+      "values": [
+        {
+          "value_code": "MISO_anlass_geschenk",
+          "value": "Geschenk"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_Lebensmittel_Schokolade_Sortiment",
+      "label": "Sortiment",
+      "values": [
+        {
+          "value_code": "MISO_Pralines",
+          "value": "Pralinés"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_Lebensmittel_Schokolade_Themen",
+      "label": "Themen",
+      "values": [
+        {
+          "value_code": "MISO_Milchschokolade",
+          "value": "Milchschokolade"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_Lebensmittel_Schokolade_Submarken",
+      "label": "Submarken",
+      "values": [
+        {
+          "value_code": "MISO_Adoro",
+          "value": "Adoro"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_formdersuesswaren",
+      "label": "Form der Süsswaren",
+      "values": [
+        {
+          "value_code": "MISO_formdersuesswaren_kugeln",
+          "value": "Kugeln"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_artvonschokolade",
+      "label": "Art von Schokolade",
+      "values": [
+        {
+          "value_code": "MISO_artvonschokolade_milchschokolade",
+          "value": "Milchschokolade"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_einzelnverpackt",
+      "label": "Einzeln verpackt",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_gefuellt",
+      "label": "Gefüllt",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_wiederverschliessbar",
+      "label": "Wiederverschliessbar",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/e4ef0490549511126c2cf4b47bf7930194bfac68/adoro-kugeln-milch.jpg",
+    "stack": "https://image.migros.ch/{stack}/e4ef0490549511126c2cf4b47bf7930194bfac68/adoro-kugeln-milch.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/96bc968e30d86a926d245d0f36dd534823ae3699/adoro-kugeln-milch.png",
+    "stack": "https://image.migros.ch/{stack}/96bc968e30d86a926d245d0f36dd534823ae3699/adoro-kugeln-milch.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "M",
+          "value": "Kolonial Standard"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "11200",
+          "value": "KUGELN"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/100990100000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/adoro-kugeln-milch",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/100990100000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/adoro-kugeln-milch",
+      "type": "info",
+      "purchasable": false
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/4965358",
+      "app_url": "leshop:///catalog/article/detail?ean=7616500664661",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/adoro-kugeln-milch",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "updated_at": "2020-09-16T06:49:59+0200",
+  "receipt_text": "Adoro Kugeln Milch500g",
+  "price": {
+    "valid_from": "2020-09-15T00:00:00+0200",
+    "valid_to": "2020-09-28T23:59:59+0200",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 12.65,
+      "original_price": 15.8,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "500g"
+    },
+    "discount": {
+      "id": "1449464",
+      "region": "national",
+      "start_date": "2020-09-15T00:00:00+0200",
+      "end_date": "2020-09-28T23:59:59+0200",
+      "publication_date": "2020-09-13T00:00:00+0200",
+      "discount_amount": "20%",
+      "discount_regions": [
+        "national"
+      ],
+      "reference_product_id": "100901800000",
+      "discount_type": "aktion",
+      "discount_type_id": "001",
+      "discount_type_label": "SA Sonderangebot",
+      "organisation": "02",
+      "cooperative": "mgb",
+      "image": {
+        "tags": [
+          "list-image"
+        ],
+        "original": "https://image.migros.ch/original/9f1cec35d3c06aab264dbe7ea765834e8f520618/alle-frey-pralines-in-schachteln-und-adoro-utz.jpg",
+        "source": "PriceRepository",
+        "stack": "https://image.migros.ch/{stack}/9f1cec35d3c06aab264dbe7ea765834e8f520618/alle-frey-pralines-in-schachteln-und-adoro-utz.jpg"
+      },
+      "image_transparent": {
+        "original": "https://image.migros.ch/original/9f1cec35d3c06aab264dbe7ea765834e8f520618/alle-frey-pralines-in-schachteln-und-adoro-utz.png",
+        "source": "PriceRepository",
+        "stack": "https://image.migros.ch/{stack}/9f1cec35d3c06aab264dbe7ea765834e8f520618/alle-frey-pralines-in-schachteln-und-adoro-utz.png"
+      },
+      "logo": {
+        "original": "https://image.migros.ch/original/63992097c0ab00749a21c1906dc38d8bf3373398.png",
+        "source": "PriceRepository",
+        "stack": "https://image.migros.ch/{stack}/63992097c0ab00749a21c1906dc38d8bf3373398.png"
+      },
+      "badge": {
+        "original": "https://image.migros.ch/original/0633530dd39bda4f1496c8c8aa5ac1d66f227594.png",
+        "stack": "https://image.migros.ch/{stack}/0633530dd39bda4f1496c8c8aa5ac1d66f227594.png"
+      },
+      "location_planning_type": "01",
+      "reduction_type_id": "01",
+      "special_advertisement": false,
+      "advertisement_type_id": "2",
+      "description": "Alle Frey-Pralinés in Schachteln und -Adoro, UTZ",
+      "discount_hint": "(ohne Mehrfachpackungen), z.B. Pralinés Prestige, 132 g, <strong>7.80 </strong>statt 9.80, Angebot gilt nur vom 15.9. bis 28.9.2020, solange Vorrat.",
+      "high_performer": false,
+      "collective_discount": true,
+      "instead_of": "statt",
+      "price": 12.65,
+      "original_price": 15.8,
+      "disclaimer": "Gültigkeit siehe Angebots-Detailseite.\r\nBei allen Angeboten sind M-Budget und bereits reduzierte Artikel ausgenommen.\r\nBei Aktionen können bei der Verrechnung auf dem Kassabon Rundungsdifferenzen zu Gunsten des Kunden entstehen.",
+      "source": "PriceRepository",
+      "boss_number": "010110031105",
+      "discount_role_id": "2000000002",
+      "discount_role_label": "M: Wochenangebot Typ I",
+      "last_imported": "2020-09-08T05:15:04+0200"
+    },
+    "discount_hint": "Angebot gilt nur vom 15.9. bis 28.9.2020, solange Vorrat."
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 7,
+    "average_all": 3.666666666667
+  },
+  "allergen_text": "Kann Haselnüsse, Mandeln, Eier und Spuren anderer Schalenfrüchte (Nüsse) enthalten",
+  "reindex_date": "2020-09-28T23:59:59+0200"
+}

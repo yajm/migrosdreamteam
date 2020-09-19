@@ -1,0 +1,267 @@
+{
+  "id": "154002500000",
+  "language": "de",
+  "name": "Simmenthal Fleisch",
+  "slug": "simmenthal-fleisch",
+  "boss_number": "011111090115",
+  "description": {
+    "text": "<p><strong>SIMMENTHAL Fertig-Rindfleisch in pflanzlichem Gele&eacute; - Trio-Packung</strong></p>",
+    "source": "PIM"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "8004030895058"
+  ],
+  "brand": {
+    "id": "169",
+    "name": "Simmenthal",
+    "slug": "simmenthal"
+  },
+  "categories": [
+    {
+      "code": "BeSS_01011412",
+      "name": "Fleischkonserven",
+      "slug": "supermarkt/lebensmittel/pasta-zutaten-konserven/fleischkonserven",
+      "visible": true,
+      "parent_code": "BeSS_010114",
+      "image": {
+        "original": "https://image.migros.ch/original/47cc685fe0cdeb231b0a755b74060b8bd6991061/fleischkonserven.jpg",
+        "stack": "https://image.migros.ch/{stack}/47cc685fe0cdeb231b0a755b74060b8bd6991061/fleischkonserven.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010114",
+      "name": "Pasta, Zutaten & Konserven",
+      "slug": "supermarkt/lebensmittel/pasta-zutaten-konserven",
+      "visible": true,
+      "title": "Pasta aus Ihrer Migros: alles rund um Teigwaren",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/6d0964bbb34b8e041ba4d74fc0c90b149907f46a/pasta-zutaten-konserven.jpg",
+        "stack": "https://image.migros.ch/{stack}/6d0964bbb34b8e041ba4d74fc0c90b149907f46a/pasta-zutaten-konserven.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "features": [
+    {
+      "label_code": "MISO_anzahlentnehmbarereinzelportionen",
+      "label": "Anzahl entnehmbarer Einzeleinheiten",
+      "values": [
+        {
+          "value_code": "NUMERIC_3.0",
+          "value": "3.0",
+          "numeric_value": 3
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_dose",
+          "value": "Dose"
+        },
+        {
+          "value_code": "MISO_cu_gebindeart_umverpackung",
+          "value": "Umverpackung"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_naehrwertanspruch",
+      "label": "Nährwertanspruch",
+      "values": [
+        {
+          "value_code": "MISO_naehrwertanspruch_fettarm",
+          "value": "Fettarm"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zubereitungsverfahren",
+      "label": "Hinweise für die Zubereitung",
+      "values": [
+        {
+          "value_code": "MISO_zubereitungsverfahren_verzehrfertig",
+          "value": "Verzehrfertig"
+        },
+        {
+          "value_code": "MISO_zubereitungsverfahren_zumkaltessen",
+          "value": "Zum Kaltessen"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_primaerezusaetze",
+      "label": "Primäre Zusätze",
+      "values": [
+        {
+          "value_code": "MISO_primaerezusaetze_gewuerze",
+          "value": "Gewürze"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_tierartodergattung",
+      "label": "Tierart oder Gattung",
+      "values": [
+        {
+          "value_code": "MISO_tierartodergattung_rind",
+          "value": "Rind"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_herstellungsverfahrenvonfleisch",
+      "label": "Herstellungsverfahren von Fleisch",
+      "values": [
+        {
+          "value_code": "MISO_herstellungsverfahrenvonfleisch_gegart",
+          "value": "Gegart"
+        },
+        {
+          "value_code": "MISO_herstellungsverfahrenvonfleisch_gewuerzt",
+          "value": "Gewürzt"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_haltbarmachung",
+      "label": "Haltbarmachung",
+      "values": [
+        {
+          "value_code": "MISO_haltbarmachung_gekocht",
+          "value": "gekocht"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/bac3c2f5b7122eb48953fed283e725090d3f7007/simmenthal-fleisch.jpg",
+    "stack": "https://image.migros.ch/{stack}/bac3c2f5b7122eb48953fed283e725090d3f7007/simmenthal-fleisch.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/b36ea3c897ee5037cc0e4ea054f6a77adfc9a285/simmenthal-fleisch.png",
+    "stack": "https://image.migros.ch/{stack}/b36ea3c897ee5037cc0e4ea054f6a77adfc9a285/simmenthal-fleisch.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "M",
+          "value": "Kolonial Standard"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "11130",
+          "value": "FLEISCHKONSERVEN"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/154002500000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/simmenthal-fleisch",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/154002500000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/simmenthal-fleisch",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "updated_at": "2020-09-15T06:02:37+0200",
+  "receipt_text": "Simmenthal Fleisch",
+  "price": {
+    "valid_from": "2018-01-29T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 6.6,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "3 x 90g"
+    },
+    "base": {
+      "price": 2.44,
+      "quantity": 100,
+      "unit": "g"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 4,
+    "average_all": 3.75
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

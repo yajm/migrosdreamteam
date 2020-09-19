@@ -1,0 +1,310 @@
+{
+  "id": "110141200000",
+  "language": "de",
+  "name": "Alnatura Dinkel Doppelkeks",
+  "slug": "alnatura-dinkel-doppelkeks-110141200000",
+  "boss_number": "010210127505",
+  "description": {
+    "text": "Den beliebten Alnatura Dinkel-Doppelkeks gibt es nun in kleiner Packung. Sieben knusprige Doppelkekse mit feiner Kakaocreme-F&uuml;llung stecken in jeder Rolle. Ein schokoladiger Genuss f&uuml;r die kleine Pause zwischendurch und besonders praktisch f&uuml;r unterwegs. Alle landwirtschaftlichen Zutaten stammen aus Bio-Anbau.",
+    "source": "PIM"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "source-qim-origins",
+    "source-qim-distributor",
+    "validity-range-not-set",
+    "source-qim-allergens",
+    "source-qim-fooddeclaration",
+    "source-qim-nutritionfacts",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "42247111",
+    "7613312047965"
+  ],
+  "brand": {
+    "id": "D06",
+    "name": "Alnatura",
+    "slug": "alnatura",
+    "links": {
+      "homepage": {
+        "url": "https://alnatura.migros.ch/de.html",
+        "name": "Homepage",
+        "type": "info",
+        "purchasable": false
+      }
+    },
+    "image": {
+      "original": "https://image.migros.ch/original/2c0deb7a67525727ed8213ce2b42bc8a6eb35567/alnatura.jpg",
+      "stack": "https://image.migros.ch/{stack}/2c0deb7a67525727ed8213ce2b42bc8a6eb35567/alnatura.jpg"
+    }
+  },
+  "categories": [
+    {
+      "code": "BeSS_01010814",
+      "name": "Gesund & Bio",
+      "slug": "supermarkt/lebensmittel/suessigkeiten/gesund-bio",
+      "visible": true,
+      "title": "Bio Süssigkeiten aus Ihrer Migros",
+      "parent_code": "BeSS_010108",
+      "level": 4
+    },
+    {
+      "code": "BeSS_010108",
+      "name": "Süssigkeiten",
+      "slug": "supermarkt/lebensmittel/suessigkeiten",
+      "visible": true,
+      "title": "Süssigkeiten aus Ihrer Migros: für Naschkatzen und Schleckmäuler",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/a9c80f4e896b5ebdd3b7ebbee11f956c8ff157cf/suessigkeiten.jpg",
+        "stack": "https://image.migros.ch/{stack}/a9c80f4e896b5ebdd3b7ebbee11f956c8ff157cf/suessigkeiten.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "ALNA_CAT_BiscuitsundGebaeck_SchokoladeBiscuitsundsuesseSnacks",
+        "name": "Biscuits und Gebäck",
+        "slug": "alnatura/schokolade-biscuits-und-suesse-snacks/biscuits-und-gebaeck",
+        "visible": true,
+        "parent_code": "ALNA_CAT_SchokoladeBiscuitsundsuesseSnacks",
+        "level": 3
+      },
+      {
+        "code": "ALNA_CAT_SchokoladeBiscuitsundsuesseSnacks",
+        "name": "Schokolade, Biscuits und süsse Snacks",
+        "slug": "alnatura/schokolade-biscuits-und-suesse-snacks",
+        "visible": true,
+        "parent_code": "BeSS_97",
+        "level": 2
+      },
+      {
+        "code": "BeSS_97",
+        "name": "Alnatura",
+        "slug": "alnatura",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "features": [
+    {
+      "label_code": "MISO_produktionsanspruch",
+      "label": "Produktionsverfahren",
+      "values": [
+        {
+          "value_code": "MISO_produktionsanspruch_bioproduktion",
+          "value": "Bio-Produktion"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_kunststoffverpackung",
+          "value": "Kunststoff-Verpackung"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zubereitungsverfahren",
+      "label": "Hinweise für die Zubereitung",
+      "values": [
+        {
+          "value_code": "MISO_zubereitungsverfahren_verzehrfertig",
+          "value": "Verzehrfertig"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_artvonkeksgebaeck",
+      "label": "Art von Keks/Gebäck",
+      "values": [
+        {
+          "value_code": "MISO_artvonkeksgebaeck_doppelkeks",
+          "value": "Doppelkeks"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_artvonummantelungfuellung",
+      "label": "Art von Ummantelung/Füllung",
+      "values": [
+        {
+          "value_code": "MISO_artvonummantelungfuellung_kakaocreme",
+          "value": "Kakaocreme"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_getreideart",
+      "label": "Getreideart",
+      "values": [
+        {
+          "value_code": "MISO_getreideart_dinkel",
+          "value": "Dinkel"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_herzhaftsuess",
+      "label": "Herzhaft/süss",
+      "values": [
+        {
+          "value_code": "MISO_herzhaftsuess_suess",
+          "value": "süss"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_fuellung",
+      "label": "Füllung",
+      "values": [
+        {
+          "value_code": "NUMERIC_30.0",
+          "value": "30.0 %",
+          "numeric_value": 30
+        }
+      ],
+      "top_fact": false,
+      "unit_code": "prozent",
+      "unit": "Prozent",
+      "unit_symbol": "%"
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/1d8b5aa6f1e7d1c8339b2338c5ed4b328d72222a/alnatura-dinkel-doppelkeks.jpg",
+    "stack": "https://image.migros.ch/{stack}/1d8b5aa6f1e7d1c8339b2338c5ed4b328d72222a/alnatura-dinkel-doppelkeks.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/241909e98710dd44e439f5f6ab583e2d4ac26c89/alnatura-dinkel-doppelkeks.png",
+    "stack": "https://image.migros.ch/{stack}/241909e98710dd44e439f5f6ab583e2d4ac26c89/alnatura-dinkel-doppelkeks.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "M",
+          "value": "Kolonial Standard"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "10286",
+          "value": "ALNATURA BISKUIT"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUSTOMS_POSITION",
+      "values": [
+        {
+          "value_code": "1905.3113"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/110141200000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/alnatura-dinkel-doppelkeks-110141200000",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/110141200000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/alnatura-dinkel-doppelkeks-110141200000",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "updated_at": "2020-09-16T06:54:32+0200",
+  "receipt_text": "Alnatura Keks",
+  "price": {
+    "valid_from": "2018-01-29T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 1.3,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "90g"
+    },
+    "base": {
+      "price": 1.44,
+      "quantity": 100,
+      "unit": "g"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 4,
+    "average_all": 4.75
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

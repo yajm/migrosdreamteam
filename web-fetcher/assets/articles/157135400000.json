@@ -1,0 +1,254 @@
+{
+  "id": "157135400000",
+  "language": "de",
+  "name": "V-Love Ravioli mit Tofu",
+  "slug": "v-love-ravioli-mit-tofu",
+  "boss_number": "011111100105",
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7613312280683"
+  ],
+  "brand": {
+    "id": "Z24",
+    "name": "V-Love",
+    "slug": "v-love",
+    "image": {
+      "original": "https://image.migros.ch/original/bc95a1df1365d5acf337a8229b2f99d10d53ab6f/v-love.jpg",
+      "stack": "https://image.migros.ch/{stack}/bc95a1df1365d5acf337a8229b2f99d10d53ab6f/v-love.jpg"
+    }
+  },
+  "labels": [
+    {
+      "id": "L58",
+      "name": "V-vegetarisch",
+      "slug": "v-vegetarisch",
+      "image": {
+        "original": "https://image.migros.ch/original/f2077ff37c74a16ea9b38ea99c05cb880cc26136/v-vegetarisch.jpg",
+        "stack": "https://image.migros.ch/{stack}/f2077ff37c74a16ea9b38ea99c05cb880cc26136/v-vegetarisch.jpg"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_01011301",
+      "name": "Diverse Fertiggerichte",
+      "slug": "supermarkt/lebensmittel/fertiggerichte-menues-snacks/diverse-fertiggerichte",
+      "visible": true,
+      "title": "Kochen im Handumdrehen: Fertiggerichte aus der Migros",
+      "parent_code": "BeSS_010113",
+      "image": {
+        "original": "https://image.migros.ch/original/90852e2f41d9662517da0d5150c6392cd2a53019/diverse-fertiggerichte.jpg",
+        "stack": "https://image.migros.ch/{stack}/90852e2f41d9662517da0d5150c6392cd2a53019/diverse-fertiggerichte.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010113",
+      "name": "Fertiggerichte, Menüs & Snacks",
+      "slug": "supermarkt/lebensmittel/fertiggerichte-menues-snacks",
+      "visible": true,
+      "title": "Fertige Pizzen, Menüs und Snacks &ndash; schnell und lecker von der Migros",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/6770b6c8fbbd2689aece359ffeda93b90c58dd09/fertiggerichte-menues-snacks.jpg",
+        "stack": "https://image.migros.ch/{stack}/6770b6c8fbbd2689aece359ffeda93b90c58dd09/fertiggerichte-menues-snacks.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "features": [
+    {
+      "label_code": "MAPI_VEGETARIANISM",
+      "label": "Vegetarismus",
+      "values": [
+        {
+          "value_code": "MAPI_VEGETARIANISM_vegetarisch",
+          "value": "vegetarisch"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/14c46f15b5ff95d833becb714ec1e7c6257e176d/v-love-ravioli-mit-tofu.jpg",
+    "stack": "https://image.migros.ch/{stack}/14c46f15b5ff95d833becb714ec1e7c6257e176d/v-love-ravioli-mit-tofu.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/f3fa1e51f525aa0782871ecabd9f72b4249fdeba/v-love-ravioli-mit-tofu.png",
+    "stack": "https://image.migros.ch/{stack}/f3fa1e51f525aa0782871ecabd9f72b4249fdeba/v-love-ravioli-mit-tofu.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "M",
+          "value": "Kolonial Standard"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "11150",
+          "value": "DOSENGERICHTE"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/157135400000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/v-love-ravioli-mit-tofu",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/157135400000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/v-love-ravioli-mit-tofu",
+      "type": "info",
+      "purchasable": false
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/5382148",
+      "app_url": "leshop:///catalog/article/detail?ean=7613312280683",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/v-love-ravioli-mit-tofu",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "updated_at": "2020-09-16T05:47:34+0200",
+  "receipt_text": "V-Love Ravioli Tofu",
+  "price": {
+    "valid_from": "2020-09-15T00:00:00+0200",
+    "valid_to": "2020-09-28T23:59:59+0200",
+    "source": "PriceRepository",
+    "item": {
+      "price": 2.8,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "430g"
+    },
+    "discount": {
+      "id": "1584130",
+      "region": "national",
+      "start_date": "2020-09-15T00:00:00+0200",
+      "end_date": "2020-09-28T23:59:59+0200",
+      "publication_date": "2020-09-13T00:00:00+0200",
+      "discount_regions": [
+        "national",
+        "gmaa",
+        "gmbs",
+        "gmge",
+        "gmlu",
+        "gmnf",
+        "gmos",
+        "gmti",
+        "gmvd",
+        "gmvs",
+        "gmzh"
+      ],
+      "reference_product_id": "157135400000",
+      "discount_type": "neuheit",
+      "discount_type_id": "004",
+      "discount_type_label": "CAKT Cumulus-Angebot (Fix oder xFach Punkte)",
+      "tags": [
+        "regional-override"
+      ],
+      "organisation": "02",
+      "cooperative": "mgb",
+      "image": {
+        "tags": [
+          "list-image"
+        ],
+        "original": "https://image.migros.ch/original/f3fa1e51f525aa0782871ecabd9f72b4249fdeba/v-love-tofu-ravioli.jpg",
+        "source": "PriceRepository",
+        "stack": "https://image.migros.ch/{stack}/f3fa1e51f525aa0782871ecabd9f72b4249fdeba/v-love-tofu-ravioli.jpg"
+      },
+      "image_transparent": {
+        "original": "https://image.migros.ch/original/f3fa1e51f525aa0782871ecabd9f72b4249fdeba/v-love-tofu-ravioli.png",
+        "source": "PriceRepository",
+        "stack": "https://image.migros.ch/{stack}/f3fa1e51f525aa0782871ecabd9f72b4249fdeba/v-love-tofu-ravioli.png"
+      },
+      "logo": {
+        "original": "https://image.migros.ch/original/073d820af31d1f5834962971ae66cc8fc801fbaa.png",
+        "source": "PriceRepository",
+        "stack": "https://image.migros.ch/{stack}/073d820af31d1f5834962971ae66cc8fc801fbaa.png"
+      },
+      "badge": {
+        "original": "https://image.migros.ch/original/ac6035c6fe3e58d34e413971cb9188d4f7ecf9f9.png",
+        "stack": "https://image.migros.ch/{stack}/ac6035c6fe3e58d34e413971cb9188d4f7ecf9f9.png"
+      },
+      "location_planning_type": "01",
+      "reduction_type_id": "05",
+      "special_advertisement": false,
+      "description": "V-Love Tofu Ravioli",
+      "discount_hint": "430 g, Angebot gilt nur vom 15.9. bis 28.9.2020, solange Vorrat.",
+      "high_performer": false,
+      "collective_discount": false,
+      "price": 2.8,
+      "profit": 20,
+      "disclaimer": "Gültigkeit siehe Angebots-Detailseite.\r\nBei allen Angeboten sind M-Budget und bereits reduzierte Artikel ausgenommen.\r\nBei Aktionen können bei der Verrechnung auf dem Kassabon Rundungsdifferenzen zu Gunsten des Kunden entstehen.",
+      "source": "PriceRepository",
+      "boss_number": "011111100105",
+      "discount_role_id": "1000000005",
+      "discount_role_label": "Neuheitenangebot",
+      "last_imported": "2020-09-10T09:25:24+0200"
+    },
+    "discount_hint": "Angebot gilt nur vom 15.9. bis 28.9.2020, solange Vorrat."
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

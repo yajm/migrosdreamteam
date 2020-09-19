@@ -1,0 +1,182 @@
+{
+  "id": "210102806500",
+  "language": "de",
+  "name": "Alter Schweizer",
+  "slug": "alter-schweizer-210102806500",
+  "boss_number": "030313600570",
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "validity-range-not-set",
+    "filter-aus-der-region",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "2158325000002",
+    "7613269548546"
+  ],
+  "labels": [
+    {
+      "id": "L53",
+      "name": "Swissness",
+      "slug": "swissness",
+      "image": {
+        "original": "https://image.migros.ch/original/d771bba2f6b08ba42970ea0243c6f8c5a8832f15/swissness.jpg",
+        "stack": "https://image.migros.ch/{stack}/d771bba2f6b08ba42970ea0243c6f8c5a8832f15/swissness.jpg"
+      }
+    },
+    {
+      "id": "L28",
+      "name": "Aus der Region",
+      "slug": "aus-der-region",
+      "image": {
+        "original": "https://image.migros.ch/original/28068cd4d6e174c8ec75906797af89b64170c43f/aus-der-region.jpg",
+        "stack": "https://image.migros.ch/{stack}/28068cd4d6e174c8ec75906797af89b64170c43f/aus-der-region.jpg"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_0101040101",
+      "name": "Hartkäse & Halbhartkäse",
+      "slug": "supermarkt/lebensmittel/milchprodukte-eier/kaese/hartkaese-halbhartkaese",
+      "visible": true,
+      "title": "Halbhartkäse und Hartkäse in Ihrer Migros kaufen",
+      "parent_code": "BeSS_01010401",
+      "image": {
+        "original": "https://image.migros.ch/original/692bb5aabf4acb1a5d004910b23be1320357f035/hartkaese-halbhartkaese.jpg",
+        "stack": "https://image.migros.ch/{stack}/692bb5aabf4acb1a5d004910b23be1320357f035/hartkaese-halbhartkaese.jpg"
+      },
+      "level": 5
+    },
+    {
+      "code": "BeSS_01010401",
+      "name": "Käse",
+      "slug": "supermarkt/lebensmittel/milchprodukte-eier/kaese",
+      "visible": true,
+      "title": "Käse von Ihrer Migros &ndash; macht Appetit auf mehr",
+      "parent_code": "BeSS_010104",
+      "image": {
+        "original": "https://image.migros.ch/original/4fbf646a3ebce5b0f570ef4c8f4f9e8d708bb65f/kaese.jpg",
+        "stack": "https://image.migros.ch/{stack}/4fbf646a3ebce5b0f570ef4c8f4f9e8d708bb65f/kaese.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010104",
+      "name": "Milchprodukte & Eier",
+      "slug": "supermarkt/lebensmittel/milchprodukte-eier",
+      "visible": true,
+      "title": "Milchprodukte und Eier –",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/6b1ea6c2d41c3ccb21bf05c8dc342f7f55d83deb/milchprodukte-eier.jpg",
+        "stack": "https://image.migros.ch/{stack}/6b1ea6c2d41c3ccb21bf05c8dc342f7f55d83deb/milchprodukte-eier.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/35226f906ac50632142a3894a61d0ec4f4370a21/alter-schweizer.jpg",
+    "stack": "https://image.migros.ch/{stack}/35226f906ac50632142a3894a61d0ec4f4370a21/alter-schweizer.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/134e5c9b487286f41d3dc7bbb2636f808d8f1182/alter-schweizer.png",
+    "stack": "https://image.migros.ch/{stack}/134e5c9b487286f41d3dc7bbb2636f808d8f1182/alter-schweizer.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZFRP",
+          "value": "Frische Beschaffung"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "1",
+          "value": "Molki"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "70027",
+          "value": "SCHWEIZER HARTKAESE"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/210102806500",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/alter-schweizer-210102806500",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/210102806500",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/alter-schweizer-210102806500",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "updated_at": "2020-09-11T06:28:43+0200",
+  "receipt_text": "Alter Schweizer",
+  "price": {
+    "valid_from": "2018-01-30T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 2.45,
+      "quantity": 100,
+      "unit": "g",
+      "varying_quantity": true,
+      "display_quantity": "100 g"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

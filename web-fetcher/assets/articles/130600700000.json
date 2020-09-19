@@ -1,0 +1,398 @@
+{
+  "id": "130600700000",
+  "language": "de",
+  "name": "Bio Frifrench Salatsauce French",
+  "slug": "bio-frifrench-salatsauce-french",
+  "boss_number": "020530375510",
+  "description": {
+    "text": "Biofrench Salatsauce",
+    "source": "PIM"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7616600703413"
+  ],
+  "brand": {
+    "id": "458",
+    "name": "Frifrench",
+    "slug": "frifrench"
+  },
+  "labels": [
+    {
+      "id": "L02",
+      "name": "Migros Bio",
+      "slug": "migros-bio",
+      "image": {
+        "original": "https://image.migros.ch/original/f32d1804b8db5760147310b8d6458eb36757b486/migros-bio.jpg",
+        "stack": "https://image.migros.ch/{stack}/f32d1804b8db5760147310b8d6458eb36757b486/migros-bio.jpg"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_0101130213",
+      "name": "Salatsaucen",
+      "slug": "supermarkt/lebensmittel/fertiggerichte-menues-snacks/fertige-pizzen-menues-snacks/salatsaucen",
+      "visible": true,
+      "parent_code": "BeSS_01011302",
+      "image": {
+        "original": "https://image.migros.ch/original/d0eccff2081de39d4c8fcd4aad4ec9d05a114ae0/salatsaucen.jpg",
+        "stack": "https://image.migros.ch/{stack}/d0eccff2081de39d4c8fcd4aad4ec9d05a114ae0/salatsaucen.jpg"
+      },
+      "level": 5
+    },
+    {
+      "code": "BeSS_01011302",
+      "name": "Fertige Pizzen, Menüs & Snacks",
+      "slug": "supermarkt/lebensmittel/fertiggerichte-menues-snacks/fertige-pizzen-menues-snacks",
+      "visible": true,
+      "title": "Feine Fertiggerichte aus Ihrer Migros!",
+      "parent_code": "BeSS_010113",
+      "image": {
+        "original": "https://image.migros.ch/original/0014f54049f00019a8782aedb21ad671bd28a8e8/fertige-pizzen-menues-snacks.jpg",
+        "stack": "https://image.migros.ch/{stack}/0014f54049f00019a8782aedb21ad671bd28a8e8/fertige-pizzen-menues-snacks.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010113",
+      "name": "Fertiggerichte, Menüs & Snacks",
+      "slug": "supermarkt/lebensmittel/fertiggerichte-menues-snacks",
+      "visible": true,
+      "title": "Fertige Pizzen, Menüs und Snacks &ndash; schnell und lecker von der Migros",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/6770b6c8fbbd2689aece359ffeda93b90c58dd09/fertiggerichte-menues-snacks.jpg",
+        "stack": "https://image.migros.ch/{stack}/6770b6c8fbbd2689aece359ffeda93b90c58dd09/fertiggerichte-menues-snacks.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_Salatsaucen_Salate_FruechteGemuese",
+        "name": "Salatsaucen",
+        "slug": "amigos/fruechte-gemuese/salate/salatsaucen",
+        "visible": true,
+        "parent_code": "AMIG_CAT_Salate_FruechteGemuese",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_Salate_FruechteGemuese",
+        "name": "Salate",
+        "slug": "amigos/fruechte-gemuese/salate",
+        "visible": true,
+        "parent_code": "AMIG_CAT_FruechteGemuese",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_FruechteGemuese",
+        "name": "Früchte & Gemüse",
+        "slug": "amigos/fruechte-gemuese",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ],
+    [
+      {
+        "code": "AMIG_CAT_Salatsaucen_SalatsaucenkalteSaucen_Grundnahrungsmittel",
+        "name": "Salatsaucen",
+        "slug": "amigos/grundnahrungsmittel/salatsaucen-kalte-saucen/salatsaucen",
+        "visible": true,
+        "parent_code": "AMIG_CAT_SalatsaucenkalteSaucen_Grundnahrungsmittel",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_SalatsaucenkalteSaucen_Grundnahrungsmittel",
+        "name": "Salatsaucen & kalte Saucen",
+        "slug": "amigos/grundnahrungsmittel/salatsaucen-kalte-saucen",
+        "visible": true,
+        "parent_code": "AMIG_CAT_Grundnahrungsmittel",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_Grundnahrungsmittel",
+        "name": "Grundnahrungsmittel",
+        "slug": "amigos/grundnahrungsmittel",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "features": [
+    {
+      "label_code": "MISO_mussgekuehltwerden",
+      "label": "Muss gekühlt werden",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_produktionsanspruch",
+      "label": "Produktionsverfahren",
+      "values": [
+        {
+          "value_code": "MISO_produktionsanspruch_bioproduktion",
+          "value": "Bio-Produktion"
+        },
+        {
+          "value_code": "MISO_produktionsanspruch_mitnatuerlichenaromen",
+          "value": "Mit natürlichen Aromen"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_flasche",
+          "value": "Flasche"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zubereitungsverfahren",
+      "label": "Hinweise für die Zubereitung",
+      "values": [
+        {
+          "value_code": "MISO_zubereitungsverfahren_zumwuerzengeeignet",
+          "value": "Zum Würzen geeignet"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zusatzangaben",
+      "label": "Zusatzangaben",
+      "values": [
+        {
+          "value_code": "MISO_zusatzangaben_30",
+          "value": "Vor Gebrauch schütteln"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_gewuerzegeeignetfuer",
+      "label": "Gewürze geeignet für",
+      "values": [
+        {
+          "value_code": "MISO_gewuerzegeeignetfuer_salat",
+          "value": "Salat"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_artvonsaucedip",
+      "label": "Art von Sauce/Dip",
+      "values": [
+        {
+          "value_code": "MISO_artvonsaucedip_salatsauce",
+          "value": "Salatsauce"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_hinzugefuegtezutaten",
+      "label": "Hinzugefügte Zutaten",
+      "values": [
+        {
+          "value_code": "MISO_hinzugefuegtezutaten_joghurt",
+          "value": "Joghurt"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_artvonsalatsauce",
+      "label": "Art von Salatsauce",
+      "values": [
+        {
+          "value_code": "MISO_artvonsalatsauce_french",
+          "value": "French"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_vorgeseheneverwendungdersauce",
+      "label": "Vorgesehene Verwendung der Sauce",
+      "values": [
+        {
+          "value_code": "MISO_vorgeseheneverwendungdersauce_salatgerichte",
+          "value": "Salatgerichte"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/2d626ae4ccb4a1e01d6f5afc085c688d8850d492/bio-frifrench-salatsauce-french.jpg",
+    "stack": "https://image.migros.ch/{stack}/2d626ae4ccb4a1e01d6f5afc085c688d8850d492/bio-frifrench-salatsauce-french.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/ff61e63afa9304fffadd6f54dd4ea9c634ab7e71/bio-frifrench-salatsauce-french.png",
+    "stack": "https://image.migros.ch/{stack}/ff61e63afa9304fffadd6f54dd4ea9c634ab7e71/bio-frifrench-salatsauce-french.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_sortierung",
+      "label": "Sortierung aMigos",
+      "values": [
+        {
+          "value_code": "NUMERIC_210",
+          "value": "210",
+          "numeric_value": 210
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZFRP",
+          "value": "Frische Beschaffung"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "7",
+          "value": "Convenience"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "70114",
+          "value": "BIO"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/130600700000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/bio-frifrench-salatsauce-french",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/130600700000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/bio-frifrench-salatsauce-french",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "updated_at": "2020-09-16T05:44:11+0200",
+  "receipt_text": "Bio Frifrench French",
+  "price": {
+    "valid_from": "2018-01-29T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 5.7,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "500ml"
+    },
+    "base": {
+      "price": 1.14,
+      "quantity": 100,
+      "unit": "ml"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 10,
+    "average_all": 3.625
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

@@ -1,0 +1,322 @@
+{
+  "id": "233500160000",
+  "language": "de",
+  "name": "M-Classic Rindszunge",
+  "slug": "m-classic-rindszunge",
+  "boss_number": "040114503070",
+  "description": {
+    "text": "Rindszunge ger&auml;uchert",
+    "source": "PIM"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "2114928000009",
+    "7617100018076"
+  ],
+  "brand": {
+    "id": "068",
+    "name": "M-Classic",
+    "slug": "m-classic",
+    "links": {
+      "homepage": {
+        "url": "https://m-classic.migros.ch/de.html",
+        "name": "Homepage",
+        "type": "info",
+        "purchasable": false
+      }
+    },
+    "image": {
+      "original": "https://image.migros.ch/original/72c18633f911e026e081ac11d872cff2d8dc8abb/m-classic.jpg",
+      "stack": "https://image.migros.ch/{stack}/72c18633f911e026e081ac11d872cff2d8dc8abb/m-classic.jpg"
+    }
+  },
+  "categories": [
+    {
+      "code": "BeSS_0101061103",
+      "name": "Fleischwaren gekühlt",
+      "slug": "supermarkt/lebensmittel/fleisch/charcuterie-produkte/fleischwaren-gekuehlt",
+      "visible": true,
+      "parent_code": "BeSS_01010611",
+      "image": {
+        "original": "https://image.migros.ch/original/240be88a673422fe7b0223b44152099394b79732/fleischwaren-gekuehlt.jpg",
+        "stack": "https://image.migros.ch/{stack}/240be88a673422fe7b0223b44152099394b79732/fleischwaren-gekuehlt.jpg"
+      },
+      "level": 5
+    },
+    {
+      "code": "BeSS_01010611",
+      "name": "Charcuterie Produkte",
+      "slug": "supermarkt/lebensmittel/fleisch/charcuterie-produkte",
+      "visible": true,
+      "title": "Vielfältige Charcuterie-Produkte jetzt in Ihrer Migros",
+      "parent_code": "BeSS_010106",
+      "image": {
+        "original": "https://image.migros.ch/original/25316d2bc38d6c6d28b266513291b23735ad8a1f/charcuterie-produkte.jpg",
+        "stack": "https://image.migros.ch/{stack}/25316d2bc38d6c6d28b266513291b23735ad8a1f/charcuterie-produkte.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010106",
+      "name": "Fleisch",
+      "slug": "supermarkt/lebensmittel/fleisch",
+      "visible": true,
+      "title": "Fleisch ausgezeichneter Qualität aus Ihrer Migros: einfach gut",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/03d32c0880d7a9ea6e58971966032e65ac442b58/fleisch.jpg",
+        "stack": "https://image.migros.ch/{stack}/03d32c0880d7a9ea6e58971966032e65ac442b58/fleisch.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "features": [
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_kunststoffverpackung",
+          "value": "Kunststoff-Verpackung"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zubereitungsverfahren",
+      "label": "Hinweise für die Zubereitung",
+      "values": [
+        {
+          "value_code": "MISO_zubereitungsverfahren_kochen",
+          "value": "Kochen"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_fleischform",
+      "label": "Fleischform bearbeitet",
+      "values": [
+        {
+          "value_code": "MISO_fleischform_amstueck",
+          "value": "Am Stück"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_tierartodergattung",
+      "label": "Tierart oder Gattung",
+      "values": [
+        {
+          "value_code": "MISO_tierartodergattung_rind",
+          "value": "Rind"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_verpackungsform",
+      "label": "Verpackungsform",
+      "values": [
+        {
+          "value_code": "MISO_verpackungsform_vakuum",
+          "value": "Vakuum"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_herstellungsverfahrenvonfleisch",
+      "label": "Herstellungsverfahren von Fleisch",
+      "values": [
+        {
+          "value_code": "MISO_herstellungsverfahrenvonfleisch_geraeuchert",
+          "value": "geräuchert"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_haltbarmachung",
+      "label": "Haltbarmachung",
+      "values": [
+        {
+          "value_code": "MISO_haltbarmachung_geraeuchert",
+          "value": "geräuchert"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/cdbb8830539e21454a8e2bf6ee72cfa6a325a692/m-classic-rindszunge.jpg",
+    "stack": "https://image.migros.ch/{stack}/cdbb8830539e21454a8e2bf6ee72cfa6a325a692/m-classic-rindszunge.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/75e0a1578f329f4eb543e17a329299864646509a/m-classic-rindszunge.png",
+    "stack": "https://image.migros.ch/{stack}/75e0a1578f329f4eb543e17a329299864646509a/m-classic-rindszunge.png"
+  },
+  "additional_images": [
+    {
+      "original": "https://image.migros.ch/original/9213758e551433e1f7e55de2f6b8a479c27b937b.jpg",
+      "stack": "https://image.migros.ch/{stack}/9213758e551433e1f7e55de2f6b8a479c27b937b.jpg"
+    },
+    {
+      "original": "https://image.migros.ch/original/2482af5356b7b710572f55db2e8e33dc14732172.jpg",
+      "stack": "https://image.migros.ch/{stack}/2482af5356b7b710572f55db2e8e33dc14732172.jpg"
+    }
+  ],
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_minimal-gewicht",
+      "label": "Minimal-Gewicht",
+      "values": [
+        {
+          "value_code": "NUMERIC_860.0",
+          "value": "860.0 g",
+          "numeric_value": 860
+        }
+      ],
+      "top_fact": false,
+      "unit_code": "g",
+      "unit": "Gramm",
+      "unit_symbol": "g"
+    },
+    {
+      "label_code": "MISO_aMigos_maximal-gewicht",
+      "label": "Maximal-Gewicht",
+      "values": [
+        {
+          "value_code": "NUMERIC_950.0",
+          "value": "950.0 g",
+          "numeric_value": 950
+        }
+      ],
+      "top_fact": false,
+      "unit_code": "g",
+      "unit": "Gramm",
+      "unit_symbol": "g"
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZFRP",
+          "value": "Frische Beschaffung"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "6",
+          "value": "Fleisch-Fisch-Geflüg"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "71227",
+          "value": "GERAEUCHERT GEKUEHLT"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/233500160000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/m-classic-rindszunge",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/233500160000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/m-classic-rindszunge",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "updated_at": "2020-09-16T05:53:10+0200",
+  "receipt_text": "MClass Rindszunge",
+  "price": {
+    "valid_from": "2018-01-29T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 2.65,
+      "quantity": 100,
+      "unit": "g",
+      "varying_quantity": true,
+      "display_quantity": "100 g"
+    },
+    "estimated_piece_weight": 905,
+    "estimated_piece_price": 24,
+    "base": {
+      "price": 0.27,
+      "quantity": 100,
+      "unit": "g"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 3,
+    "average_all": 3
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

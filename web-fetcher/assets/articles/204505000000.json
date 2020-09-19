@@ -1,0 +1,259 @@
+{
+  "id": "204505000000",
+  "language": "de",
+  "name": "Vanille Drink Seehund",
+  "slug": "vanille-drink-seehund",
+  "boss_number": "030213251510",
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7613269988076"
+  ],
+  "categories": [
+    {
+      "code": "BeSS_0101040705",
+      "name": "Milchgetränke",
+      "slug": "supermarkt/lebensmittel/milchprodukte-eier/milch-milchgetraenke/milchgetraenke",
+      "visible": true,
+      "title": "Milchdrinks in Ihrer Migros kaufen",
+      "parent_code": "BeSS_01010407",
+      "image": {
+        "original": "https://image.migros.ch/original/1f1123a14cab1cf57da70923df7048d8f218eb5f/milchgetraenke.jpg",
+        "stack": "https://image.migros.ch/{stack}/1f1123a14cab1cf57da70923df7048d8f218eb5f/milchgetraenke.jpg"
+      },
+      "level": 5
+    },
+    {
+      "code": "BeSS_01010407",
+      "name": "Milch & Milchgetränke",
+      "slug": "supermarkt/lebensmittel/milchprodukte-eier/milch-milchgetraenke",
+      "visible": true,
+      "title": "Milchdrinks in Ihrer Migros kaufen",
+      "parent_code": "BeSS_010104",
+      "image": {
+        "original": "https://image.migros.ch/original/bdd298d8e023a8ba56ad01a0c1c075c5047e0582/milch-milchgetraenke.jpg",
+        "stack": "https://image.migros.ch/{stack}/bdd298d8e023a8ba56ad01a0c1c075c5047e0582/milch-milchgetraenke.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010104",
+      "name": "Milchprodukte & Eier",
+      "slug": "supermarkt/lebensmittel/milchprodukte-eier",
+      "visible": true,
+      "title": "Milchprodukte und Eier –",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/6b1ea6c2d41c3ccb21bf05c8dc342f7f55d83deb/milchprodukte-eier.jpg",
+        "stack": "https://image.migros.ch/{stack}/6b1ea6c2d41c3ccb21bf05c8dc342f7f55d83deb/milchprodukte-eier.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_Milchdrinks_MilchMilchdrink_MilchprodukteEier",
+        "name": "Milchdrinks",
+        "slug": "amigos/milchprodukte-eier/milch-milchdrink/milchdrinks",
+        "visible": true,
+        "parent_code": "AMIG_CAT_MilchMilchdrink_MilchprodukteEier",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_MilchMilchdrink_MilchprodukteEier",
+        "name": "Milch & Milchdrink",
+        "slug": "amigos/milchprodukte-eier/milch-milchdrink",
+        "visible": true,
+        "parent_code": "AMIG_CAT_MilchprodukteEier",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_MilchprodukteEier",
+        "name": "Milchprodukte & Eier",
+        "slug": "amigos/milchprodukte-eier",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "features": [
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_flasche",
+          "value": "Flasche"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zubereitungsverfahren",
+      "label": "Hinweise für die Zubereitung",
+      "values": [
+        {
+          "value_code": "MISO_zubereitungsverfahren_verzehrfertig",
+          "value": "Verzehrfertig"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_artvonerfrischungsgetraenk",
+      "label": "Art von Erfrischungsgetränk",
+      "values": [
+        {
+          "value_code": "MISO_artvonerfrischungsgetraenk_milchgetraenk",
+          "value": "Milchgetränk"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/253e371b92b7651fb7c0a29f5bb2c124f88c5345/vanille-drink-seehund.jpg",
+    "stack": "https://image.migros.ch/{stack}/253e371b92b7651fb7c0a29f5bb2c124f88c5345/vanille-drink-seehund.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/c178ca1194795b866237c25c4e0e0fcf76c8efd0/vanille-drink-seehund.png",
+    "stack": "https://image.migros.ch/{stack}/c178ca1194795b866237c25c4e0e0fcf76c8efd0/vanille-drink-seehund.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZFRP",
+          "value": "Frische Beschaffung"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "1",
+          "value": "Molki"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "70014",
+          "value": "MILCHMISCHGETRAENKE"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/204505000000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/vanille-drink-seehund",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/204505000000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/vanille-drink-seehund",
+      "type": "info",
+      "purchasable": false
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/4147115",
+      "app_url": "leshop:///catalog/article/detail?ean=7613269988076",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/vanille-drink-seehund",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "updated_at": "2020-09-16T06:32:02+0200",
+  "receipt_text": "Vanille Drink Seehund",
+  "price": {
+    "valid_from": "2018-03-20T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 1.2,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "250ml"
+    },
+    "base": {
+      "price": 0.48,
+      "quantity": 100,
+      "unit": "ml"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 21,
+    "average_all": 3.095238095238
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

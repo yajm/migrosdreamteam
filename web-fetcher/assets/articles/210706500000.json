@@ -1,0 +1,266 @@
+{
+  "id": "210706500000",
+  "language": "de",
+  "name": "Léger Classic Schmelzkäse",
+  "slug": "leger-classic-schmelzkaese",
+  "boss_number": "030413450505",
+  "description": {
+    "text": "<p>L&eacute;ger Schmelzk&auml;se Scheiben</p>",
+    "source": "PIM"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "source-qim-origins",
+    "validity-range-not-set",
+    "source-qim-allergens",
+    "source-qim-fooddeclaration",
+    "source-qim-nutritionfacts",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7613404187944"
+  ],
+  "brand": {
+    "id": "653",
+    "name": "Léger",
+    "slug": "leger",
+    "image": {
+      "original": "https://image.migros.ch/original/8a0627f89073b18a2500e5235517ef09a15a075d/leger.jpg",
+      "stack": "https://image.migros.ch/{stack}/8a0627f89073b18a2500e5235517ef09a15a075d/leger.jpg"
+    }
+  },
+  "categories": [
+    {
+      "code": "BeSS_0101040109",
+      "name": "Schmelzkäse",
+      "slug": "supermarkt/lebensmittel/milchprodukte-eier/kaese/schmelzkaese",
+      "visible": true,
+      "title": "Nicht verpassen: Fondue- und Racletteplausch!",
+      "parent_code": "BeSS_01010401",
+      "image": {
+        "original": "https://image.migros.ch/original/5cc66523b27e30c95a80030e3eb3738e8354dbd8/schmelzkaese.jpg",
+        "stack": "https://image.migros.ch/{stack}/5cc66523b27e30c95a80030e3eb3738e8354dbd8/schmelzkaese.jpg"
+      },
+      "level": 5
+    },
+    {
+      "code": "BeSS_01010401",
+      "name": "Käse",
+      "slug": "supermarkt/lebensmittel/milchprodukte-eier/kaese",
+      "visible": true,
+      "title": "Käse von Ihrer Migros &ndash; macht Appetit auf mehr",
+      "parent_code": "BeSS_010104",
+      "image": {
+        "original": "https://image.migros.ch/original/4fbf646a3ebce5b0f570ef4c8f4f9e8d708bb65f/kaese.jpg",
+        "stack": "https://image.migros.ch/{stack}/4fbf646a3ebce5b0f570ef4c8f4f9e8d708bb65f/kaese.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010104",
+      "name": "Milchprodukte & Eier",
+      "slug": "supermarkt/lebensmittel/milchprodukte-eier",
+      "visible": true,
+      "title": "Milchprodukte und Eier –",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/6b1ea6c2d41c3ccb21bf05c8dc342f7f55d83deb/milchprodukte-eier.jpg",
+        "stack": "https://image.migros.ch/{stack}/6b1ea6c2d41c3ccb21bf05c8dc342f7f55d83deb/milchprodukte-eier.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "features": [
+    {
+      "label_code": "MISO_mussgekuehltwerden",
+      "label": "Muss gekühlt werden",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "Nein",
+          "boolean_value": false
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_fettgehalt",
+      "label": "Fettgehalt",
+      "values": [
+        {
+          "value_code": "MISO_fettgehalt_viertelfett",
+          "value": "Viertelfett"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_formbeschaffenheitdeskaeses",
+      "label": "Form/Beschaffenheit des Käses",
+      "values": [
+        {
+          "value_code": "MISO_formbeschaffenheitdeskaeses_schmelzkaese",
+          "value": "Schmelzkäse"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_kaesesorte",
+      "label": "Käsesorte",
+      "values": [
+        {
+          "value_code": "MISO_kaesesorte_schmelzkaese",
+          "value": "Schmelzkäse"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_milchartrohstoff",
+      "label": "Milchart/Rohstoff",
+      "values": [
+        {
+          "value_code": "MISO_milchartrohstoff_kuh",
+          "value": "Kuh"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_milchbehandlungsart",
+      "label": "Milchbehandlungsart",
+      "values": [
+        {
+          "value_code": "MISO_milchbehandlungsart_pastmilch",
+          "value": "Pastmilch"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_labart",
+      "label": "Labart",
+      "values": [
+        {
+          "value_code": "MISO_labart_mikrobielles",
+          "value": "mikrobielles"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/c63fc5202e384ecce3512cb8d22354fd3d4e85cc/leger-classic-schmelzkaese.jpg",
+    "stack": "https://image.migros.ch/{stack}/c63fc5202e384ecce3512cb8d22354fd3d4e85cc/leger-classic-schmelzkaese.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/1f55a32ae64d4efae712a41088c60a75b1990f69/leger-classic-schmelzkaese.png",
+    "stack": "https://image.migros.ch/{stack}/1f55a32ae64d4efae712a41088c60a75b1990f69/leger-classic-schmelzkaese.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZFRP",
+          "value": "Frische Beschaffung"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "1",
+          "value": "Molki"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "70035",
+          "value": "SCHMELZKAESE"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/210706500000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/leger-classic-schmelzkaese",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/210706500000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/leger-classic-schmelzkaese",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "updated_at": "2020-09-16T05:50:51+0200",
+  "receipt_text": "Léger Schmelzkäse",
+  "price": {
+    "valid_from": "2019-07-10T00:00:00+0200",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 1.95,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "250g"
+    },
+    "base": {
+      "price": 0.78,
+      "quantity": 100,
+      "unit": "g"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 4,
+    "average_all": 4
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

@@ -1,0 +1,221 @@
+{
+  "id": "232317089600",
+  "language": "de",
+  "name": "Salami Classico",
+  "slug": "salami-classico-232317089600",
+  "boss_number": "040114518010",
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7613269524571"
+  ],
+  "brand": {
+    "id": "470",
+    "name": "Rapelli",
+    "slug": "rapelli"
+  },
+  "labels": [
+    {
+      "id": "L53",
+      "name": "Swissness",
+      "slug": "swissness",
+      "image": {
+        "original": "https://image.migros.ch/original/d771bba2f6b08ba42970ea0243c6f8c5a8832f15/swissness.jpg",
+        "stack": "https://image.migros.ch/{stack}/d771bba2f6b08ba42970ea0243c6f8c5a8832f15/swissness.jpg"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_0101061102",
+      "name": "Charcuterie Produkte ungekühlt",
+      "slug": "supermarkt/lebensmittel/fleisch/charcuterie-produkte/charcuterie-produkte-ungekuehlt",
+      "visible": true,
+      "parent_code": "BeSS_01010611",
+      "level": 5
+    },
+    {
+      "code": "BeSS_01010611",
+      "name": "Charcuterie Produkte",
+      "slug": "supermarkt/lebensmittel/fleisch/charcuterie-produkte",
+      "visible": true,
+      "title": "Vielfältige Charcuterie-Produkte jetzt in Ihrer Migros",
+      "parent_code": "BeSS_010106",
+      "image": {
+        "original": "https://image.migros.ch/original/25316d2bc38d6c6d28b266513291b23735ad8a1f/charcuterie-produkte.jpg",
+        "stack": "https://image.migros.ch/{stack}/25316d2bc38d6c6d28b266513291b23735ad8a1f/charcuterie-produkte.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010106",
+      "name": "Fleisch",
+      "slug": "supermarkt/lebensmittel/fleisch",
+      "visible": true,
+      "title": "Fleisch ausgezeichneter Qualität aus Ihrer Migros: einfach gut",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/03d32c0880d7a9ea6e58971966032e65ac442b58/fleisch.jpg",
+        "stack": "https://image.migros.ch/{stack}/03d32c0880d7a9ea6e58971966032e65ac442b58/fleisch.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_Schwein_Fleisch_FleischFisch",
+        "name": "Schwein",
+        "slug": "amigos/fleisch-fisch/fleisch/schwein",
+        "visible": true,
+        "parent_code": "AMIG_CAT_Fleisch_FleischFisch",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_Fleisch_FleischFisch",
+        "name": "Fleisch",
+        "slug": "amigos/fleisch-fisch/fleisch",
+        "visible": true,
+        "parent_code": "AMIG_CAT_FleischFisch",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_FleischFisch",
+        "name": "Fleisch & Fisch",
+        "slug": "amigos/fleisch-fisch",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/0387f4ad263474ac164dcdd08608e04083eb5e7d/salami-classico.jpg",
+    "stack": "https://image.migros.ch/{stack}/0387f4ad263474ac164dcdd08608e04083eb5e7d/salami-classico.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/834f6525b7e4910ff6392e0b3fa72f75502b8768/salami-classico.png",
+    "stack": "https://image.migros.ch/{stack}/834f6525b7e4910ff6392e0b3fa72f75502b8768/salami-classico.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_nein",
+          "value": "Nein"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZFRP",
+          "value": "Frische Beschaffung"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "6",
+          "value": "Fleisch-Fisch-Geflüg"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "71239",
+          "value": "SELLOUT / PROMOTIONEN"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/232317089600",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/salami-classico-232317089600",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/232317089600",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/salami-classico-232317089600",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "updated_at": "2020-09-14T18:16:36+0200",
+  "receipt_text": "Salami Classico",
+  "price": {
+    "valid_from": "2020-05-09T00:00:00+0200",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 4.95,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 2,
+    "average_all": 4
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

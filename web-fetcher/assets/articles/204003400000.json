@@ -1,0 +1,348 @@
+{
+  "id": "204003400000",
+  "language": "de",
+  "name": "Züribieter Vollmilch 3,8% Milchfett",
+  "slug": "zueribieter-vollmilch-3-8-milchfett",
+  "boss_number": "030213200505",
+  "description": {
+    "text": "<p><strong>Aus der Region - Z&uuml;ribieter Vollmilch 1 Liter</strong></p><p>Vollmilch, pasteurisiert, homogenisiert, mind. 3.9% Fett, nat&uuml;rlich unver&auml;ndert.</p><p><strong>Generetion M: F&ouml;rderung Tierwohl, artgerechte F&uuml;tterung, faire Partnerschaften!</strong></p><p>CULINARIUM \n<br />Region Z&uuml;rich \n<br />regio garantie\n<br />&nbsp;</p>",
+    "source": "PIM"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "validity-range-not-set",
+    "filter-aus-der-region",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7617012070261"
+  ],
+  "labels": [
+    {
+      "id": "L53",
+      "name": "Swissness",
+      "slug": "swissness",
+      "image": {
+        "original": "https://image.migros.ch/original/d771bba2f6b08ba42970ea0243c6f8c5a8832f15/swissness.jpg",
+        "stack": "https://image.migros.ch/{stack}/d771bba2f6b08ba42970ea0243c6f8c5a8832f15/swissness.jpg"
+      }
+    },
+    {
+      "id": "L28",
+      "name": "Aus der Region",
+      "slug": "aus-der-region",
+      "image": {
+        "original": "https://image.migros.ch/original/28068cd4d6e174c8ec75906797af89b64170c43f/aus-der-region.jpg",
+        "stack": "https://image.migros.ch/{stack}/28068cd4d6e174c8ec75906797af89b64170c43f/aus-der-region.jpg"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_0101040702",
+      "name": "Pasteurisierte Milch",
+      "slug": "supermarkt/lebensmittel/milchprodukte-eier/milch-milchgetraenke/pasteurisierte-milch",
+      "visible": true,
+      "parent_code": "BeSS_01010407",
+      "image": {
+        "original": "https://image.migros.ch/original/bd6e7034653b17d231ba17efac3a021fc49933bb/pasteurisierte-milch.jpg",
+        "stack": "https://image.migros.ch/{stack}/bd6e7034653b17d231ba17efac3a021fc49933bb/pasteurisierte-milch.jpg"
+      },
+      "level": 5
+    },
+    {
+      "code": "BeSS_01010407",
+      "name": "Milch & Milchgetränke",
+      "slug": "supermarkt/lebensmittel/milchprodukte-eier/milch-milchgetraenke",
+      "visible": true,
+      "title": "Milchdrinks in Ihrer Migros kaufen",
+      "parent_code": "BeSS_010104",
+      "image": {
+        "original": "https://image.migros.ch/original/bdd298d8e023a8ba56ad01a0c1c075c5047e0582/milch-milchgetraenke.jpg",
+        "stack": "https://image.migros.ch/{stack}/bdd298d8e023a8ba56ad01a0c1c075c5047e0582/milch-milchgetraenke.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010104",
+      "name": "Milchprodukte & Eier",
+      "slug": "supermarkt/lebensmittel/milchprodukte-eier",
+      "visible": true,
+      "title": "Milchprodukte und Eier –",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/6b1ea6c2d41c3ccb21bf05c8dc342f7f55d83deb/milchprodukte-eier.jpg",
+        "stack": "https://image.migros.ch/{stack}/6b1ea6c2d41c3ccb21bf05c8dc342f7f55d83deb/milchprodukte-eier.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_FrischeMilch_MilchMilchdrink_MilchprodukteEier",
+        "name": "Frische Milch",
+        "slug": "amigos/milchprodukte-eier/milch-milchdrink/frische-milch",
+        "visible": true,
+        "parent_code": "AMIG_CAT_MilchMilchdrink_MilchprodukteEier",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_MilchMilchdrink_MilchprodukteEier",
+        "name": "Milch & Milchdrink",
+        "slug": "amigos/milchprodukte-eier/milch-milchdrink",
+        "visible": true,
+        "parent_code": "AMIG_CAT_MilchprodukteEier",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_MilchprodukteEier",
+        "name": "Milchprodukte & Eier",
+        "slug": "amigos/milchprodukte-eier",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "features": [
+    {
+      "label_code": "MISO_mussgekuehltwerden",
+      "label": "Muss gekühlt werden",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_produktionsanspruch",
+      "label": "Produktionsverfahren",
+      "values": [
+        {
+          "value_code": "MISO_produktionsanspruch_ausderregion",
+          "value": "Aus der Region"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_flasche",
+          "value": "Flasche"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zusatzangaben",
+      "label": "Zusatzangaben",
+      "values": [
+        {
+          "value_code": "MISO_zusatzangaben_31",
+          "value": "Gekühlt aufbewahren bei max. +5 Grad C."
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_artvonmilch",
+      "label": "Art von Milch",
+      "values": [
+        {
+          "value_code": "MISO_artvonmilch_vollmilch",
+          "value": "Vollmilch"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_milchartrohstoff",
+      "label": "Milchart/Rohstoff",
+      "values": [
+        {
+          "value_code": "MISO_milchartrohstoff_kuh",
+          "value": "Kuh"
+        },
+        {
+          "value_code": "MISO_milchartrohstoff_vollmilch",
+          "value": "Vollmilch"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_thermischesverfahren",
+      "label": "Thermisches Verfahren",
+      "values": [
+        {
+          "value_code": "MISO_thermischesverfahren_pasteurisiert",
+          "value": "pasteurisiert"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_homogenisiert",
+      "label": "Homogenisiert",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/b01d1ecb5d6a1df273e0dfe06d5cdda182740aa3/zueribieter-vollmilch-3-8-milchfett.jpg",
+    "stack": "https://image.migros.ch/{stack}/b01d1ecb5d6a1df273e0dfe06d5cdda182740aa3/zueribieter-vollmilch-3-8-milchfett.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/eb0f151e292c1747b679d40311d69b8b910eedf0/zueribieter-vollmilch-3-8-milchfett.png",
+    "stack": "https://image.migros.ch/{stack}/eb0f151e292c1747b679d40311d69b8b910eedf0/zueribieter-vollmilch-3-8-milchfett.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_sortierung",
+      "label": "Sortierung aMigos",
+      "values": [
+        {
+          "value_code": "NUMERIC_270",
+          "value": "270",
+          "numeric_value": 270
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZFRP",
+          "value": "Frische Beschaffung"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "1",
+          "value": "Molki"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "70005",
+          "value": "PASTMILCH"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/204003400000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/zueribieter-vollmilch-3-8-milchfett",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/204003400000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/zueribieter-vollmilch-3-8-milchfett",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "updated_at": "2020-09-14T04:59:54+0200",
+  "receipt_text": "Züribieter Vollmilch",
+  "price": {
+    "valid_from": "2019-09-02T00:00:00+0200",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 1.7,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "1l"
+    },
+    "base": {
+      "price": 0.17,
+      "quantity": 100,
+      "unit": "ml"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 11,
+    "average_all": 4
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

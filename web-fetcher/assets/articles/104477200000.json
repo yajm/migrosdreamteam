@@ -1,0 +1,376 @@
+{
+  "id": "104477200000",
+  "language": "de",
+  "name": "Gratin Dauphinois",
+  "slug": "gratin-dauphinois-104477200000",
+  "boss_number": "011011261515",
+  "description": {
+    "text": "Kartoffelgratin fixfertig",
+    "source": "PIM"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7616800490298"
+  ],
+  "categories": [
+    {
+      "code": "BeSS_01011404",
+      "name": "Kartoffeln & Spätzli",
+      "slug": "supermarkt/lebensmittel/pasta-zutaten-konserven/kartoffeln-spaetzli",
+      "visible": true,
+      "parent_code": "BeSS_010114",
+      "image": {
+        "original": "https://image.migros.ch/original/9b6282c120eb78b544b50bda8941209b2f4afe06/kartoffeln-spaetzli.jpg",
+        "stack": "https://image.migros.ch/{stack}/9b6282c120eb78b544b50bda8941209b2f4afe06/kartoffeln-spaetzli.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010114",
+      "name": "Pasta, Zutaten & Konserven",
+      "slug": "supermarkt/lebensmittel/pasta-zutaten-konserven",
+      "visible": true,
+      "title": "Pasta aus Ihrer Migros: alles rund um Teigwaren",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/6d0964bbb34b8e041ba4d74fc0c90b149907f46a/pasta-zutaten-konserven.jpg",
+        "stack": "https://image.migros.ch/{stack}/6d0964bbb34b8e041ba4d74fc0c90b149907f46a/pasta-zutaten-konserven.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_Kartoffelprodukte_TeigwarenReisGetreide_Grundnahrungsmittel",
+        "name": "Kartoffelprodukte",
+        "slug": "amigos/grundnahrungsmittel/teigwaren-reis-getreide/kartoffelprodukte",
+        "visible": true,
+        "parent_code": "AMIG_CAT_TeigwarenReisGetreide_Grundnahrungsmittel",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_TeigwarenReisGetreide_Grundnahrungsmittel",
+        "name": "Teigwaren, Reis & Getreide",
+        "slug": "amigos/grundnahrungsmittel/teigwaren-reis-getreide",
+        "visible": true,
+        "parent_code": "AMIG_CAT_Grundnahrungsmittel",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_Grundnahrungsmittel",
+        "name": "Grundnahrungsmittel",
+        "slug": "amigos/grundnahrungsmittel",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ],
+    [
+      {
+        "code": "AMIG_CAT_GetreideGriess_TeigwarenReisGetreide_Grundnahrungsmittel",
+        "name": "Getreide & Griess",
+        "slug": "amigos/grundnahrungsmittel/teigwaren-reis-getreide/getreide-griess",
+        "visible": true,
+        "parent_code": "AMIG_CAT_TeigwarenReisGetreide_Grundnahrungsmittel",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_TeigwarenReisGetreide_Grundnahrungsmittel",
+        "name": "Teigwaren, Reis & Getreide",
+        "slug": "amigos/grundnahrungsmittel/teigwaren-reis-getreide",
+        "visible": true,
+        "parent_code": "AMIG_CAT_Grundnahrungsmittel",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_Grundnahrungsmittel",
+        "name": "Grundnahrungsmittel",
+        "slug": "amigos/grundnahrungsmittel",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "features": [
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_beutelsack",
+          "value": "Beutel/Sack"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zubereitungsverfahren",
+      "label": "Hinweise für die Zubereitung",
+      "values": [
+        {
+          "value_code": "MISO_zubereitungsverfahren_braten",
+          "value": "Braten"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_musserwaermtwerden",
+      "label": "Muss erwärmt werden",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_anzahlportionen",
+      "label": "Anzahl Portionen",
+      "values": [
+        {
+          "value_code": "NUMERIC_3",
+          "value": "3",
+          "numeric_value": 3
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zubereitungszeit",
+      "label": "Zubereitungszeit (min.)",
+      "values": [
+        {
+          "value_code": "NUMERIC_3",
+          "value": "3",
+          "numeric_value": 3
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_produktionslandherstellungsort",
+      "label": "Produktionsland/Herstellungsort",
+      "values": [
+        {
+          "value_code": "MISO_produktionslandherstellungsort_schweiz_bischofszell",
+          "value": "Schweiz/Bischofszell"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_formbeschaffenheit",
+      "label": "Form/Beschaffenheit",
+      "values": [
+        {
+          "value_code": "MISO_formbeschaffenheit_geschreddert",
+          "value": "geschreddert"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_unterscheidendebestandteile",
+      "label": "Unterscheidende Bestandteile",
+      "values": [
+        {
+          "value_code": "MISO_unterscheidendebestandteile_kartoffeln",
+          "value": "Kartoffeln"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_vorbearbeitung",
+      "label": "Vorbearbeitung",
+      "values": [
+        {
+          "value_code": "MISO_vorbearbeitung_bratfertig",
+          "value": "Bratfertig"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_fertiggewuerzt",
+      "label": "Fertig gewürzt",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/18d8d71fcaf86e2001ce5d842bf3e6bf2d936e23/gratin-dauphinois.jpg",
+    "stack": "https://image.migros.ch/{stack}/18d8d71fcaf86e2001ce5d842bf3e6bf2d936e23/gratin-dauphinois.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/6bbda19d8bf7a078706b6aed60377add44f5f582/gratin-dauphinois.png",
+    "stack": "https://image.migros.ch/{stack}/6bbda19d8bf7a078706b6aed60377add44f5f582/gratin-dauphinois.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_sortierung",
+      "label": "Sortierung aMigos",
+      "values": [
+        {
+          "value_code": "NUMERIC_280",
+          "value": "280",
+          "numeric_value": 280
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "M",
+          "value": "Kolonial Standard"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "10130",
+          "value": "KARTOFFELPRODUKTE"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/104477200000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/gratin-dauphinois-104477200000",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/104477200000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/gratin-dauphinois-104477200000",
+      "type": "info",
+      "purchasable": false
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/54237",
+      "app_url": "leshop:///catalog/article/detail?ean=7616800490298",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/gratin-dauphinois-104477200000",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "updated_at": "2020-09-16T05:41:55+0200",
+  "receipt_text": "Gratin Dauphinois",
+  "price": {
+    "valid_from": "2018-01-29T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 4.4,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "750g"
+    },
+    "base": {
+      "price": 0.59,
+      "quantity": 100,
+      "unit": "g"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 8,
+    "average_all": 3.666666666667
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

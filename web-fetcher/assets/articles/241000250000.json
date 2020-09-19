@@ -1,0 +1,338 @@
+{
+  "id": "241000250000",
+  "language": "de",
+  "name": "M-Budget Poulet ganze nature",
+  "slug": "m-budget-poulet-ganze-nature",
+  "boss_number": "040314332005",
+  "description": {
+    "text": "Poulet ganz",
+    "source": "PIM"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "2147120000003",
+    "7617023012038"
+  ],
+  "brand": {
+    "id": "N26",
+    "name": "M-Budget",
+    "slug": "m-budget",
+    "links": {
+      "homepage": {
+        "url": "https://m-budget.migros.ch/de.html",
+        "name": "Homepage",
+        "type": "info",
+        "purchasable": false
+      }
+    },
+    "image": {
+      "original": "https://image.migros.ch/original/1d1a13e240a94a7e1fa8ef99f15ce5b896f3486b/m-budget.jpg",
+      "stack": "https://image.migros.ch/{stack}/1d1a13e240a94a7e1fa8ef99f15ce5b896f3486b/m-budget.jpg"
+    }
+  },
+  "labels": [
+    {
+      "id": "L53",
+      "name": "Swissness",
+      "slug": "swissness",
+      "image": {
+        "original": "https://image.migros.ch/original/d771bba2f6b08ba42970ea0243c6f8c5a8832f15/swissness.jpg",
+        "stack": "https://image.migros.ch/{stack}/d771bba2f6b08ba42970ea0243c6f8c5a8832f15/swissness.jpg"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_01010607",
+      "name": "Geflügel",
+      "slug": "supermarkt/lebensmittel/fleisch/gefluegel",
+      "visible": true,
+      "title": "Geflügel jetzt aus Ihrer Migros",
+      "parent_code": "BeSS_010106",
+      "image": {
+        "original": "https://image.migros.ch/original/c6d714f520b6147d78e2f73138da462944b3bc66/gefluegel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c6d714f520b6147d78e2f73138da462944b3bc66/gefluegel.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010106",
+      "name": "Fleisch",
+      "slug": "supermarkt/lebensmittel/fleisch",
+      "visible": true,
+      "title": "Fleisch ausgezeichneter Qualität aus Ihrer Migros: einfach gut",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/03d32c0880d7a9ea6e58971966032e65ac442b58/fleisch.jpg",
+        "stack": "https://image.migros.ch/{stack}/03d32c0880d7a9ea6e58971966032e65ac442b58/fleisch.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "features": [
+    {
+      "label_code": "MISO_mussgekuehltwerden",
+      "label": "Muss gekühlt werden",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_folienverpackung",
+          "value": "Folienverpackung"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zubereitungsverfahren",
+      "label": "Hinweise für die Zubereitung",
+      "values": [
+        {
+          "value_code": "MISO_zubereitungsverfahren_braten",
+          "value": "Braten"
+        },
+        {
+          "value_code": "MISO_zubereitungsverfahren_kochen",
+          "value": "Kochen"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_anatomischeform",
+      "label": "Art/Form von Fleisch",
+      "values": [
+        {
+          "value_code": "MISO_anatomischeform_ganz",
+          "value": "ganz"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_tierartodergattung",
+      "label": "Tierart oder Gattung",
+      "values": [
+        {
+          "value_code": "MISO_tierartodergattung_poulet",
+          "value": "Poulet"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_verpackungsform",
+      "label": "Verpackungsform",
+      "values": [
+        {
+          "value_code": "MISO_verpackungsform_stretchfolie",
+          "value": "Stretchfolie"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zubereitungsform",
+      "label": "Zubereitungsform",
+      "values": [
+        {
+          "value_code": "MISO_zubereitungsform_mitknochen",
+          "value": "mit Knochen"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_tierwohlmehrwert",
+      "label": "Tierwohl Mehrwert",
+      "values": [
+        {
+          "value_code": "MISO_tierwohlmehrwert_schweizertierschutzverordnung",
+          "value": "Schweizer Tierschutz Verordnung"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_hygienehinweise",
+      "label": "Hygienehinweise",
+      "values": [
+        {
+          "value_code": "MISO_hygienehinweise_6",
+          "value": "Packung sorgfältig entfernen und wegwerfen. Tropfsaft weggiessen. Rohes Fleisch nicht in Kontakt mit anderen Lebensmitteln bringen. Geschirr und Hände gründlich reinigen. Fleisch immer gut durchgekocht/gebraten servieren."
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/19767b914272b4817e376c8129f3342d7c7a801b/m-budget-poulet-ganze-nature.jpg",
+    "stack": "https://image.migros.ch/{stack}/19767b914272b4817e376c8129f3342d7c7a801b/m-budget-poulet-ganze-nature.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/cc209fb252188fac57cc2b23628245f14d164dda/m-budget-poulet-ganze-nature.png",
+    "stack": "https://image.migros.ch/{stack}/cc209fb252188fac57cc2b23628245f14d164dda/m-budget-poulet-ganze-nature.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_minimal-gewicht",
+      "label": "Minimal-Gewicht",
+      "values": [
+        {
+          "value_code": "NUMERIC_1280.0",
+          "value": "1280.0 g",
+          "numeric_value": 1280
+        }
+      ],
+      "top_fact": false,
+      "unit_code": "g",
+      "unit": "Gramm",
+      "unit_symbol": "g"
+    },
+    {
+      "label_code": "MISO_aMigos_maximal-gewicht",
+      "label": "Maximal-Gewicht",
+      "values": [
+        {
+          "value_code": "NUMERIC_1340.0",
+          "value": "1340.0 g",
+          "numeric_value": 1340
+        }
+      ],
+      "top_fact": false,
+      "unit_code": "g",
+      "unit": "Gramm",
+      "unit_symbol": "g"
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZFRP",
+          "value": "Frische Beschaffung"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "6",
+          "value": "Fleisch-Fisch-Geflüg"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "71283",
+          "value": "GANZ"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/241000250000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/m-budget-poulet-ganze-nature",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/241000250000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/m-budget-poulet-ganze-nature",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "updated_at": "2020-09-16T05:51:50+0200",
+  "receipt_text": "MBud Poulet nature",
+  "price": {
+    "valid_from": "2018-01-29T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 7.5,
+      "quantity": 1,
+      "unit": "KG",
+      "varying_quantity": true,
+      "display_quantity": "per kg"
+    },
+    "estimated_piece_weight": 1310,
+    "estimated_piece_price": 9.85,
+    "base": {
+      "price": 0.75,
+      "quantity": 100,
+      "unit": "g"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 3,
+    "average_all": 2.666666666667
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

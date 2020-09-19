@@ -1,0 +1,305 @@
+{
+  "id": "271600501000",
+  "language": "de",
+  "name": "Aubergine",
+  "slug": "aubergine",
+  "boss_number": "050115241010",
+  "description": {
+    "text": "Auberginen Ursprünglich stammt die auch Eierfrucht genannte Orientalin aus Indien, heute wird sie aber weltweit angebaut. Zum Rohessen ist sie nicht geeignet. Grilliert und kräftig gewürzt, etwa mit Knoblauch, Curry und Pfeffer, munden Auberginen jedoch vorzüglich.",
+    "source": "PIM"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "2123949000004",
+    "7617027552097"
+  ],
+  "brand": {
+    "id": "S10",
+    "name": "Fresca",
+    "slug": "fresca-S10",
+    "image": {
+      "original": "https://image.migros.ch/original/d169433eae86571fe4796efc52300f787084eaa4/fresca-S10.jpg",
+      "stack": "https://image.migros.ch/{stack}/d169433eae86571fe4796efc52300f787084eaa4/fresca-S10.jpg"
+    }
+  },
+  "categories": [
+    {
+      "code": "BeSS_0101190204",
+      "name": "Frischgemüse",
+      "slug": "supermarkt/lebensmittel/fruechte-gemuese/gemuese/frischgemuese",
+      "visible": true,
+      "title": "Gesund und gut: Frisches Saisongemüse von Ihrer Migros",
+      "parent_code": "BeSS_01011902",
+      "level": 5
+    },
+    {
+      "code": "BeSS_01011902",
+      "name": "Gemüse",
+      "slug": "supermarkt/lebensmittel/fruechte-gemuese/gemuese",
+      "visible": true,
+      "title": "Mit Gem&uuml;se von der Migros jeden Tag gesund essen",
+      "parent_code": "BeSS_010119",
+      "level": 4
+    },
+    {
+      "code": "BeSS_010119",
+      "name": "Früchte & Gemüse",
+      "slug": "supermarkt/lebensmittel/fruechte-gemuese",
+      "visible": true,
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/f839060a505bba25c0f37585edb558c003c50479/fruechte-gemuese.jpg",
+        "stack": "https://image.migros.ch/{stack}/f839060a505bba25c0f37585edb558c003c50479/fruechte-gemuese.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_Frischgemuese_Gemuese_FruechteGemuese",
+        "name": "Frischgemüse",
+        "slug": "amigos/fruechte-gemuese/gemuese/frischgemuese",
+        "visible": true,
+        "parent_code": "AMIG_CAT_Gemuese_FruechteGemuese",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_Gemuese_FruechteGemuese",
+        "name": "Gemüse",
+        "slug": "amigos/fruechte-gemuese/gemuese",
+        "visible": true,
+        "parent_code": "AMIG_CAT_FruechteGemuese",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_FruechteGemuese",
+        "name": "Früchte & Gemüse",
+        "slug": "amigos/fruechte-gemuese",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "features": [
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_lose",
+          "value": "Lose"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_saison",
+      "label": "Saison",
+      "values": [
+        {
+          "value_code": "MISO_saison_juniseptember",
+          "value": "Juni - September"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/dba4475d223f565fb80181f8a51e370b7d83cf53/aubergine.jpg",
+    "stack": "https://image.migros.ch/{stack}/dba4475d223f565fb80181f8a51e370b7d83cf53/aubergine.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/99169404d2341ad599ed18a3c2cf3c2ade043c46/aubergine.png",
+    "stack": "https://image.migros.ch/{stack}/99169404d2341ad599ed18a3c2cf3c2ade043c46/aubergine.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_sortierung",
+      "label": "Sortierung aMigos",
+      "values": [
+        {
+          "value_code": "NUMERIC_165",
+          "value": "165",
+          "numeric_value": 165
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_minimal-gewicht",
+      "label": "Minimal-Gewicht",
+      "values": [
+        {
+          "value_code": "NUMERIC_300.0",
+          "value": "300.0 g",
+          "numeric_value": 300
+        }
+      ],
+      "top_fact": false,
+      "unit_code": "g",
+      "unit": "Gramm",
+      "unit_symbol": "g"
+    },
+    {
+      "label_code": "MISO_aMigos_maximal-gewicht",
+      "label": "Maximal-Gewicht",
+      "values": [
+        {
+          "value_code": "NUMERIC_500.0",
+          "value": "500.0 g",
+          "numeric_value": 500
+        }
+      ],
+      "top_fact": false,
+      "unit_code": "g",
+      "unit": "Gramm",
+      "unit_symbol": "g"
+    },
+    {
+      "label_code": "MISO_aMigos_verkaufseinheit",
+      "label": "Verkaufseinheit",
+      "values": [
+        {
+          "value_code": "NUMERIC_1.0",
+          "value": "1.0 Stk.",
+          "numeric_value": 1
+        }
+      ],
+      "top_fact": false,
+      "unit_code": "Stk.",
+      "unit": "Stück",
+      "unit_symbol": "Stk."
+    },
+    {
+      "label_code": "MISO_aMigos_volumen",
+      "label": "Volumen aMigos!",
+      "values": [
+        {
+          "value_code": "NUMERIC_1.0",
+          "value": "1.0 l",
+          "numeric_value": 1
+        }
+      ],
+      "top_fact": false,
+      "unit_code": "l",
+      "unit": "Liter",
+      "unit_symbol": "l"
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZFRP",
+          "value": "Frische Beschaffung"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "2",
+          "value": "Früchte und Gemüse"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "71370",
+          "value": "RATATOUILLE"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/271600501000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/aubergine",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/271600501000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/aubergine",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "updated_at": "2020-09-16T05:53:41+0200",
+  "receipt_text": "Auberginen",
+  "price": {
+    "valid_from": "2018-01-29T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "source": "PriceRepository",
+    "no_price_hint": "Aktueller Tagespreis"
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 21,
+    "average_all": 3.894736842105
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

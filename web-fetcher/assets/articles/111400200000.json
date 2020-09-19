@@ -1,0 +1,382 @@
+{
+  "id": "111400200000",
+  "language": "de",
+  "name": "Happy bread hell Terrasuisse",
+  "slug": "happy-bread-hell-terrasuisse",
+  "boss_number": "020110561005",
+  "description": {
+    "text": "innerhalg 5 Tage geniessen",
+    "source": "PIM"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7613269413240"
+  ],
+  "labels": [
+    {
+      "id": "L14",
+      "name": "TerraSuisse",
+      "slug": "terrasuisse",
+      "image": {
+        "original": "https://image.migros.ch/original/1ffb197ef3d9b3099bc31eb47f8dfa585c93daa6/terrasuisse.jpg",
+        "stack": "https://image.migros.ch/{stack}/1ffb197ef3d9b3099bc31eb47f8dfa585c93daa6/terrasuisse.jpg"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_0101030101",
+      "name": "Brote hell",
+      "slug": "supermarkt/lebensmittel/baeckerei-confiserie-backen/brote/brote-hell",
+      "visible": true,
+      "parent_code": "BeSS_01010301",
+      "image": {
+        "original": "https://image.migros.ch/original/35feb0fed27cc50d13fbdeb55bb523c3afde89e9/brote-hell.jpg",
+        "stack": "https://image.migros.ch/{stack}/35feb0fed27cc50d13fbdeb55bb523c3afde89e9/brote-hell.jpg"
+      },
+      "level": 5
+    },
+    {
+      "code": "BeSS_01010301",
+      "name": "Brote",
+      "slug": "supermarkt/lebensmittel/baeckerei-confiserie-backen/brote",
+      "visible": true,
+      "title": "Frisch gebackenes Brot in Ihrer Migros kaufen",
+      "parent_code": "BeSS_010103",
+      "image": {
+        "original": "https://image.migros.ch/original/a38db1095b74da69ec3fd0de85e5b29c59c210b9/brote.jpg",
+        "stack": "https://image.migros.ch/{stack}/a38db1095b74da69ec3fd0de85e5b29c59c210b9/brote.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010103",
+      "name": "Bäckerei, Confiserie & Backen",
+      "slug": "supermarkt/lebensmittel/baeckerei-confiserie-backen",
+      "visible": true,
+      "title": "Backen macht Freude! Alle Zutaten finden Sie in Ihrer Migros",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/04b41cd6f4daedf3061a2a37617d48e992760b35/baeckerei-confiserie-backen.jpg",
+        "stack": "https://image.migros.ch/{stack}/04b41cd6f4daedf3061a2a37617d48e992760b35/baeckerei-confiserie-backen.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_GrosseBrote_Brote_BroteBacken",
+        "name": "Grosse Brote",
+        "slug": "amigos/brote-backen/brote/grosse-brote",
+        "visible": true,
+        "parent_code": "AMIG_CAT_Brote_BroteBacken",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_Brote_BroteBacken",
+        "name": "Brote",
+        "slug": "amigos/brote-backen/brote",
+        "visible": true,
+        "parent_code": "AMIG_CAT_BroteBacken",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_BroteBacken",
+        "name": "Brote & Backen",
+        "slug": "amigos/brote-backen",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ],
+    [
+      {
+        "code": "AMIG_CAT_HaltbareBrote_Brote_BroteBacken",
+        "name": "Haltbare Brote",
+        "slug": "amigos/brote-backen/brote/haltbare-brote",
+        "visible": true,
+        "parent_code": "AMIG_CAT_Brote_BroteBacken",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_Brote_BroteBacken",
+        "name": "Brote",
+        "slug": "amigos/brote-backen/brote",
+        "visible": true,
+        "parent_code": "AMIG_CAT_BroteBacken",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_BroteBacken",
+        "name": "Brote & Backen",
+        "slug": "amigos/brote-backen",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "features": [
+    {
+      "label_code": "MISO_produktionsanspruch",
+      "label": "Produktionsverfahren",
+      "values": [
+        {
+          "value_code": "MISO_produktionsanspruch_ipsuissebauernhof",
+          "value": "IP-SUISSE Bauernhof"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_brotbeutel",
+          "value": "Brotbeutel"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zubereitungsverfahren",
+      "label": "Hinweise für die Zubereitung",
+      "values": [
+        {
+          "value_code": "MISO_zubereitungsverfahren_verzehrfertig",
+          "value": "Verzehrfertig"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_geschnitten",
+      "label": "Geschnitten",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_wiederverschliessbar",
+      "label": "Wiederverschliessbar",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_artvonbrot",
+      "label": "Art von Brot",
+      "values": [
+        {
+          "value_code": "MISO_artvonbrot_hellesweizenbrot",
+          "value": "Helles Weizenbrot"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_getreideart",
+      "label": "Getreideart",
+      "values": [
+        {
+          "value_code": "MISO_getreideart_weizen",
+          "value": "Weizen"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_artvonprodukt",
+      "label": "Art von Produkt",
+      "values": [
+        {
+          "value_code": "MISO_artvonprodukt_frischbrot",
+          "value": "Frischbrot"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/74e6bbcdf15a2a00b12b0e2d4ad033eb265333f2/happy-bread-hell-terrasuisse.jpg",
+    "stack": "https://image.migros.ch/{stack}/74e6bbcdf15a2a00b12b0e2d4ad033eb265333f2/happy-bread-hell-terrasuisse.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/8904a972ec870146ec5bfd889de4353734b7c50e/happy-bread-hell-terrasuisse.png",
+    "stack": "https://image.migros.ch/{stack}/8904a972ec870146ec5bfd889de4353734b7c50e/happy-bread-hell-terrasuisse.png"
+  },
+  "additional_images": [
+    {
+      "original": "https://image.migros.ch/original/15d8c12dddf1e170b04a3a1984e5b8f6a93f5cdd.jpg",
+      "stack": "https://image.migros.ch/{stack}/15d8c12dddf1e170b04a3a1984e5b8f6a93f5cdd.jpg"
+    }
+  ],
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_sortierung",
+      "label": "Sortierung aMigos",
+      "values": [
+        {
+          "value_code": "NUMERIC_705",
+          "value": "705",
+          "numeric_value": 705
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZFRP",
+          "value": "Frische Beschaffung"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "8",
+          "value": "Backwaren"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "71001",
+          "value": "RB HELL"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/111400200000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/happy-bread-hell-terrasuisse",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/111400200000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/happy-bread-hell-terrasuisse",
+      "type": "info",
+      "purchasable": false
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/229633",
+      "app_url": "leshop:///catalog/article/detail?ean=7613269413240",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/happy-bread-hell-terrasuisse",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "updated_at": "2020-09-16T05:42:18+0200",
+  "receipt_text": "Happy bread hell",
+  "price": {
+    "valid_from": "2018-01-29T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 2.4,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "350g"
+    },
+    "base": {
+      "price": 0.69,
+      "quantity": 100,
+      "unit": "g"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 13,
+    "average_all": 3.692307692308
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

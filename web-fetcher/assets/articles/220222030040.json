@@ -1,0 +1,397 @@
+{
+  "id": "220222030040",
+  "language": "de",
+  "name": "Bio Weide Beef Voressen",
+  "slug": "bio-weide-beef-voressen",
+  "boss_number": "040214525505",
+  "description": {
+    "text": "Qualitativ hochstehendes Rindfleisch Grundlage bilden die Richtlinien der Bio Suisse Rinder werden w&auml;hrend der Vegetationsperiode (Fr&uuml;hling bis Herbst) auf der Weide gehalten, im Winter in tierfreundlichen Stallungen mit Auslauf in einen Laufhof F&uuml;tterung mit Weidegras und Heu, Sojaverbot Nachhaltige und standortgerechte Produktion",
+    "source": "PIM"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "2162095000001",
+    "7613269914273"
+  ],
+  "labels": [
+    {
+      "id": "L53",
+      "name": "Swissness",
+      "slug": "swissness",
+      "image": {
+        "original": "https://image.migros.ch/original/d771bba2f6b08ba42970ea0243c6f8c5a8832f15/swissness.jpg",
+        "stack": "https://image.migros.ch/{stack}/d771bba2f6b08ba42970ea0243c6f8c5a8832f15/swissness.jpg"
+      }
+    },
+    {
+      "id": "L02",
+      "name": "Migros Bio",
+      "slug": "migros-bio",
+      "image": {
+        "original": "https://image.migros.ch/original/f32d1804b8db5760147310b8d6458eb36757b486/migros-bio.jpg",
+        "stack": "https://image.migros.ch/{stack}/f32d1804b8db5760147310b8d6458eb36757b486/migros-bio.jpg"
+      }
+    },
+    {
+      "id": "L66",
+      "name": "Weide-Beef",
+      "slug": "weide-beef",
+      "image": {
+        "original": "https://image.migros.ch/original/18fdd596290a6cf3510004de2bbf9453d3d34fc5/weide-beef.jpg",
+        "stack": "https://image.migros.ch/{stack}/18fdd596290a6cf3510004de2bbf9453d3d34fc5/weide-beef.jpg"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_01010617",
+      "name": "Bio",
+      "slug": "supermarkt/lebensmittel/fleisch/bio",
+      "visible": true,
+      "parent_code": "BeSS_010106",
+      "image": {
+        "original": "https://image.migros.ch/original/e73b179dc02acbe4804f3c8342b3c90e7ee96006/bio.jpg",
+        "stack": "https://image.migros.ch/{stack}/e73b179dc02acbe4804f3c8342b3c90e7ee96006/bio.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010106",
+      "name": "Fleisch",
+      "slug": "supermarkt/lebensmittel/fleisch",
+      "visible": true,
+      "title": "Fleisch ausgezeichneter Qualität aus Ihrer Migros: einfach gut",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/03d32c0880d7a9ea6e58971966032e65ac442b58/fleisch.jpg",
+        "stack": "https://image.migros.ch/{stack}/03d32c0880d7a9ea6e58971966032e65ac442b58/fleisch.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_Rind_Fleisch_FleischFisch",
+        "name": "Rind",
+        "slug": "amigos/fleisch-fisch/fleisch/rind",
+        "visible": true,
+        "parent_code": "AMIG_CAT_Fleisch_FleischFisch",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_Fleisch_FleischFisch",
+        "name": "Fleisch",
+        "slug": "amigos/fleisch-fisch/fleisch",
+        "visible": true,
+        "parent_code": "AMIG_CAT_FleischFisch",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_FleischFisch",
+        "name": "Fleisch & Fisch",
+        "slug": "amigos/fleisch-fisch",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "features": [
+    {
+      "label_code": "MISO_mussgekuehltwerden",
+      "label": "Muss gekühlt werden",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_produktionsanspruch",
+      "label": "Produktionsverfahren",
+      "values": [
+        {
+          "value_code": "MISO_produktionsanspruch_bioproduktion",
+          "value": "Bio-Produktion"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_kunststoffverpackung",
+          "value": "Kunststoff-Verpackung"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zubereitungsverfahren",
+      "label": "Hinweise für die Zubereitung",
+      "values": [
+        {
+          "value_code": "MISO_zubereitungsverfahren_kochen",
+          "value": "Kochen"
+        },
+        {
+          "value_code": "MISO_zubereitungsverfahren_schmoren",
+          "value": "Schmoren"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_anatomischeform",
+      "label": "Art/Form von Fleisch",
+      "values": [
+        {
+          "value_code": "MISO_anatomischeform_hals",
+          "value": "Hals"
+        },
+        {
+          "value_code": "MISO_anatomischeform_schulter",
+          "value": "Schulter"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_fleischform",
+      "label": "Fleischform bearbeitet",
+      "values": [
+        {
+          "value_code": "MISO_fleischform_gewuerfelt",
+          "value": "gewürfelt"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_tierartodergattung",
+      "label": "Tierart oder Gattung",
+      "values": [
+        {
+          "value_code": "MISO_tierartodergattung_rind",
+          "value": "Rind"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_verpackungsform",
+      "label": "Verpackungsform",
+      "values": [
+        {
+          "value_code": "MISO_verpackungsform_schutzatmosphaere",
+          "value": "Schutzatmosphäre"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_herstellungsverfahrenvonfleisch",
+      "label": "Herstellungsverfahren von Fleisch",
+      "values": [
+        {
+          "value_code": "MISO_herstellungsverfahrenvonfleisch_roh",
+          "value": "roh"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/d3418647b8a9940a394f65d089c8d677c8d0a3e8/bio-weide-beef-voressen.jpg",
+    "stack": "https://image.migros.ch/{stack}/d3418647b8a9940a394f65d089c8d677c8d0a3e8/bio-weide-beef-voressen.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/fd94050bb12143d61605a2378b1b981f3b2150c5/bio-weide-beef-voressen.png",
+    "stack": "https://image.migros.ch/{stack}/fd94050bb12143d61605a2378b1b981f3b2150c5/bio-weide-beef-voressen.png"
+  },
+  "additional_images": [
+    {
+      "original": "https://image.migros.ch/original/9bda7b58055544b1daa33a7e61eb256085bc1c6b.jpg",
+      "stack": "https://image.migros.ch/{stack}/9bda7b58055544b1daa33a7e61eb256085bc1c6b.jpg"
+    }
+  ],
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_sortierung",
+      "label": "Sortierung aMigos",
+      "values": [
+        {
+          "value_code": "NUMERIC_765",
+          "value": "765",
+          "numeric_value": 765
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_minimal-gewicht",
+      "label": "Minimal-Gewicht",
+      "values": [
+        {
+          "value_code": "NUMERIC_225.0",
+          "value": "225.0 g",
+          "numeric_value": 225
+        }
+      ],
+      "top_fact": false,
+      "unit_code": "g",
+      "unit": "Gramm",
+      "unit_symbol": "g"
+    },
+    {
+      "label_code": "MISO_aMigos_maximal-gewicht",
+      "label": "Maximal-Gewicht",
+      "values": [
+        {
+          "value_code": "NUMERIC_275.0",
+          "value": "275.0 g",
+          "numeric_value": 275
+        }
+      ],
+      "top_fact": false,
+      "unit_code": "g",
+      "unit": "Gramm",
+      "unit_symbol": "g"
+    },
+    {
+      "label_code": "MISO_aMigos_verkaufseinheit",
+      "label": "Verkaufseinheit",
+      "values": [
+        {
+          "value_code": "NUMERIC_1.0",
+          "value": "1.0 Pk",
+          "numeric_value": 1
+        }
+      ],
+      "top_fact": false,
+      "unit_code": "Pk",
+      "unit": "Pack",
+      "unit_symbol": "Pk"
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZFRP",
+          "value": "Frische Beschaffung"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "6",
+          "value": "Fleisch-Fisch-Geflüg"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "70126",
+          "value": "BIO"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/220222030040",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/bio-weide-beef-voressen",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/220222030040",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/bio-weide-beef-voressen",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "updated_at": "2020-09-16T05:49:43+0200",
+  "receipt_text": "Bio Rindsvoressen",
+  "price": {
+    "valid_from": "2020-08-05T00:00:00+0200",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "source": "PriceRepository",
+    "no_price_hint": "Aktueller Tagespreis"
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 1,
+    "average_all": 5
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

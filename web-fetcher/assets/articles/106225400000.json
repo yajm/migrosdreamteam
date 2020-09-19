@@ -1,0 +1,216 @@
+{
+  "id": "106225400000",
+  "language": "de",
+  "name": "Cenovis ohne Salz",
+  "slug": "cenovis-ohne-salz",
+  "boss_number": "011111090110",
+  "description": {
+    "text": "<p>Cenovis Brotaufstrich ohne Salz</p>",
+    "source": "PIM"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "source-qim-origins",
+    "source-qim-distributor",
+    "validity-range-not-set",
+    "source-qim-allergens",
+    "source-qim-fooddeclaration",
+    "source-qim-nutritionfacts",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "76159213"
+  ],
+  "brand": {
+    "id": "P90",
+    "name": "Cenovis",
+    "slug": "cenovis"
+  },
+  "categories": [
+    {
+      "code": "BeSS_01011412",
+      "name": "Fleischkonserven",
+      "slug": "supermarkt/lebensmittel/pasta-zutaten-konserven/fleischkonserven",
+      "visible": true,
+      "parent_code": "BeSS_010114",
+      "image": {
+        "original": "https://image.migros.ch/original/47cc685fe0cdeb231b0a755b74060b8bd6991061/fleischkonserven.jpg",
+        "stack": "https://image.migros.ch/{stack}/47cc685fe0cdeb231b0a755b74060b8bd6991061/fleischkonserven.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010114",
+      "name": "Pasta, Zutaten & Konserven",
+      "slug": "supermarkt/lebensmittel/pasta-zutaten-konserven",
+      "visible": true,
+      "title": "Pasta aus Ihrer Migros: alles rund um Teigwaren",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/6d0964bbb34b8e041ba4d74fc0c90b149907f46a/pasta-zutaten-konserven.jpg",
+        "stack": "https://image.migros.ch/{stack}/6d0964bbb34b8e041ba4d74fc0c90b149907f46a/pasta-zutaten-konserven.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_Fleisch_KonservenEingemachtes_Grundnahrungsmittel",
+        "name": "Fleisch",
+        "slug": "amigos/grundnahrungsmittel/konserven-eingemachtes/fleisch",
+        "visible": true,
+        "parent_code": "AMIG_CAT_KonservenEingemachtes_Grundnahrungsmittel",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_KonservenEingemachtes_Grundnahrungsmittel",
+        "name": "Konserven & Eingemachtes",
+        "slug": "amigos/grundnahrungsmittel/konserven-eingemachtes",
+        "visible": true,
+        "parent_code": "AMIG_CAT_Grundnahrungsmittel",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_Grundnahrungsmittel",
+        "name": "Grundnahrungsmittel",
+        "slug": "amigos/grundnahrungsmittel",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/8633f1658ac784d9851ff5186192f2e1d39503ff/cenovis-ohne-salz.jpg",
+    "stack": "https://image.migros.ch/{stack}/8633f1658ac784d9851ff5186192f2e1d39503ff/cenovis-ohne-salz.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/2b2c0f265de8b5bdfa8c9b34ef6a2fac14d2113d/cenovis-ohne-salz.png",
+    "stack": "https://image.migros.ch/{stack}/2b2c0f265de8b5bdfa8c9b34ef6a2fac14d2113d/cenovis-ohne-salz.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "M",
+          "value": "Kolonial Standard"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "11130",
+          "value": "FLEISCHKONSERVEN"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/106225400000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/cenovis-ohne-salz",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/106225400000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/cenovis-ohne-salz",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "updated_at": "2020-09-16T06:52:08+0200",
+  "receipt_text": "Cenovis ohne Salz",
+  "price": {
+    "valid_from": "2018-01-29T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 4.1,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "70g"
+    },
+    "base": {
+      "price": 5.86,
+      "quantity": 100,
+      "unit": "g"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 1,
+    "average_all": 5
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

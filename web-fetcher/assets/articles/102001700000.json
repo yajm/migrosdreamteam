@@ -1,0 +1,302 @@
+{
+  "id": "102001700000",
+  "language": "de",
+  "name": "M-Classic Hagelzucker",
+  "slug": "m-classic-hagelzucker",
+  "boss_number": "010410460570",
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "source-qim-origins",
+    "validity-range-not-set",
+    "source-qim-fooddeclaration",
+    "source-qim-nutritionfacts",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7617027869157",
+    "4001726151003"
+  ],
+  "brand": {
+    "id": "068",
+    "name": "M-Classic",
+    "slug": "m-classic",
+    "links": {
+      "homepage": {
+        "url": "https://m-classic.migros.ch/de.html",
+        "name": "Homepage",
+        "type": "info",
+        "purchasable": false
+      }
+    },
+    "image": {
+      "original": "https://image.migros.ch/original/72c18633f911e026e081ac11d872cff2d8dc8abb/m-classic.jpg",
+      "stack": "https://image.migros.ch/{stack}/72c18633f911e026e081ac11d872cff2d8dc8abb/m-classic.jpg"
+    }
+  },
+  "categories": [
+    {
+      "code": "BeSS_0101030904",
+      "name": "Zucker & Süssstoffe",
+      "slug": "supermarkt/lebensmittel/baeckerei-confiserie-backen/backzutaten/zucker-suessstoffe",
+      "visible": true,
+      "parent_code": "BeSS_01010309",
+      "image": {
+        "original": "https://image.migros.ch/original/ba549e55f17a1dc4243343a114ec6989dafee047/zucker-suessstoffe.jpg",
+        "stack": "https://image.migros.ch/{stack}/ba549e55f17a1dc4243343a114ec6989dafee047/zucker-suessstoffe.jpg"
+      },
+      "level": 5
+    },
+    {
+      "code": "BeSS_01010309",
+      "name": "Backzutaten",
+      "slug": "supermarkt/lebensmittel/baeckerei-confiserie-backen/backzutaten",
+      "visible": true,
+      "title": "Backzutaten von der Migros &ndash; Feines für den Ofen",
+      "parent_code": "BeSS_010103",
+      "image": {
+        "original": "https://image.migros.ch/original/7f4777fff65971e62d70347f2563db0eba17376b/backzutaten.jpg",
+        "stack": "https://image.migros.ch/{stack}/7f4777fff65971e62d70347f2563db0eba17376b/backzutaten.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010103",
+      "name": "Bäckerei, Confiserie & Backen",
+      "slug": "supermarkt/lebensmittel/baeckerei-confiserie-backen",
+      "visible": true,
+      "title": "Backen macht Freude! Alle Zutaten finden Sie in Ihrer Migros",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/04b41cd6f4daedf3061a2a37617d48e992760b35/baeckerei-confiserie-backen.jpg",
+        "stack": "https://image.migros.ch/{stack}/04b41cd6f4daedf3061a2a37617d48e992760b35/baeckerei-confiserie-backen.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_ZuckerSuessstoffe_Backzutaten_BroteBacken",
+        "name": "Zucker & Süssstoffe",
+        "slug": "amigos/brote-backen/backzutaten/zucker-suessstoffe",
+        "visible": true,
+        "parent_code": "AMIG_CAT_Backzutaten_BroteBacken",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_Backzutaten_BroteBacken",
+        "name": "Backzutaten",
+        "slug": "amigos/brote-backen/backzutaten",
+        "visible": true,
+        "parent_code": "AMIG_CAT_BroteBacken",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_BroteBacken",
+        "name": "Brote & Backen",
+        "slug": "amigos/brote-backen",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "features": [
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_karton",
+          "value": "Karton"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_artvonzucker",
+      "label": "Art von Zucker",
+      "values": [
+        {
+          "value_code": "MISO_artvonzucker_hagelzucker",
+          "value": "Hagelzucker"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_formbeschaffenheitvonzucker",
+      "label": "Form/Beschaffenheit von Zucker",
+      "values": [
+        {
+          "value_code": "MISO_formbeschaffenheitvonzucker_kandis",
+          "value": "Kandis"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_produktionslandherstellungsort",
+      "label": "Produktionsland/Herstellungsort",
+      "values": [
+        {
+          "value_code": "MISO_produktionslandherstellungsort_belgien",
+          "value": "Belgien"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/ca8c3df3f857d32e6145185c4420129169d73dbd/m-classic-hagelzucker.jpg",
+    "stack": "https://image.migros.ch/{stack}/ca8c3df3f857d32e6145185c4420129169d73dbd/m-classic-hagelzucker.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/12953bbe9844cfbb1500993ffd46bccbb42f964d/m-classic-hagelzucker.png",
+    "stack": "https://image.migros.ch/{stack}/12953bbe9844cfbb1500993ffd46bccbb42f964d/m-classic-hagelzucker.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_sortierung",
+      "label": "Sortierung aMigos",
+      "values": [
+        {
+          "value_code": "NUMERIC_180",
+          "value": "180",
+          "numeric_value": 180
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "M",
+          "value": "Kolonial Standard"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "10066",
+          "value": "ZUCKER"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/102001700000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/m-classic-hagelzucker",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/102001700000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/m-classic-hagelzucker",
+      "type": "info",
+      "purchasable": false
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/4960101",
+      "app_url": "leshop:///catalog/article/detail?ean=7617027869157",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/m-classic-hagelzucker",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "updated_at": "2020-09-16T05:41:06+0200",
+  "receipt_text": "MClass Hagelzucker",
+  "price": {
+    "valid_from": "2018-01-29T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 1.5,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "250g"
+    },
+    "base": {
+      "price": 0.6,
+      "quantity": 100,
+      "unit": "g"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 2,
+    "average_all": 5
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

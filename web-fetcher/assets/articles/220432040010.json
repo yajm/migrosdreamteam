@@ -1,0 +1,419 @@
+{
+  "id": "220432040010",
+  "language": "de",
+  "name": "Kalbsbraten Schulter Terrasuisse",
+  "slug": "kalbsbraten-schulter-terrasuisse",
+  "boss_number": "040214521010",
+  "description": {
+    "text": "Terrasuisse Kalbs Schulterbraten",
+    "source": "PIM"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "2182416000008",
+    "7617027589932"
+  ],
+  "labels": [
+    {
+      "id": "L53",
+      "name": "Swissness",
+      "slug": "swissness",
+      "image": {
+        "original": "https://image.migros.ch/original/d771bba2f6b08ba42970ea0243c6f8c5a8832f15/swissness.jpg",
+        "stack": "https://image.migros.ch/{stack}/d771bba2f6b08ba42970ea0243c6f8c5a8832f15/swissness.jpg"
+      }
+    },
+    {
+      "id": "L14",
+      "name": "TerraSuisse",
+      "slug": "terrasuisse",
+      "image": {
+        "original": "https://image.migros.ch/original/1ffb197ef3d9b3099bc31eb47f8dfa585c93daa6/terrasuisse.jpg",
+        "stack": "https://image.migros.ch/{stack}/1ffb197ef3d9b3099bc31eb47f8dfa585c93daa6/terrasuisse.jpg"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_01010604",
+      "name": "Kalb",
+      "slug": "supermarkt/lebensmittel/fleisch/kalb",
+      "visible": true,
+      "title": "Kalbfleisch in Ihrer Migros kaufen",
+      "parent_code": "BeSS_010106",
+      "image": {
+        "original": "https://image.migros.ch/original/551351d311ca5c21e7540d1eea53cb72dce2b659/kalb.jpg",
+        "stack": "https://image.migros.ch/{stack}/551351d311ca5c21e7540d1eea53cb72dce2b659/kalb.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010106",
+      "name": "Fleisch",
+      "slug": "supermarkt/lebensmittel/fleisch",
+      "visible": true,
+      "title": "Fleisch ausgezeichneter Qualität aus Ihrer Migros: einfach gut",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/03d32c0880d7a9ea6e58971966032e65ac442b58/fleisch.jpg",
+        "stack": "https://image.migros.ch/{stack}/03d32c0880d7a9ea6e58971966032e65ac442b58/fleisch.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_Kalb_Fleisch_FleischFisch",
+        "name": "Kalb",
+        "slug": "amigos/fleisch-fisch/fleisch/kalb",
+        "visible": true,
+        "parent_code": "AMIG_CAT_Fleisch_FleischFisch",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_Fleisch_FleischFisch",
+        "name": "Fleisch",
+        "slug": "amigos/fleisch-fisch/fleisch",
+        "visible": true,
+        "parent_code": "AMIG_CAT_FleischFisch",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_FleischFisch",
+        "name": "Fleisch & Fisch",
+        "slug": "amigos/fleisch-fisch",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "features": [
+    {
+      "label_code": "MISO_mussgekuehltwerden",
+      "label": "Muss gekühlt werden",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_produktionsanspruch",
+      "label": "Produktionsverfahren",
+      "values": [
+        {
+          "value_code": "MISO_produktionsanspruch_ipsuissebauernhof",
+          "value": "IP-SUISSE Bauernhof"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_kunststoffverpackung",
+          "value": "Kunststoff-Verpackung"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zubereitungsverfahren",
+      "label": "Hinweise für die Zubereitung",
+      "values": [
+        {
+          "value_code": "MISO_zubereitungsverfahren_braten",
+          "value": "Braten"
+        },
+        {
+          "value_code": "MISO_zubereitungsverfahren_kochen",
+          "value": "Kochen"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_anatomischeform",
+      "label": "Art/Form von Fleisch",
+      "values": [
+        {
+          "value_code": "MISO_anatomischeform_schulter",
+          "value": "Schulter"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_fleischform",
+      "label": "Fleischform bearbeitet",
+      "values": [
+        {
+          "value_code": "MISO_fleischform_amstueck",
+          "value": "Am Stück"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_tierartodergattung",
+      "label": "Tierart oder Gattung",
+      "values": [
+        {
+          "value_code": "MISO_tierartodergattung_kalb",
+          "value": "Kalb"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_verpackungsform",
+      "label": "Verpackungsform",
+      "values": [
+        {
+          "value_code": "MISO_verpackungsform_schutzatmosphaere",
+          "value": "Schutzatmosphäre"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_herstellungsverfahrenvonfleisch",
+      "label": "Herstellungsverfahren von Fleisch",
+      "values": [
+        {
+          "value_code": "MISO_herstellungsverfahrenvonfleisch_roh",
+          "value": "roh"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_tierwohlmehrwert",
+      "label": "Tierwohl Mehrwert",
+      "values": [
+        {
+          "value_code": "MISO_tierwohlmehrwert_beimressourceneffizientenanbauderprodukte",
+          "value": "Beim ressourceneffizienten Anbau der Produkte werden wenig bis gar keine Pflanzenschutzmittel eingesetzt. Das Vieh wird in artgerechten Ställen mit Auslauf gehalten. Die Betriebe schaffen Lebensräume für seltene Tiere und Pflanzen."
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/cddba64ab6252f4fc3109f123efc6d8097b03f45/kalbsbraten-schulter-terrasuisse.jpg",
+    "stack": "https://image.migros.ch/{stack}/cddba64ab6252f4fc3109f123efc6d8097b03f45/kalbsbraten-schulter-terrasuisse.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/15afc5c19c53134dcf80bbc08d27837218640713/kalbsbraten-schulter-terrasuisse.png",
+    "stack": "https://image.migros.ch/{stack}/15afc5c19c53134dcf80bbc08d27837218640713/kalbsbraten-schulter-terrasuisse.png"
+  },
+  "additional_images": [
+    {
+      "original": "https://image.migros.ch/original/ceaaabe3c20b393e3b0afd84d7c752fed89de262.jpg",
+      "stack": "https://image.migros.ch/{stack}/ceaaabe3c20b393e3b0afd84d7c752fed89de262.jpg"
+    },
+    {
+      "original": "https://image.migros.ch/original/4e2cf6901231ab1cfad2c0a039978ffb60579b75.jpg",
+      "stack": "https://image.migros.ch/{stack}/4e2cf6901231ab1cfad2c0a039978ffb60579b75.jpg"
+    },
+    {
+      "original": "https://image.migros.ch/original/470254f4de5474cb2d701a1516d2a91a8ef0fd5d.jpg",
+      "stack": "https://image.migros.ch/{stack}/470254f4de5474cb2d701a1516d2a91a8ef0fd5d.jpg"
+    }
+  ],
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_sortierung",
+      "label": "Sortierung aMigos",
+      "values": [
+        {
+          "value_code": "NUMERIC_270",
+          "value": "270",
+          "numeric_value": 270
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_minimal-gewicht",
+      "label": "Minimal-Gewicht",
+      "values": [
+        {
+          "value_code": "NUMERIC_600.0",
+          "value": "600.0 g",
+          "numeric_value": 600
+        }
+      ],
+      "top_fact": false,
+      "unit_code": "g",
+      "unit": "Gramm",
+      "unit_symbol": "g"
+    },
+    {
+      "label_code": "MISO_aMigos_maximal-gewicht",
+      "label": "Maximal-Gewicht",
+      "values": [
+        {
+          "value_code": "NUMERIC_800.0",
+          "value": "800.0 g",
+          "numeric_value": 800
+        }
+      ],
+      "top_fact": false,
+      "unit_code": "g",
+      "unit": "Gramm",
+      "unit_symbol": "g"
+    },
+    {
+      "label_code": "MISO_aMigos_verkaufseinheit",
+      "label": "Verkaufseinheit",
+      "values": [
+        {
+          "value_code": "NUMERIC_1.0",
+          "value": "1.0 Pk",
+          "numeric_value": 1
+        }
+      ],
+      "top_fact": false,
+      "unit_code": "Pk",
+      "unit": "Pack",
+      "unit_symbol": "Pk"
+    },
+    {
+      "label_code": "MISO_aMigos_volumen",
+      "label": "Volumen aMigos!",
+      "values": [
+        {
+          "value_code": "NUMERIC_2.002",
+          "value": "2.002 l",
+          "numeric_value": 2.002
+        }
+      ],
+      "top_fact": false,
+      "unit_code": "l",
+      "unit": "Liter",
+      "unit_symbol": "l"
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZFRP",
+          "value": "Frische Beschaffung"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "6",
+          "value": "Fleisch-Fisch-Geflüg"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "71267",
+          "value": "KALB"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/220432040010",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/kalbsbraten-schulter-terrasuisse",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/220432040010",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/kalbsbraten-schulter-terrasuisse",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "updated_at": "2020-09-16T05:51:14+0200",
+  "receipt_text": "Kalbsbraten Schulter",
+  "price": {
+    "valid_from": "2019-09-23T00:00:00+0200",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "source": "PriceRepository",
+    "no_price_hint": "Aktueller Tagespreis"
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 1,
+    "average_all": 1
+  },
+  "reindex_date": "2020-09-20T23:59:59+0200"
+}

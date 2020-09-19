@@ -1,0 +1,296 @@
+{
+  "id": "166001400000",
+  "language": "de",
+  "name": "M-Budget Pouletgeschnetzeltes",
+  "slug": "m-budget-pouletgeschnetzeltes",
+  "boss_number": "010510722105",
+  "description": {
+    "text": "Pouletgeschnetzeltes mit W&uuml;rzlake zum Gekochtessen",
+    "source": "PIM"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "source-qim-origins",
+    "validity-range-not-set",
+    "source-qim-allergens",
+    "source-qim-fooddeclaration",
+    "source-qim-nutritionfacts",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7613269162056",
+    "7617023004149",
+    "7613312318980"
+  ],
+  "brand": {
+    "id": "N26",
+    "name": "M-Budget",
+    "slug": "m-budget",
+    "links": {
+      "homepage": {
+        "url": "https://m-budget.migros.ch/de.html",
+        "name": "Homepage",
+        "type": "info",
+        "purchasable": false
+      }
+    },
+    "image": {
+      "original": "https://image.migros.ch/original/1d1a13e240a94a7e1fa8ef99f15ce5b896f3486b/m-budget.jpg",
+      "stack": "https://image.migros.ch/{stack}/1d1a13e240a94a7e1fa8ef99f15ce5b896f3486b/m-budget.jpg"
+    }
+  },
+  "categories": [
+    {
+      "code": "BeSS_0101150304",
+      "name": "Geflügel",
+      "slug": "supermarkt/lebensmittel/tiefkuehlprodukte/fleisch/gefluegel",
+      "visible": true,
+      "title": "Feines Tiefkühl-Geflügel bei Ihrer Migros",
+      "parent_code": "BeSS_01011503",
+      "image": {
+        "original": "https://image.migros.ch/original/3e4e54c069e6dcdb8019ddfff2f3283c73a89283/gefluegel.jpg",
+        "stack": "https://image.migros.ch/{stack}/3e4e54c069e6dcdb8019ddfff2f3283c73a89283/gefluegel.jpg"
+      },
+      "level": 5
+    },
+    {
+      "code": "BeSS_01011503",
+      "name": "Fleisch",
+      "slug": "supermarkt/lebensmittel/tiefkuehlprodukte/fleisch",
+      "visible": true,
+      "title": "Tiefkühlfleisch in Ihrer Migros kaufen",
+      "parent_code": "BeSS_010115",
+      "level": 4
+    },
+    {
+      "code": "BeSS_010115",
+      "name": "Tiefkühlprodukte",
+      "slug": "supermarkt/lebensmittel/tiefkuehlprodukte",
+      "visible": true,
+      "title": "Tiefkühlprodukte aus Ihrer Migros: schnell etwas Feines auf Ihren Tisch",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/b8e389701dd44ecdd5fbc95db5eed9b0a8c4a03d/tiefkuehlprodukte.jpg",
+        "stack": "https://image.migros.ch/{stack}/b8e389701dd44ecdd5fbc95db5eed9b0a8c4a03d/tiefkuehlprodukte.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_Gefluegel_Fleisch_FleischFisch",
+        "name": "Geflügel",
+        "slug": "amigos/fleisch-fisch/fleisch/gefluegel",
+        "visible": true,
+        "parent_code": "AMIG_CAT_Fleisch_FleischFisch",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_Fleisch_FleischFisch",
+        "name": "Fleisch",
+        "slug": "amigos/fleisch-fisch/fleisch",
+        "visible": true,
+        "parent_code": "AMIG_CAT_FleischFisch",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_FleischFisch",
+        "name": "Fleisch & Fisch",
+        "slug": "amigos/fleisch-fisch",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "features": [
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_kunststoffverpackung",
+          "value": "Kunststoff-Verpackung"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zubereitungsverfahren",
+      "label": "Hinweise für die Zubereitung",
+      "values": [
+        {
+          "value_code": "MISO_zubereitungsverfahren_braten",
+          "value": "Braten"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_fleischform",
+      "label": "Fleischform bearbeitet",
+      "values": [
+        {
+          "value_code": "MISO_fleischform_geschnetzelt",
+          "value": "geschnetzelt"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_tierartodergattung",
+      "label": "Tierart oder Gattung",
+      "values": [
+        {
+          "value_code": "MISO_tierartodergattung_poulet",
+          "value": "Poulet"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_hygienehinweise",
+      "label": "Hygienehinweise",
+      "values": [
+        {
+          "value_code": "MISO_hygienehinweise_5",
+          "value": "Das Fleisch in einem Gefäss im Kühlschrank auftauen lassen. Flüssigkeit weggiessen und Fleisch mit Haushaltspapier abtrocknen. Rohes Fleisch nicht in Kontakt mit anderen Lebensmitteln bringen. Fleisch immer gut durchgekocht/gebraten servieren."
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/2e68869afc4040c42a204788e2b86d509ada808e/m-budget-pouletgeschnetzeltes.jpg",
+    "stack": "https://image.migros.ch/{stack}/2e68869afc4040c42a204788e2b86d509ada808e/m-budget-pouletgeschnetzeltes.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/a9d3dadbb6825867187864e8bcb9f08c4be0de98/m-budget-pouletgeschnetzeltes.png",
+    "stack": "https://image.migros.ch/{stack}/a9d3dadbb6825867187864e8bcb9f08c4be0de98/m-budget-pouletgeschnetzeltes.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "M",
+          "value": "Kolonial Standard"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "30173",
+          "value": "TK GEFLUEGEL TIEFPREIS"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/166001400000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/m-budget-pouletgeschnetzeltes",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/166001400000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/m-budget-pouletgeschnetzeltes",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "updated_at": "2020-09-16T07:02:29+0200",
+  "receipt_text": "MBud Pouletgeschnetzel",
+  "price": {
+    "valid_from": "2018-01-01T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 9,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "750g"
+    },
+    "base": {
+      "price": 1.2,
+      "quantity": 100,
+      "unit": "g"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 4,
+    "average_all": 2.75
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

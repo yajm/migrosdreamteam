@@ -1,0 +1,299 @@
+{
+  "id": "107128000000",
+  "language": "de",
+  "name": "La Semeuse Mocca Lungo Forte 10Kap",
+  "slug": "la-semeuse-mocca-lungo-forte-10kap",
+  "boss_number": "010310304605",
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "validity-range-not-set",
+    "source-qim-fooddeclaration",
+    "leshop-discounted",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7610244007692"
+  ],
+  "brand": {
+    "id": "X86",
+    "name": "La Semeuse",
+    "slug": "la-semeuse"
+  },
+  "categories": [
+    {
+      "code": "BeSS_0101100102",
+      "name": "Kaffeekapseln",
+      "slug": "supermarkt/lebensmittel/getraenke-heiss-kalt/kaffee/kaffeekapseln",
+      "visible": true,
+      "title": "Kaffeekapseln in Ihrer Migros kaufen",
+      "parent_code": "BeSS_01011001",
+      "image": {
+        "original": "https://image.migros.ch/original/aa27c81fb04432f42ad3adf318d527e35435f309/kaffeekapseln.jpg",
+        "stack": "https://image.migros.ch/{stack}/aa27c81fb04432f42ad3adf318d527e35435f309/kaffeekapseln.jpg"
+      },
+      "level": 5
+    },
+    {
+      "code": "BeSS_01011001",
+      "name": "Kaffee",
+      "slug": "supermarkt/lebensmittel/getraenke-heiss-kalt/kaffee",
+      "visible": true,
+      "title": "Das schwarze Gold der Geniesser: Kaffee bei der Migros",
+      "parent_code": "BeSS_010110",
+      "image": {
+        "original": "https://image.migros.ch/original/be9ca8bc37911ac3d695139eadc7cb2446fd5974/kaffee.jpg",
+        "stack": "https://image.migros.ch/{stack}/be9ca8bc37911ac3d695139eadc7cb2446fd5974/kaffee.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010110",
+      "name": "Getränke heiss & kalt",
+      "slug": "supermarkt/lebensmittel/getraenke-heiss-kalt",
+      "visible": true,
+      "title": "Getränke aus der Migros löschen auch Ihren Durst",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/d04d95fbc2e1b4ada4783d2976d37a962a0318a1/getraenke-heiss-kalt.jpg",
+        "stack": "https://image.migros.ch/{stack}/d04d95fbc2e1b4ada4783d2976d37a962a0318a1/getraenke-heiss-kalt.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_Kapseln_Kaffee_Getraenke",
+        "name": "Kapseln",
+        "slug": "amigos/getraenke/kaffee/kapseln",
+        "visible": true,
+        "parent_code": "AMIG_CAT_Kaffee_Getraenke",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_Kaffee_Getraenke",
+        "name": "Kaffee",
+        "slug": "amigos/getraenke/kaffee",
+        "visible": true,
+        "parent_code": "AMIG_CAT_Getraenke",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_Getraenke",
+        "name": "Getränke",
+        "slug": "amigos/getraenke",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "features": [
+    {
+      "label_code": "MISO_kapselsystem",
+      "label": "Kapselsystem",
+      "values": [
+        {
+          "value_code": "MISO_kapselsystem_NespressoKompatibel",
+          "value": "Nespresso®* kompatibel"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_geeignetfuerkapselsystem",
+      "label": "Geeignet für Kapselsystem",
+      "values": [
+        {
+          "value_code": "MISO_geeignetfuerkapselsystem_nespresso",
+          "value": "Nespresso"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/378539799851c19dedf1ac5f797dfbd2293ae962/la-semeuse-mocca-lungo-forte-10kap.jpg",
+    "stack": "https://image.migros.ch/{stack}/378539799851c19dedf1ac5f797dfbd2293ae962/la-semeuse-mocca-lungo-forte-10kap.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/497f5f8a614f3fcbe09a63aebdf1b93eb9d38abf/la-semeuse-mocca-lungo-forte-10kap.png",
+    "stack": "https://image.migros.ch/{stack}/497f5f8a614f3fcbe09a63aebdf1b93eb9d38abf/la-semeuse-mocca-lungo-forte-10kap.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "M",
+          "value": "Kolonial Standard"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "10384",
+          "value": "CAFE ROYAL NES"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/107128000000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/la-semeuse-mocca-lungo-forte-10kap",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/107128000000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/la-semeuse-mocca-lungo-forte-10kap",
+      "type": "info",
+      "purchasable": false
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/5072283",
+      "app_url": "leshop:///catalog/article/detail?ean=7610244007692",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/la-semeuse-mocca-lungo-forte-10kap",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "updated_at": "2020-09-16T06:51:18+0200",
+  "receipt_text": "La Semeuse Mocca F 10K",
+  "price": {
+    "valid_from": "2020-09-15T00:00:00+0200",
+    "valid_to": "2020-09-21T23:59:59+0200",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 4.75,
+      "original_price": 5.95,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "55g"
+    },
+    "discount": {
+      "id": "1496489",
+      "region": "national",
+      "start_date": "2020-09-15T00:00:00+0200",
+      "end_date": "2020-09-21T23:59:59+0200",
+      "publication_date": "2020-09-13T00:00:00+0200",
+      "discount_amount": "20%",
+      "discount_regions": [
+        "national"
+      ],
+      "reference_product_id": "107110100000",
+      "discount_type": "aktion",
+      "discount_type_id": "001",
+      "discount_type_label": "SA Sonderangebot",
+      "organisation": "02",
+      "cooperative": "mgb",
+      "image": {
+        "tags": [
+          "list-image"
+        ],
+        "original": "https://image.migros.ch/original/086a9d9240ba5b71f286bd1eb568672fd1b15cf5/alle-la-semeuse-kaffees-in-kapseln-in-bohnen-und-gemahlen.jpg",
+        "source": "PriceRepository",
+        "stack": "https://image.migros.ch/{stack}/086a9d9240ba5b71f286bd1eb568672fd1b15cf5/alle-la-semeuse-kaffees-in-kapseln-in-bohnen-und-gemahlen.jpg"
+      },
+      "image_transparent": {
+        "original": "https://image.migros.ch/original/086a9d9240ba5b71f286bd1eb568672fd1b15cf5/alle-la-semeuse-kaffees-in-kapseln-in-bohnen-und-gemahlen.png",
+        "source": "PriceRepository",
+        "stack": "https://image.migros.ch/{stack}/086a9d9240ba5b71f286bd1eb568672fd1b15cf5/alle-la-semeuse-kaffees-in-kapseln-in-bohnen-und-gemahlen.png"
+      },
+      "badge": {
+        "original": "https://image.migros.ch/original/0633530dd39bda4f1496c8c8aa5ac1d66f227594.png",
+        "stack": "https://image.migros.ch/{stack}/0633530dd39bda4f1496c8c8aa5ac1d66f227594.png"
+      },
+      "location_planning_type": "01",
+      "reduction_type_id": "01",
+      "special_advertisement": false,
+      "advertisement_type_id": "2",
+      "description": "Alle La Semeuse-Kaffees, in Kapseln, in Bohnen und gemahlen",
+      "discount_hint": "z.B. Mocca gemahlen, 500 g, <strong>7.80 </strong>statt 9.80, Angebot gilt nur vom 15.9. bis 21.9.2020, solange Vorrat.",
+      "high_performer": false,
+      "collective_discount": true,
+      "instead_of": "statt",
+      "price": 4.75,
+      "original_price": 5.95,
+      "disclaimer": "Gültigkeit siehe Angebots-Detailseite.\r\nBei allen Angeboten sind M-Budget und bereits reduzierte Artikel ausgenommen.\r\nBei Aktionen können bei der Verrechnung auf dem Kassabon Rundungsdifferenzen zu Gunsten des Kunden entstehen.",
+      "source": "PriceRepository",
+      "boss_number": "010310302610",
+      "discount_role_id": "2000000002",
+      "discount_role_label": "M: Wochenangebot Typ I",
+      "last_imported": "2020-09-07T15:15:12+0200"
+    },
+    "discount_hint": "Angebot gilt nur vom 15.9. bis 21.9.2020, solange Vorrat."
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "reindex_date": "2020-09-21T23:59:59+0200"
+}

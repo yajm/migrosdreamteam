@@ -1,0 +1,300 @@
+{
+  "id": "104215900000",
+  "language": "de",
+  "name": "M-Classic Mini Vollkorn-Reiswaffeln",
+  "slug": "m-classic-mini-vollkorn-reiswaffeln",
+  "boss_number": "010318210605",
+  "description": {
+    "text": "<p><strong>M-CLASSIC MINI-REIS-WAFFELN - ohne Kochsalzzusatz.</strong></p><p>Reis-Waffeln eignen sich zum Belegen mit K&auml;se oder Fleisch, zum Bestreichen mit Honig oder Konfit&uuml;re oder nature als Knabbergeb&auml;ck. Beutel wieder gut verschliessen und trocken lagern.\n<br />&nbsp;</p>",
+    "source": "PIM"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "source-qim-origins",
+    "validity-range-not-set",
+    "source-qim-fooddeclaration",
+    "source-qim-nutritionfacts",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7610200104182"
+  ],
+  "brand": {
+    "id": "068",
+    "name": "M-Classic",
+    "slug": "m-classic",
+    "links": {
+      "homepage": {
+        "url": "https://m-classic.migros.ch/de.html",
+        "name": "Homepage",
+        "type": "info",
+        "purchasable": false
+      }
+    },
+    "image": {
+      "original": "https://image.migros.ch/original/72c18633f911e026e081ac11d872cff2d8dc8abb/m-classic.jpg",
+      "stack": "https://image.migros.ch/{stack}/72c18633f911e026e081ac11d872cff2d8dc8abb/m-classic.jpg"
+    }
+  },
+  "categories": [
+    {
+      "code": "BeSS_01010307",
+      "name": "Zwieback & Knäckebrot",
+      "slug": "supermarkt/lebensmittel/baeckerei-confiserie-backen/zwieback-knaeckebrot",
+      "visible": true,
+      "title": "Zwieback und Knäckebrot &ndash; knackig von der Migros",
+      "parent_code": "BeSS_010103",
+      "image": {
+        "original": "https://image.migros.ch/original/b4f1c9101c74e055cef373e835ee4b863eb1036a/zwieback-knaeckebrot.jpg",
+        "stack": "https://image.migros.ch/{stack}/b4f1c9101c74e055cef373e835ee4b863eb1036a/zwieback-knaeckebrot.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010103",
+      "name": "Bäckerei, Confiserie & Backen",
+      "slug": "supermarkt/lebensmittel/baeckerei-confiserie-backen",
+      "visible": true,
+      "title": "Backen macht Freude! Alle Zutaten finden Sie in Ihrer Migros",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/04b41cd6f4daedf3061a2a37617d48e992760b35/baeckerei-confiserie-backen.jpg",
+        "stack": "https://image.migros.ch/{stack}/04b41cd6f4daedf3061a2a37617d48e992760b35/baeckerei-confiserie-backen.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_ZwiebackKnaeckebrote_BroteBacken",
+        "name": "Zwieback & Knäckebrote",
+        "slug": "amigos/brote-backen/zwieback-knaeckebrote",
+        "visible": true,
+        "parent_code": "AMIG_CAT_BroteBacken",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_BroteBacken",
+        "name": "Brote & Backen",
+        "slug": "amigos/brote-backen",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "features": [
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_beutelsack",
+          "value": "Beutel/Sack"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zubereitungsverfahren",
+      "label": "Hinweise für die Zubereitung",
+      "values": [
+        {
+          "value_code": "MISO_zubereitungsverfahren_verzehrfertig",
+          "value": "Verzehrfertig"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zusatzangaben",
+      "label": "Zusatzangaben",
+      "values": [
+        {
+          "value_code": "MISO_zusatzangaben_329",
+          "value": "Trocken aufbewahren. Für höchste Frische vor Licht und Wärme schützen."
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_artvonbearbeitetemgetreideprodukt",
+      "label": "Art von bearbeitetem Getreideprodukt",
+      "values": [
+        {
+          "value_code": "MISO_artvonbearbeitetemgetreideprodukt_reis",
+          "value": "Reis"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ALLERGENES",
+      "label": "Allergenauslobungen",
+      "values": [
+        {
+          "value_code": "MAPI_ALLERGENES_glutenfrei",
+          "value": "Glutenfrei"
+        },
+        {
+          "value_code": "MAPI_ALLERGENES_ohneWeizen",
+          "value": "Ohne Weizen"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/a72b9785a9d835a38c163ef579cec5b75011bdad/m-classic-mini-vollkorn-reiswaffeln.jpg",
+    "stack": "https://image.migros.ch/{stack}/a72b9785a9d835a38c163ef579cec5b75011bdad/m-classic-mini-vollkorn-reiswaffeln.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/ff9f6819402a6d3bb2aec0c58b5a8d15914fa2f1/m-classic-mini-vollkorn-reiswaffeln.png",
+    "stack": "https://image.migros.ch/{stack}/ff9f6819402a6d3bb2aec0c58b5a8d15914fa2f1/m-classic-mini-vollkorn-reiswaffeln.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_sortierung",
+      "label": "Sortierung aMigos",
+      "values": [
+        {
+          "value_code": "NUMERIC_190",
+          "value": "190",
+          "numeric_value": 190
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "M",
+          "value": "Kolonial Standard"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "10350",
+          "value": "REISWAFFELN"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/104215900000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/m-classic-mini-vollkorn-reiswaffeln",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/104215900000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/m-classic-mini-vollkorn-reiswaffeln",
+      "type": "info",
+      "purchasable": false
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/219402",
+      "app_url": "leshop:///catalog/article/detail?ean=7610200104182",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/m-classic-mini-vollkorn-reiswaffeln",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "updated_at": "2020-09-16T05:41:40+0200",
+  "receipt_text": "MClass Mini-Reiswaffel",
+  "price": {
+    "valid_from": "2018-01-29T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 1,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "100g"
+    },
+    "base": {
+      "price": 1,
+      "quantity": 100,
+      "unit": "g"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 22,
+    "average_all": 4.166666666667
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

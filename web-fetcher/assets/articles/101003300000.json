@@ -1,0 +1,279 @@
+{
+  "id": "101003300000",
+  "language": "de",
+  "name": "Mentos Mint",
+  "slug": "mentos-mint",
+  "boss_number": "010110082625",
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "source-qim-origins",
+    "source-qim-distributor",
+    "validity-range-not-set",
+    "source-qim-fooddeclaration",
+    "source-qim-nutritionfacts",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "87108729"
+  ],
+  "brand": {
+    "id": "F78",
+    "name": "Mentos",
+    "slug": "mentos"
+  },
+  "categories": [
+    {
+      "code": "BeSS_01010818",
+      "name": "Bonbons & Kaugummi",
+      "slug": "supermarkt/lebensmittel/suessigkeiten/bonbons-kaugummi",
+      "visible": true,
+      "title": "Süss, bunt und lecker: Bonbons und Kaugummis bei Ihrer Migros",
+      "parent_code": "BeSS_010108",
+      "image": {
+        "original": "https://image.migros.ch/original/ad0254bc5ba2f1387119b73f9a1479f27e0d867e/bonbons-kaugummi.jpg",
+        "stack": "https://image.migros.ch/{stack}/ad0254bc5ba2f1387119b73f9a1479f27e0d867e/bonbons-kaugummi.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010108",
+      "name": "Süssigkeiten",
+      "slug": "supermarkt/lebensmittel/suessigkeiten",
+      "visible": true,
+      "title": "Süssigkeiten aus Ihrer Migros: für Naschkatzen und Schleckmäuler",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/a9c80f4e896b5ebdd3b7ebbee11f956c8ff157cf/suessigkeiten.jpg",
+        "stack": "https://image.migros.ch/{stack}/a9c80f4e896b5ebdd3b7ebbee11f956c8ff157cf/suessigkeiten.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_Bonbons_BonbonsKaugummis_SchokoladenSuessigkeiten",
+        "name": "Bonbons",
+        "slug": "amigos/schokoladen-suessigkeiten/bonbons-kaugummis/bonbons",
+        "visible": true,
+        "parent_code": "AMIG_CAT_BonbonsKaugummis_SchokoladenSuessigkeiten",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_BonbonsKaugummis_SchokoladenSuessigkeiten",
+        "name": "Bonbons & Kaugummis",
+        "slug": "amigos/schokoladen-suessigkeiten/bonbons-kaugummis",
+        "visible": true,
+        "parent_code": "AMIG_CAT_SchokoladenSuessigkeiten",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_SchokoladenSuessigkeiten",
+        "name": "Schokoladen & Süssigkeiten",
+        "slug": "amigos/schokoladen-suessigkeiten",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "features": [
+    {
+      "label_code": "MISO_anzahlentnehmbarereinzelportionen",
+      "label": "Anzahl entnehmbarer Einzeleinheiten",
+      "values": [
+        {
+          "value_code": "NUMERIC_3.0",
+          "value": "3.0",
+          "numeric_value": 3
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_folienverpackung",
+          "value": "Folienverpackung"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_artvonbonbonsanderensuesswaren",
+      "label": "Art von Bonbons/anderen Süsswaren",
+      "values": [
+        {
+          "value_code": "MISO_artvonbonbonsanderensuesswaren_dragees",
+          "value": "Dragees"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_formdersuesswaren",
+      "label": "Form der Süsswaren",
+      "values": [
+        {
+          "value_code": "MISO_formdersuesswaren_stuecke",
+          "value": "Stücke"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/55b6587aa676217c70627eb4f6f8c1bd2249d049/mentos-mint.jpg",
+    "stack": "https://image.migros.ch/{stack}/55b6587aa676217c70627eb4f6f8c1bd2249d049/mentos-mint.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/291864e6b14c77112d8a369e3345c5f673a187fb/mentos-mint.png",
+    "stack": "https://image.migros.ch/{stack}/291864e6b14c77112d8a369e3345c5f673a187fb/mentos-mint.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_sortierung",
+      "label": "Sortierung aMigos",
+      "values": [
+        {
+          "value_code": "NUMERIC_200",
+          "value": "200",
+          "numeric_value": 200
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "M",
+          "value": "Kolonial Standard"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "11214",
+          "value": "BOEXLI"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/101003300000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/mentos-mint",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/101003300000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/mentos-mint",
+      "type": "info",
+      "purchasable": false
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/4963935",
+      "app_url": "leshop:///catalog/article/detail?ean=87108729",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/mentos-mint",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "updated_at": "2020-09-16T06:29:03+0200",
+  "receipt_text": "Mentos Mint 3x38g",
+  "price": {
+    "valid_from": "2018-01-29T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 2.7,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "3 x 38g"
+    },
+    "base": {
+      "price": 2.37,
+      "quantity": 100,
+      "unit": "g"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 4,
+    "average_all": 4.666666666667
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

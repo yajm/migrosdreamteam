@@ -1,0 +1,415 @@
+{
+  "id": "131000400000",
+  "language": "de",
+  "name": "Anna's Best Friseesalat",
+  "slug": "annas-best-friseesalat",
+  "boss_number": "020530371505",
+  "description": {
+    "text": "Salatspinat gewaschen, konsumbereit",
+    "source": "PIM"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "source-qim-origins",
+    "validity-range-not-set",
+    "source-qim-fooddeclaration",
+    "source-qim-nutritionfacts",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7617027631259"
+  ],
+  "brand": {
+    "id": "007",
+    "name": "Anna's Best",
+    "slug": "annas-best",
+    "links": {
+      "homepage": {
+        "url": "https://annasbest.migros.ch/de.html",
+        "name": "Homepage",
+        "type": "info",
+        "purchasable": false
+      }
+    },
+    "image": {
+      "original": "https://image.migros.ch/original/184dd9291cf7fb67f0772e72d682c71c5fb76261/annas-best.jpg",
+      "stack": "https://image.migros.ch/{stack}/184dd9291cf7fb67f0772e72d682c71c5fb76261/annas-best.jpg"
+    }
+  },
+  "categories": [
+    {
+      "code": "BeSS_0101130215",
+      "name": "Schnittsalate",
+      "slug": "supermarkt/lebensmittel/fertiggerichte-menues-snacks/fertige-pizzen-menues-snacks/schnittsalate",
+      "visible": true,
+      "title": "Schnittsalate in Ihrer Migros kaufen",
+      "parent_code": "BeSS_01011302",
+      "image": {
+        "original": "https://image.migros.ch/original/d458702405e65ca2d162705c3145be055acce4f4/schnittsalate.jpg",
+        "stack": "https://image.migros.ch/{stack}/d458702405e65ca2d162705c3145be055acce4f4/schnittsalate.jpg"
+      },
+      "level": 5
+    },
+    {
+      "code": "BeSS_01011302",
+      "name": "Fertige Pizzen, Menüs & Snacks",
+      "slug": "supermarkt/lebensmittel/fertiggerichte-menues-snacks/fertige-pizzen-menues-snacks",
+      "visible": true,
+      "title": "Feine Fertiggerichte aus Ihrer Migros!",
+      "parent_code": "BeSS_010113",
+      "image": {
+        "original": "https://image.migros.ch/original/0014f54049f00019a8782aedb21ad671bd28a8e8/fertige-pizzen-menues-snacks.jpg",
+        "stack": "https://image.migros.ch/{stack}/0014f54049f00019a8782aedb21ad671bd28a8e8/fertige-pizzen-menues-snacks.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010113",
+      "name": "Fertiggerichte, Menüs & Snacks",
+      "slug": "supermarkt/lebensmittel/fertiggerichte-menues-snacks",
+      "visible": true,
+      "title": "Fertige Pizzen, Menüs und Snacks &ndash; schnell und lecker von der Migros",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/6770b6c8fbbd2689aece359ffeda93b90c58dd09/fertiggerichte-menues-snacks.jpg",
+        "stack": "https://image.migros.ch/{stack}/6770b6c8fbbd2689aece359ffeda93b90c58dd09/fertiggerichte-menues-snacks.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_Frischsalate_Salate_FruechteGemuese",
+        "name": "Frischsalate",
+        "slug": "amigos/fruechte-gemuese/salate/frischsalate",
+        "visible": true,
+        "parent_code": "AMIG_CAT_Salate_FruechteGemuese",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_Salate_FruechteGemuese",
+        "name": "Salate",
+        "slug": "amigos/fruechte-gemuese/salate",
+        "visible": true,
+        "parent_code": "AMIG_CAT_FruechteGemuese",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_FruechteGemuese",
+        "name": "Früchte & Gemüse",
+        "slug": "amigos/fruechte-gemuese",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "features": [
+    {
+      "label_code": "MISO_mussgekuehltwerden",
+      "label": "Muss gekühlt werden",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_produktionsanspruch",
+      "label": "Produktionsverfahren",
+      "values": [
+        {
+          "value_code": "MISO_produktionsanspruch_geruestet",
+          "value": "Gerüstet"
+        },
+        {
+          "value_code": "MISO_produktionsanspruch_gewaschen",
+          "value": "Gewaschen"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_beutel",
+          "value": "Beutel"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zubereitungsverfahren",
+      "label": "Hinweise für die Zubereitung",
+      "values": [
+        {
+          "value_code": "MISO_zubereitungsverfahren_verzehrfertig",
+          "value": "Verzehrfertig"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_lebensmittel_AB_pikto_salat",
+      "label": "Salate Heimkonsum",
+      "values": [
+        {
+          "image": {
+            "original": "https://image.migros.ch/original/d65217cee9de1a44b4058ff5f6edd65e24454d66/konsumfertig-gewaschen.jpg",
+            "code": "MISO_lebensmittel_AB_pikto_salat_konsumfertig",
+            "description": "Konsumfertig, gewaschen",
+            "stack": "https://image.migros.ch/{stack}/d65217cee9de1a44b4058ff5f6edd65e24454d66/konsumfertig-gewaschen.jpg"
+          },
+          "value_code": "MISO_lebensmittel_AB_pikto_salat_konsumfertig",
+          "value": "Konsumfertig, gewaschen"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_gewaschen",
+      "label": "Gewaschen",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_lebensmittel_AB_pikto_portion",
+      "label": "Portion",
+      "values": [
+        {
+          "image": {
+            "original": "https://image.migros.ch/original/0c7a6c1ab9b87483946397b9ffa47478a184a24a/portion-fuer-2-3-personen.jpg",
+            "code": "MISO_lebensmittel_AB_pikto_portion_2-3",
+            "description": "Portion für 2-3 Personen",
+            "stack": "https://image.migros.ch/{stack}/0c7a6c1ab9b87483946397b9ffa47478a184a24a/portion-fuer-2-3-personen.jpg"
+          },
+          "value_code": "MISO_lebensmittel_AB_pikto_portion_2-3",
+          "value": "Portion für 2-3 Personen"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aufbewahrunghaltbarkeit",
+      "label": "Aufbewahrung/Haltbarkeit",
+      "values": [
+        {
+          "value_code": "MISO_aufbewahrunghaltbarkeit_20",
+          "value": "Gekühlt aufbewahren bei 4-8°C"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_wiederverschliessbar",
+      "label": "Wiederverschliessbar",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "Nein",
+          "boolean_value": false
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_kuechenfertig",
+      "label": "Küchenfertig",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_sorte",
+      "label": "Sorte",
+      "values": [
+        {
+          "value_code": "MISO_sorte_endiviengekraust",
+          "value": "Endivien gekraust"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/b33ef6feebc9a60b9801f2cda6737641c459871f/annas-best-friseesalat.jpg",
+    "stack": "https://image.migros.ch/{stack}/b33ef6feebc9a60b9801f2cda6737641c459871f/annas-best-friseesalat.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/8bee0b6cb8b6f98f895a456d00186f5033d22dff/annas-best-friseesalat.png",
+    "stack": "https://image.migros.ch/{stack}/8bee0b6cb8b6f98f895a456d00186f5033d22dff/annas-best-friseesalat.png"
+  },
+  "additional_images": [
+    {
+      "original": "https://image.migros.ch/original/d2e23beb2efdaf5551edc45777a0acf9de5c37db.jpg",
+      "stack": "https://image.migros.ch/{stack}/d2e23beb2efdaf5551edc45777a0acf9de5c37db.jpg"
+    }
+  ],
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_lebensmittel_AB_kategorien",
+      "label": "Kategorien",
+      "values": [
+        {
+          "value_code": "MISO_lebensmittel_AB_kategorien_schnittsalate",
+          "value": "Schnittsalate"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_lebensmittel_AB_genusstyp",
+      "label": "Genusstypen",
+      "values": [
+        {
+          "value_code": "MISO_lebensmittel_AB_genusstyp_kalt-geniessen",
+          "value": "Kalt geniessen"
+        },
+        {
+          "value_code": "MISO_lebensmittel_AB_genusstyp_zu-hause",
+          "value": "Zu Hause"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZFRP",
+          "value": "Frische Beschaffung"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "7",
+          "value": "Convenience"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "70210",
+          "value": "SALAD HOME CONSUM. MONO"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/131000400000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/annas-best-friseesalat",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/131000400000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/annas-best-friseesalat",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "updated_at": "2020-09-16T05:45:23+0200",
+  "receipt_text": "Friseesalat",
+  "price": {
+    "valid_from": "2018-01-29T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 2.9,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "220g"
+    },
+    "base": {
+      "price": 1.32,
+      "quantity": 100,
+      "unit": "g"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 7,
+    "average_all": 4.285714285714
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

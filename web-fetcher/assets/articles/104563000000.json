@@ -1,0 +1,163 @@
+{
+  "id": "104563000000",
+  "language": "de",
+  "name": "Shiitake getrocknet",
+  "slug": "shiitake-getrocknet",
+  "boss_number": "011011263015",
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7610200059802"
+  ],
+  "categories": [
+    {
+      "code": "BeSS_01011407",
+      "name": "Pilze",
+      "slug": "supermarkt/lebensmittel/pasta-zutaten-konserven/pilze",
+      "visible": true,
+      "parent_code": "BeSS_010114",
+      "image": {
+        "original": "https://image.migros.ch/original/5a66d0bb2049dfb8996a4a86c638106d5e76733c/pilze.jpg",
+        "stack": "https://image.migros.ch/{stack}/5a66d0bb2049dfb8996a4a86c638106d5e76733c/pilze.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010114",
+      "name": "Pasta, Zutaten & Konserven",
+      "slug": "supermarkt/lebensmittel/pasta-zutaten-konserven",
+      "visible": true,
+      "title": "Pasta aus Ihrer Migros: alles rund um Teigwaren",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/6d0964bbb34b8e041ba4d74fc0c90b149907f46a/pasta-zutaten-konserven.jpg",
+        "stack": "https://image.migros.ch/{stack}/6d0964bbb34b8e041ba4d74fc0c90b149907f46a/pasta-zutaten-konserven.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/1b1f055091a370bd015dce0f2d8a998c033cc577/shiitake-getrocknet.jpg",
+    "stack": "https://image.migros.ch/{stack}/1b1f055091a370bd015dce0f2d8a998c033cc577/shiitake-getrocknet.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/bb7289314d8deac4449f4906e8a6798539db9518/shiitake-getrocknet.png",
+    "stack": "https://image.migros.ch/{stack}/bb7289314d8deac4449f4906e8a6798539db9518/shiitake-getrocknet.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "M",
+          "value": "Kolonial Standard"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "11009",
+          "value": "PILZE"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/104563000000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/shiitake-getrocknet",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/104563000000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/shiitake-getrocknet",
+      "type": "info",
+      "purchasable": false
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/106693",
+      "app_url": "leshop:///catalog/article/detail?ean=7610200059802",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/shiitake-getrocknet",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "updated_at": "2020-09-15T06:46:58+0200",
+  "receipt_text": "Shiitake getrocknet",
+  "price": {
+    "valid_from": "2018-01-29T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 1.7,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "25g"
+    },
+    "base": {
+      "price": 0.68,
+      "quantity": 10,
+      "unit": "g"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 2,
+    "average_all": 4.5
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

@@ -1,0 +1,294 @@
+{
+  "id": "203566500000",
+  "language": "de",
+  "name": "Reibgenuss Vegan",
+  "slug": "reibgenuss-vegan",
+  "boss_number": "030413503505",
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7613404168417"
+  ],
+  "labels": [
+    {
+      "id": "L57",
+      "name": "V-vegan",
+      "slug": "v-vegan",
+      "image": {
+        "original": "https://image.migros.ch/original/9425b8ea6312342ddd2d0dc87e65567c88e1b757/v-vegan.jpg",
+        "stack": "https://image.migros.ch/{stack}/9425b8ea6312342ddd2d0dc87e65567c88e1b757/v-vegan.jpg"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_0101040105",
+      "name": "Spezialitäten Käse",
+      "slug": "supermarkt/lebensmittel/milchprodukte-eier/kaese/spezialitaeten-kaese",
+      "visible": true,
+      "title": "Der edle Norditaliener bei Ihrer Migros",
+      "parent_code": "BeSS_01010401",
+      "image": {
+        "original": "https://image.migros.ch/original/fbc00a96cd8a6d1f493b4a8052bcd68bbfd4dfb0/spezialitaeten-kaese.jpg",
+        "stack": "https://image.migros.ch/{stack}/fbc00a96cd8a6d1f493b4a8052bcd68bbfd4dfb0/spezialitaeten-kaese.jpg"
+      },
+      "level": 5
+    },
+    {
+      "code": "BeSS_01010401",
+      "name": "Käse",
+      "slug": "supermarkt/lebensmittel/milchprodukte-eier/kaese",
+      "visible": true,
+      "title": "Käse von Ihrer Migros &ndash; macht Appetit auf mehr",
+      "parent_code": "BeSS_010104",
+      "image": {
+        "original": "https://image.migros.ch/original/4fbf646a3ebce5b0f570ef4c8f4f9e8d708bb65f/kaese.jpg",
+        "stack": "https://image.migros.ch/{stack}/4fbf646a3ebce5b0f570ef4c8f4f9e8d708bb65f/kaese.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010104",
+      "name": "Milchprodukte & Eier",
+      "slug": "supermarkt/lebensmittel/milchprodukte-eier",
+      "visible": true,
+      "title": "Milchprodukte und Eier –",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/6b1ea6c2d41c3ccb21bf05c8dc342f7f55d83deb/milchprodukte-eier.jpg",
+        "stack": "https://image.migros.ch/{stack}/6b1ea6c2d41c3ccb21bf05c8dc342f7f55d83deb/milchprodukte-eier.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "features": [
+    {
+      "label_code": "MISO_mussgekuehltwerden",
+      "label": "Muss gekühlt werden",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_beutel",
+          "value": "Beutel"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zusatzangaben",
+      "label": "Zusatzangaben",
+      "values": [
+        {
+          "value_code": "MISO_zusatzangaben_110",
+          "value": "Für Kalt- und Heissanwendung"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_festigkeit",
+      "label": "Festigkeit",
+      "values": [
+        {
+          "value_code": "MISO_festigkeit_halbhart",
+          "value": "halbhart"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_formbeschaffenheitdeskaeses",
+      "label": "Form/Beschaffenheit des Käses",
+      "values": [
+        {
+          "value_code": "MISO_formbeschaffenheitdeskaeses_reibkaese",
+          "value": "Reibkäse"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_kaesesorte",
+      "label": "Käsesorte",
+      "values": [
+        {
+          "value_code": "MISO_kaesesorte_kaesealternative",
+          "value": "Käsealternative"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_milchartrohstoff",
+      "label": "Milchart/Rohstoff",
+      "values": [
+        {
+          "value_code": "MISO_milchartrohstoff_kokosoel",
+          "value": "Kokosöl"
+        },
+        {
+          "value_code": "MISO_milchartrohstoff_lupinen",
+          "value": "Lupinen"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_wuerzigkeit",
+      "label": "Würzigkeit",
+      "values": [
+        {
+          "value_code": "MISO_wuerzigkeit_mild",
+          "value": "mild"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_VEGETARIANISM",
+      "label": "Vegetarismus",
+      "values": [
+        {
+          "value_code": "MAPI_VEGETARIANISM_vegan",
+          "value": "vegan"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/99a05c7a1f453862c2fa79728ab51759d49d82db/reibgenuss-vegan.jpg",
+    "stack": "https://image.migros.ch/{stack}/99a05c7a1f453862c2fa79728ab51759d49d82db/reibgenuss-vegan.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/4c72916433ab2f1336c1f15088d96ae69b7d1a37/reibgenuss-vegan.png",
+    "stack": "https://image.migros.ch/{stack}/4c72916433ab2f1336c1f15088d96ae69b7d1a37/reibgenuss-vegan.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZFRP",
+          "value": "Frische Beschaffung"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "1",
+          "value": "Molki"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "70458",
+          "value": "VEGANE KAESEALTERNATIVEN"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/203566500000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/reibgenuss-vegan",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/203566500000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/reibgenuss-vegan",
+      "type": "info",
+      "purchasable": false
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/4988700",
+      "app_url": "leshop:///catalog/article/detail?ean=7613404168417",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/reibgenuss-vegan",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "updated_at": "2020-09-16T05:47:06+0200",
+  "receipt_text": "Veganer Reibgenuss",
+  "price": {
+    "valid_from": "2019-06-20T00:00:00+0200",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 4.9,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "200g"
+    },
+    "base": {
+      "price": 2.45,
+      "quantity": 100,
+      "unit": "g"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 24,
+    "average_all": 4
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

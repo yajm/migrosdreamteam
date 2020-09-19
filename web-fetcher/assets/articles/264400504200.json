@@ -1,0 +1,416 @@
+{
+  "id": "264400504200",
+  "language": "de",
+  "name": "Kiwis",
+  "slug": "kiwis",
+  "boss_number": "050215421010",
+  "description": {
+    "text": "Die auch als Chinesische Stachelbeere bezeichnete Frucht verf&uuml;gt &uuml;ber ein feines, s&uuml;ss- s&auml;uerliches und erfrischendes Aroma.",
+    "source": "PIM"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7613269171522"
+  ],
+  "brand": {
+    "id": "K84",
+    "name": "Zespri",
+    "slug": "zespri"
+  },
+  "categories": [
+    {
+      "code": "BeSS_0101190102",
+      "name": "Südfrüchte",
+      "slug": "supermarkt/lebensmittel/fruechte-gemuese/fruechte/suedfruechte",
+      "visible": true,
+      "title": "Fruchtig und aromatisch: Exotische Früchte aus Ihrer Migros",
+      "parent_code": "BeSS_01011901",
+      "level": 5
+    },
+    {
+      "code": "BeSS_01011901",
+      "name": "Früchte",
+      "slug": "supermarkt/lebensmittel/fruechte-gemuese/fruechte",
+      "visible": true,
+      "title": "Früchte – in Ihrer Migros täglich frisch",
+      "parent_code": "BeSS_010119",
+      "level": 4
+    },
+    {
+      "code": "BeSS_010119",
+      "name": "Früchte & Gemüse",
+      "slug": "supermarkt/lebensmittel/fruechte-gemuese",
+      "visible": true,
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/f839060a505bba25c0f37585edb558c003c50479/fruechte-gemuese.jpg",
+        "stack": "https://image.migros.ch/{stack}/f839060a505bba25c0f37585edb558c003c50479/fruechte-gemuese.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_ExotischeFruechte_Fruechte_FruechteGemuese",
+        "name": "Exotische Früchte",
+        "slug": "amigos/fruechte-gemuese/fruechte/exotische-fruechte",
+        "visible": true,
+        "parent_code": "AMIG_CAT_Fruechte_FruechteGemuese",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_Fruechte_FruechteGemuese",
+        "name": "Früchte",
+        "slug": "amigos/fruechte-gemuese/fruechte",
+        "visible": true,
+        "parent_code": "AMIG_CAT_FruechteGemuese",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_FruechteGemuese",
+        "name": "Früchte & Gemüse",
+        "slug": "amigos/fruechte-gemuese",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "features": [
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_schale",
+          "value": "Schale"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_handelsklasse",
+      "label": "Handelsklasse (Qualität)",
+      "values": [
+        {
+          "value_code": "MISO_handelsklasse_i",
+          "value": "I"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_fruchtfleischfarbe",
+      "label": "Fruchtfleischfarbe",
+      "values": [
+        {
+          "value_code": "MISO_fruchtfleischfarbe_gruen",
+          "value": "Grün"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_verwendungszweckvonobstfruechten",
+      "label": "Verwendungszweck",
+      "values": [
+        {
+          "value_code": "MISO_verwendungszweckvonobstfruechten_29",
+          "value": "Passt zu Fleisch und Geflügel. Schmeckt in Sommersalaten, als Konfitüre, Pickles oder Tortenbelag. Kiwis enthalten ein Enzym, das Milchprodukte bitter schmecken und Gelatine nicht fest werden lässt."
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aufbewahrunghaltbarkeit",
+      "label": "Aufbewahrung/Haltbarkeit",
+      "values": [
+        {
+          "value_code": "MISO_aufbewahrunghaltbarkeit_22",
+          "value": "Im Kühlschrank sind reife Kiwis einige Tage haltbar. Früchte, die noch fest sind, können im Kühlschrank bis zu 2 Wochen aufbewahrt werden. Von Obst trennen, da Kiwis sonst schnell überreifen."
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_saison",
+      "label": "Saison",
+      "values": [
+        {
+          "value_code": "MISO_saison_novembermai",
+          "value": "November - Mai"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_sorte",
+      "label": "Sorte",
+      "values": [
+        {
+          "value_code": "MISO_sorte_hayward",
+          "value": "Hayward"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/a5452b4927c5a69cca9643b6c6e499ad39a2d9d8/kiwis.jpg",
+    "stack": "https://image.migros.ch/{stack}/a5452b4927c5a69cca9643b6c6e499ad39a2d9d8/kiwis.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/328709877d136f1100f4c6c7080f8e3b7a18d541/kiwis.png",
+    "stack": "https://image.migros.ch/{stack}/328709877d136f1100f4c6c7080f8e3b7a18d541/kiwis.png"
+  },
+  "additional_images": [
+    {
+      "original": "https://image.migros.ch/original/7165a8d29fcf4f175800e39bb7b04fb1e619aa7c.jpg",
+      "stack": "https://image.migros.ch/{stack}/7165a8d29fcf4f175800e39bb7b04fb1e619aa7c.jpg"
+    },
+    {
+      "original": "https://image.migros.ch/original/dd955b74e2a29bb6314fa089667bca8a3b823b6d.jpg",
+      "stack": "https://image.migros.ch/{stack}/dd955b74e2a29bb6314fa089667bca8a3b823b6d.jpg"
+    }
+  ],
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_sortierung",
+      "label": "Sortierung aMigos",
+      "values": [
+        {
+          "value_code": "NUMERIC_100",
+          "value": "100",
+          "numeric_value": 100
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_verkaufseinheit",
+      "label": "Verkaufseinheit",
+      "values": [
+        {
+          "value_code": "NUMERIC_1.0",
+          "value": "1.0 Schale",
+          "numeric_value": 1
+        }
+      ],
+      "top_fact": false,
+      "unit_code": "Schale",
+      "unit": "Schale",
+      "unit_symbol": "Schale"
+    },
+    {
+      "label_code": "MISO_aMigos_gewicht",
+      "label": "Gewicht aMigos!",
+      "values": [
+        {
+          "value_code": "NUMERIC_500.0",
+          "value": "500.0 g",
+          "numeric_value": 500
+        }
+      ],
+      "top_fact": false,
+      "unit_code": "g",
+      "unit": "Gramm",
+      "unit_symbol": "g"
+    },
+    {
+      "label_code": "MISO_aMigos_volumen",
+      "label": "Volumen aMigos!",
+      "values": [
+        {
+          "value_code": "NUMERIC_1.045",
+          "value": "1.045 l",
+          "numeric_value": 1.045
+        }
+      ],
+      "top_fact": false,
+      "unit_code": "l",
+      "unit": "Liter",
+      "unit_symbol": "l"
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZFRP",
+          "value": "Frische Beschaffung"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "2",
+          "value": "Früchte und Gemüse"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "71408",
+          "value": "EXOTEN"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/264400504200",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/kiwis",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/264400504200",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/kiwis",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "updated_at": "2020-09-16T05:54:38+0200",
+  "receipt_text": "Kiwis",
+  "price": {
+    "valid_from": "2020-09-13T00:00:00+0200",
+    "valid_to": "2020-09-28T23:59:59+0200",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 2.65,
+      "original_price": 2.8,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "500g"
+    },
+    "discount": {
+      "id": "1601801",
+      "region": "national",
+      "start_date": "2020-09-13T00:00:00+0200",
+      "end_date": "2020-09-28T23:59:59+0200",
+      "publication_date": "2020-09-11T00:00:00+0200",
+      "discount_regions": [
+        "national",
+        "gmaa",
+        "gmbs",
+        "gmge",
+        "gmlu",
+        "gmnf",
+        "gmos",
+        "gmti",
+        "gmvs",
+        "gmzh"
+      ],
+      "reference_product_id": "264400504200",
+      "discount_type": "aktion",
+      "discount_type_id": "007",
+      "discount_type_label": "SORT Sortimentsangebot ohne Preisreduktion",
+      "organisation": "03",
+      "cooperative": "mgb",
+      "image": {
+        "tags": [
+          "list-image"
+        ],
+        "original": "https://image.migros.ch/original/36331657ea4cb2edc1a8d214b5a8c3cb8e7beaa4/kiwi-gruen.jpg",
+        "source": "PriceRepository",
+        "stack": "https://image.migros.ch/{stack}/36331657ea4cb2edc1a8d214b5a8c3cb8e7beaa4/kiwi-gruen.jpg"
+      },
+      "image_transparent": {
+        "original": "https://image.migros.ch/original/36331657ea4cb2edc1a8d214b5a8c3cb8e7beaa4/kiwi-gruen.png",
+        "source": "PriceRepository",
+        "stack": "https://image.migros.ch/{stack}/36331657ea4cb2edc1a8d214b5a8c3cb8e7beaa4/kiwi-gruen.png"
+      },
+      "badge": {
+        "original": "https://image.migros.ch/original/d3e3845b280bcbefeb61f7439ab786a085ff0cd4.png",
+        "stack": "https://image.migros.ch/{stack}/d3e3845b280bcbefeb61f7439ab786a085ff0cd4.png"
+      },
+      "location_planning_type": "01",
+      "reduction_type_id": "08",
+      "special_advertisement": false,
+      "description": "Kiwi grün",
+      "discount_hint": "Neuseeland, Schale, 500 g Angebot gilt nur vom 15.9. bis 28.9.2020, solange Vorrat.",
+      "high_performer": false,
+      "collective_discount": false,
+      "instead_of": "bisher",
+      "price": 2.65,
+      "original_price": 2.8,
+      "disclaimer": "Gültigkeit siehe Angebots-Detailseite.\r\nBei allen Angeboten sind M-Budget und bereits reduzierte Artikel ausgenommen.\r\nBei Aktionen können bei der Verrechnung auf dem Kassabon Rundungsdifferenzen zu Gunsten des Kunden entstehen.",
+      "source": "PriceRepository",
+      "boss_number": "050215421010",
+      "discount_role_id": "1000000008",
+      "discount_role_label": "Sortimentskompetenz (SORT)",
+      "last_imported": "2020-09-12T16:15:11+0200"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 4,
+    "average_all": 4
+  },
+  "reindex_date": "2020-09-28T23:59:59+0200"
+}

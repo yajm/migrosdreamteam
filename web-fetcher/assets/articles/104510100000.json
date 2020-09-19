@@ -1,0 +1,220 @@
+{
+  "id": "104510100000",
+  "language": "de",
+  "name": "Bio Steinpilze getrocknet",
+  "slug": "bio-steinpilze-getrocknet",
+  "boss_number": "011011263010",
+  "description": {
+    "text": "Steinpilze getrocknet aus ausl&auml;ndischer Bio Produktion",
+    "source": "PIM"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "source-qim-origins",
+    "validity-range-not-set",
+    "source-qim-fooddeclaration",
+    "source-qim-nutritionfacts",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7613312068519",
+    "7613269346760"
+  ],
+  "labels": [
+    {
+      "id": "L02",
+      "name": "Migros Bio",
+      "slug": "migros-bio",
+      "image": {
+        "original": "https://image.migros.ch/original/f32d1804b8db5760147310b8d6458eb36757b486/migros-bio.jpg",
+        "stack": "https://image.migros.ch/{stack}/f32d1804b8db5760147310b8d6458eb36757b486/migros-bio.jpg"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_01011407",
+      "name": "Pilze",
+      "slug": "supermarkt/lebensmittel/pasta-zutaten-konserven/pilze",
+      "visible": true,
+      "parent_code": "BeSS_010114",
+      "image": {
+        "original": "https://image.migros.ch/original/5a66d0bb2049dfb8996a4a86c638106d5e76733c/pilze.jpg",
+        "stack": "https://image.migros.ch/{stack}/5a66d0bb2049dfb8996a4a86c638106d5e76733c/pilze.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010114",
+      "name": "Pasta, Zutaten & Konserven",
+      "slug": "supermarkt/lebensmittel/pasta-zutaten-konserven",
+      "visible": true,
+      "title": "Pasta aus Ihrer Migros: alles rund um Teigwaren",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/6d0964bbb34b8e041ba4d74fc0c90b149907f46a/pasta-zutaten-konserven.jpg",
+        "stack": "https://image.migros.ch/{stack}/6d0964bbb34b8e041ba4d74fc0c90b149907f46a/pasta-zutaten-konserven.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "features": [
+    {
+      "label_code": "MISO_produktionsanspruch",
+      "label": "Produktionsverfahren",
+      "values": [
+        {
+          "value_code": "MISO_produktionsanspruch_bioproduktion",
+          "value": "Bio-Produktion"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_beutelsack",
+          "value": "Beutel/Sack"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_herstellungsverfahrenkochprozess",
+      "label": "Herstellungsverfahren/Kochprozess",
+      "values": [
+        {
+          "value_code": "MISO_herstellungsverfahrenkochprozess_getrocknet",
+          "value": "getrocknet"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_sorte",
+      "label": "Sorte",
+      "values": [
+        {
+          "value_code": "MISO_sorte_steinpilze",
+          "value": "Steinpilze"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/faec08985f53ec896ae2b3242efa80dca69ae23a/bio-steinpilze-getrocknet.jpg",
+    "stack": "https://image.migros.ch/{stack}/faec08985f53ec896ae2b3242efa80dca69ae23a/bio-steinpilze-getrocknet.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/39a8beff488c1c9cc3d602cbf33b9276a65f97e9/bio-steinpilze-getrocknet.png",
+    "stack": "https://image.migros.ch/{stack}/39a8beff488c1c9cc3d602cbf33b9276a65f97e9/bio-steinpilze-getrocknet.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "M",
+          "value": "Kolonial Standard"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "11009",
+          "value": "PILZE"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/104510100000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/bio-steinpilze-getrocknet",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/104510100000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/bio-steinpilze-getrocknet",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "updated_at": "2020-09-15T05:47:08+0200",
+  "receipt_text": "Bio Steinpilze getrock",
+  "price": {
+    "valid_from": "2018-01-29T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 4.5,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "30g"
+    },
+    "base": {
+      "price": 15,
+      "quantity": 100,
+      "unit": "g"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 4,
+    "average_all": 4.75
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

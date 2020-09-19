@@ -1,0 +1,351 @@
+{
+  "id": "106688200000",
+  "language": "de",
+  "name": "Heinz Ketchup Light",
+  "slug": "heinz-ketchup-light",
+  "boss_number": "011011292005",
+  "description": {
+    "text": "<p><strong>HEINZ TOMATO KETCHUP</strong> - 50% weniger Zucker und Salz</p><p>Heinz Tomato Ketchup jetzt mit 50% weniger Zucker und 50% weniger Salz*. Purer Genuss mit der nat&uuml;rlichen S&uuml;sse aus Stevia und 100% unverwechselbarer Heinz Tomaten Geschmack. *als herk&ouml;mmlicher Heinz Tomato Ketchup</p>",
+    "source": "PIM"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "source-qim-origins",
+    "source-qim-distributor",
+    "validity-range-not-set",
+    "source-qim-allergens",
+    "source-qim-fooddeclaration",
+    "source-qim-nutritionfacts",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "8715700423869"
+  ],
+  "brand": {
+    "id": "080",
+    "name": "Heinz",
+    "slug": "heinz"
+  },
+  "categories": [
+    {
+      "code": "BeSS_0101140907",
+      "name": "Ketchup",
+      "slug": "supermarkt/lebensmittel/pasta-zutaten-konserven/suppen-saucen-bouillon/ketchup",
+      "visible": true,
+      "parent_code": "BeSS_01011409",
+      "image": {
+        "original": "https://image.migros.ch/original/0fda9979470d2c2121a82228ed829e646d5b0f9b/ketchup.jpg",
+        "stack": "https://image.migros.ch/{stack}/0fda9979470d2c2121a82228ed829e646d5b0f9b/ketchup.jpg"
+      },
+      "level": 5
+    },
+    {
+      "code": "BeSS_01011409",
+      "name": "Suppen, Saucen & Bouillon",
+      "slug": "supermarkt/lebensmittel/pasta-zutaten-konserven/suppen-saucen-bouillon",
+      "visible": true,
+      "title": "Bouillon in Ihrer Migros kaufen",
+      "parent_code": "BeSS_010114",
+      "image": {
+        "original": "https://image.migros.ch/original/5f7779de5b06c3e5051c0ccdb81a414859a26cf5/suppen-saucen-bouillon.jpg",
+        "stack": "https://image.migros.ch/{stack}/5f7779de5b06c3e5051c0ccdb81a414859a26cf5/suppen-saucen-bouillon.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010114",
+      "name": "Pasta, Zutaten & Konserven",
+      "slug": "supermarkt/lebensmittel/pasta-zutaten-konserven",
+      "visible": true,
+      "title": "Pasta aus Ihrer Migros: alles rund um Teigwaren",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/6d0964bbb34b8e041ba4d74fc0c90b149907f46a/pasta-zutaten-konserven.jpg",
+        "stack": "https://image.migros.ch/{stack}/6d0964bbb34b8e041ba4d74fc0c90b149907f46a/pasta-zutaten-konserven.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_MayoKetchup_SalatsaucenkalteSaucen_Grundnahrungsmittel",
+        "name": "Mayo & Ketchup",
+        "slug": "amigos/grundnahrungsmittel/salatsaucen-kalte-saucen/mayo-ketchup",
+        "visible": true,
+        "parent_code": "AMIG_CAT_SalatsaucenkalteSaucen_Grundnahrungsmittel",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_SalatsaucenkalteSaucen_Grundnahrungsmittel",
+        "name": "Salatsaucen & kalte Saucen",
+        "slug": "amigos/grundnahrungsmittel/salatsaucen-kalte-saucen",
+        "visible": true,
+        "parent_code": "AMIG_CAT_Grundnahrungsmittel",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_Grundnahrungsmittel",
+        "name": "Grundnahrungsmittel",
+        "slug": "amigos/grundnahrungsmittel",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "features": [
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_flasche",
+          "value": "Flasche"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_prozentderreduzierung",
+      "label": "Prozent der Reduzierung",
+      "values": [
+        {
+          "value": "50% weniger Zucker, 50% weniger Salz"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zubereitungsverfahren",
+      "label": "Hinweise für die Zubereitung",
+      "values": [
+        {
+          "value_code": "MISO_zubereitungsverfahren_verzehrfertig",
+          "value": "Verzehrfertig"
+        },
+        {
+          "value_code": "MISO_zubereitungsverfahren_zumwuerzengeeignet",
+          "value": "Zum Würzen geeignet"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zusatzangaben",
+      "label": "Zusatzangaben",
+      "values": [
+        {
+          "value_code": "MISO_zusatzangaben_104",
+          "value": "Nach dem öffnen im Kühlschrank aufbewahren und rasch konsumieren."
+        },
+        {
+          "value_code": "MISO_zusatzangaben_30",
+          "value": "Vor Gebrauch schütteln"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_hefefrei",
+      "label": "Hefefrei",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_artvonsaucedip",
+      "label": "Art von Sauce/Dip",
+      "values": [
+        {
+          "value_code": "MISO_artvonsaucedip_tomatenketchup",
+          "value": "Tomatenketchup"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_vorgeseheneverwendungdersauce",
+      "label": "Vorgesehene Verwendung der Sauce",
+      "values": [
+        {
+          "value_code": "MISO_vorgeseheneverwendungdersauce_burger",
+          "value": "Burger"
+        },
+        {
+          "value_code": "MISO_vorgeseheneverwendungdersauce_dip",
+          "value": "Dip"
+        },
+        {
+          "value_code": "MISO_vorgeseheneverwendungdersauce_fleischgerichte",
+          "value": "Fleischgerichte"
+        },
+        {
+          "value_code": "MISO_vorgeseheneverwendungdersauce_gefluegelgerichte",
+          "value": "Geflügelgerichte"
+        },
+        {
+          "value_code": "MISO_vorgeseheneverwendungdersauce_steak",
+          "value": "Steak"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_eignungfuerverzehrsituation",
+      "label": "Eignung für Verzehrsituation",
+      "values": [
+        {
+          "value_code": "MISO_eignungfuerverzehrsituation_verzehrfertig",
+          "value": "Verzehrfertig"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/12b91e08d02085519ed6164534aca14446331ef7/heinz-ketchup-light.jpg",
+    "stack": "https://image.migros.ch/{stack}/12b91e08d02085519ed6164534aca14446331ef7/heinz-ketchup-light.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/f32ca36b1fd0e7bf9b91958e5548e1c9b93de8ea/heinz-ketchup-light.png",
+    "stack": "https://image.migros.ch/{stack}/f32ca36b1fd0e7bf9b91958e5548e1c9b93de8ea/heinz-ketchup-light.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "M",
+          "value": "Kolonial Standard"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "10145",
+          "value": "KETCHUP"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/106688200000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/heinz-ketchup-light",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/106688200000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/heinz-ketchup-light",
+      "type": "info",
+      "purchasable": false
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/12155",
+      "app_url": "leshop:///catalog/article/detail?ean=8715700423869",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/heinz-ketchup-light",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "updated_at": "2020-09-16T05:40:20+0200",
+  "receipt_text": "Heinz Ketchup Light",
+  "price": {
+    "valid_from": "2019-05-06T00:00:00+0200",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 3.95,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "550g"
+    },
+    "base": {
+      "price": 0.72,
+      "quantity": 100,
+      "unit": "g"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 7,
+    "average_all": 4.428571428571
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

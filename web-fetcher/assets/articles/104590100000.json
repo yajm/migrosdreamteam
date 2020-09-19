@@ -1,0 +1,155 @@
+{
+  "id": "104590100000",
+  "language": "de",
+  "name": "Steinpilze getrocknet",
+  "slug": "steinpilze-getrocknet-104590100000",
+  "boss_number": "011011263015",
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "8006745023955"
+  ],
+  "categories": [
+    {
+      "code": "BeSS_01011407",
+      "name": "Pilze",
+      "slug": "supermarkt/lebensmittel/pasta-zutaten-konserven/pilze",
+      "visible": true,
+      "parent_code": "BeSS_010114",
+      "image": {
+        "original": "https://image.migros.ch/original/5a66d0bb2049dfb8996a4a86c638106d5e76733c/pilze.jpg",
+        "stack": "https://image.migros.ch/{stack}/5a66d0bb2049dfb8996a4a86c638106d5e76733c/pilze.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010114",
+      "name": "Pasta, Zutaten & Konserven",
+      "slug": "supermarkt/lebensmittel/pasta-zutaten-konserven",
+      "visible": true,
+      "title": "Pasta aus Ihrer Migros: alles rund um Teigwaren",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/6d0964bbb34b8e041ba4d74fc0c90b149907f46a/pasta-zutaten-konserven.jpg",
+        "stack": "https://image.migros.ch/{stack}/6d0964bbb34b8e041ba4d74fc0c90b149907f46a/pasta-zutaten-konserven.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/85bc4c645c8defec10dd85d4eb28651330ef931e/steinpilze-getrocknet.jpg",
+    "stack": "https://image.migros.ch/{stack}/85bc4c645c8defec10dd85d4eb28651330ef931e/steinpilze-getrocknet.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/dc83e069e753a5b69b61a4c46bde39e6c1331628/steinpilze-getrocknet.png",
+    "stack": "https://image.migros.ch/{stack}/dc83e069e753a5b69b61a4c46bde39e6c1331628/steinpilze-getrocknet.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "M",
+          "value": "Kolonial Standard"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "11009",
+          "value": "PILZE"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/104590100000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/steinpilze-getrocknet-104590100000",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/104590100000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/steinpilze-getrocknet-104590100000",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "updated_at": "2020-09-09T03:11:24+0200",
+  "receipt_text": "Getr. Steinpilze",
+  "price": {
+    "valid_from": "2017-01-23T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 8.6,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "50g"
+    },
+    "base": {
+      "price": 1.72,
+      "quantity": 10,
+      "unit": "g"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 1,
+    "average_all": 5
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

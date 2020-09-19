@@ -1,0 +1,407 @@
+{
+  "id": "104462100000",
+  "language": "de",
+  "name": "Alnatura Veggie Bratwürstchen",
+  "slug": "alnatura-veggie-bratwuerstchen",
+  "boss_number": "011011263505",
+  "description": {
+    "text": "<p>Bio-Qualit&auml;t\n<br />vegan\n<br />Seitan und Tofu als Basis\n<br />gegrillt zu Salaten, Gem&uuml;sepfannen, Suppen, Eint&ouml;pfen und Co.</p><p>Gr&uuml;nde, auf Fleisch zu verzichten, gibt es viele &ndash; mit diesen veganen W&uuml;rstchen kommt ein weiterer hinzu. Die Basis der veganen Alnatura &bdquo;Bratw&uuml;rstchen&ldquo; sind Seitan und Tofu, Gew&uuml;rze sorgen f&uuml;r den herzhaften Geschmack. Mit etwas &Ouml;l bestrichen und in einer Pfanne oder auf dem Grill angebraten, schmecken die W&uuml;rstchen besonders gut und passen zu Salaten, Gem&uuml;sepfannen oder als vegetarische Currywurst. Alle landwirtschaftlichen Zutaten stammen aus Bio-Anbau.</p>",
+    "source": "PIM"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "source-qim-origins",
+    "source-qim-distributor",
+    "validity-range-not-set",
+    "source-qim-allergens",
+    "source-qim-fooddeclaration",
+    "source-qim-nutritionfacts",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "42239482",
+    "7613269431947"
+  ],
+  "brand": {
+    "id": "D06",
+    "name": "Alnatura",
+    "slug": "alnatura",
+    "links": {
+      "homepage": {
+        "url": "https://alnatura.migros.ch/de.html",
+        "name": "Homepage",
+        "type": "info",
+        "purchasable": false
+      }
+    },
+    "image": {
+      "original": "https://image.migros.ch/original/2c0deb7a67525727ed8213ce2b42bc8a6eb35567/alnatura.jpg",
+      "stack": "https://image.migros.ch/{stack}/2c0deb7a67525727ed8213ce2b42bc8a6eb35567/alnatura.jpg"
+    }
+  },
+  "labels": [
+    {
+      "id": "L55",
+      "name": "Veganblume",
+      "slug": "veganblume",
+      "image": {
+        "original": "https://image.migros.ch/original/3eaf56466dd201e7010a81e9bc118d140e93b71b/veganblume.jpg",
+        "stack": "https://image.migros.ch/{stack}/3eaf56466dd201e7010a81e9bc118d140e93b71b/veganblume.jpg"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_01011405",
+      "name": "Bio Beilagen",
+      "slug": "supermarkt/lebensmittel/pasta-zutaten-konserven/bio-beilagen",
+      "visible": true,
+      "title": "Fein: Bio-Beilagen aus der Migros",
+      "parent_code": "BeSS_010114",
+      "image": {
+        "original": "https://image.migros.ch/original/d67cdae8313015529d76c59db4d6fdb7d2777355/bio-beilagen.jpg",
+        "stack": "https://image.migros.ch/{stack}/d67cdae8313015529d76c59db4d6fdb7d2777355/bio-beilagen.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010114",
+      "name": "Pasta, Zutaten & Konserven",
+      "slug": "supermarkt/lebensmittel/pasta-zutaten-konserven",
+      "visible": true,
+      "title": "Pasta aus Ihrer Migros: alles rund um Teigwaren",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/6d0964bbb34b8e041ba4d74fc0c90b149907f46a/pasta-zutaten-konserven.jpg",
+        "stack": "https://image.migros.ch/{stack}/6d0964bbb34b8e041ba4d74fc0c90b149907f46a/pasta-zutaten-konserven.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "ALNA_CAT_VegetarischeWurstBratlingeundTofu",
+        "name": "Vegetarische Wurst, Bratlinge und Tofu",
+        "slug": "alnatura/vegetarische-wurst-bratlinge-und-tofu",
+        "visible": true,
+        "parent_code": "BeSS_97",
+        "level": 2
+      },
+      {
+        "code": "BeSS_97",
+        "name": "Alnatura",
+        "slug": "alnatura",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ],
+    [
+      {
+        "code": "AMIG_CAT_Fleischersatz_FleischFisch",
+        "name": "Fleischersatz",
+        "slug": "amigos/fleisch-fisch/fleischersatz",
+        "visible": true,
+        "parent_code": "AMIG_CAT_FleischFisch",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_FleischFisch",
+        "name": "Fleisch & Fisch",
+        "slug": "amigos/fleisch-fisch",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ],
+    [
+      {
+        "code": "AMIG_CAT_Fleischersatz_Grundnahrungsmittel",
+        "name": "Fleischersatz",
+        "slug": "amigos/grundnahrungsmittel/fleischersatz",
+        "visible": true,
+        "parent_code": "AMIG_CAT_Grundnahrungsmittel",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_Grundnahrungsmittel",
+        "name": "Grundnahrungsmittel",
+        "slug": "amigos/grundnahrungsmittel",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "features": [
+    {
+      "label_code": "MISO_produktionsanspruch",
+      "label": "Produktionsverfahren",
+      "values": [
+        {
+          "value_code": "MISO_produktionsanspruch_bioproduktion",
+          "value": "Bio-Produktion"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_kunststoffverpackung",
+          "value": "Kunststoff-Verpackung"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zubereitungsverfahren",
+      "label": "Hinweise für die Zubereitung",
+      "values": [
+        {
+          "value_code": "MISO_zubereitungsverfahren_braten",
+          "value": "Braten"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_musserwaermtwerden",
+      "label": "Muss erwärmt werden",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_mahlzeit",
+      "label": "Mahlzeit",
+      "values": [
+        {
+          "value_code": "MISO_mahlzeit_hauptmahlzeit",
+          "value": "Hauptmahlzeit"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_produktionslandherstellungsort",
+      "label": "Produktionsland/Herstellungsort",
+      "values": [
+        {
+          "value_code": "MISO_produktionslandherstellungsort_deutschland",
+          "value": "Deutschland"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_unterscheidendebestandteile",
+      "label": "Unterscheidende Bestandteile",
+      "values": [
+        {
+          "value_code": "MISO_unterscheidendebestandteile_seitan",
+          "value": "Seitan"
+        },
+        {
+          "value_code": "MISO_unterscheidendebestandteile_tofu",
+          "value": "Tofu"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_VEGETARIANISM",
+      "label": "Vegetarismus",
+      "values": [
+        {
+          "value_code": "MAPI_VEGETARIANISM_vegan",
+          "value": "vegan"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/6e83b54911abccc48b9044f85180a531684e6e9b/alnatura-veggie-bratwuerstchen.jpg",
+    "stack": "https://image.migros.ch/{stack}/6e83b54911abccc48b9044f85180a531684e6e9b/alnatura-veggie-bratwuerstchen.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/99d8fefc4d4ec1210358b5c4414c8a6642955400/alnatura-veggie-bratwuerstchen.png",
+    "stack": "https://image.migros.ch/{stack}/99d8fefc4d4ec1210358b5c4414c8a6642955400/alnatura-veggie-bratwuerstchen.png"
+  },
+  "additional_images": [
+    {
+      "original": "https://image.migros.ch/original/cf8d2f58cd91d2933e9b970cf16eec0229884985.jpg",
+      "stack": "https://image.migros.ch/{stack}/cf8d2f58cd91d2933e9b970cf16eec0229884985.jpg"
+    }
+  ],
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_sortierung",
+      "label": "Sortierung aMigos",
+      "values": [
+        {
+          "value_code": "NUMERIC_250",
+          "value": "250",
+          "numeric_value": 250
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "M",
+          "value": "Kolonial Standard"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "11010",
+          "value": "ALNATURA BEILAGEN"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUSTOMS_POSITION",
+      "values": [
+        {
+          "value_code": "2106.9074"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/104462100000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/alnatura-veggie-bratwuerstchen",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/104462100000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/alnatura-veggie-bratwuerstchen",
+      "type": "info",
+      "purchasable": false
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/224512",
+      "app_url": "leshop:///catalog/article/detail?ean=42239482",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/alnatura-veggie-bratwuerstchen",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "updated_at": "2020-09-16T06:51:05+0200",
+  "receipt_text": "Alnatura Veggie Bratw.",
+  "price": {
+    "valid_from": "2019-03-13T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 4.1,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "250g"
+    },
+    "base": {
+      "price": 1.64,
+      "quantity": 100,
+      "unit": "g"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 19,
+    "average_all": 3.631578947368
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

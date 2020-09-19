@@ -1,0 +1,352 @@
+{
+  "id": "122046300000",
+  "language": "de",
+  "name": "Oasis Pfirsich",
+  "slug": "oasis-pfirsich-122046300000",
+  "boss_number": "010710392605",
+  "description": {
+    "text": "<p>OASIS PFIRSICH, Limonade mit Pfirsichgeschmack, pasteurisiert</p>",
+    "source": "PIM"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "8435185966490"
+  ],
+  "brand": {
+    "id": "397",
+    "name": "Oasis",
+    "slug": "oasis"
+  },
+  "categories": [
+    {
+      "code": "BeSS_01011007",
+      "name": "Fruchtsäfte & Gemüsesäfte",
+      "slug": "supermarkt/lebensmittel/getraenke-heiss-kalt/fruchtsaefte-gemuesesaefte",
+      "visible": true,
+      "title": "Fruchtsäfte in Ihrer Migros kaufen",
+      "parent_code": "BeSS_010110",
+      "image": {
+        "original": "https://image.migros.ch/original/00f501bbe0ba9efd6b668f7490cd907be904396d/fruchtsaefte-gemuesesaefte.jpg",
+        "stack": "https://image.migros.ch/{stack}/00f501bbe0ba9efd6b668f7490cd907be904396d/fruchtsaefte-gemuesesaefte.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010110",
+      "name": "Getränke heiss & kalt",
+      "slug": "supermarkt/lebensmittel/getraenke-heiss-kalt",
+      "visible": true,
+      "title": "Getränke aus der Migros löschen auch Ihren Durst",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/d04d95fbc2e1b4ada4783d2976d37a962a0318a1/getraenke-heiss-kalt.jpg",
+        "stack": "https://image.migros.ch/{stack}/d04d95fbc2e1b4ada4783d2976d37a962a0318a1/getraenke-heiss-kalt.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_Suessgetraenke_SuessgetraenkeSirup_Getraenke",
+        "name": "Süssgetränke",
+        "slug": "amigos/getraenke/suessgetraenke-sirup/suessgetraenke",
+        "visible": true,
+        "parent_code": "AMIG_CAT_SuessgetraenkeSirup_Getraenke",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_SuessgetraenkeSirup_Getraenke",
+        "name": "Süssgetränke & Sirup",
+        "slug": "amigos/getraenke/suessgetraenke-sirup",
+        "visible": true,
+        "parent_code": "AMIG_CAT_Getraenke",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_Getraenke",
+        "name": "Getränke",
+        "slug": "amigos/getraenke",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "features": [
+    {
+      "label_code": "MISO_produktionsanspruch",
+      "label": "Produktionsverfahren",
+      "values": [
+        {
+          "value_code": "MISO_produktionsanspruch_mitsuessungsmitteln",
+          "value": "Mit Süssungsmitteln"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_flasche",
+          "value": "Flasche"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_naehrwertanspruch",
+      "label": "Nährwertanspruch",
+      "values": [
+        {
+          "value_code": "MISO_naehrwertanspruch_ohnekonservierungsstoffe",
+          "value": "Ohne Konservierungsstoffe"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_kohlensaeurehaltig",
+      "label": "Kohlensäurehaltig",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "Nein",
+          "boolean_value": false
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_artvonerfrischungsgetraenk",
+      "label": "Art von Erfrischungsgetränk",
+      "values": [
+        {
+          "value_code": "MISO_artvonerfrischungsgetraenk_limonade",
+          "value": "Limonade"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_auskonzentrat",
+      "label": "Aus Konzentrat",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_saftsorte",
+      "label": "Saftsorte",
+      "values": [
+        {
+          "value_code": "MISO_saftsorte_pfirsich",
+          "value": "Pfirsich"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_behandlungdesgetraenks",
+      "label": "Behandlung des Getränks",
+      "values": [
+        {
+          "value_code": "MISO_behandlungdesgetraenks_pasteurisiert",
+          "value": "pasteurisiert"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/9a574d765ba7395517030d238bac0cf696443015/oasis-pfirsich.jpg",
+    "stack": "https://image.migros.ch/{stack}/9a574d765ba7395517030d238bac0cf696443015/oasis-pfirsich.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/ddde50043ccbadecbe6a8fc729a5349970e39362/oasis-pfirsich.png",
+    "stack": "https://image.migros.ch/{stack}/ddde50043ccbadecbe6a8fc729a5349970e39362/oasis-pfirsich.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "A",
+          "value": "Aufreissartikel"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "10734",
+          "value": "FS KINDER"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/122046300000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/oasis-pfirsich-122046300000",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/122046300000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/oasis-pfirsich-122046300000",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "updated_at": "2020-09-16T05:43:50+0200",
+  "receipt_text": "Oasis Pfirsich 25cl",
+  "price": {
+    "valid_from": "2020-09-15T00:00:00+0200",
+    "valid_to": "2020-09-21T23:59:59+0200",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 0.75,
+      "original_price": 1.25,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "250ml"
+    },
+    "discount": {
+      "id": "1574648",
+      "region": "national",
+      "start_date": "2020-09-15T00:00:00+0200",
+      "end_date": "2020-09-21T23:59:59+0200",
+      "publication_date": "2020-09-13T00:00:00+0200",
+      "discount_amount": "40%",
+      "discount_regions": [
+        "national"
+      ],
+      "reference_product_id": "120902500000",
+      "discount_type": "aktion",
+      "discount_type_id": "001",
+      "discount_type_label": "SA Sonderangebot",
+      "organisation": "02",
+      "cooperative": "mgb",
+      "image": {
+        "tags": [
+          "list-image"
+        ],
+        "original": "https://image.migros.ch/original/9f82dc8b4c869a0c23ed30e307f6f66b2de6ef41/gesamtes-pepsi-7up-orangina-schwip-schwap-und-oasis-sortimen.jpg",
+        "source": "PriceRepository",
+        "stack": "https://image.migros.ch/{stack}/9f82dc8b4c869a0c23ed30e307f6f66b2de6ef41/gesamtes-pepsi-7up-orangina-schwip-schwap-und-oasis-sortimen.jpg"
+      },
+      "image_transparent": {
+        "original": "https://image.migros.ch/original/9f82dc8b4c869a0c23ed30e307f6f66b2de6ef41/gesamtes-pepsi-7up-orangina-schwip-schwap-und-oasis-sortimen.png",
+        "source": "PriceRepository",
+        "stack": "https://image.migros.ch/{stack}/9f82dc8b4c869a0c23ed30e307f6f66b2de6ef41/gesamtes-pepsi-7up-orangina-schwip-schwap-und-oasis-sortimen.png"
+      },
+      "badge": {
+        "original": "https://image.migros.ch/original/b8c16a614fa0d7be55216a40e71cc3bb84913b1e.png",
+        "stack": "https://image.migros.ch/{stack}/b8c16a614fa0d7be55216a40e71cc3bb84913b1e.png"
+      },
+      "location_planning_type": "01",
+      "reduction_type_id": "01",
+      "special_advertisement": false,
+      "advertisement_type_id": "2",
+      "description": "Gesamtes Pepsi-, 7up-, Orangina-, Schwip Schwap- und Oasis-Sortiment",
+      "discount_hint": "erhältlich in diversen Sorten, z.B. Pepsi Max, 6 x 1.5 Liter, <strong>6.60 </strong>statt 11.–, Angebot gilt nur vom 15.9. bis 21.9.2020, solange Vorrat.",
+      "high_performer": false,
+      "collective_discount": true,
+      "instead_of": "statt",
+      "price": 0.75,
+      "original_price": 1.25,
+      "disclaimer": "Gültigkeit siehe Angebots-Detailseite.\r\nBei allen Angeboten sind M-Budget und bereits reduzierte Artikel ausgenommen.\r\nBei Aktionen können bei der Verrechnung auf dem Kassabon Rundungsdifferenzen zu Gunsten des Kunden entstehen.",
+      "source": "PriceRepository",
+      "boss_number": "010710371105",
+      "discount_role_id": "2000000002",
+      "discount_role_label": "M: Wochenangebot Typ I",
+      "last_imported": "2020-09-07T15:15:18+0200"
+    },
+    "discount_hint": "Angebot gilt nur vom 15.9. bis 21.9.2020, solange Vorrat."
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 10,
+    "average_all": 3.333333333333
+  },
+  "reindex_date": "2020-09-21T23:59:59+0200"
+}

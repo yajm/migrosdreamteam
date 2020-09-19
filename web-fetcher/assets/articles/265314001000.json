@@ -1,0 +1,318 @@
+{
+  "id": "265314001000",
+  "language": "de",
+  "name": "Sélection Trauben Uva Italia",
+  "slug": "selection-trauben-uva-italia",
+  "boss_number": "050215440505",
+  "description": {
+    "text": "Die stramme Italienerin geh&ouml;rt zu den weissen, eher sp&auml;ten Sorten. Sie wurde 1911 in Rom gez&uuml;chtet und ist heute weltweit eine der beliebtesten Tafeltrauben. Uva Italia ist die h&auml;ufigste Sorte im italienischen Tafeltraubenanbau. Typisch f&uuml;r die grossen, festen Beeren, die gr&uuml;n bis gold-gelb sind, ist ihr leichter Muskatgeschmack.",
+    "source": "PIM"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "2158690000003",
+    "7613269579397"
+  ],
+  "brand": {
+    "id": "NB1",
+    "name": "Sélection",
+    "slug": "selection",
+    "links": {
+      "homepage": {
+        "url": "https://www.migros.ch/de/einkaufen/migros-marken/selection.html",
+        "name": "Homepage",
+        "type": "info",
+        "purchasable": false
+      }
+    },
+    "image": {
+      "original": "https://image.migros.ch/original/04f877657368f73f8ee8973aab7fd0cdfb8e2cd1/selection.jpg",
+      "stack": "https://image.migros.ch/{stack}/04f877657368f73f8ee8973aab7fd0cdfb8e2cd1/selection.jpg"
+    }
+  },
+  "categories": [
+    {
+      "code": "BeSS_0101190103",
+      "name": "Trauben",
+      "slug": "supermarkt/lebensmittel/fruechte-gemuese/fruechte/trauben",
+      "visible": true,
+      "title": "Trauben in Ihrer Migros kaufen",
+      "parent_code": "BeSS_01011901",
+      "level": 5
+    },
+    {
+      "code": "BeSS_01011901",
+      "name": "Früchte",
+      "slug": "supermarkt/lebensmittel/fruechte-gemuese/fruechte",
+      "visible": true,
+      "title": "Früchte – in Ihrer Migros täglich frisch",
+      "parent_code": "BeSS_010119",
+      "level": 4
+    },
+    {
+      "code": "BeSS_010119",
+      "name": "Früchte & Gemüse",
+      "slug": "supermarkt/lebensmittel/fruechte-gemuese",
+      "visible": true,
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/f839060a505bba25c0f37585edb558c003c50479/fruechte-gemuese.jpg",
+        "stack": "https://image.migros.ch/{stack}/f839060a505bba25c0f37585edb558c003c50479/fruechte-gemuese.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_TraubenBeeren_Fruechte_FruechteGemuese",
+        "name": "Trauben & Beeren",
+        "slug": "amigos/fruechte-gemuese/fruechte/trauben-beeren",
+        "visible": true,
+        "parent_code": "AMIG_CAT_Fruechte_FruechteGemuese",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_Fruechte_FruechteGemuese",
+        "name": "Früchte",
+        "slug": "amigos/fruechte-gemuese/fruechte",
+        "visible": true,
+        "parent_code": "AMIG_CAT_FruechteGemuese",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_FruechteGemuese",
+        "name": "Früchte & Gemüse",
+        "slug": "amigos/fruechte-gemuese",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "features": [
+    {
+      "label_code": "MISO_verwendungszweckvonobstfruechten",
+      "label": "Verwendungszweck",
+      "values": [
+        {
+          "value_code": "MISO_verwendungszweckvonobstfruechten_15",
+          "value": "Trauben können roh gegessen, zu Rosinen getrocknet oder zu Traubensaft und Wein verarbeitet werden. Aus den Kernen kann hochwertiges Traubenkernöl gewonnen werden."
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_saison",
+      "label": "Saison",
+      "values": [
+        {
+          "value_code": "MISO_saison_augustnovember",
+          "value": "August - November"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_reifekriterien",
+      "label": "Reifekriterien",
+      "values": [
+        {
+          "value": "Tafeltrauben reifen nach der Ernte nicht nach und müssen daher voll ausgereift geerntet werden, sodass sie möglichst aromatisch und süss schmecken. Frische Trauben haben ein grünes Stielgerüst und leuchtend gefärbte, pralle Beeren."
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_sorte",
+      "label": "Sorte",
+      "values": [
+        {
+          "value_code": "MISO_sorte_uvaitalia",
+          "value": "Uva Italia"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/243e7bcadbbe31b2eec8bfd5b0bbd0e24f42b5aa/selection-trauben-uva-italia.jpg",
+    "stack": "https://image.migros.ch/{stack}/243e7bcadbbe31b2eec8bfd5b0bbd0e24f42b5aa/selection-trauben-uva-italia.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/30683ba01fb15b0d1a1bd4e76abd3aca3a27a608/selection-trauben-uva-italia.png",
+    "stack": "https://image.migros.ch/{stack}/30683ba01fb15b0d1a1bd4e76abd3aca3a27a608/selection-trauben-uva-italia.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_sortierung",
+      "label": "Sortierung aMigos",
+      "values": [
+        {
+          "value_code": "NUMERIC_200",
+          "value": "200",
+          "numeric_value": 200
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_minimal-gewicht",
+      "label": "Minimal-Gewicht",
+      "values": [
+        {
+          "value_code": "NUMERIC_500.0",
+          "value": "500.0 g",
+          "numeric_value": 500
+        }
+      ],
+      "top_fact": false,
+      "unit_code": "g",
+      "unit": "Gramm",
+      "unit_symbol": "g"
+    },
+    {
+      "label_code": "MISO_aMigos_maximal-gewicht",
+      "label": "Maximal-Gewicht",
+      "values": [
+        {
+          "value_code": "NUMERIC_700.0",
+          "value": "700.0 g",
+          "numeric_value": 700
+        }
+      ],
+      "top_fact": false,
+      "unit_code": "g",
+      "unit": "Gramm",
+      "unit_symbol": "g"
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZFRP",
+          "value": "Frische Beschaffung"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "2",
+          "value": "Früchte und Gemüse"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "71412",
+          "value": "TRAUBEN"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/265314001000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/selection-trauben-uva-italia",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/265314001000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/selection-trauben-uva-italia",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "updated_at": "2020-09-16T05:55:02+0200",
+  "receipt_text": "Sélec Traub.Uva Italia",
+  "price": {
+    "valid_from": "2020-09-15T00:00:00+0200",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 4.9,
+      "quantity": 1,
+      "unit": "KG",
+      "varying_quantity": false,
+      "display_quantity": "1 kg"
+    },
+    "estimated_piece_weight": 600,
+    "estimated_piece_price": 2.95,
+    "base": {
+      "price": 0.49,
+      "quantity": 100,
+      "unit": "g"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 6,
+    "average_all": 4.5
+  },
+  "reindex_date": "2020-09-21T23:59:59+0200"
+}

@@ -1,0 +1,314 @@
+{
+  "id": "232317016000",
+  "language": "de",
+  "name": "Rapelli Salami",
+  "slug": "rapelli-salami-232317016000",
+  "boss_number": "040114518005",
+  "description": {
+    "text": "Feink&ouml;rniger Salami. Eine Tessiner Salami-Spezialit&auml;t hergstellt nach einer einzigartigen Origional-Rezeptur",
+    "source": "PIM"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "2181730000008",
+    "7617027561211"
+  ],
+  "brand": {
+    "id": "470",
+    "name": "Rapelli",
+    "slug": "rapelli"
+  },
+  "labels": [
+    {
+      "id": "L53",
+      "name": "Swissness",
+      "slug": "swissness",
+      "image": {
+        "original": "https://image.migros.ch/original/d771bba2f6b08ba42970ea0243c6f8c5a8832f15/swissness.jpg",
+        "stack": "https://image.migros.ch/{stack}/d771bba2f6b08ba42970ea0243c6f8c5a8832f15/swissness.jpg"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_0101061102",
+      "name": "Charcuterie Produkte ungekühlt",
+      "slug": "supermarkt/lebensmittel/fleisch/charcuterie-produkte/charcuterie-produkte-ungekuehlt",
+      "visible": true,
+      "parent_code": "BeSS_01010611",
+      "level": 5
+    },
+    {
+      "code": "BeSS_01010611",
+      "name": "Charcuterie Produkte",
+      "slug": "supermarkt/lebensmittel/fleisch/charcuterie-produkte",
+      "visible": true,
+      "title": "Vielfältige Charcuterie-Produkte jetzt in Ihrer Migros",
+      "parent_code": "BeSS_010106",
+      "image": {
+        "original": "https://image.migros.ch/original/25316d2bc38d6c6d28b266513291b23735ad8a1f/charcuterie-produkte.jpg",
+        "stack": "https://image.migros.ch/{stack}/25316d2bc38d6c6d28b266513291b23735ad8a1f/charcuterie-produkte.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010106",
+      "name": "Fleisch",
+      "slug": "supermarkt/lebensmittel/fleisch",
+      "visible": true,
+      "title": "Fleisch ausgezeichneter Qualität aus Ihrer Migros: einfach gut",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/03d32c0880d7a9ea6e58971966032e65ac442b58/fleisch.jpg",
+        "stack": "https://image.migros.ch/{stack}/03d32c0880d7a9ea6e58971966032e65ac442b58/fleisch.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_SpeckSalami_CharcuterieWurstwaren_FleischFisch",
+        "name": "Speck & Salami",
+        "slug": "amigos/fleisch-fisch/charcuterie-wurstwaren/speck-salami",
+        "visible": true,
+        "parent_code": "AMIG_CAT_CharcuterieWurstwaren_FleischFisch",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_CharcuterieWurstwaren_FleischFisch",
+        "name": "Charcuterie & Wurstwaren",
+        "slug": "amigos/fleisch-fisch/charcuterie-wurstwaren",
+        "visible": true,
+        "parent_code": "AMIG_CAT_FleischFisch",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_FleischFisch",
+        "name": "Fleisch & Fisch",
+        "slug": "amigos/fleisch-fisch",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "features": [
+    {
+      "label_code": "MISO_mussgekuehltwerden",
+      "label": "Muss gekühlt werden",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "Nein",
+          "boolean_value": false
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zubereitungsverfahren",
+      "label": "Hinweise für die Zubereitung",
+      "values": [
+        {
+          "value_code": "MISO_zubereitungsverfahren_zumrohessen",
+          "value": "Zum Rohessen"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_fleischform",
+      "label": "Fleischform bearbeitet",
+      "values": [
+        {
+          "value_code": "MISO_fleischform_amstueck",
+          "value": "Am Stück"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_tierartodergattung",
+      "label": "Tierart oder Gattung",
+      "values": [
+        {
+          "value_code": "MISO_tierartodergattung_schwein",
+          "value": "Schwein"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_verpackungsform",
+      "label": "Verpackungsform",
+      "values": [
+        {
+          "value_code": "MISO_verpackungsform_offen",
+          "value": "offen"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_herstellungsverfahrenvonfleisch",
+      "label": "Herstellungsverfahren von Fleisch",
+      "values": [
+        {
+          "value_code": "MISO_herstellungsverfahrenvonfleisch_getrocknet",
+          "value": "getrocknet"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_haltbarmachung",
+      "label": "Haltbarmachung",
+      "values": [
+        {
+          "value_code": "MISO_haltbarmachung_gesalzen",
+          "value": "gesalzen"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_fleischstueck",
+      "label": "Fleischstück",
+      "values": [
+        {
+          "value_code": "MISO_fleischstueck_wurstfleisch",
+          "value": "Wurstfleisch"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/a48e200250d70866fb00183b558d79166d59d33b/rapelli-salami.jpg",
+    "stack": "https://image.migros.ch/{stack}/a48e200250d70866fb00183b558d79166d59d33b/rapelli-salami.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/a117e8251e06ba98f5c6a5d9e3e5f653c79946d2/rapelli-salami.png",
+    "stack": "https://image.migros.ch/{stack}/a117e8251e06ba98f5c6a5d9e3e5f653c79946d2/rapelli-salami.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_nein",
+          "value": "Nein"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZFRP",
+          "value": "Frische Beschaffung"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "6",
+          "value": "Fleisch-Fisch-Geflüg"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "71239",
+          "value": "SELLOUT / PROMOTIONEN"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/232317016000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/rapelli-salami-232317016000",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/232317016000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/rapelli-salami-232317016000",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "updated_at": "2020-09-08T13:46:03+0200",
+  "receipt_text": "Rapelli Salami",
+  "price": {
+    "valid_from": "2020-03-10T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 2.85,
+      "quantity": 100,
+      "unit": "g",
+      "varying_quantity": true,
+      "display_quantity": "100 g"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

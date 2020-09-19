@@ -1,0 +1,235 @@
+{
+  "id": "111714160000",
+  "language": "de",
+  "name": "American Favorites Buns vorgeschnitten",
+  "slug": "american-favorites-buns-vorgeschnitten",
+  "boss_number": "020110570510",
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7613404017203",
+    "7616700199413",
+    "7613404189092"
+  ],
+  "brand": {
+    "id": "F64",
+    "name": "American Favorites",
+    "slug": "american-favorites",
+    "image": {
+      "original": "https://image.migros.ch/original/bb1f5fd92945cce4c0f20c47773ecde16697c7ef/american-favorites.jpg",
+      "stack": "https://image.migros.ch/{stack}/bb1f5fd92945cce4c0f20c47773ecde16697c7ef/american-favorites.jpg"
+    }
+  },
+  "categories": [
+    {
+      "code": "BeSS_01010302",
+      "name": "Kleinbrote",
+      "slug": "supermarkt/lebensmittel/baeckerei-confiserie-backen/kleinbrote",
+      "visible": true,
+      "title": "Frisch gebackene Kleinbrote in Ihrer Migros kaufen",
+      "parent_code": "BeSS_010103",
+      "image": {
+        "original": "https://image.migros.ch/original/d82a9abca2189f0b0df92555ebefd49d1cb0e55e/kleinbrote.jpg",
+        "stack": "https://image.migros.ch/{stack}/d82a9abca2189f0b0df92555ebefd49d1cb0e55e/kleinbrote.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010103",
+      "name": "Bäckerei, Confiserie & Backen",
+      "slug": "supermarkt/lebensmittel/baeckerei-confiserie-backen",
+      "visible": true,
+      "title": "Backen macht Freude! Alle Zutaten finden Sie in Ihrer Migros",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/04b41cd6f4daedf3061a2a37617d48e992760b35/baeckerei-confiserie-backen.jpg",
+        "stack": "https://image.migros.ch/{stack}/04b41cd6f4daedf3061a2a37617d48e992760b35/baeckerei-confiserie-backen.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_Broetchen_Brote_BroteBacken",
+        "name": "Brötchen",
+        "slug": "amigos/brote-backen/brote/broetchen",
+        "visible": true,
+        "parent_code": "AMIG_CAT_Brote_BroteBacken",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_Brote_BroteBacken",
+        "name": "Brote",
+        "slug": "amigos/brote-backen/brote",
+        "visible": true,
+        "parent_code": "AMIG_CAT_BroteBacken",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_BroteBacken",
+        "name": "Brote & Backen",
+        "slug": "amigos/brote-backen",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/b795af553d1484ed37ead6570fac314ccc0151a7/american-favorites-buns-vorgeschnitten.jpg",
+    "stack": "https://image.migros.ch/{stack}/b795af553d1484ed37ead6570fac314ccc0151a7/american-favorites-buns-vorgeschnitten.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/89dafe5a4bb6ee9f0c3f56d8345ff9677e5b8345/american-favorites-buns-vorgeschnitten.png",
+    "stack": "https://image.migros.ch/{stack}/89dafe5a4bb6ee9f0c3f56d8345ff9677e5b8345/american-favorites-buns-vorgeschnitten.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_sortierung",
+      "label": "Sortierung aMigos",
+      "values": [
+        {
+          "value_code": "NUMERIC_415",
+          "value": "415",
+          "numeric_value": 415
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZFRP",
+          "value": "Frische Beschaffung"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "8",
+          "value": "Backwaren"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "71012",
+          "value": "KLEINBROTE ABGEPACKT"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/111714160000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/american-favorites-buns-vorgeschnitten",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/111714160000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/american-favorites-buns-vorgeschnitten",
+      "type": "info",
+      "purchasable": false
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/211233",
+      "app_url": "leshop:///catalog/article/detail?ean=7616700199413",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/american-favorites-buns-vorgeschnitten",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "updated_at": "2020-09-16T05:42:41+0200",
+  "receipt_text": "Buns",
+  "price": {
+    "valid_from": "2019-08-07T00:00:00+0200",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 1.7,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "300g"
+    },
+    "base": {
+      "price": 0.57,
+      "quantity": 100,
+      "unit": "g"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 10,
+    "average_all": 3.555555555556
+  },
+  "allergen_text": "Kann Sesam \r\n, Eier \r\n, Nüsse \r\n, Soja \r\n und Milch enthalten.",
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

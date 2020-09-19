@@ -1,0 +1,258 @@
+{
+  "id": "130308200000",
+  "language": "de",
+  "name": "Anna's Best Russischer Salat",
+  "slug": "annas-best-russischer-salat",
+  "boss_number": "020530322505",
+  "description": {
+    "text": "Mit frischen Erbsen, Kartoffel- und Karottenst&uuml;cken wird der russische Salat von Anna&rsquo;s Best ganz ohne Konservierungsmittel in der Schweiz zubereitet.",
+    "source": "PIM"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7613269284406"
+  ],
+  "brand": {
+    "id": "007",
+    "name": "Anna's Best",
+    "slug": "annas-best",
+    "links": {
+      "homepage": {
+        "url": "https://annasbest.migros.ch/de.html",
+        "name": "Homepage",
+        "type": "info",
+        "purchasable": false
+      }
+    },
+    "image": {
+      "original": "https://image.migros.ch/original/184dd9291cf7fb67f0772e72d682c71c5fb76261/annas-best.jpg",
+      "stack": "https://image.migros.ch/{stack}/184dd9291cf7fb67f0772e72d682c71c5fb76261/annas-best.jpg"
+    }
+  },
+  "categories": [
+    {
+      "code": "BeSS_0101130219",
+      "name": "Fertigsalate",
+      "slug": "supermarkt/lebensmittel/fertiggerichte-menues-snacks/fertige-pizzen-menues-snacks/fertigsalate",
+      "visible": true,
+      "title": "Fertigsalate in Ihrer Migros kaufen",
+      "parent_code": "BeSS_01011302",
+      "image": {
+        "original": "https://image.migros.ch/original/341ccbb8d9660a61c4d4cf571bca7e96a949aecc/fertigsalate.jpg",
+        "stack": "https://image.migros.ch/{stack}/341ccbb8d9660a61c4d4cf571bca7e96a949aecc/fertigsalate.jpg"
+      },
+      "level": 5
+    },
+    {
+      "code": "BeSS_01011302",
+      "name": "Fertige Pizzen, Menüs & Snacks",
+      "slug": "supermarkt/lebensmittel/fertiggerichte-menues-snacks/fertige-pizzen-menues-snacks",
+      "visible": true,
+      "title": "Feine Fertiggerichte aus Ihrer Migros!",
+      "parent_code": "BeSS_010113",
+      "image": {
+        "original": "https://image.migros.ch/original/0014f54049f00019a8782aedb21ad671bd28a8e8/fertige-pizzen-menues-snacks.jpg",
+        "stack": "https://image.migros.ch/{stack}/0014f54049f00019a8782aedb21ad671bd28a8e8/fertige-pizzen-menues-snacks.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010113",
+      "name": "Fertiggerichte, Menüs & Snacks",
+      "slug": "supermarkt/lebensmittel/fertiggerichte-menues-snacks",
+      "visible": true,
+      "title": "Fertige Pizzen, Menüs und Snacks &ndash; schnell und lecker von der Migros",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/6770b6c8fbbd2689aece359ffeda93b90c58dd09/fertiggerichte-menues-snacks.jpg",
+        "stack": "https://image.migros.ch/{stack}/6770b6c8fbbd2689aece359ffeda93b90c58dd09/fertiggerichte-menues-snacks.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "features": [
+    {
+      "label_code": "MISO_lebensmittel_AB_pikto_besteck",
+      "label": "Besteck",
+      "values": [
+        {
+          "image": {
+            "original": "https://image.migros.ch/original/003a6b9c39213e0c9759dcbe12f15bf98b644d8b/besteck-gabel.jpg",
+            "code": "MISO_lebensmittel_AB_pikto_besteck_gabel",
+            "description": "Besteck Gabel",
+            "stack": "https://image.migros.ch/{stack}/003a6b9c39213e0c9759dcbe12f15bf98b644d8b/besteck-gabel.jpg"
+          },
+          "value_code": "MISO_lebensmittel_AB_pikto_besteck_gabel",
+          "value": "Besteck Gabel"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_lebensmittel_AB_pikto_portion",
+      "label": "Portion",
+      "values": [
+        {
+          "image": {
+            "original": "https://image.migros.ch/original/f80874175bf09a27e90e8d90cc5a5c7a0998ca6a/portion-fuer-1-person.jpg",
+            "code": "MISO_lebensmittel_AB_pikto_portion_1",
+            "description": "Portion für 1 Person",
+            "stack": "https://image.migros.ch/{stack}/f80874175bf09a27e90e8d90cc5a5c7a0998ca6a/portion-fuer-1-person.jpg"
+          },
+          "value_code": "MISO_lebensmittel_AB_pikto_portion_1",
+          "value": "Portion für 1 Person"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/8ae8f2ca08c4f4231b392127a33bd101ba0c9f87/annas-best-russischer-salat.jpg",
+    "stack": "https://image.migros.ch/{stack}/8ae8f2ca08c4f4231b392127a33bd101ba0c9f87/annas-best-russischer-salat.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/5f60670ebaa28f9ed4a119ae021145557ac00a69/annas-best-russischer-salat.png",
+    "stack": "https://image.migros.ch/{stack}/5f60670ebaa28f9ed4a119ae021145557ac00a69/annas-best-russischer-salat.png"
+  },
+  "additional_images": [
+    {
+      "original": "https://image.migros.ch/original/77845d9e9d6e174053d90b81c0ed9513aa168b0a.jpg",
+      "stack": "https://image.migros.ch/{stack}/77845d9e9d6e174053d90b81c0ed9513aa168b0a.jpg"
+    }
+  ],
+  "internal_features": [
+    {
+      "label_code": "MISO_lebensmittel_AB_kategorien",
+      "label": "Kategorien",
+      "values": [
+        {
+          "value_code": "MISO_lebensmittel_AB_kategorien_fertigsalate",
+          "value": "Fertigsalate"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_lebensmittel_AB_genusstyp",
+      "label": "Genusstypen",
+      "values": [
+        {
+          "value_code": "MISO_lebensmittel_AB_genusstyp_kalt-geniessen",
+          "value": "Kalt geniessen"
+        },
+        {
+          "value_code": "MISO_lebensmittel_AB_genusstyp_unterwegs",
+          "value": "Unterwegs"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZFRP",
+          "value": "Frische Beschaffung"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "7",
+          "value": "Convenience"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "70202",
+          "value": "FERTIGSALAT GEMUESE"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/130308200000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/annas-best-russischer-salat",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/130308200000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/annas-best-russischer-salat",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "updated_at": "2020-09-11T06:26:36+0200",
+  "receipt_text": "Russischer Salat",
+  "price": {
+    "valid_from": "2018-01-29T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 3.2,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "300g"
+    },
+    "base": {
+      "price": 1.07,
+      "quantity": 100,
+      "unit": "g"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 5,
+    "average_all": 3.6
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

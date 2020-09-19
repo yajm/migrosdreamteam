@@ -1,0 +1,291 @@
+{
+  "id": "104213700000",
+  "language": "de",
+  "name": "Bio aha! 5 Getreide Waffel",
+  "slug": "bio-aha-5-getreide-waffel",
+  "boss_number": "010318213605",
+  "description": {
+    "text": "<p><strong>AHA 5 GETREIDE WAFFELN BIO</strong></p><p>Bio Getreidewaffeln. Glutenfrei! Ohne Weizen!</p>",
+    "source": "PIM"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "source-qim-origins",
+    "validity-range-not-set",
+    "source-qim-fooddeclaration",
+    "source-qim-nutritionfacts",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7613312083741"
+  ],
+  "labels": [
+    {
+      "id": "L02",
+      "name": "Migros Bio",
+      "slug": "migros-bio",
+      "image": {
+        "original": "https://image.migros.ch/original/f32d1804b8db5760147310b8d6458eb36757b486/migros-bio.jpg",
+        "stack": "https://image.migros.ch/{stack}/f32d1804b8db5760147310b8d6458eb36757b486/migros-bio.jpg"
+      }
+    },
+    {
+      "id": "L15",
+      "name": "aha!",
+      "slug": "aha",
+      "image": {
+        "original": "https://image.migros.ch/original/ddc0ba54b162f407e050f09ed5f0c948ed31e289/aha.jpg",
+        "stack": "https://image.migros.ch/{stack}/ddc0ba54b162f407e050f09ed5f0c948ed31e289/aha.jpg"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_01010307",
+      "name": "Zwieback & Knäckebrot",
+      "slug": "supermarkt/lebensmittel/baeckerei-confiserie-backen/zwieback-knaeckebrot",
+      "visible": true,
+      "title": "Zwieback und Knäckebrot &ndash; knackig von der Migros",
+      "parent_code": "BeSS_010103",
+      "image": {
+        "original": "https://image.migros.ch/original/b4f1c9101c74e055cef373e835ee4b863eb1036a/zwieback-knaeckebrot.jpg",
+        "stack": "https://image.migros.ch/{stack}/b4f1c9101c74e055cef373e835ee4b863eb1036a/zwieback-knaeckebrot.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010103",
+      "name": "Bäckerei, Confiserie & Backen",
+      "slug": "supermarkt/lebensmittel/baeckerei-confiserie-backen",
+      "visible": true,
+      "title": "Backen macht Freude! Alle Zutaten finden Sie in Ihrer Migros",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/04b41cd6f4daedf3061a2a37617d48e992760b35/baeckerei-confiserie-backen.jpg",
+        "stack": "https://image.migros.ch/{stack}/04b41cd6f4daedf3061a2a37617d48e992760b35/baeckerei-confiserie-backen.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "features": [
+    {
+      "label_code": "MISO_produktionsanspruch",
+      "label": "Produktionsverfahren",
+      "values": [
+        {
+          "value_code": "MISO_produktionsanspruch_bioproduktion",
+          "value": "Bio-Produktion"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_anzahlentnehmbarereinzelportionen",
+      "label": "Anzahl entnehmbarer Einzeleinheiten",
+      "values": [
+        {
+          "value_code": "NUMERIC_2.0",
+          "value": "2.0",
+          "numeric_value": 2
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_folienverpackung",
+          "value": "Folienverpackung"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zubereitungsverfahren",
+      "label": "Hinweise für die Zubereitung",
+      "values": [
+        {
+          "value_code": "MISO_zubereitungsverfahren_verzehrfertig",
+          "value": "Verzehrfertig"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zusatzangaben",
+      "label": "Zusatzangaben",
+      "values": [
+        {
+          "value_code": "MISO_zusatzangaben_329",
+          "value": "Trocken aufbewahren. Für höchste Frische vor Licht und Wärme schützen."
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_artvonbearbeitetemgetreideprodukt",
+      "label": "Art von bearbeitetem Getreideprodukt",
+      "values": [
+        {
+          "value_code": "MISO_artvonbearbeitetemgetreideprodukt_buchweizen",
+          "value": "Buchweizen"
+        },
+        {
+          "value_code": "MISO_artvonbearbeitetemgetreideprodukt_hirse",
+          "value": "Hirse"
+        },
+        {
+          "value_code": "MISO_artvonbearbeitetemgetreideprodukt_mais",
+          "value": "Mais"
+        },
+        {
+          "value_code": "MISO_artvonbearbeitetemgetreideprodukt_quinoa",
+          "value": "Quinoa"
+        },
+        {
+          "value_code": "MISO_artvonbearbeitetemgetreideprodukt_reis",
+          "value": "Reis"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ALLERGENES",
+      "label": "Allergenauslobungen",
+      "values": [
+        {
+          "value_code": "MAPI_ALLERGENES_glutenfrei",
+          "value": "Glutenfrei"
+        },
+        {
+          "value_code": "MAPI_ALLERGENES_ohneWeizen",
+          "value": "Ohne Weizen"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/7b3a36bd0a1f54b012abaa0e7e4379ce57334503/bio-aha-5-getreide-waffel.jpg",
+    "stack": "https://image.migros.ch/{stack}/7b3a36bd0a1f54b012abaa0e7e4379ce57334503/bio-aha-5-getreide-waffel.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/09f305a8c35a32ecc4f6e5f0a773b18a28a69b6a/bio-aha-5-getreide-waffel.png",
+    "stack": "https://image.migros.ch/{stack}/09f305a8c35a32ecc4f6e5f0a773b18a28a69b6a/bio-aha-5-getreide-waffel.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "M",
+          "value": "Kolonial Standard"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "10367",
+          "value": "BIO DAUERBACKWAREN"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/104213700000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/bio-aha-5-getreide-waffel",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/104213700000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/bio-aha-5-getreide-waffel",
+      "type": "info",
+      "purchasable": false
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/3069569",
+      "app_url": "leshop:///catalog/article/detail?ean=7613312083741",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/bio-aha-5-getreide-waffel",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "updated_at": "2020-09-16T05:41:39+0200",
+  "receipt_text": "Bio aha! 5 Getr.Waffel",
+  "price": {
+    "valid_from": "2018-01-29T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 2.35,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "2 x 130g"
+    },
+    "base": {
+      "price": 0.9,
+      "quantity": 100,
+      "unit": "g"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 8,
+    "average_all": 3.875
+  },
+  "reindex_date": "2020-09-20T00:00:00+0200"
+}

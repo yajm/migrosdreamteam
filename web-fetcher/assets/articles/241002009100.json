@@ -1,0 +1,430 @@
+{
+  "id": "241002009100",
+  "language": "de",
+  "name": "Optigal Poulet Paprika",
+  "slug": "optigal-poulet-paprika",
+  "boss_number": "040314332005",
+  "description": {
+    "text": "Poulet ganz Paprika",
+    "source": "PIM"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "2137682000009",
+    "7617023010133"
+  ],
+  "brand": {
+    "id": "466",
+    "name": "Optigal",
+    "slug": "optigal",
+    "image": {
+      "original": "https://image.migros.ch/original/b8f0717003093571737989d3593f3af1249bce67/optigal.jpg",
+      "stack": "https://image.migros.ch/{stack}/b8f0717003093571737989d3593f3af1249bce67/optigal.jpg"
+    }
+  },
+  "labels": [
+    {
+      "id": "L53",
+      "name": "Swissness",
+      "slug": "swissness",
+      "image": {
+        "original": "https://image.migros.ch/original/d771bba2f6b08ba42970ea0243c6f8c5a8832f15/swissness.jpg",
+        "stack": "https://image.migros.ch/{stack}/d771bba2f6b08ba42970ea0243c6f8c5a8832f15/swissness.jpg"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_01010607",
+      "name": "Geflügel",
+      "slug": "supermarkt/lebensmittel/fleisch/gefluegel",
+      "visible": true,
+      "title": "Geflügel jetzt aus Ihrer Migros",
+      "parent_code": "BeSS_010106",
+      "image": {
+        "original": "https://image.migros.ch/original/c6d714f520b6147d78e2f73138da462944b3bc66/gefluegel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c6d714f520b6147d78e2f73138da462944b3bc66/gefluegel.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010106",
+      "name": "Fleisch",
+      "slug": "supermarkt/lebensmittel/fleisch",
+      "visible": true,
+      "title": "Fleisch ausgezeichneter Qualität aus Ihrer Migros: einfach gut",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/03d32c0880d7a9ea6e58971966032e65ac442b58/fleisch.jpg",
+        "stack": "https://image.migros.ch/{stack}/03d32c0880d7a9ea6e58971966032e65ac442b58/fleisch.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_Gefluegel_Fleisch_FleischFisch",
+        "name": "Geflügel",
+        "slug": "amigos/fleisch-fisch/fleisch/gefluegel",
+        "visible": true,
+        "parent_code": "AMIG_CAT_Fleisch_FleischFisch",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_Fleisch_FleischFisch",
+        "name": "Fleisch",
+        "slug": "amigos/fleisch-fisch/fleisch",
+        "visible": true,
+        "parent_code": "AMIG_CAT_FleischFisch",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_FleischFisch",
+        "name": "Fleisch & Fisch",
+        "slug": "amigos/fleisch-fisch",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "features": [
+    {
+      "label_code": "MISO_mussgekuehltwerden",
+      "label": "Muss gekühlt werden",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_produktionsanspruch",
+      "label": "Produktionsverfahren",
+      "values": [
+        {
+          "value_code": "MISO_produktionsanspruch_optigalbesonderstierfreundlichestallungen",
+          "value": "Optigal, besonders tierfreundliche Stallungen"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_anzahlentnehmbarereinzelportionen",
+      "label": "Anzahl entnehmbarer Einzeleinheiten",
+      "values": [
+        {
+          "value_code": "NUMERIC_1.0",
+          "value": "1.0",
+          "numeric_value": 1
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_stretchfolie",
+          "value": "Stretchfolie"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zubereitungsverfahren",
+      "label": "Hinweise für die Zubereitung",
+      "values": [
+        {
+          "value_code": "MISO_zubereitungsverfahren_braten",
+          "value": "Braten"
+        },
+        {
+          "value_code": "MISO_zubereitungsverfahren_grillieren",
+          "value": "Grillieren"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_tierartodergattung",
+      "label": "Tierart oder Gattung",
+      "values": [
+        {
+          "value_code": "MISO_tierartodergattung_poulet",
+          "value": "Poulet"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_verpackungsform",
+      "label": "Verpackungsform",
+      "values": [
+        {
+          "value_code": "MISO_verpackungsform_schutzatmosphaere",
+          "value": "Schutzatmosphäre"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zubereitungsform",
+      "label": "Zubereitungsform",
+      "values": [
+        {
+          "value_code": "MISO_zubereitungsform_mitknochen",
+          "value": "mit Knochen"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_herstellungsverfahrenvonfleisch",
+      "label": "Herstellungsverfahren von Fleisch",
+      "values": [
+        {
+          "value_code": "MISO_herstellungsverfahrenvonfleisch_gewuerzt",
+          "value": "Gewürzt"
+        },
+        {
+          "value_code": "MISO_herstellungsverfahrenvonfleisch_roh",
+          "value": "roh"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_tierwohlmehrwert",
+      "label": "Tierwohl Mehrwert",
+      "values": [
+        {
+          "value_code": "MISO_tierwohlmehrwert_besonderstierfreundlichestallungenmitauslaufwintergartenrueckverfolgbarbiszumbauerherkunftch",
+          "value": "Besonders tierfreundliche Stallungen mit Auslauf in einen Wintergarten. Rückverfolgbar bis zum Bauer. Herkunft CH"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_hygienehinweise",
+      "label": "Hygienehinweise",
+      "values": [
+        {
+          "value_code": "MISO_hygienehinweise_6",
+          "value": "Packung sorgfältig entfernen und wegwerfen. Tropfsaft weggiessen. Rohes Fleisch nicht in Kontakt mit anderen Lebensmitteln bringen. Geschirr und Hände gründlich reinigen. Fleisch immer gut durchgekocht/gebraten servieren."
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/06a2ba222eb56d79f0c4ddd0105a963d8de54776/optigal-poulet-paprika.jpg",
+    "stack": "https://image.migros.ch/{stack}/06a2ba222eb56d79f0c4ddd0105a963d8de54776/optigal-poulet-paprika.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/c51592d55d8682eadaf3c286a047bc3637d694a5/optigal-poulet-paprika.png",
+    "stack": "https://image.migros.ch/{stack}/c51592d55d8682eadaf3c286a047bc3637d694a5/optigal-poulet-paprika.png"
+  },
+  "additional_images": [
+    {
+      "original": "https://image.migros.ch/original/9183b410755b457906e050ee107e38e0eb7e5fdc.jpg",
+      "stack": "https://image.migros.ch/{stack}/9183b410755b457906e050ee107e38e0eb7e5fdc.jpg"
+    },
+    {
+      "original": "https://image.migros.ch/original/f9b6cd075c1eaeeb169fcfefc3f913d3bed2763c.jpg",
+      "stack": "https://image.migros.ch/{stack}/f9b6cd075c1eaeeb169fcfefc3f913d3bed2763c.jpg"
+    }
+  ],
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_sortierung",
+      "label": "Sortierung aMigos",
+      "values": [
+        {
+          "value_code": "NUMERIC_1240",
+          "value": "1240",
+          "numeric_value": 1240
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_minimal-gewicht",
+      "label": "Minimal-Gewicht",
+      "values": [
+        {
+          "value_code": "NUMERIC_1300.0",
+          "value": "1300.0 g",
+          "numeric_value": 1300
+        }
+      ],
+      "top_fact": false,
+      "unit_code": "g",
+      "unit": "Gramm",
+      "unit_symbol": "g"
+    },
+    {
+      "label_code": "MISO_aMigos_maximal-gewicht",
+      "label": "Maximal-Gewicht",
+      "values": [
+        {
+          "value_code": "NUMERIC_1700.0",
+          "value": "1700.0 g",
+          "numeric_value": 1700
+        }
+      ],
+      "top_fact": false,
+      "unit_code": "g",
+      "unit": "Gramm",
+      "unit_symbol": "g"
+    },
+    {
+      "label_code": "MISO_aMigos_verkaufseinheit",
+      "label": "Verkaufseinheit",
+      "values": [
+        {
+          "value_code": "NUMERIC_1.0",
+          "value": "1.0 Stk.",
+          "numeric_value": 1
+        }
+      ],
+      "top_fact": false,
+      "unit_code": "Stk.",
+      "unit": "Stück",
+      "unit_symbol": "Stk."
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZFRP",
+          "value": "Frische Beschaffung"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "6",
+          "value": "Fleisch-Fisch-Geflüg"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "71283",
+          "value": "GANZ"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/241002009100",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/optigal-poulet-paprika",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/241002009100",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/optigal-poulet-paprika",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "updated_at": "2020-09-16T05:51:53+0200",
+  "receipt_text": "Poulet paprika",
+  "price": {
+    "valid_from": "2018-01-29T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 1.05,
+      "quantity": 100,
+      "unit": "g",
+      "varying_quantity": true,
+      "display_quantity": "100 g"
+    },
+    "estimated_piece_weight": 1500,
+    "estimated_piece_price": 15.75,
+    "base": {
+      "price": 0.11,
+      "quantity": 100,
+      "unit": "g"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 2,
+    "average_all": 3
+  },
+  "reindex_date": "2020-09-21T23:59:59+0200"
+}

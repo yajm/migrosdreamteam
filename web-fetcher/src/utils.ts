@@ -11,3 +11,12 @@ export function writeJson(path: string, data) {
 export function existsArticle(id: string) {
   return fs.existsSync(path.join(process.cwd(), `assets/articles/${id}.json`));
 }
+export function getDeepestCategory(article: any) {
+  let deepestCategory = null;
+  for (const category of article.categories || []) {
+    if (deepestCategory == null || deepestCategory.level < category.level) {
+      deepestCategory = category;
+    }
+  }
+  return deepestCategory;
+}

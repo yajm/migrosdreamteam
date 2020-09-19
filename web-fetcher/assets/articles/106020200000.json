@@ -1,0 +1,374 @@
+{
+  "id": "106020200000",
+  "language": "de",
+  "name": "M-Classic Fleischkügeli mit Fideli",
+  "slug": "m-classic-fleischkuegeli-mit-fideli",
+  "boss_number": "011111080135",
+  "description": {
+    "text": "<p>&nbsp;Mit Eierteigwaren aus Hartweizengriess.</p>",
+    "source": "PIM"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "source-qim-origins",
+    "validity-range-not-set",
+    "source-qim-allergens",
+    "source-qim-fooddeclaration",
+    "source-qim-nutritionfacts",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7613312255520"
+  ],
+  "brand": {
+    "id": "068",
+    "name": "M-Classic",
+    "slug": "m-classic",
+    "links": {
+      "homepage": {
+        "url": "https://m-classic.migros.ch/de.html",
+        "name": "Homepage",
+        "type": "info",
+        "purchasable": false
+      }
+    },
+    "image": {
+      "original": "https://image.migros.ch/original/72c18633f911e026e081ac11d872cff2d8dc8abb/m-classic.jpg",
+      "stack": "https://image.migros.ch/{stack}/72c18633f911e026e081ac11d872cff2d8dc8abb/m-classic.jpg"
+    }
+  },
+  "categories": [
+    {
+      "code": "BeSS_0101140901",
+      "name": "Suppen",
+      "slug": "supermarkt/lebensmittel/pasta-zutaten-konserven/suppen-saucen-bouillon/suppen",
+      "visible": true,
+      "title": "Suppen in Ihrer Migros kaufen",
+      "parent_code": "BeSS_01011409",
+      "image": {
+        "original": "https://image.migros.ch/original/5e42f21d72f75d363cf04979b8d573688c090e6b/suppen.jpg",
+        "stack": "https://image.migros.ch/{stack}/5e42f21d72f75d363cf04979b8d573688c090e6b/suppen.jpg"
+      },
+      "level": 5
+    },
+    {
+      "code": "BeSS_01011409",
+      "name": "Suppen, Saucen & Bouillon",
+      "slug": "supermarkt/lebensmittel/pasta-zutaten-konserven/suppen-saucen-bouillon",
+      "visible": true,
+      "title": "Bouillon in Ihrer Migros kaufen",
+      "parent_code": "BeSS_010114",
+      "image": {
+        "original": "https://image.migros.ch/original/5f7779de5b06c3e5051c0ccdb81a414859a26cf5/suppen-saucen-bouillon.jpg",
+        "stack": "https://image.migros.ch/{stack}/5f7779de5b06c3e5051c0ccdb81a414859a26cf5/suppen-saucen-bouillon.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010114",
+      "name": "Pasta, Zutaten & Konserven",
+      "slug": "supermarkt/lebensmittel/pasta-zutaten-konserven",
+      "visible": true,
+      "title": "Pasta aus Ihrer Migros: alles rund um Teigwaren",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/6d0964bbb34b8e041ba4d74fc0c90b149907f46a/pasta-zutaten-konserven.jpg",
+        "stack": "https://image.migros.ch/{stack}/6d0964bbb34b8e041ba4d74fc0c90b149907f46a/pasta-zutaten-konserven.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_Suppen_SuppenBouillon_Grundnahrungsmittel",
+        "name": "Suppen",
+        "slug": "amigos/grundnahrungsmittel/suppen-bouillon/suppen",
+        "visible": true,
+        "parent_code": "AMIG_CAT_SuppenBouillon_Grundnahrungsmittel",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_SuppenBouillon_Grundnahrungsmittel",
+        "name": "Suppen & Bouillon",
+        "slug": "amigos/grundnahrungsmittel/suppen-bouillon",
+        "visible": true,
+        "parent_code": "AMIG_CAT_Grundnahrungsmittel",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_Grundnahrungsmittel",
+        "name": "Grundnahrungsmittel",
+        "slug": "amigos/grundnahrungsmittel",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "features": [
+    {
+      "label_code": "MISO_mussgekuehltwerden",
+      "label": "Muss gekühlt werden",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "Nein",
+          "boolean_value": false
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_produktionsanspruch",
+      "label": "Produktionsverfahren",
+      "values": [
+        {
+          "value_code": "MISO_produktionsanspruch_freivongeschmacksverstaerkendenzusatzstoffengesetz",
+          "value": "Frei von geschmacksverstärkenden Zusatzstoffen laut Gesetz"
+        },
+        {
+          "value_code": "MISO_produktionsanspruch_freivonkonservierungsstoffen",
+          "value": "frei von Konservierungsstoffen"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_beutel",
+          "value": "Beutel"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zubereitungsverfahren",
+      "label": "Hinweise für die Zubereitung",
+      "values": [
+        {
+          "value_code": "MISO_zubereitungsverfahren_kochen",
+          "value": "Kochen"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_musserwaermtwerden",
+      "label": "Muss erwärmt werden",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_anzahlportionen",
+      "label": "Anzahl Portionen",
+      "values": [
+        {
+          "value_code": "NUMERIC_4",
+          "value": "4",
+          "numeric_value": 4
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zubereitungszeit",
+      "label": "Zubereitungszeit (min.)",
+      "values": [
+        {
+          "value_code": "NUMERIC_5",
+          "value": "5",
+          "numeric_value": 5
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_serviertemperatur",
+      "label": "Serviertemperatur",
+      "values": [
+        {
+          "value_code": "MISO_serviertemperatur_heisswarm",
+          "value": "heiss/warm"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_artdersuppeneinlage",
+      "label": "Art der Suppeneinlage",
+      "values": [
+        {
+          "value_code": "MISO_artdersuppeneinlage_eiernudeln",
+          "value": "Eiernudeln"
+        },
+        {
+          "value_code": "MISO_artdersuppeneinlage_fleischkugeln",
+          "value": "Fleischkugeln"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_gewuerzt",
+      "label": "Gewürzt",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/6cd964d9aa25f5389f2e4fc335652df658067739/m-classic-fleischkuegeli-mit-fideli.jpg",
+    "stack": "https://image.migros.ch/{stack}/6cd964d9aa25f5389f2e4fc335652df658067739/m-classic-fleischkuegeli-mit-fideli.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/f083747565fe564eccd56f9009c03378a0b69e61/m-classic-fleischkuegeli-mit-fideli.png",
+    "stack": "https://image.migros.ch/{stack}/f083747565fe564eccd56f9009c03378a0b69e61/m-classic-fleischkuegeli-mit-fideli.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "M",
+          "value": "Kolonial Standard"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "11110",
+          "value": "TROCKENSUPPEN BEUTEL"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/106020200000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/m-classic-fleischkuegeli-mit-fideli",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/106020200000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/m-classic-fleischkuegeli-mit-fideli",
+      "type": "info",
+      "purchasable": false
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/4940944",
+      "app_url": "leshop:///catalog/article/detail?ean=7613312255520",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/m-classic-fleischkuegeli-mit-fideli",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "updated_at": "2020-09-16T06:29:50+0200",
+  "receipt_text": "MClass Fleischkügeli",
+  "price": {
+    "valid_from": "2019-04-03T00:00:00+0200",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 1,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "74g"
+    },
+    "base": {
+      "price": 1.35,
+      "quantity": 100,
+      "unit": "g"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 2,
+    "average_all": 5
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

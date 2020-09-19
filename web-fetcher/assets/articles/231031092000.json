@@ -1,0 +1,168 @@
+{
+  "id": "231031092000",
+  "language": "de",
+  "name": "Beretta Mortadella",
+  "slug": "beretta-mortadella-231031092000",
+  "boss_number": "040114505005",
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "2188425000008",
+    "7617027859486"
+  ],
+  "brand": {
+    "id": "452",
+    "name": "Beretta",
+    "slug": "beretta"
+  },
+  "categories": [
+    {
+      "code": "BeSS_0101061103",
+      "name": "Fleischwaren gekühlt",
+      "slug": "supermarkt/lebensmittel/fleisch/charcuterie-produkte/fleischwaren-gekuehlt",
+      "visible": true,
+      "parent_code": "BeSS_01010611",
+      "image": {
+        "original": "https://image.migros.ch/original/240be88a673422fe7b0223b44152099394b79732/fleischwaren-gekuehlt.jpg",
+        "stack": "https://image.migros.ch/{stack}/240be88a673422fe7b0223b44152099394b79732/fleischwaren-gekuehlt.jpg"
+      },
+      "level": 5
+    },
+    {
+      "code": "BeSS_01010611",
+      "name": "Charcuterie Produkte",
+      "slug": "supermarkt/lebensmittel/fleisch/charcuterie-produkte",
+      "visible": true,
+      "title": "Vielfältige Charcuterie-Produkte jetzt in Ihrer Migros",
+      "parent_code": "BeSS_010106",
+      "image": {
+        "original": "https://image.migros.ch/original/25316d2bc38d6c6d28b266513291b23735ad8a1f/charcuterie-produkte.jpg",
+        "stack": "https://image.migros.ch/{stack}/25316d2bc38d6c6d28b266513291b23735ad8a1f/charcuterie-produkte.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010106",
+      "name": "Fleisch",
+      "slug": "supermarkt/lebensmittel/fleisch",
+      "visible": true,
+      "title": "Fleisch ausgezeichneter Qualität aus Ihrer Migros: einfach gut",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/03d32c0880d7a9ea6e58971966032e65ac442b58/fleisch.jpg",
+        "stack": "https://image.migros.ch/{stack}/03d32c0880d7a9ea6e58971966032e65ac442b58/fleisch.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/b7644ce4c3ebda5e1da83611768d7c134bd37c90/beretta-mortadella.jpg",
+    "stack": "https://image.migros.ch/{stack}/b7644ce4c3ebda5e1da83611768d7c134bd37c90/beretta-mortadella.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/6cb90d413e277ad73b430fe970f995d28b73289c/beretta-mortadella.png",
+    "stack": "https://image.migros.ch/{stack}/6cb90d413e277ad73b430fe970f995d28b73289c/beretta-mortadella.png"
+  },
+  "additional_images": [
+    {
+      "original": "https://image.migros.ch/original/b42e547c3eb488b41cf33096badd45fe6e89c154.jpg",
+      "stack": "https://image.migros.ch/{stack}/b42e547c3eb488b41cf33096badd45fe6e89c154.jpg"
+    }
+  ],
+  "internal_features": [
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZFRP",
+          "value": "Frische Beschaffung"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "6",
+          "value": "Fleisch-Fisch-Geflüg"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "70183",
+          "value": "JUMBO FRESH"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/231031092000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/beretta-mortadella-231031092000",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/231031092000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/beretta-mortadella-231031092000",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "updated_at": "2020-09-09T07:57:05+0200",
+  "receipt_text": "Beretta Mortadella",
+  "price": {
+    "valid_from": "2018-03-22T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "source": "PriceRepository",
+    "no_price_hint": "Aktueller Tagespreis"
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 6,
+    "average_all": 4.333333333333
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

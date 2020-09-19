@@ -1,0 +1,495 @@
+{
+  "id": "107101500000",
+  "language": "de",
+  "name": "Boncampo gemahlen 250g",
+  "slug": "boncampo-gemahlen-250g",
+  "boss_number": "010310302605",
+  "description": {
+    "text": "Boncampo Classico - kr&auml;ftiger und rassiger Kaffeegenuss f&uuml;r jeden Tag.",
+    "source": "PIM"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7613312122587",
+    "76102165"
+  ],
+  "brand": {
+    "id": "020",
+    "name": "Boncampo",
+    "slug": "boncampo",
+    "image": {
+      "original": "https://image.migros.ch/original/49e282cb2255402d3ee4a71d0769cfe0df44b663/boncampo.jpg",
+      "stack": "https://image.migros.ch/{stack}/49e282cb2255402d3ee4a71d0769cfe0df44b663/boncampo.jpg"
+    }
+  },
+  "labels": [
+    {
+      "id": "L34",
+      "name": "UTZ",
+      "slug": "utz",
+      "image": {
+        "original": "https://image.migros.ch/original/64192d97b7770d351f5bbe89a57c9f614e529150/utz.jpg",
+        "stack": "https://image.migros.ch/{stack}/64192d97b7770d351f5bbe89a57c9f614e529150/utz.jpg"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_0101100104",
+      "name": "Kaffee gemahlen",
+      "slug": "supermarkt/lebensmittel/getraenke-heiss-kalt/kaffee/kaffee-gemahlen",
+      "visible": true,
+      "parent_code": "BeSS_01011001",
+      "level": 5
+    },
+    {
+      "code": "BeSS_01011001",
+      "name": "Kaffee",
+      "slug": "supermarkt/lebensmittel/getraenke-heiss-kalt/kaffee",
+      "visible": true,
+      "title": "Das schwarze Gold der Geniesser: Kaffee bei der Migros",
+      "parent_code": "BeSS_010110",
+      "image": {
+        "original": "https://image.migros.ch/original/be9ca8bc37911ac3d695139eadc7cb2446fd5974/kaffee.jpg",
+        "stack": "https://image.migros.ch/{stack}/be9ca8bc37911ac3d695139eadc7cb2446fd5974/kaffee.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010110",
+      "name": "Getränke heiss & kalt",
+      "slug": "supermarkt/lebensmittel/getraenke-heiss-kalt",
+      "visible": true,
+      "title": "Getränke aus der Migros löschen auch Ihren Durst",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/d04d95fbc2e1b4ada4783d2976d37a962a0318a1/getraenke-heiss-kalt.jpg",
+        "stack": "https://image.migros.ch/{stack}/d04d95fbc2e1b4ada4783d2976d37a962a0318a1/getraenke-heiss-kalt.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "features": [
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_beutelsack",
+          "value": "Beutel/Sack"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zubereitungsverfahren",
+      "label": "Hinweise für die Zubereitung",
+      "values": [
+        {
+          "value_code": "MISO_zubereitungsverfahren_heisseswasserhinzugeben",
+          "value": "Heisses Wasser hinzugeben"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_botanischesorte",
+      "label": "Botanische Sorte",
+      "values": [
+        {
+          "value_code": "MISO_botanischesorte_arabicarobusta",
+          "value": "Arabica / Robusta"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_entkoffeiniert",
+      "label": "Entkoffeiniert",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "Nein",
+          "boolean_value": false
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_formbeschaffenheitdeskaffees",
+      "label": "Form/Beschaffenheit des Kaffees",
+      "values": [
+        {
+          "value_code": "MISO_formbeschaffenheitdeskaffees_gemahlen",
+          "value": "Gemahlen"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_herkunftdeskaffees",
+      "label": "Herkunft des Kaffees",
+      "values": [
+        {
+          "value_code": "MISO_Herkunftsland_Suedamerika",
+          "value": "Südamerika"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_kaffeeroestung",
+      "label": "Kaffeeröstung",
+      "values": [
+        {
+          "value_code": "MISO_kaffeeroestung_hellgeroestet",
+          "value": "hell geröstet"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zubereitungdeskaffees",
+      "label": "Zubereitung des Kaffees",
+      "values": [
+        {
+          "value_code": "MISO_zubereitungdeskaffees_bohnen",
+          "value": "Bohnen"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_sortedeskaffees",
+      "label": "Sorte des Kaffees",
+      "values": [
+        {
+          "value_code": "MISO_sortedeskaffees_roestkaffee",
+          "value": "Röstkaffee"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_wiederverschliessbar",
+      "label": "Wiederverschliessbar",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_staerke15",
+      "label": "Stärke (1-5)",
+      "values": [
+        {
+          "value_code": "NUMERIC_3.0",
+          "value": "3.0",
+          "numeric_value": 3
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_saeure15",
+      "label": "Säure (1-5)",
+      "values": [
+        {
+          "value_code": "NUMERIC_2.0",
+          "value": "2.0",
+          "numeric_value": 2
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_geeignetfuerkapselsystem",
+      "label": "Geeignet für Kapselsystem",
+      "values": [
+        {
+          "value_code": "MISO_geeignetfuerkapselsystem_siebtraegerbialettifiltermaschine",
+          "value": "Siebträger Bialetti Filtermaschine"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_Aroma",
+      "label": "Aroma",
+      "values": [
+        {
+          "value_code": "MISO_aroma_mandeln",
+          "value": "Mandeln"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_tassengroesse",
+      "label": "Tassengrösse",
+      "values": [
+        {
+          "value_code": "MISO_tassengroesse_offen",
+          "value": "offen"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_Aroma",
+      "label": "Aroma",
+      "values": [
+        {
+          "value": "Mandel, Marzipan, röstig, ein bisschen  Haselnuss, würzig"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_koerper",
+      "label": "Körper (1 - 5)",
+      "values": [
+        {
+          "value_code": "MISO_koerper_3",
+          "value": "3"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_saeure",
+      "label": "Säure (1 - 5)",
+      "values": [
+        {
+          "value_code": "MISO_saeure_2",
+          "value": "2"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_tassengroesse",
+      "label": "Tassengrösse",
+      "values": [
+        {
+          "value_code": "MISO_tassengroesse_espresso_50ml",
+          "value": "Espresso (50ml)"
+        },
+        {
+          "value_code": "MISO_tassengroesse_lungo_120ml",
+          "value": "Lungo (120ml)"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_koffein",
+      "label": "Koffein",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/329169195c0e4bfa5e34ed95f58819eddea97f7f/boncampo-gemahlen-250g.jpg",
+    "stack": "https://image.migros.ch/{stack}/329169195c0e4bfa5e34ed95f58819eddea97f7f/boncampo-gemahlen-250g.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/8190906b6eb1cf41730e0cebbfc4ae24a1455c53/boncampo-gemahlen-250g.png",
+    "stack": "https://image.migros.ch/{stack}/8190906b6eb1cf41730e0cebbfc4ae24a1455c53/boncampo-gemahlen-250g.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MISO_intensitaet",
+      "label": "Intensität",
+      "values": [
+        {
+          "value_code": "MISO_intensitaet_kraeftig",
+          "value": "kräftig"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_intensitaet",
+      "label": "Intensität",
+      "values": [
+        {
+          "value_code": "MISO_intensitaet_ausgewogen",
+          "value": "Ausgewogen"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_frucht",
+      "label": "Frucht",
+      "values": [
+        {
+          "value_code": "MISO_frucht_zitrus",
+          "value": "Zitrus"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_vegetal",
+      "label": "Vegetal",
+      "values": [
+        {
+          "value_code": "MISO_vegetal_zerealie",
+          "value": "Zerealie"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_hoelzer",
+      "label": "Hölzer",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_mineralisch",
+      "label": "Mineralisch (erdig)",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "M",
+          "value": "Kolonial Standard"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "10382",
+          "value": "ROESTKAFFEE GEMAHLEN"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/107101500000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/boncampo-gemahlen-250g",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/107101500000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/boncampo-gemahlen-250g",
+      "type": "info",
+      "purchasable": false
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/4963470",
+      "app_url": "leshop:///catalog/article/detail?ean=7613312122587",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/boncampo-gemahlen-250g",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "updated_at": "2020-09-11T06:26:43+0200",
+  "receipt_text": "Boncampo gemahlen 250g",
+  "price": {
+    "valid_from": "2018-01-01T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 3,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "250g"
+    },
+    "base": {
+      "price": 1.2,
+      "quantity": 100,
+      "unit": "g"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 2,
+    "average_all": 4.5
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

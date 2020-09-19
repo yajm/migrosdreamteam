@@ -1,0 +1,161 @@
+{
+  "id": "204101600700",
+  "language": "de",
+  "name": "Doppelrahm 2x200g",
+  "slug": "doppelrahm-2x200g",
+  "boss_number": "030213208010",
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "validity-range-not-set",
+    "filter-aus-der-region",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7613269734789"
+  ],
+  "labels": [
+    {
+      "id": "L53",
+      "name": "Swissness",
+      "slug": "swissness",
+      "image": {
+        "original": "https://image.migros.ch/original/d771bba2f6b08ba42970ea0243c6f8c5a8832f15/swissness.jpg",
+        "stack": "https://image.migros.ch/{stack}/d771bba2f6b08ba42970ea0243c6f8c5a8832f15/swissness.jpg"
+      }
+    },
+    {
+      "id": "L28",
+      "name": "Aus der Region",
+      "slug": "aus-der-region",
+      "image": {
+        "original": "https://image.migros.ch/original/28068cd4d6e174c8ec75906797af89b64170c43f/aus-der-region.jpg",
+        "stack": "https://image.migros.ch/{stack}/28068cd4d6e174c8ec75906797af89b64170c43f/aus-der-region.jpg"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_01010406",
+      "name": "Rahm",
+      "slug": "supermarkt/lebensmittel/milchprodukte-eier/rahm",
+      "visible": true,
+      "title": "Rahm von der Migros &ndash; ein Segen für die Küche",
+      "parent_code": "BeSS_010104",
+      "image": {
+        "original": "https://image.migros.ch/original/c3c47317490daf245f116504f3894477896aad40/rahm.jpg",
+        "stack": "https://image.migros.ch/{stack}/c3c47317490daf245f116504f3894477896aad40/rahm.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010104",
+      "name": "Milchprodukte & Eier",
+      "slug": "supermarkt/lebensmittel/milchprodukte-eier",
+      "visible": true,
+      "title": "Milchprodukte und Eier –",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/6b1ea6c2d41c3ccb21bf05c8dc342f7f55d83deb/milchprodukte-eier.jpg",
+        "stack": "https://image.migros.ch/{stack}/6b1ea6c2d41c3ccb21bf05c8dc342f7f55d83deb/milchprodukte-eier.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/19d74fd5a7ef4e93d56d86f6f9dae63f9c118e85/doppelrahm-2x200g.jpg",
+    "stack": "https://image.migros.ch/{stack}/19d74fd5a7ef4e93d56d86f6f9dae63f9c118e85/doppelrahm-2x200g.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/4284b666d3a79dc93f0db47e1ff6cfa2c2977627/doppelrahm-2x200g.png",
+    "stack": "https://image.migros.ch/{stack}/4284b666d3a79dc93f0db47e1ff6cfa2c2977627/doppelrahm-2x200g.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZFRP",
+          "value": "Frische Beschaffung"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "1",
+          "value": "Molki"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "70010",
+          "value": "SELLOUT/PROMOTIONEN"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/204101600700",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/doppelrahm-2x200g",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/204101600700",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/doppelrahm-2x200g",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "updated_at": "2020-09-16T05:47:22+0200",
+  "receipt_text": "Doppelrahm 2x200g",
+  "price": {
+    "valid_from": "2019-12-10T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "source": "PriceRepository",
+    "no_price_hint": "Aktueller Tagespreis"
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

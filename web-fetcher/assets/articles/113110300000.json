@@ -1,0 +1,296 @@
+{
+  "id": "113110300000",
+  "language": "de",
+  "name": "Choc-Törtli",
+  "slug": "choc-toertli",
+  "boss_number": "020212141505",
+  "description": {
+    "text": "Schokoladent&ouml;rtchen",
+    "source": "PIM"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7616700126723"
+  ],
+  "categories": [
+    {
+      "code": "BeSS_0101030812",
+      "name": "Konditorei Gebäcke klein",
+      "slug": "supermarkt/lebensmittel/baeckerei-confiserie-backen/konditorei-patisserie/konditorei-gebaecke-klein",
+      "visible": true,
+      "parent_code": "BeSS_01010308",
+      "image": {
+        "original": "https://image.migros.ch/original/f1a4a97add2b34d68c1e85b5c6b981069a3be9c6/konditorei-gebaecke-klein.jpg",
+        "stack": "https://image.migros.ch/{stack}/f1a4a97add2b34d68c1e85b5c6b981069a3be9c6/konditorei-gebaecke-klein.jpg"
+      },
+      "level": 5
+    },
+    {
+      "code": "BeSS_01010308",
+      "name": "Konditorei & Patisserie",
+      "slug": "supermarkt/lebensmittel/baeckerei-confiserie-backen/konditorei-patisserie",
+      "visible": true,
+      "title": "Patisserie und Confiserie &ndash; Süssgebäck von der Migros",
+      "parent_code": "BeSS_010103",
+      "image": {
+        "original": "https://image.migros.ch/original/da2663e4ef52ff0252fe6fea37437cbe1151e3aa/konditorei-patisserie.jpg",
+        "stack": "https://image.migros.ch/{stack}/da2663e4ef52ff0252fe6fea37437cbe1151e3aa/konditorei-patisserie.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010103",
+      "name": "Bäckerei, Confiserie & Backen",
+      "slug": "supermarkt/lebensmittel/baeckerei-confiserie-backen",
+      "visible": true,
+      "title": "Backen macht Freude! Alle Zutaten finden Sie in Ihrer Migros",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/04b41cd6f4daedf3061a2a37617d48e992760b35/baeckerei-confiserie-backen.jpg",
+        "stack": "https://image.migros.ch/{stack}/04b41cd6f4daedf3061a2a37617d48e992760b35/baeckerei-confiserie-backen.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_Kleingebaecke_KleingebaeckeKuchen_SchokoladenSuessigkeiten",
+        "name": "Kleingebäcke",
+        "slug": "amigos/schokoladen-suessigkeiten/kleingebaecke-kuchen/kleingebaecke",
+        "visible": true,
+        "parent_code": "AMIG_CAT_KleingebaeckeKuchen_SchokoladenSuessigkeiten",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_KleingebaeckeKuchen_SchokoladenSuessigkeiten",
+        "name": "Kleingebäcke & Kuchen",
+        "slug": "amigos/schokoladen-suessigkeiten/kleingebaecke-kuchen",
+        "visible": true,
+        "parent_code": "AMIG_CAT_SchokoladenSuessigkeiten",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_SchokoladenSuessigkeiten",
+        "name": "Schokoladen & Süssigkeiten",
+        "slug": "amigos/schokoladen-suessigkeiten",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "features": [
+    {
+      "label_code": "MISO_anzahlentnehmbarereinzelportionen",
+      "label": "Anzahl entnehmbarer Einzeleinheiten",
+      "values": [
+        {
+          "value_code": "NUMERIC_1.0",
+          "value": "1.0",
+          "numeric_value": 1
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zubereitungsverfahren",
+      "label": "Hinweise für die Zubereitung",
+      "values": [
+        {
+          "value_code": "MISO_zubereitungsverfahren_verzehrfertig",
+          "value": "Verzehrfertig"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_besonderezutaten",
+      "label": "Besondere Zutaten",
+      "values": [
+        {
+          "value_code": "MISO_besonderezutaten_schokolade",
+          "value": "Schokolade"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_artvongebaeckpastete",
+      "label": "Art von Gebäck/Pastete",
+      "values": [
+        {
+          "value_code": "MISO_artvongebaeckpastete_toertli",
+          "value": "Törtli"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_verzehrbarkeit",
+      "label": "Hinweise zum Verzehr",
+      "values": [
+        {
+          "value_code": "MISO_verzehrbarkeit_fertigzumverzehr",
+          "value": "fertig zum Verzehr"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/b8815fafc7f8b5983a8445ffa4af2a8be80b3511/choc-toertli.jpg",
+    "stack": "https://image.migros.ch/{stack}/b8815fafc7f8b5983a8445ffa4af2a8be80b3511/choc-toertli.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/050de4418d85ea13fe97fea384ec0fd83c992d51/choc-toertli.png",
+    "stack": "https://image.migros.ch/{stack}/050de4418d85ea13fe97fea384ec0fd83c992d51/choc-toertli.png"
+  },
+  "additional_images": [
+    {
+      "original": "https://image.migros.ch/original/42d957c6a9a6013716aa8f66b2915a89c3a7d91c.jpg",
+      "stack": "https://image.migros.ch/{stack}/42d957c6a9a6013716aa8f66b2915a89c3a7d91c.jpg"
+    }
+  ],
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_sortierung",
+      "label": "Sortierung aMigos",
+      "values": [
+        {
+          "value_code": "NUMERIC_165",
+          "value": "165",
+          "numeric_value": 165
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZFRP",
+          "value": "Frische Beschaffung"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "8",
+          "value": "Backwaren"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "70160",
+          "value": "KLEINBACKWAR ABGEP EINZEL"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/113110300000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/choc-toertli",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/113110300000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/choc-toertli",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "updated_at": "2020-09-16T05:43:14+0200",
+  "receipt_text": "Choc-Törtli",
+  "price": {
+    "valid_from": "2018-01-29T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 1.2,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "75g"
+    },
+    "base": {
+      "price": 1.6,
+      "quantity": 100,
+      "unit": "g"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 17,
+    "average_all": 4.25
+  },
+  "allergen_text": "Kann andere Nüsse \r\n und Sesam enthalten.",
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

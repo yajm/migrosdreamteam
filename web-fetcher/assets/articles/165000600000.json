@@ -1,0 +1,304 @@
+{
+  "id": "165000600000",
+  "language": "de",
+  "name": "Pelican ASC Pangasius Zitronenp.",
+  "slug": "pelican-asc-pangasius-zitronenp",
+  "boss_number": "010510551605",
+  "description": {
+    "text": "Pengansion in Zitronenpanade, festes, weisses Fleisch, mild im Geschmack",
+    "source": "PIM"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "source-qim-origins",
+    "validity-range-not-set",
+    "source-qim-allergens",
+    "source-qim-fooddeclaration",
+    "source-qim-nutritionfacts",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7613312267417",
+    "7613269291343",
+    "5700001001116"
+  ],
+  "brand": {
+    "id": "440",
+    "name": "Pelican",
+    "slug": "pelican"
+  },
+  "labels": [
+    {
+      "id": "L36",
+      "name": "ASC",
+      "slug": "asc",
+      "image": {
+        "original": "https://image.migros.ch/original/6fce33537bdee669e044bd9b82dc419c6d44a000/asc.jpg",
+        "stack": "https://image.migros.ch/{stack}/6fce33537bdee669e044bd9b82dc419c6d44a000/asc.jpg"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_0101150401",
+      "name": "Fisch & Fischfilets",
+      "slug": "supermarkt/lebensmittel/tiefkuehlprodukte/fisch-meeresfruechte/fisch-fischfilets",
+      "visible": true,
+      "title": "Schlemmen mit gefrorenen Fischfilets aus Meer und See",
+      "parent_code": "BeSS_01011504",
+      "image": {
+        "original": "https://image.migros.ch/original/904f05124554d05b4cfb64f36114507abf729cac/fisch-fischfilets.jpg",
+        "stack": "https://image.migros.ch/{stack}/904f05124554d05b4cfb64f36114507abf729cac/fisch-fischfilets.jpg"
+      },
+      "level": 5
+    },
+    {
+      "code": "BeSS_01011504",
+      "name": "Fisch & Meeresfrüchte",
+      "slug": "supermarkt/lebensmittel/tiefkuehlprodukte/fisch-meeresfruechte",
+      "visible": true,
+      "title": "Lecker und empfehlenswert &ndash; Tiefkühlfisch von der Migros",
+      "parent_code": "BeSS_010115",
+      "level": 4
+    },
+    {
+      "code": "BeSS_010115",
+      "name": "Tiefkühlprodukte",
+      "slug": "supermarkt/lebensmittel/tiefkuehlprodukte",
+      "visible": true,
+      "title": "Tiefkühlprodukte aus Ihrer Migros: schnell etwas Feines auf Ihren Tisch",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/b8e389701dd44ecdd5fbc95db5eed9b0a8c4a03d/tiefkuehlprodukte.jpg",
+        "stack": "https://image.migros.ch/{stack}/b8e389701dd44ecdd5fbc95db5eed9b0a8c4a03d/tiefkuehlprodukte.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "features": [
+    {
+      "label_code": "MISO_produktionsanspruch",
+      "label": "Produktionsverfahren",
+      "values": [
+        {
+          "value_code": "MISO_produktionsanspruch_paniert",
+          "value": "Paniert"
+        },
+        {
+          "value_code": "MISO_produktionsanspruch_verantwortungsvollefischzucht",
+          "value": "Verantwortungsvolle Fischzucht"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_karton",
+          "value": "Karton"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zubereitungsverfahren",
+      "label": "Hinweise für die Zubereitung",
+      "values": [
+        {
+          "value_code": "MISO_zubereitungsverfahren_backen",
+          "value": "Backen"
+        },
+        {
+          "value_code": "MISO_zubereitungsverfahren_braten",
+          "value": "Braten"
+        },
+        {
+          "value_code": "MISO_zubereitungsverfahren_frittieren",
+          "value": "Frittieren"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zusatzangaben",
+      "label": "Zusatzangaben",
+      "values": [
+        {
+          "value_code": "MISO_zusatzangaben_309",
+          "value": "Vor der Zubereitung nicht auftauen"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_fischspezies",
+      "label": "Fischspezies",
+      "values": [
+        {
+          "value_code": "MISO_fischspezies_pangasius",
+          "value": "Pangasius"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zuchtoderwildfang",
+      "label": "Zucht oder Wildfang",
+      "values": [
+        {
+          "value_code": "MISO_zuchtoderwildfang_zucht",
+          "value": "Zucht"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_suessodersalzwasser",
+      "label": "Süss- oder Salzwasser",
+      "values": [
+        {
+          "value_code": "MISO_suessodersalzwasser_suesswasser",
+          "value": "Süsswasser"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_herstellungsverfahren",
+      "label": "Herstellungsverfahren",
+      "values": [
+        {
+          "value_code": "MISO_herstellungsverfahren_paniert",
+          "value": "Paniert"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_tierwohlmehrwert",
+      "label": "Tierwohl Mehrwert",
+      "values": [
+        {
+          "value_code": "MISO_tierwohlmehrwert_asc",
+          "value": "ASC"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/519185d40432a87c0d7c0a27c61bf44ddd8aaef3/pelican-asc-pangasius-zitronenp.jpg",
+    "stack": "https://image.migros.ch/{stack}/519185d40432a87c0d7c0a27c61bf44ddd8aaef3/pelican-asc-pangasius-zitronenp.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/53a08053975b95a12bb2d72413a6b6702cf78a0d/pelican-asc-pangasius-zitronenp.png",
+    "stack": "https://image.migros.ch/{stack}/53a08053975b95a12bb2d72413a6b6702cf78a0d/pelican-asc-pangasius-zitronenp.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "M",
+          "value": "Kolonial Standard"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "30152",
+          "value": "TK FISCH ZUBEREITET"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/165000600000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/pelican-asc-pangasius-zitronenp",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/165000600000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/pelican-asc-pangasius-zitronenp",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "updated_at": "2020-09-16T05:47:10+0200",
+  "receipt_text": "ASC Pangasius Zitron",
+  "price": {
+    "valid_from": "2018-01-29T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 5.1,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "300g"
+    },
+    "base": {
+      "price": 1.7,
+      "quantity": 100,
+      "unit": "g"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 22,
+    "average_all": 3.375
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

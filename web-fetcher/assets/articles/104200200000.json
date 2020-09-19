@@ -1,0 +1,338 @@
+{
+  "id": "104200200000",
+  "language": "de",
+  "name": "Bio aha! Früchtemüesli",
+  "slug": "bio-aha-fruechtemueesli",
+  "boss_number": "010310525605",
+  "description": {
+    "text": "<p>Bio Bircherm&uuml;esli mit glutenfreiem Hafer und Trockenfr&uuml;chten, glutenfrei</p>",
+    "source": "PIM"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "source-qim-origins",
+    "validity-range-not-set",
+    "source-qim-allergens",
+    "source-qim-fooddeclaration",
+    "source-qim-nutritionfacts",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7613312013489"
+  ],
+  "labels": [
+    {
+      "id": "L02",
+      "name": "Migros Bio",
+      "slug": "migros-bio",
+      "image": {
+        "original": "https://image.migros.ch/original/f32d1804b8db5760147310b8d6458eb36757b486/migros-bio.jpg",
+        "stack": "https://image.migros.ch/{stack}/f32d1804b8db5760147310b8d6458eb36757b486/migros-bio.jpg"
+      }
+    },
+    {
+      "id": "L15",
+      "name": "aha!",
+      "slug": "aha",
+      "image": {
+        "original": "https://image.migros.ch/original/ddc0ba54b162f407e050f09ed5f0c948ed31e289/aha.jpg",
+        "stack": "https://image.migros.ch/{stack}/ddc0ba54b162f407e050f09ed5f0c948ed31e289/aha.jpg"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_01011202",
+      "name": "Cerealien",
+      "slug": "supermarkt/lebensmittel/mueesli-cerealien/cerealien",
+      "visible": true,
+      "title": "Cerealien aus der Migros: Gut in den Tag starten",
+      "parent_code": "BeSS_010112",
+      "image": {
+        "original": "https://image.migros.ch/original/0ce52f6661cdb9fc2d373463dbf484792d36e6b8/cerealien.jpg",
+        "stack": "https://image.migros.ch/{stack}/0ce52f6661cdb9fc2d373463dbf484792d36e6b8/cerealien.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010112",
+      "name": "Müesli & Cerealien",
+      "slug": "supermarkt/lebensmittel/mueesli-cerealien",
+      "visible": true,
+      "title": "Cerealien von der Migros &ndash; für einen guten Start in den Tag",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/94adab320c7d6778bba96c16ad7b18a493850519/mueesli-cerealien.jpg",
+        "stack": "https://image.migros.ch/{stack}/94adab320c7d6778bba96c16ad7b18a493850519/mueesli-cerealien.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_Mueesli_MueesliGetreideflocken_MueesliCerealienBrotaufstriche",
+        "name": "Müesli",
+        "slug": "amigos/mueesli-cerealien-brotaufstriche/mueesli-getreideflocken/mueesli",
+        "visible": true,
+        "parent_code": "AMIG_CAT_MueesliGetreideflocken_MueesliCerealienBrotaufstriche",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_MueesliGetreideflocken_MueesliCerealienBrotaufstriche",
+        "name": "Müesli & Getreideflocken",
+        "slug": "amigos/mueesli-cerealien-brotaufstriche/mueesli-getreideflocken",
+        "visible": true,
+        "parent_code": "AMIG_CAT_MueesliCerealienBrotaufstriche",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_MueesliCerealienBrotaufstriche",
+        "name": "Müesli, Cerealien & Brotaufstriche",
+        "slug": "amigos/mueesli-cerealien-brotaufstriche",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "features": [
+    {
+      "label_code": "MISO_produktionsanspruch",
+      "label": "Produktionsverfahren",
+      "values": [
+        {
+          "value_code": "MISO_produktionsanspruch_bioproduktion",
+          "value": "Bio-Produktion"
+        },
+        {
+          "value_code": "MISO_produktionsanspruch_ohnezuckerzusatz",
+          "value": "Ohne Zuckerzusatz"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_beutelsack",
+          "value": "Beutel/Sack"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_artvonbearbeitetemgetreideprodukt",
+      "label": "Art von bearbeitetem Getreideprodukt",
+      "values": [
+        {
+          "value_code": "MISO_artvonbearbeitetemgetreideprodukt_hafer",
+          "value": "Hafer"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_mitobst",
+      "label": "Mit Obst",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_besonderezutaten",
+      "label": "Besondere Zutaten",
+      "values": [
+        {
+          "value_code": "MISO_besonderezutaten_fruechte",
+          "value": "Früchte"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ALLERGENES",
+      "label": "Allergenauslobungen",
+      "values": [
+        {
+          "value_code": "MAPI_ALLERGENES_glutenfreiMitHafer",
+          "value": "Glutenfrei, mit Hafer"
+        },
+        {
+          "value_code": "MAPI_ALLERGENES_ohneWeizen",
+          "value": "Ohne Weizen"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/c2b69e6212a7be215bd833d2374988b53e17c10a/bio-aha-fruechtemueesli.jpg",
+    "stack": "https://image.migros.ch/{stack}/c2b69e6212a7be215bd833d2374988b53e17c10a/bio-aha-fruechtemueesli.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/2750b3eac1c4718bb07c53bd89da15531ba2acea/bio-aha-fruechtemueesli.png",
+    "stack": "https://image.migros.ch/{stack}/2750b3eac1c4718bb07c53bd89da15531ba2acea/bio-aha-fruechtemueesli.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_sortierung",
+      "label": "Sortierung aMigos",
+      "values": [
+        {
+          "value_code": "NUMERIC_400",
+          "value": "400",
+          "numeric_value": 400
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "M",
+          "value": "Kolonial Standard"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "10321",
+          "value": "BIO CEREALIEN"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUSTOMS_POSITION",
+      "values": [
+        {
+          "value_code": "1904.1010"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/104200200000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/bio-aha-fruechtemueesli",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/104200200000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/bio-aha-fruechtemueesli",
+      "type": "info",
+      "purchasable": false
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/226927",
+      "app_url": "leshop:///catalog/article/detail?ean=7613312013489",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/bio-aha-fruechtemueesli",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "updated_at": "2020-09-16T05:41:32+0200",
+  "receipt_text": "Bio aha! Früchtemüesli",
+  "price": {
+    "valid_from": "2018-01-29T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 6.2,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "500g"
+    },
+    "base": {
+      "price": 1.24,
+      "quantity": 100,
+      "unit": "g"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 14,
+    "average_all": 4.230769230769
+  },
+  "allergen_text": "Kann enthalten: Milch, Soja, Sesamsamen, Erdnüsse, Cashewnüsse, Mandeln, Haselnüsse.",
+  "reindex_date": "2020-09-20T00:00:00+0200"
+}

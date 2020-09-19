@@ -1,0 +1,357 @@
+{
+  "id": "233011586000",
+  "language": "de",
+  "name": "Bio Walliser Rohschinken",
+  "slug": "bio-walliser-rohschinken",
+  "boss_number": "040114515510",
+  "description": {
+    "text": "Bio Walliser Rohschinken, produziert gem. den Vorgaben der Schweizer Bio Verordnung. Eine Walliser Rohschinken Spezialit&auml;t hergestellt aus edlen St&uuml;cken des Schweizer Schweine-Stotzens",
+    "source": "PIM"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "2153815000005",
+    "7613269175438"
+  ],
+  "labels": [
+    {
+      "id": "L53",
+      "name": "Swissness",
+      "slug": "swissness",
+      "image": {
+        "original": "https://image.migros.ch/original/d771bba2f6b08ba42970ea0243c6f8c5a8832f15/swissness.jpg",
+        "stack": "https://image.migros.ch/{stack}/d771bba2f6b08ba42970ea0243c6f8c5a8832f15/swissness.jpg"
+      }
+    },
+    {
+      "id": "L02",
+      "name": "Migros Bio",
+      "slug": "migros-bio",
+      "image": {
+        "original": "https://image.migros.ch/original/f32d1804b8db5760147310b8d6458eb36757b486/migros-bio.jpg",
+        "stack": "https://image.migros.ch/{stack}/f32d1804b8db5760147310b8d6458eb36757b486/migros-bio.jpg"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_0101061108",
+      "name": "Ungekühlte Wurst und Fleischwaren aus Bio Fleisch",
+      "slug": "supermarkt/lebensmittel/fleisch/charcuterie-produkte/ungekuehlte-wurst-und-fleischwaren-aus-bio-fleisch",
+      "visible": true,
+      "parent_code": "BeSS_01010611",
+      "image": {
+        "original": "https://image.migros.ch/original/31394d67f251706edbfe3d4bfe0eb314f3b951bf/ungekuehlte-wurst-und-fleischwaren-aus-bio-fleisch.jpg",
+        "stack": "https://image.migros.ch/{stack}/31394d67f251706edbfe3d4bfe0eb314f3b951bf/ungekuehlte-wurst-und-fleischwaren-aus-bio-fleisch.jpg"
+      },
+      "level": 5
+    },
+    {
+      "code": "BeSS_01010611",
+      "name": "Charcuterie Produkte",
+      "slug": "supermarkt/lebensmittel/fleisch/charcuterie-produkte",
+      "visible": true,
+      "title": "Vielfältige Charcuterie-Produkte jetzt in Ihrer Migros",
+      "parent_code": "BeSS_010106",
+      "image": {
+        "original": "https://image.migros.ch/original/25316d2bc38d6c6d28b266513291b23735ad8a1f/charcuterie-produkte.jpg",
+        "stack": "https://image.migros.ch/{stack}/25316d2bc38d6c6d28b266513291b23735ad8a1f/charcuterie-produkte.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010106",
+      "name": "Fleisch",
+      "slug": "supermarkt/lebensmittel/fleisch",
+      "visible": true,
+      "title": "Fleisch ausgezeichneter Qualität aus Ihrer Migros: einfach gut",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/03d32c0880d7a9ea6e58971966032e65ac442b58/fleisch.jpg",
+        "stack": "https://image.migros.ch/{stack}/03d32c0880d7a9ea6e58971966032e65ac442b58/fleisch.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "features": [
+    {
+      "label_code": "MISO_mussgekuehltwerden",
+      "label": "Muss gekühlt werden",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "Nein",
+          "boolean_value": false
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_produktionsanspruch",
+      "label": "Produktionsverfahren",
+      "values": [
+        {
+          "value_code": "MISO_produktionsanspruch_bioproduktion",
+          "value": "Bio-Produktion"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_kunststoffverpackungmitpapieranteil60wenigerkunststoff",
+          "value": "Kunststoff-Verpackung mit Papieranteil (60% weniger Kunststoff)"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zubereitungsverfahren",
+      "label": "Hinweise für die Zubereitung",
+      "values": [
+        {
+          "value_code": "MISO_zubereitungsverfahren_verzehrfertig",
+          "value": "Verzehrfertig"
+        },
+        {
+          "value_code": "MISO_zubereitungsverfahren_zumrohessen",
+          "value": "Zum Rohessen"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_inscheibenodertranchen",
+      "label": "In Scheiben oder Tranchen",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "Nein",
+          "boolean_value": false
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_fleischform",
+      "label": "Fleischform bearbeitet",
+      "values": [
+        {
+          "value_code": "MISO_fleischform_inscheibenodertranchen",
+          "value": "In Scheiben oder Tranchen"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_tierartodergattung",
+      "label": "Tierart oder Gattung",
+      "values": [
+        {
+          "value_code": "MISO_tierartodergattung_schwein",
+          "value": "Schwein"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_verpackungsform",
+      "label": "Verpackungsform",
+      "values": [
+        {
+          "value_code": "MISO_verpackungsform_schutzatmosphaere",
+          "value": "Schutzatmosphäre"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_herstellungsverfahrenvonfleisch",
+      "label": "Herstellungsverfahren von Fleisch",
+      "values": [
+        {
+          "value_code": "MISO_herstellungsverfahrenvonfleisch_getrocknet",
+          "value": "getrocknet"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_haltbarmachung",
+      "label": "Haltbarmachung",
+      "values": [
+        {
+          "value_code": "MISO_haltbarmachung_gesalzen",
+          "value": "gesalzen"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_fleischstueck",
+      "label": "Fleischstück",
+      "values": [
+        {
+          "value_code": "MISO_fleischstueck_schweinestotzen",
+          "value": "Schweine-Stotzen"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_schneideart",
+      "label": "Schneideart",
+      "values": [
+        {
+          "value_code": "MISO_schneideart_duenngeschnitten",
+          "value": "dünn geschnitten"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/725830c0fab513538a5131aa1f9be41dc75c2015/bio-walliser-rohschinken.jpg",
+    "stack": "https://image.migros.ch/{stack}/725830c0fab513538a5131aa1f9be41dc75c2015/bio-walliser-rohschinken.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/a24a4887b8c3dabfcc7ae51472ae4e40ed54e641/bio-walliser-rohschinken.png",
+    "stack": "https://image.migros.ch/{stack}/a24a4887b8c3dabfcc7ae51472ae4e40ed54e641/bio-walliser-rohschinken.png"
+  },
+  "additional_images": [
+    {
+      "original": "https://image.migros.ch/original/6c8f8f9a0780649b567690878befb636c08b0234.jpg",
+      "stack": "https://image.migros.ch/{stack}/6c8f8f9a0780649b567690878befb636c08b0234.jpg"
+    }
+  ],
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_minimal-gewicht",
+      "label": "Minimal-Gewicht",
+      "values": [
+        {
+          "value_code": "NUMERIC_80.0",
+          "value": "80.0 g",
+          "numeric_value": 80
+        }
+      ],
+      "top_fact": false,
+      "unit_code": "g",
+      "unit": "Gramm",
+      "unit_symbol": "g"
+    },
+    {
+      "label_code": "MISO_aMigos_maximal-gewicht",
+      "label": "Maximal-Gewicht",
+      "values": [
+        {
+          "value_code": "NUMERIC_80.0",
+          "value": "80.0 g",
+          "numeric_value": 80
+        }
+      ],
+      "top_fact": false,
+      "unit_code": "g",
+      "unit": "Gramm",
+      "unit_symbol": "g"
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZFRP",
+          "value": "Frische Beschaffung"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "6",
+          "value": "Fleisch-Fisch-Geflüg"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "70125",
+          "value": "BIO"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/233011586000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/bio-walliser-rohschinken",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/233011586000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/bio-walliser-rohschinken",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "updated_at": "2020-09-16T05:52:32+0200",
+  "receipt_text": "Bio Walliser Rohschin",
+  "price": {
+    "valid_from": "2018-11-05T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "source": "PriceRepository",
+    "no_price_hint": "Aktueller Tagespreis"
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 5,
+    "average_all": 2.8
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

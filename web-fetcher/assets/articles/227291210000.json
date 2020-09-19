@@ -1,0 +1,268 @@
+{
+  "id": "227291210000",
+  "language": "de",
+  "name": "Knoblauchbutter",
+  "slug": "knoblauchbutter",
+  "boss_number": "040214525010",
+  "description": {
+    "text": "Knoblauchbutter zu Knoblauchbrot, Gem&uuml;se, Teigwaren &amp; Grilladen",
+    "source": "PIM"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7617027582445"
+  ],
+  "labels": [
+    {
+      "id": "L53",
+      "name": "Swissness",
+      "slug": "swissness",
+      "image": {
+        "original": "https://image.migros.ch/original/d771bba2f6b08ba42970ea0243c6f8c5a8832f15/swissness.jpg",
+        "stack": "https://image.migros.ch/{stack}/d771bba2f6b08ba42970ea0243c6f8c5a8832f15/swissness.jpg"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_01010616",
+      "name": "Beilagen",
+      "slug": "supermarkt/lebensmittel/fleisch/beilagen",
+      "visible": true,
+      "parent_code": "BeSS_010106",
+      "level": 4
+    },
+    {
+      "code": "BeSS_010106",
+      "name": "Fleisch",
+      "slug": "supermarkt/lebensmittel/fleisch",
+      "visible": true,
+      "title": "Fleisch ausgezeichneter Qualität aus Ihrer Migros: einfach gut",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/03d32c0880d7a9ea6e58971966032e65ac442b58/fleisch.jpg",
+        "stack": "https://image.migros.ch/{stack}/03d32c0880d7a9ea6e58971966032e65ac442b58/fleisch.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_AufschnittTrockenfleisch_CharcuterieWurstwaren_FleischFisch",
+        "name": "Aufschnitt & Trockenfleisch",
+        "slug": "amigos/fleisch-fisch/charcuterie-wurstwaren/aufschnitt-trockenfleisch",
+        "visible": true,
+        "parent_code": "AMIG_CAT_CharcuterieWurstwaren_FleischFisch",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_CharcuterieWurstwaren_FleischFisch",
+        "name": "Charcuterie & Wurstwaren",
+        "slug": "amigos/fleisch-fisch/charcuterie-wurstwaren",
+        "visible": true,
+        "parent_code": "AMIG_CAT_FleischFisch",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_FleischFisch",
+        "name": "Fleisch & Fisch",
+        "slug": "amigos/fleisch-fisch",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "features": [
+    {
+      "label_code": "MISO_mussgekuehltwerden",
+      "label": "Muss gekühlt werden",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_produktionsanspruch",
+      "label": "Produktionsverfahren",
+      "values": [
+        {
+          "value_code": "MISO_produktionsanspruch_mitnatuerlichenaromen",
+          "value": "Mit natürlichen Aromen"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_schale",
+          "value": "Schale"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_beschaffenheitderbutter",
+      "label": "Beschaffenheit der Butter",
+      "values": [
+        {
+          "value_code": "MISO_beschaffenheitderbutter_aufstrich",
+          "value": "Aufstrich"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/227b812c4dbaec01ed07b17d858538033d398d61/knoblauchbutter.jpg",
+    "stack": "https://image.migros.ch/{stack}/227b812c4dbaec01ed07b17d858538033d398d61/knoblauchbutter.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/45c9d20d4eb16a33b438974932e443b7a2883d57/knoblauchbutter.png",
+    "stack": "https://image.migros.ch/{stack}/45c9d20d4eb16a33b438974932e443b7a2883d57/knoblauchbutter.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZFRP",
+          "value": "Frische Beschaffung"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "6",
+          "value": "Fleisch-Fisch-Geflüg"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "70190",
+          "value": "BEILAGEN"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/227291210000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/knoblauchbutter",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/227291210000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/knoblauchbutter",
+      "type": "info",
+      "purchasable": false
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/3462420",
+      "app_url": "leshop:///catalog/article/detail?ean=7617027582445",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/knoblauchbutter",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "updated_at": "2020-09-16T05:49:21+0200",
+  "receipt_text": "Knoblauch-Butter",
+  "price": {
+    "valid_from": "2020-07-15T00:00:00+0200",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 2.85,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "100g"
+    },
+    "base": {
+      "price": 2.85,
+      "quantity": 100,
+      "unit": "g"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 8,
+    "average_all": 3.5
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

@@ -1,0 +1,186 @@
+{
+  "id": "233010087500",
+  "language": "de",
+  "name": "Rohschinken Culatello",
+  "slug": "rohschinken-culatello",
+  "boss_number": "040114511535",
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "validity-range-not-set",
+    "filter-aus-der-region",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "2147989000008",
+    "7617027555173"
+  ],
+  "labels": [
+    {
+      "id": "L53",
+      "name": "Swissness",
+      "slug": "swissness",
+      "image": {
+        "original": "https://image.migros.ch/original/d771bba2f6b08ba42970ea0243c6f8c5a8832f15/swissness.jpg",
+        "stack": "https://image.migros.ch/{stack}/d771bba2f6b08ba42970ea0243c6f8c5a8832f15/swissness.jpg"
+      }
+    },
+    {
+      "id": "L28",
+      "name": "Aus der Region",
+      "slug": "aus-der-region",
+      "image": {
+        "original": "https://image.migros.ch/original/28068cd4d6e174c8ec75906797af89b64170c43f/aus-der-region.jpg",
+        "stack": "https://image.migros.ch/{stack}/28068cd4d6e174c8ec75906797af89b64170c43f/aus-der-region.jpg"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_0101061304",
+      "name": "Rohschinken",
+      "slug": "supermarkt/lebensmittel/fleisch/trockenfleisch-schinken/rohschinken",
+      "visible": true,
+      "parent_code": "BeSS_01010613",
+      "image": {
+        "original": "https://image.migros.ch/original/dc99c40a112358965f11b57f67119f207f92e3e3/rohschinken.jpg",
+        "stack": "https://image.migros.ch/{stack}/dc99c40a112358965f11b57f67119f207f92e3e3/rohschinken.jpg"
+      },
+      "level": 5
+    },
+    {
+      "code": "BeSS_01010613",
+      "name": "Trockenfleisch & Schinken",
+      "slug": "supermarkt/lebensmittel/fleisch/trockenfleisch-schinken",
+      "visible": true,
+      "title": "Trockenfleisch und Schinken jetzt in Ihrer Migros",
+      "parent_code": "BeSS_010106",
+      "image": {
+        "original": "https://image.migros.ch/original/20d017308e4c5a07b3162ee45e5d83f4098c80d1/trockenfleisch-schinken.jpg",
+        "stack": "https://image.migros.ch/{stack}/20d017308e4c5a07b3162ee45e5d83f4098c80d1/trockenfleisch-schinken.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010106",
+      "name": "Fleisch",
+      "slug": "supermarkt/lebensmittel/fleisch",
+      "visible": true,
+      "title": "Fleisch ausgezeichneter Qualität aus Ihrer Migros: einfach gut",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/03d32c0880d7a9ea6e58971966032e65ac442b58/fleisch.jpg",
+        "stack": "https://image.migros.ch/{stack}/03d32c0880d7a9ea6e58971966032e65ac442b58/fleisch.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/86f6f9dee88bebe8871a4d61fd9de860e44d8161/rohschinken-culatello.jpg",
+    "stack": "https://image.migros.ch/{stack}/86f6f9dee88bebe8871a4d61fd9de860e44d8161/rohschinken-culatello.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/79c82da43f716d589ce223f9d9c9a2a08eab7024/rohschinken-culatello.png",
+    "stack": "https://image.migros.ch/{stack}/79c82da43f716d589ce223f9d9c9a2a08eab7024/rohschinken-culatello.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZFRP",
+          "value": "Frische Beschaffung"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "6",
+          "value": "Fleisch-Fisch-Geflüg"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "71234",
+          "value": "ROHSCHINKEN"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/233010087500",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/rohschinken-culatello",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/233010087500",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/rohschinken-culatello",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "updated_at": "2020-09-16T05:52:25+0200",
+  "receipt_text": "Rohschinken Culatello",
+  "price": {
+    "valid_from": "2018-05-01T00:00:00+0200",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 6.9,
+      "quantity": 100,
+      "unit": "g",
+      "varying_quantity": true,
+      "display_quantity": "100 g"
+    },
+    "base": {
+      "price": 0.69,
+      "quantity": 100,
+      "unit": "g"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

@@ -1,0 +1,284 @@
+{
+  "id": "222840029000",
+  "language": "de",
+  "name": "Kastanien",
+  "slug": "kastanien",
+  "boss_number": "040214522515",
+  "description": {
+    "text": "Marroni in Caramelsauce",
+    "source": "PIM"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "validity-range-not-set",
+    "leshop-discounted",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7613269870777"
+  ],
+  "labels": [
+    {
+      "id": "L53",
+      "name": "Swissness",
+      "slug": "swissness",
+      "image": {
+        "original": "https://image.migros.ch/original/d771bba2f6b08ba42970ea0243c6f8c5a8832f15/swissness.jpg",
+        "stack": "https://image.migros.ch/{stack}/d771bba2f6b08ba42970ea0243c6f8c5a8832f15/swissness.jpg"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_01010616",
+      "name": "Beilagen",
+      "slug": "supermarkt/lebensmittel/fleisch/beilagen",
+      "visible": true,
+      "parent_code": "BeSS_010106",
+      "level": 4
+    },
+    {
+      "code": "BeSS_010106",
+      "name": "Fleisch",
+      "slug": "supermarkt/lebensmittel/fleisch",
+      "visible": true,
+      "title": "Fleisch ausgezeichneter Qualität aus Ihrer Migros: einfach gut",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/03d32c0880d7a9ea6e58971966032e65ac442b58/fleisch.jpg",
+        "stack": "https://image.migros.ch/{stack}/03d32c0880d7a9ea6e58971966032e65ac442b58/fleisch.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_Gemuese_KonservenEingemachtes_Grundnahrungsmittel",
+        "name": "Gemüse",
+        "slug": "amigos/grundnahrungsmittel/konserven-eingemachtes/gemuese",
+        "visible": true,
+        "parent_code": "AMIG_CAT_KonservenEingemachtes_Grundnahrungsmittel",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_KonservenEingemachtes_Grundnahrungsmittel",
+        "name": "Konserven & Eingemachtes",
+        "slug": "amigos/grundnahrungsmittel/konserven-eingemachtes",
+        "visible": true,
+        "parent_code": "AMIG_CAT_Grundnahrungsmittel",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_Grundnahrungsmittel",
+        "name": "Grundnahrungsmittel",
+        "slug": "amigos/grundnahrungsmittel",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "features": [
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_schale",
+          "value": "Schale"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_ursprungsland",
+      "label": "Ursprungsland",
+      "values": [
+        {
+          "value_code": "MISO_Herkunftsland_Portugal",
+          "value": "Portugal"
+        },
+        {
+          "value_code": "MISO_Herkunftsland_Spanien",
+          "value": "Spanien"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_herstellungsverfahrenkochprozess",
+      "label": "Herstellungsverfahren/Kochprozess",
+      "values": [
+        {
+          "value_code": "MISO_herstellungsverfahrenkochprozess_karamelisiert",
+          "value": "Karamelisiert"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_sorte",
+      "label": "Sorte",
+      "values": [
+        {
+          "value_code": "MISO_sorte_maronen",
+          "value": "Maronen"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/b3a6b0ea9641e089478af6e1d2bf29dac967ec4c/kastanien.jpg",
+    "stack": "https://image.migros.ch/{stack}/b3a6b0ea9641e089478af6e1d2bf29dac967ec4c/kastanien.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/368bd994de8fea7893597d882cdbc90e8d53f1b6/kastanien.png",
+    "stack": "https://image.migros.ch/{stack}/368bd994de8fea7893597d882cdbc90e8d53f1b6/kastanien.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_sortierung",
+      "label": "Sortierung aMigos",
+      "values": [
+        {
+          "value_code": "NUMERIC_1160",
+          "value": "1160",
+          "numeric_value": 1160
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZFRP",
+          "value": "Frische Beschaffung"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "6",
+          "value": "Fleisch-Fisch-Geflüg"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "71270",
+          "value": "WILD"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/222840029000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/kastanien",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/222840029000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/kastanien",
+      "type": "info",
+      "purchasable": false
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/3803682",
+      "app_url": "leshop:///catalog/article/detail?ean=7613269870777",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/kastanien",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "updated_at": "2020-09-16T06:50:49+0200",
+  "receipt_text": "Kastanien glasiert",
+  "price": {
+    "valid_from": "2018-01-29T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 4.9,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "290g"
+    },
+    "base": {
+      "price": 1.69,
+      "quantity": 100,
+      "unit": "g"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 2,
+    "average_all": 3
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

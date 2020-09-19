@@ -1,0 +1,357 @@
+{
+  "id": "161622100000",
+  "language": "de",
+  "name": "Bio Rahmspinat",
+  "slug": "bio-rahmspinat",
+  "boss_number": "010510451605",
+  "description": {
+    "text": "Schweizer Rahmspinat aus Bio Produktion",
+    "source": "PIM"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "validity-range-not-set",
+    "leshop-discounted",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7613269271215"
+  ],
+  "labels": [
+    {
+      "id": "L53",
+      "name": "Swissness",
+      "slug": "swissness",
+      "image": {
+        "original": "https://image.migros.ch/original/d771bba2f6b08ba42970ea0243c6f8c5a8832f15/swissness.jpg",
+        "stack": "https://image.migros.ch/{stack}/d771bba2f6b08ba42970ea0243c6f8c5a8832f15/swissness.jpg"
+      }
+    },
+    {
+      "id": "L02",
+      "name": "Migros Bio",
+      "slug": "migros-bio",
+      "image": {
+        "original": "https://image.migros.ch/original/f32d1804b8db5760147310b8d6458eb36757b486/migros-bio.jpg",
+        "stack": "https://image.migros.ch/{stack}/f32d1804b8db5760147310b8d6458eb36757b486/migros-bio.jpg"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_01011501",
+      "name": "Gemüse & Kartoffeln",
+      "slug": "supermarkt/lebensmittel/tiefkuehlprodukte/gemuese-kartoffeln",
+      "visible": true,
+      "title": "Voller Vitamine &ndash; das Tiefkühlgemüse der Migros",
+      "parent_code": "BeSS_010115",
+      "image": {
+        "original": "https://image.migros.ch/original/cdbc4838dff0598f31a05cb0ff811644b2e72046/gemuese-kartoffeln.jpg",
+        "stack": "https://image.migros.ch/{stack}/cdbc4838dff0598f31a05cb0ff811644b2e72046/gemuese-kartoffeln.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010115",
+      "name": "Tiefkühlprodukte",
+      "slug": "supermarkt/lebensmittel/tiefkuehlprodukte",
+      "visible": true,
+      "title": "Tiefkühlprodukte aus Ihrer Migros: schnell etwas Feines auf Ihren Tisch",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/b8e389701dd44ecdd5fbc95db5eed9b0a8c4a03d/tiefkuehlprodukte.jpg",
+        "stack": "https://image.migros.ch/{stack}/b8e389701dd44ecdd5fbc95db5eed9b0a8c4a03d/tiefkuehlprodukte.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_Kartoffeln_Gemuese_FruechteGemuese",
+        "name": "Kartoffeln",
+        "slug": "amigos/fruechte-gemuese/gemuese/kartoffeln",
+        "visible": true,
+        "parent_code": "AMIG_CAT_Gemuese_FruechteGemuese",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_Gemuese_FruechteGemuese",
+        "name": "Gemüse",
+        "slug": "amigos/fruechte-gemuese/gemuese",
+        "visible": true,
+        "parent_code": "AMIG_CAT_FruechteGemuese",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_FruechteGemuese",
+        "name": "Früchte & Gemüse",
+        "slug": "amigos/fruechte-gemuese",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "features": [
+    {
+      "label_code": "MISO_produktionsanspruch",
+      "label": "Produktionsverfahren",
+      "values": [
+        {
+          "value_code": "MISO_produktionsanspruch_bioproduktion",
+          "value": "Bio-Produktion"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_beutelsack",
+          "value": "Beutel/Sack"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zubereitungsverfahren",
+      "label": "Hinweise für die Zubereitung",
+      "values": [
+        {
+          "value_code": "MISO_zubereitungsverfahren_inderpfanneerwaermen",
+          "value": "In der Pfanne erwärmen"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_ursprungsland",
+      "label": "Ursprungsland",
+      "values": [
+        {
+          "value_code": "MISO_Herkunftsland_Schweiz",
+          "value": "Schweiz"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aufbewahrunghaltbarkeit",
+      "label": "Aufbewahrung/Haltbarkeit",
+      "values": [
+        {
+          "value_code": "MISO_aufbewahrunghaltbarkeit_1",
+          "value": "Tiefgekühlt"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_sorte",
+      "label": "Sorte",
+      "values": [
+        {
+          "value_code": "MISO_sorte_rahmspinat",
+          "value": "Rahmspinat"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/a603a37adb9b9de3b39b73e583581e0f047235e1/bio-rahmspinat.jpg",
+    "stack": "https://image.migros.ch/{stack}/a603a37adb9b9de3b39b73e583581e0f047235e1/bio-rahmspinat.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/062612ae6f7302ad8e6db397a5b648dacf7f4cf8/bio-rahmspinat.png",
+    "stack": "https://image.migros.ch/{stack}/062612ae6f7302ad8e6db397a5b648dacf7f4cf8/bio-rahmspinat.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "M",
+          "value": "Kolonial Standard"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "30096",
+          "value": "TK BIO GEMUESE"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/161622100000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/bio-rahmspinat",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/161622100000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/bio-rahmspinat",
+      "type": "info",
+      "purchasable": false
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/221726",
+      "app_url": "leshop:///catalog/article/detail?ean=7613269271215",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/bio-rahmspinat",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "updated_at": "2020-09-16T06:50:39+0200",
+  "receipt_text": "Bio Rahmspinat",
+  "price": {
+    "valid_from": "2020-09-15T00:00:00+0200",
+    "valid_to": "2020-09-21T23:59:59+0200",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 2.9,
+      "original_price": 3.6,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "500g"
+    },
+    "discount": {
+      "id": "1448610",
+      "region": "national",
+      "start_date": "2020-09-15T00:00:00+0200",
+      "end_date": "2020-09-21T23:59:59+0200",
+      "publication_date": "2020-09-13T00:00:00+0200",
+      "discount_amount": "20%",
+      "discount_regions": [
+        "national"
+      ],
+      "reference_product_id": "161616400000",
+      "discount_type": "aktion",
+      "discount_type_id": "001",
+      "discount_type_label": "SA Sonderangebot",
+      "organisation": "02",
+      "cooperative": "mgb",
+      "image": {
+        "tags": [
+          "list-image"
+        ],
+        "original": "https://image.migros.ch/original/84ed1433f78c464e1eb544ab2024199885d18b90/alle-spinat-produkte.jpg",
+        "source": "PriceRepository",
+        "stack": "https://image.migros.ch/{stack}/84ed1433f78c464e1eb544ab2024199885d18b90/alle-spinat-produkte.jpg"
+      },
+      "image_transparent": {
+        "original": "https://image.migros.ch/original/84ed1433f78c464e1eb544ab2024199885d18b90/alle-spinat-produkte.png",
+        "source": "PriceRepository",
+        "stack": "https://image.migros.ch/{stack}/84ed1433f78c464e1eb544ab2024199885d18b90/alle-spinat-produkte.png"
+      },
+      "logo": {
+        "original": "https://image.migros.ch/original/4abe4119e5d02d4d078ba602711b889665856893.png",
+        "source": "PriceRepository",
+        "stack": "https://image.migros.ch/{stack}/4abe4119e5d02d4d078ba602711b889665856893.png"
+      },
+      "badge": {
+        "original": "https://image.migros.ch/original/0633530dd39bda4f1496c8c8aa5ac1d66f227594.png",
+        "stack": "https://image.migros.ch/{stack}/0633530dd39bda4f1496c8c8aa5ac1d66f227594.png"
+      },
+      "location_planning_type": "01",
+      "reduction_type_id": "01",
+      "special_advertisement": false,
+      "advertisement_type_id": "2",
+      "description": "Alle Spinat-Produkte",
+      "discount_hint": "(ohne Alnatura), tiefgekühlt, z.B. Farmer's Best Spinat gehackt, 800 g, <strong>2.40 </strong>statt 3.–, Angebot gilt nur vom 15.9. bis 21.9.2020, solange Vorrat.",
+      "high_performer": false,
+      "collective_discount": true,
+      "instead_of": "statt",
+      "price": 2.9,
+      "original_price": 3.6,
+      "disclaimer": "Gültigkeit siehe Angebots-Detailseite.\r\nBei allen Angeboten sind M-Budget und bereits reduzierte Artikel ausgenommen.\r\nBei Aktionen können bei der Verrechnung auf dem Kassabon Rundungsdifferenzen zu Gunsten des Kunden entstehen.",
+      "source": "PriceRepository",
+      "boss_number": "010510450605",
+      "discount_role_id": "2000000002",
+      "discount_role_label": "M: Wochenangebot Typ I",
+      "last_imported": "2020-09-07T15:15:09+0200"
+    },
+    "discount_hint": "<strong>Stück, </strong>Angebot gilt nur vom 15.9. bis 21.9.2020, solange Vorrat."
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 7,
+    "average_all": 3.571428571429
+  },
+  "reindex_date": "2020-09-21T23:59:59+0200"
+}

@@ -1,0 +1,380 @@
+{
+  "id": "131001700000",
+  "language": "de",
+  "name": "Anna's Best Nüsslisalat",
+  "slug": "annas-best-nuesslisalat",
+  "boss_number": "020530371505",
+  "description": {
+    "text": "N&uuml;sslisalat gewaschen, konsumbereit",
+    "source": "PIM"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "source-qim-origins",
+    "validity-range-not-set",
+    "source-qim-fooddeclaration",
+    "source-qim-nutritionfacts",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7613269760702",
+    "7613404133040",
+    "7613404133057",
+    "7613404133064",
+    "7613404133071",
+    "7613404179307"
+  ],
+  "brand": {
+    "id": "007",
+    "name": "Anna's Best",
+    "slug": "annas-best",
+    "links": {
+      "homepage": {
+        "url": "https://annasbest.migros.ch/de.html",
+        "name": "Homepage",
+        "type": "info",
+        "purchasable": false
+      }
+    },
+    "image": {
+      "original": "https://image.migros.ch/original/184dd9291cf7fb67f0772e72d682c71c5fb76261/annas-best.jpg",
+      "stack": "https://image.migros.ch/{stack}/184dd9291cf7fb67f0772e72d682c71c5fb76261/annas-best.jpg"
+    }
+  },
+  "categories": [
+    {
+      "code": "BeSS_0101130215",
+      "name": "Schnittsalate",
+      "slug": "supermarkt/lebensmittel/fertiggerichte-menues-snacks/fertige-pizzen-menues-snacks/schnittsalate",
+      "visible": true,
+      "title": "Schnittsalate in Ihrer Migros kaufen",
+      "parent_code": "BeSS_01011302",
+      "image": {
+        "original": "https://image.migros.ch/original/d458702405e65ca2d162705c3145be055acce4f4/schnittsalate.jpg",
+        "stack": "https://image.migros.ch/{stack}/d458702405e65ca2d162705c3145be055acce4f4/schnittsalate.jpg"
+      },
+      "level": 5
+    },
+    {
+      "code": "BeSS_01011302",
+      "name": "Fertige Pizzen, Menüs & Snacks",
+      "slug": "supermarkt/lebensmittel/fertiggerichte-menues-snacks/fertige-pizzen-menues-snacks",
+      "visible": true,
+      "title": "Feine Fertiggerichte aus Ihrer Migros!",
+      "parent_code": "BeSS_010113",
+      "image": {
+        "original": "https://image.migros.ch/original/0014f54049f00019a8782aedb21ad671bd28a8e8/fertige-pizzen-menues-snacks.jpg",
+        "stack": "https://image.migros.ch/{stack}/0014f54049f00019a8782aedb21ad671bd28a8e8/fertige-pizzen-menues-snacks.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010113",
+      "name": "Fertiggerichte, Menüs & Snacks",
+      "slug": "supermarkt/lebensmittel/fertiggerichte-menues-snacks",
+      "visible": true,
+      "title": "Fertige Pizzen, Menüs und Snacks &ndash; schnell und lecker von der Migros",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/6770b6c8fbbd2689aece359ffeda93b90c58dd09/fertiggerichte-menues-snacks.jpg",
+        "stack": "https://image.migros.ch/{stack}/6770b6c8fbbd2689aece359ffeda93b90c58dd09/fertiggerichte-menues-snacks.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_Frischsalate_Salate_FruechteGemuese",
+        "name": "Frischsalate",
+        "slug": "amigos/fruechte-gemuese/salate/frischsalate",
+        "visible": true,
+        "parent_code": "AMIG_CAT_Salate_FruechteGemuese",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_Salate_FruechteGemuese",
+        "name": "Salate",
+        "slug": "amigos/fruechte-gemuese/salate",
+        "visible": true,
+        "parent_code": "AMIG_CAT_FruechteGemuese",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_FruechteGemuese",
+        "name": "Früchte & Gemüse",
+        "slug": "amigos/fruechte-gemuese",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "features": [
+    {
+      "label_code": "MISO_mussgekuehltwerden",
+      "label": "Muss gekühlt werden",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_produktionsanspruch",
+      "label": "Produktionsverfahren",
+      "values": [
+        {
+          "value_code": "MISO_produktionsanspruch_geruestet",
+          "value": "Gerüstet"
+        },
+        {
+          "value_code": "MISO_produktionsanspruch_gewaschen",
+          "value": "Gewaschen"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_beutel",
+          "value": "Beutel"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zubereitungsverfahren",
+      "label": "Hinweise für die Zubereitung",
+      "values": [
+        {
+          "value_code": "MISO_zubereitungsverfahren_verzehrfertig",
+          "value": "Verzehrfertig"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_gewaschen",
+      "label": "Gewaschen",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aufbewahrunghaltbarkeit",
+      "label": "Aufbewahrung/Haltbarkeit",
+      "values": [
+        {
+          "value_code": "MISO_aufbewahrunghaltbarkeit_20",
+          "value": "Gekühlt aufbewahren bei 4-8°C"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_wiederverschliessbar",
+      "label": "Wiederverschliessbar",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "Nein",
+          "boolean_value": false
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_kuechenfertig",
+      "label": "Küchenfertig",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_sorte",
+      "label": "Sorte",
+      "values": [
+        {
+          "value_code": "MISO_sorte_nuesslisalat",
+          "value": "Nüsslisalat"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/c0e976048f768ee33382034b9025503a13cf47d1/annas-best-nuesslisalat.jpg",
+    "stack": "https://image.migros.ch/{stack}/c0e976048f768ee33382034b9025503a13cf47d1/annas-best-nuesslisalat.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/7426ef8b2933c7caeb459994a5d1264e707d4ffe/annas-best-nuesslisalat.png",
+    "stack": "https://image.migros.ch/{stack}/7426ef8b2933c7caeb459994a5d1264e707d4ffe/annas-best-nuesslisalat.png"
+  },
+  "additional_images": [
+    {
+      "original": "https://image.migros.ch/original/df6af4f4a4e2917433be4fe8bec6462e0e3a7bd1.jpg",
+      "stack": "https://image.migros.ch/{stack}/df6af4f4a4e2917433be4fe8bec6462e0e3a7bd1.jpg"
+    }
+  ],
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_sortierung",
+      "label": "Sortierung aMigos",
+      "values": [
+        {
+          "value_code": "NUMERIC_660",
+          "value": "660",
+          "numeric_value": 660
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZFRP",
+          "value": "Frische Beschaffung"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "7",
+          "value": "Convenience"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "70210",
+          "value": "SALAD HOME CONSUM. MONO"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/131001700000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/annas-best-nuesslisalat",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/131001700000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/annas-best-nuesslisalat",
+      "type": "info",
+      "purchasable": false
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/213175",
+      "app_url": "leshop:///catalog/article/detail?ean=7613404179307",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/annas-best-nuesslisalat",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "updated_at": "2020-09-16T05:45:25+0200",
+  "receipt_text": "Nüsslisalat",
+  "price": {
+    "valid_from": "2019-08-15T00:00:00+0200",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 3.9,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "130g"
+    },
+    "base": {
+      "price": 3,
+      "quantity": 100,
+      "unit": "g"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 20,
+    "average_all": 4
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

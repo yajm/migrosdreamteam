@@ -1,0 +1,305 @@
+{
+  "id": "104462800000",
+  "language": "de",
+  "name": "Alnatura Bulgur",
+  "slug": "alnatura-bulgur",
+  "boss_number": "011011263505",
+  "description": {
+    "text": "Bio-Qualit&auml;t, vorgegarter, grob zerkleinerter Hartweizengriess. Garzeit: zehn Minuten#f&uuml;r orientalische Gerichte, Suppen, Salate, Aufl&auml;ufe oder als Beilage. Dieser Bulgur &ndash; ein vorgegarter, grob zerkleinerter Hartweizengriess &ndash; ist in etwa zehn Minuten gar und perfekt f&uuml;r die schnelle K&uuml;che. So passt er traditionell in orientalische Gerichte und ist eine aromatische Beilage, die auch in Suppen, Salaten oder Aufl&auml;ufen schmeckt. Der Alnatura Bulgur stammt aus biologischer Landwirtschaft. Bitte trocken lagern.",
+    "source": "PIM"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "source-qim-origins",
+    "source-qim-distributor",
+    "validity-range-not-set",
+    "source-qim-allergens",
+    "source-qim-fooddeclaration",
+    "source-qim-nutritionfacts",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "4104420174696",
+    "7613269434474",
+    "4104420018488"
+  ],
+  "brand": {
+    "id": "D06",
+    "name": "Alnatura",
+    "slug": "alnatura",
+    "links": {
+      "homepage": {
+        "url": "https://alnatura.migros.ch/de.html",
+        "name": "Homepage",
+        "type": "info",
+        "purchasable": false
+      }
+    },
+    "image": {
+      "original": "https://image.migros.ch/original/2c0deb7a67525727ed8213ce2b42bc8a6eb35567/alnatura.jpg",
+      "stack": "https://image.migros.ch/{stack}/2c0deb7a67525727ed8213ce2b42bc8a6eb35567/alnatura.jpg"
+    }
+  },
+  "labels": [
+    {
+      "id": "L55",
+      "name": "Veganblume",
+      "slug": "veganblume",
+      "image": {
+        "original": "https://image.migros.ch/original/3eaf56466dd201e7010a81e9bc118d140e93b71b/veganblume.jpg",
+        "stack": "https://image.migros.ch/{stack}/3eaf56466dd201e7010a81e9bc118d140e93b71b/veganblume.jpg"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_01011405",
+      "name": "Bio Beilagen",
+      "slug": "supermarkt/lebensmittel/pasta-zutaten-konserven/bio-beilagen",
+      "visible": true,
+      "title": "Fein: Bio-Beilagen aus der Migros",
+      "parent_code": "BeSS_010114",
+      "image": {
+        "original": "https://image.migros.ch/original/d67cdae8313015529d76c59db4d6fdb7d2777355/bio-beilagen.jpg",
+        "stack": "https://image.migros.ch/{stack}/d67cdae8313015529d76c59db4d6fdb7d2777355/bio-beilagen.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010114",
+      "name": "Pasta, Zutaten & Konserven",
+      "slug": "supermarkt/lebensmittel/pasta-zutaten-konserven",
+      "visible": true,
+      "title": "Pasta aus Ihrer Migros: alles rund um Teigwaren",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/6d0964bbb34b8e041ba4d74fc0c90b149907f46a/pasta-zutaten-konserven.jpg",
+        "stack": "https://image.migros.ch/{stack}/6d0964bbb34b8e041ba4d74fc0c90b149907f46a/pasta-zutaten-konserven.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "ALNA_CAT_Weitere_Beilagen_BeilagenundZutaten",
+        "name": "Weitere",
+        "slug": "alnatura/beilagen-und-zutaten/beilagen/weitere",
+        "visible": true,
+        "parent_code": "ALNA_CAT_Beilagen_BeilagenundZutaten",
+        "level": 4
+      },
+      {
+        "code": "ALNA_CAT_Beilagen_BeilagenundZutaten",
+        "name": "Beilagen",
+        "slug": "alnatura/beilagen-und-zutaten/beilagen",
+        "visible": true,
+        "parent_code": "ALNA_CAT_BeilagenundZutaten",
+        "level": 3
+      },
+      {
+        "code": "ALNA_CAT_BeilagenundZutaten",
+        "name": "Beilagen und Zutaten",
+        "slug": "alnatura/beilagen-und-zutaten",
+        "visible": true,
+        "parent_code": "BeSS_97",
+        "level": 2
+      },
+      {
+        "code": "BeSS_97",
+        "name": "Alnatura",
+        "slug": "alnatura",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "features": [
+    {
+      "label_code": "MISO_produktionsanspruch",
+      "label": "Produktionsverfahren",
+      "values": [
+        {
+          "value_code": "MISO_produktionsanspruch_bioproduktion",
+          "value": "Bio-Produktion"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_beutelsack",
+          "value": "Beutel/Sack"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zubereitungsverfahren",
+      "label": "Hinweise für die Zubereitung",
+      "values": [
+        {
+          "value_code": "MISO_zubereitungsverfahren_garen",
+          "value": "Garen"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_getreideart",
+      "label": "Getreideart",
+      "values": [
+        {
+          "value_code": "MISO_getreideart_hartweizen",
+          "value": "Hartweizen"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_VEGETARIANISM",
+      "label": "Vegetarismus",
+      "values": [
+        {
+          "value_code": "MAPI_VEGETARIANISM_vegan",
+          "value": "vegan"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/001cdbea3a7be0479eafb409d013733fe38ab37b/alnatura-bulgur.jpg",
+    "stack": "https://image.migros.ch/{stack}/001cdbea3a7be0479eafb409d013733fe38ab37b/alnatura-bulgur.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/cd984c1d424f1196048e048acc992a1df6f6ae66/alnatura-bulgur.png",
+    "stack": "https://image.migros.ch/{stack}/cd984c1d424f1196048e048acc992a1df6f6ae66/alnatura-bulgur.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "M",
+          "value": "Kolonial Standard"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "11010",
+          "value": "ALNATURA BEILAGEN"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUSTOMS_POSITION",
+      "values": [
+        {
+          "value_code": "1904.3000"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/104462800000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/alnatura-bulgur",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/104462800000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/alnatura-bulgur",
+      "type": "info",
+      "purchasable": false
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/224323",
+      "app_url": "leshop:///catalog/article/detail?ean=4104420174696",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/alnatura-bulgur",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "updated_at": "2020-09-16T06:51:06+0200",
+  "receipt_text": "Alnatura Bulgur",
+  "price": {
+    "valid_from": "2018-01-29T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 2.75,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "500g"
+    },
+    "base": {
+      "price": 0.55,
+      "quantity": 100,
+      "unit": "g"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 2,
+    "average_all": 4.5
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

@@ -1,0 +1,284 @@
+{
+  "id": "264300613200",
+  "language": "de",
+  "name": "Sélection Ananas",
+  "slug": "selection-ananas",
+  "boss_number": "050215421005",
+  "description": {
+    "text": "Die Ananas gilt als K&ouml;nigin der Tropenfr&uuml;chte. Sie schmeckt intensiv s&uuml;ss-s&auml;uerlich.",
+    "source": "PIM"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7613269581734"
+  ],
+  "brand": {
+    "id": "NB1",
+    "name": "Sélection",
+    "slug": "selection",
+    "links": {
+      "homepage": {
+        "url": "https://www.migros.ch/de/einkaufen/migros-marken/selection.html",
+        "name": "Homepage",
+        "type": "info",
+        "purchasable": false
+      }
+    },
+    "image": {
+      "original": "https://image.migros.ch/original/04f877657368f73f8ee8973aab7fd0cdfb8e2cd1/selection.jpg",
+      "stack": "https://image.migros.ch/{stack}/04f877657368f73f8ee8973aab7fd0cdfb8e2cd1/selection.jpg"
+    }
+  },
+  "categories": [
+    {
+      "code": "BeSS_0101190102",
+      "name": "Südfrüchte",
+      "slug": "supermarkt/lebensmittel/fruechte-gemuese/fruechte/suedfruechte",
+      "visible": true,
+      "title": "Fruchtig und aromatisch: Exotische Früchte aus Ihrer Migros",
+      "parent_code": "BeSS_01011901",
+      "level": 5
+    },
+    {
+      "code": "BeSS_01011901",
+      "name": "Früchte",
+      "slug": "supermarkt/lebensmittel/fruechte-gemuese/fruechte",
+      "visible": true,
+      "title": "Früchte – in Ihrer Migros täglich frisch",
+      "parent_code": "BeSS_010119",
+      "level": 4
+    },
+    {
+      "code": "BeSS_010119",
+      "name": "Früchte & Gemüse",
+      "slug": "supermarkt/lebensmittel/fruechte-gemuese",
+      "visible": true,
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/f839060a505bba25c0f37585edb558c003c50479/fruechte-gemuese.jpg",
+        "stack": "https://image.migros.ch/{stack}/f839060a505bba25c0f37585edb558c003c50479/fruechte-gemuese.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_ExotischeFruechte_Fruechte_FruechteGemuese",
+        "name": "Exotische Früchte",
+        "slug": "amigos/fruechte-gemuese/fruechte/exotische-fruechte",
+        "visible": true,
+        "parent_code": "AMIG_CAT_Fruechte_FruechteGemuese",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_Fruechte_FruechteGemuese",
+        "name": "Früchte",
+        "slug": "amigos/fruechte-gemuese/fruechte",
+        "visible": true,
+        "parent_code": "AMIG_CAT_FruechteGemuese",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_FruechteGemuese",
+        "name": "Früchte & Gemüse",
+        "slug": "amigos/fruechte-gemuese",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "features": [
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_lose",
+          "value": "Lose"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_verwendungszweckvonobstfruechten",
+      "label": "Verwendungszweck",
+      "values": [
+        {
+          "value_code": "MISO_verwendungszweckvonobstfruechten_40",
+          "value": "Passt zu Salaten, Curry-, Geflügel-, Fleisch- und Fischgerichten, zu Chicorée und Avocado. Schmeckt auch in Fruchtsalaten, Kuchen und Getränken."
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aufbewahrunghaltbarkeit",
+      "label": "Aufbewahrung/Haltbarkeit",
+      "values": [
+        {
+          "value_code": "MISO_aufbewahrunghaltbarkeit_27",
+          "value": "Nicht in den Kühlschrank legen. Bei Zimmertemperatur ist die Ananas 3 bis 4 Tage haltbar."
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_saison",
+      "label": "Saison",
+      "values": [
+        {
+          "value_code": "MISO_saison_novemberfebruar",
+          "value": "November - Februar"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_reifekriterien",
+      "label": "Reifekriterien",
+      "values": [
+        {
+          "value": "Ananas aus der Migros sind essreif: Die Blätter der Krone sind leicht herausziehbar, die winzigen Blättchen auf der Schale weich beim Anfassen, die Frucht duftet angenehm."
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/06759252b5eb6946f4691359163e188cc9097e00/selection-ananas.jpg",
+    "stack": "https://image.migros.ch/{stack}/06759252b5eb6946f4691359163e188cc9097e00/selection-ananas.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/f272f5c969694ce2e38602b1460287e58a58af02/selection-ananas.png",
+    "stack": "https://image.migros.ch/{stack}/f272f5c969694ce2e38602b1460287e58a58af02/selection-ananas.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_sortierung",
+      "label": "Sortierung aMigos",
+      "values": [
+        {
+          "value_code": "NUMERIC_190",
+          "value": "190",
+          "numeric_value": 190
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZFRP",
+          "value": "Frische Beschaffung"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "2",
+          "value": "Früchte und Gemüse"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "71408",
+          "value": "EXOTEN"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/264300613200",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/selection-ananas",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/264300613200",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/selection-ananas",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "updated_at": "2020-09-16T05:54:37+0200",
+  "receipt_text": "Sélec Ananas",
+  "price": {
+    "valid_from": "2020-06-30T00:00:00+0200",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "source": "PriceRepository",
+    "no_price_hint": "Aktueller Tagespreis"
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 3,
+    "average_all": 4.666666666667
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

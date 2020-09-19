@@ -1,0 +1,384 @@
+{
+  "id": "107300700000",
+  "language": "de",
+  "name": "Califora au chocolat",
+  "slug": "califora-au-chocolat",
+  "boss_number": "010310270605",
+  "description": {
+    "text": "Feines Kakaogetr&auml;nk mit Schokolade",
+    "source": "PIM"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7613269299578",
+    "7610121601104"
+  ],
+  "brand": {
+    "id": "025",
+    "name": "Califora",
+    "slug": "califora"
+  },
+  "labels": [
+    {
+      "id": "L61",
+      "name": "Folsäure",
+      "slug": "folsaeure",
+      "image": {
+        "original": "https://image.migros.ch/original/79c993b3586f1ec2ed154dac98a308eddfddacd8/folsaeure.jpg",
+        "stack": "https://image.migros.ch/{stack}/79c993b3586f1ec2ed154dac98a308eddfddacd8/folsaeure.jpg"
+      }
+    },
+    {
+      "id": "L34",
+      "name": "UTZ",
+      "slug": "utz",
+      "image": {
+        "original": "https://image.migros.ch/original/64192d97b7770d351f5bbe89a57c9f614e529150/utz.jpg",
+        "stack": "https://image.migros.ch/{stack}/64192d97b7770d351f5bbe89a57c9f614e529150/utz.jpg"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_01011101",
+      "name": "Kakao & Schokoladen Pulver",
+      "slug": "supermarkt/lebensmittel/fruehstueck/kakao-schokoladen-pulver",
+      "visible": true,
+      "parent_code": "BeSS_010111",
+      "image": {
+        "original": "https://image.migros.ch/original/bb15de8d7297a55afc2e11c56f03389035777661/kakao-schokoladen-pulver.jpg",
+        "stack": "https://image.migros.ch/{stack}/bb15de8d7297a55afc2e11c56f03389035777661/kakao-schokoladen-pulver.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010111",
+      "name": "Frühstück",
+      "slug": "supermarkt/lebensmittel/fruehstueck",
+      "visible": true,
+      "title": "Frühstück: Mit Produkten aus Ihrer Migros einfach in den Tag starten",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/58a87c73cd077c5c9efb268051c16d5b373f5c29/fruehstueck.jpg",
+        "stack": "https://image.migros.ch/{stack}/58a87c73cd077c5c9efb268051c16d5b373f5c29/fruehstueck.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_Kakao_Getraenke",
+        "name": "Kakao",
+        "slug": "amigos/getraenke/kakao",
+        "visible": true,
+        "parent_code": "AMIG_CAT_Getraenke",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_Getraenke",
+        "name": "Getränke",
+        "slug": "amigos/getraenke",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "features": [
+    {
+      "label_code": "MISO_anzahlentnehmbarereinzelportionen",
+      "label": "Anzahl entnehmbarer Einzeleinheiten",
+      "values": [
+        {
+          "value_code": "NUMERIC_10.0",
+          "value": "10.0",
+          "numeric_value": 10
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_schachtel",
+          "value": "Schachtel"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_naehrwertanspruch",
+      "label": "Nährwertanspruch",
+      "values": [
+        {
+          "value_code": "MISO_naehrwertanspruch_reichanfolsaeure",
+          "value": "Reich an Folsäure"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zubereitungsverfahren",
+      "label": "Hinweise für die Zubereitung",
+      "values": [
+        {
+          "value_code": "MISO_zubereitungsverfahren_mitmilchanruehren",
+          "value": "Mit Milch anrühren"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_mitvitaminennaehrstoffenangereichert",
+      "label": "Mit Vitaminen/Nährstoffen angereichert",
+      "values": [
+        {
+          "value_code": "MISO_mitvitaminennaehrstoffenangereichert_biotin",
+          "value": "Biotin"
+        },
+        {
+          "value_code": "MISO_mitvitaminennaehrstoffenangereichert_folsaeure",
+          "value": "Folsäure"
+        },
+        {
+          "value_code": "MISO_mitvitaminennaehrstoffenangereichert_niacin",
+          "value": "Niacin"
+        },
+        {
+          "value_code": "MISO_mitvitaminennaehrstoffenangereichert_panthothensaeure",
+          "value": "Panthothensäure"
+        },
+        {
+          "value_code": "MISO_mitvitaminennaehrstoffenangereichert_thiamin",
+          "value": "Thiamin"
+        },
+        {
+          "value_code": "MISO_mitvitaminennaehrstoffenangereichert_vitamina",
+          "value": "Vitamin A"
+        },
+        {
+          "value_code": "MISO_mitvitaminennaehrstoffenangereichert_vitaminb1",
+          "value": "Vitamin B1"
+        },
+        {
+          "value_code": "MISO_mitvitaminennaehrstoffenangereichert_vitaminb12",
+          "value": "Vitamin B12"
+        },
+        {
+          "value_code": "MISO_mitvitaminennaehrstoffenangereichert_vitaminb2",
+          "value": "Vitamin B2"
+        },
+        {
+          "value_code": "MISO_mitvitaminennaehrstoffenangereichert_vitaminb6",
+          "value": "Vitamin B6"
+        },
+        {
+          "value_code": "MISO_mitvitaminennaehrstoffenangereichert_vitaminc",
+          "value": "Vitamin C"
+        },
+        {
+          "value_code": "MISO_mitvitaminennaehrstoffenangereichert_vitamind",
+          "value": "Vitamin D"
+        },
+        {
+          "value_code": "MISO_mitvitaminennaehrstoffenangereichert_vitamine",
+          "value": "Vitamin E"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_multivitamin",
+      "label": "Multivitamin",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_behandlungdesgetraenks",
+      "label": "Behandlung des Getränks",
+      "values": [
+        {
+          "value_code": "MISO_behandlungdesgetraenks_waermebehandelt",
+          "value": "Wärmebehandelt"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_artvontrinkschokolade",
+      "label": "Art von Trinkschokolade",
+      "values": [
+        {
+          "value_code": "MISO_artvontrinkschokolade_kakao",
+          "value": "Kakao"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/fd9284cfbf2fdfb11a922bca4aa35255c3f9f9c5/califora-au-chocolat.jpg",
+    "stack": "https://image.migros.ch/{stack}/fd9284cfbf2fdfb11a922bca4aa35255c3f9f9c5/califora-au-chocolat.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/80a27508000d76f749c48ca692baa883c64dde3d/califora-au-chocolat.png",
+    "stack": "https://image.migros.ch/{stack}/80a27508000d76f749c48ca692baa883c64dde3d/califora-au-chocolat.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_sortierung",
+      "label": "Sortierung aMigos",
+      "values": [
+        {
+          "value_code": "NUMERIC_210",
+          "value": "210",
+          "numeric_value": 210
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "M",
+          "value": "Kolonial Standard"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "10301",
+          "value": "NICHT MALZHALT GETRAENKE"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/107300700000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/califora-au-chocolat",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/107300700000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/califora-au-chocolat",
+      "type": "info",
+      "purchasable": false
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/4963885",
+      "app_url": "leshop:///catalog/article/detail?ean=7613269299578",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/califora-au-chocolat",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "updated_at": "2020-09-15T06:45:47+0200",
+  "receipt_text": "Califora au Chocolat",
+  "price": {
+    "valid_from": "2018-01-29T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 3.8,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "10 x 15g"
+    },
+    "base": {
+      "price": 2.53,
+      "quantity": 100,
+      "unit": "g"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 6,
+    "average_all": 4.4
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

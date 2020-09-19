@@ -1,0 +1,221 @@
+{
+  "id": "103330600000",
+  "language": "de",
+  "name": "Monini Basilico",
+  "slug": "monini-basilico",
+  "boss_number": "011011280725",
+  "description": {
+    "text": "Das native Oliven&ouml;l mit Basilikumaroma eignet sich insbesondere f&uuml;r Salatsaucen, Pastagerichte, Bruschette, Tomatensaucen, gekochte Eier, und ged&uuml;nstete H&uuml;hnchenbrust. Verwenden Sie nur einige Tropfen f&uuml;r die fertigen Gerichte, um ein volles Aroma zu erhalten. Monini-Produkte stehen f&uuml;r den authentischen und traditionellen Geschmack der italienischen K&uuml;che.",
+    "source": "PIM"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "80508878"
+  ],
+  "brand": {
+    "id": "207",
+    "name": "Monini",
+    "slug": "monini"
+  },
+  "categories": [
+    {
+      "code": "BeSS_0101141001",
+      "name": "Olivenöl",
+      "slug": "supermarkt/lebensmittel/pasta-zutaten-konserven/essig-oele/olivenoel",
+      "visible": true,
+      "parent_code": "BeSS_01011410",
+      "image": {
+        "original": "https://image.migros.ch/original/1ecea852ffea11ab45082661685dc9cd38aa2fb4/olivenoel.jpg",
+        "stack": "https://image.migros.ch/{stack}/1ecea852ffea11ab45082661685dc9cd38aa2fb4/olivenoel.jpg"
+      },
+      "level": 5
+    },
+    {
+      "code": "BeSS_01011410",
+      "name": "Essig & Öle",
+      "slug": "supermarkt/lebensmittel/pasta-zutaten-konserven/essig-oele",
+      "visible": true,
+      "title": "Essig und öl &ndash; das Beste zum Kochen aus Ihrer Migros",
+      "parent_code": "BeSS_010114",
+      "image": {
+        "original": "https://image.migros.ch/original/1ba9cadbce840aaa77db246b510e97af4f66c258/essig-oele.jpg",
+        "stack": "https://image.migros.ch/{stack}/1ba9cadbce840aaa77db246b510e97af4f66c258/essig-oele.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010114",
+      "name": "Pasta, Zutaten & Konserven",
+      "slug": "supermarkt/lebensmittel/pasta-zutaten-konserven",
+      "visible": true,
+      "title": "Pasta aus Ihrer Migros: alles rund um Teigwaren",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/6d0964bbb34b8e041ba4d74fc0c90b149907f46a/pasta-zutaten-konserven.jpg",
+        "stack": "https://image.migros.ch/{stack}/6d0964bbb34b8e041ba4d74fc0c90b149907f46a/pasta-zutaten-konserven.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "features": [
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_flasche",
+          "value": "Flasche"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_artvonspeiseoel",
+      "label": "Art von Speiseöl",
+      "values": [
+        {
+          "value_code": "MISO_artvonspeiseoel_olivenoel",
+          "value": "Olivenöl"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_kaltgepresst",
+      "label": "Kaltgepresst",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/e66c0b41647d8eb3a9cd03ac1e3bbc746f1c0d1c/monini-basilico.jpg",
+    "stack": "https://image.migros.ch/{stack}/e66c0b41647d8eb3a9cd03ac1e3bbc746f1c0d1c/monini-basilico.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/8553801fb56ce90ea57fbb7a9462a682e3617e38/monini-basilico.png",
+    "stack": "https://image.migros.ch/{stack}/8553801fb56ce90ea57fbb7a9462a682e3617e38/monini-basilico.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "M",
+          "value": "Kolonial Standard"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "11030",
+          "value": "OLIVENOEL"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/103330600000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/monini-basilico",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/103330600000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/monini-basilico",
+      "type": "info",
+      "purchasable": false
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/5145517",
+      "app_url": "leshop:///catalog/article/detail?ean=80508878",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/monini-basilico",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "updated_at": "2020-09-15T05:50:17+0200",
+  "receipt_text": "Monini Basilico",
+  "price": {
+    "valid_from": "2020-03-16T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 6.4,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "250ml"
+    },
+    "base": {
+      "price": 2.56,
+      "quantity": 100,
+      "unit": "ml"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 3,
+    "average_all": 4.333333333333
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

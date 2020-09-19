@@ -1,6 +1,11 @@
 import * as path from 'path';
 import * as fs from 'fs';
-import { existsArticle, readJson, writeJson } from './utils';
+import {
+  existsArticle,
+  getDeepestCategory,
+  readJson,
+  writeJson,
+} from './utils';
 
 const targetDir = path.join(process.cwd(), '../web/src/assets/data');
 const purchaseArticlesFile = path.join(
@@ -26,12 +31,7 @@ async function main() {
 
   for (const file of fs.readdirSync(articlePath)) {
     const article = readJson(path.join(articlePath, file));
-    let deepestCategory = null;
-    for (const category of article.categories || []) {
-      if (deepestCategory == null || deepestCategory.level < category.level) {
-        deepestCategory = category;
-      }
-    }
+    const deepestCategory = getDeepestCategory(article);
     const reducedArticle = {
       data: {
         name: article.name,

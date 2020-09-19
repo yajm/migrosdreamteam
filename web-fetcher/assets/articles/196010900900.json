@@ -1,0 +1,179 @@
+{
+  "id": "196010900900",
+  "language": "de",
+  "name": "Bio Schweizer Eier Freilandhaltung 53+",
+  "slug": "bio-schweizer-eier-freilandhaltung-53",
+  "boss_number": "030113005505",
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "validity-range-not-set",
+    "filter-aus-der-region",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7613269485155"
+  ],
+  "labels": [
+    {
+      "id": "L02",
+      "name": "Migros Bio",
+      "slug": "migros-bio",
+      "image": {
+        "original": "https://image.migros.ch/original/f32d1804b8db5760147310b8d6458eb36757b486/migros-bio.jpg",
+        "stack": "https://image.migros.ch/{stack}/f32d1804b8db5760147310b8d6458eb36757b486/migros-bio.jpg"
+      }
+    },
+    {
+      "id": "L28",
+      "name": "Aus der Region",
+      "slug": "aus-der-region",
+      "image": {
+        "original": "https://image.migros.ch/original/28068cd4d6e174c8ec75906797af89b64170c43f/aus-der-region.jpg",
+        "stack": "https://image.migros.ch/{stack}/28068cd4d6e174c8ec75906797af89b64170c43f/aus-der-region.jpg"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_0101041002",
+      "name": "Freilandhaltung Schweiz",
+      "slug": "supermarkt/lebensmittel/milchprodukte-eier/eier/freilandhaltung-schweiz",
+      "visible": true,
+      "parent_code": "BeSS_01010410",
+      "image": {
+        "original": "https://image.migros.ch/original/35286413bb5263314ff187519d7e7fb554dfe501/freilandhaltung-schweiz.jpg",
+        "stack": "https://image.migros.ch/{stack}/35286413bb5263314ff187519d7e7fb554dfe501/freilandhaltung-schweiz.jpg"
+      },
+      "level": 5
+    },
+    {
+      "code": "BeSS_01010410",
+      "name": "Eier",
+      "slug": "supermarkt/lebensmittel/milchprodukte-eier/eier",
+      "visible": true,
+      "title": "Eier in Ihrer Migros kaufen",
+      "parent_code": "BeSS_010104",
+      "image": {
+        "original": "https://image.migros.ch/original/c5cd67b8dd9e7e99f0c6918c3ee49752dd60c461/eier.jpg",
+        "stack": "https://image.migros.ch/{stack}/c5cd67b8dd9e7e99f0c6918c3ee49752dd60c461/eier.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010104",
+      "name": "Milchprodukte & Eier",
+      "slug": "supermarkt/lebensmittel/milchprodukte-eier",
+      "visible": true,
+      "title": "Milchprodukte und Eier –",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/6b1ea6c2d41c3ccb21bf05c8dc342f7f55d83deb/milchprodukte-eier.jpg",
+        "stack": "https://image.migros.ch/{stack}/6b1ea6c2d41c3ccb21bf05c8dc342f7f55d83deb/milchprodukte-eier.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/9811f26944054c06e314fa4e499624c8dda163a1/bio-schweizer-eier-freilandhaltung-53.jpg",
+    "stack": "https://image.migros.ch/{stack}/9811f26944054c06e314fa4e499624c8dda163a1/bio-schweizer-eier-freilandhaltung-53.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/d45e8e9588e655c768941a619cf012818a1b9a3b/bio-schweizer-eier-freilandhaltung-53.png",
+    "stack": "https://image.migros.ch/{stack}/d45e8e9588e655c768941a619cf012818a1b9a3b/bio-schweizer-eier-freilandhaltung-53.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZFRP",
+          "value": "Frische Beschaffung"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "1",
+          "value": "Molki"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "70118",
+          "value": "BIO"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/196010900900",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/bio-schweizer-eier-freilandhaltung-53",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/196010900900",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/bio-schweizer-eier-freilandhaltung-53",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "updated_at": "2020-09-16T06:31:48+0200",
+  "receipt_text": "Bio Eier CH 53g+",
+  "price": {
+    "valid_from": "2018-01-30T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 6.95,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

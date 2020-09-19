@@ -1,0 +1,368 @@
+{
+  "id": "204140800000",
+  "language": "de",
+  "name": "Valflora Crème Fraîche Nature",
+  "slug": "valflora-creme-fraiche-nature-204140800000",
+  "boss_number": "030213201015",
+  "description": {
+    "text": "<p>Sauerrahm</p><p>Natur</p>",
+    "source": "PIM"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "validity-range-not-set",
+    "leshop-discounted",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7613269406037"
+  ],
+  "brand": {
+    "id": "594",
+    "name": "Valflora",
+    "slug": "valflora",
+    "image": {
+      "original": "https://image.migros.ch/original/3d6b6c4588ade686a87273d4ff3fe36b40dbe75d/valflora.jpg",
+      "stack": "https://image.migros.ch/{stack}/3d6b6c4588ade686a87273d4ff3fe36b40dbe75d/valflora.jpg"
+    }
+  },
+  "labels": [
+    {
+      "id": "L53",
+      "name": "Swissness",
+      "slug": "swissness",
+      "image": {
+        "original": "https://image.migros.ch/original/d771bba2f6b08ba42970ea0243c6f8c5a8832f15/swissness.jpg",
+        "stack": "https://image.migros.ch/{stack}/d771bba2f6b08ba42970ea0243c6f8c5a8832f15/swissness.jpg"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_01010406",
+      "name": "Rahm",
+      "slug": "supermarkt/lebensmittel/milchprodukte-eier/rahm",
+      "visible": true,
+      "title": "Rahm von der Migros &ndash; ein Segen für die Küche",
+      "parent_code": "BeSS_010104",
+      "image": {
+        "original": "https://image.migros.ch/original/c3c47317490daf245f116504f3894477896aad40/rahm.jpg",
+        "stack": "https://image.migros.ch/{stack}/c3c47317490daf245f116504f3894477896aad40/rahm.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010104",
+      "name": "Milchprodukte & Eier",
+      "slug": "supermarkt/lebensmittel/milchprodukte-eier",
+      "visible": true,
+      "title": "Milchprodukte und Eier –",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/6b1ea6c2d41c3ccb21bf05c8dc342f7f55d83deb/milchprodukte-eier.jpg",
+        "stack": "https://image.migros.ch/{stack}/6b1ea6c2d41c3ccb21bf05c8dc342f7f55d83deb/milchprodukte-eier.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_Rahm_MilchprodukteEier",
+        "name": "Rahm",
+        "slug": "amigos/milchprodukte-eier/rahm",
+        "visible": true,
+        "parent_code": "AMIG_CAT_MilchprodukteEier",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_MilchprodukteEier",
+        "name": "Milchprodukte & Eier",
+        "slug": "amigos/milchprodukte-eier",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "features": [
+    {
+      "label_code": "MISO_mussgekuehltwerden",
+      "label": "Muss gekühlt werden",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_becher",
+          "value": "Becher"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_artvonrahm",
+      "label": "Art von Rahm",
+      "values": [
+        {
+          "value_code": "MISO_artvonrahm_sauerrahm",
+          "value": "Sauerrahm"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_thermischesverfahren",
+      "label": "Thermisches Verfahren",
+      "values": [
+        {
+          "value_code": "MISO_thermischesverfahren_pasteurisiert",
+          "value": "pasteurisiert"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_milchartrohstoff",
+      "label": "Milchart/Rohstoff",
+      "values": [
+        {
+          "value_code": "MISO_milchartrohstoff_rahm",
+          "value": "Rahm"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_homogenisiert",
+      "label": "Homogenisiert",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/6f3a771e1371e8bc4f724ef7896b66ef090fbde2/valflora-creme-fraiche-nature.jpg",
+    "stack": "https://image.migros.ch/{stack}/6f3a771e1371e8bc4f724ef7896b66ef090fbde2/valflora-creme-fraiche-nature.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/3d5efb33ad8707b29a30d9f2440319fb0199b2e8/valflora-creme-fraiche-nature.png",
+    "stack": "https://image.migros.ch/{stack}/3d5efb33ad8707b29a30d9f2440319fb0199b2e8/valflora-creme-fraiche-nature.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_sortierung",
+      "label": "Sortierung aMigos",
+      "values": [
+        {
+          "value_code": "NUMERIC_280",
+          "value": "280",
+          "numeric_value": 280
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZFRP",
+          "value": "Frische Beschaffung"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "1",
+          "value": "Molki"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "70006",
+          "value": "RAHM"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/204140800000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/valflora-creme-fraiche-nature-204140800000",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/204140800000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/valflora-creme-fraiche-nature-204140800000",
+      "type": "info",
+      "purchasable": false
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/225772",
+      "app_url": "leshop:///catalog/article/detail?ean=7613269406037",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/valflora-creme-fraiche-nature-204140800000",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "updated_at": "2020-09-16T06:50:40+0200",
+  "receipt_text": "Valflora Crème Fraîche",
+  "price": {
+    "valid_from": "2020-09-15T00:00:00+0200",
+    "valid_to": "2020-09-21T23:59:59+0200",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 3.95,
+      "original_price": 4.95,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "400g"
+    },
+    "discount": {
+      "id": "1443846",
+      "region": "national",
+      "start_date": "2020-09-15T00:00:00+0200",
+      "end_date": "2020-09-21T23:59:59+0200",
+      "publication_date": "2020-09-13T00:00:00+0200",
+      "discount_amount": "20%",
+      "discount_regions": [
+        "national",
+        "gmaa",
+        "gmbs",
+        "gmge",
+        "gmlu",
+        "gmnf",
+        "gmos",
+        "gmti",
+        "gmvd",
+        "gmvs",
+        "gmzh"
+      ],
+      "reference_product_id": "204141000000",
+      "discount_type": "aktion",
+      "discount_type_id": "001",
+      "discount_type_label": "SA Sonderangebot",
+      "organisation": "03",
+      "cooperative": "mgb",
+      "image": {
+        "tags": [
+          "list-image"
+        ],
+        "original": "https://image.migros.ch/original/5b4bfeaa2bdde31349d91ad9f6063123173c6284/alle-cremes-fraiches.jpg",
+        "source": "PriceRepository",
+        "stack": "https://image.migros.ch/{stack}/5b4bfeaa2bdde31349d91ad9f6063123173c6284/alle-cremes-fraiches.jpg"
+      },
+      "image_transparent": {
+        "original": "https://image.migros.ch/original/5b4bfeaa2bdde31349d91ad9f6063123173c6284/alle-cremes-fraiches.png",
+        "source": "PriceRepository",
+        "stack": "https://image.migros.ch/{stack}/5b4bfeaa2bdde31349d91ad9f6063123173c6284/alle-cremes-fraiches.png"
+      },
+      "badge": {
+        "original": "https://image.migros.ch/original/0633530dd39bda4f1496c8c8aa5ac1d66f227594.png",
+        "stack": "https://image.migros.ch/{stack}/0633530dd39bda4f1496c8c8aa5ac1d66f227594.png"
+      },
+      "location_planning_type": "01",
+      "reduction_type_id": "01",
+      "special_advertisement": false,
+      "advertisement_type_id": "2",
+      "description": "Alle Crèmes fraîches",
+      "discount_hint": "z.B. Valflora Sauerrahm Nature, 200 g, <strong>1.95 </strong>statt 2.60, Angebot gilt nur vom 15.9. bis 21.9.2020, solange Vorrat.",
+      "high_performer": false,
+      "collective_discount": true,
+      "instead_of": "statt",
+      "price": 3.95,
+      "original_price": 4.95,
+      "disclaimer": "Gültigkeit siehe Angebots-Detailseite.\r\nBei allen Angeboten sind M-Budget und bereits reduzierte Artikel ausgenommen.\r\nBei Aktionen können bei der Verrechnung auf dem Kassabon Rundungsdifferenzen zu Gunsten des Kunden entstehen.",
+      "source": "PriceRepository",
+      "boss_number": "030213201015",
+      "discount_role_id": "2000000002",
+      "discount_role_label": "M: Wochenangebot Typ I",
+      "last_imported": "2020-09-09T18:15:22+0200"
+    },
+    "discount_hint": "<strong>Stück, </strong>Angebot gilt nur vom 15.9. bis 21.9.2020, solange Vorrat."
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 9,
+    "average_all": 4.555555555556
+  },
+  "reindex_date": "2020-09-21T23:59:59+0200"
+}

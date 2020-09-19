@@ -1,0 +1,415 @@
+{
+  "id": "232102082000",
+  "language": "de",
+  "name": "M-Classic Bauernsalami geschnitten",
+  "slug": "m-classic-bauernsalami-geschnitten",
+  "boss_number": "040114511030",
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "2125052000001",
+    "7617100017666"
+  ],
+  "brand": {
+    "id": "068",
+    "name": "M-Classic",
+    "slug": "m-classic",
+    "links": {
+      "homepage": {
+        "url": "https://m-classic.migros.ch/de.html",
+        "name": "Homepage",
+        "type": "info",
+        "purchasable": false
+      }
+    },
+    "image": {
+      "original": "https://image.migros.ch/original/72c18633f911e026e081ac11d872cff2d8dc8abb/m-classic.jpg",
+      "stack": "https://image.migros.ch/{stack}/72c18633f911e026e081ac11d872cff2d8dc8abb/m-classic.jpg"
+    }
+  },
+  "labels": [
+    {
+      "id": "L53",
+      "name": "Swissness",
+      "slug": "swissness",
+      "image": {
+        "original": "https://image.migros.ch/original/d771bba2f6b08ba42970ea0243c6f8c5a8832f15/swissness.jpg",
+        "stack": "https://image.migros.ch/{stack}/d771bba2f6b08ba42970ea0243c6f8c5a8832f15/swissness.jpg"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_0101061204",
+      "name": "Salami und Rohwurst geschnitten",
+      "slug": "supermarkt/lebensmittel/fleisch/wurstwaren/salami-und-rohwurst-geschnitten",
+      "visible": true,
+      "parent_code": "BeSS_01010612",
+      "image": {
+        "original": "https://image.migros.ch/original/676426a68971d27db8fc82f334a89ee89cb4924b/salami-und-rohwurst-geschnitten.jpg",
+        "stack": "https://image.migros.ch/{stack}/676426a68971d27db8fc82f334a89ee89cb4924b/salami-und-rohwurst-geschnitten.jpg"
+      },
+      "level": 5
+    },
+    {
+      "code": "BeSS_01010612",
+      "name": "Wurstwaren",
+      "slug": "supermarkt/lebensmittel/fleisch/wurstwaren",
+      "visible": true,
+      "title": "Trockenfleisch und Schinken jetzt in Ihrer Migros",
+      "parent_code": "BeSS_010106",
+      "image": {
+        "original": "https://image.migros.ch/original/ee297c25d6e6c36376c2d5d912581fe5b8b4a4fa/wurstwaren.jpg",
+        "stack": "https://image.migros.ch/{stack}/ee297c25d6e6c36376c2d5d912581fe5b8b4a4fa/wurstwaren.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010106",
+      "name": "Fleisch",
+      "slug": "supermarkt/lebensmittel/fleisch",
+      "visible": true,
+      "title": "Fleisch ausgezeichneter Qualität aus Ihrer Migros: einfach gut",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/03d32c0880d7a9ea6e58971966032e65ac442b58/fleisch.jpg",
+        "stack": "https://image.migros.ch/{stack}/03d32c0880d7a9ea6e58971966032e65ac442b58/fleisch.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_AufschnittTrockenfleisch_CharcuterieWurstwaren_FleischFisch",
+        "name": "Aufschnitt & Trockenfleisch",
+        "slug": "amigos/fleisch-fisch/charcuterie-wurstwaren/aufschnitt-trockenfleisch",
+        "visible": true,
+        "parent_code": "AMIG_CAT_CharcuterieWurstwaren_FleischFisch",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_CharcuterieWurstwaren_FleischFisch",
+        "name": "Charcuterie & Wurstwaren",
+        "slug": "amigos/fleisch-fisch/charcuterie-wurstwaren",
+        "visible": true,
+        "parent_code": "AMIG_CAT_FleischFisch",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_FleischFisch",
+        "name": "Fleisch & Fisch",
+        "slug": "amigos/fleisch-fisch",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "features": [
+    {
+      "label_code": "MISO_mussgekuehltwerden",
+      "label": "Muss gekühlt werden",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "Nein",
+          "boolean_value": false
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zubereitungsverfahren",
+      "label": "Hinweise für die Zubereitung",
+      "values": [
+        {
+          "value_code": "MISO_zubereitungsverfahren_verzehrfertig",
+          "value": "Verzehrfertig"
+        },
+        {
+          "value_code": "MISO_zubereitungsverfahren_zumrohessen",
+          "value": "Zum Rohessen"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_inscheibenodertranchen",
+      "label": "In Scheiben oder Tranchen",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_fleischform",
+      "label": "Fleischform bearbeitet",
+      "values": [
+        {
+          "value_code": "MISO_fleischform_inscheibenodertranchen",
+          "value": "In Scheiben oder Tranchen"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_tierartodergattung",
+      "label": "Tierart oder Gattung",
+      "values": [
+        {
+          "value_code": "MISO_tierartodergattung_rind",
+          "value": "Rind"
+        },
+        {
+          "value_code": "MISO_tierartodergattung_schwein",
+          "value": "Schwein"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_verpackungsform",
+      "label": "Verpackungsform",
+      "values": [
+        {
+          "value_code": "MISO_verpackungsform_schutzatmosphaere",
+          "value": "Schutzatmosphäre"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_herstellungsverfahrenvonfleisch",
+      "label": "Herstellungsverfahren von Fleisch",
+      "values": [
+        {
+          "value_code": "MISO_herstellungsverfahrenvonfleisch_geraeuchert",
+          "value": "geräuchert"
+        },
+        {
+          "value_code": "MISO_herstellungsverfahrenvonfleisch_getrocknet",
+          "value": "getrocknet"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_haltbarmachung",
+      "label": "Haltbarmachung",
+      "values": [
+        {
+          "value_code": "MISO_haltbarmachung_geraeuchert",
+          "value": "geräuchert"
+        },
+        {
+          "value_code": "MISO_haltbarmachung_getrocknet",
+          "value": "getrocknet"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_fleischstueck",
+      "label": "Fleischstück",
+      "values": [
+        {
+          "value_code": "MISO_fleischstueck_wurstfleisch",
+          "value": "Wurstfleisch"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/5b154e934b7d5210fa02da6f4fcdeee2b81c9eb2/m-classic-bauernsalami-geschnitten.jpg",
+    "stack": "https://image.migros.ch/{stack}/5b154e934b7d5210fa02da6f4fcdeee2b81c9eb2/m-classic-bauernsalami-geschnitten.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/6e5f1440abb069e8bedf9901310655043feaad75/m-classic-bauernsalami-geschnitten.png",
+    "stack": "https://image.migros.ch/{stack}/6e5f1440abb069e8bedf9901310655043feaad75/m-classic-bauernsalami-geschnitten.png"
+  },
+  "additional_images": [
+    {
+      "original": "https://image.migros.ch/original/44aa1c0c328bb5d6dd69c2ca2ea4da82a07b62cc.jpg",
+      "stack": "https://image.migros.ch/{stack}/44aa1c0c328bb5d6dd69c2ca2ea4da82a07b62cc.jpg"
+    }
+  ],
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_sortierung",
+      "label": "Sortierung aMigos",
+      "values": [
+        {
+          "value_code": "NUMERIC_100",
+          "value": "100",
+          "numeric_value": 100
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_minimal-gewicht",
+      "label": "Minimal-Gewicht",
+      "values": [
+        {
+          "value_code": "NUMERIC_115.0",
+          "value": "115.0 g",
+          "numeric_value": 115
+        }
+      ],
+      "top_fact": false,
+      "unit_code": "g",
+      "unit": "Gramm",
+      "unit_symbol": "g"
+    },
+    {
+      "label_code": "MISO_aMigos_maximal-gewicht",
+      "label": "Maximal-Gewicht",
+      "values": [
+        {
+          "value_code": "NUMERIC_125.0",
+          "value": "125.0 g",
+          "numeric_value": 125
+        }
+      ],
+      "top_fact": false,
+      "unit_code": "g",
+      "unit": "Gramm",
+      "unit_symbol": "g"
+    },
+    {
+      "label_code": "MISO_aMigos_volumen",
+      "label": "Volumen aMigos!",
+      "values": [
+        {
+          "value_code": "NUMERIC_336.0",
+          "value": "336.0 ml",
+          "numeric_value": 336
+        }
+      ],
+      "top_fact": false,
+      "unit_code": "ml",
+      "unit": "Mililiter",
+      "unit_symbol": "ml"
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZFRP",
+          "value": "Frische Beschaffung"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "6",
+          "value": "Fleisch-Fisch-Geflüg"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "71233",
+          "value": "ROHWURST STUECKWARE"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/232102082000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/m-classic-bauernsalami-geschnitten",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/232102082000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/m-classic-bauernsalami-geschnitten",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "updated_at": "2020-09-16T05:51:31+0200",
+  "receipt_text": "MClass Bauernsalami",
+  "price": {
+    "valid_from": "2019-02-04T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "source": "PriceRepository",
+    "no_price_hint": "Aktueller Tagespreis"
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 8,
+    "average_all": 4
+  },
+  "allergen_text": "Enthält Senf.",
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

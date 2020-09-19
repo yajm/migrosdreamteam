@@ -1,0 +1,339 @@
+{
+  "id": "165004700000",
+  "language": "de",
+  "name": "Pelican MSC Kabeljau Rückenfilet",
+  "slug": "pelican-msc-kabeljau-rueckenfilet",
+  "boss_number": "010510550605",
+  "description": {
+    "text": "<p>Kabeljau\n<br />R&uuml;ckenfilets</p><p>Gr&auml;tenfrei</p>",
+    "source": "PIM"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "source-qim-origins",
+    "validity-range-not-set",
+    "source-qim-allergens",
+    "source-qim-fooddeclaration",
+    "source-qim-nutritionfacts",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7613269291404",
+    "5700001001857",
+    "7613312260722",
+    "7613312271261"
+  ],
+  "brand": {
+    "id": "440",
+    "name": "Pelican",
+    "slug": "pelican"
+  },
+  "labels": [
+    {
+      "id": "L05",
+      "name": "MSC",
+      "slug": "msc",
+      "image": {
+        "original": "https://image.migros.ch/original/b4f2b83e8fa72e840367b33d46a26ab586685a13/msc.jpg",
+        "stack": "https://image.migros.ch/{stack}/b4f2b83e8fa72e840367b33d46a26ab586685a13/msc.jpg"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_0101150401",
+      "name": "Fisch & Fischfilets",
+      "slug": "supermarkt/lebensmittel/tiefkuehlprodukte/fisch-meeresfruechte/fisch-fischfilets",
+      "visible": true,
+      "title": "Schlemmen mit gefrorenen Fischfilets aus Meer und See",
+      "parent_code": "BeSS_01011504",
+      "image": {
+        "original": "https://image.migros.ch/original/904f05124554d05b4cfb64f36114507abf729cac/fisch-fischfilets.jpg",
+        "stack": "https://image.migros.ch/{stack}/904f05124554d05b4cfb64f36114507abf729cac/fisch-fischfilets.jpg"
+      },
+      "level": 5
+    },
+    {
+      "code": "BeSS_01011504",
+      "name": "Fisch & Meeresfrüchte",
+      "slug": "supermarkt/lebensmittel/tiefkuehlprodukte/fisch-meeresfruechte",
+      "visible": true,
+      "title": "Lecker und empfehlenswert &ndash; Tiefkühlfisch von der Migros",
+      "parent_code": "BeSS_010115",
+      "level": 4
+    },
+    {
+      "code": "BeSS_010115",
+      "name": "Tiefkühlprodukte",
+      "slug": "supermarkt/lebensmittel/tiefkuehlprodukte",
+      "visible": true,
+      "title": "Tiefkühlprodukte aus Ihrer Migros: schnell etwas Feines auf Ihren Tisch",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/b8e389701dd44ecdd5fbc95db5eed9b0a8c4a03d/tiefkuehlprodukte.jpg",
+        "stack": "https://image.migros.ch/{stack}/b8e389701dd44ecdd5fbc95db5eed9b0a8c4a03d/tiefkuehlprodukte.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "features": [
+    {
+      "label_code": "MISO_produktionsanspruch",
+      "label": "Produktionsverfahren",
+      "values": [
+        {
+          "value_code": "MISO_produktionsanspruch_glasiert",
+          "value": "Glasiert"
+        },
+        {
+          "value_code": "MISO_produktionsanspruch_nachhaltigefischerei",
+          "value": "Nachhaltige Fischerei"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_anzahlentnehmbarereinzelportionen",
+      "label": "Anzahl entnehmbarer Einzeleinheiten",
+      "values": [
+        {
+          "value_code": "NUMERIC_4.0",
+          "value": "4.0",
+          "numeric_value": 4
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_karton",
+          "value": "Karton"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zubereitungsverfahren",
+      "label": "Hinweise für die Zubereitung",
+      "values": [
+        {
+          "value_code": "MISO_zubereitungsverfahren_braten",
+          "value": "Braten"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zusatzangaben",
+      "label": "Zusatzangaben",
+      "values": [
+        {
+          "value_code": "MISO_zusatzangaben_57",
+          "value": "Die Gräten wurden mit grösster Sorgfalt entfernt. In Ausnahmefällen kann es aber vorkommen, dass Gräten enthalten sind."
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_fischspezies",
+      "label": "Fischspezies",
+      "values": [
+        {
+          "value_code": "MISO_fischspezies_dorsch",
+          "value": "Dorsch"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_anatomischeformvonfisch",
+      "label": "Anatomische Form von Fisch",
+      "values": [
+        {
+          "value_code": "MISO_anatomischeformvonfisch_filet",
+          "value": "Filet"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zuchtoderwildfang",
+      "label": "Zucht oder Wildfang",
+      "values": [
+        {
+          "value_code": "MISO_zuchtoderwildfang_wildfang",
+          "value": "Wildfang"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_suessodersalzwasser",
+      "label": "Süss- oder Salzwasser",
+      "values": [
+        {
+          "value_code": "MISO_suessodersalzwasser_salzwasser",
+          "value": "Salzwasser"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_graeten",
+      "label": "Gräten",
+      "values": [
+        {
+          "value_code": "MISO_graeten_ohnegraeten",
+          "value": "ohne Gräten"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_herstellungsverfahren",
+      "label": "Herstellungsverfahren",
+      "values": [
+        {
+          "value_code": "MISO_herstellungsverfahren_glasiert",
+          "value": "Glasiert"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_tierwohlmehrwert",
+      "label": "Tierwohl Mehrwert",
+      "values": [
+        {
+          "value_code": "MISO_tierwohlmehrwert_msc",
+          "value": "MSC"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/5b26c3ba1b9263e69ce30119584844097cbe0466/pelican-msc-kabeljau-rueckenfilet.jpg",
+    "stack": "https://image.migros.ch/{stack}/5b26c3ba1b9263e69ce30119584844097cbe0466/pelican-msc-kabeljau-rueckenfilet.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/6905945eda3f6af7495740ee89c042fd1b92844b/pelican-msc-kabeljau-rueckenfilet.png",
+    "stack": "https://image.migros.ch/{stack}/6905945eda3f6af7495740ee89c042fd1b92844b/pelican-msc-kabeljau-rueckenfilet.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "M",
+          "value": "Kolonial Standard"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "30150",
+          "value": "TK FISCH FILETS"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/165004700000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/pelican-msc-kabeljau-rueckenfilet",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/165004700000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/pelican-msc-kabeljau-rueckenfilet",
+      "type": "info",
+      "purchasable": false
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/94641",
+      "app_url": "leshop:///catalog/article/detail?ean=7613312271261",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/pelican-msc-kabeljau-rueckenfilet",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "updated_at": "2020-09-16T07:02:13+0200",
+  "receipt_text": "MSC Kabeljau Rückenfil",
+  "price": {
+    "valid_from": "2019-04-10T00:00:00+0200",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 10.5,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "400g"
+    },
+    "base": {
+      "price": 2.63,
+      "quantity": 100,
+      "unit": "g"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 7,
+    "average_all": 3.8
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

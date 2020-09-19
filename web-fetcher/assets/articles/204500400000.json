@@ -1,0 +1,367 @@
+{
+  "id": "204500400000",
+  "language": "de",
+  "name": "M-Classic Choco Drink",
+  "slug": "m-classic-choco-drink-204500400000",
+  "boss_number": "030213251510",
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "76102639",
+    "7613269880578"
+  ],
+  "brand": {
+    "id": "068",
+    "name": "M-Classic",
+    "slug": "m-classic",
+    "links": {
+      "homepage": {
+        "url": "https://m-classic.migros.ch/de.html",
+        "name": "Homepage",
+        "type": "info",
+        "purchasable": false
+      }
+    },
+    "image": {
+      "original": "https://image.migros.ch/original/72c18633f911e026e081ac11d872cff2d8dc8abb/m-classic.jpg",
+      "stack": "https://image.migros.ch/{stack}/72c18633f911e026e081ac11d872cff2d8dc8abb/m-classic.jpg"
+    }
+  },
+  "labels": [
+    {
+      "id": "L53",
+      "name": "Swissness",
+      "slug": "swissness",
+      "image": {
+        "original": "https://image.migros.ch/original/d771bba2f6b08ba42970ea0243c6f8c5a8832f15/swissness.jpg",
+        "stack": "https://image.migros.ch/{stack}/d771bba2f6b08ba42970ea0243c6f8c5a8832f15/swissness.jpg"
+      }
+    },
+    {
+      "id": "L34",
+      "name": "UTZ",
+      "slug": "utz",
+      "image": {
+        "original": "https://image.migros.ch/original/64192d97b7770d351f5bbe89a57c9f614e529150/utz.jpg",
+        "stack": "https://image.migros.ch/{stack}/64192d97b7770d351f5bbe89a57c9f614e529150/utz.jpg"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_0101040705",
+      "name": "Milchgetränke",
+      "slug": "supermarkt/lebensmittel/milchprodukte-eier/milch-milchgetraenke/milchgetraenke",
+      "visible": true,
+      "title": "Milchdrinks in Ihrer Migros kaufen",
+      "parent_code": "BeSS_01010407",
+      "image": {
+        "original": "https://image.migros.ch/original/1f1123a14cab1cf57da70923df7048d8f218eb5f/milchgetraenke.jpg",
+        "stack": "https://image.migros.ch/{stack}/1f1123a14cab1cf57da70923df7048d8f218eb5f/milchgetraenke.jpg"
+      },
+      "level": 5
+    },
+    {
+      "code": "BeSS_01010407",
+      "name": "Milch & Milchgetränke",
+      "slug": "supermarkt/lebensmittel/milchprodukte-eier/milch-milchgetraenke",
+      "visible": true,
+      "title": "Milchdrinks in Ihrer Migros kaufen",
+      "parent_code": "BeSS_010104",
+      "image": {
+        "original": "https://image.migros.ch/original/bdd298d8e023a8ba56ad01a0c1c075c5047e0582/milch-milchgetraenke.jpg",
+        "stack": "https://image.migros.ch/{stack}/bdd298d8e023a8ba56ad01a0c1c075c5047e0582/milch-milchgetraenke.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010104",
+      "name": "Milchprodukte & Eier",
+      "slug": "supermarkt/lebensmittel/milchprodukte-eier",
+      "visible": true,
+      "title": "Milchprodukte und Eier –",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/6b1ea6c2d41c3ccb21bf05c8dc342f7f55d83deb/milchprodukte-eier.jpg",
+        "stack": "https://image.migros.ch/{stack}/6b1ea6c2d41c3ccb21bf05c8dc342f7f55d83deb/milchprodukte-eier.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_Milchdrinks_MilchMilchdrink_MilchprodukteEier",
+        "name": "Milchdrinks",
+        "slug": "amigos/milchprodukte-eier/milch-milchdrink/milchdrinks",
+        "visible": true,
+        "parent_code": "AMIG_CAT_MilchMilchdrink_MilchprodukteEier",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_MilchMilchdrink_MilchprodukteEier",
+        "name": "Milch & Milchdrink",
+        "slug": "amigos/milchprodukte-eier/milch-milchdrink",
+        "visible": true,
+        "parent_code": "AMIG_CAT_MilchprodukteEier",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_MilchprodukteEier",
+        "name": "Milchprodukte & Eier",
+        "slug": "amigos/milchprodukte-eier",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "features": [
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_trinkpack",
+          "value": "Trinkpack"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zubereitungsverfahren",
+      "label": "Hinweise für die Zubereitung",
+      "values": [
+        {
+          "value_code": "MISO_zubereitungsverfahren_verzehrfertig",
+          "value": "Verzehrfertig"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zusatzangaben",
+      "label": "Zusatzangaben",
+      "values": [
+        {
+          "value_code": "MISO_zusatzangaben_30",
+          "value": "Vor Gebrauch schütteln"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_artvonerfrischungsgetraenk",
+      "label": "Art von Erfrischungsgetränk",
+      "values": [
+        {
+          "value_code": "MISO_artvonerfrischungsgetraenk_chocodrink",
+          "value": "Choco Drink"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_behandlungdesgetraenks",
+      "label": "Behandlung des Getränks",
+      "values": [
+        {
+          "value_code": "MISO_behandlungdesgetraenks_homogenisiert",
+          "value": "homogenisiert"
+        },
+        {
+          "value_code": "MISO_behandlungdesgetraenks_ultrahocherhitzt",
+          "value": "ultrahocherhitzt"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_artvontrinkschokolade",
+      "label": "Art von Trinkschokolade",
+      "values": [
+        {
+          "value_code": "MISO_artvontrinkschokolade_magermilchgetraenk",
+          "value": "Magermilchgetränk"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/3d2e8c0036d9da4eb8373e791d09eb7da9849804/m-classic-choco-drink.jpg",
+    "stack": "https://image.migros.ch/{stack}/3d2e8c0036d9da4eb8373e791d09eb7da9849804/m-classic-choco-drink.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/a44ae63d3467da9836d1d88915d12d0f271e2fd9/m-classic-choco-drink.png",
+    "stack": "https://image.migros.ch/{stack}/a44ae63d3467da9836d1d88915d12d0f271e2fd9/m-classic-choco-drink.png"
+  },
+  "additional_images": [
+    {
+      "original": "https://image.migros.ch/original/c88b27d466ab5e7eccc1e3de788ad541be653571.jpg",
+      "stack": "https://image.migros.ch/{stack}/c88b27d466ab5e7eccc1e3de788ad541be653571.jpg"
+    }
+  ],
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_sortierung",
+      "label": "Sortierung aMigos",
+      "values": [
+        {
+          "value_code": "NUMERIC_100",
+          "value": "100",
+          "numeric_value": 100
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_volumen",
+      "label": "Volumen aMigos!",
+      "values": [
+        {
+          "value_code": "NUMERIC_0.296604",
+          "value": "0.296604 l",
+          "numeric_value": 0.296604
+        }
+      ],
+      "top_fact": false,
+      "unit_code": "l",
+      "unit": "Liter",
+      "unit_symbol": "l"
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZFRP",
+          "value": "Frische Beschaffung"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "1",
+          "value": "Molki"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "70014",
+          "value": "MILCHMISCHGETRAENKE"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/204500400000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/m-classic-choco-drink-204500400000",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/204500400000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/m-classic-choco-drink-204500400000",
+      "type": "info",
+      "purchasable": false
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/67531",
+      "app_url": "leshop:///catalog/article/detail?ean=7613269880578",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/m-classic-choco-drink-204500400000",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "updated_at": "2020-09-16T05:47:43+0200",
+  "receipt_text": "MClass Choco-Drink",
+  "price": {
+    "valid_from": "2019-07-01T00:00:00+0200",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 0.5,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "250ml"
+    },
+    "base": {
+      "price": 0.2,
+      "quantity": 100,
+      "unit": "ml"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 40,
+    "average_all": 4.294117647059
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

@@ -1,0 +1,156 @@
+{
+  "id": "104522100000",
+  "language": "de",
+  "name": "Morcheln getrocknet",
+  "slug": "morcheln-getrocknet-104522100000",
+  "boss_number": "011011263005",
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7613312016732",
+    "7617014141174"
+  ],
+  "categories": [
+    {
+      "code": "BeSS_01011407",
+      "name": "Pilze",
+      "slug": "supermarkt/lebensmittel/pasta-zutaten-konserven/pilze",
+      "visible": true,
+      "parent_code": "BeSS_010114",
+      "image": {
+        "original": "https://image.migros.ch/original/5a66d0bb2049dfb8996a4a86c638106d5e76733c/pilze.jpg",
+        "stack": "https://image.migros.ch/{stack}/5a66d0bb2049dfb8996a4a86c638106d5e76733c/pilze.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010114",
+      "name": "Pasta, Zutaten & Konserven",
+      "slug": "supermarkt/lebensmittel/pasta-zutaten-konserven",
+      "visible": true,
+      "title": "Pasta aus Ihrer Migros: alles rund um Teigwaren",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/6d0964bbb34b8e041ba4d74fc0c90b149907f46a/pasta-zutaten-konserven.jpg",
+        "stack": "https://image.migros.ch/{stack}/6d0964bbb34b8e041ba4d74fc0c90b149907f46a/pasta-zutaten-konserven.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/663e168230059cbf16ba96473a35ee652d84506a/morcheln-getrocknet.jpg",
+    "stack": "https://image.migros.ch/{stack}/663e168230059cbf16ba96473a35ee652d84506a/morcheln-getrocknet.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/148020c1af29337d265b96948afbfbe76a918539/morcheln-getrocknet.png",
+    "stack": "https://image.migros.ch/{stack}/148020c1af29337d265b96948afbfbe76a918539/morcheln-getrocknet.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "M",
+          "value": "Kolonial Standard"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "11009",
+          "value": "PILZE"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/104522100000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/morcheln-getrocknet-104522100000",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/104522100000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/morcheln-getrocknet-104522100000",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "updated_at": "2020-09-15T06:46:57+0200",
+  "receipt_text": "Morcheln getrocknet",
+  "price": {
+    "valid_from": "2018-01-29T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 18.5,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "40g"
+    },
+    "base": {
+      "price": 4.63,
+      "quantity": 10,
+      "unit": "g"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 2,
+    "average_all": 5
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

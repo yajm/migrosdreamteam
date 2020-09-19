@@ -1,0 +1,165 @@
+{
+  "id": "106204900000",
+  "language": "de",
+  "name": "Zafferano Tre Cuochi",
+  "slug": "zafferano-tre-cuochi",
+  "boss_number": "011011365005",
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "8006820000031"
+  ],
+  "categories": [
+    {
+      "code": "BeSS_01011421",
+      "name": "Gewürze & Kräuter",
+      "slug": "supermarkt/lebensmittel/pasta-zutaten-konserven/gewuerze-kraeuter",
+      "visible": true,
+      "title": "Bringen Aroma in die Küche: Gewürze aus der Migros",
+      "parent_code": "BeSS_010114",
+      "image": {
+        "original": "https://image.migros.ch/original/21eef66859e1592c1038e1a3455b367ba78b1694/gewuerze-kraeuter.jpg",
+        "stack": "https://image.migros.ch/{stack}/21eef66859e1592c1038e1a3455b367ba78b1694/gewuerze-kraeuter.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010114",
+      "name": "Pasta, Zutaten & Konserven",
+      "slug": "supermarkt/lebensmittel/pasta-zutaten-konserven",
+      "visible": true,
+      "title": "Pasta aus Ihrer Migros: alles rund um Teigwaren",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/6d0964bbb34b8e041ba4d74fc0c90b149907f46a/pasta-zutaten-konserven.jpg",
+        "stack": "https://image.migros.ch/{stack}/6d0964bbb34b8e041ba4d74fc0c90b149907f46a/pasta-zutaten-konserven.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/424efd19b0cb18a204c45e2c619f8feaf1ed43aa/zafferano-tre-cuochi.jpg",
+    "stack": "https://image.migros.ch/{stack}/424efd19b0cb18a204c45e2c619f8feaf1ed43aa/zafferano-tre-cuochi.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/e3c196b4ece9599d308fef24f69b42c695ce790a/zafferano-tre-cuochi.png",
+    "stack": "https://image.migros.ch/{stack}/e3c196b4ece9599d308fef24f69b42c695ce790a/zafferano-tre-cuochi.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "M",
+          "value": "Kolonial Standard"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "11006",
+          "value": "UEBRIGE"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUSTOMS_POSITION",
+      "values": [
+        {
+          "value_code": "0910.2000"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/106204900000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/zafferano-tre-cuochi",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/106204900000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/zafferano-tre-cuochi",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "updated_at": "2020-09-15T04:03:22+0200",
+  "receipt_text": "Zafferano Tre Cuochi",
+  "price": {
+    "valid_from": "2017-09-18T00:00:00+0200",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 5.7,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "0.6g"
+    },
+    "base": {
+      "price": 95,
+      "quantity": 10,
+      "unit": "g"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 2,
+    "average_all": 5
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

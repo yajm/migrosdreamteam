@@ -1,0 +1,427 @@
+{
+  "id": "130102500000",
+  "language": "de",
+  "name": "Anna's Best Fettuccine",
+  "slug": "annas-best-fettuccine",
+  "boss_number": "020630161510",
+  "description": {
+    "text": "Fettuccine mit Eiern aus Freilandhaltung",
+    "source": "PIM"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "source-qim-origins",
+    "validity-range-not-set",
+    "source-qim-allergens",
+    "source-qim-fooddeclaration",
+    "source-qim-nutritionfacts",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7613269737100"
+  ],
+  "brand": {
+    "id": "007",
+    "name": "Anna's Best",
+    "slug": "annas-best",
+    "links": {
+      "homepage": {
+        "url": "https://annasbest.migros.ch/de.html",
+        "name": "Homepage",
+        "type": "info",
+        "purchasable": false
+      }
+    },
+    "image": {
+      "original": "https://image.migros.ch/original/184dd9291cf7fb67f0772e72d682c71c5fb76261/annas-best.jpg",
+      "stack": "https://image.migros.ch/{stack}/184dd9291cf7fb67f0772e72d682c71c5fb76261/annas-best.jpg"
+    }
+  },
+  "labels": [
+    {
+      "id": "L58",
+      "name": "V-vegetarisch",
+      "slug": "v-vegetarisch",
+      "image": {
+        "original": "https://image.migros.ch/original/f2077ff37c74a16ea9b38ea99c05cb880cc26136/v-vegetarisch.jpg",
+        "stack": "https://image.migros.ch/{stack}/f2077ff37c74a16ea9b38ea99c05cb880cc26136/v-vegetarisch.jpg"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_0101130205",
+      "name": "Pasta",
+      "slug": "supermarkt/lebensmittel/fertiggerichte-menues-snacks/fertige-pizzen-menues-snacks/pasta",
+      "visible": true,
+      "parent_code": "BeSS_01011302",
+      "image": {
+        "original": "https://image.migros.ch/original/575157a6841bafed0ce21e17512a8375f3e11c7a/pasta.jpg",
+        "stack": "https://image.migros.ch/{stack}/575157a6841bafed0ce21e17512a8375f3e11c7a/pasta.jpg"
+      },
+      "level": 5
+    },
+    {
+      "code": "BeSS_01011302",
+      "name": "Fertige Pizzen, Menüs & Snacks",
+      "slug": "supermarkt/lebensmittel/fertiggerichte-menues-snacks/fertige-pizzen-menues-snacks",
+      "visible": true,
+      "title": "Feine Fertiggerichte aus Ihrer Migros!",
+      "parent_code": "BeSS_010113",
+      "image": {
+        "original": "https://image.migros.ch/original/0014f54049f00019a8782aedb21ad671bd28a8e8/fertige-pizzen-menues-snacks.jpg",
+        "stack": "https://image.migros.ch/{stack}/0014f54049f00019a8782aedb21ad671bd28a8e8/fertige-pizzen-menues-snacks.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010113",
+      "name": "Fertiggerichte, Menüs & Snacks",
+      "slug": "supermarkt/lebensmittel/fertiggerichte-menues-snacks",
+      "visible": true,
+      "title": "Fertige Pizzen, Menüs und Snacks &ndash; schnell und lecker von der Migros",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/6770b6c8fbbd2689aece359ffeda93b90c58dd09/fertiggerichte-menues-snacks.jpg",
+        "stack": "https://image.migros.ch/{stack}/6770b6c8fbbd2689aece359ffeda93b90c58dd09/fertiggerichte-menues-snacks.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_Teigwaren_TeigwarenReisGetreide_Grundnahrungsmittel",
+        "name": "Teigwaren",
+        "slug": "amigos/grundnahrungsmittel/teigwaren-reis-getreide/teigwaren",
+        "visible": true,
+        "parent_code": "AMIG_CAT_TeigwarenReisGetreide_Grundnahrungsmittel",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_TeigwarenReisGetreide_Grundnahrungsmittel",
+        "name": "Teigwaren, Reis & Getreide",
+        "slug": "amigos/grundnahrungsmittel/teigwaren-reis-getreide",
+        "visible": true,
+        "parent_code": "AMIG_CAT_Grundnahrungsmittel",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_Grundnahrungsmittel",
+        "name": "Grundnahrungsmittel",
+        "slug": "amigos/grundnahrungsmittel",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "features": [
+    {
+      "label_code": "MISO_mussgekuehltwerden",
+      "label": "Muss gekühlt werden",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_kunststoffverpackung",
+          "value": "Kunststoff-Verpackung"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zubereitungsverfahren",
+      "label": "Hinweise für die Zubereitung",
+      "values": [
+        {
+          "value_code": "MISO_zubereitungsverfahren_kochen",
+          "value": "Kochen"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_musserwaermtwerden",
+      "label": "Muss erwärmt werden",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_anzahlportionen",
+      "label": "Anzahl Portionen",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_teige",
+      "label": "Teige",
+      "values": [
+        {
+          "value_code": "MISO_teige_frischeierteig",
+          "value": "Frischeierteig"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_produktionslandherstellungsort",
+      "label": "Produktionsland/Herstellungsort",
+      "values": [
+        {
+          "value_code": "MISO_produktionslandherstellungsort_schweiz",
+          "value": "Schweiz"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_artvonteigwarennudeln",
+      "label": "Art von Teigwaren/Nudeln",
+      "values": [
+        {
+          "value_code": "MISO_artvonteigwarennudeln_fettuccine",
+          "value": "Fettuccine"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_artvonverwendetemei",
+      "label": "Art von verwendetem Ei",
+      "values": [
+        {
+          "value_code": "MISO_artvonverwendetemei_freilandhaltung",
+          "value": "Freilandhaltung"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_gefuellt",
+      "label": "Gefüllt",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "Nein",
+          "boolean_value": false
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_getreideart",
+      "label": "Getreideart",
+      "values": [
+        {
+          "value_code": "MISO_getreideart_weizen",
+          "value": "Weizen"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_kochzeit",
+      "label": "Kochzeit (min.)",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_VEGETARIANISM",
+      "label": "Vegetarismus",
+      "values": [
+        {
+          "value_code": "MAPI_VEGETARIANISM_vegetarisch",
+          "value": "vegetarisch"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/02e058022cf69ee79a91473b68b6272fadffbb9d/annas-best-fettuccine.jpg",
+    "stack": "https://image.migros.ch/{stack}/02e058022cf69ee79a91473b68b6272fadffbb9d/annas-best-fettuccine.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/ec409acb90070999957cd8dd0750ce6f1d568101/annas-best-fettuccine.png",
+    "stack": "https://image.migros.ch/{stack}/ec409acb90070999957cd8dd0750ce6f1d568101/annas-best-fettuccine.png"
+  },
+  "additional_images": [
+    {
+      "original": "https://image.migros.ch/original/1a50c0ee682ed065283bbd7f90d9363151c39825.jpg",
+      "stack": "https://image.migros.ch/{stack}/1a50c0ee682ed065283bbd7f90d9363151c39825.jpg"
+    }
+  ],
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_sortierung",
+      "label": "Sortierung aMigos",
+      "values": [
+        {
+          "value_code": "NUMERIC_360",
+          "value": "360",
+          "numeric_value": 360
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZFRP",
+          "value": "Frische Beschaffung"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "7",
+          "value": "Convenience"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "70217",
+          "value": "PASTA PREMIUM"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/130102500000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/annas-best-fettuccine",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/130102500000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/annas-best-fettuccine",
+      "type": "info",
+      "purchasable": false
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/3446294",
+      "app_url": "leshop:///catalog/article/detail?ean=7613269737100",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/annas-best-fettuccine",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "updated_at": "2020-09-16T05:43:59+0200",
+  "receipt_text": "Fettuccine",
+  "price": {
+    "valid_from": "2019-04-09T00:00:00+0200",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 2.95,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "300g"
+    },
+    "base": {
+      "price": 0.98,
+      "quantity": 100,
+      "unit": "g"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 8,
+    "average_all": 4.625
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

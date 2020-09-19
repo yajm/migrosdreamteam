@@ -1,0 +1,305 @@
+{
+  "id": "205252000000",
+  "language": "de",
+  "name": "Birchermüesli Classic",
+  "slug": "birchermueesli-classic-205252000000",
+  "boss_number": "030213308010",
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "source-qim-origins",
+    "validity-range-not-set",
+    "source-qim-allergens",
+    "source-qim-fooddeclaration",
+    "source-qim-nutritionfacts",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7613269852728"
+  ],
+  "labels": [
+    {
+      "id": "L53",
+      "name": "Swissness",
+      "slug": "swissness",
+      "image": {
+        "original": "https://image.migros.ch/original/d771bba2f6b08ba42970ea0243c6f8c5a8832f15/swissness.jpg",
+        "stack": "https://image.migros.ch/{stack}/d771bba2f6b08ba42970ea0243c6f8c5a8832f15/swissness.jpg"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_01010404",
+      "name": "Dessert",
+      "slug": "supermarkt/lebensmittel/milchprodukte-eier/dessert",
+      "visible": true,
+      "title": "Immer eine Sünde wert &ndash; Desserts von der Migros",
+      "parent_code": "BeSS_010104",
+      "image": {
+        "original": "https://image.migros.ch/original/ba5bb365e8afeb50a776a7b8f2c3e28c666d5593/dessert.jpg",
+        "stack": "https://image.migros.ch/{stack}/ba5bb365e8afeb50a776a7b8f2c3e28c666d5593/dessert.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010104",
+      "name": "Milchprodukte & Eier",
+      "slug": "supermarkt/lebensmittel/milchprodukte-eier",
+      "visible": true,
+      "title": "Milchprodukte und Eier –",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/6b1ea6c2d41c3ccb21bf05c8dc342f7f55d83deb/milchprodukte-eier.jpg",
+        "stack": "https://image.migros.ch/{stack}/6b1ea6c2d41c3ccb21bf05c8dc342f7f55d83deb/milchprodukte-eier.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_Mueesli_MueesliGetreideflocken_MueesliCerealienBrotaufstriche",
+        "name": "Müesli",
+        "slug": "amigos/mueesli-cerealien-brotaufstriche/mueesli-getreideflocken/mueesli",
+        "visible": true,
+        "parent_code": "AMIG_CAT_MueesliGetreideflocken_MueesliCerealienBrotaufstriche",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_MueesliGetreideflocken_MueesliCerealienBrotaufstriche",
+        "name": "Müesli & Getreideflocken",
+        "slug": "amigos/mueesli-cerealien-brotaufstriche/mueesli-getreideflocken",
+        "visible": true,
+        "parent_code": "AMIG_CAT_MueesliCerealienBrotaufstriche",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_MueesliCerealienBrotaufstriche",
+        "name": "Müesli, Cerealien & Brotaufstriche",
+        "slug": "amigos/mueesli-cerealien-brotaufstriche",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "features": [
+    {
+      "label_code": "MISO_mussgekuehltwerden",
+      "label": "Muss gekühlt werden",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_becher",
+          "value": "Becher"
+        },
+        {
+          "value_code": "MISO_cu_gebindeart_deckel",
+          "value": "Deckel"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zusatzangaben",
+      "label": "Zusatzangaben",
+      "values": [
+        {
+          "value_code": "MISO_zusatzangaben_279",
+          "value": "Aus pasteurisierter Milch"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_artvonjoghurt",
+      "label": "Art von Joghurt",
+      "values": [
+        {
+          "value_code": "MISO_artvonjoghurt_birchermueesli",
+          "value": "Birchermüesli"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aromatisiert",
+      "label": "Aromatisiert",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_geschmack",
+      "label": "Geschmack",
+      "values": [
+        {
+          "value_code": "MISO_geschmack_birchermueesli",
+          "value": "Birchermüesli"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_milchartrohstoff",
+      "label": "Milchart/Rohstoff",
+      "values": [
+        {
+          "value_code": "MISO_milchartrohstoff_milch",
+          "value": "Milch"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/51592c2f12d13a94200e3fcdc425ffefb0d5c1a0/birchermueesli-classic.jpg",
+    "stack": "https://image.migros.ch/{stack}/51592c2f12d13a94200e3fcdc425ffefb0d5c1a0/birchermueesli-classic.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/7cb42d816963449bbc0b64878732de24a71b56f2/birchermueesli-classic.png",
+    "stack": "https://image.migros.ch/{stack}/7cb42d816963449bbc0b64878732de24a71b56f2/birchermueesli-classic.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_nein",
+          "value": "Nein"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_sortierung",
+      "label": "Sortierung aMigos",
+      "values": [
+        {
+          "value_code": "NUMERIC_730",
+          "value": "730",
+          "numeric_value": 730
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZFRP",
+          "value": "Frische Beschaffung"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "1",
+          "value": "Molki"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "70022",
+          "value": "SELLOUT/PROMOTIONEN"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/205252000000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/birchermueesli-classic-205252000000",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/205252000000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/birchermueesli-classic-205252000000",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "updated_at": "2020-09-16T05:48:57+0200",
+  "receipt_text": "Birchermüesli Classic",
+  "price": {
+    "valid_from": "2018-01-29T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 4.2,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

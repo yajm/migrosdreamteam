@@ -1,0 +1,277 @@
+{
+  "id": "110106300000",
+  "language": "de",
+  "name": "Dessert Preussen",
+  "slug": "dessert-preussen-110106300000",
+  "boss_number": "020212218005",
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7613269738473",
+    "7613404200544"
+  ],
+  "labels": [
+    {
+      "id": "L57",
+      "name": "V-vegan",
+      "slug": "v-vegan",
+      "image": {
+        "original": "https://image.migros.ch/original/9425b8ea6312342ddd2d0dc87e65567c88e1b757/v-vegan.jpg",
+        "stack": "https://image.migros.ch/{stack}/9425b8ea6312342ddd2d0dc87e65567c88e1b757/v-vegan.jpg"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_0101030812",
+      "name": "Konditorei Gebäcke klein",
+      "slug": "supermarkt/lebensmittel/baeckerei-confiserie-backen/konditorei-patisserie/konditorei-gebaecke-klein",
+      "visible": true,
+      "parent_code": "BeSS_01010308",
+      "image": {
+        "original": "https://image.migros.ch/original/f1a4a97add2b34d68c1e85b5c6b981069a3be9c6/konditorei-gebaecke-klein.jpg",
+        "stack": "https://image.migros.ch/{stack}/f1a4a97add2b34d68c1e85b5c6b981069a3be9c6/konditorei-gebaecke-klein.jpg"
+      },
+      "level": 5
+    },
+    {
+      "code": "BeSS_01010308",
+      "name": "Konditorei & Patisserie",
+      "slug": "supermarkt/lebensmittel/baeckerei-confiserie-backen/konditorei-patisserie",
+      "visible": true,
+      "title": "Patisserie und Confiserie &ndash; Süssgebäck von der Migros",
+      "parent_code": "BeSS_010103",
+      "image": {
+        "original": "https://image.migros.ch/original/da2663e4ef52ff0252fe6fea37437cbe1151e3aa/konditorei-patisserie.jpg",
+        "stack": "https://image.migros.ch/{stack}/da2663e4ef52ff0252fe6fea37437cbe1151e3aa/konditorei-patisserie.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010103",
+      "name": "Bäckerei, Confiserie & Backen",
+      "slug": "supermarkt/lebensmittel/baeckerei-confiserie-backen",
+      "visible": true,
+      "title": "Backen macht Freude! Alle Zutaten finden Sie in Ihrer Migros",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/04b41cd6f4daedf3061a2a37617d48e992760b35/baeckerei-confiserie-backen.jpg",
+        "stack": "https://image.migros.ch/{stack}/04b41cd6f4daedf3061a2a37617d48e992760b35/baeckerei-confiserie-backen.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_BisquitsWaffeln_SchokoladenSuessigkeiten",
+        "name": "Bisquits & Waffeln",
+        "slug": "amigos/schokoladen-suessigkeiten/bisquits-waffeln",
+        "visible": true,
+        "parent_code": "AMIG_CAT_SchokoladenSuessigkeiten",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_SchokoladenSuessigkeiten",
+        "name": "Schokoladen & Süssigkeiten",
+        "slug": "amigos/schokoladen-suessigkeiten",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "features": [
+    {
+      "label_code": "MISO_zubereitungsverfahren",
+      "label": "Hinweise für die Zubereitung",
+      "values": [
+        {
+          "value_code": "MISO_zubereitungsverfahren_verzehrfertig",
+          "value": "Verzehrfertig"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_artvonkuchen",
+      "label": "Art von Kuchen",
+      "values": [
+        {
+          "value_code": "MISO_artvonkuchen_suessgebaeck",
+          "value": "Süssgebäck"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_artvongebaeckpastete",
+      "label": "Art von Gebäck/Pastete",
+      "values": [
+        {
+          "value_code": "MISO_artvongebaeckpastete_blaetterteiggebaeck",
+          "value": "Blätterteiggebäck"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_verzehrbarkeit",
+      "label": "Hinweise zum Verzehr",
+      "values": [
+        {
+          "value_code": "MISO_verzehrbarkeit_fertigzumverzehr",
+          "value": "fertig zum Verzehr"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_VEGETARIANISM",
+      "label": "Vegetarismus",
+      "values": [
+        {
+          "value_code": "MAPI_VEGETARIANISM_vegan",
+          "value": "vegan"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/3b4b8b4514a29a15d35c552adcc44e88ff13dedd/dessert-preussen.jpg",
+    "stack": "https://image.migros.ch/{stack}/3b4b8b4514a29a15d35c552adcc44e88ff13dedd/dessert-preussen.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/db427897905a4b370d0571f39eab3c794e3297ce/dessert-preussen.png",
+    "stack": "https://image.migros.ch/{stack}/db427897905a4b370d0571f39eab3c794e3297ce/dessert-preussen.png"
+  },
+  "additional_images": [
+    {
+      "original": "https://image.migros.ch/original/d48df80573892af6ecf9c5ef7e9e47f043f17f72.jpg",
+      "stack": "https://image.migros.ch/{stack}/d48df80573892af6ecf9c5ef7e9e47f043f17f72.jpg"
+    }
+  ],
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZFRP",
+          "value": "Frische Beschaffung"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "8",
+          "value": "Backwaren"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "71089",
+          "value": "SELLOUT"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/110106300000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/dessert-preussen-110106300000",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/110106300000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/dessert-preussen-110106300000",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "updated_at": "2020-09-16T05:41:39+0200",
+  "receipt_text": "Dessert Preussen",
+  "price": {
+    "valid_from": "2018-01-29T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 2.9,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 1,
+    "average_all": 5
+  },
+  "allergen_text": "Kann Nüsse \r\n, Sesam \r\n, Soja \r\n, Eier \r\n und Milch enthalten.",
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

@@ -1,0 +1,258 @@
+{
+  "id": "113109100000",
+  "language": "de",
+  "name": "Bio YOU Vollwertguetzli",
+  "slug": "bio-you-vollwertguetzli",
+  "boss_number": "020212141505",
+  "description": {
+    "text": "BIO YOU Vollwertguetzli",
+    "source": "PIM"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7616700185614",
+    "7613404008638"
+  ],
+  "brand": {
+    "id": "R07",
+    "name": "YOU",
+    "slug": "you",
+    "image": {
+      "original": "https://image.migros.ch/original/06c7b3e9747e8266271bc30ff9c211bb607bb19e/you.jpg",
+      "stack": "https://image.migros.ch/{stack}/06c7b3e9747e8266271bc30ff9c211bb607bb19e/you.jpg"
+    }
+  },
+  "labels": [
+    {
+      "id": "L02",
+      "name": "Migros Bio",
+      "slug": "migros-bio",
+      "image": {
+        "original": "https://image.migros.ch/original/f32d1804b8db5760147310b8d6458eb36757b486/migros-bio.jpg",
+        "stack": "https://image.migros.ch/{stack}/f32d1804b8db5760147310b8d6458eb36757b486/migros-bio.jpg"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_0101030812",
+      "name": "Konditorei Gebäcke klein",
+      "slug": "supermarkt/lebensmittel/baeckerei-confiserie-backen/konditorei-patisserie/konditorei-gebaecke-klein",
+      "visible": true,
+      "parent_code": "BeSS_01010308",
+      "image": {
+        "original": "https://image.migros.ch/original/f1a4a97add2b34d68c1e85b5c6b981069a3be9c6/konditorei-gebaecke-klein.jpg",
+        "stack": "https://image.migros.ch/{stack}/f1a4a97add2b34d68c1e85b5c6b981069a3be9c6/konditorei-gebaecke-klein.jpg"
+      },
+      "level": 5
+    },
+    {
+      "code": "BeSS_01010308",
+      "name": "Konditorei & Patisserie",
+      "slug": "supermarkt/lebensmittel/baeckerei-confiserie-backen/konditorei-patisserie",
+      "visible": true,
+      "title": "Patisserie und Confiserie &ndash; Süssgebäck von der Migros",
+      "parent_code": "BeSS_010103",
+      "image": {
+        "original": "https://image.migros.ch/original/da2663e4ef52ff0252fe6fea37437cbe1151e3aa/konditorei-patisserie.jpg",
+        "stack": "https://image.migros.ch/{stack}/da2663e4ef52ff0252fe6fea37437cbe1151e3aa/konditorei-patisserie.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010103",
+      "name": "Bäckerei, Confiserie & Backen",
+      "slug": "supermarkt/lebensmittel/baeckerei-confiserie-backen",
+      "visible": true,
+      "title": "Backen macht Freude! Alle Zutaten finden Sie in Ihrer Migros",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/04b41cd6f4daedf3061a2a37617d48e992760b35/baeckerei-confiserie-backen.jpg",
+        "stack": "https://image.migros.ch/{stack}/04b41cd6f4daedf3061a2a37617d48e992760b35/baeckerei-confiserie-backen.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "features": [
+    {
+      "label_code": "MISO_produktionsanspruch",
+      "label": "Produktionsverfahren",
+      "values": [
+        {
+          "value_code": "MISO_produktionsanspruch_bioproduktion",
+          "value": "Bio-Produktion"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_anzahlentnehmbarereinzelportionen",
+      "label": "Anzahl entnehmbarer Einzeleinheiten",
+      "values": [
+        {
+          "value_code": "NUMERIC_1.0",
+          "value": "1.0",
+          "numeric_value": 1
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zubereitungsverfahren",
+      "label": "Hinweise für die Zubereitung",
+      "values": [
+        {
+          "value_code": "MISO_zubereitungsverfahren_verzehrfertig",
+          "value": "Verzehrfertig"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_artvongebaeckpastete",
+      "label": "Art von Gebäck/Pastete",
+      "values": [
+        {
+          "value_code": "MISO_artvongebaeckpastete_cookie",
+          "value": "Cookie"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_verzehrbarkeit",
+      "label": "Hinweise zum Verzehr",
+      "values": [
+        {
+          "value_code": "MISO_verzehrbarkeit_fertigzumverzehr",
+          "value": "fertig zum Verzehr"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/de9390b1b2ec9bb5e80b0c09b8604195235a5646/bio-you-vollwertguetzli.jpg",
+    "stack": "https://image.migros.ch/{stack}/de9390b1b2ec9bb5e80b0c09b8604195235a5646/bio-you-vollwertguetzli.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/1d8c63910d71bb92acd508e38df5117abbf8e360/bio-you-vollwertguetzli.png",
+    "stack": "https://image.migros.ch/{stack}/1d8c63910d71bb92acd508e38df5117abbf8e360/bio-you-vollwertguetzli.png"
+  },
+  "additional_images": [
+    {
+      "original": "https://image.migros.ch/original/626014f9871771e8f14f6a271c990f44971f2e26.jpg",
+      "stack": "https://image.migros.ch/{stack}/626014f9871771e8f14f6a271c990f44971f2e26.jpg"
+    }
+  ],
+  "internal_features": [
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZFRP",
+          "value": "Frische Beschaffung"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "8",
+          "value": "Backwaren"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "70160",
+          "value": "KLEINBACKWAR ABGEP EINZEL"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/113109100000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/bio-you-vollwertguetzli",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/113109100000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/bio-you-vollwertguetzli",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "updated_at": "2020-09-12T00:22:46+0200",
+  "receipt_text": "Bio YOU Vollwertguetz.",
+  "price": {
+    "valid_from": "2018-01-29T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 1.5,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "55g"
+    },
+    "base": {
+      "price": 2.73,
+      "quantity": 100,
+      "unit": "g"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 5,
+    "average_all": 5
+  },
+  "allergen_text": "Kann Weizen \r\n, Eier \r\n und andere Nüsse enthalten.",
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

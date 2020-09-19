@@ -1,0 +1,213 @@
+{
+  "id": "104552500000",
+  "language": "de",
+  "name": "Judasohren getrocknet",
+  "slug": "judasohren-getrocknet",
+  "boss_number": "011011263015",
+  "description": {
+    "text": "Judasohren getrocknet",
+    "source": "PIM"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7610200059826"
+  ],
+  "categories": [
+    {
+      "code": "BeSS_01011407",
+      "name": "Pilze",
+      "slug": "supermarkt/lebensmittel/pasta-zutaten-konserven/pilze",
+      "visible": true,
+      "parent_code": "BeSS_010114",
+      "image": {
+        "original": "https://image.migros.ch/original/5a66d0bb2049dfb8996a4a86c638106d5e76733c/pilze.jpg",
+        "stack": "https://image.migros.ch/{stack}/5a66d0bb2049dfb8996a4a86c638106d5e76733c/pilze.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010114",
+      "name": "Pasta, Zutaten & Konserven",
+      "slug": "supermarkt/lebensmittel/pasta-zutaten-konserven",
+      "visible": true,
+      "title": "Pasta aus Ihrer Migros: alles rund um Teigwaren",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/6d0964bbb34b8e041ba4d74fc0c90b149907f46a/pasta-zutaten-konserven.jpg",
+        "stack": "https://image.migros.ch/{stack}/6d0964bbb34b8e041ba4d74fc0c90b149907f46a/pasta-zutaten-konserven.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "features": [
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_beutelsack",
+          "value": "Beutel/Sack"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_ursprungsland",
+      "label": "Ursprungsland",
+      "values": [
+        {
+          "value_code": "MISO_Herkunftsland_China",
+          "value": "China"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_herstellungsverfahrenkochprozess",
+      "label": "Herstellungsverfahren/Kochprozess",
+      "values": [
+        {
+          "value_code": "MISO_herstellungsverfahrenkochprozess_getrocknet",
+          "value": "getrocknet"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_sorte",
+      "label": "Sorte",
+      "values": [
+        {
+          "value_code": "MISO_sorte_judasohren",
+          "value": "Judasohren"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/888f4943421ccfb77d17426e77385dfc1bde8a95/judasohren-getrocknet.jpg",
+    "stack": "https://image.migros.ch/{stack}/888f4943421ccfb77d17426e77385dfc1bde8a95/judasohren-getrocknet.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/f86a34f73a46fea193873762dcec1e120568f187/judasohren-getrocknet.png",
+    "stack": "https://image.migros.ch/{stack}/f86a34f73a46fea193873762dcec1e120568f187/judasohren-getrocknet.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "M",
+          "value": "Kolonial Standard"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "11009",
+          "value": "PILZE"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/104552500000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/judasohren-getrocknet",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/104552500000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/judasohren-getrocknet",
+      "type": "info",
+      "purchasable": false
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/52635",
+      "app_url": "leshop:///catalog/article/detail?ean=7610200059826",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/judasohren-getrocknet",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "updated_at": "2020-09-16T05:41:57+0200",
+  "receipt_text": "Judasohren getrocknet",
+  "price": {
+    "valid_from": "2018-01-01T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 1.6,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "25g"
+    },
+    "base": {
+      "price": 0.64,
+      "quantity": 10,
+      "unit": "g"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 3,
+    "average_all": 5
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

@@ -1,0 +1,492 @@
+{
+  "id": "251200351800",
+  "language": "de",
+  "name": "Lachsfilet Zitronen und Koriander",
+  "slug": "lachsfilet-zitronen-und-koriander",
+  "boss_number": "040414362510",
+  "description": {
+    "text": "Lachsfilet mit Zitronen und Koriander fixfertig in Aluschale",
+    "source": "PIM"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "validity-range-not-set",
+    "leshop-discounted",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7613404196120"
+  ],
+  "labels": [
+    {
+      "id": "L36",
+      "name": "ASC",
+      "slug": "asc",
+      "image": {
+        "original": "https://image.migros.ch/original/6fce33537bdee669e044bd9b82dc419c6d44a000/asc.jpg",
+        "stack": "https://image.migros.ch/{stack}/6fce33537bdee669e044bd9b82dc419c6d44a000/asc.jpg"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_01010706",
+      "name": "Traiteur",
+      "slug": "supermarkt/lebensmittel/fisch-meeresfruechte/traiteur",
+      "visible": true,
+      "title": "Frischen Fisch in Ihrer Migros kaufen",
+      "parent_code": "BeSS_010107",
+      "level": 4
+    },
+    {
+      "code": "BeSS_010107",
+      "name": "Fisch & Meeresfrüchte",
+      "slug": "supermarkt/lebensmittel/fisch-meeresfruechte",
+      "visible": true,
+      "title": "Frische Fische – natürlich aus Ihrer Migros",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/ec75a7d58e38e50543a63ffef79d21bc22d60668/fisch-meeresfruechte.jpg",
+        "stack": "https://image.migros.ch/{stack}/ec75a7d58e38e50543a63ffef79d21bc22d60668/fisch-meeresfruechte.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_Lachs_FischMeeresfruechte_FleischFisch",
+        "name": "Lachs",
+        "slug": "amigos/fleisch-fisch/fisch-meeresfruechte/lachs",
+        "visible": true,
+        "parent_code": "AMIG_CAT_FischMeeresfruechte_FleischFisch",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_FischMeeresfruechte_FleischFisch",
+        "name": "Fisch & Meeresfrüchte",
+        "slug": "amigos/fleisch-fisch/fisch-meeresfruechte",
+        "visible": true,
+        "parent_code": "AMIG_CAT_FleischFisch",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_FleischFisch",
+        "name": "Fleisch & Fisch",
+        "slug": "amigos/fleisch-fisch",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "features": [
+    {
+      "label_code": "MISO_mussgekuehltwerden",
+      "label": "Muss gekühlt werden",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_schale",
+          "value": "Schale"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zubereitungsverfahren",
+      "label": "Hinweise für die Zubereitung",
+      "values": [
+        {
+          "value_code": "MISO_zubereitungsverfahren_backen",
+          "value": "Backen"
+        },
+        {
+          "value_code": "MISO_zubereitungsverfahren_grillieren",
+          "value": "Grillieren"
+        },
+        {
+          "value_code": "MISO_zubereitungsverfahren_indermikrowelleerhitzen",
+          "value": "In der Mikrowelle erhitzen"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zusatzangaben",
+      "label": "Zusatzangaben",
+      "values": [
+        {
+          "value_code": "MISO_zusatzangaben_273",
+          "value": "Gekühlt aufbewahren bei max. +2 Grad C."
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_fischspezies",
+      "label": "Fischspezies",
+      "values": [
+        {
+          "value_code": "MISO_fischspezies_lachs",
+          "value": "Lachs"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_anatomischeformvonfisch",
+      "label": "Anatomische Form von Fisch",
+      "values": [
+        {
+          "value_code": "MISO_anatomischeformvonfisch_filet",
+          "value": "Filet"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zuchtoderwildfang",
+      "label": "Zucht oder Wildfang",
+      "values": [
+        {
+          "value_code": "MISO_zuchtoderwildfang_zucht",
+          "value": "Zucht"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_suessodersalzwasser",
+      "label": "Süss- oder Salzwasser",
+      "values": [
+        {
+          "value_code": "MISO_suessodersalzwasser_salzwasser",
+          "value": "Salzwasser"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zuchtoderfangmethode",
+      "label": "Zucht- oder Fangmethode",
+      "values": [
+        {
+          "value_code": "MISO_zuchtoderfangmethode_aquakultur",
+          "value": "Aquakultur"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_verpackungsform",
+      "label": "Verpackungsform",
+      "values": [
+        {
+          "value_code": "MISO_verpackungsform_schutzatmosphaere",
+          "value": "Schutzatmosphäre"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_haut",
+      "label": "Haut",
+      "values": [
+        {
+          "value_code": "MISO_haut_mithaut",
+          "value": "mit Haut"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_lakeoel",
+      "label": "Lake/Öl",
+      "values": [
+        {
+          "value_code": "MISO_lakeoel_mariniert",
+          "value": "Mariniert"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_herstellungsverfahren",
+      "label": "Herstellungsverfahren",
+      "values": [
+        {
+          "value_code": "MISO_herstellungsverfahren_gewuerzt",
+          "value": "Gewürzt"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/5a676ef3d19e3603857c09d366066e408da3b426/lachsfilet-zitronen-und-koriander.jpg",
+    "stack": "https://image.migros.ch/{stack}/5a676ef3d19e3603857c09d366066e408da3b426/lachsfilet-zitronen-und-koriander.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/97e4d27a7ab4a05b93381b3cb94a74cc6941ae0f/lachsfilet-zitronen-und-koriander.png",
+    "stack": "https://image.migros.ch/{stack}/97e4d27a7ab4a05b93381b3cb94a74cc6941ae0f/lachsfilet-zitronen-und-koriander.png"
+  },
+  "additional_images": [
+    {
+      "original": "https://image.migros.ch/original/120852d20a2c15eac1c5d81662e9ccdbfc60ad21.jpg",
+      "stack": "https://image.migros.ch/{stack}/120852d20a2c15eac1c5d81662e9ccdbfc60ad21.jpg"
+    },
+    {
+      "original": "https://image.migros.ch/original/f1c1b5040fd020c4a1c3555106a7b496983faa1e.jpg",
+      "stack": "https://image.migros.ch/{stack}/f1c1b5040fd020c4a1c3555106a7b496983faa1e.jpg"
+    }
+  ],
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_sortierung",
+      "label": "Sortierung aMigos",
+      "values": [
+        {
+          "value_code": "NUMERIC_120",
+          "value": "120",
+          "numeric_value": 120
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_gewicht",
+      "label": "Gewicht aMigos!",
+      "values": [
+        {
+          "value_code": "NUMERIC_400.0",
+          "value": "400.0 g",
+          "numeric_value": 400
+        }
+      ],
+      "top_fact": false,
+      "unit_code": "g",
+      "unit": "Gramm",
+      "unit_symbol": "g"
+    },
+    {
+      "label_code": "MISO_aMigos_volumen",
+      "label": "Volumen aMigos!",
+      "values": [
+        {
+          "value_code": "NUMERIC_1.344",
+          "value": "1.344 l",
+          "numeric_value": 1.344
+        }
+      ],
+      "top_fact": false,
+      "unit_code": "l",
+      "unit": "Liter",
+      "unit_symbol": "l"
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZFRP",
+          "value": "Frische Beschaffung"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "6",
+          "value": "Fleisch-Fisch-Geflüg"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "70199",
+          "value": "CONVENIENCE"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/251200351800",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/lachsfilet-zitronen-und-koriander",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/251200351800",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/lachsfilet-zitronen-und-koriander",
+      "type": "info",
+      "purchasable": false
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/4634350",
+      "app_url": "leshop:///catalog/article/detail?ean=7613404196120",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/lachsfilet-zitronen-und-koriander",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "updated_at": "2020-09-16T06:34:47+0200",
+  "receipt_text": "ASC Lachsfilet Zitrone",
+  "price": {
+    "valid_from": "2020-09-15T00:00:00+0200",
+    "valid_to": "2020-09-21T23:59:59+0200",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 12.7,
+      "original_price": 15.9,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "400g"
+    },
+    "discount": {
+      "id": "1441530",
+      "region": "national",
+      "start_date": "2020-09-15T00:00:00+0200",
+      "end_date": "2020-09-21T23:59:59+0200",
+      "publication_date": "2020-09-13T00:00:00+0200",
+      "discount_amount": "20%",
+      "discount_regions": [
+        "national",
+        "gmaa",
+        "gmbs",
+        "gmge",
+        "gmlu",
+        "gmnf",
+        "gmos",
+        "gmti",
+        "gmvd",
+        "gmvs",
+        "gmzh"
+      ],
+      "reference_product_id": "251200351800",
+      "discount_type": "aktion",
+      "discount_type_id": "001",
+      "discount_type_label": "SA Sonderangebot",
+      "organisation": "03",
+      "cooperative": "mgb",
+      "image": {
+        "tags": [
+          "list-image"
+        ],
+        "original": "https://image.migros.ch/original/ce2baa48182db67e015b04a80857c3f9f3c4f3d0/lachsfilet-mit-zitrone-und-koriander-in-backschale-asc.jpg",
+        "source": "PriceRepository",
+        "stack": "https://image.migros.ch/{stack}/ce2baa48182db67e015b04a80857c3f9f3c4f3d0/lachsfilet-mit-zitrone-und-koriander-in-backschale-asc.jpg"
+      },
+      "image_transparent": {
+        "original": "https://image.migros.ch/original/ce2baa48182db67e015b04a80857c3f9f3c4f3d0/lachsfilet-mit-zitrone-und-koriander-in-backschale-asc.png",
+        "source": "PriceRepository",
+        "stack": "https://image.migros.ch/{stack}/ce2baa48182db67e015b04a80857c3f9f3c4f3d0/lachsfilet-mit-zitrone-und-koriander-in-backschale-asc.png"
+      },
+      "logo": {
+        "original": "https://image.migros.ch/original/da70582adf7329a9391dabf27fdee1bf1abe5771.png",
+        "source": "PriceRepository",
+        "stack": "https://image.migros.ch/{stack}/da70582adf7329a9391dabf27fdee1bf1abe5771.png"
+      },
+      "badge": {
+        "original": "https://image.migros.ch/original/0633530dd39bda4f1496c8c8aa5ac1d66f227594.png",
+        "stack": "https://image.migros.ch/{stack}/0633530dd39bda4f1496c8c8aa5ac1d66f227594.png"
+      },
+      "location_planning_type": "01",
+      "reduction_type_id": "01",
+      "special_advertisement": false,
+      "advertisement_type_id": "2",
+      "description": "Lachsfilet mit Zitrone und Koriander in Backschale, ASC",
+      "discount_hint": "Zucht aus Norwegen, in Backschale, in Selbstbedienung, 400 g, Angebot gilt nur vom 15.9. bis 21.9.2020, solange Vorrat.",
+      "high_performer": false,
+      "collective_discount": false,
+      "instead_of": "statt",
+      "price": 12.7,
+      "original_price": 15.9,
+      "disclaimer": "Gültigkeit siehe Angebots-Detailseite.\r\nBei allen Angeboten sind M-Budget und bereits reduzierte Artikel ausgenommen.\r\nBei Aktionen können bei der Verrechnung auf dem Kassabon Rundungsdifferenzen zu Gunsten des Kunden entstehen.",
+      "source": "PriceRepository",
+      "boss_number": "040414362510",
+      "discount_role_id": "2000000002",
+      "discount_role_label": "M: Wochenangebot Typ I",
+      "last_imported": "2020-09-11T18:15:02+0200"
+    },
+    "discount_hint": "Angebot gilt nur vom 15.9. bis 21.9.2020, solange Vorrat."
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 9,
+    "average_all": 3.222222222222
+  },
+  "reindex_date": "2020-09-20T23:59:59+0200"
+}

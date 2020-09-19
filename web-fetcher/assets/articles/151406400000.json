@@ -1,0 +1,204 @@
+{
+  "id": "151406400000",
+  "language": "de",
+  "name": "Max Havelaar Honig flüssig",
+  "slug": "max-havelaar-honig-fluessig",
+  "boss_number": "010310405610",
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "source-qim-origins",
+    "validity-range-not-set",
+    "source-qim-fooddeclaration",
+    "source-qim-nutritionfacts",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7617027068734"
+  ],
+  "labels": [
+    {
+      "id": "L04",
+      "name": "Fairtrade Max Havelaar",
+      "slug": "fairtrade-max-havelaar",
+      "image": {
+        "original": "https://image.migros.ch/original/f3f929f7d307eaefdb78d50c6b493c51b105c9b4/fairtrade-max-havelaar.jpg",
+        "stack": "https://image.migros.ch/{stack}/f3f929f7d307eaefdb78d50c6b493c51b105c9b4/fairtrade-max-havelaar.jpg"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_01011104",
+      "name": "Honig",
+      "slug": "supermarkt/lebensmittel/fruehstueck/honig",
+      "visible": true,
+      "parent_code": "BeSS_010111",
+      "image": {
+        "original": "https://image.migros.ch/original/cf93a88b225b284afedafefffd6f34fd1515c9fc/honig.jpg",
+        "stack": "https://image.migros.ch/{stack}/cf93a88b225b284afedafefffd6f34fd1515c9fc/honig.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010111",
+      "name": "Frühstück",
+      "slug": "supermarkt/lebensmittel/fruehstueck",
+      "visible": true,
+      "title": "Frühstück: Mit Produkten aus Ihrer Migros einfach in den Tag starten",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/58a87c73cd077c5c9efb268051c16d5b373f5c29/fruehstueck.jpg",
+        "stack": "https://image.migros.ch/{stack}/58a87c73cd077c5c9efb268051c16d5b373f5c29/fruehstueck.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "features": [
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_glas",
+          "value": "Glas"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_artvonhonig",
+      "label": "Art von Honig",
+      "values": [
+        {
+          "value_code": "MISO_artvonhonig_blueten",
+          "value": "Blüten"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_honigkonsistenz",
+      "label": "Honig Konsistenz",
+      "values": [
+        {
+          "value_code": "MISO_honigkonsistenz_fluessigerhonig",
+          "value": "flüssiger Honig"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/890e8c18943a1bc60d80d02142c1b826d1ceb333/max-havelaar-honig-fluessig.jpg",
+    "stack": "https://image.migros.ch/{stack}/890e8c18943a1bc60d80d02142c1b826d1ceb333/max-havelaar-honig-fluessig.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/37b78fb41082480a95cdf2750c986bbb6388fbc7/max-havelaar-honig-fluessig.png",
+    "stack": "https://image.migros.ch/{stack}/37b78fb41082480a95cdf2750c986bbb6388fbc7/max-havelaar-honig-fluessig.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "L",
+          "value": "Lieferunterbruch"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "10344",
+          "value": "HONIG"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/151406400000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/max-havelaar-honig-fluessig",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/151406400000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/max-havelaar-honig-fluessig",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "updated_at": "2020-09-16T05:46:47+0200",
+  "receipt_text": "Max Hav Flüssighonig",
+  "price": {
+    "valid_from": "2018-01-29T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 5.9,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "500g"
+    },
+    "base": {
+      "price": 1.18,
+      "quantity": 100,
+      "unit": "g"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 11,
+    "average_all": 3.333333333333
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

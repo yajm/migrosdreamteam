@@ -1,0 +1,198 @@
+{
+  "id": "106618900000",
+  "language": "de",
+  "name": "M-Budget Tomato Ketchup",
+  "slug": "m-budget-tomato-ketchup-106618900000",
+  "boss_number": "011011292005",
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "source-qim-origins",
+    "validity-range-not-set",
+    "source-qim-allergens",
+    "source-qim-fooddeclaration",
+    "source-qim-nutritionfacts",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7613312296080"
+  ],
+  "brand": {
+    "id": "N26",
+    "name": "M-Budget",
+    "slug": "m-budget",
+    "links": {
+      "homepage": {
+        "url": "https://m-budget.migros.ch/de.html",
+        "name": "Homepage",
+        "type": "info",
+        "purchasable": false
+      }
+    },
+    "image": {
+      "original": "https://image.migros.ch/original/1d1a13e240a94a7e1fa8ef99f15ce5b896f3486b/m-budget.jpg",
+      "stack": "https://image.migros.ch/{stack}/1d1a13e240a94a7e1fa8ef99f15ce5b896f3486b/m-budget.jpg"
+    }
+  },
+  "categories": [
+    {
+      "code": "BeSS_0101140907",
+      "name": "Ketchup",
+      "slug": "supermarkt/lebensmittel/pasta-zutaten-konserven/suppen-saucen-bouillon/ketchup",
+      "visible": true,
+      "parent_code": "BeSS_01011409",
+      "image": {
+        "original": "https://image.migros.ch/original/0fda9979470d2c2121a82228ed829e646d5b0f9b/ketchup.jpg",
+        "stack": "https://image.migros.ch/{stack}/0fda9979470d2c2121a82228ed829e646d5b0f9b/ketchup.jpg"
+      },
+      "level": 5
+    },
+    {
+      "code": "BeSS_01011409",
+      "name": "Suppen, Saucen & Bouillon",
+      "slug": "supermarkt/lebensmittel/pasta-zutaten-konserven/suppen-saucen-bouillon",
+      "visible": true,
+      "title": "Bouillon in Ihrer Migros kaufen",
+      "parent_code": "BeSS_010114",
+      "image": {
+        "original": "https://image.migros.ch/original/5f7779de5b06c3e5051c0ccdb81a414859a26cf5/suppen-saucen-bouillon.jpg",
+        "stack": "https://image.migros.ch/{stack}/5f7779de5b06c3e5051c0ccdb81a414859a26cf5/suppen-saucen-bouillon.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010114",
+      "name": "Pasta, Zutaten & Konserven",
+      "slug": "supermarkt/lebensmittel/pasta-zutaten-konserven",
+      "visible": true,
+      "title": "Pasta aus Ihrer Migros: alles rund um Teigwaren",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/6d0964bbb34b8e041ba4d74fc0c90b149907f46a/pasta-zutaten-konserven.jpg",
+        "stack": "https://image.migros.ch/{stack}/6d0964bbb34b8e041ba4d74fc0c90b149907f46a/pasta-zutaten-konserven.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/12cfa0e5dae0b478852dfe8a334d7da274c277a6/m-budget-tomato-ketchup.jpg",
+    "stack": "https://image.migros.ch/{stack}/12cfa0e5dae0b478852dfe8a334d7da274c277a6/m-budget-tomato-ketchup.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/d6d09ec76a3be2f2636835e132a06079573ffce7/m-budget-tomato-ketchup.png",
+    "stack": "https://image.migros.ch/{stack}/d6d09ec76a3be2f2636835e132a06079573ffce7/m-budget-tomato-ketchup.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "M",
+          "value": "Kolonial Standard"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "10145",
+          "value": "KETCHUP"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/106618900000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/m-budget-tomato-ketchup-106618900000",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/106618900000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/m-budget-tomato-ketchup-106618900000",
+      "type": "info",
+      "purchasable": false
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/5339061",
+      "app_url": "leshop:///catalog/article/detail?ean=7613312296080",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/m-budget-tomato-ketchup-106618900000",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "updated_at": "2020-09-16T05:40:16+0200",
+  "receipt_text": "MBud Ketchup",
+  "price": {
+    "valid_from": "2020-02-26T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 1.25,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "890g"
+    },
+    "base": {
+      "price": 0.14,
+      "quantity": 100,
+      "unit": "g"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 3,
+    "average_all": 3.666666666667
+  },
+  "allergen_text": "Kann enthalten: Senf.",
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

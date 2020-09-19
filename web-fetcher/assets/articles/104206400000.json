@@ -1,0 +1,251 @@
+{
+  "id": "104206400000",
+  "language": "de",
+  "name": "Actilife Weizenkeime",
+  "slug": "actilife-weizenkeime",
+  "boss_number": "010310520615",
+  "description": {
+    "text": "Die Actilife Weizenkeime sind eine gute nat&uuml;rliche Quelle f&uuml;r die wertvollen Vitamine E, B1, B6 und Fols&auml;ure sowie f&uuml;r die Mineralstoffe Eisen, Magnesium, Phosphor und Zink.",
+    "source": "PIM"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "source-qim-origins",
+    "validity-range-not-set",
+    "source-qim-allergens",
+    "source-qim-fooddeclaration",
+    "source-qim-nutritionfacts",
+    "leshop-discounted",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7610200301802",
+    "7610167710716"
+  ],
+  "brand": {
+    "id": "N65",
+    "name": "Actilife",
+    "slug": "actilife",
+    "image": {
+      "original": "https://image.migros.ch/original/dd84abb871dd384811b0df5a247a58764d88d63b/actilife.jpg",
+      "stack": "https://image.migros.ch/{stack}/dd84abb871dd384811b0df5a247a58764d88d63b/actilife.jpg"
+    }
+  },
+  "labels": [
+    {
+      "id": "L61",
+      "name": "Folsäure",
+      "slug": "folsaeure",
+      "image": {
+        "original": "https://image.migros.ch/original/79c993b3586f1ec2ed154dac98a308eddfddacd8/folsaeure.jpg",
+        "stack": "https://image.migros.ch/{stack}/79c993b3586f1ec2ed154dac98a308eddfddacd8/folsaeure.jpg"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_01011201",
+      "name": "Müesli",
+      "slug": "supermarkt/lebensmittel/mueesli-cerealien/mueesli",
+      "visible": true,
+      "parent_code": "BeSS_010112",
+      "image": {
+        "original": "https://image.migros.ch/original/33c958e5d8cb6d7719833c9e1bf8fe39691a6ed9/mueesli.jpg",
+        "stack": "https://image.migros.ch/{stack}/33c958e5d8cb6d7719833c9e1bf8fe39691a6ed9/mueesli.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010112",
+      "name": "Müesli & Cerealien",
+      "slug": "supermarkt/lebensmittel/mueesli-cerealien",
+      "visible": true,
+      "title": "Cerealien von der Migros &ndash; für einen guten Start in den Tag",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/94adab320c7d6778bba96c16ad7b18a493850519/mueesli-cerealien.jpg",
+        "stack": "https://image.migros.ch/{stack}/94adab320c7d6778bba96c16ad7b18a493850519/mueesli-cerealien.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "features": [
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_beutelsack",
+          "value": "Beutel/Sack"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_naehrwertanspruch",
+      "label": "Nährwertanspruch",
+      "values": [
+        {
+          "value_code": "MISO_naehrwertanspruch_natuerlichequellefuerfolsaeurevitamineb1b6eisenmagnesiumphosphorundzink",
+          "value": "Natürliche Quelle für Folsäure, Vitamin E, B1 +B6, Eisen, Magnesium, Phosphor und Zink"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_angereichertmitvitaminen",
+      "label": "Angereichert mit Vitaminen",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_artvonbearbeitetemgetreideprodukt",
+      "label": "Art von bearbeitetem Getreideprodukt",
+      "values": [
+        {
+          "value_code": "MISO_artvonbearbeitetemgetreideprodukt_weizen",
+          "value": "Weizen"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zubereitung",
+      "label": "Zubereitung",
+      "values": [
+        {
+          "value_code": "MISO_zubereitung_insalat",
+          "value": "In Salat"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/d2d3cb88b114aca7f7328159de1a0bf4d2564d5b/actilife-weizenkeime.jpg",
+    "stack": "https://image.migros.ch/{stack}/d2d3cb88b114aca7f7328159de1a0bf4d2564d5b/actilife-weizenkeime.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/205295839f4a56469afa24d94b4cf83615defca6/actilife-weizenkeime.png",
+    "stack": "https://image.migros.ch/{stack}/205295839f4a56469afa24d94b4cf83615defca6/actilife-weizenkeime.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "M",
+          "value": "Kolonial Standard"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "10315",
+          "value": "BIRCHERMUEESLI"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/104206400000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/actilife-weizenkeime",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/104206400000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/actilife-weizenkeime",
+      "type": "info",
+      "purchasable": false
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/53836",
+      "app_url": "leshop:///catalog/article/detail?ean=7610200301802",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/actilife-weizenkeime",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "updated_at": "2020-09-16T06:50:13+0200",
+  "receipt_text": "Acti Weizenkeime",
+  "price": {
+    "valid_from": "2018-01-29T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 3.3,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "250g"
+    },
+    "base": {
+      "price": 1.32,
+      "quantity": 100,
+      "unit": "g"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 17,
+    "average_all": 5
+  },
+  "reindex_date": "2020-09-17T00:00:00+0200"
+}

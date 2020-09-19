@@ -1,0 +1,283 @@
+{
+  "id": "111700705500",
+  "language": "de",
+  "name": "Urkornbrötli Terrasuisse",
+  "slug": "urkornbroetli-terrasuisse-111700705500",
+  "boss_number": "020110576525",
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7613404220979"
+  ],
+  "labels": [
+    {
+      "id": "L14",
+      "name": "TerraSuisse",
+      "slug": "terrasuisse",
+      "image": {
+        "original": "https://image.migros.ch/original/1ffb197ef3d9b3099bc31eb47f8dfa585c93daa6/terrasuisse.jpg",
+        "stack": "https://image.migros.ch/{stack}/1ffb197ef3d9b3099bc31eb47f8dfa585c93daa6/terrasuisse.jpg"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_01010302",
+      "name": "Kleinbrote",
+      "slug": "supermarkt/lebensmittel/baeckerei-confiserie-backen/kleinbrote",
+      "visible": true,
+      "title": "Frisch gebackene Kleinbrote in Ihrer Migros kaufen",
+      "parent_code": "BeSS_010103",
+      "image": {
+        "original": "https://image.migros.ch/original/d82a9abca2189f0b0df92555ebefd49d1cb0e55e/kleinbrote.jpg",
+        "stack": "https://image.migros.ch/{stack}/d82a9abca2189f0b0df92555ebefd49d1cb0e55e/kleinbrote.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010103",
+      "name": "Bäckerei, Confiserie & Backen",
+      "slug": "supermarkt/lebensmittel/baeckerei-confiserie-backen",
+      "visible": true,
+      "title": "Backen macht Freude! Alle Zutaten finden Sie in Ihrer Migros",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/04b41cd6f4daedf3061a2a37617d48e992760b35/baeckerei-confiserie-backen.jpg",
+        "stack": "https://image.migros.ch/{stack}/04b41cd6f4daedf3061a2a37617d48e992760b35/baeckerei-confiserie-backen.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "features": [
+    {
+      "label_code": "MISO_mussgekuehltwerden",
+      "label": "Muss gekühlt werden",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "Nein",
+          "boolean_value": false
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_brotbeutel",
+          "value": "Brotbeutel"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_geschnitten",
+      "label": "Geschnitten",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "Nein",
+          "boolean_value": false
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zumfertigbacken",
+      "label": "Zum Fertigbacken",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "Nein",
+          "boolean_value": false
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_wiederverschliessbar",
+      "label": "Wiederverschliessbar",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "Nein",
+          "boolean_value": false
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_artvonbrot",
+      "label": "Art von Brot",
+      "values": [
+        {
+          "value_code": "MISO_artvonbrot_broetchen",
+          "value": "Brötchen"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_getreideart",
+      "label": "Getreideart",
+      "values": [
+        {
+          "value_code": "MISO_getreideart_urdinkelvollkorn",
+          "value": "Urdinkel-Vollkorn"
+        },
+        {
+          "value_code": "MISO_getreideart_weizen",
+          "value": "Weizen"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_artvonprodukt",
+      "label": "Art von Produkt",
+      "values": [
+        {
+          "value_code": "MISO_artvonprodukt_broetchen",
+          "value": "Brötchen"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_verzehrbarkeit",
+      "label": "Hinweise zum Verzehr",
+      "values": [
+        {
+          "value_code": "MISO_verzehrbarkeit_fertigzumverzehr",
+          "value": "fertig zum Verzehr"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/4a87bfa0f8120e10be322817a063823ba48f3b41/urkornbroetli-terrasuisse.jpg",
+    "stack": "https://image.migros.ch/{stack}/4a87bfa0f8120e10be322817a063823ba48f3b41/urkornbroetli-terrasuisse.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/fdd1db74782a82bc28b2575f13a93689a5b740f9/urkornbroetli-terrasuisse.png",
+    "stack": "https://image.migros.ch/{stack}/fdd1db74782a82bc28b2575f13a93689a5b740f9/urkornbroetli-terrasuisse.png"
+  },
+  "additional_images": [
+    {
+      "original": "https://image.migros.ch/original/76d9e25762d3d3cb89282cd39476397c27615beb.jpg",
+      "stack": "https://image.migros.ch/{stack}/76d9e25762d3d3cb89282cd39476397c27615beb.jpg"
+    }
+  ],
+  "internal_features": [
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZFRP",
+          "value": "Frische Beschaffung"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "8",
+          "value": "Backwaren"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "71015",
+          "value": "BAKE-OFF"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/111700705500",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/urkornbroetli-terrasuisse-111700705500",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/111700705500",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/urkornbroetli-terrasuisse-111700705500",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "updated_at": "2020-09-16T06:29:35+0200",
+  "receipt_text": "Urkornbrötli",
+  "price": {
+    "valid_from": "2019-08-07T00:00:00+0200",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 1.3,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "80g"
+    },
+    "base": {
+      "price": 1.63,
+      "quantity": 100,
+      "unit": "g"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 4,
+    "average_all": 3.5
+  },
+  "allergen_text": "Kann Nüsse \r\n, Soja \r\n, Eier \r\n und Milch enthalten.",
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

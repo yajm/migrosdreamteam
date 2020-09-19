@@ -1,0 +1,315 @@
+{
+  "id": "106205300000",
+  "language": "de",
+  "name": "Alnatura Oregano",
+  "slug": "alnatura-oregano",
+  "boss_number": "011011365505",
+  "description": {
+    "text": "<p>herb-bitterer Geschmack\n<br />zu Pizza, Auberginen, Zucchini, Tomaten, Nudeln, Eiern, Sardellen, Braten und Gr&uuml;nkern</p><p>Vor Sonnenlicht sch&uuml;tzen und trocken lagern.</p>",
+    "source": "PIM"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "source-qim-origins",
+    "source-qim-distributor",
+    "validity-range-not-set",
+    "source-qim-allergens",
+    "source-qim-fooddeclaration",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "4104420030282",
+    "7613312095966"
+  ],
+  "brand": {
+    "id": "D06",
+    "name": "Alnatura",
+    "slug": "alnatura",
+    "links": {
+      "homepage": {
+        "url": "https://alnatura.migros.ch/de.html",
+        "name": "Homepage",
+        "type": "info",
+        "purchasable": false
+      }
+    },
+    "image": {
+      "original": "https://image.migros.ch/original/2c0deb7a67525727ed8213ce2b42bc8a6eb35567/alnatura.jpg",
+      "stack": "https://image.migros.ch/{stack}/2c0deb7a67525727ed8213ce2b42bc8a6eb35567/alnatura.jpg"
+    }
+  },
+  "categories": [
+    {
+      "code": "BeSS_01011421",
+      "name": "Gewürze & Kräuter",
+      "slug": "supermarkt/lebensmittel/pasta-zutaten-konserven/gewuerze-kraeuter",
+      "visible": true,
+      "title": "Bringen Aroma in die Küche: Gewürze aus der Migros",
+      "parent_code": "BeSS_010114",
+      "image": {
+        "original": "https://image.migros.ch/original/21eef66859e1592c1038e1a3455b367ba78b1694/gewuerze-kraeuter.jpg",
+        "stack": "https://image.migros.ch/{stack}/21eef66859e1592c1038e1a3455b367ba78b1694/gewuerze-kraeuter.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010114",
+      "name": "Pasta, Zutaten & Konserven",
+      "slug": "supermarkt/lebensmittel/pasta-zutaten-konserven",
+      "visible": true,
+      "title": "Pasta aus Ihrer Migros: alles rund um Teigwaren",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/6d0964bbb34b8e041ba4d74fc0c90b149907f46a/pasta-zutaten-konserven.jpg",
+        "stack": "https://image.migros.ch/{stack}/6d0964bbb34b8e041ba4d74fc0c90b149907f46a/pasta-zutaten-konserven.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "ALNA_CAT_Kraeuter_WuerzenundGewuerze_BeilagenundZutaten",
+        "name": "Kräuter",
+        "slug": "alnatura/beilagen-und-zutaten/wuerzen-und-gewuerze/kraeuter",
+        "visible": true,
+        "parent_code": "ALNA_CAT_WuerzenundGewuerze_BeilagenundZutaten",
+        "level": 4
+      },
+      {
+        "code": "ALNA_CAT_WuerzenundGewuerze_BeilagenundZutaten",
+        "name": "Würzen und Gewürze",
+        "slug": "alnatura/beilagen-und-zutaten/wuerzen-und-gewuerze",
+        "visible": true,
+        "parent_code": "ALNA_CAT_BeilagenundZutaten",
+        "level": 3
+      },
+      {
+        "code": "ALNA_CAT_BeilagenundZutaten",
+        "name": "Beilagen und Zutaten",
+        "slug": "alnatura/beilagen-und-zutaten",
+        "visible": true,
+        "parent_code": "BeSS_97",
+        "level": 2
+      },
+      {
+        "code": "BeSS_97",
+        "name": "Alnatura",
+        "slug": "alnatura",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "features": [
+    {
+      "label_code": "MISO_produktionsanspruch",
+      "label": "Produktionsverfahren",
+      "values": [
+        {
+          "value_code": "MISO_produktionsanspruch_bioproduktion",
+          "value": "Bio-Produktion"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_beutel",
+          "value": "Beutel"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zubereitungsverfahren",
+      "label": "Hinweise für die Zubereitung",
+      "values": [
+        {
+          "value_code": "MISO_zubereitungsverfahren_zumwuerzengeeignet",
+          "value": "Zum Würzen geeignet"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_gewuerzegeeignetfuer",
+      "label": "Gewürze geeignet für",
+      "values": [
+        {
+          "value_code": "MISO_gewuerzegeeignetfuer_braten",
+          "value": "Braten"
+        },
+        {
+          "value_code": "MISO_gewuerzegeeignetfuer_gemuese",
+          "value": "Gemüse"
+        },
+        {
+          "value_code": "MISO_gewuerzegeeignetfuer_pasta",
+          "value": "Pasta"
+        },
+        {
+          "value_code": "MISO_gewuerzegeeignetfuer_pizza",
+          "value": "Pizza"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_artvonkraeuterngewuerzen",
+      "label": "Art von Kräutern/Gewürzen",
+      "values": [
+        {
+          "value_code": "MISO_artvonkraeuterngewuerzen_oregano",
+          "value": "Oregano"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zustandsform",
+      "label": "Zustandsform",
+      "values": [
+        {
+          "value_code": "MISO_zustandsform_gerebelt",
+          "value": "gerebelt"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/30c75ecf787ff57c6ba5b1c556392ba8c07aad33/alnatura-oregano.jpg",
+    "stack": "https://image.migros.ch/{stack}/30c75ecf787ff57c6ba5b1c556392ba8c07aad33/alnatura-oregano.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/71aeccc2f867e3aa43ffa7fc171eaecba5f50951/alnatura-oregano.png",
+    "stack": "https://image.migros.ch/{stack}/71aeccc2f867e3aa43ffa7fc171eaecba5f50951/alnatura-oregano.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "M",
+          "value": "Kolonial Standard"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "11014",
+          "value": "ALNATURA WUERZEN/GEWUERZE"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUSTOMS_POSITION",
+      "values": [
+        {
+          "value_code": "0910.9900"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/106205300000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/alnatura-oregano",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/106205300000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/alnatura-oregano",
+      "type": "info",
+      "purchasable": false
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/3290342",
+      "app_url": "leshop:///catalog/article/detail?ean=4104420030282",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/alnatura-oregano",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "updated_at": "2020-09-16T06:51:59+0200",
+  "receipt_text": "Alnatura Oregano 15g",
+  "price": {
+    "valid_from": "2018-01-29T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 2.3,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "15g"
+    },
+    "base": {
+      "price": 1.53,
+      "quantity": 10,
+      "unit": "g"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 1,
+    "average_all": 3
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

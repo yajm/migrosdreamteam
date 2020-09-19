@@ -1,0 +1,247 @@
+{
+  "id": "130914100000",
+  "language": "de",
+  "name": "Cornatur Viva Kürbisburger",
+  "slug": "cornatur-viva-kuerbisburger",
+  "boss_number": "020630311505",
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7613404199152",
+    "7613404342268"
+  ],
+  "brand": {
+    "id": "454",
+    "name": "Cornatur",
+    "slug": "cornatur"
+  },
+  "labels": [
+    {
+      "id": "L57",
+      "name": "V-vegan",
+      "slug": "v-vegan",
+      "image": {
+        "original": "https://image.migros.ch/original/9425b8ea6312342ddd2d0dc87e65567c88e1b757/v-vegan.jpg",
+        "stack": "https://image.migros.ch/{stack}/9425b8ea6312342ddd2d0dc87e65567c88e1b757/v-vegan.jpg"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_01011306",
+      "name": "Convenience",
+      "slug": "supermarkt/lebensmittel/fertiggerichte-menues-snacks/convenience",
+      "visible": true,
+      "parent_code": "BeSS_010113",
+      "image": {
+        "original": "https://image.migros.ch/original/5e93cba52d64e1dfb469df3fd588e5ce2d0e4b1d/convenience.jpg",
+        "stack": "https://image.migros.ch/{stack}/5e93cba52d64e1dfb469df3fd588e5ce2d0e4b1d/convenience.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010113",
+      "name": "Fertiggerichte, Menüs & Snacks",
+      "slug": "supermarkt/lebensmittel/fertiggerichte-menues-snacks",
+      "visible": true,
+      "title": "Fertige Pizzen, Menüs und Snacks &ndash; schnell und lecker von der Migros",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/6770b6c8fbbd2689aece359ffeda93b90c58dd09/fertiggerichte-menues-snacks.jpg",
+        "stack": "https://image.migros.ch/{stack}/6770b6c8fbbd2689aece359ffeda93b90c58dd09/fertiggerichte-menues-snacks.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "features": [
+    {
+      "label_code": "MISO_mussgekuehltwerden",
+      "label": "Muss gekühlt werden",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_kunststoffverpackungmitbanderole",
+          "value": "Kunststoff-Verpackung mit Kartonbanderole"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_saisonal",
+      "label": "Saisonal",
+      "values": [
+        {
+          "value_code": "MISO_saisonal_herbst",
+          "value": "Herbst"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_mahlzeit",
+      "label": "Mahlzeit",
+      "values": [
+        {
+          "value_code": "MISO_mahlzeit_hauptmahlzeit",
+          "value": "Hauptmahlzeit"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_unterscheidendebestandteile",
+      "label": "Unterscheidende Bestandteile",
+      "values": [
+        {
+          "value_code": "MISO_unterscheidendebestandteile_kuerbis",
+          "value": "Kürbis"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_VEGETARIANISM",
+      "label": "Vegetarismus",
+      "values": [
+        {
+          "value_code": "MAPI_VEGETARIANISM_vegan",
+          "value": "vegan"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/d7024d7105f96d65e309476613034a8b3c0f126d/cornatur-viva-kuerbisburger.jpg",
+    "stack": "https://image.migros.ch/{stack}/d7024d7105f96d65e309476613034a8b3c0f126d/cornatur-viva-kuerbisburger.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/00327f632e54f7051431546b013adccabcebb2c3/cornatur-viva-kuerbisburger.png",
+    "stack": "https://image.migros.ch/{stack}/00327f632e54f7051431546b013adccabcebb2c3/cornatur-viva-kuerbisburger.png"
+  },
+  "additional_images": [
+    {
+      "original": "https://image.migros.ch/original/b1b78a5865bf5f9f5bfe5d259c8bcba225a3016d.jpg",
+      "stack": "https://image.migros.ch/{stack}/b1b78a5865bf5f9f5bfe5d259c8bcba225a3016d.jpg"
+    }
+  ],
+  "internal_features": [
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZFRP",
+          "value": "Frische Beschaffung"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "7",
+          "value": "Convenience"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "70439",
+          "value": "GEMUESE & GETREIDE SPEZ."
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/130914100000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/cornatur-viva-kuerbisburger",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/130914100000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/cornatur-viva-kuerbisburger",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "updated_at": "2020-09-16T06:31:08+0200",
+  "receipt_text": "Cornatur Kürbisburger",
+  "price": {
+    "valid_from": "2019-07-30T00:00:00+0200",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 4.4,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "170g"
+    },
+    "base": {
+      "price": 2.59,
+      "quantity": 100,
+      "unit": "g"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 1,
+    "average_all": 4
+  },
+  "reindex_date": "2020-09-22T00:00:00+0200"
+}

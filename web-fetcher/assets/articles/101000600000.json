@@ -1,0 +1,259 @@
+{
+  "id": "101000600000",
+  "language": "de",
+  "name": "Red Band Sweet Mushro.",
+  "slug": "red-band-sweet-mushro",
+  "boss_number": "010110081125",
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "source-qim-fooddeclaration",
+    "source-qim-nutritionfacts",
+    "source-qim-origins",
+    "source-qim-distributor",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7310350101870"
+  ],
+  "brand": {
+    "id": "FZ8",
+    "name": "Red Band",
+    "slug": "red-band"
+  },
+  "categories": [
+    {
+      "code": "BeSS_01010818",
+      "name": "Bonbons & Kaugummi",
+      "slug": "supermarkt/lebensmittel/suessigkeiten/bonbons-kaugummi",
+      "visible": true,
+      "title": "Süss, bunt und lecker: Bonbons und Kaugummis bei Ihrer Migros",
+      "parent_code": "BeSS_010108",
+      "image": {
+        "original": "https://image.migros.ch/original/ad0254bc5ba2f1387119b73f9a1479f27e0d867e/bonbons-kaugummi.jpg",
+        "stack": "https://image.migros.ch/{stack}/ad0254bc5ba2f1387119b73f9a1479f27e0d867e/bonbons-kaugummi.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010108",
+      "name": "Süssigkeiten",
+      "slug": "supermarkt/lebensmittel/suessigkeiten",
+      "visible": true,
+      "title": "Süssigkeiten aus Ihrer Migros: für Naschkatzen und Schleckmäuler",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/a9c80f4e896b5ebdd3b7ebbee11f956c8ff157cf/suessigkeiten.jpg",
+        "stack": "https://image.migros.ch/{stack}/a9c80f4e896b5ebdd3b7ebbee11f956c8ff157cf/suessigkeiten.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_Fruchtgummis_BonbonsKaugummis_SchokoladenSuessigkeiten",
+        "name": "Fruchtgummis",
+        "slug": "amigos/schokoladen-suessigkeiten/bonbons-kaugummis/fruchtgummis",
+        "visible": true,
+        "parent_code": "AMIG_CAT_BonbonsKaugummis_SchokoladenSuessigkeiten",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_BonbonsKaugummis_SchokoladenSuessigkeiten",
+        "name": "Bonbons & Kaugummis",
+        "slug": "amigos/schokoladen-suessigkeiten/bonbons-kaugummis",
+        "visible": true,
+        "parent_code": "AMIG_CAT_SchokoladenSuessigkeiten",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_SchokoladenSuessigkeiten",
+        "name": "Schokoladen & Süssigkeiten",
+        "slug": "amigos/schokoladen-suessigkeiten",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/585095543160d0cb3cd7c636a095a8f40a339031/red-band-sweet-mushro.jpg",
+    "stack": "https://image.migros.ch/{stack}/585095543160d0cb3cd7c636a095a8f40a339031/red-band-sweet-mushro.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/e0dbce8731c8933e703bd853964a7f26a8a85cc9/red-band-sweet-mushro.png",
+    "stack": "https://image.migros.ch/{stack}/e0dbce8731c8933e703bd853964a7f26a8a85cc9/red-band-sweet-mushro.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "S",
+          "value": "Sellout"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "11211",
+          "value": "GELATINE"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/101000600000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/red-band-sweet-mushro",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/101000600000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/red-band-sweet-mushro",
+      "type": "info",
+      "purchasable": false
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/95185",
+      "app_url": "leshop:///catalog/article/detail?ean=7310350101870",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/red-band-sweet-mushro",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "updated_at": "2020-09-16T06:37:37+0200",
+  "receipt_text": "Red Band Sweet Mushro.",
+  "price": {
+    "valid_from": "2020-09-15T00:00:00+0200",
+    "valid_to": "2020-09-21T23:59:59+0200",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 9.8,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false
+    },
+    "discount": {
+      "id": "1501618",
+      "region": "national",
+      "start_date": "2020-09-15T00:00:00+0200",
+      "end_date": "2020-09-21T23:59:59+0200",
+      "publication_date": "2020-09-13T00:00:00+0200",
+      "discount_regions": [
+        "national"
+      ],
+      "reference_product_id": "101000500000",
+      "discount_type": "aktion",
+      "discount_type_id": "002",
+      "discount_type_label": "SE Sellout",
+      "organisation": "02",
+      "cooperative": "mgb",
+      "image": {
+        "tags": [
+          "list-image"
+        ],
+        "original": "https://image.migros.ch/original/db7d03c4e45a59f580003b1c22511dfd962ce38a/trolli-saure-gluehwuermchen.jpg",
+        "source": "PriceRepository",
+        "stack": "https://image.migros.ch/{stack}/db7d03c4e45a59f580003b1c22511dfd962ce38a/trolli-saure-gluehwuermchen.jpg"
+      },
+      "image_transparent": {
+        "original": "https://image.migros.ch/original/db7d03c4e45a59f580003b1c22511dfd962ce38a/trolli-saure-gluehwuermchen.png",
+        "source": "PriceRepository",
+        "stack": "https://image.migros.ch/{stack}/db7d03c4e45a59f580003b1c22511dfd962ce38a/trolli-saure-gluehwuermchen.png"
+      },
+      "badge": {
+        "original": "https://image.migros.ch/original/a898e2d109a25d7f43f2d3c1d39433300b6998b5.png",
+        "stack": "https://image.migros.ch/{stack}/a898e2d109a25d7f43f2d3c1d39433300b6998b5.png"
+      },
+      "location_planning_type": "01",
+      "reduction_type_id": "07",
+      "special_advertisement": false,
+      "advertisement_type_id": "5",
+      "description": "Trolli Saure Glühwürmchen",
+      "discount_hint": "in Sonderpackung, 1 kg, Angebot gilt nur vom 15.9. bis 21.9.2020, solange Vorrat.",
+      "high_performer": false,
+      "collective_discount": true,
+      "price": 9.8,
+      "disclaimer": "Gültigkeit siehe Angebots-Detailseite.\r\nBei allen Angeboten sind M-Budget und bereits reduzierte Artikel ausgenommen.\r\nBei Aktionen können bei der Verrechnung auf dem Kassabon Rundungsdifferenzen zu Gunsten des Kunden entstehen.",
+      "source": "PriceRepository",
+      "boss_number": "010110081105",
+      "discount_role_id": "2000000002",
+      "discount_role_label": "M: Wochenangebot Typ I",
+      "last_imported": "2020-09-07T15:15:11+0200"
+    },
+    "discount_hint": "Angebot gilt nur vom 15.9. bis 21.9.2020, solange Vorrat."
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "reindex_date": "2020-09-21T23:59:59+0200"
+}

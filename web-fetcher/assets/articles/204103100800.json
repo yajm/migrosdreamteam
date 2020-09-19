@@ -1,0 +1,316 @@
+{
+  "id": "204103100800",
+  "language": "de",
+  "name": "Züribieter Vollrahm",
+  "slug": "zueribieter-vollrahm",
+  "boss_number": "030213201005",
+  "description": {
+    "text": "<p><strong>Aus der Region - Z&uuml;ribieter Vollrahm, 200cl</strong></p><p>Vollrahm mit 35% Fett, pasteurisiert. Vor Licht gesch&uuml;tzt&nbsp;und gek&uuml;hlt bei max. + 5&deg;C aufbewahren.</p><p>CULINARIUM \n<br />Region Z&uuml;rich \n<br />regio garantie</p><p>&nbsp;</p><p>&nbsp;</p>",
+    "source": "PIM"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "validity-range-not-set",
+    "filter-aus-der-region",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7617027912495"
+  ],
+  "labels": [
+    {
+      "id": "L53",
+      "name": "Swissness",
+      "slug": "swissness",
+      "image": {
+        "original": "https://image.migros.ch/original/d771bba2f6b08ba42970ea0243c6f8c5a8832f15/swissness.jpg",
+        "stack": "https://image.migros.ch/{stack}/d771bba2f6b08ba42970ea0243c6f8c5a8832f15/swissness.jpg"
+      }
+    },
+    {
+      "id": "L28",
+      "name": "Aus der Region",
+      "slug": "aus-der-region",
+      "image": {
+        "original": "https://image.migros.ch/original/28068cd4d6e174c8ec75906797af89b64170c43f/aus-der-region.jpg",
+        "stack": "https://image.migros.ch/{stack}/28068cd4d6e174c8ec75906797af89b64170c43f/aus-der-region.jpg"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_01010406",
+      "name": "Rahm",
+      "slug": "supermarkt/lebensmittel/milchprodukte-eier/rahm",
+      "visible": true,
+      "title": "Rahm von der Migros &ndash; ein Segen für die Küche",
+      "parent_code": "BeSS_010104",
+      "image": {
+        "original": "https://image.migros.ch/original/c3c47317490daf245f116504f3894477896aad40/rahm.jpg",
+        "stack": "https://image.migros.ch/{stack}/c3c47317490daf245f116504f3894477896aad40/rahm.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010104",
+      "name": "Milchprodukte & Eier",
+      "slug": "supermarkt/lebensmittel/milchprodukte-eier",
+      "visible": true,
+      "title": "Milchprodukte und Eier –",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/6b1ea6c2d41c3ccb21bf05c8dc342f7f55d83deb/milchprodukte-eier.jpg",
+        "stack": "https://image.migros.ch/{stack}/6b1ea6c2d41c3ccb21bf05c8dc342f7f55d83deb/milchprodukte-eier.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_Rahm_MilchprodukteEier",
+        "name": "Rahm",
+        "slug": "amigos/milchprodukte-eier/rahm",
+        "visible": true,
+        "parent_code": "AMIG_CAT_MilchprodukteEier",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_MilchprodukteEier",
+        "name": "Milchprodukte & Eier",
+        "slug": "amigos/milchprodukte-eier",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "features": [
+    {
+      "label_code": "MISO_produktionsanspruch",
+      "label": "Produktionsverfahren",
+      "values": [
+        {
+          "value_code": "MISO_produktionsanspruch_ausderregion",
+          "value": "Aus der Region"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_flasche",
+          "value": "Flasche"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zusatzangaben",
+      "label": "Zusatzangaben",
+      "values": [
+        {
+          "value_code": "MISO_zusatzangaben_31",
+          "value": "Gekühlt aufbewahren bei max. +5 Grad C."
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_artvonrahm",
+      "label": "Art von Rahm",
+      "values": [
+        {
+          "value_code": "MISO_artvonrahm_vollrahm",
+          "value": "Vollrahm"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_thermischesverfahren",
+      "label": "Thermisches Verfahren",
+      "values": [
+        {
+          "value_code": "MISO_thermischesverfahren_pasteurisiert",
+          "value": "pasteurisiert"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_milchartrohstoff",
+      "label": "Milchart/Rohstoff",
+      "values": [
+        {
+          "value_code": "MISO_milchartrohstoff_kuh",
+          "value": "Kuh"
+        },
+        {
+          "value_code": "MISO_milchartrohstoff_rahm",
+          "value": "Rahm"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_schlagbar",
+      "label": "Schlagbar",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/e9f33841593da4487cb0fefe336bce026bf19b92/zueribieter-vollrahm.jpg",
+    "stack": "https://image.migros.ch/{stack}/e9f33841593da4487cb0fefe336bce026bf19b92/zueribieter-vollrahm.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/2cee06afc8fc2fa2b3f9a34a22b9f977f1f3f8c0/zueribieter-vollrahm.png",
+    "stack": "https://image.migros.ch/{stack}/2cee06afc8fc2fa2b3f9a34a22b9f977f1f3f8c0/zueribieter-vollrahm.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_sortierung",
+      "label": "Sortierung aMigos",
+      "values": [
+        {
+          "value_code": "NUMERIC_190",
+          "value": "190",
+          "numeric_value": 190
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZFRP",
+          "value": "Frische Beschaffung"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "1",
+          "value": "Molki"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "70006",
+          "value": "RAHM"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/204103100800",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/zueribieter-vollrahm",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/204103100800",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/zueribieter-vollrahm",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "updated_at": "2020-09-16T06:32:00+0200",
+  "receipt_text": "AdR Vollrahm Past 200g",
+  "price": {
+    "valid_from": "2018-02-01T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 2.05,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "200ml"
+    },
+    "base": {
+      "price": 1.03,
+      "quantity": 100,
+      "unit": "ml"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 1,
+    "average_all": 3
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

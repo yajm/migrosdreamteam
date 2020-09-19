@@ -1,0 +1,261 @@
+{
+  "id": "107007800000",
+  "language": "de",
+  "name": "Bio Swiss Kräuterabend",
+  "slug": "bio-swiss-kraeuterabend",
+  "boss_number": "010310327005",
+  "description": {
+    "text": "<p><strong>SWISS ALPINE HERBS - BIO Alpenk&auml;utertee TRAUMHAFTER ABEND</strong></p><p>&nbsp;</p>",
+    "source": "PIM"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "source-qim-origins",
+    "source-qim-distributor",
+    "validity-range-not-set",
+    "source-qim-fooddeclaration",
+    "source-qim-nutritionfacts",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7610418200102",
+    "7613269356134",
+    "7610184007837",
+    "7610184006588"
+  ],
+  "brand": {
+    "id": "F17",
+    "name": "Swiss Alpine Herbs",
+    "slug": "swiss-alpine-herbs"
+  },
+  "categories": [
+    {
+      "code": "BeSS_0101100208",
+      "name": "Bio Tee",
+      "slug": "supermarkt/lebensmittel/getraenke-heiss-kalt/tee/bio-tee",
+      "visible": true,
+      "parent_code": "BeSS_01011002",
+      "image": {
+        "original": "https://image.migros.ch/original/6146dcf5c8dfd03896ea49089f781c0c52c54cb8/bio-tee.jpg",
+        "stack": "https://image.migros.ch/{stack}/6146dcf5c8dfd03896ea49089f781c0c52c54cb8/bio-tee.jpg"
+      },
+      "level": 5
+    },
+    {
+      "code": "BeSS_01011002",
+      "name": "Tee",
+      "slug": "supermarkt/lebensmittel/getraenke-heiss-kalt/tee",
+      "visible": true,
+      "title": "Das Wohlgefühl zum Trinken: Tee bei der Migros",
+      "parent_code": "BeSS_010110",
+      "image": {
+        "original": "https://image.migros.ch/original/e5aa5ec4832ef2ba88169253848460a3ab6e11c2/tee.jpg",
+        "stack": "https://image.migros.ch/{stack}/e5aa5ec4832ef2ba88169253848460a3ab6e11c2/tee.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010110",
+      "name": "Getränke heiss & kalt",
+      "slug": "supermarkt/lebensmittel/getraenke-heiss-kalt",
+      "visible": true,
+      "title": "Getränke aus der Migros löschen auch Ihren Durst",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/d04d95fbc2e1b4ada4783d2976d37a962a0318a1/getraenke-heiss-kalt.jpg",
+        "stack": "https://image.migros.ch/{stack}/d04d95fbc2e1b4ada4783d2976d37a962a0318a1/getraenke-heiss-kalt.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "features": [
+    {
+      "label_code": "MISO_produktionsanspruch",
+      "label": "Produktionsverfahren",
+      "values": [
+        {
+          "value_code": "MISO_produktionsanspruch_bioproduktion",
+          "value": "Bio-Produktion"
+        },
+        {
+          "value_code": "MISO_produktionsanspruch_ohnezucker",
+          "value": "Ohne Zucker"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_anzahlentnehmbarereinzelportionen",
+      "label": "Anzahl entnehmbarer Einzeleinheiten",
+      "values": [
+        {
+          "value_code": "NUMERIC_14.0",
+          "value": "14.0",
+          "numeric_value": 14
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_schachtel",
+          "value": "Schachtel"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zubereitungsverfahren",
+      "label": "Hinweise für die Zubereitung",
+      "values": [
+        {
+          "value_code": "MISO_zubereitungsverfahren_heisseswasserhinzugeben",
+          "value": "Heisses Wasser hinzugeben"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_teeart",
+      "label": "Teeart",
+      "values": [
+        {
+          "value_code": "MISO_teeart_kraeutertee",
+          "value": "Kräutertee"
+        },
+        {
+          "value_code": "MISO_teeart_mischung",
+          "value": "Mischung"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zubereitungdestees",
+      "label": "Zubereitung des Tees",
+      "values": [
+        {
+          "value_code": "MISO_zubereitungdestees_beutel",
+          "value": "Beutel"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/5dc73267e29858707913ca7466f303775dbe07d4/bio-swiss-kraeuterabend.jpg",
+    "stack": "https://image.migros.ch/{stack}/5dc73267e29858707913ca7466f303775dbe07d4/bio-swiss-kraeuterabend.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/e75f7bb6fbf25164bdfc405b04634c1847ef58e4/bio-swiss-kraeuterabend.png",
+    "stack": "https://image.migros.ch/{stack}/e75f7bb6fbf25164bdfc405b04634c1847ef58e4/bio-swiss-kraeuterabend.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "M",
+          "value": "Kolonial Standard"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "10372",
+          "value": "BIO TEE"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/107007800000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/bio-swiss-kraeuterabend",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/107007800000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/bio-swiss-kraeuterabend",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "updated_at": "2020-09-16T05:40:23+0200",
+  "receipt_text": "Bio Swiss Kräuterabend",
+  "price": {
+    "valid_from": "2018-01-29T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 5.5,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "14g"
+    },
+    "base": {
+      "price": 3.93,
+      "quantity": 10,
+      "unit": "g"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 3,
+    "average_all": 3.5
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

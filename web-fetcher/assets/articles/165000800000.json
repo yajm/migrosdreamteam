@@ -1,0 +1,350 @@
+{
+  "id": "165000800000",
+  "language": "de",
+  "name": "Pelican MSC Crispy Backfisch",
+  "slug": "pelican-msc-crispy-backfisch",
+  "boss_number": "010510551605",
+  "description": {
+    "text": "Crispi Backfisch paniert, Alaska Seelachs, weisses, zartsaftiges Fleisch. Harmonischer Geschmack und feste Konsistenz.",
+    "source": "PIM"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "source-qim-origins",
+    "validity-range-not-set",
+    "source-qim-allergens",
+    "source-qim-fooddeclaration",
+    "source-qim-nutritionfacts",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7613312267479",
+    "7613269291381",
+    "5700001001123"
+  ],
+  "brand": {
+    "id": "440",
+    "name": "Pelican",
+    "slug": "pelican"
+  },
+  "labels": [
+    {
+      "id": "L05",
+      "name": "MSC",
+      "slug": "msc",
+      "image": {
+        "original": "https://image.migros.ch/original/b4f2b83e8fa72e840367b33d46a26ab586685a13/msc.jpg",
+        "stack": "https://image.migros.ch/{stack}/b4f2b83e8fa72e840367b33d46a26ab586685a13/msc.jpg"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_0101150401",
+      "name": "Fisch & Fischfilets",
+      "slug": "supermarkt/lebensmittel/tiefkuehlprodukte/fisch-meeresfruechte/fisch-fischfilets",
+      "visible": true,
+      "title": "Schlemmen mit gefrorenen Fischfilets aus Meer und See",
+      "parent_code": "BeSS_01011504",
+      "image": {
+        "original": "https://image.migros.ch/original/904f05124554d05b4cfb64f36114507abf729cac/fisch-fischfilets.jpg",
+        "stack": "https://image.migros.ch/{stack}/904f05124554d05b4cfb64f36114507abf729cac/fisch-fischfilets.jpg"
+      },
+      "level": 5
+    },
+    {
+      "code": "BeSS_01011504",
+      "name": "Fisch & Meeresfrüchte",
+      "slug": "supermarkt/lebensmittel/tiefkuehlprodukte/fisch-meeresfruechte",
+      "visible": true,
+      "title": "Lecker und empfehlenswert &ndash; Tiefkühlfisch von der Migros",
+      "parent_code": "BeSS_010115",
+      "level": 4
+    },
+    {
+      "code": "BeSS_010115",
+      "name": "Tiefkühlprodukte",
+      "slug": "supermarkt/lebensmittel/tiefkuehlprodukte",
+      "visible": true,
+      "title": "Tiefkühlprodukte aus Ihrer Migros: schnell etwas Feines auf Ihren Tisch",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/b8e389701dd44ecdd5fbc95db5eed9b0a8c4a03d/tiefkuehlprodukte.jpg",
+        "stack": "https://image.migros.ch/{stack}/b8e389701dd44ecdd5fbc95db5eed9b0a8c4a03d/tiefkuehlprodukte.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "features": [
+    {
+      "label_code": "MISO_produktionsanspruch",
+      "label": "Produktionsverfahren",
+      "values": [
+        {
+          "value_code": "MISO_produktionsanspruch_nachhaltigefischerei",
+          "value": "Nachhaltige Fischerei"
+        },
+        {
+          "value_code": "MISO_produktionsanspruch_paniert",
+          "value": "Paniert"
+        },
+        {
+          "value_code": "MISO_produktionsanspruch_vorfrittiert",
+          "value": "Vorfrittiert"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_anzahlentnehmbarereinzelportionen",
+      "label": "Anzahl entnehmbarer Einzeleinheiten",
+      "values": [
+        {
+          "value_code": "NUMERIC_4.0",
+          "value": "4.0",
+          "numeric_value": 4
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_karton",
+          "value": "Karton"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zubereitungsverfahren",
+      "label": "Hinweise für die Zubereitung",
+      "values": [
+        {
+          "value_code": "MISO_zubereitungsverfahren_backen",
+          "value": "Backen"
+        },
+        {
+          "value_code": "MISO_zubereitungsverfahren_braten",
+          "value": "Braten"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zusatzangaben",
+      "label": "Zusatzangaben",
+      "values": [
+        {
+          "value_code": "MISO_zusatzangaben_57",
+          "value": "Die Gräten wurden mit grösster Sorgfalt entfernt. In Ausnahmefällen kann es aber vorkommen, dass Gräten enthalten sind."
+        },
+        {
+          "value_code": "MISO_zusatzangaben_309",
+          "value": "Vor der Zubereitung nicht auftauen"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_fischspezies",
+      "label": "Fischspezies",
+      "values": [
+        {
+          "value_code": "MISO_fischspezies_alaskaseelachs",
+          "value": "Alaska Seelachs"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_anatomischeformvonfisch",
+      "label": "Anatomische Form von Fisch",
+      "values": [
+        {
+          "value_code": "MISO_anatomischeformvonfisch_filet",
+          "value": "Filet"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zuchtoderwildfang",
+      "label": "Zucht oder Wildfang",
+      "values": [
+        {
+          "value_code": "MISO_zuchtoderwildfang_wildfang",
+          "value": "Wildfang"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_suessodersalzwasser",
+      "label": "Süss- oder Salzwasser",
+      "values": [
+        {
+          "value_code": "MISO_suessodersalzwasser_salzwasser",
+          "value": "Salzwasser"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_graeten",
+      "label": "Gräten",
+      "values": [
+        {
+          "value_code": "MISO_graeten_ohnegraeten",
+          "value": "ohne Gräten"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_herstellungsverfahren",
+      "label": "Herstellungsverfahren",
+      "values": [
+        {
+          "value_code": "MISO_herstellungsverfahren_ausbloeckengeschnitten",
+          "value": "Aus Blöcken geschnitten"
+        },
+        {
+          "value_code": "MISO_herstellungsverfahren_paniert",
+          "value": "Paniert"
+        },
+        {
+          "value_code": "MISO_herstellungsverfahren_vorfrittiert",
+          "value": "Vorfrittiert"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_tierwohlmehrwert",
+      "label": "Tierwohl Mehrwert",
+      "values": [
+        {
+          "value_code": "MISO_tierwohlmehrwert_asc",
+          "value": "ASC"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/38176b2d78e840ad7d42e486e52d5137b6f3c711/pelican-msc-crispy-backfisch.jpg",
+    "stack": "https://image.migros.ch/{stack}/38176b2d78e840ad7d42e486e52d5137b6f3c711/pelican-msc-crispy-backfisch.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/31958e6dc1138ecf16832d657af842a5d59de6cf/pelican-msc-crispy-backfisch.png",
+    "stack": "https://image.migros.ch/{stack}/31958e6dc1138ecf16832d657af842a5d59de6cf/pelican-msc-crispy-backfisch.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "M",
+          "value": "Kolonial Standard"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "30152",
+          "value": "TK FISCH ZUBEREITET"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/165000800000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/pelican-msc-crispy-backfisch",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/165000800000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/pelican-msc-crispy-backfisch",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "updated_at": "2020-09-16T05:47:10+0200",
+  "receipt_text": "MSC Crispy Backfisch",
+  "price": {
+    "valid_from": "2018-01-29T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 4.5,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "400g"
+    },
+    "base": {
+      "price": 1.13,
+      "quantity": 100,
+      "unit": "g"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 5,
+    "average_all": 4
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

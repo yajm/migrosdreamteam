@@ -1,0 +1,351 @@
+{
+  "id": "232100112000",
+  "language": "de",
+  "name": "Höllochtüfeli 2 Stück",
+  "slug": "hoellochtuefeli-2-stueck",
+  "boss_number": "040114510570",
+  "description": {
+    "text": "<p><strong>Aus der Region - H&ouml;lllocht&uuml;feli</strong></p><p>Hergestellt in der Schweiz aus Zentralschweizer Fleisch</p><p><strong>Fleischerzeugnis zum Rohessen</strong></p><p><br />&nbsp;</p>",
+    "source": "PIM"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "validity-range-not-set",
+    "filter-aus-der-region",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7613269761716"
+  ],
+  "labels": [
+    {
+      "id": "L53",
+      "name": "Swissness",
+      "slug": "swissness",
+      "image": {
+        "original": "https://image.migros.ch/original/d771bba2f6b08ba42970ea0243c6f8c5a8832f15/swissness.jpg",
+        "stack": "https://image.migros.ch/{stack}/d771bba2f6b08ba42970ea0243c6f8c5a8832f15/swissness.jpg"
+      }
+    },
+    {
+      "id": "L28",
+      "name": "Aus der Region",
+      "slug": "aus-der-region",
+      "image": {
+        "original": "https://image.migros.ch/original/28068cd4d6e174c8ec75906797af89b64170c43f/aus-der-region.jpg",
+        "stack": "https://image.migros.ch/{stack}/28068cd4d6e174c8ec75906797af89b64170c43f/aus-der-region.jpg"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_0101061403",
+      "name": "Salami und Rohwurst am Stk.",
+      "slug": "supermarkt/lebensmittel/fleisch/salami-speck/salami-und-rohwurst-am-stk",
+      "visible": true,
+      "parent_code": "BeSS_01010614",
+      "image": {
+        "original": "https://image.migros.ch/original/18a9b2d4dfb5fb4c773de33359f812dd322ff31c/salami-und-rohwurst-am-stk.jpg",
+        "stack": "https://image.migros.ch/{stack}/18a9b2d4dfb5fb4c773de33359f812dd322ff31c/salami-und-rohwurst-am-stk.jpg"
+      },
+      "level": 5
+    },
+    {
+      "code": "BeSS_01010614",
+      "name": "Salami & Speck",
+      "slug": "supermarkt/lebensmittel/fleisch/salami-speck",
+      "visible": true,
+      "title": "Schmackhafte Salami und Speck in Ihrer Migros-Filiale",
+      "parent_code": "BeSS_010106",
+      "image": {
+        "original": "https://image.migros.ch/original/aa9f6cdab5a203c9d83a5f855477bec14d9a0af0/salami-speck.jpg",
+        "stack": "https://image.migros.ch/{stack}/aa9f6cdab5a203c9d83a5f855477bec14d9a0af0/salami-speck.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010106",
+      "name": "Fleisch",
+      "slug": "supermarkt/lebensmittel/fleisch",
+      "visible": true,
+      "title": "Fleisch ausgezeichneter Qualität aus Ihrer Migros: einfach gut",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/03d32c0880d7a9ea6e58971966032e65ac442b58/fleisch.jpg",
+        "stack": "https://image.migros.ch/{stack}/03d32c0880d7a9ea6e58971966032e65ac442b58/fleisch.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "features": [
+    {
+      "label_code": "MISO_mussgekuehltwerden",
+      "label": "Muss gekühlt werden",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Ja",
+          "boolean_value": true
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_produktionsanspruch",
+      "label": "Produktionsverfahren",
+      "values": [
+        {
+          "value_code": "MISO_produktionsanspruch_ausderregion",
+          "value": "Aus der Region"
+        },
+        {
+          "value_code": "MISO_produktionsanspruch_geraeuchert",
+          "value": "Geräuchert"
+        },
+        {
+          "value_code": "MISO_produktionsanspruch_gewuerzt",
+          "value": "Gewürzt"
+        },
+        {
+          "value_code": "MISO_produktionsanspruch_schweizerfleisch",
+          "value": "Schweizer Fleisch"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_kunststoffverpackung",
+          "value": "Kunststoff-Verpackung"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zubereitungsverfahren",
+      "label": "Hinweise für die Zubereitung",
+      "values": [
+        {
+          "value_code": "MISO_zubereitungsverfahren_zumrohessen",
+          "value": "Zum Rohessen"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zusatzangaben",
+      "label": "Zusatzangaben",
+      "values": [
+        {
+          "value_code": "MISO_zusatzangaben_31",
+          "value": "Gekühlt aufbewahren bei max. +5 Grad C."
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_fleischform",
+      "label": "Fleischform bearbeitet",
+      "values": [
+        {
+          "value_code": "MISO_fleischform_wuerstchen",
+          "value": "Würstchen"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_primaerezusaetze",
+      "label": "Primäre Zusätze",
+      "values": [
+        {
+          "value_code": "MISO_primaerezusaetze_gewuerze",
+          "value": "Gewürze"
+        },
+        {
+          "value_code": "MISO_primaerezusaetze_salz",
+          "value": "Salz"
+        },
+        {
+          "value_code": "MISO_primaerezusaetze_speck",
+          "value": "Speck"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_tierartodergattung",
+      "label": "Tierart oder Gattung",
+      "values": [
+        {
+          "value_code": "MISO_tierartodergattung_rind",
+          "value": "Rind"
+        },
+        {
+          "value_code": "MISO_tierartodergattung_schwein",
+          "value": "Schwein"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_herstellungsverfahrenvonfleisch",
+      "label": "Herstellungsverfahren von Fleisch",
+      "values": [
+        {
+          "value_code": "MISO_herstellungsverfahrenvonfleisch_gepoekelt",
+          "value": "gepökelt"
+        },
+        {
+          "value_code": "MISO_herstellungsverfahrenvonfleisch_geraeuchert",
+          "value": "geräuchert"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_haltbarmachung",
+      "label": "Haltbarmachung",
+      "values": [
+        {
+          "value_code": "MISO_haltbarmachung_geraeuchert",
+          "value": "geräuchert"
+        },
+        {
+          "value_code": "MISO_haltbarmachung_gesalzengepoekelt",
+          "value": "gesalzen/gepökelt"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_fleischstueck",
+      "label": "Fleischstück",
+      "values": [
+        {
+          "value_code": "MISO_fleischstueck_wurstfleisch",
+          "value": "Wurstfleisch"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/d6ce09e8883625d911dc17aae7cf029ecb3ed4d8/hoellochtuefeli-2-stueck.jpg",
+    "stack": "https://image.migros.ch/{stack}/d6ce09e8883625d911dc17aae7cf029ecb3ed4d8/hoellochtuefeli-2-stueck.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/daf50cce95907cb94a0bd9e8e5b83d197ffe1679/hoellochtuefeli-2-stueck.png",
+    "stack": "https://image.migros.ch/{stack}/daf50cce95907cb94a0bd9e8e5b83d197ffe1679/hoellochtuefeli-2-stueck.png"
+  },
+  "additional_images": [
+    {
+      "original": "https://image.migros.ch/original/27a0e1aca0705636d78ffe44db9e0e149a70de20.jpg",
+      "stack": "https://image.migros.ch/{stack}/27a0e1aca0705636d78ffe44db9e0e149a70de20.jpg"
+    }
+  ],
+  "internal_features": [
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZFRP",
+          "value": "Frische Beschaffung"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "6",
+          "value": "Fleisch-Fisch-Geflüg"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "71232",
+          "value": "ROHWURST STUECKWARE"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/232100112000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/hoellochtuefeli-2-stueck",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/232100112000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/hoellochtuefeli-2-stueck",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "updated_at": "2020-09-16T06:33:15+0200",
+  "receipt_text": "Höllochtüfeli",
+  "price": {
+    "valid_from": "2019-11-25T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 3,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "80g"
+    },
+    "base": {
+      "price": 3.75,
+      "quantity": 100,
+      "unit": "g"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

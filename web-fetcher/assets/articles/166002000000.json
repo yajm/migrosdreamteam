@@ -1,0 +1,262 @@
+{
+  "id": "166002000000",
+  "language": "de",
+  "name": "M-Classic Pouletbrustschnitzel mar.",
+  "slug": "m-classic-pouletbrustschnitzel-mar",
+  "boss_number": "010510721605",
+  "description": {
+    "text": "Pouletbrustschnitzel mariniert, fl&uuml;ssig gew&uuml;rzt, zum Gekochtessen",
+    "source": "PIM"
+  },
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "source-qim-origins",
+    "validity-range-not-set",
+    "source-qim-allergens",
+    "source-qim-fooddeclaration",
+    "source-qim-nutritionfacts",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7613269181057",
+    "7610745450249",
+    "7613312290774"
+  ],
+  "brand": {
+    "id": "068",
+    "name": "M-Classic",
+    "slug": "m-classic",
+    "links": {
+      "homepage": {
+        "url": "https://m-classic.migros.ch/de.html",
+        "name": "Homepage",
+        "type": "info",
+        "purchasable": false
+      }
+    },
+    "image": {
+      "original": "https://image.migros.ch/original/72c18633f911e026e081ac11d872cff2d8dc8abb/m-classic.jpg",
+      "stack": "https://image.migros.ch/{stack}/72c18633f911e026e081ac11d872cff2d8dc8abb/m-classic.jpg"
+    }
+  },
+  "categories": [
+    {
+      "code": "BeSS_0101150304",
+      "name": "Geflügel",
+      "slug": "supermarkt/lebensmittel/tiefkuehlprodukte/fleisch/gefluegel",
+      "visible": true,
+      "title": "Feines Tiefkühl-Geflügel bei Ihrer Migros",
+      "parent_code": "BeSS_01011503",
+      "image": {
+        "original": "https://image.migros.ch/original/3e4e54c069e6dcdb8019ddfff2f3283c73a89283/gefluegel.jpg",
+        "stack": "https://image.migros.ch/{stack}/3e4e54c069e6dcdb8019ddfff2f3283c73a89283/gefluegel.jpg"
+      },
+      "level": 5
+    },
+    {
+      "code": "BeSS_01011503",
+      "name": "Fleisch",
+      "slug": "supermarkt/lebensmittel/tiefkuehlprodukte/fleisch",
+      "visible": true,
+      "title": "Tiefkühlfleisch in Ihrer Migros kaufen",
+      "parent_code": "BeSS_010115",
+      "level": 4
+    },
+    {
+      "code": "BeSS_010115",
+      "name": "Tiefkühlprodukte",
+      "slug": "supermarkt/lebensmittel/tiefkuehlprodukte",
+      "visible": true,
+      "title": "Tiefkühlprodukte aus Ihrer Migros: schnell etwas Feines auf Ihren Tisch",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/b8e389701dd44ecdd5fbc95db5eed9b0a8c4a03d/tiefkuehlprodukte.jpg",
+        "stack": "https://image.migros.ch/{stack}/b8e389701dd44ecdd5fbc95db5eed9b0a8c4a03d/tiefkuehlprodukte.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "features": [
+    {
+      "label_code": "MISO_cu_gebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_beutelsack",
+          "value": "Beutel/Sack"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zubereitungsverfahren",
+      "label": "Hinweise für die Zubereitung",
+      "values": [
+        {
+          "value_code": "MISO_zubereitungsverfahren_braten",
+          "value": "Braten"
+        },
+        {
+          "value_code": "MISO_zubereitungsverfahren_grillieren",
+          "value": "Grillieren"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_fleischform",
+      "label": "Fleischform bearbeitet",
+      "values": [
+        {
+          "value_code": "MISO_fleischform_schnitzel",
+          "value": "Schnitzel"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_tierartodergattung",
+      "label": "Tierart oder Gattung",
+      "values": [
+        {
+          "value_code": "MISO_tierartodergattung_poulet",
+          "value": "Poulet"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_hygienehinweise",
+      "label": "Hygienehinweise",
+      "values": [
+        {
+          "value_code": "MISO_hygienehinweise_4",
+          "value": "Rohes Fleisch nicht in Kontakt mit anderen Lebensmitteln bringen. Geschirr und Hände gründlich reinigen. Fleisch immer gut durchgekocht/gebraten servieren."
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/17ea51d7cdb98b4b51519e98c34c92bc5461a7af/m-classic-pouletbrustschnitzel-mar.jpg",
+    "stack": "https://image.migros.ch/{stack}/17ea51d7cdb98b4b51519e98c34c92bc5461a7af/m-classic-pouletbrustschnitzel-mar.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/0311caffbf70ebe5bedacbfeaf337dd008d9bb5d/m-classic-pouletbrustschnitzel-mar.png",
+    "stack": "https://image.migros.ch/{stack}/0311caffbf70ebe5bedacbfeaf337dd008d9bb5d/m-classic-pouletbrustschnitzel-mar.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "M",
+          "value": "Kolonial Standard"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "30172",
+          "value": "TK GEFLUEGEL GEW. UNGEW."
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/166002000000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/m-classic-pouletbrustschnitzel-mar",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/166002000000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/m-classic-pouletbrustschnitzel-mar",
+      "type": "info",
+      "purchasable": false
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/94642",
+      "app_url": "leshop:///catalog/article/detail?ean=7613312290774",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/m-classic-pouletbrustschnitzel-mar",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "updated_at": "2020-09-16T05:47:20+0200",
+  "receipt_text": "MClass Pouletbrustsch.",
+  "price": {
+    "valid_from": "2019-04-03T00:00:00+0200",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 10.5,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "750g"
+    },
+    "base": {
+      "price": 1.4,
+      "quantity": 100,
+      "unit": "g"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 8,
+    "average_all": 3.4
+  },
+  "allergen_text": "Kann enthalten: Sellerie.",
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

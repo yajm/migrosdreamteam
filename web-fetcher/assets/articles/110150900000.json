@@ -1,0 +1,208 @@
+{
+  "id": "110150900000",
+  "language": "de",
+  "name": "Alnatura Hafer Knusper Kekse",
+  "slug": "alnatura-hafer-knusper-kekse",
+  "boss_number": "010210127505",
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "source-qim-origins",
+    "source-qim-distributor",
+    "validity-range-not-set",
+    "source-qim-allergens",
+    "source-qim-fooddeclaration",
+    "source-qim-nutritionfacts",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "4104420219793",
+    "7613312265796"
+  ],
+  "brand": {
+    "id": "D06",
+    "name": "Alnatura",
+    "slug": "alnatura",
+    "links": {
+      "homepage": {
+        "url": "https://alnatura.migros.ch/de.html",
+        "name": "Homepage",
+        "type": "info",
+        "purchasable": false
+      }
+    },
+    "image": {
+      "original": "https://image.migros.ch/original/2c0deb7a67525727ed8213ce2b42bc8a6eb35567/alnatura.jpg",
+      "stack": "https://image.migros.ch/{stack}/2c0deb7a67525727ed8213ce2b42bc8a6eb35567/alnatura.jpg"
+    }
+  },
+  "categories": [
+    {
+      "code": "BeSS_01010814",
+      "name": "Gesund & Bio",
+      "slug": "supermarkt/lebensmittel/suessigkeiten/gesund-bio",
+      "visible": true,
+      "title": "Bio Süssigkeiten aus Ihrer Migros",
+      "parent_code": "BeSS_010108",
+      "level": 4
+    },
+    {
+      "code": "BeSS_010108",
+      "name": "Süssigkeiten",
+      "slug": "supermarkt/lebensmittel/suessigkeiten",
+      "visible": true,
+      "title": "Süssigkeiten aus Ihrer Migros: für Naschkatzen und Schleckmäuler",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/a9c80f4e896b5ebdd3b7ebbee11f956c8ff157cf/suessigkeiten.jpg",
+        "stack": "https://image.migros.ch/{stack}/a9c80f4e896b5ebdd3b7ebbee11f956c8ff157cf/suessigkeiten.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "ALNA_CAT_BiscuitsundGebaeck_SchokoladeBiscuitsundsuesseSnacks",
+        "name": "Biscuits und Gebäck",
+        "slug": "alnatura/schokolade-biscuits-und-suesse-snacks/biscuits-und-gebaeck",
+        "visible": true,
+        "parent_code": "ALNA_CAT_SchokoladeBiscuitsundsuesseSnacks",
+        "level": 3
+      },
+      {
+        "code": "ALNA_CAT_SchokoladeBiscuitsundsuesseSnacks",
+        "name": "Schokolade, Biscuits und süsse Snacks",
+        "slug": "alnatura/schokolade-biscuits-und-suesse-snacks",
+        "visible": true,
+        "parent_code": "BeSS_97",
+        "level": 2
+      },
+      {
+        "code": "BeSS_97",
+        "name": "Alnatura",
+        "slug": "alnatura",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/fb3c2c3f1dc18a55145f8b16458c6bf14a71fdf4/alnatura-hafer-knusper-kekse.jpg",
+    "stack": "https://image.migros.ch/{stack}/fb3c2c3f1dc18a55145f8b16458c6bf14a71fdf4/alnatura-hafer-knusper-kekse.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/d2320da7035f6cd419929482ec28d23be4bff83f/alnatura-hafer-knusper-kekse.png",
+    "stack": "https://image.migros.ch/{stack}/d2320da7035f6cd419929482ec28d23be4bff83f/alnatura-hafer-knusper-kekse.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "M",
+          "value": "Kolonial Standard"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "10286",
+          "value": "ALNATURA BISKUIT"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUSTOMS_POSITION",
+      "values": [
+        {
+          "value_code": "1905.3111"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/110150900000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/alnatura-hafer-knusper-kekse",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/110150900000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/alnatura-hafer-knusper-kekse",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "updated_at": "2020-09-16T06:29:17+0200",
+  "receipt_text": "Alnatura Hafer Kekse",
+  "price": {
+    "valid_from": "2019-06-04T00:00:00+0200",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 2.3,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "150g"
+    },
+    "base": {
+      "price": 1.53,
+      "quantity": 100,
+      "unit": "g"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

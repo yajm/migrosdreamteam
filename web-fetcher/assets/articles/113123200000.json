@@ -1,0 +1,315 @@
+{
+  "id": "113123200000",
+  "language": "de",
+  "name": "Madeleines pur beurre",
+  "slug": "madeleines-pur-beurre",
+  "boss_number": "020212211505",
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7616700013474"
+  ],
+  "categories": [
+    {
+      "code": "BeSS_0101030803",
+      "name": "Französische Bäckerei",
+      "slug": "supermarkt/lebensmittel/baeckerei-confiserie-backen/konditorei-patisserie/franzoesische-baeckerei",
+      "visible": true,
+      "parent_code": "BeSS_01010308",
+      "image": {
+        "original": "https://image.migros.ch/original/4be08b523d66b3e899605bfc2619c5d303e9fbaa/franzoesische-baeckerei.jpg",
+        "stack": "https://image.migros.ch/{stack}/4be08b523d66b3e899605bfc2619c5d303e9fbaa/franzoesische-baeckerei.jpg"
+      },
+      "level": 5
+    },
+    {
+      "code": "BeSS_01010308",
+      "name": "Konditorei & Patisserie",
+      "slug": "supermarkt/lebensmittel/baeckerei-confiserie-backen/konditorei-patisserie",
+      "visible": true,
+      "title": "Patisserie und Confiserie &ndash; Süssgebäck von der Migros",
+      "parent_code": "BeSS_010103",
+      "image": {
+        "original": "https://image.migros.ch/original/da2663e4ef52ff0252fe6fea37437cbe1151e3aa/konditorei-patisserie.jpg",
+        "stack": "https://image.migros.ch/{stack}/da2663e4ef52ff0252fe6fea37437cbe1151e3aa/konditorei-patisserie.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010103",
+      "name": "Bäckerei, Confiserie & Backen",
+      "slug": "supermarkt/lebensmittel/baeckerei-confiserie-backen",
+      "visible": true,
+      "title": "Backen macht Freude! Alle Zutaten finden Sie in Ihrer Migros",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/04b41cd6f4daedf3061a2a37617d48e992760b35/baeckerei-confiserie-backen.jpg",
+        "stack": "https://image.migros.ch/{stack}/04b41cd6f4daedf3061a2a37617d48e992760b35/baeckerei-confiserie-backen.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "AMIG_CAT_Kleingebaecke_KleingebaeckeKuchen_SchokoladenSuessigkeiten",
+        "name": "Kleingebäcke",
+        "slug": "amigos/schokoladen-suessigkeiten/kleingebaecke-kuchen/kleingebaecke",
+        "visible": true,
+        "parent_code": "AMIG_CAT_KleingebaeckeKuchen_SchokoladenSuessigkeiten",
+        "level": 4
+      },
+      {
+        "code": "AMIG_CAT_KleingebaeckeKuchen_SchokoladenSuessigkeiten",
+        "name": "Kleingebäcke & Kuchen",
+        "slug": "amigos/schokoladen-suessigkeiten/kleingebaecke-kuchen",
+        "visible": true,
+        "parent_code": "AMIG_CAT_SchokoladenSuessigkeiten",
+        "level": 3
+      },
+      {
+        "code": "AMIG_CAT_SchokoladenSuessigkeiten",
+        "name": "Schokoladen & Süssigkeiten",
+        "slug": "amigos/schokoladen-suessigkeiten",
+        "visible": true,
+        "parent_code": "BeSS_96",
+        "level": 2
+      },
+      {
+        "code": "BeSS_96",
+        "name": "aMigos!",
+        "slug": "amigos",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "features": [
+    {
+      "label_code": "MISO_anzahlentnehmbarereinzelportionen",
+      "label": "Anzahl entnehmbarer Einzeleinheiten",
+      "values": [
+        {
+          "value_code": "NUMERIC_8.0",
+          "value": "8.0",
+          "numeric_value": 8
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_zubereitungsverfahren",
+      "label": "Hinweise für die Zubereitung",
+      "values": [
+        {
+          "value_code": "MISO_zubereitungsverfahren_verzehrfertig",
+          "value": "Verzehrfertig"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_besonderezutaten",
+      "label": "Besondere Zutaten",
+      "values": [
+        {
+          "value_code": "MISO_besonderezutaten_butter",
+          "value": "Butter"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_artvongebaeckpastete",
+      "label": "Art von Gebäck/Pastete",
+      "values": [
+        {
+          "value_code": "MISO_artvongebaeckpastete_madeleines",
+          "value": "Madeleines"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_verzehrbarkeit",
+      "label": "Hinweise zum Verzehr",
+      "values": [
+        {
+          "value_code": "MISO_verzehrbarkeit_fertigzumverzehr",
+          "value": "fertig zum Verzehr"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/ac73a3a78741bad762ac205c6783e154187e2a45/madeleines-pur-beurre.jpg",
+    "stack": "https://image.migros.ch/{stack}/ac73a3a78741bad762ac205c6783e154187e2a45/madeleines-pur-beurre.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/3c9fb76b8ef82dd23eeb101b429ca38728b1e74f/madeleines-pur-beurre.png",
+    "stack": "https://image.migros.ch/{stack}/3c9fb76b8ef82dd23eeb101b429ca38728b1e74f/madeleines-pur-beurre.png"
+  },
+  "additional_images": [
+    {
+      "original": "https://image.migros.ch/original/50df8568eca6091ac812c19f42f94f9e0d7eaf0f.jpg",
+      "stack": "https://image.migros.ch/{stack}/50df8568eca6091ac812c19f42f94f9e0d7eaf0f.jpg"
+    }
+  ],
+  "internal_features": [
+    {
+      "label_code": "MISO_aMigos_anzeige",
+      "label": "Anzeige aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "Ja"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_sortierung",
+      "label": "Sortierung aMigos",
+      "values": [
+        {
+          "value_code": "NUMERIC_120",
+          "value": "120",
+          "numeric_value": 120
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MISO_aMigos_volumen",
+      "label": "Volumen aMigos!",
+      "values": [
+        {
+          "value_code": "NUMERIC_1.25888",
+          "value": "1.25888 l",
+          "numeric_value": 1.25888
+        }
+      ],
+      "top_fact": false,
+      "unit_code": "l",
+      "unit": "Liter",
+      "unit_symbol": "l"
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZFRP",
+          "value": "Frische Beschaffung"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "8",
+          "value": "Backwaren"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "71081",
+          "value": "KLEINBACKWAREN ABG MEHRF."
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/113123200000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/madeleines-pur-beurre",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/113123200000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/madeleines-pur-beurre",
+      "type": "info",
+      "purchasable": false
+    },
+    "leshop": {
+      "url": "https://www.leshop.ch/de/direct/product/54169",
+      "app_url": "leshop:///catalog/article/detail?ean=7616700013474",
+      "name": "LeShop.ch",
+      "canonical": "https://produkte.migros.ch/madeleines-pur-beurre",
+      "type": "shop",
+      "purchasable": true
+    }
+  },
+  "updated_at": "2020-09-16T05:43:19+0200",
+  "receipt_text": "Madeleines",
+  "price": {
+    "valid_from": "2019-10-15T00:00:00+0200",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 2.6,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "220g"
+    },
+    "base": {
+      "price": 1.18,
+      "quantity": 100,
+      "unit": "g"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 14,
+    "average_all": 3.846153846154
+  },
+  "allergen_text": "Kann Nüsse \r\n, Sesam \r\n und Soja enthalten.",
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}

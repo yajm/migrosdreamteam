@@ -1,0 +1,155 @@
+{
+  "id": "104477300000",
+  "language": "de",
+  "name": "Gemüsegratin",
+  "slug": "gemuesegratin-104477300000",
+  "boss_number": "011011261515",
+  "tags": [
+    "source-pim",
+    "migipedia",
+    "validity-range-not-set",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7613312249192"
+  ],
+  "categories": [
+    {
+      "code": "BeSS_01011404",
+      "name": "Kartoffeln & Spätzli",
+      "slug": "supermarkt/lebensmittel/pasta-zutaten-konserven/kartoffeln-spaetzli",
+      "visible": true,
+      "parent_code": "BeSS_010114",
+      "image": {
+        "original": "https://image.migros.ch/original/9b6282c120eb78b544b50bda8941209b2f4afe06/kartoffeln-spaetzli.jpg",
+        "stack": "https://image.migros.ch/{stack}/9b6282c120eb78b544b50bda8941209b2f4afe06/kartoffeln-spaetzli.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010114",
+      "name": "Pasta, Zutaten & Konserven",
+      "slug": "supermarkt/lebensmittel/pasta-zutaten-konserven",
+      "visible": true,
+      "title": "Pasta aus Ihrer Migros: alles rund um Teigwaren",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/6d0964bbb34b8e041ba4d74fc0c90b149907f46a/pasta-zutaten-konserven.jpg",
+        "stack": "https://image.migros.ch/{stack}/6d0964bbb34b8e041ba4d74fc0c90b149907f46a/pasta-zutaten-konserven.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/cb22770f8f1406502b061c953cb91947d1587d35/gemuesegratin.jpg",
+    "stack": "https://image.migros.ch/{stack}/cb22770f8f1406502b061c953cb91947d1587d35/gemuesegratin.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/45ebc107b7eb492c155123384602ad68f5fe0ef5/gemuesegratin.png",
+    "stack": "https://image.migros.ch/{stack}/45ebc107b7eb492c155123384602ad68f5fe0ef5/gemuesegratin.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "M",
+          "value": "Kolonial Standard"
+        }
+      ],
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "10130",
+          "value": "KARTOFFELPRODUKTE"
+        }
+      ],
+      "top_fact": false
+    }
+  ],
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "links": {
+    "migros_ch": {
+      "url": "https://produkte.migros.ch/products/104477300000",
+      "name": "migros.ch",
+      "canonical": "https://produkte.migros.ch/gemuesegratin-104477300000",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/104477300000",
+      "name": "Migipedia",
+      "canonical": "https://produkte.migros.ch/gemuesegratin-104477300000",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "updated_at": "2020-09-09T03:11:16+0200",
+  "receipt_text": "Gemüsegratin 500g",
+  "price": {
+    "valid_from": "2019-03-02T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 3.5,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "500g"
+    },
+    "base": {
+      "price": 0.7,
+      "quantity": 100,
+      "unit": "g"
+    }
+  },
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarkt"
+  },
+  "ratings": {
+    "count_all": 2,
+    "average_all": 5
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100"
+}
