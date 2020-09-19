@@ -10,7 +10,9 @@ export class ProductStateService {
   > = this.assetApi.getPurchaseArticles().then((purchases) => {
     return [].concat.apply(
       [],
-      Object.keys(purchases).map((purchaseId) => purchases[purchaseId])
+      Object.keys(purchases)
+        .map((purchaseId) => purchases[purchaseId])
+        .slice(0, 100)
     );
   });
   constructor(private assetApi: AssetApiService) {}

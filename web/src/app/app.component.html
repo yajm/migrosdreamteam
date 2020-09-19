@@ -3,13 +3,17 @@
 </div>
 
 <div class="flex-shrink-0 flex-no-wrap bg-white text-gray-600 h-16 w-full flex space-between z-10">
-  <a [routerLink]="['/purchase']" class="flex-grow flex flex-col justify-center items-center" [routerLinkActive]="'active'">
+  <a [routerLink]="['/purchase']" class="flex-grow flex w-full flex-col justify-center items-center" [routerLinkActive]="'active'">
     <fa-icon class="text-2xl" [icon]="purchaseIcon"></fa-icon>
     <div class="text-xs">My Purchases</div>
   </a>
-  <a [routerLink]="['/product']" class="flex-grow flex flex-col justify-center items-center" [routerLinkActive]="'active'">
+  <a [routerLink]="['/product']" class="flex-grow flex w-full flex-col justify-center items-center" [routerLinkActive]="'active'">
     <fa-icon class="text-2xl" [icon]="productIcon"></fa-icon>
     <div class="text-xs">Products</div>
+  </a>
+  <a [routerLink]="['/goal']" class="flex-grow flex w-full flex-col justify-center items-center" [routerLinkActive]="'active'">
+    <fa-icon class="text-2xl" [icon]="goalIcon"></fa-icon>
+    <div class="text-xs">Goals</div>
   </a>
 <!--  <div [routerLink]="['/setting']" class="flex-grow flex flex-col justify-center items-center" [routerLinkActive]="'active'">-->
 <!--    <fa-icon class="text-2xl" [icon]="settingIcon"></fa-icon>-->
