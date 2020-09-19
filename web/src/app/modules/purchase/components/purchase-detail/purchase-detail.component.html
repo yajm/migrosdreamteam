@@ -1,0 +1,9 @@
+<app-navbar>
+  <app-navbar-back [url]="'/purchase'"></app-navbar-back>
+  <app-navbar-title>Purchase</app-navbar-title>
+</app-navbar>
+<app-page-content>
+  <app-scrollable-list class="flex-grow">
+    <app-product-card [purchase]="purchase" [product]="product" class="list-item" *ngFor="let product of products"></app-product-card>
+  </app-scrollable-list>
+</app-page-content>

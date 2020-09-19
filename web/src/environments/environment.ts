@@ -3,7 +3,10 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  migrosApiUrl: 'https://hackzurich-api.migros.ch/hack/',
+  migrosApiUsername: 'hackzurich2020',
+  migrosApiPassword: 'uhSyJ08KexKn4ZFS'
 };
 
 /*

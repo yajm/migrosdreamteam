@@ -3,15 +3,18 @@ import { CommonModule } from '@angular/common';
 
 import { ProductRoutingModule } from './product-routing.module';
 import { ProductComponent } from './components/product/product.component';
-import {NavbarModule} from '../navbar/navbar.module';
-import {PageModule} from '../page/page.module';
-import {SearchInputModule} from '../search-input/search-input.module';
-import {ScrollableListModule} from '../scrollable-list/scrollable-list.module';
-import {ProductCardModule} from '../product-card/product-card.module';
-
+import { NavbarModule } from '../navbar/navbar.module';
+import { PageModule } from '../page/page.module';
+import { SearchInputModule } from '../search-input/search-input.module';
+import { ScrollableListModule } from '../scrollable-list/scrollable-list.module';
+import { ProductCardModule } from '../product-card/product-card.module';
+import { ProductStateService } from './services/product-state.service';
+import { ProductDetailComponent } from './components/product-detail/product-detail.component';
 
 @NgModule({
-  declarations: [ProductComponent],
+  declarations: [ProductComponent, ProductDetailComponent],
+  providers: [ProductStateService],
+  exports: [ProductDetailComponent],
   imports: [
     CommonModule,
     ProductRoutingModule,
@@ -22,4 +25,4 @@ import {ProductCardModule} from '../product-card/product-card.module';
     ProductCardModule,
   ],
 })
-export class ProductModule { }
+export class ProductModule {}

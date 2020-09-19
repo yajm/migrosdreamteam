@@ -1,1 +1,11 @@
-<p>Purchase</p>
+<app-navbar>
+  <app-navbar-icon [icon]="headerIcon"></app-navbar-icon>
+  <app-navbar-title>Purchases</app-navbar-title>
+</app-navbar>
+<app-page-content>
+  <app-search-input></app-search-input>
+  <app-scrollable-list class="flex-grow">
+    <app-purchase-card *ngFor="let purchase of items" [purchase]="purchase" class="list-item"></app-purchase-card>
+  </app-scrollable-list>
+</app-page-content>
+

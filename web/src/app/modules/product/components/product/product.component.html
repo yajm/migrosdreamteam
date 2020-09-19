@@ -1,15 +1,11 @@
 <app-navbar>
+  <app-navbar-icon [icon]="productIcon"></app-navbar-icon>
   <app-navbar-title>Products</app-navbar-title>
 </app-navbar>
 <app-page-content>
   <app-search-input></app-search-input>
   <app-scrollable-list class="flex-grow">
-    <app-product-card class="list-item"></app-product-card>
-    <app-product-card class="list-item"></app-product-card>
-    <app-product-card class="list-item"></app-product-card>
-    <app-product-card class="list-item"></app-product-card>
-    <app-product-card class="list-item"></app-product-card>
-    <app-product-card class="list-item"></app-product-card>
+    <app-product-card class="list-item" [product]="product" *ngFor="let product of products"></app-product-card>
   </app-scrollable-list>
 </app-page-content>
 

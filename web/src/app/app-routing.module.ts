@@ -5,7 +5,7 @@ const routes: Routes = [
   {
     path: '',
     pathMatch: 'full',
-    redirectTo: 'product'
+    redirectTo: 'purchase',
   },
   {
     path: 'product',
@@ -15,7 +15,9 @@ const routes: Routes = [
   {
     path: 'purchase',
     loadChildren: () =>
-      import('./modules/purchase/purchase.module').then((m) => m.PurchaseModule),
+      import('./modules/purchase/purchase.module').then(
+        (m) => m.PurchaseModule
+      ),
   },
   {
     path: 'setting',
@@ -25,7 +27,11 @@ const routes: Routes = [
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  imports: [
+    RouterModule.forRoot(routes, {
+      paramsInheritanceStrategy: 'always',
+    }),
+  ],
+  exports: [RouterModule],
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {}
