@@ -8,4 +8,8 @@ html, body {
 
 .list-item:nth-child(odd) {
   @apply bg-gray-200;
+
+  &.active {
+    @apply bg-orange-200;
+  }
 }

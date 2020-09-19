@@ -10,6 +10,7 @@
         <div class="text-xl text-gray-900">{{productInfo?.name}}</div>
         <div class="text-sm text-gray-500">{{productInfo?.regulated_description}}</div>
       </div>
+      <app-score class="flex-shrink-0">{{score | number: '1.1-1'}}</app-score>
     </div>
 
     <app-switcher class="my-3" [(selected)]="sort"></app-switcher>
@@ -19,7 +20,7 @@
     <app-loader></app-loader>
   </div>
   <app-scrollable-list class="flex-grow min-h-0">
-    <div class="flex items-center flex-shrink-0 list-item" *ngFor="let product of sortedProducts[sort]; let i = index">
+    <div class="flex items-center flex-shrink-0 list-item" *ngFor="let product of sortedProducts[sort]; let i = index" [ngClass]="{'active': product.id === productInfo.id}">
       <div class="pl-3 pr-1 w-8 text-center">{{i + 1}}.</div>
       <app-product-card class="flex-grow" [product]="product" [disableNavigation]="true" [scoreKey]="sort"></app-product-card>
     </div>

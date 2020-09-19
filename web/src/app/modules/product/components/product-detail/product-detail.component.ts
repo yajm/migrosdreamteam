@@ -21,6 +21,13 @@ export class ProductDetailComponent implements OnInit {
   productsLoading = true;
   sort: SwitchValue = 'total';
 
+  get score(): number | null {
+    if (!this.productInfo) {
+      return null;
+    }
+    return this.productInfo[`${this.sort}Score`] * 10;
+  }
+
   constructor(
     private route: ActivatedRoute,
     private productState: ProductStateService

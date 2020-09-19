@@ -14,6 +14,7 @@ import { SwitcherModule } from '../switcher/switcher.module';
 import { ApiModule } from '../api/api.module';
 import { InfiniteScrollModule } from 'ngx-infinite-scroll';
 import { LoaderModule } from '../loader/loader.module';
+import { ScoreModule } from '../score/score.module';
 
 @NgModule({
   declarations: [ProductComponent, ProductDetailComponent],
@@ -31,6 +32,7 @@ import { LoaderModule } from '../loader/loader.module';
     SwitcherModule,
     InfiniteScrollModule,
     LoaderModule,
+    ScoreModule,
   ],
 })
 export class ProductModule {}
