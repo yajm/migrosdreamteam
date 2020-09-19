@@ -3,6 +3,7 @@ import { PurchaseStateService } from '../../services/purchase-state.service';
 import { ActivatedRoute } from '@angular/router';
 import { Purchase } from '../../models/purchase';
 import { Product } from '../../models/product';
+import { ProductInfo } from '../../../product/models/product-info';
 
 @Component({
   selector: 'app-purchase-detail',
@@ -10,7 +11,7 @@ import { Product } from '../../models/product';
   styleUrls: ['./purchase-detail.component.scss'],
 })
 export class PurchaseDetailComponent implements OnInit {
-  products: Product[];
+  products: ProductInfo[];
   purchase: Purchase;
 
   constructor(

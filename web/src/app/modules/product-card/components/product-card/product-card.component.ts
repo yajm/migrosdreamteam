@@ -3,6 +3,7 @@ import { Product } from '../../../purchase/models/product';
 import { Purchase } from '../../../purchase/models/purchase';
 import { ProductStateService } from '../../../product/services/product-state.service';
 import { ProductInfo } from '../../../product/models/product-info';
+import { SwitchValue } from '../../../switcher/model/switch-value';
 
 @Component({
   selector: 'app-product-card',
@@ -11,39 +12,33 @@ import { ProductInfo } from '../../../product/models/product-info';
 })
 export class ProductCardComponent implements OnInit {
   @Input()
-  product: Product;
+  product: ProductInfo;
 
   @Input()
   purchase: Purchase;
+
+  @Input()
+  scoreKey: SwitchValue = 'total';
 
   @Input()
   disableNavigation = false;
 
   url: string[];
   loading = true;
-  productInfo: ProductInfo;
 
-  constructor(private productState: ProductStateService) {}
+  get score(): number {
+    return this.product[`${this.scoreKey}Score`] * 10;
+  }
 
   verifyClick(e: Event): void {
     e.preventDefault();
   }
 
   ngOnInit(): void {
-    this.productState
-      .getInfo(this.product.artikelID.toString())
-      .then((info) => {
-        this.productInfo = info;
-        this.loading = false;
-      });
     if (this.purchase) {
-      this.url = [
-        '/purchase',
-        this.purchase.einkaufID,
-        this.product.artikelID.toString(),
-      ];
+      this.url = ['/purchase', this.purchase.einkaufID, this.product.id];
     } else {
-      this.url = ['/product', this.product.artikelID.toString()];
+      this.url = ['/product', this.product.id];
     }
   }
 }

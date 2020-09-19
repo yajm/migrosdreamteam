@@ -22,13 +22,13 @@ export class ProductStateService {
     return data.slice(skip, skip + take);
   }
 
-  async getSimilarProducts(
-    category: string,
-    skip: number,
-    take: number
-  ): Promise<Product[]> {
+  async getSimilarProducts(category: string): Promise<ProductInfo[]> {
     const ids = await this.assetApi.getCategoryArticles(category);
-    return ids.map((id) => <Product>{ artikelID: parseInt(id, 0), menge: 0 });
+    const products = [];
+    for (const id of ids) {
+      products.push(await this.getInfo(id));
+    }
+    return products;
   }
 
   async getInfo(id: string): Promise<ProductInfo> {

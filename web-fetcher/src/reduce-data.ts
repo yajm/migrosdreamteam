@@ -57,35 +57,51 @@ async function main() {
     reducedArticles.push(reducedArticle);
   }
 
-  for (const categorySlug of Object.keys(categorySlugs)) {
-    let priceMin = Number.MAX_VALUE;
-    let priceMax = Number.MIN_VALUE;
+  function aggregateScore(scoreKey: string, selector: (data: any) => any) {
+    for (const categorySlug of Object.keys(categorySlugs)) {
+      let categoryMin = Number.MAX_VALUE;
+      let categoryMax = Number.MIN_VALUE;
 
-    for (const article of categorySlugs[categorySlug]) {
-      if (article.data.price === null || article.data.price === undefined) {
-        continue;
-      }
-      if (article.data.price > priceMax) {
-        priceMax = article.data.price;
-      }
-      if (article.data.price < priceMin) {
-        priceMin = article.data.price;
-      }
-    }
-
-    const priceRange = priceMax - priceMin;
-    for (const article of categorySlugs[categorySlug]) {
-      if (article.data.price === null || article.data.price === undefined) {
-        continue;
+      for (const article of categorySlugs[categorySlug]) {
+        const value = selector(article.data);
+        if (value === null || value === undefined) {
+          continue;
+        }
+        if (value > categoryMax) {
+          categoryMax = value;
+        }
+        if (value < categoryMin) {
+          categoryMin = value;
+        }
       }
 
-      article.data.priceRange = priceRange;
-      article.data.priceMax = priceMax;
-      article.data.priceMin = priceMin;
-      article.data.priceScore =
-        1 - (article.data.price - priceMin) / priceRange;
+      const valueRange = categoryMax - categoryMin;
+      for (const article of categorySlugs[categorySlug]) {
+        const value = selector(article.data);
+        if (value === null || value === undefined) {
+          article.data[scoreKey] = null;
+          continue;
+        }
+
+        if (valueRange === 0) {
+          article.data[scoreKey] = 1;
+        } else {
+          article.data[scoreKey] = 1 - (value - categoryMin) / valueRange;
+        }
+      }
     }
   }
+
+  aggregateScore('priceScore', (article) => article.price);
+  aggregateScore('kcalScore', (article) => article.kcal);
+  aggregateScore('co2Score', (article) => 1);
+  aggregateScore(
+    'totalScore',
+    (article) =>
+      (article.priceScore ?? 0) +
+      (article.kcalScore ?? 0) +
+      (article.co2Score ?? 0)
+  );
 
   for (const categorySlug of Object.keys(categorySlugs)) {
     writeJson(
