@@ -2,7 +2,7 @@
   <app-navbar-back [url]="'/purchase'"></app-navbar-back>
   <app-navbar-title>
     <div class="leading-none">Purchase</div>
-    <div class="text-sm leading-none">{{purchase?.time | date}}</div>
+    <div class="text-sm leading-none">{{purchase?.time | date: 'dd.MM.yyyy'}}</div>
   </app-navbar-title>
 </app-navbar>
 <app-page-content>
