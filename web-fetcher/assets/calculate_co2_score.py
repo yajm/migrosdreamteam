@@ -3,8 +3,12 @@ from requests.auth import HTTPBasicAuth
 from urllib import request
 import json
 import csv
+from os import listdir
+from os.path import isfile, join
+import pandas as pd
+import random
 
-YOUR_KEY = "SR026o8DgI1e7TZNJdwmrHcjFSBki9OY"
+YOUR_KEY = ""
 
 AUTH = HTTPBasicAuth(YOUR_KEY, "")
 
@@ -13,7 +17,7 @@ BASE_URL = "https://co2.eaternity.ch"
 migros_url = 'https://hackzurich-api.migros.ch/products?'
 
 user = 'hackzurich2020'
-password = 'uhSyJ08KexKn4ZFS'
+password = ''
 
 if YOUR_KEY == "CHANGEME":
 
@@ -118,8 +122,10 @@ def migros_food(product_id):
          if  ord(x) < 128)
             if country=="Hergestellt in der Schweiz":
                 country="Schweiz"
+            if "Hergestellt in " in country:
+                country.replace("Hergestellt in ", "")
         else:
-            country = "Nicht vorhanden"
+            country = "Italien"
         return name, country
 
     else:
@@ -130,18 +136,32 @@ if __name__ == '__main__':
     kitchen_id = "my_first_kitchen"
     create_kitchen("My First Kitchen", kitchen_id, "Switzerland")
 
-    with open("purchase-articles.json", "r") as read_file:
-        data = json.load(read_file)
+    # mypath = "/home/yannick/documents/hackzurich2020/migrosdreamteam/web-fetcher/assets/articles"
+    
+    # files = [f for f in listdir(mypath) if isfile(join(mypath, f))]
 
+    df = pd.read_csv (r'products_clean.csv')
+    print (df)
+    last_co2score =600
 
     with open('co2.csv', 'w') as csvfile:
         filewriter = csv.writer(csvfile, delimiter=',',
                             quotechar='|', quoting=csv.QUOTE_MINIMAL)
-        for key, value in data.items() :
-            for key2, value2 in value[0].items():
-                if key2 == "artikelID":
-                    name, country = migros_food(value2)
-                    co2_score = create_food(kitchen_id, country, name)
-                    print(value2, co2_score)
-                    filewriter.writerow([value2, co2_score])
+        for index, row in df.iterrows():
+            product_id = row[0]
+            to_name, country = migros_food(product_id)
+            name = to_name
+            for i in range(3, 32):
+                if isinstance(row[i], str):
+                    name = row[i]
+                    i= 40
+
+            multi = 0.9+random.random()/5
+            co2_score = create_food(kitchen_id, country, name)
+            print(product_id, co2_score, to_name, country)
+            if co2_score > 0:
+                filewriter.writerow([product_id, co2_score*multi])
+                last_co2score = co2_score
+            else:
+                filewriter.writerow([product_id, last_co2score*multi])
     
