@@ -7,7 +7,7 @@ from requests.auth import HTTPBasicAuth
 from urllib import request
 
 
-YOUR_KEY = "SR026o8DgI1e7TZNJdwmrHcjFSBki9OY"
+YOUR_KEY = "key"
 
 AUTH = HTTPBasicAuth(YOUR_KEY, "")
 
