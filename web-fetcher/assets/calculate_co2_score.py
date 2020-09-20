@@ -8,7 +8,7 @@ from os.path import isfile, join
 import pandas as pd
 import random
 
-YOUR_KEY = "SR026o8DgI1e7TZNJdwmrHcjFSBki9OY"
+YOUR_KEY = ""
 
 AUTH = HTTPBasicAuth(YOUR_KEY, "")
 
@@ -17,7 +17,7 @@ BASE_URL = "https://co2.eaternity.ch"
 migros_url = 'https://hackzurich-api.migros.ch/products?'
 
 user = 'hackzurich2020'
-password = 'uhSyJ08KexKn4ZFS'
+password = ''
 
 if YOUR_KEY == "CHANGEME":
 
