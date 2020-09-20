@@ -2,7 +2,6 @@ import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { ProductInfo } from '../../models/product-info';
 import { ProductStateService } from '../../services/product-state.service';
-import { Product } from '../../../purchase/models/product';
 import { SwitchValue } from '../../../switcher/model/switch-value';
 
 @Component({

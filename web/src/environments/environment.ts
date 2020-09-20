@@ -4,9 +4,7 @@
 
 export const environment = {
   production: false,
-  migrosApiUrl: 'https://hackzurich-api.migros.ch/hack/',
-  migrosApiUsername: 'hackzurich2020',
-  migrosApiPassword: 'uhSyJ08KexKn4ZFS'
+  searchApiUrl: 'https://search-api-kkn3nrju3q-ew.a.run.app',
 };
 
 /*
