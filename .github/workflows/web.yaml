@@ -26,6 +26,13 @@ jobs:
       - name: Deploy to migros-challenge.surge.sh
         uses: dswistowski/surge-sh-action@v1
         with:
+          domain: 'm-sustain.ch'
+          project: 'web/dist/web'
+          login: ${{ secrets.surge_login }}
+          token: ${{ secrets.surge_token }}
+      - name: Deploy to migros-challenge.surge.sh
+        uses: dswistowski/surge-sh-action@v1
+        with:
           domain: 'migros-challenge.surge.sh'
           project: 'web/dist/web'
           login: ${{ secrets.surge_login }}
