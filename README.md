@@ -4,13 +4,13 @@
 <h2 align="center">M-Sustain</h2>
 
 <p align='center'>
-  <img alt='build' src='https://github.com/yajm/migrosdreamteam/workflows/build/web.svg'>
+  <img alt='build' src='https://github.com/yajm/migrosdreamteam/workflows/web/badge.svg'>
   <img alt='mit' src='https://img.shields.io/badge/License-MIT-blue.svg'>
 </p>
 
 
 ## Motivation
-TODO
+
 
 
 ## Project structure
