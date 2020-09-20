@@ -11,7 +11,25 @@
 
 ## Motivation
 
+## Screenshots
 
+### Purchases
+<p align='center'>
+  <img alt='purchases' src='./docs/screenshots/purchases.png' height=400>
+  <img alt='purchase' src='./docs/screenshots/purchase.png' height=400>
+</p>
+
+### Products
+<p align='center'>
+  <img alt='products' src='./docs/screenshots/product-list.png' height=400>
+  <img alt='product-detail' src='./docs/screenshots/product-detail.png' height=400>
+</p>
+
+### Goals
+<p align='center'>
+  <img alt='goal' src='./docs/screenshots/goals.png' height=400>
+  <img alt='goal-tip' src='./docs/screenshots/goal-tip.png' height=400>
+</p>
 
 ## Project structure
 
