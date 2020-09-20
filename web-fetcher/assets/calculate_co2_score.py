@@ -1,8 +1,11 @@
+
+
 import requests
+
 from requests.auth import HTTPBasicAuth
+
 from urllib import request
-import json
-import csv
+
 
 YOUR_KEY = "SR026o8DgI1e7TZNJdwmrHcjFSBki9OY"
 
@@ -10,17 +13,20 @@ AUTH = HTTPBasicAuth(YOUR_KEY, "")
 
 BASE_URL = "https://co2.eaternity.ch"
 
-migros_url = 'https://hackzurich-api.migros.ch/products?'
-
-user = 'hackzurich2020'
-password = 'uhSyJ08KexKn4ZFS'
-
 if YOUR_KEY == "CHANGEME":
 
     raise RuntimeError("Please change your api key!!")
 
 
+def hello(kitchen_id, recipe_id):
+    request_i = requests.get('https://co2.eaternity.ch/api/kitchens/{kitchen_id}/recipes/{recipe_id}', auth=AUTH)
+    print(request_i)
+    response_body = request.urlopen(request_i).read()
+    print(response_body)
+
+
 def create_kitchen(name, kitchen_id, location):
+
     url = f"{BASE_URL}/api/kitchens/{kitchen_id}"
 
     body = {
@@ -36,14 +42,18 @@ def create_kitchen(name, kitchen_id, location):
     }
 
     response = requests.put(url, json=body, auth=AUTH)
+    print(response)
     if response.status_code not in [200, 201, 202]:
 
         print(f"ERROR: Failed PUTting kitchen {kitchen_id} with status {response.status_code}: '{response.text}'")
 
     else:
+
+        print(f"SUCCESS: PUT kitchen {kitchen_id}")
+
         return response.json()
 
-def put_recipe(recipe_id, kitchen_id, food, country):
+def put_recipe(recipe_id, kitchen_id):
 
     url = f"{BASE_URL}/api/kitchens/{kitchen_id}/recipes/{recipe_id}"
     body = {
@@ -54,12 +64,14 @@ def put_recipe(recipe_id, kitchen_id, food, country):
 
                 {
 
-                    "language": "de",
+                    "language": "en",
 
                     "value": "Carrots and onions"
 
                 }
+
             ],
+
             "date": "2020-09-19",
 
             "location": "Schweiz",
@@ -69,79 +81,166 @@ def put_recipe(recipe_id, kitchen_id, food, country):
             "ingredients": [
 
                 {
-                    "id": food+country,
 
-                    "names": [{"language": "de", "value": food}],
+                    "id": "my_unique_carrot_id",
 
-                    "amount": 100,
+                    "names": [{"language": "en", "value": "Carrots"}],
+
+                    "amount": 250,
 
                     "unit": "gram",
 
-                    "origin": country,
+                    "origin": "Germany",
+
+                    "transport": "ground",
+
+                    "production": "standard",
+
+                    "conservation": "fresh"
+
+                },
+
+                {
+
+                    "id": "my_unique_onion_id",
+
+                    "names": [{"language": "en", "value": "Onions"}],
+
+                    "amount": 75,
+
+                    "unit": "gram",
+
+                    "origin": "Poland",
+
+                    "transport": "ground",
+
+                    "production": "standard",
+
+                    "conservation": "dried"
+
                 }
+
             ]
+
         }
+
     }
 
     response = requests.put(url, json=body, auth=AUTH)
 
     if response.status_code not in [200, 201, 202]:
-        pass
-        ## print(f"ERROR: Failed PUTting recipe {recipe_id} with status {response.status_code}: '{response.text}'")
+
+        print(f"ERROR: Failed PUTting recipe {recipe_id} with status {response.status_code}: '{response.text}'")
 
     else:
+
+        print(f"SUCCESS: PUT recipe {recipe_id}")
+
         return response.json()
 
-def create_food(kitchen_id, country, food):
-    result= put_recipe("my_first_recipe", kitchen_id, food, country)
-    if result==None:
-        co2_score=0
-    else:
-        co2_score = result['recipe']['co2-value'] / result['recipe']['food-unit']
-    #print("Food: {}, Country: {}, CO2 Score: {}".format(food, country, co2_score))
-    return co2_score
 
-def jprint(obj):
-    # create a formatted string of the Python JSON object
-    text = json.dumps(obj, sort_keys=True, indent=4)
-    print(text[:300])
+def get_product_info():
+    request_url = request.Request('https://co2.eaternity.ch/api/products/2342')
 
-def migros_food(product_id):
-    url = "https://raw.githubusercontent.com/yajm/migrosdreamteam/master/web-fetcher/assets/articles/{}.json".format(product_id)
-    if requests.get(url).status_code in [200, 201, 202]:
-        source = requests.get(url).json()
+    response_body = request.urlopen(request_url).read()
+    print(response_body)
 
-        name = ''.join(x for x in source["name"] if ord(x) < 128)
 
-        if "origins" in source and "producing_country" in source["origins"]:
-            country = ''.join(x for x in source["origins"]["producing_country"]
-         if  ord(x) < 128)
-            if country=="Hergestellt in der Schweiz":
-                country="Schweiz"
-        else:
-            country = "Nicht vorhanden"
-        return name, country
+def new_product_info():
+
+    url = 'https://co2.eaternity.ch/api/products/2342'
+    body = {}
+    response = requests.Request(url, auth=AUTH)
+    print(response)
+    response_body = request.urlopen(response).read()
+    print(response_body)
+    if response.status_code not in [200, 201, 202]:
+
+        print(f"ERROR: 200, 201 or 202")
 
     else:
-        return "Nicht vorhanden", "Nicht vorhanden"
+
+        print(f"SUCCESS")
+        print(response)
+        # return response.json()
+
+
+def next_try(product_id):
+
+    url = f"{BASE_URL}/api/products/{product_id}"
+    body = {
+
+        "recipe": {
+
+            "titles": [
+
+                {
+
+                    "language": "en",
+
+                    "value": "Carrots and onions"
+
+                }
+
+            ],
+
+            "date": "2020-09-19",
+
+            "location": "Schweiz",
+
+            "servings": 1,
+
+            "ingredients": [
+
+                {
+
+                    "id": "my_unique_carrot_id",
+
+                    "names": [{"language": "de", "value": "Karotten"}],
+
+                    "amount": 100,
+
+                    "unit": "gram",
+
+                    "origin": "Germany",
+
+                    "transport": "ground",
+
+                    "production": "standard",
+
+                    "conservation": "fresh"
+
+                },
+
+            ]
+
+        }
+
+    }
+
+    response = requests.get(url, json=body, auth=AUTH)
+    print(response)
+    if response.status_code not in [200, 201, 202]:
+
+        print(f"ERROR: Failed finding Product {product_id} with status {response.status_code}: '{response.text}'")
+
+    else:
+
+        print(f"SUCCESS: Product {product_id}")
+
+        return response.json()
+
 
 
 if __name__ == '__main__':
+
     kitchen_id = "my_first_kitchen"
+    # get_product_info()
+    # new_product_info()
+    # next_try(23434)
     create_kitchen("My First Kitchen", kitchen_id, "Switzerland")
-
-    with open("purchase-articles.json", "r") as read_file:
-        data = json.load(read_file)
-
-
-    with open('co2.csv', 'w') as csvfile:
-        filewriter = csv.writer(csvfile, delimiter=',',
-                            quotechar='|', quoting=csv.QUOTE_MINIMAL)
-        for key, value in data.items() :
-            for key2, value2 in value[0].items():
-                if key2 == "artikelID":
-                    name, country = migros_food(value2)
-                    co2_score = create_food(kitchen_id, country, name)
-                    print(value2, co2_score)
-                    filewriter.writerow([value2, co2_score])
+    hello = put_recipe("my_first_recipe", kitchen_id)
+    print(hello['recipe']['co2-value'])
+    hello(kitchen_id, "my_first_recipe")
     
+p
