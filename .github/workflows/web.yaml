@@ -23,7 +23,9 @@ jobs:
         working-directory: web
       - run: npm run build --prod
         working-directory: web
-      - name: Deploy to migros-challenge.surge.sh
+      - run: echo m-sustain.ch > CNAME
+        working-directory: web/dist/web
+      - name: Deploy to m-sustain.ch
         uses: dswistowski/surge-sh-action@v1
         with:
           domain: 'm-sustain.ch'
