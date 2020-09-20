@@ -18,4 +18,5 @@ jobs:
           username: ${{ github.repository_owner }}
           password: ${{ secrets.GITHUB_TOKEN }}
       - run: docker build -t docker.pkg.github.com/yajm/migrosdreamteam/search-api .
+        working-directory: nestjs/nestjsbackend
       - run: docker push docker.pkg.github.com/yajm/migrosdreamteam/search-api
