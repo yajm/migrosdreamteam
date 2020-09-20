@@ -23,7 +23,7 @@ jobs:
         working-directory: web
       - run: npm run build --prod
         working-directory: web
-      - name: Deploy to foo-bar.surge.sh
+      - name: Deploy to migros-challenge.surge.sh
         uses: dswistowski/surge-sh-action@v1
         with:
           domain: 'migros-challenge.surge.sh'
