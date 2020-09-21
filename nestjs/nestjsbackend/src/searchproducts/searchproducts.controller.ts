@@ -92,29 +92,29 @@ export class SearchProductsController {
         if (value < 0) { 
           return "";
         }
-        let best1Val="", best2Val="", best3Val="";
+        let best1Val=-1, best2Val=-1, best3Val=-1;
         let best1=-1, best2=-1, best3=-1;
         for (let i=0; i < sorted.length; i++) {
           let check = matchWeight(i, best1, best1Val);
-          if (check >= 0 && (check < best1 || best1 < 0)) {
+          if (check >= 0 && (check < best1Val || best1 < 0)) {
               best1 = i;
-              best1Val = sorted[i].product_name;
+              best1Val = check;
           }
           else {
             check = matchWeight(i, best2, best2Val);
-            if (check >= 0 && (check < best2 || best2 < 0)) {
+            if (check >= 0 && (check < best2Val || best2 < 0)) {
                 best2 = i;
-                best2Val = sorted[i].product_name;
+                best2Val = check;
             }
             else {
                 check = matchWeight(i, best3, best3Val);
                 if (check >= 0 && (check < best3 || best3 < 0)) {
                     best3 = i;
-                    best3Val = sorted[i].product_name;
+                    best3Val = check;
                 }
             }
           }
         }
-        return best1 + "," + best2 + "," + best3;
+        return (best1 > 0 ? sorted[best1].id : "") + (best2 > 0 ? "," + sorted[best2].id : "") +(best3 > 0 ? "," + sorted[best3].id : "");
     }
 }
